@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 162</p><p>生成时间: 2025-11-19 01:22:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">7.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251119010713310800" target="_blank" class="news-link">OpenAI首席执行官：祝贺谷歌推出Gemini 3，这款模型看起来很棒。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时22分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=82830" target="_blank" class="news-link">Sundar Pichai 称如果 AI 泡沫破裂没有公司能免受影响</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 01时22分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=82829" target="_blank" class="news-link">微软在 Windows 11 中加入 AI 智能体</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3759559" target="_blank" class="news-link">白宫经济顾问哈塞特：AI提升生产率或致就业市场“平静期”，美联储是时候真正“以数据为驱动”</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时22分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3780944_0_1" target="_blank" class="news-link">美国财经媒体Semafor：沙特人工智能公司Humain计划与包括亚马逊、AMD、xAI 和GlobalAI在内的多家公司合作，宣布建设多个千兆瓦的数据中心。</a> [11] <font color='grey'>- 01时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3006653" target="_blank" class="news-link">沙特Humain、贝佐斯旗下亚马逊、AMD、马斯克旗下xAI将打造多个数据中心。（Semafor）</a> [12] <font color='grey'>- 01时22分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45968091" target="_blank" class="news-link">Google Brings Gemini 3 AI Model to Search and AI Mode</a> [13] <font color='grey'>- 01时22分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=82819" target="_blank" class="news-link">美国比特币矿场转向 AI 数据中心</a> [18] <font color='grey'>- 01时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251119003556268800" target="_blank" class="news-link">Meta领导层大洗牌 首席营收官与商业AI部门高管离职</a> [19] <font color='grey'>- 01时22分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=82818" target="_blank" class="news-link">中美 AI 冷战</a> [19] <font color='grey'>- 01时22分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7572087162230571050" target="_blank" class="news-link">大模型能写80%的代码，却写不到95%？我成了“AI代码售后工程师”</a> [28] <font color='grey'>- 01时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251119002630860800" target="_blank" class="news-link">德法联手要求延迟AI法案实施 为欧洲创新议程争取时间</a> [30] <font color='grey'>- 01时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">4</td>
+                <td class="percentage">2.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45968104" target="_blank" class="news-link">5 Things to Try with Gemini 3 Pro in Gemini CLI</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 01时22分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOGL" target="_blank" class="news-link">谷歌A</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时22分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=82824" target="_blank" class="news-link">Google 将标记耗电量高的 Android 应用</a> [13] <font color='grey'>- 01时22分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOG" target="_blank" class="news-link">谷歌C</a> [18] <font color='grey'>- 01时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3006661" target="_blank" class="news-link">据知情人士透露，英伟达和微软承诺，将参与Anthropic的下一轮融资。（路透）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251119004320995800" target="_blank" class="news-link">消息人士：英伟达(NVDA.O)和微软(MSFT.O)正承诺投资Anthropic的下一轮融资。此前Anthropic已获得微软和英伟达150亿美元投资。</a> [16] <font color='grey'>- 01时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/418.htm" target="_blank" class="news-link">华为鸿蒙 HarmonyOS 6 最新适配机型公布，nova 14 活力版、WATCH FIT 4 等开放花粉 Beta 尝鲜</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/BABA" target="_blank" class="news-link">阿里巴巴</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
