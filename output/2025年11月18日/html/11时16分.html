@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 246</p><p>生成时间: 2025-11-18 11:16:13</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">3.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202511/1857598.html" target="_blank" class="news-link">你告诉AI机器人一个“犯罪秘密”，你会被逮捕吗？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时16分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119442" target="_blank" class="news-link">智慧互通递表港交所：AI+空间智能领导者，有望成为“高精度AI第一股”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3759594" target="_blank" class="news-link">蚂蚁下场抢夺AI超级入口：全模态通用AI助手“灵光”正式上线，30秒即可生成应用</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时16分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1970226468920471782" target="_blank" class="news-link">如何看待谷歌用 AI 找 FFmpeg 的 bug 并逼维护者修复，遭怒怼「有本事自己修」？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时16分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2203227" target="_blank" class="news-link">美债务危机愈演愈烈？马斯克：不想破产，就只能发展AI和机器人！</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时16分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5119430" target="_blank" class="news-link">国信证券：机械行业2026年成长聚焦AI基建和人形机器人 把握产业升级的成长机会</a> [15] <font color='grey'>- 11时16分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45959795" target="_blank" class="news-link">Windows 11 adds AI agent that runs in background with access to personal folders</a> [17] <font color='grey'>- 11时16分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/186.htm" target="_blank" class="news-link">微软亮剑智能办公：解决“知行不一”难题，让 AI 替你干活、老板还夸你效率高</a> [20] <font color='grey'>- 11时16分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/185.htm" target="_blank" class="news-link">聚焦物理 AI，英伟达 SC25 大会发布 Apollo 系列模型与 Warp 框架</a> [21] <font color='grey'>- 11时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">6</td>
+                <td class="percentage">2.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/209.htm" target="_blank" class="news-link">预售 1449 元，华为 FreeBuds Pro 5 悦彰耳机完整规格公布</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3006210" target="_blank" class="news-link">华为Mate X7搭载全新折叠玄武架构</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时16分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/200.htm" target="_blank" class="news-link">华为：FreeBuds Pro 5 星闪音频目前仅支持 Mate 80 系列、Mate X7，FreeClip 2 后续 OTA 升级</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时16分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%2313999%E5%85%83%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E6%8E%89%E7%81%AB%E5%9D%91%E5%90%8E%E8%BF%98%E8%83%BD%E7%94%A8%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26dgr%3D0%26c_type%3D31%26pos%3D12%26realpos%3D11%26band_rank%3D11%26stream_entry_id%3D31%26lcate%3D5001%26q%3D%252313999%25E5%2585%2583%25E5%258D%258E%25E4%25B8%25BA%25E6%2589%258B%25E6%259C%25BA%25E6%258E%2589%25E7%2581%25AB%25E5%259D%2591%25E5%2590%258E%25E8%25BF%2598%25E8%2583%25BD%25E7%2594%25A8%2523%26cate%3D5001%26flag%3D1%26filter_type%3Drealtimehot%26display_time%3D1763435693%26pre_seqid%3D1763435693320065810763&amp;launchid=10000360-page_H5" target="_blank" class="news-link">13999元华为手机掉火坑后还能用</a> [11] <font color='grey'>- 11时16分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2309188" target="_blank" class="news-link">华为Mate 80第三方手机壳曝光</a> [18] <font color='grey'>- 11时16分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7572788079942418473/" target="_blank" class="news-link">华为MateX7外观曝光</a> [23] <font color='grey'>- 11时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1173425" target="_blank" class="news-link">印度三哥的免费大模型 Api MegaLLM，注册就给 125 刀额度 gpt5 claude4.5 都可用</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=45960293" target="_blank" class="news-link">I caught Google Gemini using my data and then covering it up</a> [15] <font color='grey'>- 11时16分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
