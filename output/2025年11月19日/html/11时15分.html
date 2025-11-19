@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 245</p><p>生成时间: 2025-11-19 11:15:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">4.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1173697" target="_blank" class="news-link">开源软件 ShowDoc 新版发布，支持 AI 知识库助手</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958056" target="_blank" class="news-link">你以为AI来抢你工作？实际上，AI可能还监督你工作</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3006902" target="_blank" class="news-link">华为明年初或发布AI Data Platform产品</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5120235" target="_blank" class="news-link">绚星智慧科技重磅发布《AI驱动的组织与业务重构白皮书》</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3759673" target="_blank" class="news-link">Gemini 3的意义：AI已超越“幻觉阶段”，逼近人类，“人机协作”将从“人对AI纠错”走向“人指导AI工作”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2204415" target="_blank" class="news-link">千问APP有望被打造成超级入口 阿里AI生态链企业或全面受益</a> [12] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3006884" target="_blank" class="news-link">埃隆·马斯克以及英伟达首席执行官黄仁勋周三将在华盛顿举行的美国-沙特投资论坛上参加关于AI/技术的讨论。（路透）</a> [16] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/475.htm" target="_blank" class="news-link">为抗议英版权法允许用受保护内容训练 AI，保罗・麦卡特尼将发布无声专辑</a> [22] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/473.htm" target="_blank" class="news-link">微软 Win11 任务栏将迎巨变，输入“@”即可召唤专属 AI 智能体</a> [24] <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/470.htm" target="_blank" class="news-link">微软 Win11 将支持 Claude 等 AI 应用读取你的本地文件，一键生成 PPT 和网站等</a> [27] <font color='grey'>- 11时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">4</td>
+                <td class="percentage">1.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/497.htm" target="_blank" class="news-link">首款鸿蒙二合一平板华为 MatePad Edge 配置爆料：PC 级麒麟 9 芯片、14.2 英寸柔光屏</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/492.htm" target="_blank" class="news-link">何刚公布华为 Mate 80 系列机型拍摄样张</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/489.htm" target="_blank" class="news-link">广汽：全国率先获批时速 120 公里 L3 高速测试牌照，基于华为深度合作打造的首款旗舰轿车昊铂 A800</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/483.htm" target="_blank" class="news-link">华为 Mate X7 折叠屏手机今日开启预订：第二代红枫影像，有望首发麒麟 9030</a> [15] <font color='grey'>- 11时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1173688" target="_blank" class="news-link">谷歌的 Antigravity 里体验 Gemini 3 Pro</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时15分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1173675" target="_blank" class="news-link">「Cubence」一个小而美的中转站，支持 cc 和 cx，熬夜适配 Gemini3，抽奖余额！</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/898/493.htm" target="_blank" class="news-link">为赖掉 2.5 亿美元奖金，《深海迷航》游戏母公司 Krafton CEO 被曝求助 ChatGPT</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
