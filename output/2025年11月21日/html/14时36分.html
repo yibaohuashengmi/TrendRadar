@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 136</p><p>生成时间: 2025-11-21 14:36:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">8.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1174214" target="_blank" class="news-link">macbook 是否有好用的 ai agent 推荐</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3008454" target="_blank" class="news-link">据声明称，阿联酋与加拿大启动一项规模达500亿美元的投资框架。阿联酋在加拿大的投资将依托现有框架拓展至人工智能与能源领域。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1174213" target="_blank" class="news-link">[送码] 给 iOS 相机 APP，做了个 Ai 构图功能，欢迎试试～</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/158.htm" target="_blank" class="news-link">马斯克豪言 5 年内最便宜的 AI 算力将来自太空，黄仁勋称这是梦想</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251121141131556800" target="_blank" class="news-link">阿联酋在500亿美元框架下对加拿大的投资将涵盖人工智能与能源领域。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/899/151.htm" target="_blank" class="news-link">黄仁勋点明英伟达 AI 核心优势：硬件可复制、生态难超越</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3786336_100_1" target="_blank" class="news-link">富士康董事长：与Openai的合作将从加州的一个实验室起步，然后可能扩展至俄亥俄州的生产基地。</a> <font color='red'><strong>[6 - 26]</strong></font> <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3008440" target="_blank" class="news-link">鸿海董事长：若与OpenAI合作将先从加州实验室开始，然后可能扩展到在俄亥俄州的生产业务。</a> [12] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251121134910969800" target="_blank" class="news-link">鸿海董事长刘扬伟：与OpenAI的合作将从加州的一个实验室开始，随后可能扩展到俄亥俄州的制造业务。</a> [16] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251121134120644800" target="_blank" class="news-link">鸿海董事长刘扬伟：与OpenAI合作的一个关键原因是他们是最大的生成式AI用户且拥有丰富的经验，但他们也看到了当前数据中心架构的局限性。</a> [19] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251121133919252800" target="_blank" class="news-link">鸿海董事长刘扬伟：未提及与OpenAI成立合资企业或产量承诺，并不意味着未来不会发生。</a> [22] <font color='grey'>- 14时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1174202" target="_blank" class="news-link">Gemini 3.0 Pro 完整克隆 iOS 系统应用，所有应用均可正常使用</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时36分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
