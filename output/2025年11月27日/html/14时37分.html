@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 170</p><p>生成时间: 2025-11-27 14:37:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">5.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3760236" target="_blank" class="news-link">AI“信仰” vs 城投“信仰”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/900/690.htm" target="_blank" class="news-link">汇丰银行：OpenAI 到 2030 年都难以盈利，同时还要再砸至少 2070 亿美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/900/683.htm" target="_blank" class="news-link">Epic 掌门人 Tim Sweeney：AI 将渗透整个游戏产业，商城标注无意义</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www3.nhk.or.jp/nhkworld/zh/news/20251127_03/" target="_blank" class="news-link">宫城县女川町一度发布AI生成图片警告野熊出没</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3011311" target="_blank" class="news-link">创业板指午后翻绿，早盘一度涨超2%，海南自贸区、AI应用、培育钻石等方向跌幅居前。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/900/645.htm" target="_blank" class="news-link">汇丰银行称 OpenAI 成数据中心最大“打工人”，2030 年前 AI 资金缺口预估 2070 亿美元</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2212466" target="_blank" class="news-link">“AI新王”强势崛起！大摩：2027年谷歌TPU外销量或达100万颗</a> [11] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/900/638.htm" target="_blank" class="news-link">麻省理工学院新研究：具自主能力的 AI 理论上能取代美国 11% 劳动力</a> [12] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5125205" target="_blank" class="news-link">新开普(300248.SZ)：目前公司主要将AI技术应用于智慧校园建设中，为高校提供AI中台、AI门户、AI数据治理等多维度产品技术和服务</a> [14] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/900/634.htm" target="_blank" class="news-link">软银激进筹资投 AI：发行 5000 亿日元高息债，票面利率 3.98% 创 15 年来新高</a> [15] <font color='grey'>- 14时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3760233" target="_blank" class="news-link">Anthropic再发Agent神文：像人类工程师一样思考，解决「长程任务」难题</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7576229938517852170/" target="_blank" class="news-link">用DeepSeek搜巴黎男乒冠军显示王楚钦</a> [27] <font color='grey'>- 14时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5125204" target="_blank" class="news-link">新开普(300248.SZ)：产品暂未与阿里灵光合作</a> [15]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
