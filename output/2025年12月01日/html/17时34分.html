@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 180</p><p>生成时间: 2025-12-01 17:34:02</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">6</td>
+                <td class="percentage">3.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3012941" target="_blank" class="news-link">REITs项目行业范围清单（2025年版）印发 人工智能基础设施项目在列</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/622.htm" target="_blank" class="news-link">小米 7 篇最新研究成果成功入选 AAAI 2026，涵盖具身智能 3D Agent、VLN 导航、自动驾驶等方向</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1176179" target="_blank" class="news-link">做了一款 AI 战略游戏--重写战争历史</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2215927" target="_blank" class="news-link">【每日收评】三大指数震荡走强放量收红！沪指重返3900点，AI端侧方向迎集体爆发</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/602.htm" target="_blank" class="news-link">夏威夷向司机发放 1000 台 AI 行车记录仪，协助识别危险驾驶及“路怒”行为</a> [12] <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1978825874213205536" target="_blank" class="news-link">如何评价米哈游创始人蔡浩宇海外团队 Anuttacon 制作的聊天 AI Anuneko?</a> [19] <font color='grey'>- 17时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3012928" target="_blank" class="news-link">美股盘前，科技股多数下跌，英伟达跌超1%，谷歌、苹果跌近1%，特斯拉跌超1%。</a> [11] <font color='grey'>- 17时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46105079" target="_blank" class="news-link">DeepSeek releases open-weights math model with IMO gold medal performance</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1176185" target="_blank" class="news-link">阿里最新开源 Z-Image 模型在线 Demo，已部署，无需登录，速度极快</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
