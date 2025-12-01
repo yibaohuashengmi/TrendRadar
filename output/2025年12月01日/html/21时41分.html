@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 163</p><p>生成时间: 2025-12-01 21:41:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">6.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201212133290800" target="_blank" class="news-link">OpenAI入股Thrive Holdings，以加速企业对人工智能的采用。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/695.htm" target="_blank" class="news-link">“GTA 之父”丹・豪瑟：推动 AI 扩张的人并不算“全面的人类”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/692.htm" target="_blank" class="news-link">小米智能门锁 M40 开售：4.94 英寸高清大屏 + AI 双摄全景猫眼，3299 元（国补价 2804.15 元）</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201211507412800" target="_blank" class="news-link">埃森哲(ACN.N)美股盘前涨4.8%，此前宣布与OpenAI达成合作。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3013078" target="_blank" class="news-link">OpenAI与埃森哲联合推出全新旗舰AI计划。（彭博）</a> [11] <font color='grey'>- 21时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201210321820800" target="_blank" class="news-link">新思科技：与英伟达的多年合作涵盖英伟达CUDA加速计算、智能体与物理AI、Omniverse数字孪生方面。</a> [13] <font color='grey'>- 21时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201210253983800" target="_blank" class="news-link">埃森哲公司：将借助ChatGPT企业版，通过直接访问前沿模型，加速各岗位人员的AI技能提升。</a> [14] <font color='grey'>- 21时41分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7578774499518169151/" target="_blank" class="news-link">顾客买鞋子仅退款拿AI视频当凭证</a> [16] <font color='grey'>- 21时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251201205933747800" target="_blank" class="news-link">OpenAI与埃森哲携手，以先进人工智能加速企业重塑。</a> [19] <font color='grey'>- 21时41分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46105825" target="_blank" class="news-link">Accenture dubs 800k staff &#x27;reinventors&#x27; amid shift to AI</a> [26] <font color='grey'>- 21时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">3</td>
+                <td class="percentage">1.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3760461" target="_blank" class="news-link">开源最强，逼平闭源顶流！DeepSeek发布V3.2系列模型，推理能力追平GPT-5</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3760461" target="_blank" class="news-link">DeepSeek发布V3.2系列模型，强化Agent能力，推理能力追平GPT-5</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时41分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=DeepSeek%E5%90%8C%E6%97%B6%E5%8F%91%E5%B8%83%E4%B8%A4%E4%B8%AA%E6%AD%A3%E5%BC%8F%E7%89%88%E6%A8%A1%E5%9E%8B" target="_blank" class="news-link">DeepSeek同时发布两个正式版模型</a> [25] <font color='grey'>- 21时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3760468" target="_blank" class="news-link">开源最强！“拳打GPT 5”，“脚踢Gemini-3.0”，DeepSeek V3.2为何提升这么多？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7578209064803827755/" target="_blank" class="news-link">华强北华为Mate 80系列价格流出</a> [28] <font color='grey'>- 21时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3013068" target="_blank" class="news-link">翱捷科技：阿里巴巴网络技术有限公司11月24日至12月1日减持1.3%公司股份。</a> [15] <font color='grey'>- 21时41分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
