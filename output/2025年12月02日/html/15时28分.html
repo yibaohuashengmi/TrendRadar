@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 183</p><p>生成时间: 2025-12-02 15:28:25</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">6.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3760513" target="_blank" class="news-link">启动红色警报！OpenAI暂停广告业务，全力“死磕”谷歌Gemini</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时28分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/825179372788178944" target="_blank" class="news-link">面试官别再问 AI 应用啦，我是真没招了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时28分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2058740-1-1.html" target="_blank" class="news-link">【百度网盘】Win11 LTSC_2024_26200.7309_2025.11 原版集成映像 25年11月2次更新 ananhaid</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3760517" target="_blank" class="news-link">中国AI大战将在2026年“全面加剧”：“流量入口”成大厂“必争之地”，AI出海也将加速</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3760465" target="_blank" class="news-link">首销备货 50 万台，豆包 AI 手机要卖给谁？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/858.htm" target="_blank" class="news-link">英伟达发布 TiDAR：单步生成多个 Token，AI 吞吐量提升近 600%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时28分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/825360180601704448" target="_blank" class="news-link">PPIO - Serverless AI 后端 - 一面 一小时</a> [11] <font color='grey'>- 15时28分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3800815_0_1" target="_blank" class="news-link">英国央行金融稳定报告：人工智能估值加剧市场剧烈回调的风险。</a> [12] <font color='grey'>- 15时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3013520" target="_blank" class="news-link">中国AI公司智谱今年营收料较2024年的4200万美元增长逾一倍。（彭博）</a> [16] <font color='grey'>- 15时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251202150510898800" target="_blank" class="news-link">英国央行金融稳定报告：若出现与人工智能相关的资产价格修正，贷款损失或将加剧金融稳定风险。</a> [23] <font color='grey'>- 15时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251202150351073800" target="_blank" class="news-link">英国央行金融稳定报告：人工智能估值加剧市场剧烈回调的风险。</a> [26] <font color='grey'>- 15时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251202150318242800" target="_blank" class="news-link">英国央行金融稳定报告：许多风险资产的估值仍严重高估，尤其是专注于人工智能的科技公司。</a> [27] <font color='grey'>- 15时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">1.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/857.htm" target="_blank" class="news-link">华为 Mate XTs、Pura X 等折叠屏机型获 HarmonyOS 6.0.0.115 升级，新增应用中心等功能</a> [11] <font color='grey'>- 15时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/901/852.htm" target="_blank" class="news-link">华为鸿蒙 HarmonyOS 全新实况窗适配情况公布，Mate / Pura 80 等系列机型出厂支持</a> [16] <font color='grey'>- 15时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1978907565543945170" target="_blank" class="news-link">2025 年 12 月 1 日，DeepSeek 正式发布 V3.2 和 V3.2-Speciale，如何评价该模型？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
