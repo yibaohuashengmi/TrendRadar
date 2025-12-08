@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 320</p><p>生成时间: 2025-12-08 09:56:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46183294" target="_blank" class="news-link">I failed to recreate the 1996 Space Jam website with Claude</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019afb8e-078e-7444-93cd-69d031bcd424" target="_blank" class="news-link">BAIDU OPENS 3.3% HIGHER AS IT EVALUATES PROPOSED SPIN-OFF AND LISTING OF KUNLUN CHIP UNIT</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019afb8c-e7cb-7444-93cd-626a8c538a35" target="_blank" class="news-link">SHARES OF SHANGHAI ABLE DIGITAL SET TO OPEN AT HK$83.6 EACH IN HONG KONG DEBUT VS OFFER PRICE HK$67.50 APIECE&lt;br/&gt;&lt;br/&gt;SHARES OF SUZHOU NOVOSENSE MICROELECTRONICS SET TO OPEN AT HK$116 EACH IN HONG KONG DEBUT VS OFFER PRICE HK$116 APIECE</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/214.htm" target="_blank" class="news-link">荣耀工程师谈豆包手机：AI 时代新的交互模式探索，未来一定会涌现更多“体验闭环</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1177441" target="_blank" class="news-link">Vibe coding 130 万行代码后，我想给每天陪我熬夜的 AI 一个名分</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1177439" target="_blank" class="news-link">你们是怎样解决 google antigravity 的“此账号无法订阅 Google AI 方案”的问题的？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1177438" target="_blank" class="news-link">第一次做产品！ 30 秒生成商用级 AI 视频，输文字 / 传图就行～求建议！</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019afb77-a0f4-7444-93cc-e6a41ec0b67e" target="_blank" class="news-link">JAPAN CHIEF CABINET SECRETARY KIHARA: CHINA&#x27;S CLAIMS ABOUT JAPAN SELF DEFENCE FORCE&#x27;S DANGEROUS FLIGHT IS NOT ACCURATE</a> [20] <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/197.htm" target="_blank" class="news-link">微博 CEO 王高飞回应能否让 AI 手机自己发微博：需要确认</a> [20] <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019afb72-6851-7444-93cc-db9eb108c152" target="_blank" class="news-link">Trump Raises Concerns About Netflix-Warner Deal - WSJ</a> [21] <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019afb69-3d48-7444-93cc-d4f51fd787a7" target="_blank" class="news-link">&lt;b&gt;TRUMP RAISES CONCERNS ABOUT NETFLIX-WARNER DEAL - WSJ&lt;/b&gt;</a> [22] <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/195.htm" target="_blank" class="news-link">谷歌 DeepMind CEO 哈萨比斯：规模定律是走向通用人工智能的关键</a> [22] <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019afb67-bdaa-7444-93cc-ce1aa0a0238c" target="_blank" class="news-link">BAIDU: ASSESSING KUNLUN CHIP SPIN-OFF — NO GUARANTEE OF IPO</a> [23] <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/192.htm" target="_blank" class="news-link">Oculus 创始人拉奇为在战争中使用 AI 辩护：使用落后技术并无道德高地可言</a> [25] <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/189.htm" target="_blank" class="news-link">“人工智能教父” 辛顿：即便 AI 重塑编程行业，计算机科学学位仍具重要价值</a> [28] <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/187.htm" target="_blank" class="news-link">Viwoods 推出 AiPaper Reader C 彩色电纸书手机：150PPI 墨水屏，4G 网络、侧边指纹</a> [30] <font color='grey'>- 09时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">0.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/211.htm" target="_blank" class="news-link">五界齐聚：华为余承东官宣鸿蒙智行年度直播 12 月 9 日举行</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/206.htm" target="_blank" class="news-link">华为鸿蒙电脑企业版来了，擎云 HM740 官宣 12 月 11 日发布</a> [12] <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/196.htm" target="_blank" class="news-link">科技昨夜今晨 1208：曝苹果 iPhone 18 系列测试屏下 3D 解锁；华为无网通信功能“上天”；华为余承东揭秘尊界 S800 轿车“超级小脑”芯片...</a> [21] <font color='grey'>- 09时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3760862" target="_blank" class="news-link">详谈谷歌TPU芯片：如何与博通博弈？能否和英伟达竞争？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/188.htm" target="_blank" class="news-link">TUXEDO 推出“台式机替代”Linux 笔记本 Gemini 17 - Gen4，搭载 RTX 5070 Ti</a> [29] <font color='grey'>- 09时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
