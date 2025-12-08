@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 150</p><p>生成时间: 2025-12-08 22:28:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">7.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3760944" target="_blank" class="news-link">美国总统特朗普：本周将针对人工智能发布单一规则行政命令</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1177672" target="_blank" class="news-link">用 AI 做了个小站： YouTube 字幕一键提取 +AI 总结（欢迎指教）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019afe3d-fbc4-7444-93d6-701d434b0bcb" target="_blank" class="news-link">CHINA&#x27;S FOREIGN MINISTER WANG YI: HOPES GERMANY TO UNDERSTAND, SUPPORT CHINA&#x27;S POSITION REGARDING JAPAN PM&#x27;S REMARK ON TAIWAN</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/412.htm" target="_blank" class="news-link">Gartner：现在超 95% 车企都在大力投资 AI，但四年后可能只有 5% 在坚持</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019afe3c-1705-7444-93d6-6cfe3e9d0669" target="_blank" class="news-link">CHINA&#x27;S FOREIGN MINISTER WANG YI: CHINA, GERMANY SHOULD AIM FOR COOPERATION, NOT QUARRELS</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019afe37-86b0-7444-93d6-54190a7e7f27" target="_blank" class="news-link">Trump Says He’ll Sign Executive Order Curbing State AI Rules</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3811012_0_1" target="_blank" class="news-link">卡塔尔宣布成立AI公司Qai 投资AI基础设施</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019afe2d-7b52-7444-93d6-2f5f69536299" target="_blank" class="news-link">MOODY&#x27;S RATINGS SAYS WARNER BROS. DISCOVERY, INC.&#x27;S RATINGS REMAIN ON REVIEW FOR DOWNGRADE AFTER NETFLIX ACQUISITION ANNOUNCEMENT</a> [12] <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251208221147865800" target="_blank" class="news-link">卡塔尔宣布成立AI公司Qai 投资AI基础设施</a> [12] <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3760659" target="_blank" class="news-link">政策为 AI 托底：繁荣背后的泡沫隐忧</a> [22] <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251208215109691800" target="_blank" class="news-link">市场消息：卡塔尔成立新公司QAI，旨在建设和投资人工智能。</a> [23] <font color='grey'>- 22时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251208214111777800" target="_blank" class="news-link">谷歌云与NextEra Energy达成协议 开发配套电力设施的数据中心园区</a> [29] <font color='grey'>- 22时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
