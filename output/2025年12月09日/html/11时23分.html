@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 261</p><p>生成时间: 2025-12-09 11:23:16</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">5.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3017332" target="_blank" class="news-link">蚂蚁旗下通用AI助手灵光上线网页版</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/493.htm" target="_blank" class="news-link">AI 让国际空间站机器人导航提速 60%，狭窄通道穿梭不撞墙</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b00fc-3498-7444-93dc-26b5928c028b" target="_blank" class="news-link">HKEX Unveils Tech 100 Index and Secures Mainland ETF Licensing</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b00f5-9c19-7444-93dc-1f273bd8049d" target="_blank" class="news-link">US Detains Two Men Accused of Smuggling Nvidia AI Gear to China</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/490.htm" target="_blank" class="news-link">蚂蚁集团通用 AI 助手灵光上线网页版，可“30 秒用自然语言生成小应用”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b00f2-7d7f-7444-93dc-00f6d11ed732" target="_blank" class="news-link">HKEX: NEW INDEX TRACKS 100 LARGEST HONG KONG-LISTED FIRMS IN SIX AREAS &lt;br/&gt;HKEX: HKEX TECH 100 COVERS AI, BIOTECH &amp; PHARMA, EVS &amp; SMART DRIVING, IT, INTERNET, ROBOTICS&lt;br/&gt;HKEX: CONSTITUENTS ELIGIBLE FOR STOCK CONNECT SOUTHBOUND TRADING TO ACCESS GLOBAL, MAINLAND INVESTORS</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3760969" target="_blank" class="news-link">AI需要能自我改进！AI圈越来越多人认为“当前AI训练方法无法突破”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时23分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1980612606218756126" target="_blank" class="news-link">AI 冲击下多所大学停招、撤销外语类本科专业，怎样看待这一调整？外语专业未来前景的怎么样？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时23分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3811876_100_1" target="_blank" class="news-link">中国国务院总理李强：人工智能问题也日益成为全球贸易讨论的核心。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 11时23分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2223631" target="_blank" class="news-link">AI眼镜爆发前夜：多家巨头集体下注释放何种信号？光学显示、芯片等厂商望持续受益</a> [12] <font color='grey'>- 11时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b00df-26a6-7444-93db-c885fe719ad9" target="_blank" class="news-link">US Farmers Say $12 Billion Bailout Won’t End Industry Slump</a> [15] <font color='grey'>- 11时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b00de-886c-7444-93db-c53b9e573436" target="_blank" class="news-link">&lt;b&gt;HONG KONG TECH STOCKS DECLINE; BAIDU FALLS 3%, KUAISHOU NEAR 2%, MEITU DOWN 0.8%, TENCENT SLIPS 0.5%&lt;/b&gt;</a> [16] <font color='grey'>- 11时23分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/827479408234483712" target="_blank" class="news-link">LangChain4j（Java 版 LangChain）速成教学</a> [18] <font color='grey'>- 11时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b00c7-a9f9-7444-93db-a6016dadfa50" target="_blank" class="news-link">JAMIE DIMON ON AI: MAYBE ONE DAY WE’LL BE WORKING LESS HARD BUT HAVING WONDERFUL LIVES</a> [20] <font color='grey'>- 11时23分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7581036773608112128" target="_blank" class="news-link">从 Mobile First 到 AI First：自然语言驱动数据库操作的新范式</a> [25] <font color='grey'>- 11时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/479.htm" target="_blank" class="news-link">华为认证仓颉开发工程师正式在中国区发布，分三个认证等级</a> [15] <font color='grey'>- 11时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3811881_100_1" target="_blank" class="news-link">中国国务院总理李强：Deepseek等模型的出现正在驱动传统产业的转型。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 11时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
