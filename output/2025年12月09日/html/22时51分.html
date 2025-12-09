@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 110</p><p>生成时间: 2025-12-09 22:51:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">8</td>
+                <td class="percentage">7.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3017766" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特在华尔街日报CEO委员会峰会上表示：人工智能（AI）对生产力的作用比电脑更大。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时51分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/734.htm" target="_blank" class="news-link">消息称 Meta 明年一季度发布全新 AI 模型 Avocado 牛油果，可能不会开源</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0389-e0fc-7444-93e3-0642396338cb" target="_blank" class="news-link">EU&#x27;S COSTA, ASKED IF DECEMBER SUMMIT WILL DELIVER ON AID FOR UKRAINE, SAYS WE ARE VERY CLOSE TO A SOLUTION</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0389-2b68-7444-93e2-ff6586f19fea" target="_blank" class="news-link">HASSETT: MOST IMPORTANT FOR FED CHAIR TO LOOK AT DATA</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0384-d5c3-7444-93e2-c8a5bd2fdca9" target="_blank" class="news-link">HASSETT: AI IS BIGGER THAN COMPUTER FOR PRODUCTIVITY</a> [13] <font color='grey'>- 22时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0381-ec51-7444-93e2-bbe0ff8a1782" target="_blank" class="news-link">EUROPEAN COUNCIL PRESIDENT ANTONIO COSTA SPEAKS IN DUBLIN&lt;br/&gt;&lt;br/&gt;EU&#x27;S COSTA: EU LEADERS WILL DELIVER NEXT WEEK ON UKRAINE</a> [15] <font color='grey'>- 22时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0375-3d4f-7444-93e2-9fb7b6a15b34" target="_blank" class="news-link">OPENAI: AI FOUNDATIONS, LAUNCHING IN CHATGPT THROUGH PILOT PROGRAMS AVAILABLE TODAY IN COURSERA</a> [19] <font color='grey'>- 22时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0374-f7fa-7444-93e2-957392821a92" target="_blank" class="news-link">OPENAI: LAUNCHING OUR FIRST OPENAI CERTIFICATIONS COURSES - WEBSITE</a> [20] <font color='grey'>- 22时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/736.htm" target="_blank" class="news-link">冒牌 ChatGPT Atlas 浏览器现身，利用用户信任窃取账户密码</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/732.htm" target="_blank" class="news-link">谷歌将为三星 Galaxy XR 头显更新 2D 转 3D 功能，几乎兼容所有 App</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时51分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
