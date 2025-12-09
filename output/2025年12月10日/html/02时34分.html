@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 142</p><p>生成时间: 2025-12-10 02:34:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">11.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1177905" target="_blank" class="news-link">开源一个 AI 图像视频生成平台模板前端代码，可直接商用</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时34分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E8%B4%A2%E7%BB%8F%E5%BF%AB%E8%AE%AF/20251209-%E5%BE%AE%E8%BD%AF%E5%AE%A3%E5%B8%83%E5%9C%A8%E5%8D%B0%E5%BA%A6%E6%8A%95%E8%B5%845450%E4%BA%BF-%E6%89%93%E9%80%A0ai%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD" target="_blank" class="news-link">微软宣布在印度投资5450亿 打造AI基础设施</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0445-38e7-7444-93e5-bfeec7b5e76e" target="_blank" class="news-link">JPMORGAN&#x27;S LAKE SAYS BANK IS MORE LIKELY TO DO SOMETHING INORGANIC ON WEALTH MANAGEMENT, AI CAPABILITY</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3017838" target="_blank" class="news-link">橡树资本联合创始人Howard Marks：人工智能（AI）已经给就业市场营造一个“令人恐怖的”前景。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251210021330401800" target="_blank" class="news-link">OpenAI宣布在Linux基金会下共同创立Agentic AI基金会</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时34分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46206277" target="_blank" class="news-link">AI needs more power than the grid can deliver – supersonic tech can fix that</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0440-fa3f-7444-93e5-9a55c96f2d6f" target="_blank" class="news-link">U.S. EIA RAISES FORECAST FOR 2026 U.S. OIL DEMAND BY 100,000, NOW EXPECTS DEMAND TO BE FLAT YR-ON-YR AT 20.6 MLN BPD</a> [11] <font color='grey'>- 02时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0440-e9bb-7444-93e5-92e66724b43b" target="_blank" class="news-link">MOODY&#x27;S: CONSUMER SPENDING REMAINS THE BACKBONE OF US GROWTH AND WILL CONTINUE TO EXPAND IN 2026</a> [12] <font color='grey'>- 02时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0440-aedc-7444-93e5-820ae5ed6af8" target="_blank" class="news-link">JPMORGAN&#x27;S LAKE SAYS USE OF AI CAN INCREASE PRODUCTIVITY BY 40% TO 50% ON THE LONG TERM</a> [14] <font color='grey'>- 02时34分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3813608_100_1" target="_blank" class="news-link">摩根大通高管Lake：该行更有可能在财富管理和人工智能能力方面采取非有机增长措施。</a> [14] <font color='grey'>- 02时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b043d-e5c3-7444-93e5-6bce5fde79d9" target="_blank" class="news-link">U.S. EIA RAISES FORECAST FOR 2025 U.S. OIL PRODUCTION BY 20,000, NOW EXPECTS OUTPUT TO GROW BY 380,000 YR-ON-YR TO 13.61 BPD</a> [17] <font color='grey'>- 02时34分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46207852" target="_blank" class="news-link">Show HN: Detail, a Bug Finder</a> [17] <font color='grey'>- 02时34分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3813597_101_1" target="_blank" class="news-link">橡树资本联合创始人Howard Marks：人工智能（AI）已经给就业市场营造一个“令人恐怖的”前景。</a> [19] <font color='grey'>- 02时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251210015752973800" target="_blank" class="news-link">摩根大通消费者与社区银行业务首席执行官：借助人工智能，年度生产率增幅从3%提升至6%。</a> [21] <font color='grey'>- 02时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251210015549048800" target="_blank" class="news-link">摩根大通消费者与社区银行业务首席执行官：从长远来看，人工智能的使用可使生产力提高40%至50%。</a> [24] <font color='grey'>- 02时34分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46207425" target="_blank" class="news-link">Donating the Model Context Protocol and Establishing the Agentic AI Foundation</a> [25] <font color='grey'>- 02时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOG" target="_blank" class="news-link">谷歌C</a> [18] <font color='grey'>- 02时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
