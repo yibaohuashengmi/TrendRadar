@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 140</p><p>生成时间: 2025-12-10 01:25:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">9.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0411-d9f7-7444-93e4-90e7c03329e4" target="_blank" class="news-link">OPENAI CO-FOUNDS THE AGENTIC AI FOUNDATION UNDER THE LINUX FOUNDATION</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251210011305309800" target="_blank" class="news-link">OpenAI：作为这项工作的一部分，我们正在向AAIF网站贡献Agents.MD。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b040d-fb8e-7444-93e4-83ef2de76aba" target="_blank" class="news-link">DAI NIPPON PRINTING&#x27;S NEW JAPAN TECH SAID TO SLASH POWER USE IN MAKING NEXT-GEN 1.4-NM CHIPS - NIKKEI</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3017827" target="_blank" class="news-link">OpenAI和Block参与创立Linux基金会旗下的“Agentic AI基金会（AAIF）”。 Anthropic称，将模型内容协议捐赠给AAIF。</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251210011217599800" target="_blank" class="news-link">OpenAI：AAIF将作为Linux基金会下属的一个定向基金运营。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b040a-f9de-7444-93e4-768d8f376138" target="_blank" class="news-link">UKRAINE&#x27;S REPRESENTATIVE TO THE UN: OUR TERRITORY IS NOT FOR SALE</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251210011028672800" target="_blank" class="news-link">OpenAI：AAIF旨在为开放、可互操作的基础设施提供中立的管理服务。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251210010957028800" target="_blank" class="news-link">OpenAI：与Anthropic和Block共同在Linux基金会下创立AAIF，并获得谷歌、微软、AWS、彭博和Cloudflare的支持。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 01时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251210010503413800" target="_blank" class="news-link">市场消息：OpenAI与Linux基金会共同创立了Agentic AI基金会。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时25分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2224154" target="_blank" class="news-link">【明日主题前瞻】一天一个价，存储芯片或迎以AI驱动的新一轮景气周期</a> [12] <font color='grey'>- 01时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b03e8-27bd-7444-93e3-fccfec15ec8a" target="_blank" class="news-link">TRUMP ORDER ON FOOD SUPPLY CHAIN PUBLISHES IN FEDERAL REGISTER</a> [20] <font color='grey'>- 01时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b03e0-a5b2-7444-93e3-dd1896a0e1d5" target="_blank" class="news-link">UKRAINE PUBLISHES UPDATED TERMS FOR ITS SWAP OFFER ON GDP WARRANTS- STATEMENT</a> [24] <font color='grey'>- 01时25分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7581545175509434420" target="_blank" class="news-link">分享下我创业烧了 几十万的 AI Coding 经验</a> [29] <font color='grey'>- 01时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46205632" target="_blank" class="news-link">Show HN: Gemini Pro 3 hallucinates the HN front page 10 years from now</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
