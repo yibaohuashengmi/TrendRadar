@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 191</p><p>生成时间: 2025-12-09 22:28:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">9.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761031" target="_blank" class="news-link">AI泡沫遭质疑之际，慢半拍的苹果意外“躺赢”：股价半年飙35%，跑赢微软、Meta</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0369-b08e-7444-93e2-781f21e2b8f7" target="_blank" class="news-link">RUBIO COMMENTS IN A STATEMENT ON THAILAND-CAMBODIA&lt;br/&gt;&lt;br/&gt;RUBIO: US IS CONCERNED BY CAMBODIA-THAILAND BORDER FIGHTING&lt;br/&gt;&lt;br/&gt;RUBIO: BOTH SIDES MUST RETURN TO OCT. 26 ACCORDS</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0365-821d-7444-93e2-7393689f3e94" target="_blank" class="news-link">CAMBODIA PM ADVISER ON THAILAND CONFLICT: WE STAND READY FOR DIALOGUE AT ANY TIME</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0364-dc36-7444-93e2-69454f4b60fd" target="_blank" class="news-link">Redbook Retail Sales (YoY) (Dec.5)</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b035e-006a-7444-93e2-66f9ce192ce0" target="_blank" class="news-link">META COULD RELEASE NEW AI &#x27;AVOCADO&#x27; MODEL IN Q1: CNBC</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761026" target="_blank" class="news-link">财报前夕“放卫星”，摩根大通：博通明年AI收入将超500亿美元！</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/724.htm" target="_blank" class="news-link">《阿凡达 3》导演卡梅隆现身海南，称 AI 永远替代不了人类创作</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3017744" target="_blank" class="news-link">存储AI初创公司Fal按45亿美元估值融资，由Sequoia（红杉资本）领投。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/722.htm" target="_blank" class="news-link">理想预计三年内推出首款 L4 级自动驾驶车型：L4 的实现将是汽车行业真正的“iPhone 4 时刻”，未来 5-10 年汽车将转型为 AI 驱动的“空间机器人”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251209221233954800" target="_blank" class="news-link">OpenAI：推出我们的首期OpenAI认证课程。</a> [11] <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251209220107980800" target="_blank" class="news-link">摩根大通公布2026年全球另类投资展望，强调了人工智能繁荣时期私人市场投资者的机会。</a> [14] <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0343-29af-7444-93e1-fd60b891b5ad" target="_blank" class="news-link">BALTIC EXCHANGE&#x27;S MAIN SEA FREIGHT INDEX FALLS 5.1% TO 2,557 POINTS</a> [19] <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0343-0397-7444-93e1-f3c1ab3e4e54" target="_blank" class="news-link">MICROSOFT&#x27;S NADELLA CITES INDIA AI INVESTMENT IN POST ON X</a> [20] <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0342-38d8-7444-93e1-e5f2fae3d100" target="_blank" class="news-link">MICROSOFT&#x27;S NADELLA SAYS COMPANY COMMITTING $17.5B TO INDIA AI</a> [22] <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0341-1694-7444-93e1-dea1a2cff342" target="_blank" class="news-link">MICROSOFT TO INVEST $17.5B FOR AI, CLOUD IN INDIA OVER 4 YEARS</a> [23] <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251209215045442800" target="_blank" class="news-link">微软宣布未来四年将在印度投入175亿美元发展人工智能</a> [23] <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251209214816921800" target="_blank" class="news-link">Meta可能在明年初推出新AI大模型Avocado</a> [24] <font color='grey'>- 22时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b033e-9ca0-7444-93e1-cc9d5e0d302a" target="_blank" class="news-link">LI AUTO CEO LI XIANG SEES A 50% CHANCE OF LAUNCHING AN AI SUPERCAR BY 2030</a> [25] <font color='grey'>- 22时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3017738" target="_blank" class="news-link">王晓秋：上汽与华为合作“1+1&gt;2”，将把前沿技术变为用户价值</a> [12] <font color='grey'>- 22时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1981511843768968003" target="_blank" class="news-link">梁文锋杜梦然入选《自然》杂志十大科学人物，这对于中国科学界意味着什么？</a> [13] <font color='grey'>- 22时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
