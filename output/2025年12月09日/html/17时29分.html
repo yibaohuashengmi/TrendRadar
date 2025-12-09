@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 178</p><p>生成时间: 2025-12-09 17:29:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">8.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b025c-ae02-7444-93df-0c40f87bebc2" target="_blank" class="news-link">&lt;b&gt;NVIDIA RISES 2% PRE-MARKET AS TRUMP APPROVES H200 AI CHIP SALES TO CHINA&lt;/b&gt;</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/649.htm" target="_blank" class="news-link">家庭宽带升级 AI 全光网，华为与中国电信天翼数生发布新一代智能 FTTR+X</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/645.htm" target="_blank" class="news-link">PCBAIR 推出 8 层玻璃芯 PCB 制造技术，面向 AI / HPC 封装高速互联需求</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时29分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1177837" target="_blank" class="news-link">做了 8 年前端，如今天天用 AI 开发，我有点迷茫了…</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/643.htm" target="_blank" class="news-link">36999 元：新华三推出 LinSeer MegaCube 桌面 AI 超算工作站，搭载英伟达 GB10 Grace Blackwell 芯片</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时29分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1177832" target="_blank" class="news-link">[AIDocvivid]-[AI 文档转视频]更新了新功能,使用最新的 banana 模型,支持多语言包括中文,再送 5 个兑换码~</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b024d-0cc2-7444-93de-dd0517008901" target="_blank" class="news-link">CHINA PREMIER: CHINA’S ECONOMY WILL MAINTAIN A SOLID RECOVERY TRAJECTORY</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/633.htm" target="_blank" class="news-link">李开复在《金融时报》发文：中国开源 AI 是一项国家优势</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时29分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85%E6%8A%A5%E9%81%93/20251209-%E5%B7%9D%E6%99%AE%E5%B0%86%E7%AD%BE%E7%BD%B2%E8%A1%8C%E6%94%BF%E5%91%BD%E4%BB%A4-%E9%98%BB%E6%AD%A2%E5%B7%9E%E7%BA%A7ai%E7%9B%91%E7%AE%A1" target="_blank" class="news-link">川普将签署行政命令 阻止州级AI监管</a> [12]</div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2223447" target="_blank" class="news-link">特朗普预告：本周将签行政令 为AI制定统一国家规则</a> [13] <font color='grey'>- 17时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0238-b169-7444-93de-918a30ac200f" target="_blank" class="news-link">Alibaba Forms Qwen C-Side Group to Build a Super APP and All-Purpose AI Assistant</a> [16] <font color='grey'>- 17时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b022d-1855-7444-93de-7c4a7588515e" target="_blank" class="news-link">EU CHECKING IF GOOGLE DISADVANTAGING RIVAL AI DEVELOPERS</a> [19] <font color='grey'>- 17时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/621.htm" target="_blank" class="news-link">今晚 20:00 结束：暖气加湿一机拿捏，艾美特 AIR16-1 加湿电暖器 1299 元上市（实付折合仅 339 元）</a> [19] <font color='grey'>- 17时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b022c-92cf-7444-93de-774412c626e9" target="_blank" class="news-link">EU INVESTIGATING GOOGLE OVER WEB PUBLISHERS&#x27; CONTENT IN AI</a> [20] <font color='grey'>- 17时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b022b-5a34-7444-93de-6afe5502aea3" target="_blank" class="news-link">EU ANTITRUST WATCHDOG INVESTIGATES ALPHABET&#x27;S GOOGLE OVER AI PRACTICES</a> [21] <font color='grey'>- 17时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0229-87b2-7444-93de-64b4ecce35fd" target="_blank" class="news-link">EUROPEAN COMMISSION OPENS INVESTIGATION INTO POSSIBLE ANTICOMPETITIVE CONDUCT BY GOOGLE IN THE USE OF ONLINE CONTENT FOR AI PURPOSES</a> [22] <font color='grey'>- 17时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">3</td>
+                <td class="percentage">1.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/634.htm" target="_blank" class="news-link">阿里通义千问 Qwen Code v0.3.0 发布：内置中英文界面，全面支持 Stream JSON</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时29分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/china/story20251209-7938137" target="_blank" class="news-link">阿里巴巴成立千问C端事业群</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3017543" target="_blank" class="news-link">美股盘前，英伟达延续昨日涨势，现涨超2%，英特尔涨超1%。热门中概股涨跌互现，阿里巴巴跌1%，百度跌3%。</a> [15] <font color='grey'>- 17时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3760995" target="_blank" class="news-link">Gemini 3赢了下载却输了习惯？ChatGPT仍垄断90%移动端会话，日均打开超8次</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/630.htm" target="_blank" class="news-link">华为余承东：鸿蒙智行全新问界 M7 还有 4 万多台订单未交付</a> [12] <font color='grey'>- 17时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
