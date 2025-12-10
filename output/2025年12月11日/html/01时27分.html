@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 169</p><p>生成时间: 2025-12-11 01:27:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">7.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0946-cee7-7444-93f1-f71df4b81cba" target="_blank" class="news-link">TEMU&#x27;S IRISH FACILITY RAIDED BY EU REGULATORS LAST WEEK ON CONCERNS ABOUT POTENTIAL CHINESE STATE SUBSIDIES, SOURCE SAYS</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46219853" target="_blank" class="news-link">DeepSeek uses banned Nvidia chips for AI model, report says</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1178152" target="_blank" class="news-link">JetBrains 2025 年开发者生态系统报告</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b093a-b38d-7444-93f1-d43d17e97d17" target="_blank" class="news-link">BRUSSELS RAIDS TEMU IN FOREIGN SUBSIDY INVESTIGATION- FT</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46219386" target="_blank" class="news-link">Launch HN: InspectMind (YC W24) – AI agent for reviewing construction drawings</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0935-0ffa-7444-93f1-ba73315f299c" target="_blank" class="news-link">U.S. INVESTORS ARE GOING BIG ON CHINA AI DESPITE CONCERNS IN CONGRESS - WSJ</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46216583" target="_blank" class="news-link">Factor 0.101 now available</a> [11] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0928-b055-7444-93f1-9c9f8e680df7" target="_blank" class="news-link">Bezos and Musk Race to Build Space-Based AI Data Centers</a> [12] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b091e-ed2f-7444-93f1-68ff11ffb767" target="_blank" class="news-link">OFFICE OF THE COMPTROLLER OF THE CURRENCY SAYS NINE LARGEST BANKS MADE &#x27;INAPPROPRIATE DISTINCTIONS&#x27; IN PROVIDING FINANCIAL SERVICES TO CERTAIN CLIENTS, INCLUDING OIL, GAS AND FIREARMS COMPANIES</a> [18] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b091e-cbb1-7444-93f1-612988b681f4" target="_blank" class="news-link">UNITED AIRLINES: BUSIEST TRAVEL DAY IS EXPECTED AFTER CHRISTMAS</a> [19] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b091e-aa75-7444-93f1-5e14ca71b203" target="_blank" class="news-link">UNITED AIRLINES: EXPECTS TO FLY ABOUT 10.3 MLN PEOPLE BETWEEN DECEMBER 18 TO JANUARY 6</a> [20] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0910-9fc9-7444-93f1-123aa7003d47" target="_blank" class="news-link">FITCH RATINGS: NORTH AMERICAN BUILDING PRODUCTS AND MATERIALS OUTLOOK REMAINS NEUTRAL FOR 2026</a> [29] <font color='grey'>- 01时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">9</td>
+                <td class="percentage">5.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251211005244896800" target="_blank" class="news-link">消息人士：谷歌(GOOG.O)还可做出更多调整以避免罚款。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0936-f02f-7444-93f1-cb76db019eb1" target="_blank" class="news-link">EU Poised to Fine Google Over Google Play Compliance Shortfalls</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251211005231907800" target="_blank" class="news-link">消息人士：Google Play正调整政策，旨在让应用开发者更便捷地将用户引导至其他渠道并自主选择收费模式，但据悉这些调整效果未达预期。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0935-d2c7-7444-93f1-c4b5e4b07096" target="_blank" class="news-link">MOTOROLA, GOOGLE LET ANDROID USERS SHARE LIVE VIDEO WITH 911</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251211005056346800" target="_blank" class="news-link">消息人士：谷歌(GOOG.O)或将因Google Play违反欧盟规则而被欧盟处以罚款；罚款措施或将于2026年第一季度出台。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b092b-df93-7444-93f1-ac8069a46fa7" target="_blank" class="news-link">GOOGLE PLAY TWEAKS TO MAKE IT EASIER FOR APP DEVELOPERS TO DIRECT CUSTOMERS TO OTHER CHANNELS, CHOOSE FEE MODEL, FALL SHORT, SOURCES SAY</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3815824_100_1" target="_blank" class="news-link">谷歌：今日起在美国以及德国和墨西哥的部分地区推出紧急直播视频功能。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b092b-cb42-7444-93f1-a4990224e80f" target="_blank" class="news-link">&lt;b&gt;GOOGLE SET TO BE HIT WITH EU FINE OVER GOOGLE PLAY BREACHES OF EU RULES, SOURCES SAY&lt;br/&gt;&lt;br/&gt;EU FINE LIKELY TO COME IN FIRST QUARTER OF 2026, SOURCES SAY&lt;br/&gt;&lt;br/&gt;EU FINE LIKELY TO COME IN FIRST QUARTER OF 2026, SOURCES SAY&lt;/b&gt;</a> [11] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46205632" target="_blank" class="news-link">Show HN: Gemini Pro 3 imagines the HN front page 10 years from now</a> [25] <font color='grey'>- 01时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46219538" target="_blank" class="news-link">Qwen3-Omni-Flash-2025-12-01：a next-generation native multimodal large model</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
