@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 318</p><p>生成时间: 2025-12-10 11:37:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">22</td>
+                <td class="percentage">6.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/819.htm" target="_blank" class="news-link">美国 FDA 批准首款人工智能药物研发工具，助力脂肪肝临床试验评估</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761062" target="_blank" class="news-link">算力需求毫无停滞迹象！AI服务器“代工三巨头”11月业绩齐创历史新高</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46213045" target="_blank" class="news-link">The AI-Education Death Spiral a.k.a. Let the Kids Cheat</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b063a-b655-7444-93e9-a29b5c59871f" target="_blank" class="news-link">TRUMP PLANS FINAL INTERVIEWS WITH FED CHAIR CANDIDATES IN COMING DAYS -- WSJ</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/816.htm" target="_blank" class="news-link">以超音速客机技术驱动 AI 数据中心，Boom 公布 Superpower 发电系统</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761059" target="_blank" class="news-link">制定AI Agent“互联标准”，谷歌、OpenAI和Anthropic牵头</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46213504" target="_blank" class="news-link">NYC congestion pricing cuts air pollution by 22% in six months</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/811.htm" target="_blank" class="news-link">麦当劳 AI 圣诞广告翻车：遭全网群嘲，关评后直接下架</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/12/10/2eaf20d994a040628e5506e526e69d75.html" target="_blank" class="news-link">英媒：中国在开源人工智能领域独占鳌头</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/810.htm" target="_blank" class="news-link">支持中文：网页版微软 Excel 升级智能体模式，AI 帮你做表、查错、分析等</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7581648776303755273" target="_blank" class="news-link">2025 复盘 | 🚀穿越AI焦虑周期，进化为 &quot;AI全栈&quot;</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b061a-2327-7444-93e9-6ee222ec3329" target="_blank" class="news-link">JAPAN PM TAKAICHI: WON&#x27;T COMMENT ON FOREX LEVELS</a> [11] <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0619-eddc-7444-93e9-61a8973b6c58" target="_blank" class="news-link">JAPAN PM TAKAICHI: IMPORTANT FOR CURRENCIES TO MOVE IN STABLE MANNER REFLECTING FUNDAMENTALS&lt;br/&gt;&lt;br/&gt;JAPAN PM TAKAICHI: WILL TAKE APPROPRIATE ACTION FOR EXCESSIVE, DISORDERLY FX MOVES</a> [12] <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0610-8123-7444-93e9-4406c75df6b4" target="_blank" class="news-link">JAPAN PM TAKAICHI SAYS CLOSELY WATHING MARKET MOVES, WHEN ASKED ABOUT RISING YIELDS</a> [16] <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3814181_100_1" target="_blank" class="news-link">【行情】中国中证人工智能指数下跌2.7%。</a> [17] <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/791.htm" target="_blank" class="news-link">Fairphone 推出 2025 款 Fairbuds XL 模块化头戴式耳机，升级驱动单元</a> [17] <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/785.htm" target="_blank" class="news-link">硬刚谷歌 Nano Banana 模型：OpenAI 被曝正测试代号榛子 / 栗子两款生图 AI</a> [20] <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b05f6-5d5b-7444-93e8-f3a98788b0f2" target="_blank" class="news-link">The Silicon Valley Campaign to Win Trump Over on AI Regulation</a> [26] <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b05f5-4b08-7444-93e8-ed42794485b2" target="_blank" class="news-link">JAPAN DEFENCE MINISTER KOIZUMI: JAPAN DEMANDS CHINA PREVENT RECURRENCE OF DANGEROUS ACTS THAT EXCEED NECESSARY RANGE FOR SAFE AIRCRAFT OPERATIONS</a> [27] <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b05f2-adbc-7444-93e8-e3113b88ac2b" target="_blank" class="news-link">CHINA&#x27;S CSI SEMICONDUCTOR INDEX DOWN 2%&lt;br/&gt;&lt;br/&gt;CHINA&#x27;S CSI AI INDEX DOWN 2.7%</a> [28] <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b05f1-a1bc-7444-93e8-db28234e6933" target="_blank" class="news-link">JAPAN DEFENCE MINISTER KOIZUMI: CHINA DID NOT PROVIDE SPECIFIC DETAILS ABOUT NAVAL TRAINING EXERCISES IN COMMUNICATION WITH JAPAN&#x27;S MARITIME SELF-DEFENSE FORCE</a> [29] <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b05f0-4941-7444-93e8-d31a461e0ff0" target="_blank" class="news-link">JAPAN DEFENCE MINISTER KOIZUMI SAYS NO TRUTH THAT JAPAN ALSO AIMED RADAR TO CHINESE AIRCRAFT, IN RESPONSE TO CHINESE MEDIA REPORT</a> [30] <font color='grey'>- 11时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761065" target="_blank" class="news-link">科技投资大佬：明年英伟达GPU将颠覆谷歌TPU优势</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时37分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7581486065997266979" target="_blank" class="news-link">Flutter凉不了：它是Google年入3000亿美元的胶水</a> [28] <font color='grey'>- 11时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/903/817.htm" target="_blank" class="news-link">国内旅行车小众有风险：华为余承东“力排众议”坚持要做享界 S9T，创市场销量纪录</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0605-829f-7444-93e9-272606d15445" target="_blank" class="news-link">ALIBABA’S QWEN LOGS 30 MILLION MAUS JUST 23 DAYS INTO PUBLIC TESTING</a> [20] <font color='grey'>- 11时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
