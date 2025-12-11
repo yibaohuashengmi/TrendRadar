@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 101</p><p>生成时间: 2025-12-11 22:48:52</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">11.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0dc9-512d-7444-9402-5dad867282fd" target="_blank" class="news-link">Disney Invests $1 Billion in OpenAI, Strikes Licensing Deal</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251211224007045800" target="_blank" class="news-link">迪士尼(DIS.N)上涨2%，公司将向OpenAI投资10亿美元，并将旗下卡通人物引入SORA。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251211223024942800" target="_blank" class="news-link">美股开盘，道指涨0.05%，标普500指数跌0.37%，纳指跌0.6%。业绩和指引均不及预期的甲骨文(ORCL.N)大跌14%拖累AI股票，英伟达(NVDA.O)跌2%，英特尔(INTC.O)跌1.9%，美光科技(MU.O)跌0.95%。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3818168_101_1" target="_blank" class="news-link">摩根士丹利邢自强：明年经济增长锚点或将集中在人工智能与绿色转型等领域</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3019287" target="_blank" class="news-link">摩根士丹利邢自强：明年经济增长锚点或将集中在人工智能与绿色转型等领域</a> [11] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0db7-77e6-7444-9402-01a6c35a8075" target="_blank" class="news-link">&lt;b&gt;DISNEY SHARES JUMP 2.7% PREMARKET: INVESTING IN OPENAI&lt;/b&gt;</a> [13] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0db7-6103-7444-9401-fc48fd4a003a" target="_blank" class="news-link">DISNEY - OPENAI &amp; DISNEY HAVE AFFIRMED COMMITMENT TO MAINTAINING ROBUST CONTROLS TO PREVENT GENERATION OF ILLEGAL OR HARMFUL CONTENT</a> [14] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0db7-3b84-7444-9401-f1de7ed731d8" target="_blank" class="news-link">DISNEY: UNDER DEAL, WILL RECEIVE WARRANTS TO PURCHASE ADDITIONAL EQUITY IN OPENAI</a> [15]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0db7-1286-7444-9401-ed2e0934e2e9" target="_blank" class="news-link">DISNEY - DISNEY AND OPENAI AFFIRM A SHARED COMMITMENT TO RESPONSIBLE USE OF AI THAT PROTECTS SAFETY OF USERS AND RIGHTS OF CREATORS.</a> [16] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0db6-b4ba-7444-9401-d960dfed800a" target="_blank" class="news-link">&lt;b&gt;DISNEY WILL MAKE A $1B EQUITY INVESTMENT IN OPENAI&lt;/b&gt;</a> [18] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0db6-782f-7444-9401-d79cf4e42cb4" target="_blank" class="news-link">THE WALT DISNEY COMPANY AND OPENAI REACH LANDMARK AGREEMENT TO BRING BELOVED CHARACTERS FROM ACROSS DISNEY’S BRANDS TO SORA</a> [19] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251211221733960800" target="_blank" class="news-link">迪士尼向OpenAI投资10亿美元 旗下角色将登陆Sora</a> [21] <font color='grey'>- 22时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0dc5-d514-7444-9402-55253fd375ff" target="_blank" class="news-link">DISNEY SENDS CEASE-AND-DESIST LETTER TO GOOGLE - CNBC</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251211221805294800" target="_blank" class="news-link">据CNBC：迪士尼向谷歌发出停止侵权函。</a> [20] <font color='grey'>- 22时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3019299" target="_blank" class="news-link">纳斯达克金龙中国指数美股盘初跌0.8%。 拼多多美股盘初跌3.8%，Boss直聘跌3.4%，金山云跌超3.2%，大全新能源、阿里巴巴跌超2.7%，小鹏跌2.6%，蔚来跌2%。 百度涨0.6%，中通快递和百胜中国涨超0.8%，贝壳涨3.2%。 ETF中，KWEB跌1.29%，CQQQ跌1.32%。</a> <font color='red'><strong>[2]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
