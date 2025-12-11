@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 221</p><p>生成时间: 2025-12-11 18:31:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">4.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/274.htm" target="_blank" class="news-link">夸克 AI 眼镜已新增一条产线，下周起产能陆续释放</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/267.htm" target="_blank" class="news-link">全国首个，应对疟疾、结核病及病毒等挑战的“AI 孔明”制药平台发布</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/266.htm" target="_blank" class="news-link">魅族 AI 拍摄眼镜 StarV Snap 充电盒开售：Type-C 和 Pogopin 双模式，399 元</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3019156" target="_blank" class="news-link">夸克AI眼镜核心供应商已新增产线</a> [11] <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0ccd-5322-7444-93ff-588b2ea2274d" target="_blank" class="news-link">Oracle shares plummet 11% in premarket, dragging down AI stocks</a> [12] <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0ccc-d571-7444-93ff-5558c552aebc" target="_blank" class="news-link">&lt;b&gt;CHINA CEWC: TO DEEPEN “AI+” EXPANSION AND STRENGTHEN AI GOVERNANCE&lt;/b&gt;</a> [13] <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1980552349165564560" target="_blank" class="news-link">OpenAI 即将发布 GPT-5.2，知情人士称或有望弥补与谷歌 Gemini 3 差距，如何评价？</a> [16] <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0cca-4ff4-7444-93ff-259b9654d72b" target="_blank" class="news-link">CHINA CEWC: WILL NOT RELAX EFFORTS ON GRAIN PRODUCTION, KEEP FOOD PRICES AT REASONABLE LEVELS</a> [19] <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0cca-1686-7444-93ff-13cca090a6c3" target="_blank" class="news-link">&lt;b&gt;CHINA CEWC: ADVANCING HAINAN FTZ CONSTRUCTION STEADILY&lt;/b&gt;</a> [21] <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3019132" target="_blank" class="news-link">全国首个应对疟疾、结核病及病毒等全球健康疾病挑战的AI制药平台正式发布</a> [22] <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b0cc9-17a0-7444-93fe-e25b225f5a51" target="_blank" class="news-link">CHINA CEWC: TO MAINTAIN NECESSARY FISCAL DEFICIT AND DEBT LEVELS WHILE ADDRESSING LOCAL GOVT FINANCIAL DIFFICULTIES</a> [27] <font color='grey'>- 18时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
