@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 342</p><p>生成时间: 2025-12-12 11:38:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">5.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b108f-958f-7444-9407-74076c5d5983" target="_blank" class="news-link">THAI PM: CALL WITH TRUMP SET FOR 9.20PM THAILAND TIME</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/423.htm" target="_blank" class="news-link">Win11 学院：如何移除 Windows 11 26220.7344 文件管理器右键菜单 AI 操作选项</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1178467" target="_blank" class="news-link">分享我做的 AI 换脸工具： Kirkify It - 免费把任何人脸变成 Meme</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b1082-148a-7444-9407-5757f4817670" target="_blank" class="news-link">ACTING THAI PM SCHEDULED TO SPEAK TO TRUMP LATE FRIDAY - THAI GOVT OFFICIAL</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3019586" target="_blank" class="news-link">山东：到2027年，全省人工智能核心产业规模力争突破2000亿元</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3761213" target="_blank" class="news-link">OpenAI发布GPT-5.2迎战Gemini，号称智能体编码最强，赶超人类专家，Altman料1月解除红色警报</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3019584" target="_blank" class="news-link">黄仁勋奥特曼等八人获《时代》年度人物：人类将共同决定AI未来形态</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3819048_101_1" target="_blank" class="news-link">黄仁勋奥特曼等八人获《时代》年度人物：人类将共同决定Ai未来形态</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8p1EpDusf8A" target="_blank" class="news-link">特朗普破大妨：美国AI电力遥遥领先，都归功于我</a> [12] <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2227268" target="_blank" class="news-link">美联储重新任命11位地区联储主席 OpenAI发布更先进模型GPT-5.2 | 环球市场</a> [13] <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5133505" target="_blank" class="news-link">智慧互通：押注高精度AI深水区，业务结构优化、财务状况稳健、订单趋势良好</a> [15] <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E4%B9%9F%E8%83%BD%E7%A7%92%E5%8F%98AI%E6%89%8B%E6%9C%BA%23&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">你的手机也能秒变AI手机</a> [15] <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/oracle-cant-escape-openais-shadow-831e5da7" target="_blank" class="news-link">甲骨文难以摆脱OpenAI的阴影</a> [17] <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b106c-934a-7444-9406-ea6b48bfe10d" target="_blank" class="news-link">CHINA LAUNCHES 16 LEO SATELLITE-INTERNET UNITS FROM HAINAN</a> [19] <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b1063-47d1-7444-9406-ce9374ce7544" target="_blank" class="news-link">CHINA&#x27;S SINOGRAIN: TO AUCTION 513,900 METRIC TONS OF IMPORTED SOYBEANS ON DEC 16</a> [23] <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/itelectric-appliance/60710-2025-12-12-09-48-05.html" target="_blank" class="news-link">台积电熊本第二工厂考虑改为生产AI尖端半导体</a> [24] <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7581081334851289129" target="_blank" class="news-link">前端玩转 AI 应用开发｜SSE 协议与JS中的流式处理🌊</a> [28] <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b1046-daa0-7444-9406-9208a7a41f97" target="_blank" class="news-link">China’s Last ‘Too-Big-to-Fail’ Housing Giant Loses State Support</a> [30]</div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.58%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/422.htm" target="_blank" class="news-link">12999 元：华为 MatePad Edge 液冷版开售，至高 28W 散热性能、32GB 内存 +2TB 存储空间</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7581973446574293028/" target="_blank" class="news-link">曝华为Mate 70系列销量突破千万台</a> [25] <font color='grey'>- 11时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1178479" target="_blank" class="news-link">Copilot 的 Claude Opus 4.5 模型 在未明显提示的情况下，调整额度消耗到 3x</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%85%A8%E9%9D%A2%E8%A7%A3%E6%9E%90ChatGPT5.2" target="_blank" class="news-link">全面解析ChatGPT5.2</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/400.htm" target="_blank" class="news-link">英伟达否认“DeepSeek 使用禁售 Blackwell 芯片”相关传闻</a> [17] <font color='grey'>- 11时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
