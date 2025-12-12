@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 227</p><p>生成时间: 2025-12-12 20:53:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">6.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46242871" target="_blank" class="news-link">After 27 years within budget Austria open 6thlongest railway tunnel in the world</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b128b-df07-7444-940d-c79c5ac8b522" target="_blank" class="news-link">&lt;b&gt;PBOC: COMMITTED TO MAINTAINING STABLE FINANCIAL MARKETS&lt;/b&gt;</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761291" target="_blank" class="news-link">德银深度报告：真假AI泡沫，究竟谁在裸泳？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时53分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1178618" target="_blank" class="news-link">用 AI 工具制作了一档商业访谈节目: 硅基商谈</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b128b-3856-7444-940d-aea77dd46778" target="_blank" class="news-link">PBOC: TO MAINTAIN AMPLE LIQUIDITY AND KEEP FINANCING COSTS LOW WITH WELL-TIMED POLICY MEASURES</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b1284-c4bf-7444-940d-93cfef6a58ab" target="_blank" class="news-link">DEUTSCHE BANK RAISES BROADCOM TARGET PRICE TO $430 FROM $400</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b1282-1f00-7444-940d-885066724f5a" target="_blank" class="news-link">UKRAINE WOULD JOIN EU IN 2027 UNDER DRAFT PEACE PLAN - FT</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b127b-ed78-7444-940d-81677dae2b9f" target="_blank" class="news-link">TRUIST SECURITIES RAISES BROADCOM TARGET PRICE TO $500 FROM $365</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b1272-3ad0-7444-940d-7afcf105dcf1" target="_blank" class="news-link">BENCHMARK RAISES BROADCOM TARGET PRICE TO $485 FROM $385</a> [11] <font color='grey'>- 20时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b126a-24ea-7444-940d-66184667e2f4" target="_blank" class="news-link">PAKISTAN-BINANCE MOU AIMS TO TOKENIZE UP TO $2 BLN IN ASSETS, FINANCIAL INSTRUMENTS - STATEMENT</a> [14] <font color='grey'>- 20时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b1260-01e9-7444-940d-526a55b6235c" target="_blank" class="news-link">SHANGHAI FUTURES EXCHANGE: TO ADJUST TRANSACTION FEES FOR TIN CONTRACTS WITH DELIVERY IN JANUARY TO 6 YUAN PER LOT FROM DECEMBER 17</a> [16] <font color='grey'>- 20时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b125b-4f9d-7444-940d-415a5b74e59b" target="_blank" class="news-link">KREMLIN AIDE USHAKOV BELIEVES THAT PROCESS OF DISCUSSING US PEACE PROPOSALS WILL BE LENGTHY - RIA</a> [18] <font color='grey'>- 20时53分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85%E6%8A%A5%E9%81%93/20251212-%E7%BE%8E%E5%9B%BD%E7%94%B7%E4%B8%8Echatgpt%E9%95%BF%E8%81%8A%E6%95%B0%E6%9C%88%E5%90%8E%E5%BC%91%E6%AF%8D-%E5%AE%B6%E5%B1%9E%E6%8F%90%E5%91%8Aopenai" target="_blank" class="news-link">美国男与ChatGPT长聊数月后弑母 家属提告OpenAI</a> [20]</div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3019949" target="_blank" class="news-link">李东生：今年TCL研发费用预计将达到150亿元，“AI应用”将成为未来企业竞争的“胜负手”</a> [23] <font color='grey'>- 20时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3019941" target="_blank" class="news-link">印度暂无计划对电影制作中人工智能的使用进行监管。</a> [27] <font color='grey'>- 20时53分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
