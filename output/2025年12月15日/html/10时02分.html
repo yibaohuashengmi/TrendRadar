@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 328</p><p>生成时间: 2025-12-15 10:02:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">20</td>
+                <td class="percentage">6.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/openai-ends-vesting-cliff-for-new-employees-in-compensation-policy-change-88eece3e" target="_blank" class="news-link">OpenAI调整薪酬政策，取消新员工股权归属等待期</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958235" target="_blank" class="news-link">AI的最终影响是：社会主义全球化？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/987.htm" target="_blank" class="news-link">从 ChatGPT 画素材到 Claude 写代码，新游《Codex Mortis》宣称 100% 由 AI 造</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761384" target="_blank" class="news-link">估值100亿美元，AI数据中心运营商Rowan考虑融资或出售</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b1fab-edd9-7444-9414-e76773c024e7" target="_blank" class="news-link">A-SHARE DEFENSE EQUIPMENT SECTOR DIPS; AVIAITON TECHNICAL DROPS OVER 6%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761382" target="_blank" class="news-link">广告公司“咸鱼翻身”成了AI收益股？“AI颠覆行业，但并没有去中介化”</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761380" target="_blank" class="news-link">CDS交易量几乎翻倍！投资者寻求对冲“AI债务风险”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761381" target="_blank" class="news-link">在Polymarket上押注“OpenAI发布新模型”，市场质疑存在“内部人交易”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202512/1559821.html" target="_blank" class="news-link">陈国祥：让全民共享AI发展成果</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46268452" target="_blank" class="news-link">AI agents are starting to eat SaaS</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b1fa6-d674-7444-9414-a2ebf5e2bcf7" target="_blank" class="news-link">CHINA’S BUREAU OF STATISTICS: SHANGHAI NOV NEW HOUSE PRICE IS +5.1% YOY, PRIOR +5.7%</a> [13] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/969.htm" target="_blank" class="news-link">微软 Copilot AI 应用登陆 LG 电视，且无法卸载</a> [17] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b1fa4-dab1-7444-9414-787c6e213e22" target="_blank" class="news-link">China Vanke Vows to Improve Bond Delay Plan After Failed Vote</a> [18] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46268709" target="_blank" class="news-link">If AI replaces workers, should it also pay taxes?</a> [18] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/963.htm" target="_blank" class="news-link">微软借旗下 iOS 应用更新日志推广 Copilot：标注“由 AI 生成”</a> [22] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b1f9e-5eb8-7444-9414-55a16ffbb9b4" target="_blank" class="news-link">AT OPEN, SHANGHAI COMPOSITE DOWN 0.62%, SHENZHEN COMPONENT DOWN 0.81%, CHINEXT FALLS 1.16%</a> [23] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46268844" target="_blank" class="news-link">Microsoft Copilot AI Comes to LG TVs, and Can&#x27;t Be Deleted</a> [23] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b1f9e-4bd8-7444-9414-4f122c7e733e" target="_blank" class="news-link">Chinese EV Makers Ignite Fierce Price War in Thailand</a> [24] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46268585" target="_blank" class="news-link">Microsoft AI</a> [24] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46268055" target="_blank" class="news-link">Ask HN: Is starting a personal blog still worth it in the age of AI?</a> [28] <font color='grey'>- 10时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761379" target="_blank" class="news-link">启动投行遴选，Space X开始准备明年“超级IPO”，谷歌是重要股东？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/968.htm" target="_blank" class="news-link">谷歌为 Pixel 9 Pro Fold 折叠屏手机下放 Pixel 10 系列同款分屏拍照功能</a> [18] <font color='grey'>- 10时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/983.htm" target="_blank" class="news-link">华为 nova 15 Ultra 新机亮相：横向双环镜组 + 15 号色设计，易烊千玺代言</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/904/978.htm" target="_blank" class="news-link">华为 nova 15 系列新品发布会定档 12 月 22 日</a> [11] <font color='grey'>- 10时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3020535" target="_blank" class="news-link">【恒指低开1%，恒生科技指数跌1.3%】京东健康跌近6%，百度跌超3%，理想汽车、阿里巴巴跌超2%。</a> [17] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> [23] <font color='grey'>- 10时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46268222" target="_blank" class="news-link">Claude CLI deleted my home directory Wiped my whole Mac</a> [16] <font color='grey'>- 10时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
