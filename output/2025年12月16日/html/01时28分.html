@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 121</p><p>生成时间: 2025-12-16 01:28:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">10.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3021118" target="_blank" class="news-link">OpenAI聘请谷歌高管，负责主导并购业务。（The Information）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46276740" target="_blank" class="news-link">Pro-democracy HK tycoon Jimmy Lai convicted in national security trial</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1179111" target="_blank" class="news-link">[独立开发] 写了个 AI 养鱼助手 (TankMate AI)，尝试替代 15 年没更新的 AqAdvisor</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b230c-abca-7444-941f-d78fcd801ffc" target="_blank" class="news-link">ELON MUSK AND XAI UNVEIL &quot;LYNX&quot; CHATBOT TO COMPLEMENT GROK - NEW AI PLATFORM WILL BE MORE FOCUSED ON BLOCKCHAIN ANALYSIS AND DIGITAL ASSET INTELLIGENCE</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b22fc-5300-7444-941f-bc40e310134d" target="_blank" class="news-link">RUSSIA REPORTEDLY BE OK WITH UKRAINE JOINING THE EU, PER POLITICO</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b22fb-010d-7444-941f-a81dbf696f2f" target="_blank" class="news-link">OPENAI IS HIRING ALBERT LEE AS HEAD OF CORPORATE DEVELOPMEN- THE INFORMATION</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b22fa-c553-7444-941f-a010f13e2915" target="_blank" class="news-link">FITCH RATINGS: U.S. BANKS&#x27; NDFI LENDING GROWTH RAISES RISKS AT SMALLER LENDERS</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b22fa-16ea-7444-941f-984ef0cdf914" target="_blank" class="news-link">OPENAI HIRES AN EXECUTIVE FROM GOOGLE TO LEAD M&amp;A- THE INFORMATION</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b22f9-e56d-7444-941f-95bdf83a5d27" target="_blank" class="news-link">ZELENSKIY SAYS ISSUES OF THE TERRITORIES ARE PAINFUL&lt;br/&gt;&lt;br/&gt;ZELENSKIY SAYS HE BELIEVES U.S. WILL HELP TO FIND COMPROMISE, ACTING AS MEDIATOR</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3823030_101_1" target="_blank" class="news-link">OpenAI聘请谷歌高管，负责主导并购业务。</a> [11] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b22ec-2251-7444-941f-6aa5bfb6060f" target="_blank" class="news-link">U.S. OIL FUTURES FALL BY $1 AS RUSSIA-UKRAINE PEACE TALKS PROGRESS</a> [15] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251216004022333800" target="_blank" class="news-link">摩根大通：甲骨文激进AI投入引发债市担忧</a> [23] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46276851" target="_blank" class="news-link">Podcast industry under siege as AI bots flood airways with programs</a> [30] <font color='grey'>- 01时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
