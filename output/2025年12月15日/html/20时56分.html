@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 215</p><p>生成时间: 2025-12-15 20:56:25</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">6.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2213-2f7a-7444-941c-03109b4d8038" target="_blank" class="news-link">SPOT SILVER SURGES $2 INTRADAY, RECLAIMS $64 AN OUNCE, UP 3.23%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2206-4765-7444-941b-f4d3a0b9d20a" target="_blank" class="news-link">CITI SETS 2026 S&amp;P 500 TARGET AT 7,700, SEES AI AS KEY THEME</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2200-bbdf-7444-941b-ec895739efda" target="_blank" class="news-link">Tencent Seen as Resilient AI Proxy With Long-Term Upside, DBS Says</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3021002" target="_blank" class="news-link">花旗：将标普500指数2026年目标定为7700点，预计AI仍将是关键主题。预计，在牛市情景下，标普500指数可能升至8300点，而在熊市情景下则可能跌至5700点。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251215204232786800" target="_blank" class="news-link">花旗将2026年标普500指数目标定为7700点，料人工智能仍将是关键主题</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b21ed-b1c9-7444-941b-de60594c7b92" target="_blank" class="news-link">WEDBUSH RAISES MICRON TECHNOLOGY TARGET PRICE TO $300 FROM $220</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251215203744718800" target="_blank" class="news-link">人工智能药物研发公司Chai Discovery融资1.3亿美元</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b21e8-4a68-7444-941b-c9b4927953d5" target="_blank" class="news-link">OpenAI-Backed Chai Discovery Raises $130 Million for AI-Designed Molecules</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b21e7-4c26-7444-941b-c0b03e2cf9a6" target="_blank" class="news-link">FITCH RATINGS MAINTAINS DETERIORATING OUTLOOK FOR GLOBAL CHEMICALS ON OVERCAPACITY</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5135110" target="_blank" class="news-link">中钨高新(000657.SZ)：控股子公司拟投资新建AI PCB用超长径精密微型刀具专用生产线</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/168.htm" target="_blank" class="news-link">电视秒变 AI 智慧屏：TUDOO Tbox AI 主机发布，首发价 1499 元</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b21d6-4a97-7444-941b-943af2d6f83e" target="_blank" class="news-link">TD COWEN RAISES JPMORGAN TARGET PRICE TO $375 FROM $370</a> [15] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b21c2-d796-7444-941b-7552f24595ba" target="_blank" class="news-link">THE AMERICAN DELEGATION IN BERLIN INSISTS THAT UKRAINE SURRENDER DONBASS – REPORTS</a> [19] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46272921" target="_blank" class="news-link">Copywriters reveal how AI has decimated their industry</a> [29] <font color='grey'>- 20时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46273466" target="_blank" class="news-link">I&#x27;m Kenyan. I Don&#x27;t Write Like ChatGPT. ChatGPT Writes Like Me</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/174.htm" target="_blank" class="news-link">华为祭出百万级奖励，这些鸿蒙应用路子对了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
