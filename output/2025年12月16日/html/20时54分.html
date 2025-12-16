@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 225</p><p>生成时间: 2025-12-16 20:54:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">6.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761495" target="_blank" class="news-link">高盛亚洲调研：AI狂热之下供应链的真实温差</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761492" target="_blank" class="news-link">“坚定持有AI赢家，别轮换”！摩根大通硬件团队：2026年“网络”增长将超越“算力”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2719-f1cf-7444-9428-d3dc3952df35" target="_blank" class="news-link">NEEDHAM RAISES MICRON TECHNOLOGY TARGET PRICE TO $300 FROM $200</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2716-0ee5-7444-9428-ca639da20378" target="_blank" class="news-link">Morgan Stanley Climbs Debt Rankings as Go-To Bank for AI Bonanza</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2712-7cbf-7444-9428-c5ed384f356e" target="_blank" class="news-link">MIZUHO RAISES TESLA TARGET PRICE TO $530 FROM $475</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b270e-aa16-7444-9428-bee8e4e09899" target="_blank" class="news-link">MIZUHO RAISES MICROCHIP TECHNOLOGY TARGET PRICE TO $80 FROM $75</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b270e-40c8-7444-9428-b7fcf04dffc5" target="_blank" class="news-link">MIZUHO RAISES GM TARGET PRICE TO $90 FROM $78</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2706-9b81-7444-9428-a7a8e8d27819" target="_blank" class="news-link">BMO RAISES ALPHABET TARGET PRICE TO $343 FROM $340</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2706-4f6f-7444-9428-9d817d71b354" target="_blank" class="news-link">BMO RAISES AMAZON TARGET PRICE TO $304 FROM $300</a> [11] <font color='grey'>- 20时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b26fe-1c7c-7444-9428-947fda7b3e6c" target="_blank" class="news-link">EU&#x27;S KALLAS: CLAIMS COMMISSION SENDS MESSAGE TO FUTURE AGGRESSORS - IF YOU START A WAR YOU WILL BE HELD TO ACCOUNT</a> [12] <font color='grey'>- 20时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/470.htm" target="_blank" class="news-link">豆包 AI 手机恢复销售，重启 F 码候补申请通道</a> [14] <font color='grey'>- 20时54分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46286383" target="_blank" class="news-link">VS Code deactivates IntelliCode in favor of the paid Copilot</a> [18] <font color='grey'>- 20时54分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46226779" target="_blank" class="news-link">Be Careful with GIDs in Rails</a> [19] <font color='grey'>- 20时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/447.htm" target="_blank" class="news-link">1399 → 1258 元：苹果 AirPods 4 主动降噪版再度支持国补</a> [27] <font color='grey'>- 20时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/thedotmack/claude-mem" target="_blank" class="news-link">thedotmack / claude-mem</a> <font color='red'><strong>[4]</strong></font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1179310" target="_blank" class="news-link">阿里巴巴 CosyVoice3-0.5b 开源了! 现邀请你来体验我做的 Windows 端本地 TTS 工具 3s 音频即可复刻音色 4gb 低显存占用!</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
