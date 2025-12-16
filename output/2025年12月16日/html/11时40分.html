@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 306</p><p>生成时间: 2025-12-16 11:40:24</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">3.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1179169" target="_blank" class="news-link">求推荐美观、功能全的 vue AI chat 组件</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/296.htm" target="_blank" class="news-link">挑战英伟达：谷歌携手联发科加速量产 AI 芯片，TPU v7e 订单直接翻倍</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1179160" target="_blank" class="news-link">想搞个 AI 电商客服，求 V 友们给建议</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3761448" target="_blank" class="news-link">“AI基建”遭重创，博通，甲骨文三天跌超17%，CoreWeave3个月几近“腰斩”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3761403" target="_blank" class="news-link">大摩重磅机器人年鉴（一）：AI走向实体化，机器人迎来寒武纪大爆发，中国领先优势明显</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1982854147905691963" target="_blank" class="news-link">你如何看待 DeepMind CEO 说「中国 AI 毫无创新但跟进速度可怕」？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3823688_100_1" target="_blank" class="news-link">【行情】日经225指数下跌1%，此前人工智能股票在关注美国就业数据公布之际下滑。</a> <font color='red'><strong>[8 - 28]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/%E4%B8%AD%E5%9B%BDai%E8%8A%AF%E7%89%87%E5%88%9D%E5%88%9B%E4%BC%81%E4%B8%9A%E6%B2%90%E6%9B%A6%E8%82%A1%E4%BB%BDipo%E7%AD%B9%E8%B5%84%E8%BF%916%E4%BA%BF%E7%BE%8E%E5%85%83-b1deafc4" target="_blank" class="news-link">中国AI芯片初创企业沐曦股份IPO筹资近6亿美元</a> [13] <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/272.htm" target="_blank" class="news-link">消息称苹果携手博通自研 AI 服务器芯片：专注推理、台积电 3nm 工艺，有望 2027 年部署</a> [14] <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2501-58a1-7444-9424-1a96ec9f3f9d" target="_blank" class="news-link">CoreWeave Loses $33 Billion as AI Bubble Fears and Data-Center Delays Mount</a> [16] <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3823651_100_1" target="_blank" class="news-link">据备忘录显示，高盛重塑TMT投资部门，侧重数字基础设施和AI交易。</a> [18] <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b24e3-63ef-7444-9423-cd9763825dfd" target="_blank" class="news-link">SHANGHAI COMPOSITE INDEX DOWN OVER 1%</a> [26] <font color='grey'>- 11时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">0.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/298.htm" target="_blank" class="news-link">消息称鸿蒙智行开启 L3 级有条件自动驾驶内测，华为员工携自购 2025 款问界 M9 与尊界 S800 参与</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/293.htm" target="_blank" class="news-link">华为何刚透露 nova 15 系列新机有“双份惊喜”，网友猜测包括前后双红枫镜头</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3021363" target="_blank" class="news-link">余承东有新职务！已任华为终端公司董事长</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3021337" target="_blank" class="news-link">恒生科技指数日内跌幅扩大至2%，恒指跌1.7%。商汤、小鹏汽车、阿里巴巴跌超3%。</a> [20] <font color='grey'>- 11时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
