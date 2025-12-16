@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 316</p><p>生成时间: 2025-12-16 09:59:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">4.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b24c6-ad75-7444-9423-5c2c97964b2b" target="_blank" class="news-link">&lt;b&gt;A-SHARE AUTO MAKERS OPEN HIGHER, BAIC BLUEPARK HITS LIMIT UP AT OPEN&lt;/b&gt;</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958244" target="_blank" class="news-link">AI读完了整个互联网，为什么还不如一只猫？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b24c3-a8a5-7444-9423-3f4ac658babe" target="_blank" class="news-link">AT OPEN, SHANGHAI COMPOSITE INDEX DOWN 0.17%, SHENZHEN COMPONENT INDEX FELL 0.21%, CHINEXT INDEX DECLINED 0.23%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761448" target="_blank" class="news-link">“AI基建”遭重创，博通，甲骨文三天跌超17%，CoreWeave3个月几近“腰斩”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b24b0-374d-7444-9423-1a6953ad6d39" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX OPENED DOWN 0.83%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2230174" target="_blank" class="news-link">哪里有AI，哪里就有资金，谁在担心泡沫？</a> [12] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958241" target="_blank" class="news-link">比特币 vs AI</a> [13]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b249a-b37a-7444-9422-fde7ef2bb2dd" target="_blank" class="news-link">Gold Steadies After Five-Day Rally as Investors Await Jobs Data</a> [14] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958240" target="_blank" class="news-link">“谷歌链”，“OpenAI链”双双遭重创！</a> [14] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/238.htm" target="_blank" class="news-link">微软推送 Win11 Canary 28020.1362 预览版：解禁全屏掌机模式，升级 AI 交互等</a> [17] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/233.htm" target="_blank" class="news-link">WWDC 2026 前瞻：苹果 iOS 27 功能清单曝光，扩展健康服务 + 增强 Siri AI 技能</a> [21] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46280080" target="_blank" class="news-link">A quarter of US-trained scientists eventually leave</a> [21] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/231.htm" target="_blank" class="news-link">加码开源技术，英伟达收购 AI 软件公司 SchedMD</a> [23] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BD%A0%E4%BF%A1%E4%BB%BB%E7%9A%84%E8%A3%85%E4%BF%AE%E5%8D%9A%E4%B8%BB%E5%8F%AF%E8%83%BD%E6%98%AFAI%E5%A4%AB%E5%A6%BB%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">你信任的装修博主可能是AI夫妻</a> [26] <font color='grey'>- 09时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">4</td>
+                <td class="percentage">1.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/255.htm" target="_blank" class="news-link">比亚迪 11 月辅助驾驶车型销售超 31 万辆，覆盖天神之眼 A / B / C、华为乾崑智驾系统</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/239.htm" target="_blank" class="news-link">消息称北汽极狐 L3 试点车采用华为第一代 ADS 方案：400T 算力 + 3 颗主激光雷达</a> [16] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/236.htm" target="_blank" class="news-link">华为 Mate X2 系列折叠屏手机获 HarmonyOS 4.2.0.182 升级，发布距今快五年</a> [18] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/232.htm" target="_blank" class="news-link">科技昨夜今晨 1216：我国首批 L3 级自动驾驶车型获得准入许可；华为鸿蒙装机量破 3000 万；比亚迪“海洋 8 系双旗舰”官宣...</a> [22] <font color='grey'>- 09时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">0.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/251.htm" target="_blank" class="news-link">因“缺乏实效”，谷歌 2026 年 1 月起不再为你扫描暗网数据</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958243" target="_blank" class="news-link">英伟达：比谷歌TPU领先2年！</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761453" target="_blank" class="news-link">博通三天重挫17.7%，“谷歌链”核心遭遇2020年来最惨暴击</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3021306" target="_blank" class="news-link">恒指跌超1%，阿里巴巴跌超3%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3021276" target="_blank" class="news-link">恒生指数低开0.32%，报25547.92点；恒生科技指数跌0.56%。小鹏汽车、百度、小米、阿里巴巴等跌超1%。</a> [19] <font color='grey'>- 09时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
