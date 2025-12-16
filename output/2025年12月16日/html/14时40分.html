@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 181</p><p>生成时间: 2025-12-16 14:40:28</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">4.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3021457" target="_blank" class="news-link">韦氏词典将表示AI劣质内容的“slop”评为年度热词</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3021455" target="_blank" class="news-link">中国信通院建设的人工智能产品安全漏洞专业库（CAIVD）上线运行</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/345.htm" target="_blank" class="news-link">为 AI 量身定做的编程语言：粋 (Sui) 宣称可实现代码 100% 精确</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/344.htm" target="_blank" class="news-link">OpenAI 通信一把手 Hannah Wong 明年交棒，曾主导化解“奥尔特曼被罢免”公关危机</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3021453" target="_blank" class="news-link">工信部原副部长王江平：AI科学发现存在“堰塞湖”困境</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b25a9-2e57-7444-9425-12c942cfbcf4" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX CLOSED DOWN 1.19%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/338.htm" target="_blank" class="news-link">韦氏词典官宣：slop（AI 恶劣内容）当选 2025 年度词汇</a> [12] <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/336.htm" target="_blank" class="news-link">用 AI 从零设计抗体，OpenAI 支持的 Chai Discovery 获 1.3 亿美元融资</a> [14] <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46225406" target="_blank" class="news-link">Debugging TLS failures in distroless containers</a> [16] <font color='grey'>- 14时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">4</td>
+                <td class="percentage">2.21%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BD%99%E6%89%BF%E4%B8%9C%E4%BB%BB%E5%8D%8E%E4%B8%BA%E7%BB%88%E7%AB%AF%E5%85%AC%E5%8F%B8%E8%91%A3%E4%BA%8B%E9%95%BF%23&amp;t=31&amp;band_rank=4&amp;Refer=top" target="_blank" class="news-link">余承东任华为终端公司董事长</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7583247187376504868/" target="_blank" class="news-link">孟晚舟卸任华为终端公司董事</a> [14] <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AD%9F%E6%99%9A%E8%88%9F%E5%8D%B8%E4%BB%BB%E5%8D%8E%E4%B8%BA%E7%BB%88%E7%AB%AF%E5%85%AC%E5%8F%B8%E8%91%A3%E4%BA%8B" target="_blank" class="news-link">孟晚舟卸任华为终端公司董事</a> [21] <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BD%99%E6%89%BF%E4%B8%9C%E4%BB%BB%E5%8D%8E%E4%B8%BA%E7%BB%88%E7%AB%AF%E5%85%AC%E5%8F%B8%E8%91%A3%E4%BA%8B%E9%95%BF" target="_blank" class="news-link">余承东任华为终端公司董事长</a> [22] <font color='grey'>- 14时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">1.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/341.htm" target="_blank" class="news-link">阿里发布万相 2.6 系列模型，上线国内首个角色扮演功能</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5135344" target="_blank" class="news-link">阿里发布电影级视频模型万相2.6，人人都能当电影主角</a> [14] <font color='grey'>- 14时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8p87L7ByRCW" target="_blank" class="news-link">“俄版谷歌”，正帮中国商人大赚</a> [11] <font color='grey'>- 14时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
