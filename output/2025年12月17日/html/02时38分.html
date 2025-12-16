@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 95</p><p>生成时间: 2025-12-17 02:38:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">13.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1179345" target="_blank" class="news-link">我把 AI 用到了爬虫上，做了一款工具</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251217021028425800" target="_blank" class="news-link">OpenAI：全新图像模型和功能今日已在ChatGPT中面向所有用户推出，并作为GPT Image 1.5在API中上线。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3021857" target="_blank" class="news-link">特朗普政府威胁欧盟：美国要在数字税问题上报复西门子、Sap、Mistral AI等欧洲公司</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2862-5b98-7444-942e-65f8bbee7ac9" target="_blank" class="news-link">U.S. Lawmaker Questions H200 Chip Sales to China Amid Huawei AI Concerns</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b285b-5469-7444-942e-4013c81c115c" target="_blank" class="news-link">OEPNAI: NEW IMAGES MODEL AND FEATURE ARE ROLLING OUT TODAY IN CHATGPT FOR ALL USERS, AND IN THE API AS GPT IMAGE 1.5.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251217015359218800" target="_blank" class="news-link">OpenAI聘请前英国财相领导“星际之门”全球扩张计划</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2857-5788-7444-942e-187d4cc57388" target="_blank" class="news-link">OpenAI Updates ChatGPT to Improve Image Generation Speed and Precision</a> [14] <font color='grey'>- 02时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2856-2271-7444-942e-0a7c82bf9056" target="_blank" class="news-link">U.S. TRADE REPRESENTATIVE: IF EU AND EU MEMBER STATES CONTINUE TO RESTRICT COMPETITIVENESS OF U.S. DIGITAL SERVICE PROVIDERS, THE U.S. WILL USE EVERY TOOL AVAILABLE TO COUNTER THESE MEASURES</a> [16] <font color='grey'>- 02时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2853-35cd-7444-942d-efd982f8fa9f" target="_blank" class="news-link">&lt;b&gt;OPENAI RELEASES NEW VERSION OF CHATGPT IMAGES&lt;/b&gt;</a> [20] <font color='grey'>- 02时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2851-bdca-7444-942d-db5a69bbd2e6" target="_blank" class="news-link">CHINA DEMANDS COSCO GET MAJORITY STAKE IN PANAMA PORTS DEAL: WSJ &lt;br/&gt;&lt;br/&gt;BEIJING AIMS TO INCLUDE PANAMA PORTS IN U.S.-CHINA TRADE NEGOTIATIONS, OFFICIAL SAYS: WSJ &lt;br/&gt;&lt;br/&gt;TRUMP WHITE HOUSE SIGNALS NEW DEMANDS FROM CHINA ARE UNACCEPTABLE: WSJ</a> [22] <font color='grey'>- 02时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b284a-885c-7444-942d-d1c3110e6f36" target="_blank" class="news-link">TESLA: HARDLY POSSIBLE TO PRODUCE CELLS ECONOMICALLY IN EUROPE, IF CONDITIONS ARE RIGHT ENTIRE BATTERY VALUE CHAIN COULD TAKE PLACE IN GRUENHEIDE PLANT</a> [23] <font color='grey'>- 02时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b283a-6582-7444-942d-a6ace99a8a4f" target="_blank" class="news-link">OpenAI Appoints George Osborne to Lead Global Stargate Expansion</a> [29] <font color='grey'>- 02时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2838-ea45-7444-942d-9f89efae4b6f" target="_blank" class="news-link">&lt;b&gt;OPENAI HIRES GEORGE OSBORNE TO SPEARHEAD GLOBAL ‘STARGATE’ EXPANSION - FT&lt;/b&gt;</a> [30] <font color='grey'>- 02时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">2.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251217021002477800" target="_blank" class="news-link">美国贸易代表：迄今为止享有市场准入的一些最大欧盟服务提供商包括埃森哲、阿马迪斯（Amadeus）、凯捷（Capgemini）、敦豪（DHL）、Mistral、阳狮集团（Publicis）、SAP、西门子和Spotify。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2859-adcc-7444-942e-348bd01b8de2" target="_blank" class="news-link">U.S. TRADE REPRESENTATIVE: SOME OF THE LARGEST EU SERVICE PROVIDERS THAT HAVE HITHERTO ENJOYED MARKET ACCESS INCLUDE ACCENTURE, AMADEUS, CAPGEMINI, DHL, MISTRAL, PUBLICIS, SAP, SIEMENS, AND SPOTIFY</a> [11]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
