@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 201</p><p>生成时间: 2025-12-17 15:27:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">6.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761553" target="_blank" class="news-link">95后“AI天才”罗福莉首秀：中国模型距顶尖差距从三年缩至数月！她出身农村普通家庭，曾被雷军千万元年薪挖角</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1179480" target="_blank" class="news-link">让 AI 一键读取蓝湖产品文档</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/697.htm" target="_blank" class="news-link">Geekbench 基准测试显示 AMD 锐龙 AI 7 445 处理器采用 2+4 核 CPU 设计</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761547" target="_blank" class="news-link">亚马逊洽谈投资OpenAI超100亿美元，协议包含使用AWS芯片</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2b1e-7013-7444-9433-5bcd47662817" target="_blank" class="news-link">AT CLOSE, SHANGHAI COMPOSITE INDEX UP 1.19%, SHEN ZHEN COMPONENT INDEX UP 2.4%, CHINEXT INDEX UP 3.39%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3022229" target="_blank" class="news-link">百度升级发布文心健康管家 推原子计划开放AI能力</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/692.htm" target="_blank" class="news-link">教育部：试点探索 AI 在日常考试命题、组卷、阅卷、分析等关键环节的场景应用</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2b1c-3d7a-7444-9433-42fbe1aa14c6" target="_blank" class="news-link">&lt;b&gt;HKEX FILING: SHANGHAI BIREN TECHNOLOGY PASSES LISTING HEARING&lt;/b&gt;</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/689.htm" target="_blank" class="news-link">百姓“平摊”AI 耗电账单，数据称美国数据中心密集区电价五年暴涨 267%</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5136128" target="_blank" class="news-link">全球算力版图第三极：沙特AI热潮中的联想样本</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2b1b-f2df-7444-9433-224fc6b1c45a" target="_blank" class="news-link">Core Retail Price Index (YoY) (Nov)</a> [13] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2b1b-f2d2-7444-9433-1ac022673f2c" target="_blank" class="news-link">Retail Price Index (MoM) (Nov)</a> [14] <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2b1b-f281-7444-9433-171581f9b21e" target="_blank" class="news-link">Retail Price Index (YoY) (Nov)</a> [15] <font color='grey'>- 15时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1179482" target="_blank" class="news-link">Gemini 3 Flash 要来了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时27分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1179477" target="_blank" class="news-link">整理了 4100+ 条 Kaggle Gemini 3 竞赛的 Writeups, 做了个浏览工具</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
