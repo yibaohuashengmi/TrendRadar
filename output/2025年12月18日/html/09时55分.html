@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 333</p><p>生成时间: 2025-12-18 09:55:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">33</td>
+                <td class="percentage">9.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5136837" target="_blank" class="news-link">多模态AI企业智象未来近日完成A+轮融资</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2f19-ea65-7dd1-89a0-731467061852" target="_blank" class="news-link">A-SHARE PHOTOLITHOGRAPHY SECTOR RISES, KINGLAI HYGIENIC MATERIALS UP OVER 6%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761607" target="_blank" class="news-link">AI新子弹要来了！报道称OpenAI正探讨“数百亿甚至1000亿美元融资”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958257" target="_blank" class="news-link">不只是股市，AI已是美国债市“核心动力”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958256" target="_blank" class="news-link">AI和人类的本质区别：一次性产品、出厂即定型</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2f13-d24b-7dd1-89a0-5a6ceae97fe9" target="_blank" class="news-link">SHANGHAI-LISTED SHARES OF CICC SET TO OPEN UP BY DAILY LIMIT OF 10%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2232914" target="_blank" class="news-link">AI引爆存储需求！美光业绩、指引双双爆表 盘后股价涨超7%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/884.htm" target="_blank" class="news-link">消息称 OpenAI 拟以 7500 亿美元估值融资数百亿美元</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2f10-b3da-7dd1-89a0-4be25022a398" target="_blank" class="news-link">AT OPEN, SHANGHAI COMPOSITE INDEX DOWN 0.34%, SHENZHEN COMPONENT INDEX DOWN 0.85%, CHINEXT DOWN 1.17%</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251218091357602800" target="_blank" class="news-link">OpenAI董事长布雷特·泰勒表示，该公司的发展受限于算力资源的获取。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2232894" target="_blank" class="news-link">12月18日投资避雷针：AI龙头抛售潮持续 英伟达、谷歌跌超3%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3827853_101_1" target="_blank" class="news-link">英伟达CEO黄仁勋表态支持人工智能监管。</a> <font color='red'><strong>[6 - 26]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251218090821652800" target="_blank" class="news-link">英伟达CEO黄仁勋：支持人工智能监管。</a> [11] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46307055" target="_blank" class="news-link">Explaining the Widening Divides in US Midlife Mortality: Is There a Smoking Gun?</a> [11] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2f0b-7c2a-7dd1-89a0-346ed79dd59e" target="_blank" class="news-link">CHINA&#x27;S HAINAN FREE TRADE PORT&#x27;S FULL ISLAND CLOSURE OFFICIALLY START</a> [12] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.donga.com/cn/article/all/20251218/6017152/1" target="_blank" class="news-link">韩国研发新型人工智能系统，可识别手写数学答案并予以评分</a> [12] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761602" target="_blank" class="news-link">亚马逊重组AI团队，发力大模型、芯片和量子计算研究，CEO称“公司进入转折点”</a> [12] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/880.htm" target="_blank" class="news-link">OpenAI：即日起，开发者可向 ChatGPT 提交应用</a> [12] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7584807839307140654/" target="_blank" class="news-link">AI天才少女罗福莉小米首秀</a> [13] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3827819_100_1" target="_blank" class="news-link">腾讯大模型研发架构升级，成立AI Infra等多部门。</a> [13] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2f05-bcc1-7dd1-89a0-27457cb5cd46" target="_blank" class="news-link">&lt;b&gt;OPENAI CHAIRMAN BRET TAYLOR SAYS GROWTH OF THE COMPANY IS LIMITED BY ACCESS TO COMPUTE - FOX BUSINESS&lt;/b&gt;</a> [14] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251218090552054800" target="_blank" class="news-link">英伟达CEO黄仁勋：我们尚未向OpenAI支付一分钱。</a> [14] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2efd-6c50-7dd1-89a0-1319b6274c83" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX OPENED DOWN 0.47%</a> [16] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2efd-474a-7dd1-89a0-0988b14e4e7d" target="_blank" class="news-link">NVIDIA CEO JENSEN HUANG SAYS WE HAVE NOT GIVEN OPENAI A PENNY YET - FOX BUSINESS</a> [17] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3022704" target="_blank" class="news-link">英伟达CEO黄仁勋表态支持人工智能监管。（福克斯新闻）</a> [19] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2ef0-8684-7dd1-899f-e327045d7c14" target="_blank" class="news-link">OpenAI Explores Multi-Billion Funding at $750 Billion Valuation</a> [22] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3022705" target="_blank" class="news-link">英伟达CEO黄仁勋称公司尚未向 OpenAI 提供任何资金支持。（福克斯新闻）</a> [22] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3022701" target="_blank" class="news-link">“Physical AI第一股”五一视界在香港市场开启招股</a> [23] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2ee3-eb44-7dd1-899f-d2ae29a74632" target="_blank" class="news-link">OPENAI HAS DISCUSSED RAISING TENS OF BILLIONS AT VALUATION AROUND $750 BILLION: THE INFORMATION</a> [24] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2ee2-ee67-7dd1-899f-cc12e9c5e917" target="_blank" class="news-link">Gold Holds Near Record Amid Venezuela Tensions, Awaiting US Inflation Data</a> [25] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46303291" target="_blank" class="news-link">A16Z-backed Doublespeed hacked, revealing what its AI-generated accounts promote</a> [25] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/863.htm" target="_blank" class="news-link">马斯克放豪言：xAI 三年内将击败竞争对手，最快明年实现通用人工智能</a> [28] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/861.htm" target="_blank" class="news-link">Nova 系列模型拼不过竞品，亚马逊通用人工智能团队负责人即将离职</a> [30] <font color='grey'>- 09时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/882.htm" target="_blank" class="news-link">华为全新一代 MatePad 11.5 平板官宣：类自然光显示、小艺深度解题，12 月 22 日发布</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7584842544207953962/" target="_blank" class="news-link">小米、华为、理想先后报警 12人被抓</a> [17] <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/873.htm" target="_blank" class="news-link">华为家庭存储 HarmonyOS 6 图库协同功能将全面上线</a> [18] <font color='grey'>- 09时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761606" target="_blank" class="news-link">代号“TorchTPU”！谷歌与Meta携手复刻CUDA，进一步威胁英伟达</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3761601" target="_blank" class="news-link">12月18日会员早报：华纳拒绝派拉蒙敌意收购 谷歌Gemini发布新品</a> [13] <font color='grey'>- 09时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1179635" target="_blank" class="news-link">chatgpt 还是比豆包要聪明太多。。。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> [15] <font color='grey'>- 09时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
