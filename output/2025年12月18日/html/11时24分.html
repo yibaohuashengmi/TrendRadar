@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 312</p><p>生成时间: 2025-12-18 11:24:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">5.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1179687" target="_blank" class="news-link">用 AI 做了一个免费的英语练习工具</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2f67-3fae-7dd1-89a1-7f897b055973" target="_blank" class="news-link">Trump Administration Approves $10B+ Arms Sales to Taiwan</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2f65-18ea-7dd1-89a1-751651b4e239" target="_blank" class="news-link">CHINA&#x27;S CSI DEFENSE INDEX UP MORE THAN 2% TO TWO-MONTH HIGH AFTER US APPROVES $11.1 BILLION ARMS PACKAGE FOR TAIWAN</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20251218/1068966836.html" target="_blank" class="news-link">韩国官员：中国或成比美国更强大的AI竞争对手</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2f57-2997-7dd1-89a1-5e259c9a0b97" target="_blank" class="news-link">QATAR LOWERS FEBRUARY TERM PRICE FOR AL-SHAHEEN OIL TO 53 CENTS/BBL ABOVE DUBAI QUOTES, SOURCES SAY</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5136847" target="_blank" class="news-link">大行评级丨高盛：小米正快速发展其人工智能基础设施与应用能力 评级“买入”</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2f4e-2e0d-7dd1-89a1-4899a822f4bd" target="_blank" class="news-link">Trump to Announce Fed Chair, Housing Reforms, and Service Member Dividend</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2f42-67eb-7dd1-89a1-348725b3257d" target="_blank" class="news-link">Wall Street Awaits November CPI After Government Shutdown</a> [12] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3022785" target="_blank" class="news-link">字节宣布AI节省计划</a> [12] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2f41-9140-7dd1-89a1-2953709693a5" target="_blank" class="news-link">China Seeks to Mediate Thai-Cambodia Clash Trump Says He Ended</a> [13] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2f40-01a5-7dd1-89a1-21095407a052" target="_blank" class="news-link">TRUMP: NEW FED CHAIR WILL BELIEVE IN LOWER INTEREST RATES BY A LOT</a> [14]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2f3e-f585-7dd1-89a1-1a25a78d051b" target="_blank" class="news-link">TRUMP: SOON ANNOUNCE NEXT FED CHAIR</a> [15] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2f37-cc2c-7dd1-89a0-ef20afa81c1f" target="_blank" class="news-link">&lt;b&gt;U.S. APPROVES POTENTIAL $96 MILLION SALE OF AH-1W HELICOPTER PARTS TO TAIWAN&lt;br/&gt;&lt;br/&gt;U.S. APPROVES POTENTIAL $1.01 BILLION SALE OF TACTICAL MISSION NETWORK SYSTEMS TO TAIWAN&lt;br/&gt;&lt;/b&gt;</a> [21] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46303291" target="_blank" class="news-link">A16z-backed Doublespeed hacked, revealing what its AI-generated accounts promote</a> [28] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2f2c-790a-7dd1-89a0-a2c2cf04b490" target="_blank" class="news-link">ALPHABET CEO SUNDAR PICHAI SELLS 32,500 GOOGLE CLASS C SHARES</a> [30] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7582958136257413156" target="_blank" class="news-link">【AI编程】5分钟用Trae solo做出有BOSS战的《坦克大战》</a> [30] <font color='grey'>- 11时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">8</td>
+                <td class="percentage">2.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b2f62-9ff7-7dd1-89a1-6d6cd5dafc9f" target="_blank" class="news-link">SILVER MARKET CAP REACHES $3.752 TRILLION, SURPASSING GOOGLE TO BECOME WORLD’S FOURTH-LARGEST ASSET, BEHIND GOLD, NVIDIA, AND APPLE</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1179678" target="_blank" class="news-link">Gemini 学生 1 年优惠 弄不了了吗？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1179673" target="_blank" class="news-link">请教一个实操问题, 白嫖的 Gemini Pro 学生号如何使用 3.0 API</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202512/1860077.html" target="_blank" class="news-link">谷歌起诉中国网络诈骗团伙</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2232789" target="_blank" class="news-link">谷歌据悉联手Meta 强化TPU对PyTorch的支持 以挑战英伟达</a> [13] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251218105307391800" target="_blank" class="news-link">白银成全球第四大资产 市值超越谷歌</a> [14] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/904.htm" target="_blank" class="news-link">谷歌安卓 16 QPR3 有望解决原生长截图“一次截图，两份占用”问题</a> [17] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/china/story20251218-7981901" target="_blank" class="news-link">谷歌起诉中国网络诈骗团伙</a> [23] <font color='grey'>- 11时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1179647" target="_blank" class="news-link">ChatGPT: 我爱说实话。</a> [12] <font color='grey'>- 11时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7584842544207953962/" target="_blank" class="news-link">小米华为理想先后报警 12人被抓</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/905/918.htm" target="_blank" class="news-link">阿里千问 App 接入高德地图，开始具备物理世界的理解和行动能力</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
