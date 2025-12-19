@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 214</p><p>生成时间: 2025-12-19 12:37:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">5.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b34dd-8daa-7ffe-bcbe-caccfcd7271c" target="_blank" class="news-link">TD COWEN RAISES MICRON TARGET PRICE TO $300 FROM $275</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/906/248.htm" target="_blank" class="news-link">联想内部人士回应正与字节开展 AI 手机合作：一直保持密切沟通</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b34db-67b8-7ffe-bcbe-bdca91a0fe86" target="_blank" class="news-link">EVERGRANDE PROPERTY SERVICES - LIQUIDATORS HAVE RECEIVED UPDATED NON-BINDING INDICATIVE OFFERS FROM SELECTED BIDDERS&lt;br/&gt;&lt;br/&gt;EVERGRANDE PROPERTY SERVICES - LIQUIDATORS DO NOT INTEND TO CONSIDER ANY NEW NON-BINDING INDICATIVE OFFERS&lt;br/&gt;&lt;br/&gt;EVERGRANDE PROPERTY SERVICES - POTENTIAL TRANSACTION REMAINS AT A PRELIMINARY STAGE</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761699" target="_blank" class="news-link">字节跳动正推进与多家厂商的AI手机合作</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时37分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1179958" target="_blank" class="news-link">开源、轻量、自托管的 AI API 代理网关 Proxify 新增功能： IP/Token Auth + Model Map</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761690" target="_blank" class="news-link">Altman谈OpenAI：算力成收入最大瓶颈，只要算力翻倍，收入就能翻倍</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b34be-6c4b-7ffe-bcbe-7dfce3494330" target="_blank" class="news-link">&lt;b&gt;CHINA MOFCOM: CHINA&#x27;S RETAIL SALES FOR THE FIRST 11 MONTHS HIT 45.6 TRILLION YUAN, UP 4.0%&lt;/b&gt;</a> [12] <font color='grey'>- 12时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b34b8-e8d8-7ffe-bcbe-6b9dd703ddda" target="_blank" class="news-link">CHINA&#x27;S MEDICAL PRODUCTS ADMINISTRATION HOLDS BRAIN-MACHINE INTERFACE MEDICAL DEVICE MEETING TO ACCELERATE CLINICAL APPLICATION AND PATIENT BENEFITS</a> [14] <font color='grey'>- 12时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b34b6-9fa6-7ffe-bcbe-608b4fde6648" target="_blank" class="news-link">China&#x27;s Property Sector Likely to Remain Under Pressure in 2026: Morningstar</a> [15] <font color='grey'>- 12时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3023553" target="_blank" class="news-link">正与字节开展AI手机合作？联想内部人士：一直保持密切沟通</a> [16] <font color='grey'>- 12时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251219114005861800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2025-12-19）</a> [24] <font color='grey'>- 12时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/906/256.htm" target="_blank" class="news-link">用时 31 个月：ChatGPT 移动端全球累计吸金突破 30 亿美元大关，跑赢 TikTok 与多款流媒体应用</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1179956" target="_blank" class="news-link">[大模型微调实战] 16k 数据撬动 300 亿大模型！我用 Qwen3-VL 打造了一位“顶尖放射科医生”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
