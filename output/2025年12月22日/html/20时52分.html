@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 187</p><p>生成时间: 2025-12-22 20:52:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">6.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b4601-7de5-7ffe-bcd0-0e5338000f44" target="_blank" class="news-link">INITIAL SHIPMENTS OF NVIDIA&#x27;S H200 CHIPS TO CHINA EXPECTED TO BE AROUND 40,000 TO 80,000 UNITS, SOURCES SAY&lt;br/&gt;&lt;br/&gt;NVIDIA PLANS TO START FIRST SHIPMENTS OF H200 AI CHIPS TO CHINA BEFORE MID-FEBRUARY, SOURCES SAY</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958280" target="_blank" class="news-link">付鹏：如果AI被证伪，全球股市都将面临剧烈波动</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b45fe-fc47-7ffe-bcd0-06e48d7d3aec" target="_blank" class="news-link">WINGTECH CHAIR SAYS NEXPERIA DISPUTE RISKS DEEPER CHIP TURMOIL</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b45fe-e092-7ffe-bccf-fd824825917a" target="_blank" class="news-link">WINGTECH CHAIR REAFFIRMS DEMAND TO RESTORE CONTROL AT NEXPERIA</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b45f5-4c97-7ffe-bccf-f035ba49f85c" target="_blank" class="news-link">BENCHMARK RAISES HUT 8 CORP TARGET PRICE TO $85 FROM $78</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3024959" target="_blank" class="news-link">亿纬锂能投资10亿建设钠电总部，同步布局机器人AI中心</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/068.htm" target="_blank" class="news-link">亿纬锂能投资 10 亿建设钠电总部，同步布局机器人 AI 中心</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b45e3-c5f9-7ffe-bccf-d12a8a73c792" target="_blank" class="news-link">EU SPOKESPERSON ON CHINA IMPOSING PROVISIONAL DAIRY DUTIES: EU IS DOING EVERYTHING IT TAKES TO DEFEND EU FARMERS AND EXPORTERS</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b45e3-5d99-7ffe-bccf-cc16caa2d997" target="_blank" class="news-link">EU SPOKESPERSON ON CHINA IMPOSING PROVISIONAL DAIRY DUTIES: COMMISSION IS EXAMINING THE PRELIMINARY DETERMINATION AND WILL PROVIDE COMMENTS TO THE CHINESE AUTHORITIES</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b45e2-a61d-7ffe-bccf-c01e8c342257" target="_blank" class="news-link">EU SPOKESPERSON ON CHINA IMPOSING PROVISIONAL DAIRY DUTIES: WE TAKE NOTE OF THE ANNOUNCEMENT WITH CONCERN&lt;br/&gt;&lt;br/&gt;EU SPOKESPERSON: MEASURES ARE UNJUSTIFIED AND UNWARRANTED</a> [11]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b45d4-3e95-7ffe-bccf-b5e3bf7cf44a" target="_blank" class="news-link">CITIGROUP RAISES ALPHABET TARGET PRICE TO $350 FROM $343</a> [13] <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32225231" target="_blank" class="news-link">澎湃AI晚新闻丨2025年12月21日</a> [18] <font color='grey'>- 20时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">1.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/073.htm" target="_blank" class="news-link">华为 nova 15 系列手机全面搭载 HarmonyOS 6，不支持变更为 4 / 5 版本</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/069.htm" target="_blank" class="news-link">【视频】华为鸿蒙智家组合来了：前装后装各三种，应该怎么选？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/062.htm" target="_blank" class="news-link">启境首款“三百万”级猎装轿跑开启全国路测，华为靳玉志现身试驾</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7585693761532575778" target="_blank" class="news-link">也是吃上细糠了。用上了Claude Code的无限中转API</a> [27] <font color='grey'>- 20时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
