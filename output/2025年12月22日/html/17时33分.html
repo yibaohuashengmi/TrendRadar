@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 213</p><p>生成时间: 2025-12-22 17:33:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">6.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b455c-1aa1-7ffe-bcce-da903293f43f" target="_blank" class="news-link">ALIBABA LAUNCHES QWEN-IMAGE-LAYERED AI IMAGE GENERATION MODEL</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/022.htm" target="_blank" class="news-link">杨立昆寄语有志从事 AI 行业的学生：打好基础，用好时间</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b455b-c31f-7ffe-bcce-d709140f7d41" target="_blank" class="news-link">SHANGHAI INTERNATIONAL ENERGY EXCHANGE: TO WAIVE DELIVERY FEES FOR FUTURES CONTRACTS, HALVE FEES FOR HEDGING TRANSACTIONS, EXCLUDING HIGH-FREQUENCY TRADERS, FOR 2026</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3024853" target="_blank" class="news-link">南亚新材：拟定增募资不超过9亿元，用于基于AI算力的高阶高频高速覆铜板研发及产业化项目、补充流动资金。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b4555-81f4-7ffe-bcce-ba40ad52dff2" target="_blank" class="news-link">SHANGHAI FUTURES EXCHANGE: TO WAIVE DELIVERY FEES FOR FUTURES CONTRACTS, HALVE FEES FOR HEDGING TRANSACTIONS, EXCLUDING HIGH-FREQUENCY TRADERS, FOR 2026</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46345205" target="_blank" class="news-link">How I protect my Forgejo instance from AI web crawlers</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b4550-ac6b-7ffe-bcce-a23d7f1f731f" target="_blank" class="news-link">SHANGHAI STOCK EXCHANGE:MARKET TO CLOSE JAN 1–4; NORMAL TRADING RESUMES JAN 5</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3024838" target="_blank" class="news-link">夸克AI眼镜G1开启预售，最低1999元</a> [12] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46352004" target="_blank" class="news-link">I announced my divorce on Instagram and then AI impersonated me</a> [12] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b4549-9b77-7ffe-bcce-866dc620d441" target="_blank" class="news-link">DATAVAULT AI INC. ANNOUNCES ISSUANCE OF TWO FOUNDATIONAL U.S. PATENTS ADVANCING BLOCKCHAIN-DRIVEN CONTENT LICENSING AND TOKENIZED MONETIZATION</a> [14] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/832036454523011072" target="_blank" class="news-link">分析了2025年AI领域近800起融资案例之后发现……</a> [18] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b4532-747b-7ffe-bcce-5d1bdb40594d" target="_blank" class="news-link">GUANGZHOU COMMODITY EXCHANGE: TO WAIVE DELIVERY FEES, HALVE HEDGING TRADE TRANSACTION FEES FOR ALL FUTURES AND OPTIONS, EXCEPT FOR HIGH FREQUENCY TRADERS, FROM 2026</a> [19] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b452a-4dd6-7ffe-bcce-3894b6b39e65" target="_blank" class="news-link">KREMLIN: WHEN DMITRIEV ARRIVES IN MOSCOW, HE WILL REPORT TO PUTIN ON U.S. PROPOSALS FOR A POSSIBLE UKRAINE SETTLEMENT&lt;br/&gt;&lt;br/&gt;KREMLIN ON REUTERS REPORT ON US INTELLIGENCE PERCEPTION OF PUTIN&#x27;S AIMS: THE VIEW IS COMPLETELY WRONG&lt;br/&gt;&lt;br/&gt;KREMLIN ON REUTERS REPORT ON US INTELLIGENCE PERCEPTION OF PUTIN&#x27;S AIMS: IF THESE ARE THE CONCLUSIONS OF U.S. INTELLIGENCE, THEN THEY ARE MISTAKEN</a> [23] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b4529-cd3d-7ffe-bcce-32c7858daf77" target="_blank" class="news-link">GOLDMAN SACHS RAISES CHINA 2025 GDP GROWTH FORECAST TO 5%, UP FROM 4.5% PREVIOUSLY</a> [24] <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">4</td>
+                <td class="percentage">1.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1985806313826043181" target="_blank" class="news-link">有消费者称华为 Pura80Pro+ 新机充电电池爆炸，售后凭照鉴定「人为致损」拒保，实际情况如何？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2344325" target="_blank" class="news-link">华为nova 15真机开箱</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7586175594354737195/" target="_blank" class="news-link">华为nova15售价2699元起</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1986444056365118255" target="_blank" class="news-link">如何评价华为新发布的 nova 15 系列？有哪些惊喜的功能和升级点？</a> [13] <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">3</td>
+                <td class="percentage">1.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/029.htm" target="_blank" class="news-link">阿里开源图像生成模型 Qwen-lmage-Layered：能像 PS 一样分图层编辑</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3024857" target="_blank" class="news-link">阿里开源全新图像模型Qwen-Image-Layered</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3024852" target="_blank" class="news-link">阿里巴巴在狮腾控股的持股比例从18.77%降至16.97%。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
