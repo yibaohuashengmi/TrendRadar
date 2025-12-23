@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 354</p><p>生成时间: 2025-12-23 09:59:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">23</td>
+                <td class="percentage">6.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b48d0-984f-7ffe-bcd4-a3fea069920c" target="_blank" class="news-link">AT OPEN, SHANGHAI COMPOSITE UP 0.04%, SHENZHEN COMPONENT UP 0.05%, CHINEXT INDEX UP 0.14%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%88%A9%E7%94%A8AI%E9%80%A0%E8%B0%A3%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE%E4%B8%A4%E7%94%B7%E5%AD%90%E5%88%91%E6%8B%98%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">利用AI造谣中国女篮两男子刑拘</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b48cd-0872-7ffe-bcd4-8c15b8858e34" target="_blank" class="news-link">ByteDance Plans $23BN AI Spending Boost for 2026</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3761862" target="_blank" class="news-link">2026年的“鬼故事”：ChatGPT若被Gemini干翻 AI业将翻天覆地</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251223091839359800" target="_blank" class="news-link">字节跳动豪掷千亿加码AI布局 预留850亿狂囤芯片</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/138.htm" target="_blank" class="news-link">消息称字节跳动计划斥资 1600 亿元大举投资人工智能，850 亿元砸向 AI 处理器</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b48c9-1c72-7ffe-bcd4-84a03d5ebf85" target="_blank" class="news-link">BYTEDANCE PLANS $23BN AI SPENDING SPREE TO KEEP PACE WITH US RIVALS-FT</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7586636403350523428/" target="_blank" class="news-link">利用AI造谣“中国女篮”，两男子刑拘</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%A4%E7%94%B7%E5%AD%90%E7%94%A8AI%E9%80%A0%E8%B0%A3%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE%E8%A2%AB%E5%88%91%E6%8B%98" target="_blank" class="news-link">两男子用AI造谣中国女篮被刑拘</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b48c9-1998-7ffe-bcd4-78b5940504ff" target="_blank" class="news-link">Z.AI RELEASES AND OPEN-SOURCES GLM-4.7 WITH STRONGER CODING CAPABILITIES</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2344497" target="_blank" class="news-link">两男子用AI造谣中国女篮被刑拘</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%94%A8AI%E9%80%A0%E8%B0%A3%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE%E4%B8%A4%E7%94%B7%E5%AD%90%E8%A2%AB%E5%88%91%E6%8B%98" target="_blank" class="news-link">用AI造谣中国女篮两男子被刑拘</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202512/2360439.html" target="_blank" class="news-link">潘政麟：AI巨头军备竞赛中的囚徒困境</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b48c8-be41-7ffe-bcd4-74fc17a31b92" target="_blank" class="news-link">SHORT VIDEO PLATFORM KUAISHOU SAID ATTACKED BY BLACK INDUSTRY AND FLOODED WITH PORN VIDEOS THE ON LIVE CHANNEL LAST NIGHT.&lt;br/&gt;&lt;br/&gt;KUAISHOU HAS FIXED THE PROBLEM AND REPORTED TO THE PUBLIC SECURITY.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2236998" target="_blank" class="news-link">加码AI算力与电力布局！Alphabet斥资47.5亿美元收购Intersect</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b48b9-9b97-7ffe-bcd4-4b578e767e52" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX OPENED UP 0.43%</a> [12] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46359996" target="_blank" class="news-link">Lotusbail npm package found to be harvesting WhatsApp messages and contacts</a> [12] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b48b1-13f6-7ffe-bcd4-3e8dafaf7daa" target="_blank" class="news-link">SHANGHAI STOCK EXCHANGE FINANCING BALANCE UP 58.21 BLN YUAN TO 12634.37 BLN YUAN;&lt;br/&gt;SHENZHEN STOCK EXCHANGE FINANCING BALANCE UP 67.13 BLN YUAN TO 12284.76 BLN YUAN;&lt;br/&gt;TOTAL FINANCING BALANCE AT 24919.13 TRN YUAN, UP 125.34 BLN YUAN FROM PREVIOUS TRADING DAY</a> [14] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/120.htm" target="_blank" class="news-link">智谱发布新一代旗舰 AI 模型 GLM-4.7：编程 SOTA，上线即开源</a> [17] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/832036454523011072" target="_blank" class="news-link">分析了2025年AI领域近800起融资案例之后发现……</a> [18] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3025235" target="_blank" class="news-link">报道：字节跳动计划斥资230亿美元大举投资人工智能</a> [22] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/113.htm" target="_blank" class="news-link">4 台苹果 Mac Studio 池化 1.5TB 内存，DeepSeek V3.1 AI 推理速度提高 122.6%</a> [23] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/108.htm" target="_blank" class="news-link">第三方耳机能像 AirPods 一样配对，欧盟委员会赞赏苹果 iOS 26.3 系统互操作性改进</a> [28] <font color='grey'>- 09时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7586493936676814888" target="_blank" class="news-link">Flutter 3.38 30天发6个版本，Google 程序员的头发还好吗？</a> [21] <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/110.htm" target="_blank" class="news-link">谷歌母公司 Alphabet 以 47.5 亿美元现金收购 Intersect，加码数据中心电力布局</a> [26] <font color='grey'>- 09时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/131.htm" target="_blank" class="news-link">华为非凡大师品牌主题曲官宣 12 月 29 日上线</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/111.htm" target="_blank" class="news-link">科技昨夜今晨 1223：央行发布一次性信用修复政策；央视曝光部分直播间“大牌尾货”是回收箱旧衣服；2699 元起华为 nova 15 系列手机发布...</a> [25] <font color='grey'>- 09时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1180545" target="_blank" class="news-link">ChatGPT 的恐怖谷效应</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761881" target="_blank" class="news-link">AMD高开低走！报道称阿里或大手笔购买MI308芯片，上周苏姿丰刚刚访华</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
