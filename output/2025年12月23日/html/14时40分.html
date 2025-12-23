@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 161</p><p>生成时间: 2025-12-23 14:40:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">6.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/politicsaeconomy/economic-policy/60819-2025-12-23-14-00-18.html" target="_blank" class="news-link">日本敲定首个AI基本计划</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5139311" target="_blank" class="news-link">研报掘金丨中邮证券：维持昆仑万维“增持”评级，前瞻布局世界模型，持续关注AI算力芯片进展</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3761888" target="_blank" class="news-link">AI重塑光纤需求结构，供需拐点有望推动量价齐升</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5139310" target="_blank" class="news-link">BAIRD：将Meta目标价下调至815美元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1180648" target="_blank" class="news-link">我基于 open ai 的 chat image 1.5 模型开发了一个图片生成器</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1180643" target="_blank" class="news-link">从《一个普通程序员的 12 个月实战 SOP》独立开发者赚钱故事（6）-AI 给我上奏折说起</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b49d2-8cb3-7ffe-bcd6-949b8b0382af" target="_blank" class="news-link">BAIRD CUTS META TARGET PRICE TO $815 FROM $820</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3025400" target="_blank" class="news-link">春晚AI冠名落定：火山引擎将登台、豆包也会参与</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5139304" target="_blank" class="news-link">研报掘金丨中邮证券：首予世纪天鸿“买入”评级，AI+教育新业态持续推进</a> [11] <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/243.htm" target="_blank" class="news-link">Steam 平台约 8% 的游戏使用了生成式 AI，创收 6.6 亿美元</a> [11] <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b49b4-574f-7ffe-bcd6-57eb25b93473" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX CLOSED UP 0.57%</a> [17] <font color='grey'>- 14时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3834703_101_1" target="_blank" class="news-link">市场消息：尼日利亚与谷歌就新海底电缆进行深入谈判。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 14时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3025398" target="_blank" class="news-link">尼日利亚与谷歌就新海底电缆进行深入谈判。（彭博）</a> [11] <font color='grey'>- 14时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
