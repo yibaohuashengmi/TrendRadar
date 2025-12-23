@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 120</p><p>生成时间: 2025-12-23 13:29:04</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">7.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b4994-b564-7ffe-bcd6-26da007cb4a8" target="_blank" class="news-link">ACEA: TESLA NOVEMBER EU NEW CAR REGISTRATIONS FELL 34%&lt;br/&gt;&lt;br/&gt;ACEA: BYD NOVEMBER EU NEW CAR REGISTRATIONS ROSE 235%&lt;br/&gt;&lt;br/&gt;TESLA&#x27;S MARKET SHARE IN EU, BRITAIN, EFTA IN NOVEMBER FALLS TO 2.1% VS BYD&#x27;S 2%; TESLA BEV MARKET SHARE AT 9%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b4994-24e2-7ffe-bcd6-1c300d741d0c" target="_blank" class="news-link">JAPAN PM TAKAICHI SAYS IN NIKKEI INTERVIEW THAT BOJ RATE HIKE WAS CARRIED OUT TO STABLY, SUSTAINABLY ACHIEVE 2% INFLATION TARGET</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251223130540405800" target="_blank" class="news-link">美国企业今年发行了价值1.7万亿美元的投资级债券，这一数字接近历史最高水平。此次发债潮主要是为了筹集资金用于AI基础设施建设，但也引发了人们对债务过剩的担忧。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1180635" target="_blank" class="news-link">为了方便上小学的娃练习数学方便，花了半天用 AI 搞了站点。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b4992-92f1-7ffe-bcd6-0ea4a01df22f" target="_blank" class="news-link">JAPAN PM TAKAICHI IN NIKKEI INTERVIEW: JAPAN&#x27;S NATIONAL DEBT LEVEL IS &quot;STILL HIGH&quot;</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5139292" target="_blank" class="news-link">从用户到价值闭环，轻松健康集团（02661.HK）以AI为核，重构健康服务新范式</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/226.htm" target="_blank" class="news-link">续写阿波罗传奇：Airstream 房车成为美国 Artemis II 登月计划摆渡车</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b497d-738a-7ffe-bcd5-e8076cdd3960" target="_blank" class="news-link">CANACCORD GENUITY RAISES TESLA TARGET PRICE TO $551 FROM $482</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1986558985109792573" target="_blank" class="news-link">千问发布 2025 十大 AI 提示词，股票意外排名第一，普通人如何用 AI 做好投资？</a> [15] <font color='grey'>- 13时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/222.htm" target="_blank" class="news-link">华为乾崑智驾 ADS MAX 4.1 版本首曝，城乡结合部拥堵路段体验提升</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
