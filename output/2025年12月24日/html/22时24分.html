@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 134</p><p>生成时间: 2025-12-24 22:24:48</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">7.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b50ac-d82d-7ffe-bce3-e3800b6fdecb" target="_blank" class="news-link">OPENAI MULLING PLACING ADS INSIDE CHATGPT: INFORMATION</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时24分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1180997" target="_blank" class="news-link">按使用量付费的 ai coding.有推荐吗？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3026250" target="_blank" class="news-link">OpenAI考虑在ChatGPT内植入广告。 该公司计划在用户查询时优先展示推广内容。 据悉，OpenAI已设计多种广告设计样稿，旨在打造全新的数字广告形式，而非简单模仿现有模式。（The Information）</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/740.htm" target="_blank" class="news-link">微软工程师澄清 2030 年前用 Rust 与 AI 替换全部 C/C++ 代码：与 Win11 无关，请勿过度解读</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/739.htm" target="_blank" class="news-link">英伟达机器人部门主管：特斯拉 FSD v14 是首个通过“物理图灵测试”的 AI</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b508e-9ebc-7ffe-bce3-a9d8ac52e8bc" target="_blank" class="news-link">U.S. STOCK INDEX FUTURES HOLD STEADY AFTER WEEKLY JOBLESS CLAIMS DATA</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b508d-6291-7ffe-bce3-a75491977d24" target="_blank" class="news-link">Continued Jobless Claims (Dec.13)</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b508d-628e-7ffe-bce3-9e5b07e9584a" target="_blank" class="news-link">Initial Jobless Claims 4-Week Average (Dec.20)</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b508d-622b-7ffe-bce3-902ae46d12bc" target="_blank" class="news-link">Initial Jobless Claims (Dec.20)</a> [11] <font color='grey'>- 22时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b5080-e5b1-7ffe-bce3-7a203b2f37f9" target="_blank" class="news-link">Barclays: Strong Q3 GDP and 3.0% Private Demand Raise Risk of Fewer Fed Rate Cuts</a> [14] <font color='grey'>- 22时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
