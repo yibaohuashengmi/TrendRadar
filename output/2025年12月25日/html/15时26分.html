@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 205</p><p>生成时间: 2025-12-25 15:26:28</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">6.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b545b-8607-7ffe-bce8-397bfff71742" target="_blank" class="news-link">&lt;b&gt;CHINA COMMERCE MINISTRY, ON RARE EARTH EXPORTS TO U.S.: CHINA IS COMMITTED TO THE SECURITY AND STABILITY OF THE GLOBAL SUPPLY CHAIN&lt;/b&gt;</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1181147" target="_blank" class="news-link">快到 2026 年了，依然有很多程序员在抗拒拥抱 AI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1181145" target="_blank" class="news-link">OpenAI 意外之喜</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1181144" target="_blank" class="news-link">有人测试过 google ai pro 在 gemini-cli 每天可以多少次请求吗</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/909.htm" target="_blank" class="news-link">修图 AI 模型 Qwen-Image-Edit-2511 开源上线：提升角色一致性、增强几何推理</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b5456-3b15-7ffe-bce7-f2915d2e330f" target="_blank" class="news-link">&lt;b&gt;CHINA COMMERCE MINISTRY, ON TIKTOK: HOPES U.S. WILL EARNESTLY FULFILL ITS COMMITMENTS AND PROVIDE FAIR, OPEN, TRANSPARENT AND NON-DISCRIMINATORY BUSINESS ENVIRONMENT FOR CHINESE COMPANIES&lt;/b&gt;</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3762057" target="_blank" class="news-link">游戏AI来了！英伟达新模型看直播学会所有游戏，GPT-5.2秒杀塞尔达</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b5451-8edb-7ffe-bce7-e5206d8c5442" target="_blank" class="news-link">AT CLOSE, SHANGHAI COMPOSITE INDEX UP 0.47%, SHENZHEN COMPONENT INDEX UP 0.33%, CSI 300 INDEX UP 0.18%, CHINEXT INDEX UP 0.3%</a> [12]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b544c-b46d-7ffe-bce7-d96b9e8b63fd" target="_blank" class="news-link">Japan’s Takaichi Says Door Remains Open for China Communications</a> [13] <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5140810" target="_blank" class="news-link">创源股份(300703.SZ)：公司ai陪伴类产品预计于明年上半年上市</a> [13] <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/902.htm" target="_blank" class="news-link">腾讯混元推出 ETC 领域首款 AI 智能体，问题解决率达 90%</a> [15] <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b543b-caa8-7ffe-bce7-c1dff4cb4302" target="_blank" class="news-link">Japan’s Takaichi to Unveil Record ¥122 Trillion Budget for FY26</a> [16] <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/901.htm" target="_blank" class="news-link">黄仁勋催单 AI 芯片，台积电开启“疯狂建厂”模式</a> [16] <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/900.htm" target="_blank" class="news-link">X 新增在线图片 AI 编辑器，部分创作者放弃在该平台分享内容</a> [17] <font color='grey'>- 15时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/906.htm" target="_blank" class="news-link">Counterpoint：全球智能手表市场今年有望重回增长轨道，苹果第一、华为同比大增 42%</a> [12] <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BAnova15&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">华为nova15</a> [24] <font color='grey'>- 15时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1181143" target="_blank" class="news-link">我实际体验了下 glm4.7，比 Claude Sonnet 4.5 要差 10%的样子</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
