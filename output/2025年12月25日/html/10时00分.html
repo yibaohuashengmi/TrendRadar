@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 305</p><p>生成时间: 2025-12-25 10:00:48</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">4.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/800.htm" target="_blank" class="news-link">《光与影：33 号远征队》工作室负责人澄清：AI 素材早已移除，游戏内容 100% 人工制作</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b5323-2759-7ffe-bce6-0ffebde51c81" target="_blank" class="news-link">SHANGHAI COMPOSITE INDEX, SHENZHEN COMPONENT INDEX TURNED POSITIVE</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46380399" target="_blank" class="news-link">Asterisk AI Voice Agent</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b531d-0dd9-7ffe-bce5-e041155aa005" target="_blank" class="news-link">AT OPEN, SHANGHAI COMPOSITE DOWN 0.08%, SHENZHEN COMPONENT SLIPS 0.1%, CHINEXT RISES 0.11%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3762036" target="_blank" class="news-link">OpenAI的“广告模式”已初具雏形</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/785.htm" target="_blank" class="news-link">央视曝光“外国山海经”乱象：“AI 拼接怪兽”正在带偏你的孩子</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958297" target="_blank" class="news-link">2026年，美国“四大AI新云”你更看好谁？</a> [11] <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/%E8%8B%B1%E4%BC%9F%E8%BE%BE%E8%8E%B7%E5%BE%97%E5%88%9D%E5%88%9B%E5%85%AC%E5%8F%B8groq%E7%9A%84ai%E6%8E%A8%E7%90%86%E6%8A%80%E6%9C%AF%E6%8E%88%E6%9D%83-813b0b41" target="_blank" class="news-link">英伟达获得初创公司Groq的AI推理技术授权</a> [12] <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958296" target="_blank" class="news-link">马斯克“放话”：5年内，xAI的AI算力将超过其他公司总和</a> [12] <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5140748" target="_blank" class="news-link">中信证券：大厂竞逐C端AI医疗Agent 医药电商有望率先受益</a> [12] <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b5308-d872-7ffe-bce5-af4ae9a18a92" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX OPENED UP 0.22%</a> [14] <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/780.htm" target="_blank" class="news-link">技嘉 AORUS RTX 5060 Ti AI BOX 外接显卡坞开卖，5599 元</a> [14] <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b52fc-d30a-7ffe-bce5-8b3344ba5bc6" target="_blank" class="news-link">SHANGHAI STOCK EXCHANGE FINANCING BALANCE UP 43.94 BLN YUAN TO 12755.96 BLN YUAN;&lt;br/&gt;SHENZHEN STOCK EXCHANGE FINANCING BALANCE UP 56.61 BLN YUAN TO 12411.67 BLN YUAN;&lt;br/&gt;TOTAL FINANCING BALANCE AT 25167.63 TRN YUAN, UP 100.55 BLN YUAN FROM PREVIOUS TRADING DAY</a> [18] <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3026404" target="_blank" class="news-link">中信证券：看好互联网大厂凭借AI产品力、成熟生态以及投流资金规模优势，率先抢占市场并完成用户AI家医心智培育</a> [27] <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3026400" target="_blank" class="news-link">公募基金明年看好AI产业链</a> [30] <font color='grey'>- 10时00分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">5</td>
+                <td class="percentage">1.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/china/ccompany/60840-2025-12-25-09-10-55.html" target="_blank" class="news-link">中国半导体供应链厚度加强，华为手机零部件6成国产</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/789.htm" target="_blank" class="news-link">华为 MatePad 11.5 2026 平板今日开售：可选柔光屏，售价 1799 元起</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/786.htm" target="_blank" class="news-link">华为 WATCH 十周年款今起首销：腕上鸿蒙智能体、业界首发科学减脂塑形，2799 元起</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/781.htm" target="_blank" class="news-link">华为 nova 15 系列手机 2699 元起首销：麒麟 8020 / 9010S 处理器、Ultra 首发前后双红枫</a> [13] <font color='grey'>- 10时00分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/907/770.htm" target="_blank" class="news-link">全新里程碑：华为乾崑智驾「车位到车位 2.0」全国支持停车场超 100 万个、累计使用超 3000 万次</a> [22] <font color='grey'>- 10时00分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1181045" target="_blank" class="news-link">小米 mino v2 flash 套壳谷歌模型</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时00分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
