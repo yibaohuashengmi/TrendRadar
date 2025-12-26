@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 171</p><p>生成时间: 2025-12-26 16:34:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">7.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b599e-8ed8-7557-ab4d-1a956defd74e" target="_blank" class="news-link">SHANGHAI GOLD EXCHANGE: KEY SILVER CONTRACTS MARGIN RAISED TO 20% FROM 19% EFFECTIVE DEC. 30, 2025; DAILY LIMIT EXPANDED TO 19% FROM NEXT TRADING DAY</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3762129" target="_blank" class="news-link">日本史上最大预算案：“减少超长债发行”安抚债市，将芯片与AI扶持资金增加三倍</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b599d-0d96-7557-ab4d-0eac8eb69e32" target="_blank" class="news-link">SHANGHAI GOLD EXCHANGE: MARGIN RATIO RAISED TO 17% FOR KEY GOLD CONTRACTS EFFECTIVE DEC. 30, 2025; DAILY LIMIT EXPANDED TO 16% FROM NEXT TRADING DAY</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时34分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1181416" target="_blank" class="news-link">分享一个小工具 [AI 自动答题助手]</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b5993-9f49-7557-ab4c-fdde76bebfa0" target="_blank" class="news-link">CHINA&#x27;S TOP MARKET REGULATOR: STRICTLY PROHIBITING PHOTOVOLTAIC COMPANIES FROM ENGAGING IN IMPROPER PRICE BEHAVIORS, INCLUDING PRICE COLLUSION AND PRICE FRAUD</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b5991-1981-7557-ab4c-f1621264ebbc" target="_blank" class="news-link">THAI CBANK CHIEF: GOLD MEASURES WILL NOT AFFECT BAHT IMMEDIATELY&lt;br/&gt;&lt;br/&gt;THAI CBANK CHIEF: GOLD TRADING NOT HELPING ECONOMY</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时34分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46390055" target="_blank" class="news-link">Building an AI agent inside a 7-year-old Rails monolith</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时34分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%8D%9A%E5%A3%AB%E4%B8%8EAI%E8%81%94%E6%89%8B%E9%80%A0%E5%87%BA%E5%8D%83%E5%BA%A6%E9%98%BB%E7%87%83%E6%96%B0%E5%9E%8B%E6%9D%90%E6%96%99" target="_blank" class="news-link">博士与AI联手造出千度阻燃新型材料</a> [12] <font color='grey'>- 16时34分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2239926" target="_blank" class="news-link">《科创板日报》评选2025十大科技热词出炉，AI成绝对主线</a> [13] <font color='grey'>- 16时34分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7587845752681807935" target="_blank" class="news-link">2025 年终醒悟，AI 让我误以为自己很强，未来程序员的转型之路</a> [13]</div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E7%94%A8AI%E6%8C%91%E6%88%98%E8%82%89%E9%B8%BD%E6%B8%B8%E6%88%8F" target="_blank" class="news-link">UP主用AI挑战肉鸽游戏</a> [14] <font color='grey'>- 16时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/908/234.htm" target="_blank" class="news-link">快看漫画与 MiniMax 合作上线首个 AI 互动漫画</a> [15] <font color='grey'>- 16时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.58%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1181410" target="_blank" class="news-link">claude 圣诞使用量翻倍活动。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.58%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3027167" target="_blank" class="news-link">通义千问：Qwen Code推出v0.5.0版本</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
