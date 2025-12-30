@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 199</p><p>生成时间: 2025-12-30 12:42:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">7.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3762287" target="_blank" class="news-link">A股指数震荡分化，机器人、AI智能体领涨，商业航天低开高走，英矽智能港股IPO涨超35%，沪银跌近4%，国投白银LOF震荡调整</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/145.htm" target="_blank" class="news-link">三星 Exynos 2600 芯片发力端侧 AI，保持精度下大模型“瘦身” 90% 以上</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时42分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/china/story20251230-8028653" target="_blank" class="news-link">福建摄影大赛一等奖作品被质疑由AI生成</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251230114658750800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2025-12-30）</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b6d5d-a5bc-7557-ab5f-2ca068551b56" target="_blank" class="news-link">KUAISHOU VP ZHOU GUORUI — HEAD OF FOUNDATIONAL LLM &amp; RECOMMENDATION MODELS — TO DEPART; NO OFFICIAL COMMENT</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3028532" target="_blank" class="news-link">Meta正以逾20亿美元收购人工智能初创公司Manus。（华尔街日报）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b6d51-88e4-7557-ab5f-140eaab9f9f2" target="_blank" class="news-link">China Platinum, Palladium Plunge by Daily Limit; Nickel Rallies</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b6d50-9ec7-7557-ab5f-0a8e52e603bf" target="_blank" class="news-link">TRUMP, TOP AIDES ASKED NETANYAHU TO CHANGE POLICY IN OCCUPIED WEST BANK - AXIOS</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时42分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5142884" target="_blank" class="news-link">中芯国际406亿收购中芯北方+增资中芯南方！科创创业人工智能ETF易方达(159140)上涨近1%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b6d48-31da-7557-ab5e-c0b3d37c681a" target="_blank" class="news-link">&lt;b&gt;CHINA RURAL WORK CONFERENCE: WILL KEEP PRICES OF GRAIN, OTHER MAJOR AGRICULTURAL PRODUCTS AT REASONABLE LEVEL&lt;/b&gt;</a> [17] <font color='grey'>- 12时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b6d48-1827-7557-ab5e-b913c86ff3a8" target="_blank" class="news-link">CHINA RURAL WORK CONFERENCE: WILL STABILISE GRAIN AND OILSEEDS PRODUCTION</a> [18] <font color='grey'>- 12时42分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%94%A8AI%E6%89%93%E5%BC%80%E5%8E%9F%E7%A5%9E%E5%90%8C%E4%BA%BA%E5%8A%A8%E7%94%BB" target="_blank" class="news-link">用AI打开原神同人动画</a> [19] <font color='grey'>- 12时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b6d47-3f53-7557-ab5e-ac4ba42f92ed" target="_blank" class="news-link">CHINA RURAL WORK CONFERENCE HELD DEC 29-30 - XINHUA&lt;br/&gt;&lt;br/&gt;CHINA RURAL WORK CONFERENCE: WILL NOT RELAX GRAIN PRODUCTION EFFORTS</a> [20] <font color='grey'>- 12时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b6d45-35e9-7557-ab5e-a7df3b2419e7" target="_blank" class="news-link">SHANGHAI&#x27;S MOST ACTIVE SILVER, TIN, COPPER AND INT’L COPPER FUTURES REBOUND — LOSSES NARROW TO 4.89%, 4.34%, 2.55%, 2.01%</a> [21] <font color='grey'>- 12时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1182131" target="_blank" class="news-link">这搭配 Opus 计划 Sonnet 编后台 gemini 写前端 codexbug</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时42分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1182114" target="_blank" class="news-link">有没有 google 日历网页版替代</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1182136" target="_blank" class="news-link">[开源分享] claude skill 安全扫描工具 , 也求 star</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
