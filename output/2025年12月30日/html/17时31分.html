@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 200</p><p>生成时间: 2025-12-30 17:31:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">4.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/283.htm" target="_blank" class="news-link">耳机能插卡打电话？荣耀亲选 iotapk AI 通话耳机“超邪修新品”亮相，1 月 5 日发布</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b6e88-bb66-7557-ab62-0113c8d6f87e" target="_blank" class="news-link">TESLA: 9 MILLIONTH GLOBAL EV ROLLS OFF LINE AT SHANGHAI GIGAFACTORY ON DECEMBER 30</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3762287" target="_blank" class="news-link">沪指10连阳，机器人、AI智能体爆发，恒科指涨近2%，半导体领涨，英矽智能港股IPO涨约25%，国投白银LOF震荡调整，在岸人民币破7</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2244074" target="_blank" class="news-link">“AI+教育”成这场收官发布会重头戏 明年将出台相关政策</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b6e81-1825-7557-ab61-e2382e4379d7" target="_blank" class="news-link">&lt;b&gt;CHINA’S GRAIN PURCHASES REACH 830 BILLION JIN IN 2025&lt;/b&gt;</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b6e80-34c2-7557-ab61-d9e25bf0c663" target="_blank" class="news-link">MAJOR WINNERS OF CHINA&#x27;S CHIP EQUIPMENT MANDATE INCLUDE NAURA AND AMEC, SOURCES SAY&lt;br/&gt;&lt;br/&gt;APPLICATIONS THAT FAIL TO MEET THE REQUIREMENTS ARE TYPICALLY REJECTED, SOURCES SAY&lt;br/&gt;&lt;br/&gt;CHINA MANDATES USE OF AT LEAST 50% DOMESTICALLY MADE CHIP EQUIPMENT FOR NEW PRODUCTION FACILITIES, SOURCES SAY</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7588865809473945640" target="_blank" class="news-link">2025年我是怎么用AI写代码的</a> [27] <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7588733783571857446" target="_blank" class="news-link">🤖 AI 重构 Vue/React 组件再不瞎猜！社区划分算法实战</a> [29] <font color='grey'>- 17时31分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7588711557500010546" target="_blank" class="news-link">AI+Excalidraw，用自然语言画手绘风格技术图</a> [30] <font color='grey'>- 17时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/267.htm" target="_blank" class="news-link">华为儿童手表 5 Pro 官宣最新支持跨品牌交换名片，可实现语音通话等</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
