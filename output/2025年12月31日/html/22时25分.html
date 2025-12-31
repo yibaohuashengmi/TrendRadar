@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 126</p><p>生成时间: 2025-12-31 22:25:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">7.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b74a6-f618-7557-ab6c-e84a42a3bb31" target="_blank" class="news-link">US Jobless Claims Fall to 199,000 During Christmas Week</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/701.htm" target="_blank" class="news-link">阿里云刘伟光：2026 年初将看到 AI 应用的再一次爆发</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b74a4-4a9f-7557-ab6c-dd3ee63bf91d" target="_blank" class="news-link">Xi Highlights China’s AI, Chip, and Defense Achievements in New Year’s Speech</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/698.htm" target="_blank" class="news-link">微软 AI 部门 CEO 苏莱曼警告：缺乏监管的 AI 或在数年内脱离人类掌控</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b749b-637b-7557-ab6c-be1c3362c535" target="_blank" class="news-link">U.S. DOLLAR INDEX ERASES DECLINE AND TURNS HIGHER AFTER INITIAL JOBLESS CLAIMS DATA, LAST UP 0.03% AT 98.25</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b749a-12fe-7557-ab6c-8d3df877fe27" target="_blank" class="news-link">US JOBLESS CLAIMS 199,000 IN DEC. 27 WEEK; EST. 218K</a> [16] <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b749a-0ad4-7557-ab6c-82bea184f97e" target="_blank" class="news-link">Continued Jobless Claims (Dec.20)</a> [17] <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7499-f993-7557-ab6c-7c174ed1fd69" target="_blank" class="news-link">Initial Jobless Claims 4-Week Average (Dec.27)</a> [18] <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7499-ea1c-7557-ab6c-776f1dfca38e" target="_blank" class="news-link">Initial Jobless Claims (Dec.27)</a> [19] <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7497-7b15-7557-ab6c-6aa168936b11" target="_blank" class="news-link">LEAVITT: WE ARE NOT AFRAID OF USING DENATURALIZATION</a> [20] <font color='grey'>- 22时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/705.htm" target="_blank" class="news-link">三星将在 CES 2026 发布全新厨房家电阵容，首次将谷歌 Gemini 塞进冰箱</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时25分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5144601" target="_blank" class="news-link">Citizens上调谷歌母公司Alphabet目标价至385美元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46443767" target="_blank" class="news-link">Claude wrote a functional NES emulator using my engine&#x27;s API</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/704.htm" target="_blank" class="news-link">华为智慧屏 V6 发布：75/85/98 英寸国补价 7999~14999 元，赠灵犀手写笔</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%97%E6%B9%98%E5%9C%A8%E5%8D%83%E9%97%AE%E6%B3%BC%E6%88%91%E4%B8%80%E8%84%B8%E9%92%B1%23&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">南湘在千问泼我一脸钱</a> [30] <font color='grey'>- 22时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
