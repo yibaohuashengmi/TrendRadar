@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 162</p><p>生成时间: 2025-12-31 16:35:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">6.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7382-0785-7557-ab6a-274704f9a92e" target="_blank" class="news-link">Chinese AI Firms Drive Hong Kong’s Busiest IPO Month Since 2019</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b737f-fa96-7557-ab6a-1c91a918113a" target="_blank" class="news-link">CHINESE AI FIRMS DRIVE HONG KONG’S BUSIEST IPO MONTH SINCE 2019</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时35分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2025/12/31/706b11e1a5c8407e89cb9eef54c708a5.html" target="_blank" class="news-link">俄智库：金砖国家为AI发展构建“保险阀”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7377-9990-7557-ab6a-036d4d4719f0" target="_blank" class="news-link">HUAWEI&#x27;S PARTNER SERES ANNOUNCES ON INTERACTIVE PLATFORM THAT IT HAS OBTAINED L3 TEST LICENSE</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7371-b47b-7557-ab69-f12a1f0d7641" target="_blank" class="news-link">CHINA SAYS WILL MAINTAIN GRAIN PRICES AT REASONABLE LEVELS&lt;br/&gt;&lt;br/&gt;CHINA SAYS WILL CONTINUE TO IMPROVE GRAIN VARIETIES, LAYOUT</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时35分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/china/story20251231-8036089" target="_blank" class="news-link">中国AI企业Minimax在港启动IPO 阿里博裕为基石投资者</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/589.htm" target="_blank" class="news-link">2025 年最后一期 Steam 游戏热销榜出炉：全球榜《ARC Raiders》守擂成功、《GTA5 增强版》进入前十</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7370-62ae-7557-ab69-ee03ab50fd7c" target="_blank" class="news-link">CHINA VOWS TO STABILISE PRICE, ENSURE SUPPLY OF GRAINS - STATE PLANNER</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7370-2d23-7557-ab69-e66849cc3300" target="_blank" class="news-link">BRITAIN&#x27;S FTSE 100 UP 0.06%, FRANCE&#x27;S CAC 40 DOWN 0.34%, SPAIN&#x27;S IBEX DOWN 0.2%</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时35分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7589732701289234466" target="_blank" class="news-link">AI 纪元 3 年，2025 论前端程序员自救</a> [29] <font color='grey'>- 16时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1182450" target="_blank" class="news-link">一夜之间多了 5000+ 个账号，我和 Claude 给自研 GTD 做了一次线上演习</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1182439" target="_blank" class="news-link">请问怎样订阅 chatgpt 的 plus 套餐啊？我这显示 “您的银行卡被拒绝了。”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1182434" target="_blank" class="news-link">赶着末班车, 还是定了谷歌 99 刀一年会员</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时35分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
