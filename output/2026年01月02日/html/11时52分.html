@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 265</p><p>生成时间: 2026-01-02 11:52:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">5.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46460440" target="_blank" class="news-link">Happy Public Domain Day 2026</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3762439" target="_blank" class="news-link">AI入口之战！OpenAI下重注：音频会是未来的交互界面</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7c9d-f057-7444-a825-b6eb879bd6d8" target="_blank" class="news-link">HK HANG SENG INDEX UP OVER 2%; HANG SENG TECH INDEX UP OVER 3.5%; HUA HONG SEMICONDUCTOR UP OVER 11%; BAIDU UP NEARLY 8.5%; KINGDEE UP NEARLY 7%; LI AUTO AND NETEASE-S BOTH UP OVER 6%</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7c9b-7506-7444-a825-a0d6d002761e" target="_blank" class="news-link">SOUTH KOREAN PRESIDENT LEE TO EXPLAIN TO CHINA THE NEED FOR KOREA&#x27;S OWN NUCLEAR-POWERED SUBMARINE - BLUE HOUSE&lt;br/&gt;&lt;br/&gt;SOUTH KOREA&#x27;S PRESIDENT LEE TO EMPHASIZE CHINA&#x27;S ROLE SO RESTORATION OF RELATIONS CAN CONTRIBUTE TO KOREAN PENINSULA - BLUE HOUSE&lt;br/&gt;&lt;br/&gt;SOUTH KOREA TO PROMOTE GOOD RELATIONS WITH BOTH CHINA AND JAPAN - BLUE HOUSE</a> [11] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/893.htm" target="_blank" class="news-link">AI 化身“幽灵玩家”教你玩游戏，索尼全新专利曝光</a> [12] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7c90-d7e5-7444-a825-942f8e5e6187" target="_blank" class="news-link">TAIWAN, SOUTH KOREA LEAD ASIA MANUFACTURING REBOUND AS FIRMS ENTER 2026 OPTIMISTIC DESPITE TRUMP TRADE WAR</a> [13] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/892.htm" target="_blank" class="news-link">美国 AI 创业潮怪象，辍学正成为创始人的“荣誉勋章”</a> [13] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7c83-5bbd-7444-a825-8ee656f3610f" target="_blank" class="news-link">BAIDU HITS NEW HIGH SINCE SEPT. 2023</a> [14] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7c82-10b5-7444-a825-837bd2974dde" target="_blank" class="news-link">TAIWAN&#x27;S BENCHMARK STOCK INDEX RISES AS MUCH AS 0.8% TO A RECORD 29,202.23 POINTS</a> [15] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7c81-a2ef-7444-a825-78a063e58a17" target="_blank" class="news-link">BAIDU UP OVER 8%</a> [16] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46460496" target="_blank" class="news-link">AI Futures Model: Dec 2025 Update</a> [16] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7c77-13c1-7444-a825-5dfd80578a1c" target="_blank" class="news-link">&lt;b&gt;BAIDU UP OVER 7%&lt;/b&gt;</a> [20] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7c6a-1a80-7444-a825-3b82d59bedea" target="_blank" class="news-link">HK-LISTED POWER EQUIPMENT STOCKS RALLY STRONGLY: GOLDWIND UP OVER 9.5%, SHANGHAI ELECTRIC UP OVER 3.5%, XINYI SOLAR, GCL TECH UP OVER 3%</a> [24] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b7c64-3bc1-7444-a825-1c1f741a48d9" target="_blank" class="news-link">BAIDU UP OVER 6%</a> [28] <font color='grey'>- 11时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/909/906.htm" target="_blank" class="news-link">华为鸿蒙 6.0.0.120 SP6 更新推送，优化系统使用体验</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E8%A7%A3%E8%AF%BBDeepSeek%E6%A2%81%E6%96%87%E9%94%8B%E6%96%B0%E8%AE%BA%E6%96%87" target="_blank" class="news-link">UP主解读DeepSeek梁文锋新论文</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
