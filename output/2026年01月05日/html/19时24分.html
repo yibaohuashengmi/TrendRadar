@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 202</p><p>生成时间: 2026-01-05 19:24:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">6</td>
+                <td class="percentage">2.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b8dc8-aaa5-7444-a836-c24fc160ee18" target="_blank" class="news-link">MELIUS RESEARCH RAISES ALPHABET TARGET PRICE TO $350 FROM $305</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/621.htm" target="_blank" class="news-link">广汽集团与华为终端签约，深化鸿蒙生态与 AI 技术合作</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46497164" target="_blank" class="news-link">Anna&#x27;s Archive Loses .Org Domain After Surprise Suspension</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b8dc1-0bd9-7444-a836-a741cd56aae7" target="_blank" class="news-link">GERMAN GOVERNMENT SPOKESPERSON: US MUST EXPLAIN TO WORLD WHAT ITS ACTIONS IN VENEZUELA ARE BASED ON</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3030823" target="_blank" class="news-link">广汽集团与华为终端签约，深化鸿蒙生态与AI技术合作</a> [13] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3030815" target="_blank" class="news-link">阿里巴巴将视觉AI技术应用于餐饮赛道 与美团展开竞争</a> [18] <font color='grey'>- 19时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5145762" target="_blank" class="news-link">Melius Research：将谷歌目标价上调至350美元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/620.htm" target="_blank" class="news-link">初代谷歌 Pixel 手机原型机罕见现身拍卖，搭载骁龙 821 且可开机</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/anthropics/claude-code" target="_blank" class="news-link">anthropics / claude-code</a> <font color='red'><strong>[10]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
