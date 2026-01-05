@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 200</p><p>生成时间: 2026-01-05 15:33:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">6.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46495539" target="_blank" class="news-link">Building a Rust-style static analyzer for C++ with AI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时33分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/hkMacao/202601/0561520.html" target="_blank" class="news-link">知情者：中国AI企业MiniMax港股IPO定价在区间上限</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时33分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2357791" target="_blank" class="news-link">AI说啥我穿啥</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b8d05-419b-7444-a834-0ac353104ee3" target="_blank" class="news-link">CHINA&#x27;S FOREIGN MINISTRY: BELIEVE VENEZUELA GOVT WILL PROPERLY HANDLE INTERNAL AFFAIRS ON BASIS OF ITS CONSTITUTION, LAW</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时33分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=B%E7%AB%99AI%E5%A4%A7%E8%B5%9B%E5%BC%80%E5%A7%8B%E4%BA%86" target="_blank" class="news-link">B站AI大赛开始了</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时33分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/china/story20260105-8053855" target="_blank" class="news-link">知情者：中国AI企业MiniMax港股IPO定价在区间上限</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b8d03-0292-7444-a833-e954fcd410aa" target="_blank" class="news-link">CHINA&#x27;S FOREIGN MINISTRY: CHINA ALWAYS MAINTAINS POSITIVE COMMUNICATION, COOPERATION WITH VENEZUELAN GOVT</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b8cfc-325c-7444-a833-babace0fc591" target="_blank" class="news-link">SOUTH KOREAN PRESIDENT LEE: WE NEED TO LEVERAGE AI AND OTHER FUTURE TECHNOLOGIES TO BUILD HIGHER-LEVEL COOPERATION AND DEEPEN COLLABORATION IN MANUFACTURING AND SERVICES</a> [16] <font color='grey'>- 15时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3030637" target="_blank" class="news-link">字节“豆包”AI眼镜即将进入出货阶段，起步价预计控制在2000元以内</a> [16] <font color='grey'>- 15时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b8cfb-c3ac-7444-a833-b5afa0afb9ad" target="_blank" class="news-link">SOUTH KOREAN PRESIDENT LEE: SOUTH KOREA AND CHINA LIKE SHIPS SAILING IN THE SAME DIRECTION IN THE SAME WATERS</a> [17] <font color='grey'>- 15时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b8cf5-c901-7444-a833-a1a58b838574" target="_blank" class="news-link">A-SHARES CLOSE HIGHER: SHANGHAI COMPOSITE RALLIES 1.38% BACK ABOVE 4,000, SHENZHEN +2.24%, CHINEXT +2.85%</a> [19] <font color='grey'>- 15时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3030631" target="_blank" class="news-link">四川：加快关键核心数智技术攻关，实施人工智能等重大科技专项</a> [20] <font color='grey'>- 15时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b8cec-5656-7444-a833-6f9ef377dce2" target="_blank" class="news-link">UBS: THE OUTLOOK FOR VENEZUELA REMAINS HIGHLY UNCERTAIN, WITH SHORT-TERM RISKS TO OIL PRODUCTION SKEWED TO THE DOWNSIDE</a> [26] <font color='grey'>- 15时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">1.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/535.htm" target="_blank" class="news-link">华为鸿蒙 HarmonyOS 6.0.2 (22) Beta 版仓颉开发者定向招募启动</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/517.htm" target="_blank" class="news-link">华为余承东带队到广汽集团交流共建鸿蒙生态，称要让不同阶段、路径车企伙伴找到合适的合作方式</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
