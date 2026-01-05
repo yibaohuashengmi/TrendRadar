@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 250</p><p>生成时间: 2026-01-05 16:40:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">6.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3762562" target="_blank" class="news-link">AI需求坚挺，鸿海12月销售额同比增长31.8％</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3762559" target="_blank" class="news-link">AI提振全球股市上涨，美股指期货集体上扬，委内瑞拉动荡下金银齐涨，原油意外走低</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%BD%93AI%E9%81%87%E4%B8%8A3D%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%E5%8F%B7%E5%8A%A8%E7%94%BB" target="_blank" class="news-link">当AI遇上3D泰坦尼克号动画</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/568.htm" target="_blank" class="news-link">蚂蚁、美团加码 AI 硬件，Looki 完成超 2000 万美元 A 轮融资</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1183257" target="_blank" class="news-link">LensGo AI - 用你朋友的自拍，给 TA 整一条专属动漫 OP</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3030711" target="_blank" class="news-link">鸿海：2025年12月销售额8,628.6亿元台币，环比增长2.20%，同比增长31.77％。 2025年第四季度营收同比增长22.07%。 2026年第一季ICT产品进入传统淡季，而AI机柜出货持续放量。</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3762552" target="_blank" class="news-link">激进押注AI！三星计划将搭载Gemini的移动设备数量翻番至8亿台，全面迎战苹果</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b8d35-4578-7444-a834-fdf21642ae3a" target="_blank" class="news-link">HONG KONG STOCKS CLOSE: HANG SENG +0.03%, TECH INDEX +0.09%; KUAISHOU +11%, NIO -6%, XPENG -4%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/551.htm" target="_blank" class="news-link">英政府机构专家警告：世界“恐将没时间”为应对 AI 安全风险做好准备</a> [12] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/549.htm" target="_blank" class="news-link">AI 电子宠物 Sweekar 在 CES 2026 发布：从蛋中“破壳”，百变穿搭</a> [13] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/545.htm" target="_blank" class="news-link">微星准备新款绝影 Stealth 16 AI+ 轻薄游戏本：2kg、5090、HDR True Black 600 OLED</a> [16] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/541.htm" target="_blank" class="news-link">荣耀 MagicOS 10 一月升级预告：新增 AI 追色、手电筒亮度调节等功能</a> [19] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/540.htm" target="_blank" class="news-link">重量轻于 iPhone Air：荣耀李坤晒“既 Pro 又 Air 产品”，称轻薄且强悍是技术实力的呈现</a> [20] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/537.htm" target="_blank" class="news-link">消息称字节跳动豆包 AI 眼镜即将进入出货阶段，无屏版 Q1 率先发布 / 有屏版 Q4 问世</a> [22] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b8d1c-b019-7444-a834-8ba9ab903ccb" target="_blank" class="news-link">China Asks Banks to Report Exposure to Venezuela After US Raid</a> [24] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b8d1b-7e0f-7444-a834-873a4e57ec52" target="_blank" class="news-link">TAIWAN PROSECUTORS SEEK ADDITIONAL INDICTMENTS FOR THREE SUSPECTS AND TOKYO ELECTRON FOR VIOLATING SECURITY LAW IN &lt;b&gt;TSMC &lt;/b&gt;TRADE SECRETS CASE - STATEMENT</a> [25] <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b8d13-5c5f-7444-a834-6cb10ef0b269" target="_blank" class="news-link">CHINA&#x27;S FOREIGN MINISTRY, ON VENEZUELA SITUATION: OPPOSES OTHERS INTERFERING IN LATAM COUNTRIES&#x27; INTERNAL AFFAIRS WHATEVER THE REASON</a> [28] <font color='grey'>- 16时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/567.htm" target="_blank" class="news-link">华为 Pura 80 系列手机 HarmonyOS 6.0.0.125 版本首曝，将解决微信拍视频画面闪烁、跳动问题</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时40分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/547.htm" target="_blank" class="news-link">消息称华为余承东带队到广汽是洽谈纯血鸿蒙座舱系统的合作</a> [14] <font color='grey'>- 16时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/claude/launches/claude-in-chrome?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Claude in Chrome</a> [20] <font color='grey'>- 16时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/562.htm" target="_blank" class="news-link">微软 Win11 游戏广告“翻车”：任务栏固定着谷歌 Chrome 浏览器</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
