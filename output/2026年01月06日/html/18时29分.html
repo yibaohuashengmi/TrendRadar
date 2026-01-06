@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 215</p><p>生成时间: 2026-01-06 18:29:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">5.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260106175355647800" target="_blank" class="news-link">AI热潮抵消地缘政治担忧 欧元信用违约互换成本维持低位</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/946.htm" target="_blank" class="news-link">AI 系统 SleepFM 问世：可基于睡眠监测数据精准预测癌症、帕金森等 130 种疾病</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1183572" target="_blank" class="news-link">效果超棒，我们公司最新的 [Ai 视频翻译] 产品，快来看看~</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3762643" target="_blank" class="news-link">苏姿丰CES演讲全文来了！尧字节时代来临，Helios登场，“未来四年，要实现AI性能1000倍的提升”！</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2061799-1-1.html" target="_blank" class="news-link">清华大学教授丘成桐：AI突破要靠数学 5到10年内中国将成数学强国(mydrivers.com)</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/0661610.html" target="_blank" class="news-link">阿里巴巴引入视觉AI与美团争夺中国餐饮市场</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/928.htm" target="_blank" class="news-link">微软宣布收购 AI 数据工程平台 Osmos，帮企业搞定烦人的数据准备工作</a> [11] <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b92b7-8acd-7444-a843-cb74d8aa41c6" target="_blank" class="news-link">SHANGHAI STOCK EXCHANGE: DECEMBER A-SHARE NEW ACCOUNTS AT 2.597M, UP 9% MOM AND 31% YOY; 2025 TOTAL NEW ACCOUNTS 27.437M, UP 9.75%</a> [15] <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b92b2-8333-7444-a843-badd215011ef" target="_blank" class="news-link">CHINA&#x27;S PREMIER LI, IN MEETING WITH SOUTH KOREAN PRESIDENT LEE: WILLING TO PROMOTE COOPERATION IN HIGH-END MANUFACTURING, AI, NEW ENERGY - XINHUA</a> [17] <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b92a8-275a-7444-a843-ad3b8a4a2aaa" target="_blank" class="news-link">MICROCHIP TECHNOLOGY SHARES UP 3.3% PREMARKET AFTER CO RAISES Q3 REVENUE FORECAST</a> [19] <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7591767753851174954" target="_blank" class="news-link">独立开发实战：我用 AI 写了一个台球小程序</a> [28] <font color='grey'>- 18时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2061801-1-1.html" target="_blank" class="news-link">黄仁勋新年第一场演讲提了DeepSeek 推动了整个行业变革(mydrivers.com)</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/925.htm" target="_blank" class="news-link">千问 App 上线教育功能：一句话调出期末真题、给出解析</a> [13] <font color='grey'>- 18时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
