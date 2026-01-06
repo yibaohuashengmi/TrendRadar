@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 196</p><p>生成时间: 2026-01-06 16:38:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">5.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3031525" target="_blank" class="news-link">超颖电子：AI算力高阶印制电路板扩产项目变更，投资金额由14.68亿元调整为33.15亿元。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/909.htm" target="_blank" class="news-link">港科大教授实测 AI 眼镜考试“作弊”：30 分钟交卷，碾压 95% 的学生</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b926a-ec1f-7444-a842-dd2b93a1c7a8" target="_blank" class="news-link">BERNSTEIN RAISES BOEING TARGET PRICE TO $277 FROM $267</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/china/story20260106-8059753" target="_blank" class="news-link">阿里巴巴引入视觉AI与美团争夺中国餐饮市场</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260106162818905800" target="_blank" class="news-link">监管命令显示，印度反垄断调查发现，塔塔钢铁、JSW钢铁、印度钢铁管理局（SAIL）及另外25家公司合谋操纵钢铁价格。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3031515" target="_blank" class="news-link">阿里Qoder升级补全功能，AI代码采纳率提升65%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5146255" target="_blank" class="news-link">云天励飞(688343.SH)：闪极AI眼镜搭载云天励飞自研大模型“云天天书”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/887.htm" target="_blank" class="news-link">华硕推出 &quot;Strix Halo&quot; 版 ProArt PX13 创意本，至高配备锐龙 AI Max+ 395</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9255-2101-7444-a842-a57592c7292a" target="_blank" class="news-link">EUROPE&#x27;S STOXX 600 AND SPAIN&#x27;S IBEX HIT RECORD HIGHS</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/910/878.htm" target="_blank" class="news-link">微星 CES 2026 秀 AI 迷你 PC 矩阵，同时押注英特尔、AMD 与英伟达平台</a> [13] <font color='grey'>- 16时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> [16] <font color='grey'>- 16时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
