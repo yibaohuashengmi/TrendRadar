@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 129</p><p>生成时间: 2026-01-07 01:28:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">12.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9447-29f4-7444-a848-1bd35ce17960" target="_blank" class="news-link">SIEMENS AND NVIDIA EXPAND PARTNERSHIP TO BUILD THE INDUSTRIAL AI OPERATING SYSTEM</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1183618" target="_blank" class="news-link">[分享] 自己做的浏览器端视频帧提取工具，隐私优先 + AI 评分，永久免费无水印</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260107010109299800" target="_blank" class="news-link">恩智浦半导体宣布推出新的eIQ代理AI框架。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46514692" target="_blank" class="news-link">Why is the Gmail app 700 MB?</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9431-8736-7444-a847-e236eb20d57d" target="_blank" class="news-link">NVIDIA CFO: &#x27;WE&#x27;RE GOING TO WAIT AND SEE WHAT WILL HAPPEN&#x27; ON H200 LICENSES FOR CHINA SALES</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3031804" target="_blank" class="news-link">百事可乐宣布，与西门子和英伟达围绕AI与数字孪生达成协议。</a> [11] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3031798" target="_blank" class="news-link">AMD的CEO苏姿丰：所有人都应该明白，AI并非炒作。</a> [17] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9425-08b9-7444-a847-89943d4ca740" target="_blank" class="news-link">PEPSICO ANNOUNCES INDUSTRY-FIRST AI AND DIGITAL TWIN COLLABORATION WITH SIEMENS AND NVIDIA</a> [19] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46513728" target="_blank" class="news-link">The skill of the future is not &#x27;AI&#x27;, but &#x27;Focus&#x27; (2025)</a> [19] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3031791" target="_blank" class="news-link">AMD的CEO苏姿丰：计算能力（算力）必须在4-5年增长100倍。 我们处于解锁人工智能（AI）的“早期”。 中国对AI的需求偏高。 公司在企业级笔记本领域“的市场份额还有拓展空间”。（彭博电视）</a> [20]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260107003021897800" target="_blank" class="news-link">百事公司宣布与西门子和英伟达开展业界首个人工智能和数字孪生合作。</a> [23] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b941f-afb5-7444-a847-4a915a3d05b5" target="_blank" class="news-link">FITCH: IMMEDIATE &amp; LONG-TERM OUTCOMES OF US&#x27;S REMOVAL OF VENEZUELAN LEADER NICOLAS MADURO HIGHLY UNCERTAIN, BUT COULD HAVE GEOPOLITICAL IMPLICATIONS</a> [27] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b941e-0ae2-7444-a847-431c4cff57e7" target="_blank" class="news-link">NVIDIA CFO: &#x27;WE FEEL VERY SOLID&#x27; ABOUT SUPPLY CHAIN AS VERA RUBIN CHIPS GO INTO PRODUCTION</a> [28] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260107002619282800" target="_blank" class="news-link">AMD(AMD.O)CEO苏姿丰：AI不是炒作。</a> [28] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b941a-7e0f-7444-a847-31f6a72024b2" target="_blank" class="news-link">&lt;B&gt;AMD CEO: WE&#x27;RE WORKING WITH THE US GOVERNMENT TO FIND SOLUTIONS&lt;br/&gt;&lt;br/&gt;AMD CEO: DEMAND FOR AI IN CHINA IS HIGH&lt;/B&gt;</a> [30] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%BA%E4%BD%95%E8%AF%B4AI%E6%8A%A2%E8%B5%B0%E4%BA%86%E4%BD%A0%E7%9A%84%E5%86%85%E5%AD%98" target="_blank" class="news-link">为何说AI抢走了你的内存</a> [30] <font color='grey'>- 01时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
