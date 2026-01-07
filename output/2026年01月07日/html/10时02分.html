@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 351</p><p>生成时间: 2026-01-07 10:02:32</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">7.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/064.htm" target="_blank" class="news-link">&quot;Strix Halo&quot; 主流游戏本：华硕公布搭载锐龙 AI Max+ 392 的 14&quot; TUF 机型</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9619-ee7b-7444-a84b-d3cea1a7494b" target="_blank" class="news-link">China reviews Meta’s $2bn purchase of AI start-up Manus</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3762697" target="_blank" class="news-link">资本力挺马斯克！xAI募资200亿美元超预期，估值一年翻番</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/063.htm" target="_blank" class="news-link">环球音乐拥抱 AI，将与英伟达合作“重塑”音乐发现和创作方式</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958368" target="_blank" class="news-link">面对Gemini冲击，OpenAI持续“失血”？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46520508" target="_blank" class="news-link">Hyundai Introduces Its Next-Gen Atlas Robot at CES 2026 [video]</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9615-e81d-7444-a84b-c716fe79f1a7" target="_blank" class="news-link">CHINA REVIEWS META’S $2BN PURCHASE OF AI START-UP MANUS - FT</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5146726" target="_blank" class="news-link">英伟达黄仁勋宣布与联想最新合作计划：联想人工智能云超级工厂</a> <font color='red'><strong>[3 - 6]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9611-4d2e-7444-a84b-ace085d73ff2" target="_blank" class="news-link">AT OPEN, SHANGHAI INDEX FLAT, SHENZHEN COMPONENT UP 0.28%, CHINEXT UP 0.36%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/057.htm" target="_blank" class="news-link">曾参与操刀 iPhone Air，前苹果设计师 Abidur Chowdhury 加盟 AI 初创公司 Hark</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b960f-3e13-7444-a84b-946c4a0fd524" target="_blank" class="news-link">Bitcoin Faithful Still Missing Even After Token Reclaims $90,000</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3847526_101_1" target="_blank" class="news-link">日本外务省Kanai和美国助理国务卿Desombre再次确认美日密切协调。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/053.htm" target="_blank" class="news-link">扩展物理 AI 业务，Mobileye 将以 9 亿美元收购人形机器人企业 Mentee</a> [11] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3032008" target="_blank" class="news-link">联想携手英伟达推出吉瓦级AI工厂计划，加速企业级AI发展。</a> [13] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/xai%E5%AE%8C%E6%88%90200%E4%BA%BF%E7%BE%8E%E5%85%83e%E8%BD%AE%E8%9E%8D%E8%B5%84-%E8%B6%85%E9%A2%9D%E5%AE%9E%E7%8E%B0%E7%9B%AE%E6%A0%87-770640df" target="_blank" class="news-link">xAI完成200亿美元E轮融资，超额实现目标</a> [16] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9607-6507-7444-a84b-5cfa98e4b064" target="_blank" class="news-link">LENOVO: LAUNCHES AGENTIC AI</a> [17] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46470963" target="_blank" class="news-link">The Agentic Self: Parallels Between AI and Self-Improvement</a> [17] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/045.htm" target="_blank" class="news-link">微软 Win11 上线 AI 组件文档，提供专属更新说明</a> [18] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9606-333a-7444-a84b-484306dc8880" target="_blank" class="news-link">MSCI Shelves Plan to Eject Crypto-Heavy Firms, MicroStrategy Remains in Indexes</a> [19] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9604-9869-7444-a84b-389a854594d3" target="_blank" class="news-link">Chinese AI Giants Zhipu, MiniMax Set for Hong Kong IPO Debuts</a> [21] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/041.htm" target="_blank" class="news-link">微软 Win11 已原生支持 MCP 协议，喊话开发者共建 AI 智能体体验</a> [22] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/%E9%BB%84%E4%BB%81%E5%8B%8B%E7%A7%B0%E4%B8%AD%E5%9B%BD%E5%AF%B9%E8%8B%B1%E4%BC%9F%E8%BE%BEai%E8%8A%AF%E7%89%87%E7%9A%84%E9%9C%80%E6%B1%82-%E7%9B%B8%E5%BD%93%E9%AB%98-4ace7875" target="_blank" class="news-link">黄仁勋称中国对英伟达AI芯片的需求“相当高”</a> [23] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/038.htm" target="_blank" class="news-link">雷蛇发力 AI 开发，推出工作站、Tenstorrent 合作外接加速器、开源工具</a> [24] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b95fc-f762-7444-a84b-0e37af9b5248" target="_blank" class="news-link">LENOVO: ANNOUNCES NEXT-GEN AI PCS, FLAGSHIP MOTOROLA SMARTPHONES, PERCEPTIVE AI PENDANT CONCEPT, AND CONCEPT SMART GLASSES</a> [27] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/033.htm" target="_blank" class="news-link">美国加州议员提议禁止儿童玩具内置 AI 聊天机器人：我们的孩子不是小白鼠</a> [29] <font color='grey'>- 10时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">3</td>
+                <td class="percentage">0.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46518573" target="_blank" class="news-link">A 30B Qwen model walks into a Raspberry Pi and runs in real time</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3032010" target="_blank" class="news-link">恒指低开0.41%，报26601.83点；恒生科技指数跌0.28%。阿里巴巴、蔚来跌超2%，百度、理想汽车、小鹏汽车等跌超1%。</a> [12] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> [28] <font color='grey'>- 10时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
