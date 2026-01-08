@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 180</p><p>生成时间: 2026-01-08 16:37:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">6.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9cab-5bb3-7444-a85f-7fdbfc0cafef" target="_blank" class="news-link">HSBC Moderates 2026 Outlook for China’s Real-Estate Sector, Maintains Buy on Key Stocks</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9ca7-e758-7444-a85f-717046326be9" target="_blank" class="news-link">BAE SYSTEMS SHARES RISE 6% AFTER TRUMP SAID HE AIMS TO BOOST US DEFENCE BUDGET</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3033121" target="_blank" class="news-link">新加坡主权财富基金（GIC）、百利投资（Baillie Gifford）和挪威央行据悉将在大模型独角兽MiniMax的IPO中投资。（彭博）</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/585.htm" target="_blank" class="news-link">小鹏第二代 VLA 第一批适配车型 3 月开推，天玑 AIOS 6.0 本月推送</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9ca7-65ca-7444-a85f-6e3c262fd4f9" target="_blank" class="news-link">AT CLOSE, HANG SENG DOWN 1.17%, TECH INDEX DOWN 1.05%; BAIDU FALLS OVER 3%, ZHIPU UP AROUND 13% ON IPO DEBUT</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/580.htm" target="_blank" class="news-link">小鹏汽车天玑 AIOS 6.0 座舱亮相：全新“驭光”设计语言，VLM 全天候主动服务</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260108163224898800" target="_blank" class="news-link">瑞士央行会议纪要：委员会及候补成员讨论了在美国人工智能领域活跃的公司的最新发展。与专家讨论了这些公司的高估值问题。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9c9f-78c6-7444-a85f-49c2a5ff0aed" target="_blank" class="news-link">CHINA COMMERCE MINISTRY ON LEE JAE-MYUNG’S CHINA VISIT: TO EXPLORE COOPERATION POTENTIAL IN HIGH-END MANUFACTURING, AI, GREEN INDUSTRIES, AND SILVER ECONOMY</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3762841" target="_blank" class="news-link">大成基金郭玮羚：AI依然是2026科技主线，结构性机会优于总量，光通信&gt;存储、液冷&gt;PCB上游</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9c9e-d57a-7444-a85f-3e33b7bbc849" target="_blank" class="news-link">CME GROUP INTERNATIONAL AVERAGE DAILY VOLUME REACHES RECORD 8.4 MILLION CONTRACTS IN 2025, UP 8% FROM 2024</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9c84-92d7-7444-a85e-f61970d54899" target="_blank" class="news-link">&lt;b&gt;TRUMP SAID THAT HE HAD ALREADY BEGUN TO MAKE MONEY FOR THE UNITED STATES BY TAKING OIL THAT HAS BEEN UNDER SANCTIONS-NYT&lt;/b&gt;</a> [19] <font color='grey'>- 16时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019b9c83-9936-7444-a85e-e30d001e9b41" target="_blank" class="news-link">TRUMP SAID “ONLY TIME WILL TELL” WHEN IT COMES TO HOW LONG UNITED STATES AIMS TO CONTROL VENEZUELA - NYT</a> [21] <font color='grey'>- 16时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/claude/launches/claude-in-chrome?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Claude in Chrome</a> [20] <font color='grey'>- 16时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3033109" target="_blank" class="news-link">港股收盘：恒生指数收跌1.17%，恒生科技指数收跌1.05%。科网股多数下跌，美团跌超3%，阿里巴巴跌超2%，智谱上市首日收涨约13%。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
