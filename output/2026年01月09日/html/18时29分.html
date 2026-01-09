@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 212</p><p>生成时间: 2026-01-09 18:29:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">7.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba247-5638-700b-b23d-9475875b0e16" target="_blank" class="news-link">THAILAND MAY LIMIT ONLINE GOLD TRADING BY 100M-200M BAHT/PERSON</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba246-8c6e-700b-b23d-8b52bd6f88e2" target="_blank" class="news-link">BOFA RAISES ITS 2026 AVERAGE PALLADIUM PRICE FORECAST TO $1,725/OZ</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8piRkGGmo9f" target="_blank" class="news-link">《纽约时报》整版报道中国AI胰腺癌早筛，美国网友震惊</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba245-bba1-700b-b23d-7eced84b61d6" target="_blank" class="news-link">BOFA RAISES ITS 2026 AVERAGE PLATINUM FORECAST TO $2,450/OZ</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/taiwans-exports-hit-record-in-2025-on-ai-fueled-demand-d17df8b1" target="_blank" class="news-link">台湾2025年出口创纪录，受AI需求推动</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3762915" target="_blank" class="news-link">A股史上第六次成交额突破3万亿，沪指16连阳、站稳4100点，AI应用爆发，港股MiniMax上市首日大涨超100%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/962.htm" target="_blank" class="news-link">ACEMAGIC 阿迈奇 AMD 锐龙 AI Max+ 395 迷你主机 M1A PRO+ 上市</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba23e-da02-700b-b23d-6ba6c322f552" target="_blank" class="news-link">SHANGHAI TO BOOST NEXT-GEN ELECTRONICS, SMART CONNECTED EVS, AND HIGH-END EQUIPMENT, SUPPORTING ADVANCED MANUFACTURING ENTERPRISES</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3762915" target="_blank" class="news-link">A股史上第六次成交额突破3万亿，沪指16连阳、站稳4100点，AI应用爆发，港股MiniMax上市首日大涨超100%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2253208" target="_blank" class="news-link">【数据看盘】顶级游资扎堆金风科技 北向资金联手机构“爆买”AI应用概念股</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba233-6279-700b-b23d-5950ed71328e" target="_blank" class="news-link">Musk’s Grok Limits Image Generation to Paid Users on X</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba232-ea8e-700b-b23d-509c2f29adf1" target="_blank" class="news-link">Retail Sales (MoM) (Nov)</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/958.htm" target="_blank" class="news-link">2061 → 950.9 元：追觅 T1 滚筒洗衣机 3 年质保，配备 AI 直驱变频电机</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba22e-7a2b-700b-b23d-437c5189954d" target="_blank" class="news-link">MEITUAN PLEDGES FULL COOPERATION WITH GOVERNMENT FOOD DELIVERY MARKET COMPETITION REVIEW, COMMITS TO FAIR COMPETITION AND HEALTHY INDUSTRY DEVELOPMENT</a> [11] <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7592115613267705902/" target="_blank" class="news-link">马斯克为xAI锁定5台重型燃机</a> [20] <font color='grey'>- 18时29分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46552001" target="_blank" class="news-link">Why women experience more gut pain</a> [29] <font color='grey'>- 18时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1184328" target="_blank" class="news-link">有意思的项目，在网页上丝滑流畅的使用 Claude Code ,还能云端部署。 一个基于 Claude Agent SDK 而不是命令行套壳 Claude Code 的 WebUI</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1184316" target="_blank" class="news-link">[开源] claude code 含 LSP 开箱即用-新增了 gemini</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1992696733449340814" target="_blank" class="news-link">淘宝闪购计划今年继续加大外卖投入，目标达到市场绝对第一，阿里能在外卖市场反超美团吗？</a> [16] <font color='grey'>- 18时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
