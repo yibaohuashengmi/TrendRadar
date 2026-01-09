@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 207</p><p>生成时间: 2026-01-09 17:33:18</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">8.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/911/944.htm" target="_blank" class="news-link">红魔 11 Air 官宣即将发布，预计搭载骁龙 8 至尊版及主动散热风扇</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3762949" target="_blank" class="news-link">大摩：中国在AI竞赛中拥有独特优势，阿里是“最佳赋能者”，腾讯具“最高2C变现潜力”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1184290" target="_blank" class="news-link">jetbrains 真是够 jb 的，把 IntelliJ IDEA Community 藏的那么深</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba202-246c-700b-b23c-be8cbb412a3a" target="_blank" class="news-link">AT LEAST SIX FLIGHTS FROM DUBAI TO SEVERAL IRANIANS CITIES HAVE BEEN CANCELED, DUBAI AIRPORTS WEBSITE SHOWS</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba1fd-44b1-700b-b23c-a4cab52b160c" target="_blank" class="news-link">CHINA’S STATE COUNCIL ANTI-MONOPOLY AND ANTI-UNFAIR COMPETITION OFFICE LAUNCHES INVESTIGATION AND ASSESSMENT OF COMPETITION CONDITIONS IN THE FOOD DELIVERY PLATFORM SERVICES INDUSTRY</a> [11] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2253101" target="_blank" class="news-link">【每日收评】沪指时隔10年重新站上4100点！ 两市成交额突破3万亿，AI应用迎全线爆发</a> [11] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba1fd-1881-700b-b23c-981214514162" target="_blank" class="news-link">CHINA CUSTOMS: ALLOWS IMPORTS OF BEE RELATED PRODUCTS FROM THAILAND</a> [12] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba1fc-a9c7-700b-b23c-9617376f60d2" target="_blank" class="news-link">Retail Sales (YoY) (Nov)</a> [13] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba1fc-7ae2-700b-b23c-8e52c8f88911" target="_blank" class="news-link">Retail Sales SA (MoM) (Nov)</a> [14] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3033950" target="_blank" class="news-link">广西：加快建设“AI＋金属新材料”、“AI＋生物育种””等标杆级应用平台</a> [14] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260109170031939800" target="_blank" class="news-link">机构：在AI与关税夹击下，美国12月非农就业增长料疲弱</a> [15] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba1f9-cdf0-700b-b23c-790afd37673a" target="_blank" class="news-link">Gold Climbs as Traders Await U.S. Jobs Data</a> [16] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba1f4-fbb7-700b-b23c-769821a6dd52" target="_blank" class="news-link">NEW STREET RESEARCH RAISES AMAZON TARGET PRICE TO $350 FROM $340</a> [17] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba1e8-f775-700b-b23c-652d6f8caef7" target="_blank" class="news-link">THAI FINANCE OFFICIAL: WILL REQUIRE GOLD TRADING PLATFORMS TO KEEP SPECIAL ACCOUNTS, REPORT IDENTITIES</a> [19] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba1e6-b0f0-700b-b23c-4cd42b420597" target="_blank" class="news-link">THAI FINANCE OFFICIAL: TRADING PLATFORMS MUST COMPLY WITH ALL CRITERIA</a> [22] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba1e4-67cd-700b-b23c-430d69796a79" target="_blank" class="news-link">&lt;b&gt;THAI FINANCE MINISTRY OFFICIAL: GOLD TRADING CURRENTLY DOES NOT HAVE SUPERVISORY AUTHORITY&lt;/b&gt;</a> [23] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46551238" target="_blank" class="news-link">Grok turns off image generator for most after outcry over sexualised AI imagery</a> [23] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ba1e3-4bd9-700b-b23c-38f449923b4b" target="_blank" class="news-link">THAI SENIOR FINANCIAL OFFICIAL: CONSIDERING TAXES ON GOLD TRADING AND GOLD IMPORTS</a> [24] <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7592079304923824138" target="_blank" class="news-link">Claude Code 完全指南:使用方式、技巧与最佳实践</a> [30] <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3762957" target="_blank" class="news-link">Minimax登陆港股首日暴涨109%，阿里、米哈游们赚翻了！</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
