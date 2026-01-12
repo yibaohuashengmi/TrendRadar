@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 59</p><p>生成时间: 2026-01-13 07:21:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">5</td>
+                <td class="percentage">8.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/655.htm" target="_blank" class="news-link">OpenAI 宣布收购医疗保健初创公司 Torch，推进 ChatGPT Health 布局</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时21分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/654.htm" target="_blank" class="news-link">扎克伯格官宣 Meta Compute：布局“国家级”能源项目，打造全球顶级 AI 算力版图</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时21分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/653.htm" target="_blank" class="news-link">消息称 OpenAI 正研发 AI 耳机：可利用自然语言交互、有望配备 2nm 制程芯片</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3035608" target="_blank" class="news-link">电网基建与AIDC需求共振，变压器行业高景气延续</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3035605" target="_blank" class="news-link">催化事件不断，AI应用从“可用”迈向“好用”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">4</td>
+                <td class="percentage">6.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3763053" target="_blank" class="news-link">美股走V新高，谷歌破4万亿，中概大涨，人民币创2023年5月来最高，金银大涨创新高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763053" target="_blank" class="news-link">美股走V新高，谷歌破4万亿，中概大涨，人民币创2023年5月来最高，金银大涨创新高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时21分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/652.htm" target="_blank" class="news-link">苹果官宣联合 Gemini 推进个性化 Siri 等 Apple Intelligence 功能，谷歌市值应声突破 4 万亿美元仅次于英伟达</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时21分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5149567" target="_blank" class="news-link">美股异动｜谷歌A收涨1%，市值突破4万亿美元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">1.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2255541" target="_blank" class="news-link">美股收盘：三大指数小幅收涨 金龙指数飙升逾4% 阿里巴巴大涨10%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时21分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
