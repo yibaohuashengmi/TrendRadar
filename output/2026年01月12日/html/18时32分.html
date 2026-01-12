@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 200</p><p>生成时间: 2026-01-12 18:32:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">4.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763096" target="_blank" class="news-link">高盛展望2026大中华区科技趋势：ASIC成AI服务器增量核心，光模块迈向1.6T，果链领跑智能手机.......</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763095" target="_blank" class="news-link">AI眼镜迈入独立智能终端时代，开始接管手机核心功能</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3035208" target="_blank" class="news-link">恒为科技：公司关注到近期AI应用概念市场热度较高，公司不涉及AI应用相关业务。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2255010" target="_blank" class="news-link">【数据看盘】多只中证A500相关ETF上周份额大减 机构和游资激烈博弈AI应用概念股</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb18a-4a3a-7ddd-8d23-99a870d6ec2e" target="_blank" class="news-link">FAW-VW, SAIC-VW SOLD A COMBINED 2,593,705 PASSENGER VEHICLES IN CHINA IN 2025 - CHINA AUTO INDUSTRY BODY CPCA</a> [11] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb189-d288-7ddd-8d23-96369e6d624e" target="_blank" class="news-link">FAW-VW, SAIC-VW SOLD A COMBINED 239,530 PASSENGER VEHICLES IN CHINA IN DECEMBER - CHINA AUTO INDUSTRY BODY CPCA</a> [12] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2254978" target="_blank" class="news-link">【焦点复盘】北证50放量涨超5%，全市场超300股涨超10%，GEO概念领涨AI应用端</a> [12] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3035176" target="_blank" class="news-link">汉得信息：公司AI产品与服务业务目前尚处起步阶段，仍不占整体营业收入的主体</a> [18] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7593771861323546650" target="_blank" class="news-link">AI Agent 框架演进</a> [30] <font color='grey'>- 18时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">1.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/594.htm" target="_blank" class="news-link">上汽集团总裁贾健旭拜访华为任正非，商讨尚界品牌合作再深化</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3035203" target="_blank" class="news-link">上汽集团总裁贾健旭先生拜访华为创始人任正非先生，共商尚界品牌合作再深化</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/592.htm" target="_blank" class="news-link">Anthropic CEO 自曝：Claude 本可抢跑 ChatGPT，我们按下了暂停键</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时32分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
