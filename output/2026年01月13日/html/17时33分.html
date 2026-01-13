@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 204</p><p>生成时间: 2026-01-13 17:33:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">5.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb6a2-3954-7ddd-8d30-b76fdc392b28" target="_blank" class="news-link">BRENT CRUDE&#x27;S PREMIUM TO DUBAI SETTLES AT $1.97/BBL, THE HIGHEST SINCE JULY - LSEG DATA</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260113/1069291834.html" target="_blank" class="news-link">气象学家：中国建立AI模型用于分析天气对股市的影响</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2256114" target="_blank" class="news-link">工信部：实施工业互联网与人工智能融合赋能行动 推动人工智能技术在工业全链条渗透</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/900.htm" target="_blank" class="news-link">微软 Win11 强推 AI 引不满，用户开发浏览器扩展疯狂嘲讽</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E6%A0%B8%E8%81%9A%E5%8F%98%E8%A3%85%E7%BD%AE%E8%9E%8D%E5%85%A5AI%E6%8A%80%E6%9C%AF" target="_blank" class="news-link">中国核聚变装置融入AI技术</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb699-961d-7ddd-8d30-94f6a27f2610" target="_blank" class="news-link">SOME POPULAR CHINESE STOCKS FALL US PRE-MARKET: BAIDU DOWN 3%, XPENG &amp; PINDUODUO DOWN 2%+</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1185298" target="_blank" class="news-link">AI 考勤与智慧校园监控系统是如何实现的？求技术方案与模型推荐</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb698-0bd5-7ddd-8d30-6fc9df86d11c" target="_blank" class="news-link">Trump’s tariff gambit over Iran risks derailing U.S.–China trade deal</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763172" target="_blank" class="news-link">工信部：实施工业互联网与人工智能融合赋能行动 2028年具有一定影响力的平台超450家</a> [11] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5149988" target="_blank" class="news-link">通达海(301378.SZ)：AI驱动的相关收入占公司整体营业收入的比重较低</a> [14] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb67c-3b86-7ddd-8d30-3e375a55b02b" target="_blank" class="news-link">GLOBAL CENTRAL BANKS DRAFTING STATEMENT TO EXPRESS SUPPORT FOR FED CHAIR POWELL</a> [16] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1994352106249873378" target="_blank" class="news-link">张文宏不支持把 AI 引入病历系统，恐造成医生诊断能力缺失，这种担忧是否合理？在其他专业领域也类似么？</a> [17] <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1185288" target="_blank" class="news-link">造了个轮子：给 Claude Code 做了个图形化配置界面</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1185286" target="_blank" class="news-link">用 claude 搞了一圈 nuxt 和 nuxtui 失望！</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7593573617648123956" target="_blank" class="news-link">🚀告别Vibe Coding！用Superpowers让Claude Code写出工程级代码，一次通过零报错！遵循TDD最佳实践！支持Codex和OpenCo</a> [30] <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260113170321463800" target="_blank" class="news-link">谷歌今年将在越南研发并生产高端手机。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb698-2dcb-7ddd-8d30-76b8601a5504" target="_blank" class="news-link">GOOGLE TO DEVELOP AND MAKE HIGH-END PHONES IN VIETNAM THIS YEAR- NIKKEI ASIA</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
