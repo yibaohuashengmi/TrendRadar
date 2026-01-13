@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 326</p><p>生成时间: 2026-01-13 11:45:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">22</td>
+                <td class="percentage">6.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5149620" target="_blank" class="news-link">A股异动｜华大智造10天涨超36%，“AI+生命科学”概念加速落地</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/01/13/6207625e374f427691354862a77ae0d0.html" target="_blank" class="news-link">中国利用AI工具筛查早期肿瘤</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb554-f6d0-7ddd-8d2d-46cc5ad89c25" target="_blank" class="news-link">&lt;b&gt;SHANGHAI&#x27;S MOST ACTIVE TIN FUTURES SURGE MORE THAN 8% TO 393,570 YUAN/TON&lt;/b&gt;</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb550-f177-7ddd-8d2d-355b2c2c5836" target="_blank" class="news-link">China Lithium Futures Hit Limit Up for Second Straight Day</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb54f-1505-7ddd-8d2d-2d37268e7c14" target="_blank" class="news-link">CHINA&#x27;S MOST ACTIVE LITHIUM CARBONATE FUTURES HITS DAILY LIMIT, UP 11.99%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5149616" target="_blank" class="news-link">英伟达、礼来押注AI制药！医药ETF沪港深、生物科技ETF基金涨超4%，生物科技ETF、港股通医疗ETF华宝、港股创新药ETF涨超3.5%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/761.htm" target="_blank" class="news-link">如何让 AI 更推荐你？GEO（生成式引擎优化）概念股持续“狂飙”，多家公司连续涨停</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb54d-48f3-7ddd-8d2d-245baba2917c" target="_blank" class="news-link">CHINA&#x27;S OIL AND GAS SHARES EXTEND RALLY; ZHUNYOU CO JUMPS BY 10% DAILY LIMIT, TONGYUAN PETROLEUM UP OVER 17%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb549-f2bc-7ddd-8d2d-1bc4d7d1b875" target="_blank" class="news-link">U.S. HOUSE JUDICIARY PANEL CHAIRMAN SAYS FORMER SPECIAL COUNSEL JACK SMITH WILL TESTIFY PUBLICLY BEFORE HOUSE JUDICIARY COMMITTEE ON JANUARY 22</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5149614" target="_blank" class="news-link">港股异动丨AI医疗爆发！方舟健客放量飙升43%，股价创2个月新高</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1991915523580135211" target="_blank" class="news-link">如何看待 2026 CSRankings 人工智能学科排行榜南京大学位列全球第一，前十名被中国高校霸榜？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5149611" target="_blank" class="news-link">华福证券：AI医疗迈入商业化落地关键阶段</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3855335_100_1" target="_blank" class="news-link">【行情】A股中证传媒指数一度大涨4.9%，Ai应用新“易中天”组合飙升。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/749.htm" target="_blank" class="news-link">荣耀 Magic 8 Pro Air 预热：1/1.3&quot; 大底主摄 + 64MP 潜望长焦，全焦段精准补光</a> [13] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3763091" target="_blank" class="news-link">万亿蓝海的新门票：谁在收割 AI for Science 的第一波红利？</a> [15] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7593337928307621914" target="_blank" class="news-link">前端佬们！！AI大势已来，别焦虑，干！</a> [16] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3035759" target="_blank" class="news-link">美防长称马斯克旗下AI聊天机器人将接入五角大楼系统</a> [17] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763133" target="_blank" class="news-link">还记得去年“AI大崩盘”的导火索吗？Coreweave有了“显著进展”，股价应声大涨</a> [17] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb520-10df-7ddd-8d2c-9835fdd8a021" target="_blank" class="news-link">SHANGHAI: TO SUBSIDIZE CONVERSION OF COMMERCIAL BUILDINGS INTO ELDERLY CARE FACILITIES</a> [23] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/705.htm" target="_blank" class="news-link">美防长称马斯克旗下 AI 聊天机器人 Grok 将接入五角大楼系统</a> [25] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%8B%B9%E6%9E%9C%E5%AE%98%E5%AE%A3iPhone%E5%B0%86%E6%90%AD%E8%BD%BD%E6%9C%80%E5%BC%BAAI%23&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">苹果官宣iPhone将搭载最强AI</a> [28] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb51c-3ddd-7ddd-8d2c-643d3dea31fd" target="_blank" class="news-link">&lt;b&gt;SHANGHAI: TO SUPPORTS ISSUANCE OF REITS FOR CONSUMER INFRASTRUCTURE&lt;/b&gt;</a> [30] <font color='grey'>- 11时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1185167" target="_blank" class="news-link">我用 Gemini 3 Pro 撸了一个「中国历代帝王出生地分布图」</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=iPhone%E5%AE%98%E5%AE%A3%E6%8E%A5%E5%85%A5Gemini" target="_blank" class="news-link">iPhone官宣接入Gemini</a> [11] <font color='grey'>- 11时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%A2%81%E6%96%87%E9%94%8B%E6%96%B0%E8%AE%BA%E6%96%87%E5%89%A7%E9%80%8F%E4%B8%8B%E4%B8%80%E4%BB%A3%E6%A8%A1%E5%9E%8B" target="_blank" class="news-link">梁文锋新论文剧透下一代模型</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1185144" target="_blank" class="news-link">做 llm 算法的 V 友如何看待 DeepSeek 的 Engram</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3855318_101_1" target="_blank" class="news-link">阿里云完成对Zstack进一步战略投资并实现控股</a> <font color='red'><strong>[9 - 29]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5149610" target="_blank" class="news-link">港股异动丨阿里巴巴涨超6%，创2个月新高</a> [11] <font color='grey'>- 11时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/701.htm" target="_blank" class="news-link">Anthropic 发布 Cowork：面向所有人版本的 Claude Code 助手</a> [28] <font color='grey'>- 11时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1185178" target="_blank" class="news-link">chatgpt 炸了，代码跑着跑着出现了成人内容</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时45分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
