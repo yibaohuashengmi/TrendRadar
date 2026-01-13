@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 142</p><p>生成时间: 2026-01-13 19:25:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">11.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb711-9d56-7ddd-8d32-00b7f472955c" target="_blank" class="news-link">OFFICIALS ARE DISCUSSING DETAILS OF TRUMP MEETING: FT</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/940.htm" target="_blank" class="news-link">荣耀 PC 全新 AI UI 亮相，朱臣才称智能手机从 UI 到 OS 演进过程 AIPC 也一样需要、可行</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb710-9cbd-7ddd-8d31-fe7771df7a29" target="_blank" class="news-link">G-7 LEADERS TO DISCUSS UKRAINE WITH TRUMP AT DAVOS: FT&lt;br/&gt;&lt;br/&gt;LEADERS OF ITALY, GERMANY, FRANCE, CANADA AND UK WILL SEEK US PRESIDENT’S PERSONAL ENDORSEMENT ON SECURITY GUARANTEES FOR UKRAINE - FT</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1185338" target="_blank" class="news-link">怎么让 AI 写的代码看起来不像是 AI 写的，像是码农自己写的</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb70d-7ae2-7ddd-8d31-f20fec848a31" target="_blank" class="news-link">BOFA GLOBAL RESEARCH RAISES IBM PRICE OBJECTIVE TO $335 FROM $315</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763192" target="_blank" class="news-link">OpenAI的首款硬件：是AI耳机，今年销量要冲5000万</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb70d-4d35-7ddd-8d31-e9c0b45ac0b0" target="_blank" class="news-link">CITIGROUP RAISES ZOOM COMMUNICATIONS TO BUY FROM NEUTRAL; RAISES TARGET PRICE TO $106 FROM $94</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb70d-1866-7ddd-8d31-e2d565717e14" target="_blank" class="news-link">BOFA GLOBAL RESEARCH RAISES MICRON TECHNOLOGY PRICE OBJECTIVE TO $400 FROM $300</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3036091" target="_blank" class="news-link">海天瑞声：由于人工智能行业整体发展较为迅速，应用领域和应用场景不断拓展，下游需求随着行业发展不断发生变化，公司进行数据开发所需的各项技术也面临着快速迭代的风险；公司业务相关的一体化智能数据处理平台接入并适配了外部第三方大模型，但公司自身未从事人工智能基座大模型的开发。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb70b-ae89-7ddd-8d31-dee986028570" target="_blank" class="news-link">&lt;b&gt;CHINA&#x27;S MOORE THREADS, WITH BEIJING ACADEMY OF ARTIFICIAL INTELLIGENCE, COMPLETES FULL TRAINING OF ROBOBRAIN 2.5 EMBODIED AI MODEL&lt;/b&gt;</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3036086" target="_blank" class="news-link">摩尔线程：联合智源成功完成智源自研具身大脑模型RoboBrain 2.5的全流程训练</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/933.htm" target="_blank" class="news-link">《剑星》总监金亨泰：AI 是与中国游戏厂商抗衡的必备工具</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb703-0347-7ddd-8d31-b928c18d235d" target="_blank" class="news-link">TD COWEN RAISES META TARGET PRICE TO $820 FROM $810</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb701-b1c1-7ddd-8d31-b41d59579534" target="_blank" class="news-link">TD COWEN RAISES ALPHABET TARGET PRICE TO $355 FROM $350</a> [11] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb700-a58c-7ddd-8d31-aae89e9f3d94" target="_blank" class="news-link">TD COWEN RAISES AMAZON TARGET PRICE TO $315 FROM $300</a> [12] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bb6fc-e6f3-7ddd-8d31-a12fbc18b7fd" target="_blank" class="news-link">BOFA GLOBAL RESEARCH RAISES ALPHABET PRICE OBJECTIVE TO $370 FROM $335</a> [13] <font color='grey'>- 19时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/912/935.htm" target="_blank" class="news-link">华为余承东：鸿蒙智行问界 100 万辆下线创新势力最快纪录，50 万以上每卖 10 辆有 7 辆是问界 M9</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
