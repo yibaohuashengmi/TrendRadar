@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 70</p><p>生成时间: 2026-01-15 04:27:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">18.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763318" target="_blank" class="news-link">OpenAI与Cerebras敲定超100亿美元协议，承诺购买至多750 MW算力</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115041052630800" target="_blank" class="news-link">OpenAI：将与Cerebras合作，在我们的平台上新增750兆瓦的超低时延人工智能算力。产能将分多个批次在2028年前上线。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763313" target="_blank" class="news-link">2026年迎IPO超级周期！OpenAI与Anthropic被爆采取初步行动，SpaceX已洽谈多家银行</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3037274" target="_blank" class="news-link">据华尔街日报，OpenAI与Cerebras敲定超100亿美元协议，承诺购买至多750 MW算力。 另据彭博，OpenAI确认与Cerebras构建合作伙伴关系，但条款没有披露。</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbe25-961d-7ddd-8d4c-aa87c9c727b2" target="_blank" class="news-link">PENTAGON: STATE DEPT APPROVES POTENTIAL SALE OF PATRIOT PROGRAM SUSTAINMENT AND FOLLOW-ON TECHNICAL SUPPORT TO KUWAIT FOR $800 MLN</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbe1b-3dd6-7ddd-8d4c-8bc34100ca44" target="_blank" class="news-link">TRUMP: LEAKER HAS BEEN FOUND AND IS IN JAIL NOW</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 04时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbe1a-fa4e-7ddd-8d4c-815fa6eb55e0" target="_blank" class="news-link">OpenAI Commits $10 Billion to Cerebras for AI Compute Expansion</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 04时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbe19-a2c4-7ddd-8d4c-6e30b8465bb2" target="_blank" class="news-link">TRUMP SIGNED EXECUTIVE ACTION ON CRITICAL MINERALS - AIDE</a> [13] <font color='grey'>- 04时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbe18-c397-7ddd-8d4c-58f7ba978ca8" target="_blank" class="news-link">&lt;b&gt;OPENAI FORGES MULTIBILLION-DOLLAR COMPUTING PARTNERSHIP WITH CEREBRAS - WSJ&lt;/b&gt;</a> [15] <font color='grey'>- 04时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115040115164800" target="_blank" class="news-link">据华尔街日报：OpenAI将在三年内从初创公司Cerebras购买多达750兆瓦的算力。</a> [15] <font color='grey'>- 04时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbe11-6335-7ddd-8d4c-57864cd816c4" target="_blank" class="news-link">GERMAN AUTHORITIES HAVE ISSUED A NEW NOTAM CAUTIONING GERMAN AIRLINES FROM ENTERING IRANIAN AIRSPACE - FLIGHTRADAR24</a> [16] <font color='grey'>- 04时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115040037235800" target="_blank" class="news-link">据华尔街日报：OpenAI与初创公司Cerebras达成计算合作，OpenAI将使用Cerebras设计的芯片为ChatGPT提供动力。OpenAI与Cerebras的交易价值超过100亿美元。</a> [16] <font color='grey'>- 04时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbe0d-3e03-7ddd-8d4c-4e8558274b9f" target="_blank" class="news-link">&lt;B&gt;US AUTHORIZES CERTAIN TRANSACTIONS FOR LUKOIL SALE&lt;/B&gt;</a> [17] <font color='grey'>- 04时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
