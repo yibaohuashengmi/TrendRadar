@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 180</p><p>生成时间: 2026-01-14 12:52:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">7.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbad6-14fd-7ddd-8d3f-fd2002e737c8" target="_blank" class="news-link">BEIJING STOCK EXCHANGE: TO ADJUST MARGIN RATIO TO NO LESS THAN 100% FROM JAN 19&lt;br/&gt;&lt;br/&gt;SHANGHAI STOCK EXCHANGE: TO ADJUST MARGIN RATIO TO NO LESS THAN 100% FROM JAN 19</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763239" target="_blank" class="news-link">沪指冲击4200点，创业板涨逾2%，AI应用大爆发、新“易中天”继续飙升，港股阿里涨超5%，沪锡涨停、沪银大涨7%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5150420" target="_blank" class="news-link">中手游早盘涨超6% AI技术赋能IP开发显成效</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbad5-246a-7ddd-8d3f-f23b0e3103c1" target="_blank" class="news-link">China Raises Margin Requirements</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763234" target="_blank" class="news-link">AI数据中心电力供应链，高盛最偏好“燃气轮机叶片和变压器”，对这类中国企业是大机遇</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763236" target="_blank" class="news-link">CES上的“物理AI”拐点：Robotaxi走向规模化，人形机器人供应链悄然形成</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbacf-e909-7ddd-8d3f-de612617351d" target="_blank" class="news-link">CHINA RAISES MARGIN TRADING REQUIREMENT: MINIMUM FINANCING MARGIN LIFTED TO 100% FROM 80%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1185507" target="_blank" class="news-link">写了一个 NotebookLM 转可编辑 PPT 的工具： Wipely AI - 浏览器端离线 PPT 文字擦除与还原</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbac5-2d38-7ddd-8d3f-d48d354b6991" target="_blank" class="news-link">China’s Zhipu Unveils New AI Model Trained on Huawei’s Chips</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbabf-d2b8-7ddd-8d3f-cece715dfe8e" target="_blank" class="news-link">BOJ GOV UEDA: WILL CONTINUE TO RAISE INTEREST RATES IF ECONOMIC, PRICES DEVELOPMENT IN LINE WITH FORECAST, WAGES AND PRICES RISE MODERATELY</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5150413" target="_blank" class="news-link">港股异动丨阿里大涨超5%，据报阿里云2026年目标是拿下中国AI云市场增量的80%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5150412" target="_blank" class="news-link">港股午评：恒指涨0.92%重回27000点，AI应用相关概念股再度飙升，银行保险部分走低</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%9F%A9%E6%9C%8D%E7%99%BB%E9%A1%B6%E8%B4%A6%E5%8F%B7%E6%98%AFAI%E6%93%8D%E4%BD%9C%E7%9A%84%E5%90%97" target="_blank" class="news-link">韩服登顶账号是AI操作的吗</a> [11] <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3036640" target="_blank" class="news-link">海关总署：我国人工智能算力需求旺盛，去年电脑零部件进口增长20%</a> [17] <font color='grey'>- 12时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/098.htm" target="_blank" class="news-link">华为发布 2026 智能光伏十大趋势：光风储协同、智能体融入新能源电站等</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3036654" target="_blank" class="news-link">华为手机2025年重返中国市场第一</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.zaobao.com.sg/realtime/china/story20260114-8098226" target="_blank" class="news-link">阿里千问月活突破1亿</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
