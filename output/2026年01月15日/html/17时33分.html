@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 225</p><p>生成时间: 2026-01-15 17:33:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46629682" target="_blank" class="news-link">Raspberry Pi&#x27;s New AI Hat Adds 8GB of RAM for Local LLMs</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1185960" target="_blank" class="news-link">偏见和歧视：无论是 gemini pro 网页还是 ai studio，总感觉 gemini 的回答不如 GPT5.2Pro。。。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc0f1-63e1-7ddd-8d58-719ac6227a32" target="_blank" class="news-link">INDIA TRADE SECY: AWAITING MORE DETAILS FROM US ON IRAN TARIFF ORDER</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc0f0-d6dd-7ddd-8d58-6abde1d04890" target="_blank" class="news-link">INDIA TRADE SECY: U.S. EXPORTS REMAIN IN POSITIVE TERRITORY PARTLY DUE TO ELECTRONIC GOODS AND EXEMPTIONS</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc0eb-7147-7ddd-8d58-5e18ff218577" target="_blank" class="news-link">FOREIGN HOLDINGS OF YUAN BONDS TRADED ON CHINA&#x27;S INTERBANK MARKET STAND AT 3.46 TRLN YUAN AT END-DEC - PBOC SHANGHAI HEAD OFFICE</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc0e5-abf7-7ddd-8d58-325e581a4782" target="_blank" class="news-link">CANADIAN PM CARNEY: RELATIONSHIP WITH CHINA HAD GONE THROUGH A PERIOD OF UNCERTAINTY AND OF DISTANCE</a> [12] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc0de-658e-7ddd-8d57-e14205736c3c" target="_blank" class="news-link">TURKEY&#x27;S MAIN BANKING INDEX DOWN 2%</a> [22] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc0da-6497-7ddd-8d57-d5a4d408579d" target="_blank" class="news-link">China Aims for &#x27;Slow Bull&#x27; Market, Tightens Margin Rules: Julius Baer</a> [24] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc0cf-b48b-7ddd-8d57-b214b61d554c" target="_blank" class="news-link">Alibaba to Open AI Model: VP</a> [28] <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/543.htm" target="_blank" class="news-link">华为 × 广汽联合打造品牌“启境”4S 店曝已启动装修，首车 6 月上市</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763372" target="_blank" class="news-link">摩根资产管理：中国科技领域将迎来“更多DeepSeek时刻”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/546.htm" target="_blank" class="news-link">不只点外卖、买东西、订机票，阿里千问 App 上线 400 多项新功能</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
