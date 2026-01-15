@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 223</p><p>生成时间: 2026-01-15 20:55:52</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">6.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1186011" target="_blank" class="news-link">一个关于专门为 AI 设计 web 的设想</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc197-43fe-7ddd-8d5a-cd6abbe9fe80" target="_blank" class="news-link">MORGAN STANLEY RAISES CITIGROUP TARGET PRICE TO $135 FROM $134</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958429" target="_blank" class="news-link">2026年狂投560亿美元！台积电魏哲家：花了很长时间验证AI需求，才放心砸钱！</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/596.htm" target="_blank" class="news-link">英伟达投资初创公司 Harmonic，后者专注开发解决数学问题的 AI 系统</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46629191" target="_blank" class="news-link">Show HN: MailPilot – Freedom to go anywhere while your agents work</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763387" target="_blank" class="news-link">580美元，闪迪目标价上调93%！伯恩斯坦：AI正创造一个前所未有的存储超级周期</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763386" target="_blank" class="news-link">台积电： AI界“真大佬”，谁会拒绝？</a> [13] <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/586.htm" target="_blank" class="news-link">又一国家出手：菲律宾封杀马斯克的 Grok AI 聊天机器人</a> [14] <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3037989" target="_blank" class="news-link">瑞银：短期中国出现AI泡沫概率低 看好半导体与机器人上游产业链</a> [16] <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/584.htm" target="_blank" class="news-link">蔚来李斌开年内部讲话：预计 2025 年第四季度盈利目标可实现，推动 AI 在全业务链条落地</a> [16] <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115201426972800" target="_blank" class="news-link">市场消息：人工智能将推动半导体行业营收在2026年首次突破1万亿美元大关。</a> [17] <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc17c-f0a1-7ddd-8d5a-64fc7478b625" target="_blank" class="news-link">WELLS FARGO RAISES BROADCOM TARGET PRICE TO $430 FROM $410&lt;br/&gt;&lt;br/&gt;WELLS FARGO RAISES MICRON TECHNOLOGY TARGET PRICE TO $410 FROM $335</a> [18] <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3037984" target="_blank" class="news-link">华胜天成：公司关注到市场将公司列入AI相关热点概念。公司目前涉及AI业务的相关收入占公司整体营业收入的比例较低，对公司业绩预计不构成重大影响。</a> [19] <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc16d-220c-7ddd-8d5a-49282af0c99c" target="_blank" class="news-link">NEEDHAM RAISES TAIWAN SEMICONDUCTOR MANUFACTURING TARGET PRICE TO $410 FROM $360</a> [21] <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260115200304721800" target="_blank" class="news-link">人工智能视频生成初创公司Higgsfield筹集了8000万美元的新资金，对公司的估值超过13亿美元。</a> [23] <font color='grey'>- 20时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1186013" target="_blank" class="news-link">上班之余建站创业，基本全弄好了，卡死在 gemini apikey 上，有大佬知道三方中转站的低价 api 是怎么弄的吗</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/600.htm" target="_blank" class="news-link">苹果采用谷歌 Gemini 赋能 Siri，双方合作内幕曝光</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/599.htm" target="_blank" class="news-link">全新奥迪 Q5L B 级豪华燃油 SUV 上市：搭载华为乾崑定制智驾，30.98 万元起</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/588.htm" target="_blank" class="news-link">消息称华为畅享 70X 成为 HarmonyOS 6 首个 API22 版本公测机型</a> [12] <font color='grey'>- 20时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1995072623625855863" target="_blank" class="news-link">DeepSeek 梁文锋旗下幻方量化 2025 年收益率 56.6%，如何评价这一业绩？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7595459586614627903/" target="_blank" class="news-link">阿里美团能撼动携程地位吗</a> [30] <font color='grey'>- 20时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
