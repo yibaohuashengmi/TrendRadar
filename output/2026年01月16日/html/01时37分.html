@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 123</p><p>生成时间: 2026-01-16 01:37:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">6</td>
+                <td class="percentage">4.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc29e-cd95-744e-b24c-09939da42c88" target="_blank" class="news-link">&lt;B&gt;US HOUSE CHINA COMMITTEE CHAIR MOOLENAAR ON H200 CHIPS: MEMORY SHORTAGE TO HIT NVIDIA CHINA APPROVALS - LETTER&lt;/B&gt;&lt;br/&gt;&lt;br/&gt;MOOLENAAR LETTER IS LOOKING FOR MORE INFORMATION ON MEMORY CHIP SHORTAGE</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763409" target="_blank" class="news-link">OpenAI发力机器人与AI设备，被爆寻找美国供应商</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc298-6a49-744e-b24b-e4de284b2e2b" target="_blank" class="news-link">FED&#x27;S BARR: IN THAT SCENARIO, HE SAID, POLICYMAKERS CAN TAKE SOME TIME AS RATES REMAIN AROUND THE NEUTRAL LEVEL, NEITHER BOOSTING NOR COOLING THE ECONOMY</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 01时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc296-c9f0-744e-b24b-dcc4a9f46377" target="_blank" class="news-link">FED&#x27;S BARR: INFLATION REMAINS ELEVATED WHILE THE LABOR MARKET HAS SHOWN SIGNS OF STABILIZING</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260116004856986800" target="_blank" class="news-link">华尔街六大行裁员创十年新高 AI转型与效率至上成主旋律</a> [15] <font color='grey'>- 01时37分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3860981_101_1" target="_blank" class="news-link">台积电三季度业绩报告要点总结：Ai巨头需求引爆，Q4利润激增35%再破纪录</a> [20] <font color='grey'>- 01时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260116010451484800" target="_blank" class="news-link">谷歌：推出 TranslateGemma——基于 Gemma 3 构建的全新开源翻译模型系列，助力人们以55种语言无障碍沟通。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc29e-0df5-744e-b24c-02ead1f27078" target="_blank" class="news-link">GOOGLE: INTRODUCING TRANSLATEGEMMA, A NEW COLLECTION OF OPEN TRANSLATION MODELS BUILT ON GEMMA 3 HELPING PEOPLE COMMUNICATE ACROSS 55 LANGUAGES - BLOG</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
