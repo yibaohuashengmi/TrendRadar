@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 395</p><p>生成时间: 2026-01-15 10:02:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">30</td>
+                <td class="percentage">7.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763340" target="_blank" class="news-link">A股低开高走，三大股指转涨，AI应用集体退潮，恒科指跌1%，阿里微跌，携程重挫20%，沪锡涨超7%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5151108" target="_blank" class="news-link">A股早评：三大指数集体低开，AI应用、商业航天等板块回调</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbf5b-752f-7ddd-8d4f-5f526b1d89df" target="_blank" class="news-link">Kuaishou Markets $2 Billion Offshore Bond Offering to Fund AI</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763337" target="_blank" class="news-link">AI一键点外卖、订机票…阿里千问要干大事！</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5151107" target="_blank" class="news-link">港股早评：三大指数低开，AI应用概念股多数走低，自动驾驶概念股活跃</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1185789" target="_blank" class="news-link">用 AI 做的打砖块游戏历时俩月上架微信小程序</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3037450" target="_blank" class="news-link">AI医疗、AI制药概念震荡调整，泓博医药跌超18%，诺思格跌近15%，国际医学、博济医药、嘉和美康、贝瑞基因等跌逾5%。</a> <font color='red'><strong>[2 - 5]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/355.htm" target="_blank" class="news-link">苹果回应 Mac 买断版 Final Cut Pro 争议：现有 AI 功能全给，未来功能恐不全</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763338" target="_blank" class="news-link">阿里进入AI Agent时代！千问订票、点外卖实测</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2258255" target="_blank" class="news-link">阿里千问将上线“AI生活助理”，可一句话点外卖</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbf51-85e4-7ddd-8d4f-3e48eefbfebe" target="_blank" class="news-link">&lt;b&gt;HANG SENG CHINA&#x27;S MAINLAND PROPERTY INDEX RISES OVER 2% AS CHINA EXTEND TAX INCENTIVES FOR HOME UPGRADES POLICY&lt;/b&gt;</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202601/1562349.html" target="_blank" class="news-link">符婉月：AI在教育领域扮演什么角色？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763325" target="_blank" class="news-link">热门GEO、AI应用股密集公告：可能停牌</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.donga.com/cn/article/all/20260115/6059251/1" target="_blank" class="news-link">“宿敌”马斯克与奥尔特曼就人工智能公益性对簿公堂</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/347.htm" target="_blank" class="news-link">荣耀 Magic8 Pro Air 手机官宣搭载 5500mAh 青海湖电池，号称轻薄与长续航“全都有”</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/341.htm" target="_blank" class="news-link">OpenAI 与晶圆级 AI 芯片企业 Cerebras 达成合作，三年部署 750MW 推理系统</a> [15] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260115/1069314860.html" target="_blank" class="news-link">俄远东联邦大学的学者研发出人工智能助手服务于俄罗斯企业进入中国市场</a> [16]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbf46-e9db-7ddd-8d4e-f01d2ef1579f" target="_blank" class="news-link">BOK: EXPORTS TO REMAIN FAVOURABLE</a> [16] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbf45-a80e-7ddd-8d4e-d5fe9cf12251" target="_blank" class="news-link">A-SHARE AI APPLICATION STOCKS MOSTLY RETREAT, ZHIDEMAI TECH SLIDES NEARLY 13%</a> [20] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbf42-40fa-7ddd-8d4e-ce1bfe7c44b3" target="_blank" class="news-link">AT OPEN, SHANGHAI COMPOSITE DOWN 0.46%, SHENZHEN COMPONENT DROPS 0.63%, CHINEXT FALLS 0.93%</a> [21] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/333.htm" target="_blank" class="news-link">遏制 AI 幻觉：苹果 DeepMMSearch-R1 论文揭秘“图像裁剪”搜索术</a> [22] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbf3f-548a-7ddd-8d4e-ba9b3dda03dd" target="_blank" class="news-link">NEW NOTAM ISSUED BY IRAN CLOSING AIRSPACE TO ALL FLIGHTS EXCEPT INTERNATIONAL FLIGHTS TO/FROM IRAN WITH PERMISSION EXTENDED TO 3:30 GMT</a> [23] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/332.htm" target="_blank" class="news-link">苹果发表 Manzano：近乎无损融合“看图”与“绘图”的多模态 AI 模型</a> [23] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/331.htm" target="_blank" class="news-link">一代股神巴菲特警告 AI 技术存在失控风险：堪比“核武器”</a> [24] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbf3b-3f28-7ddd-8d4e-ab44d2bb1eaa" target="_blank" class="news-link">TAIWAN GOVERNMENT: FULL TEXT OF THE AGREEMENT WILL THEN BE SUBMITTED TO THE U.S. CONGRESS FOR REVIEW IN ACCORDANCE WITH STATUTORY PROCEDURES</a> [25]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbf3b-3244-7ddd-8d4e-a58714d19ce4" target="_blank" class="news-link">&lt;b&gt;SHANGHAI&#x27;S MOST ACTIVE NICKEL FUTURES CONTRACT RISES MORE THAN 5%&lt;/b&gt;</a> [26] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbf3b-128f-7ddd-8d4e-9b130438dd1c" target="_blank" class="news-link">TAIWAN GOVERNMENT: SUBSEQUENTLY, TAIWAN WILL SCHEDULE A SEPARATE MEETING WITH THE OFFICE OF THE U.S. TRADE REPRESENTATIVE TO SIGN THE TAIWAN-U.S. TRADE AGREEMENT DOCUMENTS</a> [27] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/328.htm" target="_blank" class="news-link">X 平台承诺：Grok AI 不会再将真人的照片改成“比基尼照”</a> [27] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbf39-946b-7ddd-8d4e-8b2293d6b4d5" target="_blank" class="news-link">SHANGHAI&#x27;S MOST ACTIVE TIN FUTURES CONTRACT RISES MORE THAN 7%</a> [29] <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bbf39-77b0-7ddd-8d4e-86f6a02a4000" target="_blank" class="news-link">TAIWAN GOVERNMENT: TAIWAN AND THE U.S. HAVE PREVIOUSLY HELD MULTIPLE DISCUSSIONS AND REACHED CONSENSUS ON PREFERENTIAL TARIFF TREATMENT FOR SEMICONDUCTORS AND RELATED PRODUCTS UNDER SECTION 232</a> [30] <font color='grey'>- 10时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46625918" target="_blank" class="news-link">Anthropic Explicitly Blocking OpenCode</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46625445" target="_blank" class="news-link">Anthropic is making a huge mistake</a> [22] <font color='grey'>- 10时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763341" target="_blank" class="news-link">直击阿里千问APP发布会：淘宝、飞猪等已接入千问App</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
