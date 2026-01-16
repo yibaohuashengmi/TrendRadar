@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 204</p><p>生成时间: 2026-01-16 15:29:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">6.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/846.htm" target="_blank" class="news-link">福伦达推出 Portrait Heliar 75mm f/1.8 全画幅手动镜头：可控制散景，适配 RF/Z/E 卡口</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时29分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1186234" target="_blank" class="news-link">[自研分享] 手搓了一个 AI 绘画工具 ImageFX，诚邀各位 V 友参与测试</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763449" target="_blank" class="news-link">特朗普拟紧急干预电力市场：强压AI巨头签15年长约，为150亿美元新电厂买单</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时29分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5151941" target="_blank" class="news-link">嘉欣丝绸(002404.SZ)：公司的AI应用目前主要聚焦在产品开发设计和运营提效</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc590-8edb-744e-b253-c2e6236ef022" target="_blank" class="news-link">SHANGHAI&#x27;S MOST ACTIVE NICKEL FUTURES CONTRACT FALLS 4.6%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/913/835.htm" target="_blank" class="news-link">我国人工智能企业数量已超 6200 家，AI 大模型融入千行百业</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc58b-39c1-744e-b253-a609b360a2c0" target="_blank" class="news-link">TD COWEN RAISES INTEL TARGET PRICE TO $50 FROM $38</a> [12] <font color='grey'>- 15时29分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2259986" target="_blank" class="news-link">存储芯片是最佳押注！知名基金经理高呼：市场低估了AI需求</a> [12] <font color='grey'>- 15时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc588-622e-744e-b253-9fb6ade6f324" target="_blank" class="news-link">&lt;b&gt;SHANGHAI&#x27;S MOST ACTIVE TIN FUTURES CONTRACT FALLS MORE THAN 7%&lt;/b&gt;</a> [13] <font color='grey'>- 15时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc584-f6ff-744e-b253-8f6481efc2c3" target="_blank" class="news-link">SOUTH KOREA FINANCE MINISTER KOO: PLANNED $350 BLN INVESTMENT IN U.S. UNLIKELY TO BEGIN IN FIRST HALF OF 2026&lt;br/&gt;&lt;br/&gt;KOO: WILL BEST UTILISE U.S.-BOUND INVESTMENT TO AID LOCAL RAW MATERIALS SECTOR, MANUFACTURERS&lt;br/&gt;&lt;br/&gt;KOO: KOREAN WON FACING DOWNWARD PRESSURE&lt;br/&gt;&lt;br/&gt;KOO: FOREX SITUATION DOES NOT WARRANT LARGE INVESTMENT OUTFLOWS&lt;br/&gt;&lt;br/&gt;KOO: HERD-LIKE BEHAVIOUR IN CURRENCY MARKET WILL NOT BE TOLERATED&lt;br/&gt;&lt;br/&gt;KOO: NOT REVIEWING ADDITIONAL CAPITAL FLOW MEASURES AHEAD OF MSCI REVIEW ON UPGRADE OF KOREA TO DEVELOPED-MARKET CATEGORY&lt;br/&gt;&lt;br/&gt;KOO: IGNITING INFLATION WOULD BE ULTIMATE RISK OF A DECLINING WON&lt;br/&gt;&lt;br/&gt;KOO: WILL FOCUS ON IMPROVING ECONOMY&#x27;S FUNDAMENTALS ACROSS AI, CHIPS, BIO, FOOD SECTORS TO TACKLE FOREX MARKET INSTABILITY&lt;br/&gt;&lt;br/&gt;KOO: EXPECTATIONS FOR EXCESSIVE DEVALUATION OF THE WON MUST BE STOPPED</a> [15] <font color='grey'>- 15时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260116144322115800" target="_blank" class="news-link">三菱公司高管：到2030年，美国天然气需求预计将比2025年水平增长18%，主要受人工智能、数据中心和液化天然气出口的推动。</a> [15] <font color='grey'>- 15时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bc580-b8c3-744e-b253-8508cfe651ad" target="_blank" class="news-link">NIKKEI STOCK AVERAGE CLOSES 0.3% LOWER AT 53936.17, DRAGGED BY RETAIL, PHARMA STOCKS</a> [16] <font color='grey'>- 15时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3038541" target="_blank" class="news-link">从能源到育种 我国人工智能企业数量已超6200家</a> [29] <font color='grey'>- 15时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1186239" target="_blank" class="news-link">做了一个 Claude Code skill：在终端里刷 V2EX 热榜</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1186233" target="_blank" class="news-link">新年伊始，我给 ChatGPT 发了一段话，收获不小，大家可以试试</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3038560" target="_blank" class="news-link">华为乾崑覆盖一汽奥迪双产品线</a> [16] <font color='grey'>- 15时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5151944" target="_blank" class="news-link">联想与阿里十余年合作启示，硬件巨头成为关键先生</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
