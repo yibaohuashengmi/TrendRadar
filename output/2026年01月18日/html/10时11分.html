@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 220</p><p>生成时间: 2026-01-18 10:11:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">4.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1186531" target="_blank" class="news-link">最近对 AI 的使用方式发生了挺明显的变化</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bce74-da33-744e-b25d-629d0abdc665" target="_blank" class="news-link">FRANCE&#x27;S MACRON: NO INTIMIDATION NOR THREAT CAN INFLUENCE US NEITHER IN UKRAINE NOR IN GREENLAND&lt;br/&gt;&lt;br/&gt;FRANCE’S MACRON: EUROPEANS WILL RESPOND IN UNITED, COORDINATED MANNER IF TARIFFS ARE CONFIRMED</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时11分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1186523" target="_blank" class="news-link">[分享] 一個人開發的 AI 文字武俠 Engine，試圖解決 MUD 的自由度問題 (註冊送 40 輪)</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958443" target="_blank" class="news-link">AI的冲击开始显现</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3763514" target="_blank" class="news-link">CoreWeave投资者会议：AI需求“无法解决”，客户愿意签长约，且提前12个月签约</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3763510" target="_blank" class="news-link">“AI云”又杀回来了！2026年至今，CoreWeave涨超40%，Nebius涨近30%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时11分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/160.htm" target="_blank" class="news-link">荣耀 Magic8 Pro Air 新机官宣支持 eSIM，搭配实体 SIM 卡可实现四卡双待</a> [11] <font color='grey'>- 10时11分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BF%81%E5%AE%B6%E7%BF%8C%E8%B0%88OpenAI%E6%A8%A1%E5%9E%8B%E8%B7%83%E8%BF%81" target="_blank" class="news-link">翁家翌谈OpenAI模型跃迁</a> [16] <font color='grey'>- 10时11分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7595289498445463578" target="_blank" class="news-link">年薪百万的 React 功底怎么“装进”AI？Vercel 的这个 Skill 给了标准答案</a> [27] <font color='grey'>- 10时11分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46663341" target="_blank" class="news-link">OpenAI could reportedly run out of cash by mid-2027</a> [29] <font color='grey'>- 10时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3039168" target="_blank" class="news-link">Anthropic将Claude Cowork扩展至20美元Pro订阅用户</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/169.htm" target="_blank" class="news-link">华为乾崑智驾 ADS 4.1 升级点公布，支持 eAES 防夹心、驾驶员失能靠边停等</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时11分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
