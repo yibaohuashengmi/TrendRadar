@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 190</p><p>生成时间: 2026-01-19 21:52:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">5.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763622" target="_blank" class="news-link">高盛眼中的2026年中国互联网：AI超级入口争夺战全面打响，三大主题锁定阿尔法机会</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83344" target="_blank" class="news-link">中国开源 AI 模型占全球份额的 15%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1186917" target="_blank" class="news-link">vibe 了一下 codex cli，改名叫 aish，作为 shell 辅助工具</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd67d-217a-744e-b268-95066ef3b6e2" target="_blank" class="news-link">Alibaba-backed startup Moonshot AI’s valuation is up $500 million, sources say, after its rivals IPO in Hong Kong</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd67b-4221-744e-b268-8f0886a9ebb4" target="_blank" class="news-link">MOONSHOT AI VALUED AT $4.8B IN NEW FUNDING ROUND: CNBC</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd67b-21c6-744e-b268-803aed94c5b6" target="_blank" class="news-link">ALIBABA-BACKED STARTUP MOONSHOT AI VALUED AT $4.8B: CNBC</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1186907" target="_blank" class="news-link">[自荐] 我们做了一款 圣杯 &amp; AI 八字命理解读 App - FateTell，想邀请大家体验并提提建议</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46678550" target="_blank" class="news-link">Ask HN: COBOL devs, how are AI coding affecting your work?</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd658-9257-744e-b268-0b411d05688f" target="_blank" class="news-link">GERMAN CHANCELLOR MERZ: WE KNOW TRUMP THREATENS TARIFFS BUT TALKS HAVE ALSO LEAD HIM TO REFRAIN FROM IMPLEMENTING THEM, THAT HAS BEEN MY STRATEGY AND I WILL CONTINUE TO PURSUE IT</a> [20] <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd653-dd65-744e-b267-e1c662b61546" target="_blank" class="news-link">TOP EU BANKING WATCHDOG SHORTLISTS MICHAUD, HERODOTOU FOR CHAIR</a> [25] <font color='grey'>- 21时52分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2373059" target="_blank" class="news-link">如何评价荣耀Magic8ProAir</a> [28] <font color='grey'>- 21时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1186912" target="_blank" class="news-link">Claude Code 是不是每个项目都需要执行一次 init？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA2025%E5%B9%B4%E4%B8%AD%E5%9B%BD%E6%99%BA%E8%83%BD%E6%89%8B%E6%9C%BA%E5%B8%82%E5%8D%A0%E7%AC%AC%E4%B8%80%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">华为2025年中国智能手机市占第一</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
