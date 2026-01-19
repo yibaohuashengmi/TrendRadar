@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 334</p><p>生成时间: 2026-01-19 12:03:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">4.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763558" target="_blank" class="news-link">严重依赖AI！美国经济正经历一场“危险的繁荣”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd459-b03d-744e-b262-8dac7465d428" target="_blank" class="news-link">&lt;b&gt;SOUTH KOREA&#x27;S LEE, ITALY&#x27;S MELONI AGREED TO INTENSIFY JOINT EFFORTS TO DEVELOP RESILIENT, RELIABLE CRITICAL MINERAL SUPPLY CHAINS - BLUE HOUSE&lt;/b&gt;</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd459-99e6-744e-b262-87d06c681334" target="_blank" class="news-link">&lt;b&gt;SOUTH KOREA, ITALY SIGN MOU IN CHIP INDUSTRY COOPERATION, INCLUDING IN AI - BLUE HOUSE&lt;/b&gt;</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd451-6ff3-744e-b262-793561bd7c71" target="_blank" class="news-link">BAIDU ROLLS OUT FULLY DRIVERLESS ROBOTAXI SERVICES IN ABU DHABI VIA AUTOGO APP&lt;br/&gt;&lt;br/&gt;BAIDU: INITIAL OPERATIONS COVER YAS ISLAND, WITH PHASED EXPANSION PLANNED FOR REEM, AI MARYAH, SAADIYAT ISLANDS</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/381.htm" target="_blank" class="news-link">胡润发布 2025 中国 AI 企业 50 强，寒武纪以 6300 亿元价值居首</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3763537" target="_blank" class="news-link">全球首个GW级算力集群！马斯克宣布xAI旗下Colossus 2投入运行，距离开工建设不到1年！</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/366.htm" target="_blank" class="news-link">安克、飞书合作硬件官宣：可随身记录、总结的 AI 录音豆，仅重 10 克</a> [13] <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3039492" target="_blank" class="news-link">胡润发布中国人工智能50强，寒武纪以6300亿元价值居首</a> [14] <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3763459" target="_blank" class="news-link">AI玩具爆发元年，剑指万亿级“孤独”生意</a> [14] <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46673453" target="_blank" class="news-link">At least 21 killed in Spain after crash involving high-speed trains</a> [15] <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/359.htm" target="_blank" class="news-link">漫步者 M330 II 蓝牙音箱发布：新增支持 LDAC 协议、苹果 AirPlay，959 元</a> [20] <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd426-2270-744e-b261-ca1af53740a4" target="_blank" class="news-link">CHINA STATS BUREAU HEAD: CHINA ABLE TO MAINTAIN STABLE, SOUND GROWTH MOMENTUM THIS YEAR</a> [26] <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7595425302968647721" target="_blank" class="news-link">🚀2026年Skills元年正式开启！谷歌Antigravity支持Agent Skills，彻底改写传统AI编程！保姆级教程从安装到创建到调用！UI UX Pro Max Skills实测效果超预期</a> [26] <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd424-201f-744e-b261-bfbdd5154ab3" target="_blank" class="news-link">CHINA&#x27;S THREE MAIN INDICES TURN NEGATIVE; CHINEXT DOWN NEARLY 0.5 PCT AS MEDIA, CHIP SECTORS DRAG</a> [28] <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7595878718171316260" target="_blank" class="news-link">Spring AI Alibaba与 Agent Scope到底选哪个？</a> [29] <font color='grey'>- 12时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/369.htm" target="_blank" class="news-link">比亚迪方程豹钛 7 汽车第二次 OTA 正式推送，HUAWEI HiCar 适配华为鸿蒙 6 手机镜像模式连接</a> [12] <font color='grey'>- 12时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/352.htm" target="_blank" class="news-link">安克推出 100W 六口桌面充：3C+1A+2AC、支持华为 66W 充电协议，首发价 474 元</a> [23] <font color='grey'>- 12时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1186692" target="_blank" class="news-link">大家都是只用命令行的 Claude code 吗，自己想要看看代码怎么办 ？</a> [11]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
