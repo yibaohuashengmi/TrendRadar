@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 321</p><p>生成时间: 2026-01-20 10:04:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">7.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/638.htm" target="_blank" class="news-link">消息称苹果 iPhone Air 2 因机身太薄，无缘屏下 Face ID</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763646" target="_blank" class="news-link">中金：中美AI投资的“差异”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/636.htm" target="_blank" class="news-link">Deepin 25.0.10 发布：系统安装器、文件管理全面升级，新增 AI 截图等功能</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1186955" target="_blank" class="news-link">你们会选择什么 AI 作为自己的主力辅助工具？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5153649" target="_blank" class="news-link">港股早评：三大指数低开，科技股弱势，AI应用概念股活跃，中国中免开涨2.8%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd910-54a1-744e-b26c-316241d7f876" target="_blank" class="news-link">TAIWAN VICE PREMIER: TSMC&#x27;S FUTURE PLANS SHOULD RESPECT THE COMPANY&#x27;S OWN STRATEGIC ROADMAP AND STATEMENTS</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/634.htm" target="_blank" class="news-link">决裂前夜：OpenAI 联合创始人 Brockman 在 2017 年密谋把马斯克踢出局</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd90f-d85a-744e-b26c-2e6335e5fbe0" target="_blank" class="news-link">TAIWAN VICE PREMIER: TSMC&#x27;S INVESTMENTS IN ADVANCED PROCESS TECHNOLOGY AND ADVANCED PACKAGING IN TAIWAN FAR EXCEED THOSE IN ANY OTHER COUNTRY</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5153645" target="_blank" class="news-link">广发证券：AI推理上下文存储平台利好SSD</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd90c-0146-744e-b26c-14e6d19553f8" target="_blank" class="news-link">CHINA TOURISM GROUP DUTY FREE H-SHARE RISES OVER 10%, A-SHARE UP OVER 6% AS SUBSIDIARY PLANS TO ACQUIRE ALL DFS COTAI SHARES</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763634" target="_blank" class="news-link">Kimi估值一个月跳涨5亿美元，投资者追捧中国AI准上市标的</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2262848" target="_blank" class="news-link">OpenAI高管：首款硬件设备有望于2026年下半年亮相</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/616.htm" target="_blank" class="news-link">曝华为 AI 眼镜暂定上半年登场：支持拍照和音频，鸿蒙系统 + 跨端无缝协同</a> [11] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3040017" target="_blank" class="news-link">A股AI应用端早盘反弹，浙文互联一字涨停，天地在线2连板，流金科技、蓝色光标、巨人网络、天龙集团跟涨。</a> [12] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2262717" target="_blank" class="news-link">股票异动停牌核查完毕 400亿AI概念股明起复牌||盘后公告集锦</a> [12] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd905-c4ac-744e-b26b-f1725419c7b2" target="_blank" class="news-link">TAIWAN VICE PREMIER: WE BALANCE THE TRADE DEFICIT BETWEEN TAIWAN AND THE UNITED STATES&lt;br/&gt;&lt;br/&gt;TAIWAN VICE PREMIER: WE AIM TO ELEVATE NEGOTIATIONS ON THE TRADE DEFICIT TO ESTABLISH A STRATEGIC PARTNERSHIP BETWEEN TAIWAN AND THE UNITED STATES</a> [13] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763643" target="_blank" class="news-link">Gemini 3拉动业务显著增长，谷歌AI模型申请量五个月翻倍</a> [13] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2262811" target="_blank" class="news-link">“蝙蝠侠”站队“大空头”：AI相关股票被严重高估</a> [13] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd902-1194-744e-b26b-e71bd123f90b" target="_blank" class="news-link">AT OPEN, SHANGHAI COMPOSITE UP 0.06%, SHENZHEN COMPONENT AND CHINEXT BOTH UP 0.09%</a> [15] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd8ff-d7a2-744e-b26b-cdcf3e552c3f" target="_blank" class="news-link">HK AI APPLICATION STOCKS OPEN HIGHER: MINIMAX-WP AND ZHIPU AI UP OVER 3% AT OPEN</a> [18] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32413842" target="_blank" class="news-link">澎湃AI早新闻丨2026年1月19日</a> [19] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/603.htm" target="_blank" class="news-link">1340 亿美元！奥尔特曼反击称马斯克“现编魔幻算法勒索”OpenAI</a> [21] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd8f1-871e-744e-b26b-95dcc3663472" target="_blank" class="news-link">&lt;b&gt;SHANGHAI&#x27;S MOST ACTIVE TIN CONTRACT RISES MORE THAN 4%&lt;/b&gt;</a> [25] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bd8ec-1a45-744e-b26b-8d5cd2b38380" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX OPENED DOWN 0.82%</a> [26] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/596.htm" target="_blank" class="news-link">荣耀 Magic8 Pro 手机官宣全量升级 AiMAGE 原色引擎 / 防抖引擎、专业影像套装</a> [27] <font color='grey'>- 10时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/606.htm" target="_blank" class="news-link">阿维塔董事长王辉公布新款阿维塔 12 细节图，称 B 柱乾崑智驾标志是与华为更成熟、更深入的象征</a> [19] <font color='grey'>- 10时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/594.htm" target="_blank" class="news-link">消息称华为 FreeClip 2 耳夹耳机星闪连接版本开始全网推送</a> [29] <font color='grey'>- 10时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
