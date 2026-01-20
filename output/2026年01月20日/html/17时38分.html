@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 214</p><p>生成时间: 2026-01-20 17:38:04</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">5.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/835.htm" target="_blank" class="news-link">零刻推出 SER10 系列迷你主机：搭载 AMD 锐龙 AI 9 HX 470 处理器，升级万兆以太网口</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46689204" target="_blank" class="news-link">Kraków, Poland in top 5 worst air quality worldwide</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763694" target="_blank" class="news-link">日本财务大臣：政府预算对债务的依赖正在下降，计划投入超3300亿美元用于AI和芯片</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958457" target="_blank" class="news-link">价投大佬：AI泡沫几乎“必然破裂”，英伟达会带头下跌</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763690" target="_blank" class="news-link">马斯克AI军备赛加速</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/830.htm" target="_blank" class="news-link">雷蛇 CEO 陈民亮解释为何 Project AVA 选用 Grok AI：对话交互与人格塑造目前最佳</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bdaa8-2571-744e-b273-089d89c8816b" target="_blank" class="news-link">SUSTAINABLE FITCH: EU REGULATORY RESET AND GLOBAL TRANSITION RULES ADVANCE IN 2025</a> [12] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/914/822.htm" target="_blank" class="news-link">百度文心助手月活用户数突破 2 亿，与豆包 / 千问形成中国三大亿级 AI 入口</a> [13] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bdaa4-5408-744e-b272-f59803e3800c" target="_blank" class="news-link">&lt;b&gt;RUSSIA IS IN FAVOR OF RESUMING DIRECT AIR LINKS WITH THE UNITED STATES, LAVROV ANNOUNCED&lt;/b&gt;</a> [15] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bdaa3-752a-744e-b272-d915a890d110" target="_blank" class="news-link">RUSSIAN FOREIGN MINISTER LAVROV: WE HAVE NOT YET RECEIVED DOCUMENTS AFTER RECENT U.S., EUROPE TALKS ON UKRAINE</a> [18] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bdaa0-ffcd-744e-b272-b5f967597a04" target="_blank" class="news-link">CHINA RAISES BOTH GAS, DIESEL PRICES BY 85 YUAN PER TON FROM JAN 21</a> [23] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3040320" target="_blank" class="news-link">日本财务大臣：计划投入超过3300亿美元用于人工智能和芯片领域</a> [23] <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1996233131175462349" target="_blank" class="news-link">谷歌 Gemini 准确率从 21% 提升至 97% 仅靠「复制粘贴」，这意味着什么？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
