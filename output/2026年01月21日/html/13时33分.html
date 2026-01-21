@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 145</p><p>生成时间: 2026-01-21 13:33:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">6.21%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763778" target="_blank" class="news-link">“AI入口大战”--字节已成“倒逼之势”，阿里腾讯“输不起”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bded8-5870-744e-b27f-a90bc6f0f33f" target="_blank" class="news-link">FITCH RTGS: HONG KONG RESIDENTIAL UPSWING EASES STRAIN BUT CRE, FISCAL RISKS REMAIN</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bded7-f633-744e-b27f-a7feb3b0f760" target="_blank" class="news-link">Alibaba Teams With China’s Nuclear Leader to Power AI Expansion</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/089.htm" target="_blank" class="news-link">【IT之家评测室】一坞搞定供电 + 传输 + 性能，技嘉 RTX 5060 Ti AI BOX 体验评测</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/843149613207990272" target="_blank" class="news-link">五类prompt 快速去掉AI感！</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/a94a51e8ac434414b2836b1dafb4c3b0" target="_blank" class="news-link">#AI coding的好用工具分享#1. Cursor：代码界的神仙，你动嘴它动手，多文件修改强得离谱，用了就回不去。2. GitHub Copilot：搭配vscode挺好用3. v0.dev：前端</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260121131506452800" target="_blank" class="news-link">盖茨基金会和OpenAI计划投资5000万美元 资助非洲AI医疗</a> [12] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260121130914797800" target="_blank" class="news-link">软银：计划最初在自有GPU云服务中部署Infrinia AI云操作系统。</a> [18] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260121130522419800" target="_blank" class="news-link">软银公司发布用于人工智能数据中心的软件栈。</a> [23] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763769" target="_blank" class="news-link">成本暴降70%！谷歌TPU强势追赶，性价比已追平英伟达</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
