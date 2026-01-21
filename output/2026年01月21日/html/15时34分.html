@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 242</p><p>生成时间: 2026-01-21 15:34:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">6.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bdf5f-9a61-744e-b281-947553bbc8a9" target="_blank" class="news-link">US TREASURY SECRETARY BESSENT: FREE TRADE SHOULD BE FAIR TRADE</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46701733" target="_blank" class="news-link">Curl removes bug bounties because of AI slop</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bdf5d-7d31-744e-b281-8c5a6e73dcee" target="_blank" class="news-link">AT CLOSE, SHANGHAI COMPOSITE INDEX UP 0.08%, SHENZHEN COMPONENT INDEX UP 0.7%, CSI 300 INDEX UP 0.09%, CHINEXT INDEX UP 0.54%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bdf5a-9dad-744e-b281-6ab713c547ac" target="_blank" class="news-link">Core Retail Price Index (YoY) (Dec)</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bdf5a-9da3-744e-b281-65d3f7b6c4e5" target="_blank" class="news-link">Retail Price Index (YoY) (Dec)</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bdf5a-9770-744e-b281-5abdb42a9d51" target="_blank" class="news-link">Retail Price Index (MoM) (Dec)</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/136.htm" target="_blank" class="news-link">小米超级小爱近期更新功能一览公布，含随心修图、AI 文生图、圈屏搜题等</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5154470" target="_blank" class="news-link">港股异动丨快手拉升涨近4%，可灵AI月活突破1200万</a> [11] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/130.htm" target="_blank" class="news-link">软银发布 AI 数据中心软件平台 Infrinia AI Cloud OS，利用自动化统一管理 GPU 算力堆栈</a> [14] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/126.htm" target="_blank" class="news-link">酷态科 10 号充电器 Ultra 迎 1 月 OTA 升级：新增 ADC 协议助手、AI 智能模式、设备端二级菜单...</a> [18] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bdf51-2ffa-744e-b281-061305eddb35" target="_blank" class="news-link">THAI CBANK CHIEF: WILL CAP DAILY GOLD TRADING AT 50 MLN BAHT OR 100 MLN BAHT</a> [20]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bdf50-9414-744e-b280-fec874db6d77" target="_blank" class="news-link">THAI CBANK CHIEF: TO INTRODUCE GOLD TRADING RULES JAN 29</a> [21] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46656759" target="_blank" class="news-link">Show HN: I built a tool to assist AI agents to know when a PR is good to go</a> [21] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bdf49-ee19-744e-b280-edba78ac25bf" target="_blank" class="news-link">SHARES OF HYUNDAI MOTOR END UP 14.6% AT RECORD CLOSING HIGH</a> [23] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3041030" target="_blank" class="news-link">泰国央行行长Vitai：泰国央行近期出手干预以平抑泰铢汇率波动。 泰国央行认为泰铢应随着基本面因素而贬值。 泰国银行未发现异常资本流入。</a> [29]</div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%8B%B3%E5%A4%B4%E7%A8%8B%E5%BA%8F%E5%91%98%E5%88%86%E6%9E%90%E4%BA%BA%E7%B1%BB%E5%AF%B9%E6%88%98AI%E8%83%9C%E7%AE%97" target="_blank" class="news-link">拳头程序员分析人类对战AI胜算</a> [29] <font color='grey'>- 15时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1187337" target="_blank" class="news-link">这两句，共 6 个字，确认你用的 Claude 模型供应商。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1187343" target="_blank" class="news-link">antigravity 技巧, 如何避免 gemini pro 模型出错</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/142.htm" target="_blank" class="news-link">下载超 10 亿、衍生模型破 20 万，阿里千问刷新全球开源模型纪录</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
