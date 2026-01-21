@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 322</p><p>生成时间: 2026-01-21 11:55:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">30</td>
+                <td class="percentage">9.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bde9d-adf0-744e-b27f-18085040c6eb" target="_blank" class="news-link">OPENAI TO LAUNCH CHATBOT ADS IN FEBRUARY, CHARGING BASED ON AD VIEWS - THE INFORMATION</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83355" target="_blank" class="news-link">华硕为 AI 逐步退出智能手机业务</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bde9c-9707-744e-b27f-13052ad85364" target="_blank" class="news-link">&lt;b&gt;OPENAI HAS STARTED OFFERING ITS NEW CHATBOT ADS TO DOZENS OF ADVERTISERS- THE INFORMATION&lt;/b&gt;</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%96%91%E4%BC%BCAI%E7%8E%A9%E5%AE%B6%E7%A1%AE%E8%AE%A4%E6%98%AFRoamer" target="_blank" class="news-link">疑似AI玩家确认是Roamer</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/068.htm" target="_blank" class="news-link">vivo 全新春节限定水印亮相：六大风格，可搭配新春 AI 视效使用</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763776" target="_blank" class="news-link">Hugging Face回看“DeepSeek时刻”：过去一年，中国AI如何改变全球开源格局？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/067.htm" target="_blank" class="news-link">OpenAI：将自行承担“星际之门”项目能源费用，确保不会推高电价</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3040928" target="_blank" class="news-link">OpenAI已开始向数十家广告商展示其全新的聊天机器人广告。OpenAI将于2月份正式推出聊天机器人广告，并将根据广告曝光量（浏览量）进行计费。（The Information）</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/065.htm" target="_blank" class="news-link">行业首次，淘宝天猫今年将推出售后 AI 假图专项治理</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bde83-ec87-744e-b27e-de07d7531b31" target="_blank" class="news-link">OpenAI Says It Will Pay for Energy Upgrades at Stargate Sites</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3867366_101_1" target="_blank" class="news-link">美国总统特朗普：允许人工智能公司自行发电。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3867298_100_1" target="_blank" class="news-link">【行情】中国A股人工智能指数劲扬2.5%，中国财政部宣布优惠贷款贴息政策。</a> <font color='red'><strong>[10 - 30]</strong></font> <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/3867290_0_1" target="_blank" class="news-link">【行情】深证成指涨1%，创业板指涨1.3%，沪指涨0.37%， AI应用概念股多数回暖，浙文互联涨停，久其软件、天地在线此前封板，上海钢联涨超15%，金现代、人民网、迪安诊断跟涨。</a> [11] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1187242" target="_blank" class="news-link">[工具推荐] CoCursor - 一个让团队更好用 AI 的 Cursor 插件</a> [11] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bde7f-b923-744e-b27e-cde0e3c2adb8" target="_blank" class="news-link">CHINA MIIT VICE MINISTER: HUMANOID ROBOTS TO DRIVE SMART INDUSTRY GROWTH, BOOST AI INVESTMENT FUND SUPPORT</a> [12] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bde7a-e85f-744e-b27e-c528a80153b0" target="_blank" class="news-link">&lt;b&gt;CHINA MIIT: TO ACCELERATE BREAKTHROUGHS IN TRAINING CHIPS AND HETEROGENEOUS COMPUTING TECHNOLOGIES&lt;/b&gt;</a> [13] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3040916" target="_blank" class="news-link">美国总统特朗普：允许人工智能公司自行发电。 用关税收入取代所得税是一个选项。</a> [14]</div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3040915" target="_blank" class="news-link">韩国总统李在明：誓言要打击股市操纵行为。 韩国股市被低估。 无法对首尔综合指数作出预测。 股市出现分化是正常现象。 股市面临来自地缘政治和公司治理的风险，政治风险也是导致韩国股市折价的原因之一。 人工智能和半导体的繁荣是股市中的意外因素。 韩国股市正在走向正常化。</a> [15]</div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%8A%E6%B5%B7%E5%9B%BD%E9%99%85%E5%AD%A6%E6%A0%A1%E7%9A%84%E5%AD%A9%E5%AD%90%E9%83%BD%E5%9C%A8%E4%BD%BF%E7%94%A8AI%23&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">上海国际学校的孩子都在使用AI</a> [15] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bde6a-6796-744e-b27e-9ea2e046573e" target="_blank" class="news-link">CHINA’S MIIT VICE MINISTER SAID THE NUMBER OF AI FIRMS IS ESTIMATED TO EXCEED 6,000 IN 2025, WITH THE CORE AI INDUSTRY EXPECTED TO TOP 1.2 TRILLION YUAN</a> [18] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bde67-ac06-744e-b27e-9048ad33582f" target="_blank" class="news-link">CHINA MIIT: CHINA’S AI CORE INDUSTRY EXPECTED TO SURPASS 1.2 TRILLION YUAN IN 2025</a> [19] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260121110335950800" target="_blank" class="news-link">OpenAI公布数据中心能源成本控制计划</a> [20] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bde63-399e-744e-b27e-7ebcca5c0998" target="_blank" class="news-link">JAPAN CHIEF CABINET SECRETARY KIHARA: EXAMINING THE DETAILS OF THE BOARD OF PEACE AND WILL MAKE A DECISION ON WHETHER TO JOIN OR NOT</a> [22] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/028.htm" target="_blank" class="news-link">OpenAI 首款硬件设备被曝为 AI 耳机，首年有望出货 4000~5000 万台</a> [22] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bde62-5842-744e-b27e-75e0ddb5a2aa" target="_blank" class="news-link">&lt;b&gt;JAPAN CHIEF CABINET SECRETARY KIHARA: PM TAKAICHI HAS RECEIVED INVITATION TO JOIN U.S. PRESIDENT TRUMP&#x27;S BOARD OF PEACE ON GAZA&lt;/b&gt;</a> [23] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46642490" target="_blank" class="news-link">Show HN: Aventos – An experiment in cheap AI SEO</a> [23] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/017.htm" target="_blank" class="news-link">2025 年我国人工智能企业数量超 6000 家</a> [26] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46700146" target="_blank" class="news-link">Verizon starts requiring 365 days of paid service before it will unlock phones</a> [26] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/001.htm" target="_blank" class="news-link">全国首款港口 AI 芯片“山港智芯 · 星屿 SA5200”发布</a> [28] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bde56-2933-744e-b27e-3fd85199bb85" target="_blank" class="news-link">&lt;b&gt;HONG KONG AI STOCKS RISE: MINIMAX-WP UP 6%, KNOWLEDGE ATLAS AND BAIDU GROUP-SW UP OVER 3%&lt;/b&gt;</a> [30] <font color='grey'>- 11时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">3</td>
+                <td class="percentage">0.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bde95-ab2f-744e-b27f-0e536a3acede" target="_blank" class="news-link">Qwen Hits 1B Downloads</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3040917" target="_blank" class="news-link">千问系列模型下载量突破10亿次</a> [13] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3040909" target="_blank" class="news-link">中国核电、阿里巴巴等在象山成立核能公司 注册资本2.5亿</a> [18] <font color='grey'>- 11时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1187260" target="_blank" class="news-link">有没有开 claude 不封号的方式</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85%E6%8A%A5%E9%81%93/20260121-%E6%AC%A7%E7%9B%9F%E6%8B%9F%E7%A6%81%E9%AB%98%E9%A3%8E%E9%99%A9%E7%94%B5%E4%BF%A1%E4%BE%9B%E5%BA%94%E5%95%86-%E5%89%91%E6%8C%87%E4%B8%AD%E5%9B%BD%E5%8D%8E%E4%B8%BA%E4%B8%AD%E5%85%B4" target="_blank" class="news-link">欧盟拟禁高风险电信供应商 剑指中国华为中兴</a> [12] <font color='grey'>- 11时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%20Model%201%E6%82%84%E7%84%B6%E7%8E%B0%E8%BA%AB" target="_blank" class="news-link">DeepSeek Model 1悄然现身</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
