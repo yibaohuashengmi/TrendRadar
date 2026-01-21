@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 121</p><p>生成时间: 2026-01-22 02:57:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">7.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be1cb-9a7c-744e-b28e-07639bd78a7e" target="_blank" class="news-link">&lt;b&gt;WHITE HOUSE: GREENLAND MAINLY ABOUT SECURITY BUT ALSO MINERALS&lt;/b&gt;</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3763773" target="_blank" class="news-link">沪指震荡，上证50ETF成交创历史天量，AI算力产业链爆发、黄金股掀涨停潮，30年期国债大涨，沪金一度突破1100元</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时57分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46709320" target="_blank" class="news-link">GenAI, the Snake Eating Its Own Tail</a> [12] <font color='grey'>- 02时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be1b9-1eee-744e-b28d-de2504cc043b" target="_blank" class="news-link">TRANSPORTATION SECURITY ADMINISTRATION HEAD SAYS 6% OF AIR TRAVELERS ARE NOT SHOWING &quot;REAL ID&quot; TO BOARD FLIGHTS AS AGENCY PREPARES TO CHARGE $45 FEE STARTING FEB. 1 - HOUSE HEARING</a> [15] <font color='grey'>- 02时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3041458" target="_blank" class="news-link">黄仁勋称AI时代蓝领更吃香，水管工、电工能拿六位数薪水</a> [16] <font color='grey'>- 02时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be1b6-063c-744e-b28d-ae2013258ced" target="_blank" class="news-link">TRUMP ADMINISTRATION STARTS IMMIGRATION OPERATION IN MAINE - NYT</a> [21] <font color='grey'>- 02时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be1ae-ce28-744e-b28d-9f06bc868a6c" target="_blank" class="news-link">TRUMP PRAISES APPLE AND TOYOTA INVESTMENTS</a> [23] <font color='grey'>- 02时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be1ac-4f18-744e-b28d-8c7e38fefd86" target="_blank" class="news-link">TRUMP AT DAVOS: UKRAINE WAR DEAL GETTING CLOSE</a> [25] <font color='grey'>- 02时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be1a9-5501-744e-b28d-87009e07baa6" target="_blank" class="news-link">TRUMP AT DAVOS: WE&#x27;RE GETTING CLOSE ON UKRAINE WAR</a> [26] <font color='grey'>- 02时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46707572" target="_blank" class="news-link">Claude&#x27;s New Constitution</a> [11] <font color='grey'>- 02时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
