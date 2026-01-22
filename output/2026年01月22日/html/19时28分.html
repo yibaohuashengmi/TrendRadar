@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 188</p><p>生成时间: 2026-01-22 19:28:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">9.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be568-ec14-744e-b298-9c9475a4dc78" target="_blank" class="news-link">MICRON TECHNOLOGY SHARES RISE 2.5% PREMARKET; WILLIAM BLAIR INITIATES WITH OUTPERFORM RATING</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260122191404959800" target="_blank" class="news-link">美光科技(MU.O)盘前股价上涨2.5%，此前William Blair首次给予“跑赢大盘”评级。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/580.htm" target="_blank" class="news-link">消息称 OpenAI 低调布局人形机器人：旧金山实验室百人团队训练机械臂做家务</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be568-d27f-744e-b298-916115dd492d" target="_blank" class="news-link">HSBC CHAIR NELSON AMONG BOSSES TO JOIN STARMER IN CHINA: SKY</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/576.htm" target="_blank" class="news-link">英国科学家研发可穿戴 AI 颈环：无创帮助中风患者恢复语言能力</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2266641" target="_blank" class="news-link">一图看懂 | 马斯克开年忙落子，太空、AI、机器人都有大动作</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/deepseek-ai/FlashMLA" target="_blank" class="news-link">deepseek-ai / FlashMLA</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be55d-6b7f-744e-b298-6857ec4ee9b0" target="_blank" class="news-link">CBI Retail Sales Expectations Index (Jan)</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/iOfficeAI/AionUi" target="_blank" class="news-link">iOfficeAI / AionUi</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/mastra-ai/mastra" target="_blank" class="news-link">mastra-ai / mastra</a> <font color='red'><strong>[8]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be55c-7630-744e-b298-59a879fd1d1a" target="_blank" class="news-link">CBI Retail Sales Balance (Jan)</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be55b-e5b7-744e-b298-54efd5aaeb4a" target="_blank" class="news-link">UKRAINE, US NOT YET READY TO SIGN AGREEMENTS: KACHKA</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be542-eefb-744e-b298-0a95ae62b016" target="_blank" class="news-link">SHANGHAI STOCK EXCHANGE: ACCEPTED ENFLAME TECHNOLOGY&#x27;S IPO APPLICATION</a> [19] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be540-c146-744e-b297-feec0c55e83f" target="_blank" class="news-link">WILLIAM BLAIR INITIATES MICRON TECHNOLOGY COVERAGE WITH OUTPERFORM RATING</a> [21] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be53d-7a0d-744e-b297-da657d8c7cb6" target="_blank" class="news-link">TRUMP: WORKING ON ENDING KILLING IN UKRAINE</a> [25] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be53c-1beb-744e-b297-ce5ef4c0f1f8" target="_blank" class="news-link">TRUMP ON SPAIN&#x27;S DEFENSE SPENDING: &#x27;WHAT A FREE RIDE&#x27;&lt;br/&gt;&lt;br/&gt;TRUMP NOTES SPAIN NOT COMMITTED TO 5% NATO SPENDING TARGET</a> [27] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7596991930985578547" target="_blank" class="news-link">【从古法编程到 AI Coding】跳出手写代码的陷阱</a> [28] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7597355509747974170" target="_blank" class="news-link">我创建了一个全 AI 员工的一人公司</a> [30] <font color='grey'>- 19时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/579.htm" target="_blank" class="news-link">华为视频服务试点上线，在线指导长辈用机、组网配网等</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260122185134908800" target="_blank" class="news-link">巴勒斯坦技术官僚委员会领导人阿里·沙阿斯表示，加沙与埃及的拉法口岸将于下周开放。</a> [23] <font color='grey'>- 19时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
