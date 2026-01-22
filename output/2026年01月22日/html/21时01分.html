@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 226</p><p>生成时间: 2026-01-22 21:01:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">6.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1187681" target="_blank" class="news-link">[工具自荐] AI 指南针：一个利用数据来监控 AI 动态并辅助决策的平台</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be5ac-aaae-744e-b299-be1488e1f1ae" target="_blank" class="news-link">RAYMOND JAMES RAISES ALPHABET TO STRONG BUY FROM OUTPERFORM; RAISES TARGET PRICE TO $400 FROM $315</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/2262986.html" target="_blank" class="news-link">韩国人工智能监管法正式生效</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be5aa-7dc2-744e-b299-ab21d80895d8" target="_blank" class="news-link">OTPP CEO: LARGER AI BUSINESSES NOT GUARANTEED TO WIN OVER TIME</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763942" target="_blank" class="news-link">AI与存储周期共振，兆易创新预计2025年营收同比增约25%，净利润增46% | 财报见闻</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/596.htm" target="_blank" class="news-link">分形工艺 Pop 2 Air 系列机箱国行上架：风道优化设计、可选侧透版本，649 元起</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be5a4-8235-744e-b299-92c7f7f67f0b" target="_blank" class="news-link">TRUMP&#x27;S MEETING WITH UKRAINE&#x27;S ZELENSKIY STARTS</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46718485" target="_blank" class="news-link">Satya Nadella: &quot;We need to find something useful for AI&quot;</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/589.htm" target="_blank" class="news-link">realme 真我 Buds Air8 耳机发布：55dB 深海降噪、11mm+6mm 分频双单元设计，首发价 269 元</a> [12] <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5155692" target="_blank" class="news-link">美股盘前要点 | TACO交易再现！特朗普撤回对欧洲关税威胁，传苹果拟推出全新AI版Siri</a> [13] <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be59a-8117-744e-b299-64c4cd48c555" target="_blank" class="news-link">TRUMP ON GREENLAND: DETAILS BEING NEGOTIATED NOW -FOX BUSINESS NETWORK&lt;br/&gt;&lt;br/&gt;TRUMP ON GREENLAND: WILL BE TOTAL ACCESS, NO TIME LIMIT -FBN INTERVIEW</a> [15] <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be58e-7811-744e-b299-26fb1067be54" target="_blank" class="news-link">U.S. COMMERCE CHIEF LUTNICK: WE REMAIN COMMITTED TO IMPLEMENTING U.S.-EU TRADE AGREEMENT -X POST</a> [23] <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3042047" target="_blank" class="news-link">京东首席执行官许冉：2025年是AI消费的“爆发元年”</a> [25] <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be589-e4b1-744e-b299-0ef2e493f5ba" target="_blank" class="news-link">ISRAEL AIR FORCE CHIEF: ENTIRE AIR FORCE IS READY AND ALERT</a> [26] <font color='grey'>- 21时01分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7597351616556580916" target="_blank" class="news-link">我做了个 AI 狼人杀：你一个人也能开局，还能围观大模型互喷斗蛐蛐</a> [26] <font color='grey'>- 21时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1187686" target="_blank" class="news-link">进入 Google 的 notebooklm，没有跳转，怎么回事！</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
