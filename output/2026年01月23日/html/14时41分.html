@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 230</p><p>生成时间: 2026-01-23 14:41:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">6.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1187863" target="_blank" class="news-link">我的新 iOS APP， Yore 发布了，你的第二 Ai 记忆。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be977-ec5a-7ff6-a7d8-e1550b94bf33" target="_blank" class="news-link">SHANGHAI BENCHMARK RUBBER FUTURES RISE MORE THAN 3.2%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/795.htm" target="_blank" class="news-link">用户反馈称微软在 AI 优先策略下导致 Planner 体验倒退</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be971-9fe7-7ff6-a7d8-d025bc99f8ba" target="_blank" class="news-link">BERENBERG RAISES STMICROELECTRONICS TARGET PRICE TO EUR 29 FROM EUR 26</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5155913" target="_blank" class="news-link">赛意信息(300687.SZ)：公司目前暂无属于AI4s(AI for Science)范畴的独立项目</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1187853" target="_blank" class="news-link">做了一个用 AI 生成 git 提交日志的工具</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be968-f592-7ff6-a7d8-cc99b130c516" target="_blank" class="news-link">JP MORGAN RAISES INTEL TARGET PRICE TO $35 FROM $30</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2267470" target="_blank" class="news-link">马斯克：美国AI发展遭电力“卡脖” 中国电力增长十分惊人！</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/784.htm" target="_blank" class="news-link">OpenAI“急着”为 ChatGPT 引入广告，谷歌 DeepMind CEO 哈萨比斯表示惊讶</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be95c-3268-7ff6-a7d8-a987aec615ee" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX CLOSED UP 0.68%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be959-cb66-7ff6-a7d8-9f076c0caa5d" target="_blank" class="news-link">MICROSOFT 365 STATUS: WE&#x27;VE RESTORED ACCESS TO AFFECTED SERVICES AND MAIL FLOW REMAINS STABLE</a> [12] <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/771.htm" target="_blank" class="news-link">英特尔 CEO 陈立武：AI 需求强劲，为短期未完全满足市场需求而遗憾</a> [12] <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019be951-31ed-7ff6-a7d8-88894b86e64f" target="_blank" class="news-link">Trump Administration Ousts Key Officials Over China Tech Security Amid AI Chip Sales</a> [14] <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1997937872972505781" target="_blank" class="news-link">AI 将答案、解题思路全喂到孩子嘴边，孩子还会去思考吗？长期用 AI 孩子会变笨吗？</a> [14] <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5155903" target="_blank" class="news-link">主动基金2025年四季度在加仓顺周期、AI与非银金融，明显下调港股配置</a> [15] <font color='grey'>- 14时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3763990" target="_blank" class="news-link">AH股午后震荡走高，光伏、商业航天集体爆发，贵金属再度大涨，沪银新高，阿里巴巴涨超2%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/785.htm" target="_blank" class="news-link">核电再迎民资，阿里系、雅戈尔等多家浙江民企入股金七门核电工程</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1187851" target="_blank" class="news-link">chatgpt 上线了一个翻译功能，不过试用了一下就是对话套了个壳子。。。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/789.htm" target="_blank" class="news-link">谷歌 DeepMind 发布 4D 世界模型 D4RT，比 SOTA 快 300 倍</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时41分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
