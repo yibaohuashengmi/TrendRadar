@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 220</p><p>生成时间: 2026-01-23 18:31:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">8</td>
+                <td class="percentage">3.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1187930" target="_blank" class="news-link">[发码/内测] 为了解决查资料频繁切屏的问题，做了一个基于 AI 的浏览器扩展插件</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/902.htm" target="_blank" class="news-link">腾讯视频首发 AI 打电话能力，边看剧边和主角聊天</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83378" target="_blank" class="news-link">艺术家警告 AI 模型“偷窃不是创新”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46686402" target="_blank" class="news-link">AI Is a Horse (2024)</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202601/2363046.html" target="_blank" class="news-link">腾讯用AI反舞弊 去年解聘近百人</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bea40-e447-7ff6-a7db-4a8feadddc3b" target="_blank" class="news-link">SHANGHAI FUTURES EXCHANGE: TO ADJUST PRICE LIMITS, MARGIN RATIOS FOR NICKEL, ALUMINA, LEAD, ZINC AND STAINLESS STEEL FUTURES FROM JAN 27 CLOSING SETTLEMENT</a> [13] <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bea39-f7d1-7ff6-a7db-3bdcf0bc45b7" target="_blank" class="news-link">KREMLIN: TALKS IN ABU DHABI WILL TAKE PLACE TODAY AND CONTINUE TOMORROW IF NECESSARY&lt;br/&gt;&lt;br/&gt;KREMLIN: RUSSIA&#x27;S SOVEREIGN ASSETS FROZEN IN THE US AMOUNT TO SLIGHTLY LESS THAN $5 BLN&lt;br/&gt;&lt;br/&gt;KREMLIN SPOKESMAN ON &quot;ANCHORAGE FORMULA&quot; FOR PEACEFUL SETTLEMENT IN UKRAINE: WE DON&#x27;T WANT TO GO INTO DETAILS</a> [15] <font color='grey'>- 18时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260123175410057800" target="_blank" class="news-link">市场消息：印度反垄断调查通过WhatsApp聊天记录及生产数据，将塔塔钢铁、JSW钢铁、印度钢铁管理局（SAIL）以及RINL与钢铁价格垄断联盟联系起来。报告称，“有充分的间接证据”表明SAIL、RINL、JSW和塔塔钢铁进行了协同行动。</a> [17] <font color='grey'>- 18时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46730436" target="_blank" class="news-link">Google is ending full-web search for niche search engines</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
