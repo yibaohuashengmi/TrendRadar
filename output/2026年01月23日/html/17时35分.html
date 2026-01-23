@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 200</p><p>生成时间: 2026-01-23 17:35:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">5.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bea27-2c7c-7ff6-a7db-054a592bf76a" target="_blank" class="news-link">RUSSIAN DEFENCE MINISTRY SAYS ITS FORCES CAPTURE SYMYNIVKA IN UKRAINE&#x27;S KHARKIV REGION - RIA</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5156226" target="_blank" class="news-link">美股异动丨百度盘前涨1% 多家机构看好其AI全栈能力价值快速释放</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2377329" target="_blank" class="news-link">我国人工智能专利有效量全球前列</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764028" target="_blank" class="news-link">OpenAI：以后大家用AI赚的钱，我可能要抽成</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1187900" target="_blank" class="news-link">让 AI 快速到 10s 就给出提交代码的评审结果 的办法</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764027" target="_blank" class="news-link">国产定制芯片龙头芯原股份：预计全年亏损同比收窄25%，营收同增36%，AI算力推动订单翻番｜财报见闻</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1997433388664131775" target="_blank" class="news-link">智谱 AI 因算力告急「限购」GLM 编程计划，暴露出 AI 行业哪些问题？</a> [15] <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/847.htm" target="_blank" class="news-link">OpenAI 董事会主席 Bret Taylor：AI“很可能”是泡沫</a> [15] <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/843.htm" target="_blank" class="news-link">国家知识产权局：将加快推动《集成电路布图设计保护条例》修改，完善人工智能等领域保护制度</a> [18] <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1997802145714569913" target="_blank" class="news-link">为什么谷歌 AI 掌门人认为字节是中国最具实力的 AI 公司？</a> [20] <font color='grey'>- 17时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3042776" target="_blank" class="news-link">美股盘前，英特尔跌约13%，AI需求兑现但供应将至“最低点”，英特尔Q1指引逊色。</a> [21] <font color='grey'>- 17时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260123172403649800" target="_blank" class="news-link">文件显示：1月19日，摩根大通在阿里巴巴(09988.HK)的空头头寸从2.83%增至3.88%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时35分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
