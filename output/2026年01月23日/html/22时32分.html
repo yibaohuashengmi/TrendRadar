@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 148</p><p>生成时间: 2026-01-23 22:32:02</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">6.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83381" target="_blank" class="news-link">eBay 禁止 AI 智能体自动购物</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时32分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/915/935.htm" target="_blank" class="news-link">华硕推出 ExpertBook B3 G2 笔记本：至高锐龙 AI 9 HX 处理器、96GB 内存，可选 14/16 英寸版</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时32分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46686402" target="_blank" class="news-link">AI is a horse (2024)</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时32分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46730504" target="_blank" class="news-link">AI Usage Policy</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019beb28-13aa-7ff6-a7dd-99f55fbd4985" target="_blank" class="news-link">UKRAINE SAYS US TO PROVIDE $400M HUMANITARIAN AID FOR ENERGY</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时32分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46668247" target="_blank" class="news-link">The cleaner: One woman’s mission to help Britain’s hoarders</a> [13] <font color='grey'>- 22时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019beb19-6251-7ff6-a7dd-6b4e8525a6d8" target="_blank" class="news-link">&lt;b&gt;EU-US CONSIDERING $800B POSTWAR UKRAINE FUND: POLITICO&lt;br/&gt;&lt;br/&gt;EU-US 10-YEAR PLAN INCLUDES PATH TOWARD EU MEMBERSHIP: POLITICO&lt;/b&gt;</a> [15] <font color='grey'>- 22时32分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46730346" target="_blank" class="news-link">The state of modern AI text to speech systems for screen reader users</a> [15] <font color='grey'>- 22时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019beb0c-2b67-7ff6-a7dd-355183c52910" target="_blank" class="news-link">Core Retail Sales (MoM) (Nov)</a> [22] <font color='grey'>- 22时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019beb0c-2aea-7ff6-a7dd-289f4dd03e06" target="_blank" class="news-link">Retail Sales (MoM) (Nov)</a> [23] <font color='grey'>- 22时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46730671" target="_blank" class="news-link">Why I don&#x27;t have fun with Claude Code</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/637077919.html" target="_blank" class="news-link">我问的deepseek南方，华北，东北哪里更冷，这个回复你满意不？</a> [26] <font color='grey'>- 22时32分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
