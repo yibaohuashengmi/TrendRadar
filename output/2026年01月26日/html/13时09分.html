@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 147</p><p>生成时间: 2026-01-26 13:09:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">6.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bf893-ac2b-7ff6-a7e4-94710bf7ed8b" target="_blank" class="news-link">HYUNDAI MOTOR GROUP: IS REVIEWING A RANGE OF COOPERATION OPPORTUNITIES, INCLUDING POTENTIAL COLLABORATION IN THE HYDROGEN SECTOR, LEVERAGING CANADA’S STRENGTHS</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764134" target="_blank" class="news-link">当AI开始“带货”，摩根大通详解ChatGPT测试广告背后的变现逻辑</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时09分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1188372" target="_blank" class="news-link">我 Vibe Coding 了一个 AI 解梦网站</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bf890-9024-7ff6-a7e4-8c1874b481c2" target="_blank" class="news-link">HYUNDAI MOTOR: WE DO NOT HAVE PLANS TO ESTABLISH A VEHICLE MANUFACTURING PLANT IN CANADA AT THIS TIME</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bf88f-e821-7ff6-a7e4-87efed96561f" target="_blank" class="news-link">JAPAN PM TAKAICHI: SPEAKING AS PREMIER, I WOULD LIKE TO ACHIEVE 2-YEAR SUSPENSION OF 8% TAX ON FOOD AT EARLIEST DATE POSSIBLE, SUBMIT RELEVANT LEGISLATION IN FISCAL 2026 DIET</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764135" target="_blank" class="news-link">摩根士丹利2026年十大预测：AI能力分化加剧，科技巨头加速整合能源设施</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bf87b-9a06-7ff6-a7e4-5b6c57afaa2d" target="_blank" class="news-link">PIPER SANDLER RAISES ADVANCED MICRO DEVICES TARGET PRICE TO $300 FROM $280</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时09分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2269090" target="_blank" class="news-link">“达沃斯论AI”结语：2026年能源需求和基建将继续狂飙，核能备受关注！</a> [13] <font color='grey'>- 13时09分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BD%91%E5%8F%8B%E5%88%9A%E4%B9%B0iPhoneAir%E7%AC%AC%E4%BA%8C%E5%A4%A9%E5%B0%B1%E9%99%8D%E4%BB%B72000%E5%85%83%23&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">网友刚买iPhoneAir第二天就降价2000元</a> [16] <font color='grey'>- 13时09分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7599137251189800969/" target="_blank" class="news-link">你怎么看iPhone Air降价</a> [17] <font color='grey'>- 13时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bf854-a117-7ff6-a7e4-04b904a5fb93" target="_blank" class="news-link">Apple Overhauls Siri with Google Partnership After Anthropic Talks Stall</a> [20] <font color='grey'>- 13时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46761614" target="_blank" class="news-link">Environmentalists worry Google behind bid to control Oregon town&#x27;s water</a> [21] <font color='grey'>- 13时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/15b08432f7dd434087cc746502fbd33e" target="_blank" class="news-link">西安华为vs西安科大讯飞</a> [19] <font color='grey'>- 13时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
