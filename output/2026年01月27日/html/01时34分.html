@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 133</p><p>生成时间: 2026-01-27 01:34:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">6.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764200" target="_blank" class="news-link">微软升级自研AI芯片减少对英伟达依赖，号称吊打亚马逊Trainium、超越谷歌TPU</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bfb43-869d-744c-ae37-408f8e284543" target="_blank" class="news-link">ZELENSKIY SAYS UKRAINE-RUSSIA MEETING CAN HAPPEN ON SUNDAY, WOULD BE GOOD IF SOONER</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bfb42-b88a-744c-ae37-3a28ddfb10bf" target="_blank" class="news-link">ZELENSKIY SAYS UKRAINE, RUSSIAN DELEGATION DISCUSSED STEPS TO END WAR AND ITS MONITORING</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46767668" target="_blank" class="news-link">France Aiming to Replace Zoom, Google Meet, Microsoft Teams, etc.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bfb38-8179-744c-ae37-23b538380601" target="_blank" class="news-link">HUNGARIAN PM ORBAN SAYS INSTRUCTED HIS FOREIGN MINISTER TO SUMMON UKRAINE&#x27;S AMBASSADOR OVER WHAT ORBAN SAYS IS ELECTION MEDDLING</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bfb33-ddf3-744c-ae37-10926a4dbc91" target="_blank" class="news-link">AIRBUS HELICOPTERS: IT WON 544 GROSS ORDERS AND 536 NET ORDERS IN 2025, DELIVERED 392 UNITS</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bfb31-a604-744c-ae37-01bb0ed49633" target="_blank" class="news-link">BRAZIL&#x27;S LULA DISCUSSED VENEZUELA WITH TRUMP, EMPHASIZED IMPORTANCE OF MAINTAINING PEACE AND STABILITY IN THE REGION - BRAZIL STATEMENT&lt;br/&gt;&lt;br/&gt;BRAZIL&#x27;S LULA IN CALL WITH TRUMP AGREED TO VISIT WASHINGTON SOON - BRAZIL STATEMENT</a> [12] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46767875" target="_blank" class="news-link">The mountain that weighed the Earth</a> [14] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bfb17-ddba-744c-ae36-80d045b4b14e" target="_blank" class="news-link">&lt;b&gt;MICROSOFT SHARES UP 1.2%; CO ROLLS OUT NEXT GENERATION OF ITS AI CHIPS&lt;/b&gt;</a> [28] <font color='grey'>- 01时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764197" target="_blank" class="news-link">阿里发布千问最强推理模型Qwen3-Max-Thinking，性能媲美GPT-5.2、Gemini 3 Pro</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 01时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
