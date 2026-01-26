@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 332</p><p>生成时间: 2026-01-26 12:09:02</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">20</td>
+                <td class="percentage">6.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764125" target="_blank" class="news-link">AI推理刚需，NAND“周期更长更稳”！摩根大通：本轮主角是eSSD，铠侠成为首选</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126115143717800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2026-01-26）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bf861-dfa2-7ff6-a7e4-337a1e4907ad" target="_blank" class="news-link">CHINA OILFIELD SERVICES SHARES RISE AFTER ROBUST 2026 GUIDANCE&lt;br/&gt;&lt;br/&gt;CHINA OILFIELD SERVICES RISES 5.9% IN SHANGHAI, 4.3% IN HONG KONG</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5156893" target="_blank" class="news-link">范式智能发布Phanthy Cloud 以&quot;智能即服务&quot;重塑企业AI底座</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83391" target="_blank" class="news-link">AI 公司高管对 AGI 看法迥异</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bf854-a117-7ff6-a7e4-04b904a5fb93" target="_blank" class="news-link">Inside Apple’s AI Shake-Up and Its Plans for Two New Versions of Siri</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5156886" target="_blank" class="news-link">飞算科技宣布JavaAI专业版正式上线</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bf83f-4c2f-7ff6-a7e3-f6fc5661f0aa" target="_blank" class="news-link">SHENZHEN COMPONENT FALLS 1%, SHANGHAI COMPOSITE DOWN 0.2%, CHINEXT DROPS 1.29%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5156884" target="_blank" class="news-link">华金证券：AI发展驱动PCB升级 上游材料迎发展良机</a> [11] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bf83e-5e74-7ff6-a7e3-deec639e876f" target="_blank" class="news-link">Tencent’s AI Assistant “Yuanbao” Expands into Social Networking</a> [13] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/381.htm" target="_blank" class="news-link">QQ 微信之后腾讯发力 AI 社交，内测“元宝派”</a> [14] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260126111427809800" target="_blank" class="news-link">据TheInformation：Anthropic据悉曾与苹果(AAPL.O)就为其重建Siri人工智能助手提供模型展开谈判，但这项或价值数十亿美元的交易因双方在财务条款方面存在分歧，谈判最终未能达成一致。</a> [15] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bf836-f0db-7ff6-a7e3-c1552f3e2bdb" target="_blank" class="news-link">THAILAND&#x27;S TFEX - ANNOUNCES TEMPORARY TRADING HALT OF USD/JPY FUTURES</a> [16] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3043632" target="_blank" class="news-link">Anthropic据悉曾与苹果就为其重建Siri人工智能助手提供模型展开谈判，但这项或价值数十亿美元的交易因双方在财务条款方面存在分歧，最终未能达成协议。（The Information）</a> [16] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bf836-ca74-7ff6-a7e3-ba1b4bd722e4" target="_blank" class="news-link">THAILAND&#x27;S TFEX - ANNOUNCES TEMPORARY TRADING HALT OF SILVER ONLINE FUTURES</a> [17] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/371.htm" target="_blank" class="news-link">新测试表明 AI 实际办公准确率不足 25%，但进展比想象更快</a> [17] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3043628" target="_blank" class="news-link">腾讯元宝内测“元宝派”，探索社交AI新形态</a> [19] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/369.htm" target="_blank" class="news-link">AI 智驾两手抓，千里科技董事长印奇出任阶跃星辰董事长</a> [19] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/4fd217a2fc214ce4be1373ac043159ff" target="_blank" class="news-link">AI coding时代的一些个人思考</a> [20] <font color='grey'>- 12时09分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7598807837868539930" target="_blank" class="news-link">AI Skills：前端新的效率神器！</a> [24] <font color='grey'>- 12时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/383.htm" target="_blank" class="news-link">问界 M6 冬测影像曝光，华为余承东曾称今年问界可能“连成顺子”</a> [12] <font color='grey'>- 12时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
