@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 204</p><p>生成时间: 2026-01-27 19:27:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">6.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764266" target="_blank" class="news-link">AI需求带动下，PCB龙头沪电股份2025年营收同增42%，归母净利润同增48%｜财报见闻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/948.htm" target="_blank" class="news-link">荣耀 MagicOS 系统 AI 升级，覆盖 AI 追色、拍照答题、视频对话等能力</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1188827" target="_blank" class="news-link">对于 ai coding 总是把事情弄的一团糟的一点想法</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764246" target="_blank" class="news-link">AI军备竞赛下的“隐形赢家”：阿斯麦</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bff16-2420-755c-8740-34993494ef03" target="_blank" class="news-link">GUOTAI HAITONG SECURITIES SEES 2025 NET PROFIT UP 111-115%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/944.htm" target="_blank" class="news-link">英国启动全面审查：评估 AI 对消费者、零售金融市场和监管机构的影响</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bff12-a443-755c-8740-245e41e848ca" target="_blank" class="news-link">CHINA MICRON SEMICON: RAISES PRICES FOR PRODUCTS INCLUDING MCU, NOR FLASH BY 15-50% - STATEMENT</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3764232" target="_blank" class="news-link">爆火的Clawdbot：AI Agent开源先锋，沙盒机制重塑边缘</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3044741" target="_blank" class="news-link">【沐曦股份：预计2025年净亏损6.5亿元-7.98亿元，亏损同比收窄43.36%至53.86%】报告期内，公司坚持“1+6+X”发展战略，加大市场开拓力度，不断提升公司在高性能GPU行业的市场地位和影响力，推动人工智能技术与千行百业深度融合。凭借优越的产品性能及完善的软件生态，公司产品及服务获得下游客户的广泛认可与持续采购，报告期内收入规模较上年同期实现显著增长。报告期内，公司股份支付费用较上年同期有所减少，该项因素对公司利润产生正向影响，降低公司亏损幅度，使得公司经营业绩呈现减亏向好的发展态势。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3764138" target="_blank" class="news-link">AI算力Token涨价潮：云厂商服务调价，Agent需求爆发</a> [13] <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260127183525604800" target="_blank" class="news-link">英国金融行为监管局（FCA）：将根据人工智能审查的反馈制定一系列建议，这些建议将于2026年夏季提交给FCA委员会。</a> [21] <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260127183428395800" target="_blank" class="news-link">英国金融行为监管局（FCA）：此次审查涵盖其人工智能讨论文件（AI Discussion Paper）、AI 冲刺计划（AI Sprint）、AI 实验室（包括 AI 实时测试）以及英伟达支持的超级沙盒（Supercharged Sandbox）。</a> [22] <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260127183211051800" target="_blank" class="news-link">英国金融行为监管局（FCA）：启动审查，以评估先进人工智能对消费者、零售金融市场和监管机构的影响。</a> [24] <font color='grey'>- 19时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1188825" target="_blank" class="news-link">为什么 gemini3pro 这么拉胯</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3044717" target="_blank" class="news-link">欧盟就谷歌违反《数字市场法》法规启动法律程序</a> [25] <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260127183055031800" target="_blank" class="news-link">欧盟就谷歌违反《数字市场法》法规启动法律程序</a> [25] <font color='grey'>- 19时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1188823" target="_blank" class="news-link">Qwen3-Max-Thinking, KIMI K2.5 上新了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
