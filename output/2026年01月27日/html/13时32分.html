@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 142</p><p>生成时间: 2026-01-27 13:32:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">6.34%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46736815" target="_blank" class="news-link">Heathrow scraps liquid container limit</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1188692" target="_blank" class="news-link">程序员的笔记软件？让 AI 写一个吧</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bfde4-aa37-744c-ae3d-1f2ab55cad37" target="_blank" class="news-link">&lt;b&gt;CHINA AIM TO BUILD AROUND 100 INTEGRATED LOGISTICS PROVIDERS BY 2030, INCLUDING OVER 10 GLOBALLY COMPETITIVE LEADING TRANSPORT FIRMS &lt;/b&gt;</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1188691" target="_blank" class="news-link">[讨论] AI 导致开源项目已死</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bfde2-1f38-744c-ae3d-116ddf7511a9" target="_blank" class="news-link">CHINA’S NATIONAL FINANCIAL REGULATORY ADMINISTRATION ISSUES ACTION PLAN TO CULTIVATE LEADING TRANSPORT AND LOGISTICS FIRMS, ENHANCING SUPPLY CHAIN SERVICES</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3044468" target="_blank" class="news-link">报道称，OpenAI副总裁奈特即将离职。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bfdd5-fd20-744c-ae3c-e0aa433e296b" target="_blank" class="news-link">ACEA: TOYOTA DECEMBER EU NEW CAR REGISTRATIONS FELL 9%&lt;br/&gt;&lt;br/&gt;ACEA: BMW DECEMBER EU NEW CAR REGISTRATIONS ROSE 5.5%&lt;br/&gt;&lt;br/&gt;ACEA: MERCEDES-BENZ BRAND DECEMBER EU NEW CAR REGISTRATIONS ROSE 2.4%&lt;br/&gt;&lt;br/&gt;ACEA: VOLKSWAGEN GROUP DECEMBER EU NEW CAR REGISTRATIONS ROSE 11%&lt;br/&gt;&lt;br/&gt;ACEA: HYUNDAI DECEMBER EU NEW CAR REGISTRATIONS ROSE 4.7%&lt;br/&gt;&lt;br/&gt;ACEA: SAIC MOTOR DECEMBER EU NEW CAR REGISTRATIONS FELL 2.1%</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bfdd5-908a-744c-ae3c-dc83c1a4b726" target="_blank" class="news-link">US LINKS SECURITY GUARANTEES FOR UKRAINE TO PEACE DEAL CEDING TERRITORY - FT</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bfdd4-b281-744c-ae3c-c67f25e5ef49" target="_blank" class="news-link">PASSENGER CAR REGISTRATIONS IN EU, BRITAIN, EFTA UP 7.6% YEAR-ON-YEAR IN DECEMBER, UP 2.4% IN 2025, ACEA SAYS&lt;br/&gt;&lt;br/&gt;TESLA&#x27;S MARKET SHARE IN EU, BRITAIN, EFTA IN DECEMBER FALLS TO 3% VS BYD&#x27;S 2.4%; TESLA BEV MARKET SHARE AT 11.4%</a> [13] <font color='grey'>- 13时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1997009213193413444" target="_blank" class="news-link">全世界用户都在被 ChatGPT「稳稳接住」，为什么它执着于这样讲话？怎么平衡这种人文关怀和用户体验？</a> [11] <font color='grey'>- 13时32分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
