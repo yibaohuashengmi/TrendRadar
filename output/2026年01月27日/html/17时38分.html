@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 246</p><p>生成时间: 2026-01-27 17:38:32</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">4.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/845679476439592960" target="_blank" class="news-link">AI能取代人类吗？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bfeb9-971c-755c-873f-5bc6a6fa47ac" target="_blank" class="news-link">Baidu Merges Cloud and Document Units into New Personal AI Group: SCMP</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/845688083495317504" target="_blank" class="news-link">AI时代，我们程序员不会消失，只会变得更强</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bfeb7-595f-755c-873f-5317e8b9c6d4" target="_blank" class="news-link">&lt;b&gt;BAIDU HAS MERGED TWO OF ITS CONSUMER APP BUSINESSES INTO A NEW ARTIFICIAL INTELLIGENCE-FOCUSED UNIT- SCMP&lt;/b&gt;</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1188797" target="_blank" class="news-link">AI 视频生成器 &amp; AI 图片生成器</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5158040" target="_blank" class="news-link">美股异动丨美光科技盘前涨超3% 加码投资240亿美元在新加坡扩产 以应对AI芯片短缺</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/909.htm" target="_blank" class="news-link">曝苹果 iPhone Air 2 定制超薄 Face ID 组件，增加超广角镜头</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1188792" target="_blank" class="news-link">有了 AI 之后摸鱼的时间越来越长了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bfeb3-5af0-755c-873f-14868d06ede1" target="_blank" class="news-link">GERMAN ECONOMY MINISTER: WORLD HAS BECOME MORE UNCERTAIN, ALLIANCES WE TRUSTED IN ARE STARTING TO BECOME FRAGILE</a> [12] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2270639" target="_blank" class="news-link">贵金属延续强势 ，AI应用再迎密集催化，分化市场下寻结构机会</a> [12] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bfea3-a893-755c-873e-cd9e0a2e73e6" target="_blank" class="news-link">Samsung, SK Hynix Said to Hike LPDDR Prices for iPhones</a> [21] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3044617" target="_blank" class="news-link">SK海力士将在美国设立人工智能投资部门。（韩国《每日经济新闻》）</a> [21] <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1188789" target="_blank" class="news-link">关于 Claude Code 速度的问题</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1188809" target="_blank" class="news-link">[自荐] iSnips：一个「本地优先 / 数据自持」的网页摘录（Web Snippets）插件（支持 WebDAV / Google Drive）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1999268803641639542" target="_blank" class="news-link">如何评价阿里 1 月 26 日新发布的 Qwen3-Max-Thinking 模型？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
