@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 230</p><p>生成时间: 2026-01-27 21:02:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">6.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/916/962.htm" target="_blank" class="news-link">华硕灵耀 14 Air 2026 笔记本发布：至高可选第三代酷睿 Ultra 9 386H 处理器、1.19kg 重量，9999 元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时02分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%BD%93%E3%80%8A%E5%A7%91%E8%8B%8F%E7%B9%81%E5%8D%8E%E5%9B%BE%E3%80%8B%E9%81%87%E8%A7%81AI" target="_blank" class="news-link">当《姑苏繁华图》遇见AI</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bff76-590b-755c-8741-2311b5f04967" target="_blank" class="news-link">&lt;b&gt;META INKS DEAL TO PAY CORNING UP TO $6 BILLION FOR FIBER-OPTIC CABLES IN AI DATA CENTERS - CNBC&lt;/b&gt;</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260127204317752800" target="_blank" class="news-link">康宁(GLW.N)美股盘前涨6.5%，此前有报道称，Meta公司达成协议，将向该公司支付高达60亿美元，用于在人工智能数据中心中采购光纤电缆。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bff71-000f-755c-8741-1499366a8842" target="_blank" class="news-link">BOEING: 787 PROGRAM BEGAN TRANSITIONING PRODUCTION TO EIGHT PER MONTH AND REMAINS FOCUSED ON STABILIZING AT THAT RATE</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260127203901765800" target="_blank" class="news-link">据CNBC：Meta Platforms(META.O)公司达成协议，拟为AI数据中心光纤电缆向康宁支付高达60亿美元。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764269" target="_blank" class="news-link">Clawdbot引爆整个AI agent生态</a> [11] <font color='grey'>- 21时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bff70-0eb2-755c-8740-faa710a6fdb8" target="_blank" class="news-link">BOEING - TOTAL COMPANY BACKLOG GREW TO A RECORD $682 BLN, INCLUDING OVER 6,100 COMMERCIAL AIRPLANES AT QTR END</a> [12] <font color='grey'>- 21时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764265" target="_blank" class="news-link">Ai芯片需求显著，国产GPU龙头沐曦股份预计2025年营收同比激增超115%，净亏损同比收窄43.36%至53.86% | 财报见闻</a> [12] <font color='grey'>- 21时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bff6f-3fd7-755c-8740-e92e90e6c528" target="_blank" class="news-link">&lt;b&gt;BOEING 4Q REV. $23.95B, EST. $22.58B&lt;br/&gt;&lt;br/&gt;BOEING 4Q OPER CASH FLOW $1.33B, EST. $1.24B&lt;br/&gt;&lt;br/&gt;BOEING 4Q COMMERCIAL AIRPLANES REV. $11.38B, EST. $10.89B&lt;/b&gt;</a> [14] <font color='grey'>- 21时02分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E8%B4%A2%E7%BB%8F%E5%BF%AB%E8%AE%AF/20260127-ai%E9%9C%80%E6%B1%82%E9%A3%99%E5%8D%87-%E7%BE%8E%E5%85%89%E6%96%A5%E8%B5%84240%E4%BA%BF%E7%BE%8E%E5%85%83%E5%9C%A8%E6%96%B0%E5%8A%A0%E5%9D%A1%E5%BB%BA%E6%99%B6%E5%9C%86%E5%8E%82" target="_blank" class="news-link">AI需求飙升 美光斥资240亿美元在新加坡建晶圆厂</a> [15]</div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3044768" target="_blank" class="news-link">SK海力士回应将在美设立人工智能投资部门：正在考虑多种方案</a> [18] <font color='grey'>- 21时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bff5d-4865-755c-8740-c3c1f6a6579c" target="_blank" class="news-link">AMERICAN AIR REVERSES EARLIER DECLINES, UP AS MUCH AS 1.1%</a> [19] <font color='grey'>- 21时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bff4b-e82f-755c-8740-ae454353d40f" target="_blank" class="news-link">ZELENKIY SAYS UKRAINE SHOULD BECOME EU MEMBER BY 2027, HOPES FOR MEMBERS&#x27; SUPPORT</a> [22] <font color='grey'>- 21时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bff49-eb4f-755c-8740-a08282f151d3" target="_blank" class="news-link">FINLAND&#x27;S PRIME MINISTER AFTER MEETING WITH CHINA&#x27;S XI: I HAVE MADE IT VERY CLEAR HERE THAT CHINA&#x27;S COOPERATION WITH RUSSIA SUPPORTS RUSSIA&#x27;S ABILITY TO CONTINUE THE WAR IN UKRAINE</a> [23]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019bff3f-429d-755c-8740-95727793c41f" target="_blank" class="news-link">STIFEL RAISES AMAZON TARGET PRICE TO $300 FROM $295</a> [25] <font color='grey'>- 21时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%AF%A6%E8%A7%A3DeepSeek%E6%96%B0%E6%A8%A1%E5%9E%8BOCR2" target="_blank" class="news-link">详解DeepSeek新模型OCR2</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时02分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1999468225642119587" target="_blank" class="news-link">如何评价 DeepSeek-OCR-2 模型？</a> [13] <font color='grey'>- 21时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1188839" target="_blank" class="news-link">基于 Claude Agents SDK 开发的 Craft Agents 很不错，新增了支持通过图形化界面安装、管理、配置 Skills</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
