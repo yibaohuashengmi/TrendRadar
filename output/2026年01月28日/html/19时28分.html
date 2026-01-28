@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 150</p><p>生成时间: 2026-01-28 19:28:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">7.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/303.htm" target="_blank" class="news-link">深圳：鼓励智能家居企业加快适配国产操作系统和芯片，推动家具、电视、扫地机器人等全面接入 AI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1189113" target="_blank" class="news-link">Trymusic.ai：基于 Suno 的 AI 音乐生成工具，欢迎免费试用传播</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/NevaMind-AI/memU" target="_blank" class="news-link">NevaMind-AI / memU</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c044e-b8de-755c-874f-64280a311a6b" target="_blank" class="news-link">&lt;b&gt;CHINA’S VICE PREMIER DING XUEXIANG MEETS GOLDMAN SACHS CHAIRMAN AND CEO DAVID SOLOMON IN BEIJING ON JAN 28&lt;/b&gt;</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/MoonshotAI/kimi-cli" target="_blank" class="news-link">MoonshotAI / kimi-cli</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c044e-085d-755c-874f-500c1c9264aa" target="_blank" class="news-link">CITIGROUP RAISES BOEING TARGET PRICE TO $290 FROM $270</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0443-4f1b-755c-874f-4f0cac774bff" target="_blank" class="news-link">WAABI TO LAUNCH AT LEAST 25,000 ROBOTAXIS WITH UBER OVER TIME&lt;br/&gt;&lt;br/&gt;WAABI RAISES $1B FROM KHOSLA VENTURES, G2 VENTURE PARTNERS,UBER</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260128184459127800" target="_blank" class="news-link">亚马逊将裁员1.6万人 在AI竞争中精简架构</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c043e-b3a6-755c-874f-3fae32c59b22" target="_blank" class="news-link">Amazon Plans to Cut 16,000 Jobs as AI Competition Heats Up</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0430-a29f-755c-874f-3439cdab60d7" target="_blank" class="news-link">IRAQ&#x27;S FORMER PM NOUR AL-MALIKI SAYS WE REJECT U.S. INTERVENTION IN HIS COUNTRY&#x27;S INTERNAL AFFAIRS, AFTER HE WAS NOMINATED BY SHI&#x27;ITE ALLIANCE TO HEAD NEW GOVERNMENT - POST ON X</a> [11]</div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3045533" target="_blank" class="news-link">深圳：鼓励智能家居企业加快适配国产操作系统和芯片，推动家具、电视、扫地机器人等全面接入AI</a> [12] <font color='grey'>- 19时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
