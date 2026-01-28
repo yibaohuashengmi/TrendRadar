@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 144</p><p>生成时间: 2026-01-28 13:33:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">8</td>
+                <td class="percentage">5.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3045293" target="_blank" class="news-link">北京：2026年拟制定民营经济促进条例、人工智能产业发展条例等</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764312" target="_blank" class="news-link">Coinbase CEO：AI帮我们运行公司，我们把每条数据都整合起来</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0307-2d76-755c-874a-e53f1328d9e6" target="_blank" class="news-link">TD COWEN RAISES BOEING TARGET PRICE TO $270 FROM $260</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764330" target="_blank" class="news-link">马云最新发声谈AI：不要再犹豫用不用AI，而是怎么教我们的孩子去用好AI</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c02fa-cb0a-755c-874a-a805df36c312" target="_blank" class="news-link">SPACEX IS SEEKING TO RAISE AS MUCH AS $50BN AT A VALUATION OF ROUGHLY $1.5TN- FT</a> [11] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c02f3-e99a-755c-874a-9fd4657dbd74" target="_blank" class="news-link">JP MORGAN RAISES BOEING TARGET PRICE TO $270 FROM $245</a> [13] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46790957" target="_blank" class="news-link">Ask HN: Why all the sudden people are writing browsers with AI?</a> [18] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%8F%91%E5%B1%95%E5%88%B0%E4%BB%80%E4%B9%88%E9%98%B6%E6%AE%B5%E4%BA%86" target="_blank" class="news-link">人工智能发展到什么阶段了</a> [19] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1188989" target="_blank" class="news-link">受够了阿里云 Tablestore 的官方 Web 控制台，写了一个 GUI 客户端 (TablePilot)</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
