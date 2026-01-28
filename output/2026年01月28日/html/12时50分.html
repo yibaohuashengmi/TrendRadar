@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 141</p><p>生成时间: 2026-01-28 12:50:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">7.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3045264" target="_blank" class="news-link">马云：AI时代不要再犹豫用不用AI 而是怎么教我们的孩子去用好AI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202601/2863421.html" target="_blank" class="news-link">关税协议达成后 台美官员展开科技、AI与无人机合作讨论</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/135.htm" target="_blank" class="news-link">魏建军豪言“保定人心中的大旗杆立起来了”：AI 豪华六座旗舰 SUV 魏牌 V9X 官宣</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/134.htm" target="_blank" class="news-link">阿里云通义开源 6B 参数 Z-Image 基座模型，生成图片拒绝 AI “大众脸”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c02d3-8436-755c-874a-6573f1992e28" target="_blank" class="news-link">THAI AUTOMOTIVE INDUSTRY ASSOCIATION: THAILAND’S 2026 VEHICLE PRODUCTION PROJECTED AT 1.5 MLN UNITS</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c02c9-1d8f-755c-874a-53fb5464d7d2" target="_blank" class="news-link">Daiwa Sees Q1 Risk Appetite Rising Among Chinese Mutual Funds</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AirPods%E5%AE%9E%E6%97%B6%E7%BF%BB%E8%AF%91%E5%AE%9E%E7%94%A8%E5%90%97" target="_blank" class="news-link">AirPods实时翻译实用吗</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/130.htm" target="_blank" class="news-link">Stratechery 称台积电已成为全球 AI 供应链中最大的“风险”因素</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2272264" target="_blank" class="news-link">火力全开！2026开年泰康平安新华等超10亿险资南下，狂扫港股AI、生物医药IPO</a> [11] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260128115641682800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2026-01-28）</a> [14] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A9%AC%E4%BA%91%EF%BC%9A%E5%AD%A9%E5%AD%90%E4%B8%8D%E5%BA%94%E5%92%8CAI%E6%AF%94%E6%8B%BC%E8%AE%A1%E7%AE%97%E5%92%8C%E8%AE%B0%E5%BF%86" target="_blank" class="news-link">马云：孩子不应和AI比拼计算和记忆</a> [23] <font color='grey'>- 12时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
