@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 138</p><p>生成时间: 2026-01-29 19:55:02</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">7.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0983-87a0-755c-8763-f60e6ddb1a83" target="_blank" class="news-link">BOFA GLOBAL RESEARCH RAISES IBM PRICE OBJECTIVE TO $340 FROM $335</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c097b-d798-755c-8763-dea5e431a12d" target="_blank" class="news-link">TESLA INC: DURING FY RECOGNIZED $430 MILLION OF REVENUES, $285 MILLION OF COST OF REVENUES FROM XAI FOR ITS PURCHASE OF OUR MEGAPACK PRODUCTS</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c097b-84b9-755c-8763-d353e8a96d50" target="_blank" class="news-link">MELIUS RESEARCH RAISES IBM TARGET PRICE TO $390 FROM $375</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46805665" target="_blank" class="news-link">We can’t send mail farther than 500 miles (2002)</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0972-7965-755c-8763-c75416e1af4d" target="_blank" class="news-link">LI HOPES UK PROVIDES FAIR CONDITIONS FOR CHINESE COS.: CCTV</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0972-5a50-755c-8763-bca429c89597" target="_blank" class="news-link">&lt;b&gt;CHINA&#x27;S LI SAYS CHINA TO DEEPEN AI, FINANCE COOPERATION WITH UK: CCTV&lt;/b&gt;</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0970-8f4a-755c-8763-b311c94f279a" target="_blank" class="news-link">BANK OF CHINA RAISES SILVER DEFERRED CONTRACT MARGIN RATIO TO 50.80% FROM 48.26%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E7%BC%A4%E7%BA%B7%E4%B8%96%E7%95%8C/20260129-%E4%B8%BA%E7%96%BE%E7%97%85%E5%AF%BB%E6%96%B0%E7%96%97%E6%B3%95-google-ai%E5%B7%A5%E5%85%B7%E6%8E%A2%E7%B4%A2%E4%BA%BA%E7%B1%BB%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%A5%A5%E7%A7%98" target="_blank" class="news-link">为疾病寻新疗法 Google AI工具探索人类基因组奥秘</a> [11]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c096f-514f-755c-8763-a30680ab99fd" target="_blank" class="news-link">MOFFETTNATHANSON RAISES META TARGET PRICE BY $60 TO $810</a> [12] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c096f-0460-755c-8763-97f0bd298365" target="_blank" class="news-link">&lt;b&gt;RUSSIA IS UNAWARE OF GUARANTEES AGREED UPON BY THE UNITED STATES AND UKRAINE - TASS&lt;/b&gt;</a> [14] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260129192009370800" target="_blank" class="news-link">特斯拉(TSLA.O)：在本财年，由于xAI采购我们的超大型商用储能电池产品，确认了4.3亿美元的收入和2.85亿美元的销售成本。</a> [27] <font color='grey'>- 19时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1994095464539255007" target="_blank" class="news-link">ChatGPT 流量份额从 86% 降至 65%，这一变化由哪些因素造成？</a> [17] <font color='grey'>- 19时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7600076124156067859/" target="_blank" class="news-link">华为手机全系降价 最高达4000元</a> [14] <font color='grey'>- 19时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
