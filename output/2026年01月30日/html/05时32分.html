@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 79</p><p>生成时间: 2026-01-30 05:32:48</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">20.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0b91-04f2-7bbd-9ae6-94cb41884c0a" target="_blank" class="news-link">OPENAI RETIRING GPT-40, GPT-4.1, GPT-4.1 MINI, &amp; OPENAI 04-MINI</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3046688" target="_blank" class="news-link">OpenAI下架（retiring）GPT-4o、GPT-4.1，GPT-4.1 mini，以及OpenAI o4-mini。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3764510" target="_blank" class="news-link">微软交出完美财报、市值却瞬间蒸发超3000亿 AI泡沫的第一道裂痕出现了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130051543942800" target="_blank" class="news-link">消息人士称，美国国防部与Anthropic公司在人工智能模型军事用途的安全保障方面存在分歧。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/itelectric-appliance/61159-2026-01-30-05-00-51.html" target="_blank" class="news-link">中国发电增量达美国7倍，左右AI竞争</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764516" target="_blank" class="news-link">Sandisk第二财季营收30.3亿美元，增幅31%，高于公司原来所给指引区间。 数据中心营收增长64%，受AI基础设施建设方等强劲应用的驱动。 预计第三财季营收44亿-48亿美元</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764513" target="_blank" class="news-link">报道：亚马逊洽谈对OpenAI投资至多500亿美元</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46815527" target="_blank" class="news-link">Why &quot;The AI Hallucinated&quot; is the perfect legal defense</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3046674" target="_blank" class="news-link">亚马逊洽谈对OpenAI投资至多500亿美元，后者寻求在新一轮融资中募集高达1000亿美元——估值高达8300亿美元。 亚马逊Jassy牵头公司与OpenAI的CEO Altman磋商。（华尔街日报）</a> [12]</div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46816539" target="_blank" class="news-link">Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT</a> [16] <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130050039950800" target="_blank" class="news-link">苹果(AAPL.O)收购以色列人工智能初创公司Q.ai。</a> [17] <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46816228" target="_blank" class="news-link">Apple buys Israeli startup Q.ai as the AI race heats up</a> [18] <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130044452824800" target="_blank" class="news-link">亚马逊正在洽谈向OpenAI投资高达500亿美元</a> [21] <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46812909" target="_blank" class="news-link">Show HN: Autonomous recovery for distributed training jobs</a> [23] <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130043431786800" target="_blank" class="news-link">亚马逊正商谈向OpenAI投资高达500亿美元。</a> [25] <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3046654" target="_blank" class="news-link">报道：SpaceX在潜在上市前与xAI讨论合并</a> [26] <font color='grey'>- 05时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">1.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1189394" target="_blank" class="news-link">Google DeepMind 的 Project Genie 来了：用文字生成可探索的 3D 世界</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">1.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3046683" target="_blank" class="news-link">纳斯达克金龙中国指数初步收涨0.3%。 热门中概股里，蔚来初步收涨3.8%，百胜中国涨1%，腾讯、新东方、理想、小米、美团至多涨超0.9%，阿里跌0.7%，网易跌1.3%，文远知行跌4.5%，小马智行跌7.9%。 ETF中，ASHR涨0.9%，KWEB涨0.5%，CQQQ跌1.5%。</a> <font color='red'><strong>[6]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
