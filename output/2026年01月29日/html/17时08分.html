@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 192</p><p>生成时间: 2026-01-29 17:08:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">5.21%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764466" target="_blank" class="news-link">微软与Meta季报回答了市场焦点问题：算力开支和AI需求，都很强！</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/580.htm" target="_blank" class="news-link">DeepSeek 正招兵买马，布局 AI 搜索与智能体领域</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3046310" target="_blank" class="news-link">昆山设立人工智能产业基金 总规模50亿元</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/571.htm" target="_blank" class="news-link">2025 年度科技热词出炉：AI 治理、具身智能、商业航天等入选</a> [12] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3046293" target="_blank" class="news-link">据报道，阿里巴巴争取到小鹏汽车为其新AI芯片的客户。</a> [15] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2000172562634790267" target="_blank" class="news-link">阿里自研 AI 芯片亮相，由通义实验室、阿里云、平头哥组成的「通云哥」体系，有哪些信息值得关注？</a> [17] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c08c9-2fef-755c-8761-67ff680628aa" target="_blank" class="news-link">HYUNDAI MOTOR AMERICA IS RECALLING 568,576 U.S. VEHICLES - NHTSA&lt;br/&gt;&lt;br/&gt;HYUNDAI MOTOR AMERICA IS RECALLING SOME U.S. VEHICLES AS IMPROPER SIDE CURTAIN AIR BAG DEPLOYMENT INCREASES THE RISK OF INJURY DURING A CRASH.- NHTSA</a> [19] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3046285" target="_blank" class="news-link">软银任命首席运营官Jun Shimba为董事长，4月1日起生效。现任董事长Yasuyuki Imai将担任特别顾问。</a> [20] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E8%B4%A2%E7%BB%8F%E5%BF%AB%E8%AE%AF/20260129-ai%E6%99%B6%E7%89%87%E9%9C%80%E6%B1%82%E5%BC%BA%E5%8A%B2-%E4%B8%89%E6%98%9F%E5%8D%95%E5%AD%A3%E8%8E%B7%E5%88%A9%E5%88%9B%E5%8E%86%E5%8F%B2%E7%BA%AA%E5%BD%95" target="_blank" class="news-link">AI晶片需求强劲 三星单季获利创历史纪录</a> [22]</div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E8%B4%A2%E7%BB%8F%E5%BF%AB%E8%AE%AF/20260129-%E5%BE%AE%E8%BD%AFai%E6%94%AF%E5%87%BA%E5%A4%A7%E5%A2%9E%E6%8B%9B%E7%96%91%E8%99%91-%E8%B4%A2%E6%8A%A5%E4%BA%AE%E7%9C%BC%E5%8D%B4%E9%9A%BE%E6%8A%AC%E5%8D%87%E8%82%A1%E4%BB%B7" target="_blank" class="news-link">微软AI支出大增招疑虑 财报亮眼却难抬升股价</a> [24]</div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%B0%B7%E6%AD%8CDeepMind%E7%99%BBNature%E5%B0%81%E9%9D%A2" target="_blank" class="news-link">谷歌DeepMind登Nature封面</a> [20] <font color='grey'>- 17时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3046284" target="_blank" class="news-link">华为官网开启春节限时优惠 购买指定产品最高可优惠4000元</a> [21] <font color='grey'>- 17时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260129163749306800" target="_blank" class="news-link">消息人士：阿里巴巴的新芯片已吸引逾400家客户。</a> [15] <font color='grey'>- 17时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
