@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 217</p><p>生成时间: 2026-01-29 21:07:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">20</td>
+                <td class="percentage">9.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260129/1069534514.html" target="_blank" class="news-link">中国如何在人工智能领域正在赶超美国并可能在不久的将来超越美国？</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1189357" target="_blank" class="news-link">AI 红利不是🐮🐴的红利</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202601/2963552.html" target="_blank" class="news-link">英伟达被指协助DeepSeek改进AI模型</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764497" target="_blank" class="news-link">报道：阿里加码AI与云计算，未来三年投资或从3800亿上调至4800亿元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46809069" target="_blank" class="news-link">The tech market is fundamentally fucked up and AI is just a scapegoat</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c09cc-a834-755c-8764-d8ffe703d3f9" target="_blank" class="news-link">TD COWEN RAISES TESLA TARGET PRICE TO $519 FROM $509</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c09be-2263-755c-8764-c913595601d0" target="_blank" class="news-link">SOURCE: ALIBABA CONSIDERS RAISING THREE-YEAR AI AND CLOUD INFRASTRUCTURE SPENDING FROM 3.8 TRILLION TO 4.8 TRILLION YUAN</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3046477" target="_blank" class="news-link">媒体：阿里正考虑将未来三年投入到AI基建与云计算上的3800亿元提升至4800亿</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260129202302435800" target="_blank" class="news-link">金十整理：云增速放缓、被指患上“OpenAI依赖症”， 微软遭投行集体“砍价”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c09b0-c925-755c-8764-b18cd0df4af7" target="_blank" class="news-link">&lt;b&gt;CHINA AND PHILIPPINES HOLD BILATERAL TALKS ON MARITIME ISSUES, AGREE TO MAINTAIN DIPLOMATIC COMMUNICATION&lt;/b&gt;</a> [11] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5160798" target="_blank" class="news-link">招商策略：电子涨价潮全面爆发 是由AI产业爆发式增长与上游原材料成本攀升双重驱动的结构性变革</a> [11] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c09aa-83eb-755c-8764-a94ad6beb2fe" target="_blank" class="news-link">DEUTSCHE BANK RAISES META TARGET PRICE TO $920 FROM $880</a> [12] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1999888901490304692" target="_blank" class="news-link">OpenAI 发布基于 GPT-5.2 的 Prism，专注科研领域的 AI 协作。科研人能用它来做些什么？</a> [20] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/846411133899583488" target="_blank" class="news-link">AI求职Prompt合集：适合0实习选手</a> [20] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0997-8244-755c-8764-4eddbc591fd1" target="_blank" class="news-link">WEDBUSH RAISES META TARGET PRICE TO $900 FROM $880</a> [24] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0992-d6bb-755c-8764-31bace0f6cb8" target="_blank" class="news-link">STIFEL RAISES MICROSOFT TARGET PRICE TO $540 FROM $520</a> [27] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3046450" target="_blank" class="news-link">德国软件公司SAP股价一度大跌16% 云业务订单积压量引发AI挑战的担忧</a> [27] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46808103" target="_blank" class="news-link">AI on Australian travel company website sent tourists to nonexistent hot springs</a> [27] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7600380007885897778" target="_blank" class="news-link">拒绝 AI 写“烂代码”：深度解读 antfu/skills 与前端 AI 的新范式</a> [29] <font color='grey'>- 21时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0991-8ac5-755c-8764-1d4722fc5867" target="_blank" class="news-link">MIZUHO RAISES TESLA TARGET PRICE TO $540 FROM $530</a> [30] <font color='grey'>- 21时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7600216277426864162" target="_blank" class="news-link">Kimi 开源新模型，不输 Gemini 3，太有眼力见了！</a> [30] <font color='grey'>- 21时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3046478" target="_blank" class="news-link">阿里巴巴美股盘前涨超1%。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
