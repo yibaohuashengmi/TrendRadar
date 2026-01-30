@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 239</p><p>生成时间: 2026-01-30 21:06:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">6.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/976.htm" target="_blank" class="news-link">环球音乐等集团指控 AI 公司 Anthropic 侵犯版权，索赔或超 30 亿美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1189630" target="_blank" class="news-link">AI 生成 PPT 方案请教</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5161975" target="_blank" class="news-link">光丽科技(06036.HK)6529.6万港元增持Data Star18%股权 加码AI芯片业务</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0ee4-356a-7bbd-9af3-a2f7b9fb5d13" target="_blank" class="news-link">&lt;b&gt;CHINA VANKE - EXPECTED RESULT DUE TO OVERALL LOSSES FROM CERTAIN OPERATING BUSINESSES AFTER DEDUCTING DEPRECIATION &amp; AMORTIZATION, OTHERS&lt;/b&gt;</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0ee0-c2c8-7bbd-9af3-90c4ba438f4a" target="_blank" class="news-link">ARGUS RESEARCH RAISES IBM TARGET PRICE TO $360 FROM $340</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764596" target="_blank" class="news-link">不卷HBM卷产能！铠侠高管：我们拥有“对的产品”，AI数据中心正处于存储饥渴期</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764592" target="_blank" class="news-link">“重金砸入”AI研发，昆仑万维2025年预亏13.5亿-19.5亿｜财报见闻</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0ed4-52f2-7bbd-9af3-62b989fa8cbe" target="_blank" class="news-link">ROSENBLATT SECURITIES RAISES APPLE TARGET PRICE TO $267 FROM $250</a> [12] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0ecf-39d4-7bbd-9af3-52362df18808" target="_blank" class="news-link">JEFFERIES RAISES APPLE TARGET PRICE TO $286.54 FROM $276.47</a> [14] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0ec9-79c1-7bbd-9af3-49ddfe9e0d3e" target="_blank" class="news-link">YIELD ON 10-YR U.S. TREASURY NOTES STEADY AFTER FED CHAIR ANNOUNCEMENT, LAST UP 2 BPS ON DAY AT 4.249%</a> [15] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0ec0-65c2-7bbd-9af3-14f3723702a1" target="_blank" class="news-link">&lt;b&gt;U.S. STOCK INDEX FUTURES HOLD LOSSES AFTER TRUMP NOMINATES KEVIN WARSH AS NEXT FED CHAIR&lt;/b&gt;</a> [22] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0ebe-a7db-7bbd-9af3-04deae9cd9ce" target="_blank" class="news-link">DOLLAR HOLDS STEADY AFTER FED CHAIR ANNOUNCEMENT, U.S. DOLLAR INDEX UP 0.3% AT 96.50</a> [24] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0ebc-f2f3-7bbd-9af2-ff9d8c8f96ad" target="_blank" class="news-link">TRUMP: NO DOUBT WARSH WILL GO DOWN AS ONE OF GREAT FED CHAIRS</a> [25] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0ebc-711b-7bbd-9af2-ee1df5d67b39" target="_blank" class="news-link">TRUMP: KEVIN WARSH TO BE THE CHAIRMAN OF THE BOARD OF GOVERNORS</a> [27] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0ebc-0bb2-7bbd-9af2-e728bc8b8111" target="_blank" class="news-link">SHANGHAI FUTURES EXCHANGE: ADJUSTS PRICE LIMITS, MARGIN RATIOS FOR SOME SILVER FUTURES CONTRACTS - STATEMENT</a> [28] <font color='grey'>- 21时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
