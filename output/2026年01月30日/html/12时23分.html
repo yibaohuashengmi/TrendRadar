@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 320</p><p>生成时间: 2026-01-30 12:23:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">5.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0d14-071f-7bbd-9aeb-d5c1d5a0fd0f" target="_blank" class="news-link">S&amp;PGR: CHINA SUPPLIER CONTAMINATION MAY HIT DAIRY FIRMS</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1189499" target="_blank" class="news-link">[开源] 银色春秋.AI：来看看你的月薪在古代值几两银子？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/794.htm" target="_blank" class="news-link">宇树王兴兴：谁能把机器人用的大模型做出来，谁就是全世界最厉害的 AI 和机器人公司，足够拿诺贝尔奖</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.nytimes.com/business/20260130/ai-secrets-stolen-google-china/" target="_blank" class="news-link">为中国创业项目窃取AI技术，前谷歌工程师被定罪</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764536" target="_blank" class="news-link">AI 互动游戏的 GPT 时刻到了！谷歌Genie 3首测！太牛了！</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260130115245691800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2026-01-30）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/768.htm" target="_blank" class="news-link">首款 Ultra X7 358H 翻转本：微星尊爵 14 Flip AI+ 2026 酷睿版 10999 元，U7 355 普通本 9999 元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32491299" target="_blank" class="news-link">车没上市AI黑稿已刷屏，起底新能源车圈黑水军产业链</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0cdf-e755-7bbd-9aeb-794bcd12ed40" target="_blank" class="news-link">Alibaba Confirms ‘Cloud+AI+Chip’ Strategy; PPU Shipments Hit Hundreds of Thousands</a> [12] <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/759.htm" target="_blank" class="news-link">商汤开源多模态自主推理模型 SenseNova-MARS，号称让 AI 真正具备“执行能力”</a> [12] <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0cd9-d9d9-7bbd-9aeb-6d91ab69d92f" target="_blank" class="news-link">GAMESTOP CEO SAYS HE IS EYEING MAJOR PUBLIC COMPANY ACQUISITION -- WSJ&lt;br/&gt;&lt;br/&gt;GAMESTOP&#x27;S COHEN: THINKING ABOUT HANDFUL OF POSSIBLE TAKEOVER TARGETS, HOPE TO PURSUE DEAL SOON&lt;br/&gt;&lt;br/&gt;GAMESTOP&#x27;S COHEN: AIMING FOR COMPANY&#x27;S MARKET VALUE TO GROW TO $100B FROM $10B</a> [14] <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1189440" target="_blank" class="news-link">新买的 MacBook air m4，因为一个操作开始发烧</a> [14] <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0cd2-33ff-7bbd-9aeb-5458aee73ccd" target="_blank" class="news-link">OpenAI Accelerates IPO Plans Amid Anthropic Competition: WSJ</a> [17] <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/753.htm" target="_blank" class="news-link">全球限 38 台：MAINGEAR 推出复古 Retro98 系列游戏 PC 整机</a> [17] <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0ccf-5d82-7bbd-9aeb-4b3010be44d8" target="_blank" class="news-link">OPENAI PLANS FOURTH-QUARTER IPO- WSJ</a> [18] <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/917/750.htm" target="_blank" class="news-link">GDC 调查显示 52% 游戏开发者认为生成式 AI 对行业发展有害</a> [19] <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0cc3-e2ef-7bbd-9aeb-3fa33215871c" target="_blank" class="news-link">&lt;b&gt;SHANGHAI&#x27;S MOST ACTIVE TIN FUTURES PLUNGES 10% INTRADAY&lt;/b&gt;</a> [20] <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0cc1-16a8-7bbd-9aeb-1ec447a6d04e" target="_blank" class="news-link">CHINA&#x27;S MOST ACTIVE LITHIUM CARBONATE FUTURES HITS DAILY LIMIT, DOWN 11% AT 148,200 YUAN/TON</a> [24] <font color='grey'>- 12时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c0cc0-285c-7bbd-9aeb-0d8e0a40be03" target="_blank" class="news-link">SHANGHAI COMPOSITE INDEX DOWN OVER 2%, CHINEXT INDEX DOWN OVER 1%</a> [26] <font color='grey'>- 12时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46786672" target="_blank" class="news-link">CISA’s acting head uploaded sensitive files into public version of ChatGPT</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83429" target="_blank" class="news-link">Google 查封 IPIDEA 域名</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
