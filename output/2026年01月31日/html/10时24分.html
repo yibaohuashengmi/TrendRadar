@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 244</p><p>生成时间: 2026-01-31 10:24:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">4.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1189697" target="_blank" class="news-link">aistudio 免费的 gemini3 pro 配额是不是调整了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时24分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46832074" target="_blank" class="news-link">Show HN: I trained a 9M speech model to fix my Mandarin tones</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时24分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.donga.com/cn/article/all/20260131/6084781/1" target="_blank" class="news-link">这一次，美中将爆发人工智能太空战</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时24分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46831702" target="_blank" class="news-link">The $100B Megadeal Between OpenAI and Nvidia Is on Ice</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3047621" target="_blank" class="news-link">英伟达与OpenAI千亿美元合作交易陷入停滞</a> [11] <font color='grey'>- 10时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/019.htm" target="_blank" class="news-link">强推 AI 遭反噬，消息称微软急刹车重塑 Win11 体验</a> [13] <font color='grey'>- 10时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/015.htm" target="_blank" class="news-link">摩根大通：苹果 iPhone 17 系列全球卖爆，AI 增强版 Siri 助推销量攀新高峰</a> [17] <font color='grey'>- 10时24分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46776459" target="_blank" class="news-link">Roots is a game server daemon that manages Docker containers for game servers</a> [17] <font color='grey'>- 10时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/014.htm" target="_blank" class="news-link">古尔曼：苹果拒绝被 Anthropic 宰，AI 重塑 Siri 转投谷歌怀抱</a> [18] <font color='grey'>- 10时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/012.htm" target="_blank" class="news-link">英国智库 IPPR 呼吁：应为 AI 生成新闻贴上“营养成分表”标明信息出处</a> [20] <font color='grey'>- 10时24分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46831784" target="_blank" class="news-link">175K+ publicly-exposed Ollama AI instances discovered</a> [21] <font color='grey'>- 10时24分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7600764857769328690" target="_blank" class="news-link">目前最火的 AI 助手 Clawdbot 又又又改名了 并且发布新版本</a> [30] <font color='grey'>- 10时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/016.htm" target="_blank" class="news-link">科技昨夜今晨 0131：小鹏 2025 年交付翻倍；苹果 iPhone 17 等在中国卖爆；曝阿里千问 App 加入春节红包大战...</a> [16] <font color='grey'>- 10时24分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/637182021.html" target="_blank" class="news-link">你认为腾讯和阿里巴巴这两个庞然大物，谁会先消失在历史的长河之中？</a> [28] <font color='grey'>- 10时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/029.htm" target="_blank" class="news-link">谷歌发布最新版本统计数据：安卓 16 装机率已达 7.5%，Android 15 仍居榜首</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
