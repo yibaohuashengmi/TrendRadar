@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 168</p><p>生成时间: 2026-02-02 18:53:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">8.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/02/02/3c2e753b9f724d4eb6a170124b0ecc2e.html" target="_blank" class="news-link">马斯克修改公司使命愿景 特斯拉将转型为人工智能企业</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1190216" target="_blank" class="news-link">花了一个月做了个 AI 视频生成网站 Veevid AI，有需要的朋友可以来体验下</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.bbc.com/zhongwen/articles/ce8re42xddpo/simp" target="_blank" class="news-link">AI劣质内容正在重塑社交媒体，且正遭遇反噬</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260202183736296800" target="_blank" class="news-link">卡塔尔能源首席执行官：如果欧洲对液化天然气的需求、数据中心和人工智能发展一切顺利，到2030年液化天然气将出现短缺，而非供应过剩。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1ddc-eddf-7553-a539-625ca8029364" target="_blank" class="news-link">HYUNDAI MOTOR INDIA EXEC: SEEING SURGE IN COMMODITY PRICES OF PRECIOUS METALS, COPPER, ALUMINIUM</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3048300" target="_blank" class="news-link">北京大学与中国铁塔合作 推动AI产教融合</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1dc2-ef12-7553-a539-3fb49fc555cf" target="_blank" class="news-link">KREMLIN SAYS IT WILL NOT PROVIDE DETAILS ON LAST ROUND OF TALKS BETWEEN RUSSIAN SPECIAL ENVOY DMITRIEV AND U.S. OFFICIALS</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1dc2-c2df-7553-a539-2fa6e3974225" target="_blank" class="news-link">&lt;b&gt;KREMLIN SAYS NEXT ROUND OF TRILATERAL SECURITY TALKS ON UKRAINE WILL TAKE PLACE IN ABU DHABI ON WEDNESDAY AND THURSDAY THIS WEEK&lt;/b&gt;</a> [12] <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1dc2-b4cf-7553-a539-22510086ec4f" target="_blank" class="news-link">KREMLIN SAYS UKRAINE SECURITY TALKS PLANNED FOR SUNDAY IN ABU DHABI DID NOT TAKE PLACE DUE TO SCHEDULING REASONS</a> [13] <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1dc2-a46e-7553-a539-19a1d8619566" target="_blank" class="news-link">KREMLIN SAYS RUSSIA AND UKRAINE HAVE NARROWED THEIR DIFFERENCES ON SOME ISSUES BUT NOT ON OTHER MORE COMPLEX ISSUES</a> [14] <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1dbc-4ae5-7553-a539-1273686074c9" target="_blank" class="news-link">S&amp;P GLOBAL RATINGS: TRADE AGREEMENT WITH U.S. SHOULD REDUCE UNCERTAINTY AND ENHANCE CONFIDENCE, WHICH WOULD BOOST LABOR-INTENSIVE SECTORS FOR INDIA</a> [15] <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3048290" target="_blank" class="news-link">多平台公布涉“AI魔改”违规视频最终处置结果</a> [16] <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1db7-c624-7553-a539-00219d3215c5" target="_blank" class="news-link">SHANGHAI LAUNCHES SUBSTANTIAL PURCHASE OF EXISTING HOMES FOR AFFORDABLE RENTAL HOUSING</a> [17] <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7602143575987785257/" target="_blank" class="news-link">腾讯打响AI社交第一枪</a> [22] <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7601355703240917032" target="_blank" class="news-link">Openclaw（Clawbot）+Kimi K 2.5 部署+飞书使用手把手教程：让AI接管所有，24小时不停机</a> [29] <font color='grey'>- 18时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764745" target="_blank" class="news-link">台积电2nm产能告急：苹果包揽首批，AMD谷歌排队，英伟达已瞄准1.6nm</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/558.htm" target="_blank" class="news-link">消息称某 Top5 厂高端旗舰延续双层 OLED+BT.2020、率先商用新一代 OLED，预计为华为 Mate 90 系列</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时53分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
