@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 213</p><p>生成时间: 2026-02-03 07:33:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">11.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46862170" target="_blank" class="news-link">xAI joins SpaceX</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2095-10e3-7553-a53f-8af0af4d29dc" target="_blank" class="news-link">Altman Rejects Reports OpenAI Is Moving Away From Nvidia on Twitter</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764782" target="_blank" class="news-link">报道称OpenAI对英伟达最新一些AI芯片不满意，Altman隔空反驳</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/606.htm" target="_blank" class="news-link">OpenAI CEO 奥尔特曼发声：英伟达 AI 芯片世界最棒，希望长期成为其大客户</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3764778" target="_blank" class="news-link">谷歌的“隐形大招”不仅让游戏产业跪了 OpenAI、英伟达和Meta都夜不能寐</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/604.htm" target="_blank" class="news-link">OpenAI 推出 macOS 版 Codex 应用：整合智能体化开发逻辑，剑指 Claude Code 用户</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3048580" target="_blank" class="news-link">英伟达美股盘后涨幅扩大至0.8%，OpenAI的CEO Altman“驳斥”媒体关于该公司对英伟达供应速度不满的报道。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/603.htm" target="_blank" class="news-link">马斯克的 SpaceX 正式收购马斯克的 xAI，计划在太空建造数据中心</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3048579" target="_blank" class="news-link">OpenAI在美国法庭指责马斯克旗下xAI涉嫌销毁证据。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764779" target="_blank" class="news-link">马斯克旗下太空探索公司SpaceX在备忘录中确认：与xAI合并</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46858873" target="_blank" class="news-link">Advancing AI Benchmarking with Game Arena</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2054-ed78-7553-a53f-4b6fdbd6a8f2" target="_blank" class="news-link">SPACEX: SPACEX HAS ACQUIRED XAI</a> [11] <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3048577" target="_blank" class="news-link">OpenAI的CEO Altman：英伟达制造全球最好的人工智能（AI）芯片。 希望在很长的时期内成为“超级大客户”（Gigantic customer）。</a> [11]</div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46858577" target="_blank" class="news-link">Todd C. Miller – Sudo maintainer for over 30 years</a> [11] <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260203063954637800" target="_blank" class="news-link">OpenAI创始人奥尔特曼：我们很乐意与英伟达(NVDA.O)合作，他们生产的AI芯片是全球最出色的。我们希望能长期成为他们的大客户。</a> [15] <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2051-151f-7553-a53f-1beabc0031eb" target="_blank" class="news-link">XAI JOINS SPACEX TO ACCELERATE HUMANITY’S FUTURE - STATEMENT</a> [17] <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2050-ec1c-7553-a53f-09bb4cc5e704" target="_blank" class="news-link">TRUMP: DOING VERY WELL WITH RUSSIA-UKRAINE TALKS</a> [19] <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46860964" target="_blank" class="news-link">Nvidia shares are down after report that its OpenAI investment stalled</a> [19] <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46859118" target="_blank" class="news-link">EPA Advances Farmers&#x27; Right to Repair</a> [22] <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c204c-e66d-7553-a53e-e8b9e378981b" target="_blank" class="news-link">TRUMP: INVESTIGATION INTO FED CHAIR POWELL SHOULD BE TAKEN TO THE END</a> [23]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c204c-c5ff-7553-a53e-e0085c2d65e5" target="_blank" class="news-link">SPACEX CFO BRET JOHNSEN WAS SCHEDULED TO HOLD A CALL WITH INVESTORS AT 5 PM EST ON MONDAY TO DISCUSS CO’S ACQUISITION OF XAI - THE INFORMATION</a> [24] <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c204c-6f48-7553-a53e-d60aa69ae77c" target="_blank" class="news-link">TRUMP: FED CHAIR NOMINEE WILL DO GOOD</a> [26] <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46859438" target="_blank" class="news-link">Parking lots as economic drains</a> [29] <font color='grey'>- 07时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3048556" target="_blank" class="news-link">SpaceX与xAI关于合并的声明并不包含财务条款。（彭博）</a> [30] <font color='grey'>- 07时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
