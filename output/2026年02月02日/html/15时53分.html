@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2026-02-02 15:53:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">20</td>
+                <td class="percentage">7.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/0263818.html" target="_blank" class="news-link">中国AI应用春节红包大战 阿里宣称“投入30亿人民币”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1d42-a286-7553-a537-911bf91375f1" target="_blank" class="news-link">Real Retail Sales (YoY) (Dec)</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/478.htm" target="_blank" class="news-link">蚂蚁 CEO 韩歆毅发布内部信：拒绝小胜即安，推动业务和组织“全面 AI 化”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83412" target="_blank" class="news-link">探索AI与GPU开发的无限可能，加入 NVIDIA 开发者计划，开启你的加速之旅！</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/da8d14353f054af5a26d7a9070988284" target="_blank" class="news-link">字节-AIDP部门 前端实习一面1.29</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1d35-cb94-7553-a537-6e55c0605e01" target="_blank" class="news-link">AIRBUS SE: CIVIL AVIATION AUTHORITY OF SINGAPORE (CAAS), CFM INTERNATIONAL AND AIRBUS SIGNED A MEMORANDUM OF UNDERSTANDING (MOU)</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1190129" target="_blank" class="news-link">装了 JetBrain Mono 字体后 V2EX 网站自动适配了, 然后就是各种超宽和超高, 改回 Segoe UI 了</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1190118" target="_blank" class="news-link">26 年一月份复盘 「AI 实践」与「自媒体」</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1d28-c2e9-7553-a537-4f169628ad89" target="_blank" class="news-link">AT CLOSE, SHANGHAI COMPOSITE -2.48%, SZSE COMPOSITE -2.69%, CHINEXT -2.46%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1d28-22ae-7553-a537-449083dea28a" target="_blank" class="news-link">Retail Sales (YoY) (Dec)</a> [11] <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5162557" target="_blank" class="news-link">汉仪股份(301270.SZ)：WorkMagic是一款基于生成式AI智能驱动的营销SaaS平台</a> [12] <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260202152127038800" target="_blank" class="news-link">新加坡制造业谨慎乐观 AI浪潮助推半导体行业领跑</a> [13] <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1d26-b9bc-7553-a537-2ef42aa2c19b" target="_blank" class="news-link">Retail Sales (MoM) (Dec)</a> [14] <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1d23-6a00-7553-a537-26fbad1a763b" target="_blank" class="news-link">TURKEY&#x27;S MAIN BANKING DOWN 2.45% AT EARLY TRADING&lt;br/&gt;&lt;br/&gt;TURKEY&#x27;S MAIN BIST 100 INDEX DOWN 1.7% AT EARLY TRADING</a> [15] <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1d20-7315-7553-a537-1e4d73631536" target="_blank" class="news-link">&lt;b&gt;BAIDU DOWN OVER 5%&lt;/b&gt;</a> [16] <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1d1c-080c-7bbd-9b00-b9862ed4b5d5" target="_blank" class="news-link">MORGAN STANLEY RAISES STMICROELECTRONICS TARGET PRICE TO EUR 24 FROM EUR 22</a> [18]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1d17-f2ca-7bbd-9b00-a35e25bc683a" target="_blank" class="news-link">MOST ACTIVE SHANGHAI STAINLESS STEEL CONTRACT FALLS 7% TO 13,425 YUAN/METRIC TON</a> [21] <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/446.htm" target="_blank" class="news-link">联想 AI 平板小新 Pro 13 官宣：配备手写笔，3 月亮相</a> [26] <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1d10-0c64-7bbd-9b00-6ed62c793da0" target="_blank" class="news-link">HYUNDAI MOTOR: JAN GLOBAL SALES 307,699 VEHICLES, DOWN 1% FROM YEAR EARLIER</a> [28] <font color='grey'>- 15时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1d0e-8a66-7bbd-9b00-63b743be43bd" target="_blank" class="news-link">SEOUL STOCK MARKET&#x27;S KOSPI ENDS DOWN 5.26%, BIGGEST DAILY FALL SINCE APRIL 7, 2025</a> [29] <font color='grey'>- 15时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/462.htm" target="_blank" class="news-link">谷歌躲过 23.6 亿美元“隐私罚款”，法官驳回用户索赔</a> [15] <font color='grey'>- 15时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/465.htm" target="_blank" class="news-link">华为乾崑 | 启境首款猎装轿跑动态视频发布，新车已启动雪地测试</a> [12] <font color='grey'>- 15时53分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
