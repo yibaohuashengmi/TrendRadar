@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 183</p><p>生成时间: 2026-02-02 16:52:07</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">6.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1d6f-d48e-7553-a538-20b804ecae16" target="_blank" class="news-link">BYD&#x27;S HONG KONG-LISTED STOCK LOGS WORST DAILY PERCENTAGE DROP IN EIGHT MONTHS</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3048226" target="_blank" class="news-link">微软两日蒸发3810亿美元市值 揭示人工智能投资浪潮开始分化</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764743" target="_blank" class="news-link">OpenAI、Anthropic、谷歌“三国杀”，微软“闷声发财”丨a16z最新报告</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/491.htm" target="_blank" class="news-link">快手将对“AI 魔改”视频展开常态化治理</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1d66-7a12-7553-a537-fccc6327a102" target="_blank" class="news-link">EUROPE&#x27;S BASIC RESOURCES INDEX DOWN 3.3%, SET FOR BIGGEST DAILY DROP IN NEARLY 10 MONTHS</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1d58-a1b0-7553-a537-c1d65bf1b384" target="_blank" class="news-link">TURKEY&#x27;S MAIN BANKING INDEX EXTENDS LOSSES, DOWN 4%&lt;br/&gt;&lt;br/&gt;TURKEY&#x27;S MAIN BIST 100 INDEX EXTENDS LOSSES, DOWN %3</a> [14] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3048203" target="_blank" class="news-link">快手将对“AI魔改”视频展开常态化治理</a> [14] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c1d51-9693-7553-a537-abe3387f293b" target="_blank" class="news-link">TURKEY RAISES LOWER PRICE LIMITS ON SOME GOLD, SILVER FUNDS</a> [17] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/66a04213dd194e489c667de572cae508" target="_blank" class="news-link">OpenAI 宣布ChatGPT4o 2月份即将下架</a> [18] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/f501870237cd4a95aa7083b6acc9f7ad" target="_blank" class="news-link">OpenAI请把我的4o还给我</a> [19] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3048193" target="_blank" class="news-link">蚂蚁CEO发布内部信，加大对AI“开创性贡献”激励力度</a> [22] <font color='grey'>- 16时52分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7601069677567393838" target="_blank" class="news-link">OpenClaw（原 Clawdbot）钉钉对接保姆级教程 手把手教你打造自己的 AI 助手</a> [28] <font color='grey'>- 16时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1190181" target="_blank" class="news-link">实测体验： Claude Code + GLM-4.7 一个月使用汇报</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%83%E9%97%AE%E5%AE%A3%E5%B8%83%E6%98%A5%E8%8A%8230%E4%BA%BF%E5%85%8D%E5%8D%95%E5%90%83%E5%96%9D%E7%8E%A9%E4%B9%90%23&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">千问宣布春节30亿免单吃喝玩乐</a> [15] <font color='grey'>- 16时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
