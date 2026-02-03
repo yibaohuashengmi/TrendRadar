@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 320</p><p>生成时间: 2026-02-03 12:50:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">7.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c21c7-110b-7553-a543-6b53eb67ad7b" target="_blank" class="news-link">INDIA OFFICIAL: INDIA’S COMMITTMENT TO BUY US GOODS UNDER DEAL INCLUDES PETROLEUM, DEFENCE, ELECTRONICS, PHARMA, TELECOM PRODUCTS, AIRCRAFT&lt;br/&gt;&lt;br/&gt;INDIA OFFICIAL TRADE DEAL WITH US ADDRESSES WASHINGTON ASKS TO CUT HIGH INDIAN TARIFFS ON SECTORS LIKE AUTO&lt;br/&gt;&lt;br/&gt;INDIA OFFICIAL: TRADE DEAL WITH US INCLUDES SOME AGRICULTURE PRODUCTS&lt;br/&gt;&lt;br/&gt;INDIA OFFICIAL : TALKS FOR A MORE COMPREHENSIVE DEAL WITH MORE SECTORS TO CONTINUE</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/847995166416703488" target="_blank" class="news-link">AI 应用开发学习全景路线图</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c21c3-6c39-7553-a543-596f68a48371" target="_blank" class="news-link">CHINA&#x27;S MONTAGE TECHNOLOGY TO PRICE HONG KONG LISTING AT TOP OF RANGE AT HK$106.89 EACH, RAISING AS MUCH AS $902 MILLION, SOURCES SAY</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1190326" target="_blank" class="news-link">肝了大半年，我用 Next.js + Yjs 撸了一个类 Notion 的全栈 AI 协作编辑器 😍😍😍</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958537" target="_blank" class="news-link">看看老黄的表情，对OpenAI真不太满意？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5163267" target="_blank" class="news-link">SpaceX收购xAI，商业航天概念爆发，航空航天ETF、航天ETF、通用航空ETF、航空ETF大涨</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/847955278841511936" target="_blank" class="news-link">面试官视角聊聊，AI大模型产品到底是做什么的？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c21a4-1fab-7553-a543-125729bb04ca" target="_blank" class="news-link">URUGUAY&#x27;S ORSI TO CHINA&#x27;S XI: MUST CONTINUE TO DEEPEN COOPERATION IN SCIENCE AND TECHNOLOGY, CONNECTIVITY, AND SUSTAINABLE DEVELOPMENT, GREEN ECONOMY - POOL REPORT</a> [12]</div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5163257" target="_blank" class="news-link">SpaceX将与xAI合并！航空航天ETF天弘（159241）标的指数跳涨近5%</a> [14] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%A7%A3%E8%AF%BBSpaceX%E6%94%B6%E8%B4%ADxAI" target="_blank" class="news-link">解读SpaceX收购xAI</a> [14] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2001947312226848988" target="_blank" class="news-link">SpaceX 收购人工智能企业 xAI，合并估值达 1.25 万亿美元，同为马斯克旗下公司，如何解读？</a> [14] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/678.htm" target="_blank" class="news-link">阿里千问 App 宣布冠名“四大卫视”春晚，并以 AI 形式参演节目</a> [14] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7602073088429162511" target="_blank" class="news-link">肝了大半年，我用 Next.js + Yjs 撸了一个类 Notion 的全栈 AI 协作编辑器 😍😍😍</a> [14] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c21a3-4c82-7553-a542-f6f5c7c57502" target="_blank" class="news-link">URUGUAY&#x27;S ORSI TO CHINA&#x27;S XI: COMPREHENSIVE STRATEGIC PARTNERSHIP AT ITS BEST MOMENT, SHOULD COMMIT TO RAISING IT TO A NEW LEVEL - POOL REPORT</a> [16]</div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/847807798690713600" target="_blank" class="news-link">如何用AI快速制作Web版Galgame</a> [16] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c21a2-df0d-7553-a542-ed1524ae4056" target="_blank" class="news-link">SoftBank&#x27;s Saimemory Partners with Intel to Develop Next-Gen Memory for AI</a> [17] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7602226721282457650/" target="_blank" class="news-link">又一位AI亿万富豪诞生了</a> [19] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46865275" target="_blank" class="news-link">Banning lead in gas worked. The proof is in our hair</a> [23] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c218e-147b-7553-a542-b5b6d3286579" target="_blank" class="news-link">&lt;b&gt;RESERVE BANK OF AUSTRALIA SETS CASH RATE AT 3.85%&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;RBA RAISES NEAR-TERM GDP GROWTH FORECASTS, CUTS GROWTH FORECASTS FOR 2027&lt;br/&gt;&lt;br/&gt;RBA: SEES CPI INFLATION 4.2% Q2, 3.6% Q4 , 2.7% Q4 2027, 2.6% Q2 2028&lt;br/&gt;&lt;br/&gt;RBA: GLOBAL ECONOMIC GROWTH BETTER THAN EXPECTED IN 2025, DOWNSIDE RISKS HAVE LESSENED&lt;br/&gt;&lt;br/&gt;RBA: INFLATION IN Q4 WAS &quot;MATERIALLY HIGHER&quot; THAN EXPECTED, PARTLY DUE TO LESS PERSISTENT FACTORS&lt;br/&gt;&lt;br/&gt;RBA: SEES UNEMPLOYMENT RATE 4.3% Q4 2026, 4.5% Q4 2027, 4.6% Q2 2028&lt;br/&gt;&lt;br/&gt;RBA: FORECASTS BASED ON ASSUMPTION OF 3.9% CASH RATE BY JUNE, 4.2% BY DECEMBER&lt;br/&gt;&lt;br/&gt;RBA: ASSUMED RISE IN CASH RATE EXPECTED TO RESTORE BALANCE BETWEEN DEMAND AND SUPPLY&lt;br/&gt;&lt;br/&gt;RBA: SEES TRIMMED MEAN INFLATION 3.7% Q2, 3.2% Q4, 2.7% Q4 2027, 2.6% Q2 2028&lt;br/&gt;&lt;br/&gt;RBA: SOME INDICATORS SUGGEST FINANCIAL CONDITIONS MAY NOW BE &quot;SOMEHAT ACCOMMODATIVE&quot;&lt;br/&gt;&lt;br/&gt;RBA: RAISES FORECASTS FOR GOVERNMENT SPENDING AND DWELLING INVESTMENT</a> [24] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/665.htm" target="_blank" class="news-link">盖世小鸡推出 G7 Pro 8K PC 手柄：8000Hz 回报率，Aimlabs 联名</a> [25] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260203121309957800" target="_blank" class="news-link">AI只是在“省钱”而非“造饭碗”，蓝领岗位增长或跑赢科技浪潮</a> [26] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/664.htm" target="_blank" class="news-link">AI 播客让游戏角色为你播报专属新闻和攻略，索尼新专利曝光</a> [26] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3048772" target="_blank" class="news-link">软银公司宣布，其子公司SaiMemory将与英特尔展开合作，共同推动下一代存储技术的商业化。 该项目计划在2028年3月31日止的财年内（即2027财年）制造出原型产品；并目标在2029财年实现正式商业化。</a> [30]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260203115849071800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2026-02-03）</a> [30] <font color='grey'>- 12时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/669.htm" target="_blank" class="news-link">春节前再来一更：华为鸿蒙 HarmonyOS 6.0.0.130 SP15 版本推送，优化部分游戏场景操作流畅体验</a> [22] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/658.htm" target="_blank" class="news-link">小蓝灯点亮：华为乾崑与阿维塔战略合作 2.0 车型“阿维塔 06T”实车视频发布</a> [30] <font color='grey'>- 12时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> [12] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/660.htm" target="_blank" class="news-link">内存芯片助力，韩国双雄三星、SK 海力士总市值首超阿里、腾讯</a> [28] <font color='grey'>- 12时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764813" target="_blank" class="news-link">暴跌24%是错杀？谷歌Genie 3引发游戏股崩盘，高盛、德银都认为市场反应过度了</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
