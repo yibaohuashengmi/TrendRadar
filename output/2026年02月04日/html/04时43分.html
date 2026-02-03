@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 84</p><p>生成时间: 2026-02-04 04:43:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">19.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c253b-43ef-7553-a54e-de730c9fbced" target="_blank" class="news-link">OPENAI ON CHATGPT ISSUES: WE ARE WORKING ON IMPLEMENTING A MITIGATION</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2537-6f4d-7553-a54e-d165ff0c2a22" target="_blank" class="news-link">USER REPORTS INDICATE PROBLEMS AT OPENAI - DOWNDETECTOR</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049304" target="_blank" class="news-link">印度官员Jaishankar：2月3日在华盛顿特区会见美国财政部长贝森特。 讨论美国经济合作伙伴关系与协同。</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049303" target="_blank" class="news-link">CenterView高管Blair Effron：在（并购/M&amp;A）交易方面，我们的确面临大量的尾部风险。 经济、受抑的需求、监管都帮助推进并购。</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2526-eb82-7553-a54e-a6451dc73b2c" target="_blank" class="news-link">&lt;b&gt;EXTERNAL AFFAIRS MINISTER OF INDIA JAISHANKAR: MET US TREASURY SECRETARY SCOTT BESSENT IN WASHINGTON DC TODAY&lt;/b&gt;</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 04时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049302" target="_blank" class="news-link">黄仁勋：英伟达希望参与OpenAI的IPO</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 04时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c251f-8725-7553-a54e-9c47145b0f97" target="_blank" class="news-link">PENTAGON: STATE DEPT APPROVES POTENTIAL SALE OF F-15 SUSTAINMENT AND RELATED EQUIPMENT TO SAUDI ARABIA FOR $3 BILLION</a> <font color='red'><strong>[9]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c250e-509f-7553-a54e-8053a1340279" target="_blank" class="news-link">&lt;b&gt;X: &quot;ALLEGATIONS UNDERLYING TODAY’S RAID ARE BASELESS AND X CATEGORICALLY DENIES ANY WRONGDOING&quot; - X POST&lt;/b&gt;</a> [12] <font color='grey'>- 04时43分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46876047" target="_blank" class="news-link">China Moon Mission: Aiming for 2030 Lunar Landing</a> [12] <font color='grey'>- 04时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c250d-e68d-7553-a54e-743e506e34e1" target="_blank" class="news-link">&lt;b&gt;X: FRENCH JUDICIAL AUTHORITIES RAIDED X’S PARIS OFFICE TODAY- STATEMENT&lt;/b&gt;</a> [14] <font color='grey'>- 04时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2509-a1d2-7553-a54e-6d3fa92043e9" target="_blank" class="news-link">Nvidia CEO Jensen Huang Confirms OpenAI Investment Plans Amid Rumor Surge</a> [15] <font color='grey'>- 04时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2505-5823-7553-a54e-6526be1a7f6d" target="_blank" class="news-link">&lt;b&gt;IRAN&#x27;S FARS NEWS AGENCY SAYS THAT AN IRANIAN DRONE COMPLETED A &#x27;SURVEILLANCE MISSION IN INTERNATIONAL WATERS&#x27; AFTER U.S. MILITARY SAID IT SHOT DOWN AN IRANIAN DRONE&lt;/b&gt;</a> [16] <font color='grey'>- 04时43分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46874139" target="_blank" class="news-link">Sandboxing AI Agents in Linux</a> [17] <font color='grey'>- 04时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260204033430684800" target="_blank" class="news-link">英伟达CEO黄仁勋：英伟达(NVDA.O)将投资于OpenAI的下一轮（融资），公司希望参与未来OpenAI的IPO。</a> [24] <font color='grey'>- 04时43分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46872894" target="_blank" class="news-link">X offices raided in France</a> [24] <font color='grey'>- 04时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260204033311635800" target="_blank" class="news-link">OpenAI拟运用AI助力药企研发并从中获利</a> [25] <font color='grey'>- 04时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOG" target="_blank" class="news-link">谷歌C</a> [24] <font color='grey'>- 04时43分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
