@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 155</p><p>生成时间: 2026-02-04 01:31:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">5.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2478-1585-7553-a54c-47d8e2c9c0d3" target="_blank" class="news-link">GOOGLE: GENERAL AVAILABILITY OF UNIFIED MAINTENANCE, CENTRALIZED DASHBOARD TO VIEW &amp; MANAGE MAINTENANCE EVENTS ACROSS GOOGLE CLOUD SERVICES - BLOG</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049251" target="_blank" class="news-link">OpenAI的CEO Altman：Codex首次让我感觉到另外一个ChatGPT时刻。 在安全与数据接入权限方面的平衡限制AI。</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260204005442869800" target="_blank" class="news-link">城堡投资创始人格里芬：人工智能不会成为本次选举的主要议题。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2464-13f2-7553-a54c-16b40580c7fe" target="_blank" class="news-link">GRIFFIN SAYS AI WON&#x27;T BE A MAJOR ELECTION ISSUE THIS CYCLE</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c245d-c90e-7553-a54b-d106016aa900" target="_blank" class="news-link">COMEX GOLD RECLAIMS $5,000/OZ, LAST UP 7.43%</a> [15] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/847913855530307584" target="_blank" class="news-link">AI生成2D跳跃跑酷游戏｜开发全流程总结帖</a> [20] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2456-3025-7553-a54b-9de34cec2aa2" target="_blank" class="news-link">GRIFFIN SAYS OF FED CHAIR WARSH: I APPLAUD CHOOSING SOMEONE WHO HAS THE RESPECT OF THE MARKET</a> [22] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049227" target="_blank" class="news-link">达索系统与英伟达构建合作伙伴关系，将打造工业AI平台。 将为跨行业的AI打造架构。 达索系统的OutScale AI Factories将应用英伟达的基础设施。</a> [23]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c244d-3dc3-7553-a54b-5b81ceb6d7b9" target="_blank" class="news-link">META PARTNERS WITH THE NIGERIA DATA PROTECTION COMMISSION TO LAUNCH A PRIVACY EDUCATION CAMPAIGN IN NIGERIA</a> [30] <font color='grey'>- 01时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">1.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46872706" target="_blank" class="news-link">Qwen3-Coder-Next</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049245" target="_blank" class="news-link">阿里千问推出Qwen3-Coder-Next，一款专为编程智能体与本地开发设计的开源权重语言模型。 该模型基于 Qwen3-Next-80B-A3B-Base 构建，采用混合注意力与 MoE 的新架构。 通过大规模可执行任务合成、环境交互与强化学习进行智能体训练，在显著降低推理成本的同时，获得了强大的编程与智能体能力。</a> <font color='red'><strong>[8]</strong></font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3764858" target="_blank" class="news-link">120倍回报、千亿美元浮盈，SpaceX上市的隐藏大赢家——谷歌！</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
