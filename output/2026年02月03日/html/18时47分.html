@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 219</p><p>生成时间: 2026-02-03 18:47:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">5.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/openai/skills" target="_blank" class="news-link">openai / skills</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764845" target="_blank" class="news-link">首款国产全功能GPU+大模型！摩尔线程AI Coding Plan上线</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c230b-6711-7553-a548-8036be93517a" target="_blank" class="news-link">CHINA TO MAINTAIN PRICES OF MAJOR AGRICULTURAL PRODUCTS AT REASONABLE LEVELS - XINHUA</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/858.htm" target="_blank" class="news-link">摩尔线程推出首个全栈国产 AI 编程服务，可免费体验 30 天</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c230b-12bc-7553-a548-7965dbbb96f3" target="_blank" class="news-link">CHINA TO ENCOURAGE LOCAL AUTHORITIES TO LAUNCH PILOT SUBSIDIZED LOAN PROGRAMS FOR GRAIN AND OIL CROP CULTIVATION - XINHUA</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2304-bf87-7553-a548-62223dbbbc0f" target="_blank" class="news-link">CHINA TO MAKE VARIOUS EFFORTS TO BOOST DAIRY PRODUCT CONSUMPTION - XINHUA</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时47分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/vm0-ai/vm0" target="_blank" class="news-link">vm0-ai / vm0</a> [11]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2303-33f2-7553-a548-451e29174a78" target="_blank" class="news-link">CHINA TO CONSOLIDATE THE RELIEF RESULTS OF THE BEEF CATTLE AND DAIRY CATTLE INDUSTRIES- XINHUA</a> [14] <font color='grey'>- 18时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049050" target="_blank" class="news-link">中央一号文件：促进人工智能与农业发展相结合，拓展无人机、物联网、机器人等应用场景，加快农业生物制造关键技术创新</a> [15] <font color='grey'>- 18时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260203181313892800" target="_blank" class="news-link">汇丰：AI投资收益更利好股票而非信贷</a> [17] <font color='grey'>- 18时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c22f1-8e47-7553-a547-ede1fe016f99" target="_blank" class="news-link">CHINA-URUGUAY JOINT DECLARATION: AGREE TO COOPERATE IN ENERGY, FOOD SECURITY, AI, DIGITAL ECONOMY, INFRASTRUCTURE, LOGISTICS AND MARITIME SHIPPING- CHINESE STATE MEDIA</a> [25]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c22ee-974a-7553-a547-e5d6c388e789" target="_blank" class="news-link">SHARES OF SPACE COMPANIES UP PREMARKET AFTER SPACEX ACQUIRES XAI IN RECORD-SETTING DEAL</a> [26] <font color='grey'>- 18时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46868565" target="_blank" class="news-link">Claude Sonnet 5 Is Imminent – and It Could Be a Generation Ahead of Google</a> [13] <font color='grey'>- 18时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1190498" target="_blank" class="news-link">chatGPT 可以免费订阅使用一个月</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7601933639319961626/" target="_blank" class="news-link">阿里纳斯：切特不应进全明星</a> [27] <font color='grey'>- 18时47分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
