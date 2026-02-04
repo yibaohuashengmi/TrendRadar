@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 156</p><p>生成时间: 2026-02-04 13:33:18</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">7.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764905" target="_blank" class="news-link">美国AI聊天机器人大战：ChatGPT份额从69.1%跌至45.3%，Gemini从14.7%升至25.1%，Grok从1.6%升至15.2%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202602/0463959.html" target="_blank" class="news-link">英媒：受美国安全审查影响 英伟达对华AI晶片销售停滞</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764914" target="_blank" class="news-link">马斯克超级综合体：SpaceX+xAI……+特斯拉？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/919/075.htm" target="_blank" class="news-link">被微信封杀链接后，腾讯元宝 AI 红包分享已更改为“口令红包”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260204131636619800" target="_blank" class="news-link">OpenAI：GPT-5.2/Codex模型的速度已提升40%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2700-8403-7553-a553-b34ddaf8c5c6" target="_blank" class="news-link">ZHIPU AI: HYBRID REASONING MODEL GLM-4.7-FLASH HITS OVER 1 MILLION DOWNLOADS ON HUGGING FACE TWO WEEKS AFTER RELEASE</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2002302871203440223" target="_blank" class="news-link">美股爆发 AI 恐慌性抛售，英伟达市值一夜蒸发超 8000 亿元，发生了什么？如何解读？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c26ea-2083-7553-a553-99399e92b042" target="_blank" class="news-link">Sources: Musk Teams Explore China PV Supply Chain; Heterojunction Equipment Orders Confirmed</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2279757" target="_blank" class="news-link">中央一号文件促进AI与农业发展相结合 AI赋能种植链前景可期</a> [13] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c26d9-b8b5-7553-a553-7270d42d6a72" target="_blank" class="news-link">AIRBUS SE: TIGERAIR TAIWAN ORDERS FOUR AIRBUS A321NEO</a> [15] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c26d8-8247-7553-a553-6fa4ea9873fe" target="_blank" class="news-link">JP MORGAN RAISES NXP SEMICONDUCTORS TARGET PRICE TO $250.00 FROM $245.00</a> [16] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1999445661884626109" target="_blank" class="news-link">最近刷屏的 AI 助手 ClawdBot，爆火的原因是什么？</a> [18] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/919/076.htm" target="_blank" class="news-link">现货将至：华为 Mate 80 Pro Max 手机官宣明天开启「30 天预约申购」</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> [23] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
