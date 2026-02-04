@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 225</p><p>生成时间: 2026-02-04 14:59:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">20</td>
+                <td class="percentage">8.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764918" target="_blank" class="news-link">OpenAI Codex再进化：推理速度提升40%，大幅削减编程延迟</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1190701" target="_blank" class="news-link">如何看待 AI 租赁人类的项目 rentahuman ai</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c275f-efba-7553-a554-a45b6866bb3c" target="_blank" class="news-link">INFINEON CEO: VERY DYNAMIC DEMAND FOR AI IS PROVIDING STRONG TAILWINDS&lt;br/&gt;&lt;br/&gt;INFINEON CEO: FOCUS IS ON POWER SUPPLY SOLUTIONS FOR AI DATA CENTERS</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260204/1069620484.html" target="_blank" class="news-link">媒体：英伟达对华H200人工智能芯片销售因美国安全审查而停滞</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764901" target="_blank" class="news-link">AI颠覆性冲击引发担忧，亚洲软件股跟随美股大跌，现货黄金站上5080美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2750-4ed4-7553-a554-8f4c58d09398" target="_blank" class="news-link">SEBI CHAIR: APPROACHING REGULATIONS ON EQUITY DERIVATIVES METHODICALLY, NO MEASURES IN WORKS</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3764901" target="_blank" class="news-link">AI颠覆性冲击引发担忧，亚洲软件股跟随美股大跌，现货黄金站上5080美元</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5167359" target="_blank" class="news-link">大行评级丨小摩：上调万国数据目标价至55美元，预期AI数据中心建设加速</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/919/112.htm" target="_blank" class="news-link">武汉将启动建设超大规模 AI 之城，到 2028 年相关产业规模超 2000 亿元</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c273f-0dfc-7553-a554-5ad4073c6c0d" target="_blank" class="news-link">SEBI CHAIR: REGULATOR TO ENGAGE WITH STAKEHOLDERS ON IMPLEMENTING BUDGET PROPOSALS FOR BOND MARKET&lt;br/&gt;&lt;br/&gt;SEBI CHAIR: DERIVATIVES ON CORPORATE BONDS WILL HELP INVESTORS IN RISK MANAGEMENT</a> [11] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2736-3973-7553-a554-494a267e796f" target="_blank" class="news-link">CHINESE PV FIRMS TCL ZHONGHUAN SURGES STRAIGHT TO LIMIT UP</a> [13] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2735-2528-7553-a554-3d8271826c56" target="_blank" class="news-link">INSIDERS SAY MUSK TEAM CONDUCTED SITE VISITS LAST WEEK TO CHINESE PV FIRMS INCLUDING TCL ZHONGHUAN, JINKOSOLAR, AND JINGGONG MECHANICAL &amp; ELECTRICAL – CAILIANPRESS</a> [15] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2734-7cb4-7553-a554-328de8e9f4cb" target="_blank" class="news-link">Moutai’s DTC Expansion Broadens Reach Without Denting Prices: Daiwa</a> [16] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2732-ffd1-7553-a554-2123b4f3197b" target="_blank" class="news-link">INDIA MARKET REGULATOR CHAIR: TO FUND OUR INFRASTRUCTURE PUSH, GREEN TRANSITION WE NEED STRONG BANKING SYSTEM COMPLEMENTED BY DEEP LIQUID BOND MARKET</a> [18] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c272f-b93b-7553-a554-1d54317c2fc7" target="_blank" class="news-link">UBS: NET NEW ASSET INFLOWS IN GLOBAL WEALTH MANAGEMENT FOR THE YEAR REACHED $101 BLN&lt;br/&gt;&lt;br/&gt;UBS: INTEND TO REPURCHASE $3 BLN OF SHARES IN 2026, WITH AIM TO DO MORE</a> [19] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/919/089.htm" target="_blank" class="news-link">Take-Two CEO 泽尔尼克回应股价下跌：我们正在积极拥抱生成式 AI</a> [19] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c272f-2cec-7553-a554-179fe9af7b34" target="_blank" class="news-link">UBS: Q4 CET1 CAPITAL RATIO 14.4% VS COMPANY-PROVIDED CONSENSUS FOR 14.4%&lt;br/&gt;&lt;br/&gt;UBS: SET 2028 NEW AMBITIONS WITH 18% RETURN ON CET1 CAPITAL AND 67% COST/INCOME RATION FOR GROUP&lt;br/&gt;&lt;br/&gt;UBS: REMAIN ON TRACK TO COMPLETE INTEGRATION BY YEAR-END, WITH GREATER PROPORTION OF NET SAVES WEIGHTED TO H2 2026&lt;br/&gt;&lt;br/&gt;UBS CEO: AS WE APPROACH END OF INTEGRATION, CONFIDENT IN ABILITY TO CAPTURE REMAINING SYNERGIES BY YEAR-END, WHICH WE INCREASED BY $500 MLN TO $13.5 BLN</a> [20] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2726-48fb-7553-a554-07e9bf5440ae" target="_blank" class="news-link">TAIWAN WEIGHTED INDEX CLOSES UP 94.45 POINTS, +0.29% AT 32,289.81</a> [22] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/919/082.htm" target="_blank" class="news-link">奥尔特曼：OpenAI 可能会投资 AI 制药企业，并从科研成果中获利</a> [22] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7602482736914169891" target="_blank" class="news-link">milkup：桌面端 Markdown AI 续写和即时渲染</a> [25] <font color='grey'>- 14时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/919/090.htm" target="_blank" class="news-link">让 Gemini 操控安卓手机，谷歌“屏幕自动化”功能细节曝光</a> [18] <font color='grey'>- 14时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/919/091.htm" target="_blank" class="news-link">曝 Top5 影像旗舰 2 亿大底单潜望镜基本确定：定制大光圈 + 长焦微距，预计为华为 Pura 90 系列</a> [17] <font color='grey'>- 14时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
