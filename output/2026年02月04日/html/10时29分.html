@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 377</p><p>生成时间: 2026-02-04 10:29:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">27</td>
+                <td class="percentage">7.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3764882" target="_blank" class="news-link">美股爆发AI恐慌！Anthropic新工具掀软件股抛售，路透盘中跌超20%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83472" target="_blank" class="news-link">中国少年班人才项目为 AI 竞争源源不断输送人才</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1190589" target="_blank" class="news-link">专为游戏人打造的 Open GDD：面向 AI Agent 的 Markdown GDD 模板（支持章节引用 + Git 协作</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3764752" target="_blank" class="news-link">软件股为何大跌？AI重构生态，产业逻辑或大规模颠覆，但并不是全部</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764899" target="_blank" class="news-link">“全年非常看多”！AMD电话会回应质疑：OpenAI 6GW订单“步入正轨”，MI450下半年将“大幅放量”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764890" target="_blank" class="news-link">1个月赚5万元又一天亏2万，演员赵佳欣晒基金收益：每天睡醒便钻研黄金、航天、半导体、AI</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1190561" target="_blank" class="news-link">我给 Claude Code 配置了智谱的 GLM4.7，为什么会自动使用 z.ai 提供的 MCP ？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2279758" target="_blank" class="news-link">美国政府本轮“停摆”结束 英伟达据称将投OpenAI 200亿 | 环球市场</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2659-e684-7553-a551-f3280032f7be" target="_blank" class="news-link">&lt;b&gt;KWEICHOW MOUTAI RISES NEARLY 2%, SHARES RECLAIM 1,500 YUAN FOR FIRST TIME SINCE SEPT 15, 2025&lt;/b&gt;</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/976.htm" target="_blank" class="news-link">Take-Two CEO 泽尔尼克确认《GTA 6》未使用生成式 AI，游戏世界纯手工打造</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2658-da9d-7553-a551-efe800c58306" target="_blank" class="news-link">HK AI STOCKS WEAKEN; KINGDEE INT’L DOWN OVER 11%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764901" target="_blank" class="news-link">AI颠覆性冲击引发担忧，亚洲软件股跟随美股大跌，现货黄金站上5000美元关口</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5166903" target="_blank" class="news-link">爱芯元智(0600.HK)招股：国产化浪潮下的稀缺资产，深耕边端侧AI芯片潜力可期</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5166902" target="_blank" class="news-link">扬杰科技(300373.SZ)：目前已围绕无人机等低空经济、储能、人形机器人、AI 服务器等新兴领域业务已成立专项小组</a> [11] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2655-d08d-7553-a551-da4ff55ea014" target="_blank" class="news-link">&lt;b&gt;HK CHIP STOCKS FALLS; SHANGHAI FUDAN DOWN OVER 6%, HUAHONG SEMI OVER 4%, GIGADEVICE, SMIC NEARLY 3%&lt;/b&gt;</a> [12] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049455" target="_blank" class="news-link">创业板指跌超2%，沪指涨0.11%，深成指跌0.84%，算力硬件、半导体芯片、AI应用等方向跌幅居前，沪深京三市下跌个股近2400只。</a> [13] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764894" target="_blank" class="news-link">业绩炸裂！光模块巨头Lumentum：Q2营收同比暴增65%，AI业务订单积压超4亿美元，下一季指引更惊人</a> [14] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E7%88%86%E5%8F%91AI%E6%81%90%E6%85%8C%E6%80%A7%E6%8A%9B%E5%94%AE" target="_blank" class="news-link">美股爆发AI恐慌性抛售</a> [15] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/969.htm" target="_blank" class="news-link">已恢复：OpenAI ChatGPT AI 北京时间今早突发全球大规模中断</a> [15] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049445" target="_blank" class="news-link">创业板指跌超1%，沪指跌0.07%，深成指跌0.45%，半导体芯片、白酒、AI应用等方向跌幅居前，沪深京三市下跌个股近2800只。</a> [17] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3764889" target="_blank" class="news-link">200亿美元！英伟达接近投资OpenAI</a> [17] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/963.htm" target="_blank" class="news-link">OpenAI 奥尔特曼评“AI 专属社区”Moltbook：或为昙花一现，背后技术代表未来</a> [20] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/962.htm" target="_blank" class="news-link">昆仑万维发布“Skywork 桌面版”：AI 帮你在电脑上直接干活</a> [21] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46868998" target="_blank" class="news-link">X offices raided in France as UK opens fresh investigation into Grok</a> [22] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/956.htm" target="_blank" class="news-link">爆火 AI 智能体 OpenClaw 被发现严重漏洞，可传播 / 植入 macOS 病毒</a> [26] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/954.htm" target="_blank" class="news-link">苹果“Apple 支持”更至 5.12 版：AI 客服接近转正，“聊天”变“提问”</a> [27] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2642-6397-7553-a551-54cde1eb2b5e" target="_blank" class="news-link">CHINA OPENS LOWER: SHANGHAI DOWN 0.08%, SHENZHEN DOWN 0.39%, CHINEXT DOWN 0.80%</a> [29] <font color='grey'>- 10时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3764887" target="_blank" class="news-link">砸崩周二软件股的Anthropic新工具，为什么威力这么大？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/960.htm" target="_blank" class="news-link">估值 3500 亿美元，消息称 Anthropic 计划允许员工股权套现</a> [22] <font color='grey'>- 10时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/965.htm" target="_blank" class="news-link">美国司法部与多个州政府上诉，谷歌与苹果的搜索合作协议面临重新审查</a> [18] <font color='grey'>- 10时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/918/953.htm" target="_blank" class="news-link">HUAWEI Kirin X90！华为 MateBook Pro 鸿蒙电脑发布近 9 个月后首曝处理器型号</a> [28] <font color='grey'>- 10时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2279552" target="_blank" class="news-link">存储“超级周期”再添注脚：三星+SK海力士&gt;腾讯+阿里</a> [13] <font color='grey'>- 10时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
