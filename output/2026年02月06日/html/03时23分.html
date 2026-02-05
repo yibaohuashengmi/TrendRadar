@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 117</p><p>生成时间: 2026-02-06 03:23:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">13.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3050854" target="_blank" class="news-link">OpenAI：与Ginko Bioworks Holdings Inc.（DNA）合作，设法将GPT-5链接到Autonomous Lab。 希望将蛋白质产品成本砍掉40%。</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2f33-d2de-7553-a56f-334b9dcfb9ad" target="_blank" class="news-link">MACKLEM SAYS THERE IS A CONCERN THAT THE LARGE CHINESE TRADE SURPLUS IS UNSUSTAINABLE; THIS ISN&#x27;T SOMETHING THAT NEEDS TO GET FIXED OVERNIGHT&lt;br/&gt;&lt;br/&gt;MACKLEM SAYS CHINA HAS DONE QUITE A GOOD JOB OF DIVERSIFYING AWAY FROM THE US TO OTHER ASIAN ECONOMIES, TO SOME EXTENT TO EUROPE</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765096" target="_blank" class="news-link">Anthropic发布金融研究AI模型，路透跌超8.5%，FactSet一度跌10%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3050847" target="_blank" class="news-link">法国总统马克龙：法国将研究人工智能（AI）和视频游戏对儿童的影响。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3050836" target="_blank" class="news-link">OpenAI创始人Altman：GPT-5.3-Codex来了！ 它拥有最佳编码性能，任务执行过程中的可操控性和实时更新功能，对于相同任务处理量，它仅需5.2-Codex一半的tokens，单 token处理速度提升25%以上，此外，它将能高效利用计算机资源。</a> [14]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2f0d-6370-7553-a56e-cab33ade4e0f" target="_blank" class="news-link">OpenAI Introduces GPT-5.3-Codex, Its Most Advanced Agentic Coding Model</a> [15] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46902855" target="_blank" class="news-link">Psychometric Jailbreaks Reveal Internal Conflict in Frontier Models</a> [15] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2f0b-7a37-7553-a56e-b6b845df82cd" target="_blank" class="news-link">UK&#x27;S STARMER, TRUMP AGREED ON IMPORTANCE OF DEAL TO SECURE JOINT UK–US BASE ON DIEGO GARCIA, WHICH REMAINS VITAL TO SHARED SECURITY INTERESTS, SAYS DOWNING STREET SPOKESPERSON</a> [18] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2f0b-5d0c-7553-a56e-adef92594a15" target="_blank" class="news-link">DOWNING STREET SPOKESPERSON: THE UK AND US WILL CONTINUE TO WORK CLOSELY ON IMPLEMENTATION OF CHAGOS AIR BASE DEAL</a> [19] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2f09-4e7b-7553-a56e-920493074eff" target="_blank" class="news-link">MACKLEM, ASKED ABOUT BANK&#x27;S ECONOMIC PROJECTIONS, SAYS &quot;WE CAN&#x27;T CHASE EVERY THREAT BY PRESIDENT TRUMP. WE&#x27;D BE CHASING OUR TAILS&quot;</a> [22] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3050826" target="_blank" class="news-link">汤森路透跌幅扩大至7%。Anthropic发布人工智能（AI）模型的最新版本Claude Opus 4.6，用于进行金融研究和其他工作相关的功能。</a> [22] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2f05-de65-7553-a56e-89f32dd8811c" target="_blank" class="news-link">MACKLEM: AN AI PRODUCTIVITY BOOST MEANS THE CANADIAN ECONOMY COULD GROW MORE WITHOUT ADDING INFLATIONARY PRESSURE</a> [23] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3050824" target="_blank" class="news-link">FactSec下跌10%，创2020年3月份以来盘中新低，投资者关注Anthropic对AI模型进行升级。</a> [24] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2f02-46bf-7553-a56e-7a6573d8b97f" target="_blank" class="news-link">BANK OF CANADA GOVERNOR TIFF MACKLEM SAYS WE HAVEN&#x27;T REALLY SEEN YET NEW MARKETS OPEN UP FOR CANADIAN FIRMS, THAT&#x27;S CERTAINLY SOMETHING WE&#x27;RE LOOKING FOR</a> [25] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2efb-1fe6-7553-a56e-6a3a623f7e7b" target="_blank" class="news-link">&lt;b&gt;UKRAINE&#x27;S ZELENSKIY: NEXT ROUND OF TALKS ON UKRAINIAN SETTLEMENT LIKELY TO TAKE PLACE IN THE U.S.&lt;/b&gt;</a> [27] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2ef3-9dbf-7553-a56e-52c2ebf923a1" target="_blank" class="news-link">SAUDI ARABIA SETS MARCH ARAB LIGHT CRUDE OIL OSP AT FLAT TO OMAN/DUBAI FOR ASIA, CUTS PRICES TO NW EUROPE AT MINUS $0.65/BBL VS ICE BRENT, AND RAISES U.S. PRICES TO PLUS $2.10/BBL VS ASCI.</a> [30] <font color='grey'>- 03时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46902368" target="_blank" class="news-link">Claude Code Agent Teams</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46902909" target="_blank" class="news-link">Anthropic&#x27;s Claude Opus 4.6 uncovers 500 zero-day flaws in open-source code</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
