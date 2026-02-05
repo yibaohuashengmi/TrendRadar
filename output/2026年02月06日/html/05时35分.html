@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 85</p><p>生成时间: 2026-02-06 05:35:25</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">10.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2fac-dc4c-7553-a570-68caa5d07bed" target="_blank" class="news-link">&lt;b&gt;CME RAISES INITIAL MARGIN ON ITS COMEX 100 GOLD FUTURES TO 9% FROM 8%&lt;br/&gt;&lt;br/&gt;CME RAISES INITIAL MARGIN ON ITS COMEX 5000 SILVER FUTURES TO 18% FROM 15%&lt;/b&gt;</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765099" target="_blank" class="news-link">AI编程大战打响！OpenAI推出GPT-5.3-Codex，与Anthropic同步发布新模型</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/columnviewpoint/column/61235-2026-02-06-05-00-05.html" target="_blank" class="news-link">AI让“专利大量申请时代”重现</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765098" target="_blank" class="news-link">AI“同事”要上岗了？OpenAI推出Frontier，瞄准企业级代理自动化</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2fa8-e50a-7553-a570-5391c0291c13" target="_blank" class="news-link">BLACKSTONE-BACKED LIFTOFF MOBILE IS SAID TO POSTPONE IPO</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765100" target="_blank" class="news-link">砸钱AI超谷歌！亚马逊今年支出指引意外爆表，盘后跳水超10% | 财报见闻</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2fa8-52c5-7553-a570-487a5d96fcc3" target="_blank" class="news-link">Amazon Plans $200 Billion AI Spending Amid Q4 Earnings in Line</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3050875" target="_blank" class="news-link">高盛：甲骨文史诗级债券发售将引发AI债务狂潮</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46901768" target="_blank" class="news-link">Maihem (YC W24): hiring senior robotics perception engineer (London, on-site)</a> [15] <font color='grey'>- 05时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46904569" target="_blank" class="news-link">Claude Opus 4.6 extra usage promo</a> [24] <font color='grey'>- 05时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3050883" target="_blank" class="news-link">纳斯达克金龙中国指数初步收涨0.8%。 热门中概股里，叮咚买菜初步收跌15%，阿特斯太阳能跌8.4%，阿里、新东方跌1%，小米、理想、美团则涨超2%，文远知行涨3.6%，百胜中国涨4.6%，蔚来涨6%。 ETF中，ASHS跌1.7%，ASHR跌0.8%，CQQQ跌0.8%，KWEB跌0.1%。</a> <font color='red'><strong>[2]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
