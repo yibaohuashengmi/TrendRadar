@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 216</p><p>生成时间: 2026-02-05 15:12:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">5.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202602/0564043.html" target="_blank" class="news-link">全球首创AI工具可追踪冰山 未来气候预测或更准确</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958552" target="_blank" class="news-link">黄仁勋：AI会干掉软件？完全没有逻辑</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765029" target="_blank" class="news-link">AI投资兑现，谷歌云加速腾飞</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2c7d-3649-7553-a564-aa729c388a68" target="_blank" class="news-link">HSBC RAISES ALPHABET TARGET PRICE TO $385 FROM $370</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765042" target="_blank" class="news-link">“沾上OpenAI就没吸引力了！”华尔街开始“清算”OpenAI概念股，谷歌大涨36%成赢家</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958551" target="_blank" class="news-link">中国软件也逃不过！大摩：AI构成“颠覆性风险”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2c73-afa5-7553-a564-830a90168b70" target="_blank" class="news-link">CANACCORD GENUITY RAISES ALPHABET TARGET PRICE TO $415 FROM $390</a> [11] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/919/474.htm" target="_blank" class="news-link">苹果入门 MacBook 笔记本前瞻：8GB 内存也能流畅运行，且支持 AI</a> [14] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2c5e-c018-7553-a564-63b1204d2960" target="_blank" class="news-link">China Is Said to Pause Panama Deals After Ports Operation Nulled</a> [15]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2c5d-0cc1-7553-a564-5768e2f0c56a" target="_blank" class="news-link">CHINA IS SAID TO PAUSE PANAMA DEALS AFTER PORTS OPERATION NULLED</a> [17] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c2c59-ce13-7553-a564-4802c9b79f87" target="_blank" class="news-link">D.A. DAVIDSON RAISES ALPHABET TARGET PRICE TO $310 FROM $300</a> [18] <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/848599473264525312" target="_blank" class="news-link">AI大模型从业者聊Agent：附上学习路径</a> [20] <font color='grey'>- 15时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/919/510.htm" target="_blank" class="news-link">阿里巴巴大模型品牌统一为千问，避免多个名称的混淆问题</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时12分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A9%AC%E4%BA%91%E6%B7%B1%E5%A4%9C%E7%8E%B0%E8%BA%AB%E9%98%BF%E9%87%8C%E6%80%BB%E9%83%A8" target="_blank" class="news-link">马云深夜现身阿里总部</a> [20] <font color='grey'>- 15时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1190933" target="_blank" class="news-link">[分享] 推荐一个整合了 Claude 3.5 和 GPT-4o 的浏览器侧边栏插件 Sider (顺便求个邀请)</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
