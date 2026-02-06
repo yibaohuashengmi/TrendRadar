@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 52</p><p>生成时间: 2026-02-07 04:45:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">19.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c3493-a21c-7aa6-bdbb-19ff4219f8f6" target="_blank" class="news-link">Nvidia Jumps as Big Tech Targets $650 Billion in AI Spending</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3051609" target="_blank" class="news-link">报道：苹果车载迎来战略转变，计划开放第三方语音AI助手</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260207040949574800" target="_blank" class="news-link">苹果计划允许第三方语音控制AI聊天机器人接入CarPlay</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c3492-76c4-7aa6-bdbb-105465fa11a4" target="_blank" class="news-link">Nvidia’s Huang Says AI Spending Sustainable as Demand Drives Years-Long Buildout</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260207040516386800" target="_blank" class="news-link">Gravity AI：拟申请在纳斯达克资本市场上市，正提交IPO申请，拟发行375万股，每股发行价格暂定为4.00美元，处于4.00美元至5.00美元发行区间低端。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765198" target="_blank" class="news-link">巨头砸钱6500亿加剧担忧，黄仁勋“灭火”：AI需求火爆，庞大支出合理、可持续</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c348d-02f0-7aa6-bdbb-06afc3d53841" target="_blank" class="news-link">PENTAGON: STATE DEPT APPROVES POTENTIAL SALE OF CLASS IX SPARE PARTS AND RELATED EQUIPMENT TO UKRAINE FOR $185 MILLION</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260207040250896800" target="_blank" class="news-link">据Fortune：OpenAI旗下ChatGPT应用的市场份额从2025年1月的69.1%骤降至次年的45.3%，而谷歌旗下Gemini聊天机器人应用的市场份额则从14.7%攀升至25.2%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时45分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46916586" target="_blank" class="news-link">How to effectively write quality code with AI</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时45分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46916961" target="_blank" class="news-link">Man who videotaped himself BASE jumping in Yosemite arrested, says it was AI</a> [21] <font color='grey'>- 04时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260207035802693800" target="_blank" class="news-link">景林最新美股持仓曝光：谷歌升至第一大重仓 大幅减持英伟达</a> [11] <font color='grey'>- 04时45分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
