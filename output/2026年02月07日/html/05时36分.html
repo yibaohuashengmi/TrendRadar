@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 70</p><p>生成时间: 2026-02-07 05:36:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">5</td>
+                <td class="percentage">7.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c34d0-8e98-7aa6-bdbb-f53b9b7df2d2" target="_blank" class="news-link">US Pushes March Ukraine Peace Deal With Rapid Elections Under Discussion</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3051623" target="_blank" class="news-link">Vista Equity Partners在人工智能（AI）芯片初创公司SambaNova的3.5亿美元融资轮中进行了投资，英特尔公司也承诺出资至多1.5亿美元。（路透）</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c34c8-00d7-7aa6-bdbb-a497d66369f1" target="_blank" class="news-link">&lt;b&gt;U.S. AIMS FOR MARCH PEACE DEAL IN UKRAINE AND QUICK ELECTIONS: SOURCES&lt;/b&gt;</a> [12] <font color='grey'>- 05时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c34bf-1943-7aa6-bdbb-62b3d809093b" target="_blank" class="news-link">VISTA EQUITY PARTNERS BACKS AI CHIP STARTUP SAMBANOVA IN $350 MILLION FUNDING ROUND, SOURCES SAY&lt;br/&gt;&lt;br/&gt;INTEL CORP, ALSO COMMITTED TO UP TO $150 MILLION, SOURCES</a> [20] <font color='grey'>- 05时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c34b3-41f0-7aa6-bdbb-31d27bd2c393" target="_blank" class="news-link">ISLAMIC STATE CLAIMS RESPONSIBILITY FOR DEADLY ATTACK ON SHI&#x27;ITE MUSLIM MOSQUE IN PAKISTANI CAPITAL ISLAMABAD -GROUP&#x27;S CHANNEL ON TELEGRAM</a> [26] <font color='grey'>- 05时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46891689" target="_blank" class="news-link">Claude Composer</a> [13] <font color='grey'>- 05时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3051620" target="_blank" class="news-link">纳斯达克金龙中国指数收涨3.71%，报7808.54点，本周累计上涨0.99%。 热门中概股里，小马智行初步收涨9.4%，蔚来涨7.4%，理想涨6.6%，百度涨5%，小鹏涨4.9%，小米、比亚迪涨4.3%，拼多多涨3.6%，阿里巴巴中行那个3%，腾讯涨2.2%。 ETF中，中国科技指数ETF（CQQQ）收涨3.16%，本周累跌3.58%，延续上周跌3.39%的表现； 中概互联网指数ETF（KWEB）收涨2.82%，本周累跌3.02%，延续上周跌1.45%的表现； XtrackersHarvest中证50（ASHS）收涨1.93%，本周累跌0.49%，延续上周回撤3.30%的表现； 德银嘉实沪深300指数ETF（ASHR）收涨1.45%，本周累涨0.72%。</a> <font color='red'><strong>[10]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
