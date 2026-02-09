@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 156</p><p>生成时间: 2026-02-10 04:46:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">7.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260210041449263800" target="_blank" class="news-link">美联储理事米兰：人工智能正在影响经济，但难以衡量。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c440c-77ea-7aa6-bdc6-c708468ca03a" target="_blank" class="news-link">FED&#x27;S MIRAN: STILL BELIEVES MAIN BURDEN OF TARIFFS WILL FALL ON EXPORTERS</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c4408-e7dd-7aa6-bdc6-ad2b598db4cd" target="_blank" class="news-link">FED&#x27;S MIRAN: AI IS IMPACTING ECONOMY BUT IS HARD TO MEASURE</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 04时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c43ff-a884-7aa6-bdc6-88f0919b014d" target="_blank" class="news-link">FED&#x27;S MIRAN: DOLLAR PASS THROUGH TO INFLATION IS NOT A MAIN ISSUE</a> [14] <font color='grey'>- 04时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3052487" target="_blank" class="news-link">OpenAI推出首个在网络安全方面设定为高等级的模型GPT-5.3-Codex</a> [14] <font color='grey'>- 04时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c43fe-a5e2-7aa6-bdc6-7c9bb08a7eb4" target="_blank" class="news-link">FED&#x27;S MIRAN: ISN&#x27;T WORRIED TARIFFS WILL IMPAIR DOLLAR&#x27;S VALUE</a> [16] <font color='grey'>- 04时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c43fb-51e9-7aa6-bdc6-77a4a3032800" target="_blank" class="news-link">FED&#x27;S MIRAN: US ON A PATH TOWARD BETTER FISCAL SUSTAINABILITY AND TARIFFS ARE HELPING THAT</a> [17] <font color='grey'>- 04时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3052484" target="_blank" class="news-link">OpenAI：我们今天开始在美国向部分免费和Go计划订阅用户推出ChatGPT广告的测试。</a> [17] <font color='grey'>- 04时46分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46948708" target="_blank" class="news-link">Eddie Bauer, venerable outdoor apparel retailer, declares bankruptcy</a> [25] <font color='grey'>- 04时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260210032212804800" target="_blank" class="news-link">OpenAI CEO Sam Altman：GPT-5.3-Codex今天在Cursor、Github和VS Code中推出。我们希望尽快向所有API客户推出这一模型。这是我们首个在网络安全方面设定为高等级的模型，相关的额外工作使上线进度略有延迟。</a> [26] <font color='grey'>- 04时46分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46900472" target="_blank" class="news-link">Pg-dev-container is a ready-to-run VS Code development container for PostgreSQL</a> [28] <font color='grey'>- 04时46分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46949401" target="_blank" class="news-link">Testing Ads in ChatGPT</a> [18] <font color='grey'>- 04时46分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
