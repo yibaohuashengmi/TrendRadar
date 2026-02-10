@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 150</p><p>生成时间: 2026-02-11 04:10:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">9.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46964162" target="_blank" class="news-link">Launch HN: Livedocs (YC W22) – An AI-native notebook for data analysis</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=AI%E5%88%B6%E5%9B%BE%E9%AA%97%E5%B1%80&amp;t=31&amp;band_rank=4&amp;Refer=top" target="_blank" class="news-link">AI制图骗局</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c48f2-f1d8-700f-b64f-a91b4238f554" target="_blank" class="news-link">WHITE HOUSE: COMMERCE SECRETARY LUTNICK REMAINS VERY IMPORTANT MEMBER OF TEAM</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46961345" target="_blank" class="news-link">Ex-GitHub CEO launches a new developer platform for AI agents</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c48ec-ea4d-700f-b64f-813b73f7edf1" target="_blank" class="news-link">REFINER CITGO PETROLEUM STRUGGLING TO MAKE KEY INVESTMENT, FINANCE DECISIONS AS SALE PROCESS REMAINS FROZEN, SOURCES SAY</a> [12] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c48e8-0935-700f-b64f-757cbb15bf15" target="_blank" class="news-link">MGX SAID TO NEAR INVESTMENT IN ANTHROPIC’S $20 BILLION FUNDRAISE</a> [14] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c48db-f61d-700f-b64f-4423c411e3f5" target="_blank" class="news-link">LOGAN: IF PRODUCTIVITY FROM AI COMES LATER, COULD HAVE MORE OVERHEATING THAN IF IT COMES SOONER</a> [20] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c48db-51c2-700f-b64f-3c5be3b3b511" target="_blank" class="news-link">LOGAN: POWER DEMAND FROM AI DATA CENTER BUILD IS LARGE BUT NOT AS BIG AS MIGHT THINK</a> [21] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3053195" target="_blank" class="news-link">财富管理公司全线暴跌，新AI工具引发对行业前景忧虑</a> [22] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3053191" target="_blank" class="news-link">美国克利夫兰联储主席Hammack：实现2%通胀目标具有至关重要的意义。 现在判断人工智能（AI）对经济的影响还言之过早。</a> [25]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260211024215900800" target="_blank" class="news-link">美联储洛根：如果人工智能带来的生产率提升来得较晚，经济可能比提前提升时更加过热。</a> [25] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260211024100542800" target="_blank" class="news-link">美联储洛根：人工智能数据中心建设对电力的需求很大，但并没有想象中那么大。</a> [26] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c48c9-2678-700f-b64f-013957ae12ff" target="_blank" class="news-link">Trump Considers Sending Second Carrier Strike Group to Strike Iran if Talks Fail</a> [28] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3053187" target="_blank" class="news-link">美国国会议员们质询国防部使用马斯克旗下xAI开发的大模型Grok一事。</a> [29] <font color='grey'>- 04时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3053213" target="_blank" class="news-link">据知情人士透露，阿布扎比MGX接近达成一份协议，将参与Anthropic本轮200亿美元规模的融资。（彭博）</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c48e9-01b5-700f-b64f-7a6425064a9c" target="_blank" class="news-link">Abu Dhabi’s MGX in Talks to Join Anthropic’s $20B+ Funding Round</a> [13] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260211025025045800" target="_blank" class="news-link">市场消息：阿布扎比投资机构MGX接近参与Anthropic的融资。</a> [19] <font color='grey'>- 04时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46963804" target="_blank" class="news-link">Google Handed ICE Student Journalist&#x27;s Bank and Credit Card Numbers</a> [12] <font color='grey'>- 04时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260211023723066800" target="_blank" class="news-link">据Business Insider：谷歌业务部门正在向部分员工提供自愿离职方案。</a> [27] <font color='grey'>- 04时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%83%E9%97%AE%E8%AF%B430%E4%BA%BF%E5%85%8D%E5%8D%95%E5%8D%A1%E5%BF%AB%E9%A2%86%E5%AE%8C%E4%BA%86%23&amp;t=31&amp;band_rank=6&amp;Refer=top" target="_blank" class="news-link">千问说30亿免单卡快领完了</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 04时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
