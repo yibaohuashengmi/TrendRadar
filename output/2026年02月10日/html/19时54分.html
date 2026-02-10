@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 243</p><p>生成时间: 2026-02-10 19:54:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">7.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1192071" target="_blank" class="news-link">ai 编程 swe bench 各种高分 感觉水分很大 兄弟们来分析一下</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1192067" target="_blank" class="news-link">做了个 AI 心理测试小站，想请大家帮我挑挑刺</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83527" target="_blank" class="news-link">美国 AI 初创公司盛行 996 工作制</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1192066" target="_blank" class="news-link">做了一个自托管的 AI 盯盘工具，想听听大家最真实的建议</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765413" target="_blank" class="news-link">春节AI大战只是表现？摩根大通：token消耗量将进入高速增长期，五年或增长370倍！</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2286121" target="_blank" class="news-link">国家发改委等八部门：加快招标投标领域人工智能推广应用</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260210192736679800" target="_blank" class="news-link">拒绝焦虑！从Deepseek到即梦，这一年到底有多少AI工具？丨Hi，今天怎么看？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765409" target="_blank" class="news-link">AI狂热抹去周期记忆：当闪迪涨了12倍，谁还记得曾经的崩盘？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765408" target="_blank" class="news-link">编程AI又变天？神秘模型Pony Alpha火了，被曝是智谱GLM-5，股价两日暴涨60%！</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765402" target="_blank" class="news-link">AI需求爆发，韩企北美销售额增长14%，海力士在美销售额大增65%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/920/886.htm" target="_blank" class="news-link">美国拟对大型科技厂商开关税口子：为 AI 数据中心扩张开绿灯，让台积电分配“免税额度”给客户</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E8%B4%A2%E7%BB%8F%E5%BF%AB%E8%AE%AF/20260210-ai%E7%83%AD%E6%BD%AE%E6%8E%A8%E5%8D%87%E9%9C%80%E6%B1%82-%E6%96%B0%E5%8A%A0%E5%9D%A1%E4%B8%8A%E4%BF%AE%E7%BB%8F%E6%B5%8E%E6%88%90%E9%95%BF%E9%A2%84%E6%B5%8B" target="_blank" class="news-link">AI热潮推升需求 新加坡上修经济成长预测</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%B2%A1%E7%BA%A2%E5%8C%85%E4%BD%A0%E8%BF%98%E4%BC%9A%E7%94%A8AI%E8%BD%AF%E4%BB%B6%E5%90%97%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">没红包你还会用AI软件吗</a> [20] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3052972" target="_blank" class="news-link">横店影视：截至目前公司AI短剧业务尚处于投资制作阶段，尚未形成相关收入</a> [22] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3052964" target="_blank" class="news-link">佰维存储：公司为Meta AI智能眼镜提供ROM+RAM存储器芯片</a> [24] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c4748-2fa8-7aa6-bdcc-24b42e697c11" target="_blank" class="news-link">TAIWAN GOVERNMENT - TRADE NEGOTIATORS HAVE LEFT FOR US TO HOLD FINAL MEETING ON TRADE DEAL</a> [26] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c4740-19ef-7aa6-bdcc-11c7d4fad53b" target="_blank" class="news-link">JAPAN PM MULLS RETAINING ALL CABINET MINISTERS: KYODO</a> [28] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/637437405.html" target="_blank" class="news-link">不是，AI都发展到这程度了？以后网络上岂不是越来越多真假难辨的流言视频？</a> [28] <font color='grey'>- 19时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260210190249321800" target="_blank" class="news-link">苹果(AAPL.O)与谷歌(GOOG.O)根据英国数字规则手册向该国竞争监管机构作出承诺。</a> [13] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260210190225693800" target="_blank" class="news-link">英国竞争监管机构推进针对苹果(AAPL.O)与谷歌(GOOG.O)移动生态系统规则的审查。</a> [14] <font color='grey'>- 19时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46907183" target="_blank" class="news-link">Show HN: Total Recall – write-gated memory for Claude Code</a> [16] <font color='grey'>- 19时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/920/889.htm" target="_blank" class="news-link">国内首家：阿里云宣布通过全球域名管理组织技术认证</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
