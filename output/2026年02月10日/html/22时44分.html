@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 233</p><p>生成时间: 2026-02-10 22:44:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">5.58%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1192092" target="_blank" class="news-link">今日暴论: ai 的长生种与短命种</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时44分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/1064454.html" target="_blank" class="news-link">阿里巴巴发布具身智能大脑模型RynnBrain 进军机器人AI</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3053093" target="_blank" class="news-link">摩根大通策略师称对AI颠覆性的担忧过度，软件股有望反弹</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260210222816368800" target="_blank" class="news-link">富国银行CFO：今年的行动并不依赖人工智能，人工智能带来的好处将在明年及以后显现。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765360" target="_blank" class="news-link">沪指震荡收涨六连阳，AI应用大爆发，太空光伏集体调整，恒指上涨0.5%，智谱暴涨近15%</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c47d5-8040-700f-b64c-0ebe7b9892a2" target="_blank" class="news-link">Redbook Retail Sales (YoY) (Feb.6)</a> [11] <font color='grey'>- 22时44分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=AI%E5%91%A8%E6%98%9F%E9%A9%B0%E8%A7%86%E9%A2%91%E5%A4%A7%E9%87%8F%E4%BC%A0%E6%92%AD+%E7%BB%8F%E7%BA%AA%E4%BA%BA%E8%B4%A8%E7%96%91" target="_blank" class="news-link">AI周星驰视频大量传播 经纪人质疑</a> [16] <font color='grey'>- 22时44分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32567447" target="_blank" class="news-link">Claude搅动硅谷，AI开始抢企业软件饭碗了？</a> [16] <font color='grey'>- 22时44分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2003846551756362738" target="_blank" class="news-link">黄仁勋称中国或在 AI 竞赛中胜出，中美 AI 差距缩小，这一论断有何依据？</a> [19] <font color='grey'>- 22时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c47c1-4c03-7aa6-bdce-d8c555e6ac59" target="_blank" class="news-link">Core Retail Sales (Dec)</a> [25] <font color='grey'>- 22时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c47c1-1c02-7aa6-bdce-d7d0af0d6e31" target="_blank" class="news-link">Retail Sales (Dec)</a> [26] <font color='grey'>- 22时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c47c0-adb9-7aa6-bdce-cc8f84596dc8" target="_blank" class="news-link">U.S. STOCKS EXTEND LOSSES SLIGHTLY AFTER DECEMBER RETAIL SALES DATA</a> [27] <font color='grey'>- 22时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3053069" target="_blank" class="news-link">欧洲保险股走低，欧洲斯托克600保险分类指数一度下跌1.9%，安联保险、苏黎世保险集团和英杰华集团跌幅居前。Piper Sandler分析师Paul Newsome在报告中指出，“投资者似乎担忧人工智能将抢占保险经纪商的市场份额。”</a> [27] <font color='grey'>- 22时44分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765425" target="_blank" class="news-link">Anthropic最新2026趋势报告：人类最大一次编程革命势不可挡</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时44分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46959832" target="_blank" class="news-link">Jury told that Meta, Google &#x27;engineered addiction&#x27; at landmark US trial</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时44分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/920/921.htm" target="_blank" class="news-link">飞牛 fnOS ARM 公测版正式发布：首批适配 42 款设备，支持苹果 M 系列 Mac 产品的虚拟化环境以及飞腾、华为鲲鹏等平台</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时44分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
