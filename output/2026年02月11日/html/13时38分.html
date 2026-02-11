@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 253</p><p>生成时间: 2026-02-11 13:38:28</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">7.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/850499650971791360" target="_blank" class="news-link">【AI大模型投递必看】：高潜力投递企业清单（附详细解析）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/054.htm" target="_blank" class="news-link">消息称字节跳动正研发 AI 芯片，并与三星洽谈代工事宜</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3053451" target="_blank" class="news-link">OpenAI创始人Altman：今天我们在ChatGPT中更新了GPT-5.2（即时模型）。虽然变化不大，但希望您觉得有所改进。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/850399062850301952" target="_blank" class="news-link">推荐一个值得做的AI项目</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765476" target="_blank" class="news-link">中国模型为何会在AI视频上领跑</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2286740" target="_blank" class="news-link">“一块布”卡住AI供应链 产业“涨价潮”带动“涨停潮”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260211125408785800" target="_blank" class="news-link">消息人士：字节跳动自研AI芯片 与三星洽谈代工事宜</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/049.htm" target="_blank" class="news-link">联想 AI 平板拯救者 Y700 预热：支持全新 AI 网络加速，复杂网络相较竞品延迟降低 54.8%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765464" target="_blank" class="news-link">创业板早盘跌近1%，玻纤概念股集体大涨，AI应用、CPO调整，恒科指涨超1%，科网股普遍上涨、小米涨近5%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260211124843503800" target="_blank" class="news-link">据路透援引消息人士，字节跳动正在研发一款AI芯片，并正与三星洽谈代工事宜，字节跳动计划今年生产10万至30万颗该款AI芯片。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c4b05-0e6f-700f-b652-ad063c7c0144" target="_blank" class="news-link">BYTEDANCE IS DEVELOPING AI CHIP AND IN TALKS WITH SAMSUNG TO MANUFACTURE IT, SOURCES SAY&lt;br/&gt;&lt;br/&gt;BYTEDANCE PLANS TO PRODUCE 100,000-300,000 UNITS OF THE AI CHIP THIS YEAR, SOURCES SAY</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765455" target="_blank" class="news-link">“AI之战”输不得！如果美股Mag 7今年就把现金流“烧成负数”，这对市场意味着什么？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958587" target="_blank" class="news-link">当AI制造AI，文明进化不再需要人类，向宇宙进发</a> [12] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765465" target="_blank" class="news-link">盘后飙涨16%！AI 驱动增长，Cloudflare业绩炸裂，拿下史上最大规模年度合同</a> [13] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260211114707238800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2026-02-11）</a> [15] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3053432" target="_blank" class="news-link">阿里千问、飞猪宣布与全球超40家旅行品牌达成AI合作</a> [17] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2003053229764732430" target="_blank" class="news-link">有哪些和 AI 的对话瞬间，让你觉得人类还没有一败涂地？</a> [18] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46932813" target="_blank" class="news-link">Show HN: Model Training Memory Simulator</a> [19] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3053429" target="_blank" class="news-link">网易有道发布中国版“OpenClaw”，推出全场景个人助理Agent“LobsterAI”</a> [20] <font color='grey'>- 13时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c4b21-862d-700f-b652-d67f67fff518" target="_blank" class="news-link">ALTMAN: WE UPDATED GPT-5.2 (THE INSTANT MODEL) IN CHATGPT TODAY. NOT A HUGE CHANGE, BUT HOPEFULLY YOU FIND IT A LITTLE BETTER.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3053445" target="_blank" class="news-link">上海仪电与阿里巴巴集团签署战略合作协议，双方将在智算服务、政企市场、公共云业务等领域展开深入合作。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
