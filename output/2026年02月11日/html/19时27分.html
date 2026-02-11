@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 166</p><p>生成时间: 2026-02-11 19:27:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">8</td>
+                <td class="percentage">4.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c4c6f-81a1-700f-b655-88093afdef41" target="_blank" class="news-link">CHINA PREMIER LI URGES STRENGTHENING AI GOVERNANCE: CCTV</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1192315" target="_blank" class="news-link">用 Hugo + Tailwind 从零搭了一个 AI 视频工具的英文内容站</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c4c6e-b95e-700f-b655-864b0e83b831" target="_blank" class="news-link">CHINA&#x27;S PREMIER LI CHAIRS STATE COUNCIL STUDY SESSION: CCTV&lt;br/&gt;&lt;br/&gt;CHINA STATE COUNCIL HOLDS SESSION ON BOOSTING AI USE: CCTV&lt;br/&gt;&lt;br/&gt;CHINA STATE COUNCIL HOLDS STUDY SESSION ON AI: CCTV&lt;br/&gt;&lt;br/&gt;CHINA PREMIER URGES PROMOTING USE OF AI IN VARIOUS SECTORS:CCTV</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c4c65-469f-700f-b655-792e0938a0fb" target="_blank" class="news-link">TD COWEN RAISES COCA-COLA TARGET PRICE TO $85 FROM $80</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/182.htm" target="_blank" class="news-link">阿里旗下钉钉升级群聊功能，引入专属 AI 智能体“AI 小钉”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c4c63-e684-700f-b655-719ab8e6b53b" target="_blank" class="news-link">CITIGROUP RAISES COCA-COLA TARGET PRICE TO $87 FROM $85</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c4c63-aeaf-700f-b655-6ac781021086" target="_blank" class="news-link">FRENCH TECH AND AI COMPANY MISTRAL INVESTING 1.2 BLN EUROS IN NEW DATA CENTRE SITE IN SWEDEN, REPORTS LES ECHOS</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c4c52-37f1-700f-b655-349935942692" target="_blank" class="news-link">POLL-US FEDERAL RESERVE TO CUT FED FUNDS RATE BY 25 BPS TO 3.25-3.50% RANGE BY END-JUNE, SAID 60 OF 101 ECONOMISTS (NO CONSENSUS IN JANUARY POLL)&lt;br/&gt;&lt;br/&gt;POLL-MAIN RISK IS FEDERAL RESERVE WILL SET MONETARY POLICY TOO LOOSE UNDER KEVIN WARSH, SAID 49 OF 53 ECONOMISTS&lt;br/&gt;&lt;br/&gt;POLL-MOST ECONOMISTS, 41 OF 57, CONCERNED ABOUT EROSION OF FED&#x27;S INDEPENDENCE AFTER POWELL&#x27;S TENURE</a> [12] <font color='grey'>- 19时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/184.htm" target="_blank" class="news-link">“最强法务部”发威，谷歌 Gemini 现已开始拒绝生成迪士尼角色</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2004559757655168835" target="_blank" class="news-link">华为余承东宣布问界两年内将冲刺 200 万辆总销量，这一目标前景如何？可能通过哪些策略实现？</a> [17] <font color='grey'>- 19时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765514" target="_blank" class="news-link">DeepSeek新模型来了？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
