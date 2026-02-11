@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 177</p><p>生成时间: 2026-02-11 16:06:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">7.34%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c4bb1-1425-700f-b653-af0d1e373629" target="_blank" class="news-link">Two Chinese Members Exit xAI as Half of 12-Person Founding Team Departs</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765494" target="_blank" class="news-link">从税务会计到支付设施：OpenAI正在为ChatGPT购物功能的底层琐事“头秃”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c4b97-4807-700f-b653-8a6979ee42aa" target="_blank" class="news-link">DEUTSCHE BANK RAISES FERRARI TARGET PRICE TO EUR 460 FROM EUR 450</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时06分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/110.htm" target="_blank" class="news-link">Autodesk 起诉谷歌 AI 软件侵犯“Flow”商标权</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c4b84-7a84-700f-b653-6f8bcd8dca3e" target="_blank" class="news-link">&lt;b&gt;AT CLOSE, SHANGHAI COMPOSITE +0.09%, SHENZHEN COMPOSITE -0.35%, CHINEXT -1.08%&lt;/b&gt;</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3053545" target="_blank" class="news-link">马斯克酝酿在月球造AI卫星工厂</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765488" target="_blank" class="news-link">软件开发步入“黑盒”时代？GitHub前掌门人：未来没人会去查阅AI写的代码</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c4b80-46cf-700f-b653-543437cbe9b0" target="_blank" class="news-link">JD.com Launches Voice AI Payment “JD AI Pay”</a> [12] <font color='grey'>- 16时06分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2286560" target="_blank" class="news-link">美国最大风投押注“AI伴侣”赛道 AI应用有望在陪伴场景率先爆发</a> [12] <font color='grey'>- 16时06分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/105.htm" target="_blank" class="news-link">零电阻传输：微软押注超导技术解决 AI 能耗瓶颈</a> [12] <font color='grey'>- 16时06分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2004565156580049390" target="_blank" class="news-link">腾讯是在把 AI 泛娱乐生态拱手让给字节跳动吗？</a> [13] <font color='grey'>- 16时06分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2004509950915868142" target="_blank" class="news-link">如何看待《黑神话：悟空》制作人冯骥谈即梦 Seedance 2.0「AIGC 的童年时代，结束了」？</a> [15] <font color='grey'>- 16时06分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/098.htm" target="_blank" class="news-link">三星发布 2026 款 Bespoke AI Steam 扫地机器人：吸力翻倍，越障 45mm</a> [18] <font color='grey'>- 16时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">1.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/107.htm" target="_blank" class="news-link">“跑神”基普乔格担任华为 WATCH GT Runner 全球代言人，或暗示系列手表新品将至</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时06分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/104.htm" target="_blank" class="news-link">广汽昊铂 A800 豪华轿车开启盲订选配：6 种外观色 / 3 款内饰色，可选华为乾崑智驾四激光雷达方案</a> [13] <font color='grey'>- 16时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46971287" target="_blank" class="news-link">Show HN: I taught GPT-OSS-120B to see using Google Lens and OpenCV</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3053542" target="_blank" class="news-link">千问DAU达到7352万，逼平豆包</a> [12] <font color='grey'>- 16时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
