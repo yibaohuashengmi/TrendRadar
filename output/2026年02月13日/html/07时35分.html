@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 74</p><p>生成时间: 2026-02-13 07:35:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">12.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765553" target="_blank" class="news-link">CPI前AI恐慌升级，纳指跌超2%，美债走强，贵金属遭流动性挤压，黄金失守5000美元，白银跳水11%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765631" target="_blank" class="news-link">AI担忧蔓延，商业地产股继续下挫，两天暴跌20%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3054762" target="_blank" class="news-link">周四（2月12日），信息科技指数跌2.27%，报269.21点，成分股Applovin收跌19.68%，思科跌12.32%，Astera Labs股份跌11.92%跌幅第三大。 人工智能（AI）赢家指数跌1.54%，AI软件先驱指数跌1.44%。</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765624" target="_blank" class="news-link">AI恐慌扩散，科技股再度拖垮美股，地产股连日重挫，苹果市值一日蒸发2000亿</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765553" target="_blank" class="news-link">CPI前AI恐慌升级，纳指跌超2%，美债走强，贵金属遭流动性挤压，黄金失守5000美元，白银跳水11%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260213065702198800" target="_blank" class="news-link">AI寒流来袭：全球风险资产撤退 美债成避风港</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765603" target="_blank" class="news-link">最坏情景下的甲骨文：AI订单全失，股价只跌15%？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%AE%A9AI%E9%9B%86%E4%BD%93%E7%BF%BB%E8%BD%A6%E7%9A%84%E6%B4%97%E8%BD%A6%E9%9A%BE%E9%A2%98" target="_blank" class="news-link">让AI集体翻车的洗车难题</a> [26] <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46928105" target="_blank" class="news-link">Barn Owls Know When to Wait</a> [28] <font color='grey'>- 07时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">2.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/530.htm" target="_blank" class="news-link">谷歌宣布 Gemini 3 Deep Think 深度思考大模型升级：推进科学、研究和工程应用，可达数学、物理与化学奥赛金牌水平</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/527.htm" target="_blank" class="news-link">谷歌 Pixel 10a 手机渲染图再曝：浆果色吸睛，欧规认证续航 53 小时 14 分钟</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时35分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
