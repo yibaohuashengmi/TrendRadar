@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 131</p><p>生成时间: 2026-02-13 03:36:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">9.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765553" target="_blank" class="news-link">CPI前AI恐慌又袭，盘中标普跌超1%、思科跌超10%、物流股大跌，白银跳水超7%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3054694" target="_blank" class="news-link">沙特阿美与微软签订备忘录，帮助推进工业AI。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765553" target="_blank" class="news-link">CPI前AI恐慌又袭，盘中标普跌超1%、思科跌超10%、物流股大跌，白银跳水超7%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46989217" target="_blank" class="news-link">Major European payment processor can&#x27;t send email to Google Workspace users</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765622" target="_blank" class="news-link">AI冲击货运江湖！罗素3000卡车运输指数盘中重挫9%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46993417" target="_blank" class="news-link">A party balloon shut down El Paso International Airport; estimated cost –$573k</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260213030906029800" target="_blank" class="news-link">市场消息：沙特阿美与微软签署谅解备忘录，推进工业人工智能发展。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260213030259152800" target="_blank" class="news-link">Anthropic：本轮融资的重要投资方包括Accel、Addition、Alpha Wave Global、Altimeter Capital、AMP、Appaloosa LP以及Baillie Gifford。</a> [18] <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c5332-c572-7993-a1bb-a7fd68a093a3" target="_blank" class="news-link">GERMAN CHANCELLOR MERZ: WE DO NOT WANT EUROPEAN PROTECTIONISM BUT WE NEED TO BE ABLE TO REACT TO UNFAIR PRACTICES</a> [23] <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3054665" target="_blank" class="news-link">OpenAI发布首个搭载英伟达对手Cerebras芯片的AI模型</a> [24] <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c5325-9b76-7993-a1bb-7dba79d46443" target="_blank" class="news-link">TRUMP EPA ACTION REVERSES BIDEN VEHICLE TAILPIPE EMISSIONS RULES THAT WERE SET TO BOOST ELECTRIC VEHICLE PRODUCTION</a> [28] <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c5325-67ee-7993-a1bb-716097ea5cec" target="_blank" class="news-link">EU MERGER RULES OVERHAUL LOOKING TO PUSH PAN-EUROPEAN DEALS, SOURCES SAY&lt;br/&gt;&lt;br/&gt;EU ANTITRUST REGULATORS WILL CONSIDER INNOVATION, SUSTAINABILITY, RESILIENCE, INVESTMENT, EMPLOYMENT WHEN ASSESSING MERGERS, SOURCES SAY&lt;br/&gt;&lt;br/&gt;INNOVATION ARGUMENTS BY COMPANIES CAN STAND BETTER CHANCE OF SUCCESS THAN OTHERS, SOURCES SAY</a> [29] <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260213025219525800" target="_blank" class="news-link">加央行副行长敦促中小企业投资人工智能</a> [30] <font color='grey'>- 03时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">9</td>
+                <td class="percentage">6.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260213031347065800" target="_blank" class="news-link">Anthropic完成300亿美元融资 公司估值达3800亿美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c534b-2dc7-7993-a1bc-434db013b34c" target="_blank" class="news-link">Anthropic Secures $30 Billion Funding at $380 Billion Valuation</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765626" target="_blank" class="news-link">Anthropic按3800亿美元估值敲定300亿美元融资</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c534a-3c68-7993-a1bc-395d26a6cc7d" target="_blank" class="news-link">ANTHROPIC SAYS RUN-RATE REVENUE NOW AT $14 BILLION</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46991591" target="_blank" class="news-link">Launch HN: Omnara (YC S25) – Run Claude Code and Codex from anywhere</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3054689" target="_blank" class="news-link">Anthropic按3800亿美元估值敲定300亿美元融资。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c533b-a620-7993-a1bb-cf219e458b4f" target="_blank" class="news-link">ANTHROPIC FINALIZES $30 BILLION FUNDING AT $380 BILLION VALUE&lt;br/&gt;&lt;br/&gt;ANTHROPIC CONFIRMS PLANS TO LET EMPLOYEES SELL SHARES</a> [18] <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260213030246759800" target="_blank" class="news-link">Anthropic：本轮融资还包含此前宣布的来自微软和英伟达的投资部分。</a> [19] <font color='grey'>- 03时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260213030133450800" target="_blank" class="news-link">市场消息：Anthropic完成300亿美元融资，公司估值达到3800亿美元。</a> [21] <font color='grey'>- 03时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765623" target="_blank" class="news-link">终极测试成绩创新高，谷歌Gemini 3深度思考模型重大升级，瞄准科研与工程应用</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时36分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
