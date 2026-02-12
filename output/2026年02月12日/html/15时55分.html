@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 217</p><p>生成时间: 2026-02-12 15:55:47</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">7.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260212/1069751796.html" target="_blank" class="news-link">专家：AI高逼真视频加剧虚假信息风险，开源部署监管难</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c50bd-4258-7995-9870-376a480dde6e" target="_blank" class="news-link">CHINA&#x27;S FOREIGN MINISTRY, ON TRUMP EXPECTED TO VISIT CHINA IN EARLY APRIL: BOTH SIDES MAINTAIN COMMUNICATION – XINHUA</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1192482" target="_blank" class="news-link">我用 AI 创作了 60 多款马年微信红包封面，欢迎领取使用～</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765580" target="_blank" class="news-link">软银Q3扭亏为盈，但净利大幅不及预期，前三财季重仓OpenAI实现2.8万亿日元投资收益 | 财报见闻</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765573" target="_blank" class="news-link">联想Q4收入创纪录但净利下滑21%，AI业务占比升至32% ｜财报见闻</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1192477" target="_blank" class="news-link">开源了一个双色球 AI 预测项目， GitHub Actions 自动化实践分享</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c50b5-6cf8-7995-9870-1900e2e95c32" target="_blank" class="news-link">China, U.S. Maintain Close Trade Talks at All Levels, Commerce Ministry Says</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958595" target="_blank" class="news-link">知名对冲基金：AI基建不是泡沫，至少在OpenAI上市前</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c50b4-f470-7995-9870-0b116ccc6f2e" target="_blank" class="news-link">CHINA&#x27;S COMMERCE MINISTRY: CHINA, U.S. MAINTAIN CLOSE COMMUNICATION AT ALL LEVELS THROUGH TRADE, ECONOMIC CONSULTATION MECHANISM</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765579" target="_blank" class="news-link">智谱40%、MiniMax 25%、芯片板块也飙升！港股AI概念爆了</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/410.htm" target="_blank" class="news-link">8 → 100 起：鼻窦手术系统 TruDi 引入 AI 后故障激增 1150%</a> [12] <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c50b0-6f6a-700f-b661-1a9f60b27e0d" target="_blank" class="news-link">&lt;b&gt;CHINA FOREIGN MINISTRY, ON NEXPERIA: CHINA URGES NETHERLANDS TO RESOLVE INTERNAL DISPUTES, SAFEGUARD STABILITY OF GLOBAL CHIP SUPPLY CHAIN &lt;/b&gt;</a> [13] <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c50a9-864d-700f-b661-15e3cb779045" target="_blank" class="news-link">AT CLOSE, SHANGHAI COMPOSITE INDEX UP 0.05%, SHEN ZHEN COMPONENT INDEX UP 0.86%, CHINEXT INDEX UP 1.32%</a> [15] <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2398176" target="_blank" class="news-link">美食博主手搓对抗AI</a> [16] <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/405.htm" target="_blank" class="news-link">Threads 推出 Dear Algo 功能：用户可借助 AI 自定义信息流推送内容</a> [16] <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c50a8-873a-700f-b661-0309de4603ee" target="_blank" class="news-link">SoftBank Swings to Profit on Valuation Boost From Its OpenAI Bet</a> [17] <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2398167" target="_blank" class="news-link">Seedance2.0展示中国AI潜力</a> [20] <font color='grey'>- 15时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">1.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/417.htm" target="_blank" class="news-link">华为诺亚方舟实验室官网新版上线：优化开源资源入口，集中呈现自研开源项目</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2287992" target="_blank" class="news-link">一线实探！华为小米已成新“年货” 后国补时代市场热度几何？|传真</a> [11] <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/409.htm" target="_blank" class="news-link">消息称 OPPO、vivo、荣耀、小米和华为今年都有折叠屏新机，但基本都是横向大折叠</a> [13] <font color='grey'>- 15时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1192473" target="_blank" class="news-link">年前大混战 Qwen3.5, Minimax M2.5, GLM5, Deepseek V4, 你更看好哪个？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765577" target="_blank" class="news-link">多模态“Deepseek时刻”下的大厂分化：字节拼“效率”，快手攻“专业”，阿里聚焦“电商”！</a> [11] <font color='grey'>- 15时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/416.htm" target="_blank" class="news-link">MiniMax M2.5 旗舰编程模型上线，对标 Claude Opus 4.6</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
