@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 197</p><p>生成时间: 2026-02-12 17:56:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">8</td>
+                <td class="percentage">4.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3054410" target="_blank" class="news-link">全国首单“AI+人形机器人”研发领域科创债发行</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765595" target="_blank" class="news-link">春节交易大红包，除了AI，还有消费、人民币……</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/457.htm" target="_blank" class="news-link">微软力求“自给自足”：自研顶尖模型，逐步摆脱对 OpenAI 的依赖</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1192507" target="_blank" class="news-link">[独立开发] 受够了 AI 聊一半变笨？我写了个“对话瞬移”插件，上下文自动同步（本地存储+免费）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765518" target="_blank" class="news-link">大摩“暴力”上调美光目标价至450美元：只要AI需求强劲，中国产能冲击、资本开支过热统统不是问题！</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c510d-623b-7995-9871-18e100566ddb" target="_blank" class="news-link">HERMES CFO: PRICE RAISES OF 5 TO 6% MAINLY COVER INCREASED COSTS</a> [18] <font color='grey'>- 17时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c5108-730e-7995-9871-0a6d0894ca75" target="_blank" class="news-link">HUA HONG CHAIRMAN: MAINTAINED FULL-CAPACITY OPERATIONS THROUGHOUT 2025 AT AVERAGE UTILIZATION RATE OF 106.1%</a> [20] <font color='grey'>- 17时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c5104-5a37-7995-9870-fb31a9a067b5" target="_blank" class="news-link">ALIBABA’S ALIPAY “AI PAY” EXCEEDS 120M TRANSACTIONS IN A WEEK, FIRST AI-NATIVE PAYMENT PRODUCT TO SURPASS 100M</a> [22] <font color='grey'>- 17时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46986496" target="_blank" class="news-link">From specification to stress test: a weekend with Claude</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/451.htm" target="_blank" class="news-link">谷歌 DeepMind CEO 哈萨比斯：我每天尽量睡 6 小时，大约凌晨 1 点才真正有精神</a> [11] <font color='grey'>- 17时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
