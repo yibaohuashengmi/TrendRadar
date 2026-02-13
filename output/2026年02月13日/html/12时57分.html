@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 300</p><p>生成时间: 2026-02-13 12:57:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">6.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c5545-0c4a-7993-a1bf-dbaacf769168" target="_blank" class="news-link">Zhipu’s 120% Surge Highlights China’s New AI Market Favorites</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1192655" target="_blank" class="news-link">迄今为止， ai 翻译最完美的还得是 deepseek，我心目中的 No.1</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c5542-35a5-7993-a1bf-d56104c0d64e" target="_blank" class="news-link">EMIRATES - CONFIRMS THAT FLIGHTS TO AND FROM ALGERIA ARE OPERATING AS SCHEDULED, AND SERVICES REMAIN UNAFFECTED AT THIS TIME</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765652" target="_blank" class="news-link">“快手可灵 vs 字节即梦”谁更强？高盛：不存在“赢家通吃”，但AI将显著改变娱乐业价值分布</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958598" target="_blank" class="news-link">马斯克最彻底：AI时代，员工不需要了，公司也没意义了</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1192638" target="_blank" class="news-link">现在好像让 AI 1:1 原生复刻一个 MacOS 经典启动台软件还是近乎无法实现的。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c5516-637f-7993-a1bf-9d99fbdbbb0f" target="_blank" class="news-link">BOJ&#x27;S TAMURA: EVEN IF BOJ RAISES POLICY RATE FURTHER, MONETARY CONDITIONS WILL REMAIN ACCOMMODATIVE</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c5515-2c0c-7993-a1bf-958d96df042e" target="_blank" class="news-link">BOJ&#x27;S TAMURA: EXPECT BOJ TO CONTINUE RAISING INTEREST RATE IN LINE WITH IMPROVEMENTS IN ECONOMY, PRICES</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1192629" target="_blank" class="news-link">Hackeradar — 基于 AI 的 Hacker News 内容与讨论摘要</a> [11] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5172942" target="_blank" class="news-link">港股午评：恒指大跌1.79%，科技金融齐跌，AI应用概念股智谱再创新高</a> [12] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c5500-b9cd-7993-a1bf-6a9bf0ffbdbc" target="_blank" class="news-link">&lt;b&gt;SHANGHAI MICROPORT MEDBOT SHARES JUMP 9.1% AFTER SURGICAL ROBOT SALES TOP 200 UNITS&lt;/b&gt;</a> [15] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5172939" target="_blank" class="news-link">大行评级丨花旗：上调中芯国际和华虹半导体目标价，公司将AI与本土替代需求视为关键驱动力</a> [15] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46996258" target="_blank" class="news-link">Evaluating Multilingual, Context-Aware Guardrails: A Humanitarian LLM Use Case</a> [18] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46997658" target="_blank" class="news-link">Inside Epstein’s network: what 1.4M emails reveal</a> [19] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c54db-ab52-7993-a1bf-2c9e88a0a5c1" target="_blank" class="news-link">&lt;b&gt;BAIDU SHARES FALL 3.9% IN HONG KONG&lt;/b&gt;</a> [23] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260213113926677800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2026-02-13）</a> [24] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2398167" target="_blank" class="news-link">Seedance2.0展示中国AI潜力</a> [30] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7604471065860571187" target="_blank" class="news-link">AI流式交互：SSE与WebSocket技术选型</a> [30] <font color='grey'>- 12时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">1.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/624.htm" target="_blank" class="news-link">IDC 报告：2025 年中国平板电脑市场出货量 3376 万台同比增长 13.1%，华为、苹果、小米前三</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3054897" target="_blank" class="news-link">华为Mate80官宣春晚竖屏直播合作伙伴</a> [12] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/589.htm" target="_blank" class="news-link">华为中国合作伙伴大会 2026 宣布将于 3 月 19 日至 20 日举行</a> [24] <font color='grey'>- 12时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/585.htm" target="_blank" class="news-link">Anthropic 完成 300 亿美元 G 轮融资，投后估值达 3800 亿美元</a> [28] <font color='grey'>- 12时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2064782-1-1.html" target="_blank" class="news-link">Windows 11 26H1 2026年2月更新 MSDN 分流【阿里云盘/腾讯微云/移动云盘/ed2k/BT】</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
