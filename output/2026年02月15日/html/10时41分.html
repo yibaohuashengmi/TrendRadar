@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 243</p><p>生成时间: 2026-02-15 10:41:32</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">7.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765746" target="_blank" class="news-link">影响万亿资本的市场叙事争夺：一边是“AI颠覆一切”，一边是“AI回报不够”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1192913" target="_blank" class="news-link">Koharu: 用 Rust + Tauri 写了一个本地 AI 漫画翻译器，现已支持 MCP 协议 (让 AI 帮你啃生肉)</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83561" target="_blank" class="news-link">OpenAI 再次表示 DeepSeek 利用蒸馏训练其模型</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83560" target="_blank" class="news-link">Ars 报道的 AI 新闻包含了 AI 生成的虚假引言</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765728" target="_blank" class="news-link">如何理解开年全球市场？“可负担性”才是总叙事：“主街”要赢一次，AI叙事巨变，日元是“关键”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2290485" target="_blank" class="news-link">美国被曝对委内瑞拉军事行动中使用人工智能模型</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/950.htm" target="_blank" class="news-link">情人节最硬核“Kiss”：中国 AI 突破 300 年亲吻数难题，连刷多维度纪录</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3055576" target="_blank" class="news-link">美国被曝对委内瑞拉军事行动中使用人工智能模型</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32608237" target="_blank" class="news-link">Seedance一骑绝尘背后：中国AI春节前为何“杀疯了”？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765726" target="_blank" class="news-link">OpenClaw之父爆猛料：Meta和OpenAI跪着抢人，小扎亲自求收购</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/944.htm" target="_blank" class="news-link">从云计算、AI 到许可政策，FTC 再次扩大对微软反垄断调查范围</a> [12] <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47020191" target="_blank" class="news-link">I love the work of the ArchWiki maintainers</a> [12] <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202602/1564765.html" target="_blank" class="news-link">韩咏梅：从预算案看AI——一场长期能力的布局</a> [15] <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47019133" target="_blank" class="news-link">Show HN: Off Grid – Run AI text, image gen, vision offline on your phone</a> [15] <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2002407621525800229" target="_blank" class="news-link">Clawdbot 开始雇佣人类，如何看待人类为 AI 打工，是噱头还是终结者降临？</a> [16] <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765728" target="_blank" class="news-link">如何理解开年全球市场？“可负担性”才是总叙事：“主街”要赢一次，AI叙事巨变，日元是“关键”</a> [17] <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260215085544509800" target="_blank" class="news-link">黑龙江：支持生物制造企业运用人工智能、大数据等技术改造升级，提升数字化智能化水平</a> [23] <font color='grey'>- 10时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">5</td>
+                <td class="percentage">2.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/953.htm" target="_blank" class="news-link">东风全新奕派 008 伪装车现身：华为乾崑加持，消息称会升级 800V 平台和城区智驾</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/951.htm" target="_blank" class="news-link">总台马年春晚首次将手机拍摄舞台画面接入广播级系统，华为 Mate 80 系列参与竖屏直播信号制作</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/949.htm" target="_blank" class="news-link">华为昇腾数小时完成 MiniMax M2.5 极速适配，已在多个现网局点试用</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/948.htm" target="_blank" class="news-link">华为乾崑 | 奕境计划一年一款新车节奏稳步发展，首款家庭旗舰大六座 SUV 正精细打磨细节</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/921/942.htm" target="_blank" class="news-link">华为 Mate 60 / Pro 等机型适配，HarmonyOS 6（基于 API 23）开发者版本 Beta 定向招募开启</a> [14] <font color='grey'>- 10时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1192917" target="_blank" class="news-link">求助：需要几个人参与我的单机小游戏 GooglePlay 封闭测试</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2290476" target="_blank" class="news-link">谷歌债券遭全球疯抢 但保护条款“缺席”引发隐忧</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765740" target="_blank" class="news-link">市场监管总局约谈阿里巴巴、抖音、百度、腾讯、京东、美团、淘宝闪购等平台企业</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时41分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/1564756.html" target="_blank" class="news-link">约谈阿里巴巴等七家电商 中国官方提醒杜绝内卷式竞争</a> [24] <font color='grey'>- 10时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260215101721943800" target="_blank" class="news-link">据AXIOS网站：美国国防部威胁要切断与Anthropic的合作。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958603" target="_blank" class="news-link">春节周重磅前瞻：美联储最爱通胀指标，DeepSeek V4或发布</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时41分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
