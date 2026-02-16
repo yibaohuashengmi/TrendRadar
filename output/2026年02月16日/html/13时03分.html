@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 204</p><p>生成时间: 2026-02-16 13:03:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">6</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765774" target="_blank" class="news-link">AI圈内人士：比新冠更大的事情正在发生，人们还懵懂不知</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3055681" target="_blank" class="news-link">AI购票成春节档预售亮点，“千问帮我买电影票”订单量暴增500%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2006637072895738078" target="_blank" class="news-link">OpenClaw 之父宣布加入 OpenAI，对此你怎么看？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765772" target="_blank" class="news-link">OpenClaw创始人加入OpenAI，目标“开发一款连我妈妈都能用的AI助手”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46977678" target="_blank" class="news-link">I Love Board Games: A Personal Obsession Explained by Psychology</a> [11] <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260216113355230800" target="_blank" class="news-link">印度总理莫迪：从今天开始，印度将在德里举办人工智能影响峰会。我热烈欢迎来自世界各地的领导人、行业领袖、创新者、政策制定者、研究人员和科技爱好者参加此次峰会。此次峰会的主题反映了我们共同致力于利用人工智能推动以人为本的进步。</a> [26] <font color='grey'>- 13时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">3</td>
+                <td class="percentage">1.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/061.htm" target="_blank" class="news-link">阿里即将开源新一代千问 Qwen3.5 模型</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3055664" target="_blank" class="news-link">阿里除夕夜将开源新一代千问Qwen3.5模型</a> [19] <font color='grey'>- 13时03分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%83%E9%97%AE%E8%B6%85%E7%BA%A7%E8%AF%B7%E5%AE%A2%E5%8D%A1%E9%9B%86%E5%8D%A1%E4%BB%85%E5%89%A9%E4%B8%80%E5%A4%A9%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">千问超级请客卡集卡仅剩一天</a> [20] <font color='grey'>- 13时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7605985547569397766" target="_blank" class="news-link">从n8n到Claude Skills：轻松搞定小红书热门美食手账，3分钟出图，小白也能会!</a> [30] <font color='grey'>- 13时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
