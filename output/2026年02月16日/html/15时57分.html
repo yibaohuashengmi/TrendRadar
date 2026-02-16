@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 142</p><p>生成时间: 2026-02-16 15:57:32</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">11.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765781" target="_blank" class="news-link">美银Hartnett：“AI颠覆交易”加速扩散，一旦有科技巨头削减开支，将引发美股“轮动海啸”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时57分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202602/1664848.html" target="_blank" class="news-link">英国将收紧AI监管 强制聊天机器人遵守在线安全法案</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c6555-acc6-7ee2-8f54-598c0ff34cae" target="_blank" class="news-link">MiniMax Shares Surge 25% as Optimism Over Chinese AI Firms Grows</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765773" target="_blank" class="news-link">AI热潮助力港股蛇年收官战告捷，MiniMax暴涨25%、智谱涨4.74%齐创新高，有色板块拉升</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765773" target="_blank" class="news-link">AI热潮助力港股蛇年收官战告捷，MiniMax暴涨25%、智谱涨4.74%齐创新高，有色板块拉升</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260216153508680800" target="_blank" class="news-link">OpenAI联合创始人Greg Brockman：Codex的势头强劲，许多人都感受到了5.3版本的巨大飞跃。如果您的组织还没有尝试过Codex，那么值得重新考虑一下。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c6545-717b-7ee2-8f54-443a8fd0bac3" target="_blank" class="news-link">Digital Bank Maya Is Said to Weigh US IPO of Up to $1 Billion</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765774" target="_blank" class="news-link">AI圈内人士：巨大变革正在发生，人们还懵懂不知</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260216153347079800" target="_blank" class="news-link">OpenAI创始人奥尔特曼：Codex的周活跃用户数量自年初以来增长了两倍多。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c653a-04ac-7ee2-8f54-3d04012f2458" target="_blank" class="news-link">DIGITAL BANK MAYA IS SAID TO WEIGH US IPO OF UP TO $1 BILLION</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765769" target="_blank" class="news-link">美股财报电话会现状：“AI风险”讨论翻倍，公司必须“自证清白”，投资者“先卖再问”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765763" target="_blank" class="news-link">斯坦福专家：美国正跨入“AI收获期”，2025年生产率增速有望翻倍至2.7%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260216150741309800" target="_blank" class="news-link">市场消息：AMD(AMD.O)和印度TCS公司将把尖端的“Helios”机架式人工智能架构引入印度。</a> [13] <font color='grey'>- 15时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/082.htm" target="_blank" class="news-link">OpenAI CEO 奥尔特曼：印度 ChatGPT 每周活跃用户已经破亿</a> [14] <font color='grey'>- 15时57分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=46984768" target="_blank" class="news-link">1,300-year-old world chronicle unearthed in Sinai</a> [16] <font color='grey'>- 15时57分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32611897" target="_blank" class="news-link">新春走基层·山乡新貌｜从清理冒牌软件到教用AI：家乡长辈们正努力填平“数字鸿沟”</a> [19] <font color='grey'>- 15时57分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7606102187207704618" target="_blank" class="news-link">AI 共舞，还是被“注意力刺客”偷袭？——程序员的数字专注力守护指南</a> [30] <font color='grey'>- 15时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/080.htm" target="_blank" class="news-link">谷歌调整 Pixel 手机“快速共享”，仅支持“限时 10 分钟向所有人开放设备可见”</a> [16] <font color='grey'>- 15时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/089.htm" target="_blank" class="news-link">华为何刚“剧透”春晚 Mate 80 系列独家机位，可看演员舞台侧表现和互动</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
