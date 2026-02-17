@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 130</p><p>生成时间: 2026-02-18 01:57:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">7.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3056080" target="_blank" class="news-link">苹果大改AI眼镜、Pendant、以及带摄像头的AirPods。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3056079" target="_blank" class="news-link">美联储理事、原来负责金融监管事务的副主席Barr：希望看到证据表明美国通胀显著下降，然后再继续降息。 短期而言，人工智能（AI）可能会深度干扰就业市场。</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47049628" target="_blank" class="news-link">Async/Await on the GPU</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时57分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47049776" target="_blank" class="news-link">Launch HN: Sonarly (YC W26) – AI agent to triage and fix your production alerts</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时57分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47049848" target="_blank" class="news-link">Show HN: Continue – Source-controlled AI checks, enforceable in CI</a> [15] <font color='grey'>- 01时57分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47049520" target="_blank" class="news-link">Show HN: I built a simulated AI containment terminal for my sci-fi novel</a> [16] <font color='grey'>- 01时57分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47049088" target="_blank" class="news-link">Semantic ablation: Why AI writing is generic and boring</a> [18] <font color='grey'>- 01时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3056057" target="_blank" class="news-link">摩根大通：AI带来的扰动将推动小型银行合并</a> [22] <font color='grey'>- 01时57分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47050215" target="_blank" class="news-link">Students Are Being Treated Like Guinea Pigs: Inside an AI-Powered Private School</a> [23] <font color='grey'>- 01时57分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47049426" target="_blank" class="news-link">CBS didn&#x27;t air Rep. James Talarico interview out of fear of FCC</a> [28] <font color='grey'>- 01时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3056082" target="_blank" class="news-link">Anthropic推出Claude Sonnet 4.6模型。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
