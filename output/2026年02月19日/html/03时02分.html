@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 111</p><p>生成时间: 2026-02-19 03:02:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">9.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765845" target="_blank" class="news-link">李飞飞AI初创公司World Labs获10亿美元融资，英伟达和AMD等参投</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765833" target="_blank" class="news-link">公开和沃什“唱反调”？多位美联储高官称：AI提升生产力或意味着“更高的中性利率”</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时02分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1960623371101398549" target="_blank" class="news-link">AI 编程会替代程序员吗?</a> [14] <font color='grey'>- 03时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3056438" target="_blank" class="news-link">中国科研团队研发出AI看病系统 诊断罕见病“有根有据”</a> [16] <font color='grey'>- 03时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260219022513866800" target="_blank" class="news-link">中国科研团队研发出AI看病系统 诊断罕见病“有根有据”</a> [20] <font color='grey'>- 03时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47063451" target="_blank" class="news-link">Fei-Fei Li&#x27;s World Labs raised $1B from A16Z, Nvidia to advance its world models</a> [20] <font color='grey'>- 03时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3056433" target="_blank" class="news-link">美国宣布与网络安全和AI风险管理相关的倡议。</a> [21] <font color='grey'>- 03时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3056432" target="_blank" class="news-link">OpenAI聘请Instagram高管Charles Porch。 Porch将担任OpenAI的全球创新合作伙伴关系副总裁。（Vanity Fair）</a> [22]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260219021420835800" target="_blank" class="news-link">美国财政部宣布关于加强AI网络安全和风险管理的倡议</a> [29] <font color='grey'>- 03时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3056423" target="_blank" class="news-link">印度AI峰会2月18日要点总结</a> [30] <font color='grey'>- 03时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260219021132913800" target="_blank" class="news-link">美国财政部：2月份财政部将陆续发布一套与业界及联邦、州级监管合作伙伴共同开发的六项资源，旨在确保人工智能在整个美国金融体系中的安全性和韧性。</a> [30] <font color='grey'>- 03时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765846" target="_blank" class="news-link">谷歌抢在苹果iPhone 17e之前发布Pixel 10a，升级有限，仍卖499美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
