@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 121</p><p>生成时间: 2026-02-18 19:42:07</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">8.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c708a-a7b3-7bb7-9f5d-528b4f9fefbd" target="_blank" class="news-link">THAI FOREIGN MINISTER: THAILAND WANTS TO BE A BRIDGE TO BRING MYANMAR BACK INTO ASEAN</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47059652" target="_blank" class="news-link">Stop prompting. Let the AI interview you to build specs</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7082-0901-7bb7-9f5d-3f7539a560dc" target="_blank" class="news-link">TIKTOK SAYS IN STATEMENT IN RESPONSE TO SPAIN PROBE&lt;br/&gt;&lt;br/&gt;TIKTOK TO CONTINUE INVESTING IN TECHNOLOGIES TO PROTECT YOUTH</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3056294" target="_blank" class="news-link">谷歌母公司Alphabet首席执行官Pichai：投入人工智能合情合理，因为这是一个非凡的机遇。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/HailToDodongo/pyrite64" target="_blank" class="news-link">HailToDodongo / pyrite64</a> <font color='red'><strong>[8]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765833" target="_blank" class="news-link">公开和沃什“唱反调”？多位美联储高官称：AI提升生产力或意味着“更高的中性利率”</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c705a-77ab-7bb7-9f5c-f1d2eaf01fa3" target="_blank" class="news-link">QUALCOMM COMMITS UP TO $150 MLN FOR STRATEGIC AI VENTURE FUND IN INDIA</a> [13] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7058-978d-7bb7-9f5c-ed2c5ae9498c" target="_blank" class="news-link">BRITAIN&#x27;S FTSE 100 UP 1%, AT FRESH RECORD HIGH</a> [14] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7054-76d5-7bb7-9f5c-d2daa74a3506" target="_blank" class="news-link">HEAD OF UKRAINIAN DELEGATION: THERE IS PROGRESS, BUT NO DETAILS CAN BE DISCLOSED AT THIS STAGE</a> [17] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260218184508088800" target="_blank" class="news-link">高通承诺为印度的战略人工智能风险投资基金出资高达1.5亿美元。</a> [27] <font color='grey'>- 19时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/367.htm" target="_blank" class="news-link">谷歌详解 Android XR 应用设计：告别手机端鲜艳色调，界面悬浮于“一米”开外</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7056-d08b-7bb7-9f5c-e1f4fc062d21" target="_blank" class="news-link">DEEPMIND CEO DEMIS HASSABIS ON ARTIFICIAL GENERAL INTELLIGENCE: IT&#x27;S STILL ANOTHER 5 YEARS AWAY AT LEAST&lt;br/&gt;&lt;br/&gt;DEEPMIND CEO HASSABIS ON ARTIFICIAL GENERAL INTELLIGENCE: TODAY&#x27;S SYSTEM NOT THERE YET</a> [15] <font color='grey'>- 19时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">1.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5173770" target="_blank" class="news-link">上千问“一句话下单”40%是00后，广东、山东、河南00后最积极</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/QwenLM/qwen-code" target="_blank" class="news-link">QwenLM / qwen-code</a> <font color='red'><strong>[4]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
