@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 181</p><p>生成时间: 2026-02-19 21:17:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">6.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3056641" target="_blank" class="news-link">ServiceNow首席运营官Amit Zavery：如果一些软件公司未能为采用人工智能而进行业务转型，那么行业内可能会出现整合。</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47038032" target="_blank" class="news-link">Don&#x27;t Trust the Salt: AI Summarization, Multilingual Safety, and LLM Guardrails</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7605-bc41-7ff9-9a19-57dfdfee8ca8" target="_blank" class="news-link">DETERMINATION OF THE NEXT MEETING LOCATION IN UKRAINE WILL DEPEND ON THE ANALYSIS OF THE RESULTS OF THE GENEVA NEGOTIATIONS, PESKOV SAID.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1193251" target="_blank" class="news-link">博弈圆桌 -- 让 AI 分身替你谈判，三轮博弈自动达成共识</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2002102277314454310" target="_blank" class="news-link">腾讯姚顺雨首篇论文提出「AI 下半场」先搞上下文学习，这意味着什么？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c75fd-4510-7ff9-9a19-2e3f4511a2dc" target="_blank" class="news-link">BOEING: FEDERAL AVIATION ADMINISTRATION (FAA) &amp; EUROPEAN UNION AVIATION SAFETY AGENCY (EASA) APPROVE SIMULATOR DEVICES FOR AIRLINE PILOT TRAINING</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c75fc-7d1f-7ff9-9a19-2023559f90ed" target="_blank" class="news-link">TURKEY&#x27;S MAIN BIST-100 INDEX DOWN 3%, TURKEY&#x27;S MAIN BANKING INDEX DOWN 4.3%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2291068" target="_blank" class="news-link">AI驱动存储持续迭代！三星PIM技术量产在即 或绕过CPU、GPU直接计算</a> [13] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7608479654936674347/" target="_blank" class="news-link">美国两大人工智能巨头CEO拒绝牵手</a> [15] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47067395" target="_blank" class="news-link">What years of production-grade concurrency teaches us about building AI agents</a> [29] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c75ac-53ab-7ff9-9a18-76758273b6b8" target="_blank" class="news-link">MORGAN STANLEY RAISES EBAY TARGET PRICE TO $119.00 FROM $112.00</a> [30] <font color='grey'>- 21时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7606555195753873408" target="_blank" class="news-link">除夕夜，国产顶流压轴上线，QWEN3.5多模态开源！</a> [29] <font color='grey'>- 21时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
