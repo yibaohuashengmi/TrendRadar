@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 165</p><p>生成时间: 2026-02-19 22:31:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">8</td>
+                <td class="percentage">4.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28350787&amp;amp;topic_name=%E6%97%A5%E7%9B%9F%E8%AD%A6%E5%91%8A%3A%E5%AD%97%E8%8A%82AI%E5%88%AB%E6%9D%A5%E6%B2%BE%E8%BE%B9" target="_blank" class="news-link">日盟警告:字节AI别来沾边</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时31分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1193256" target="_blank" class="news-link">[吐槽] 零基础靠 AI 搓了个佳能打印小程序，自己还没用热乎就被微信永封了...</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/507.htm" target="_blank" class="news-link">特斯拉：xAI Grok 将上线欧洲市场，率先在 9 国推出</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/506.htm" target="_blank" class="news-link">OpenAI 奥尔特曼：AI 确实会影响就业，但有的公司却拿它“洗白”裁员计划</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/505.htm" target="_blank" class="news-link">逆势而行：AI 搜索企业 Perplexity 停止广告投放</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/497.htm" target="_blank" class="news-link">沙特 AI 基金 HUMAIN 参与 xAI 合并前 E 轮融资，投资 30 亿美元</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/496.htm" target="_blank" class="news-link">印度企业巨头竞相加码 AI 投入：信实宣布 7 年 10 万亿卢比综合性投资</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时31分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E4%B8%A4%E5%A4%A7%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%B7%A8%E5%A4%B4CEO%E6%8B%92%E7%BB%9D%E7%89%B5%E6%89%8B%23&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">美两大人工智能巨头CEO拒绝牵手</a> [27] <font color='grey'>- 22时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1193255" target="_blank" class="news-link">Claude VS GLM VS Kimi VS MiniMax VS Gemini 2026 年半年内 Vibe Coding 谁更强？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83578" target="_blank" class="news-link">Google 的新手机 Pixel 10a 基本上就是去年的 Pixel 9a</a> <font color='red'><strong>[3]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
