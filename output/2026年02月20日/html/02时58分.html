@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 69</p><p>生成时间: 2026-02-20 02:58:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">8</td>
+                <td class="percentage">11.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47076966" target="_blank" class="news-link">AI Makes You Boring</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c771c-d331-7bbe-b960-b9f9c93b2fb2" target="_blank" class="news-link">BRAZIL EXPORTS SORGHUM TO CHINA FOR FIRST TIME IN 10 YEARS, SHIPS 25.8 METRIC TONS OF GRAIN TO ASIAN COUNTRY</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7713-09ca-7bbe-b960-a4689b77d897" target="_blank" class="news-link">UK GOVT: AISI’S ALIGNMENT PROJECT SUPPORTED BY INTERNATIONAL COALITION INCLUDING AMAZON WEB SERVICES, ANTHROPIC &amp; OTHERS</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7712-e692-7bbe-b960-99f38ca7f660" target="_blank" class="news-link">OPENAI: ANNOUNCES $7.5 MLN GRANT TO ALIGNMENT PROJECT⁠,GLOBAL FUND FOR INDEPENDENT ALIGNMENT RESEARCH CREATED BY UK AI SECURITY INSTITUTE</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7710-a56d-7bbe-b960-911de62c9d06" target="_blank" class="news-link">UK GOVT: OPENAI AND MICROSOFT PLEDGE NEW FUNDING TO AI SECURITY INSTITUTE’S FLAGSHIP ALIGNMENT PROJECT - WEBSITE</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260220020608060800" target="_blank" class="news-link">英国政府：人工智能安全研究所的对齐项目得到包括亚马逊云服务、Anthropic等在内的国际联盟支持。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3056737" target="_blank" class="news-link">印度AI峰会出现尴尬一幕：OpenAI与Anthropic的老板们拒绝牵手</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260220020324756800" target="_blank" class="news-link">英国政府：OpenAI和微软(MSFT.O)承诺为人工智能安全研究所的旗舰对齐项目提供新资金。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">1.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47076826" target="_blank" class="news-link">DOGE Bro&#x27;s Grant Review Process Was Literally Just Asking ChatGPT &#x27;Is This DEI?&#x27;</a> [24] <font color='grey'>- 02时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">1.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> [28] <font color='grey'>- 02时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
