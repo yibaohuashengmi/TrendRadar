@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 150</p><p>生成时间: 2026-02-19 17:54:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">8.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/1965002.html" target="_blank" class="news-link">中国科研团队研发出AI看病系统 可诊断罕见病</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7545-6003-7ff9-9a17-83ee0d09f82f" target="_blank" class="news-link">POLL - LONG POSITIONS ON CHINESE YUAN MAINTAINED SINCE EARLY SEPTEMBER</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/473.htm" target="_blank" class="news-link">谷歌 DeepMind CEO 哈萨比斯预警 AI 严峻风险，呼吁各国加强合作</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/471.htm" target="_blank" class="news-link">施耐德 CEO 布鲁姆：AI 有望大幅节省电力</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7541-51d2-7ff9-9a17-7466796d8b57" target="_blank" class="news-link">KREMLIN ON RUSSIAN NAVAL DRILLS WITH IRAN: THESE WERE PLANNED EXERCISES AGREED IN ADVANCE&lt;br/&gt;&lt;br/&gt;KREMLIN ON IRAN: WE SEE AN UNPRECEDENTED ESCALATION OF TENSION IN THE REGION&lt;br/&gt;&lt;br/&gt;KREMLIN ON IRAN: WE ARE DEVELOPING RELATIONS WITH IRAN AND URGE OUR IRANIAN FRIENDS AND OTHER PARTIES TO EXERCISE RESTRAINT AND PRUDENCE</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3056605" target="_blank" class="news-link">印度首富承诺最高投资1100亿美元建AI基础设施</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7528-c101-7ff9-9a17-25f141ec3a2b" target="_blank" class="news-link">HUNGARY PM ORBAN&#x27;S CHIEF OF STAFF SAYS WE WILL TAKE STEPS IF UKRAINE KEEPS HALTING OIL SHIPMENTS VIA DRUZHBA</a> [15]</div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E7%BC%A4%E7%BA%B7%E4%B8%96%E7%95%8C/20260219-google%E5%B0%86%E4%B8%BA%E5%85%B6%E5%8D%B0%E5%BA%A6%E6%96%B0ai%E5%9F%BA%E5%BB%BA%E4%B8%AD%E5%BF%83%E9%93%BA%E8%AE%BE%E6%B5%B7%E7%BC%86" target="_blank" class="news-link">Google将为其印度新AI基建中心铺设海缆</a> [15] <font color='grey'>- 17时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7526-d674-7ff9-9a17-1d7c065e6b60" target="_blank" class="news-link">AIRBUS CEO SAYS THE COMPANY HAS INITIATED A PROCESS REGARDING CONTRACTUAL DISPUTE WITH PRATT &amp; WHITNEY</a> [16] <font color='grey'>- 17时54分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7607597361293230118" target="_blank" class="news-link">Rust 编写的 40MB 大小 MicroVM 运行时，完美替代 Docker 作为 AI Agent Sandbox</a> [23] <font color='grey'>- 17时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c751f-d39b-7ff9-9a16-d171305fadf1" target="_blank" class="news-link">INDIA&#x27;S MODI CALLS FOR OPEN, INCLUSIVE AI FOR GLOBAL SOUTH</a> [25] <font color='grey'>- 17时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7517-5d0f-7ff9-9a16-c1fa65b5ca39" target="_blank" class="news-link">Chinese tech companies progress ‘remarkable’: OpenAI’s Altman</a> [27] <font color='grey'>- 17时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
