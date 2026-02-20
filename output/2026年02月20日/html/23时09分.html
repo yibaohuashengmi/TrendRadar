@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 138</p><p>生成时间: 2026-02-20 23:09:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">7.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/2065086.html" target="_blank" class="news-link">春节后中国AI初创企业智谱MiniMax股价飙升</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260220224904139800" target="_blank" class="news-link">美联储博斯蒂克：企业尚不清楚人工智能工具是会补充还是取代员工。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/632.htm" target="_blank" class="news-link">OpenAI 首款硬件设备被曝为智能音箱：最快 2027 年 2 月上市，售价 200-300 美元</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260220224757593800" target="_blank" class="news-link">美联储博斯蒂克：由于人工智能工具可能节省劳动力，雇主在招聘时更加谨慎。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7b6a-2e8f-7118-bce0-e704141bdc05" target="_blank" class="news-link">FRENCH PRESIDENCY: MACRON TO CO-PRESIDE A VIDEO-CONFERENCE MEETING OF UKRAINE&#x27;S COALITION OF THE WILLING ALONG WITH UK PM STARMER ON FEB 24</a> [11] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3056968" target="_blank" class="news-link">OpenAI智能音箱售价或定在200至300美元之间。（The Information）</a> [12] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2291896" target="_blank" class="news-link">莫迪举手全场欢呼 两大AI掌门人却各自握拳尴尬对峙</a> [13] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7b64-ce49-7118-bce0-b8c16d183159" target="_blank" class="news-link">INDONESIA ENERGY MINISTER: WILL NEGOTIATE FURTHER WITH FREEPORT ON DETAILS ABOUT ROYALTY, TAX AFTER INITIAL MINING PERMIT EXTENSION DEAL</a> [16] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7b5c-ba29-7118-bce0-911cf96c2da4" target="_blank" class="news-link">OPENAI’S SMART SPEAKER, PRICED $200-$300, WON’T SHIP UNTIL FEB 2027 AT EARLIEST - THE INFORMATION</a> [21] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7b5c-858d-7118-bce0-8ab28ad0a8ef" target="_blank" class="news-link">OPENAI’S 200-PERSON TEAM DEVELOPS AI DEVICES, INCLUDING A SMART SPEAKER-THE INFORMATION</a> [22] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/637541504.html" target="_blank" class="news-link">AI如今的实力，最先绞杀的行业是哪个行业？</a> [24] <font color='grey'>- 23时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/635.htm" target="_blank" class="news-link">谷歌 Google Play 服务升级至 v26.06，支持本地（下载）文件备份</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
