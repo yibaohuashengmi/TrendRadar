@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 40</p><p>生成时间: 2026-02-21 06:32:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">8</td>
+                <td class="percentage">20.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7d13-9caf-7118-bce7-a184fc039d5b" target="_blank" class="news-link">AMAZON: MEDIA REPORT CLAIM THAT A SECOND EVENT IMPACTED AWS IS &quot;ENTIRELY FALSE&quot;</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7d11-c761-7118-bce7-95362415c59f" target="_blank" class="news-link">AMAZON: ISSUE STEMMED FROM A MISCONFIGURED ROLE, THE SAME ISSUE THAT COULD OCCUR WITH ANY DEVELOPER TOOL (AI POWERED OR NOT) OR MANUAL ACTION&lt;br/&gt;&lt;br/&gt;AMAZON: DISRUPTION IN DECEMBER DID NOT IMPACT COMPUTE, STORAGE, DATABASE, AI TECHNOLOGIES, OR ANY OTHER OF HUNDREDS OF SERVICES THAT WE RUN</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7d0f-b9e7-7118-bce7-8436d343c3ff" target="_blank" class="news-link">OPENAI NOW PROJECTS CLOSER TO $600B IN TOTAL COMPUTE SPEND THROUGH 2030 - CNBC</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3057126" target="_blank" class="news-link">OpenAI工作人员针对加拿大枪击案的嫌犯拉响警报。 相关人员在OpenAI的ChatGPT上谈论枪支暴力活动问题。（华尔街日报）</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7cf6-d6f6-7118-bce7-5a81aff5159d" target="_blank" class="news-link">OPENAI BANNED BRITISH COLUMBIA SHOOTING SUSPECT MONTHS BEFORE MASS SHOOTING OVER CHAT ACTIVITY -- WSJ&lt;br/&gt;&lt;br/&gt;OPENAI DEBATED ALERTING LAW ENFORCEMENT ABOUT JESSE VAN ROOTSELAAR&#x27;S DESCRIPTIONS OF VIOLENCE ON CHATGPT&lt;br/&gt;&lt;br/&gt;OPENAI DECIDED NOT TO INFORM AUTHORITIES ABOUT VAN ROOTSELAAR&#x27;S ACTIVITY&lt;br/&gt;&lt;br/&gt;OPENAI DETERMINED RISK FROM VAN ROOTSELAAR&#x27;S ACTIVITY NOT CREDIBLE OR IMMINENT&lt;br/&gt;&lt;br/&gt;OPENAI EMPLOYEES RAISED ALARMS ABOUT CANADA SHOOTING SUSPECT MONTHS AGO</a> [11] <font color='grey'>- 06时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3057127" target="_blank" class="news-link">报道：英伟达接近向OpenAI投资300亿美元</a> [17] <font color='grey'>- 06时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3057100" target="_blank" class="news-link">微软任命AI高管执掌Xbox，重新致力于发展主机业务</a> [30] <font color='grey'>- 06时32分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47093953" target="_blank" class="news-link">Phil Spencer is exiting Microsoft as AI executive takes over Xbox</a> [30] <font color='grey'>- 06时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5173895" target="_blank" class="news-link">美股三大指数集体收涨 谷歌涨超4%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时32分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
