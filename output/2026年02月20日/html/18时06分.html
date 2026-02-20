@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 143</p><p>生成时间: 2026-02-20 18:06:28</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">6.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1193310" target="_blank" class="news-link">从洗车问题到存款问题，短期内 AI 编程无法全自动化</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7a75-aa78-7bbe-b964-c3b85275c44a" target="_blank" class="news-link">KREMLIN: CAN&#x27;T CONFIRM YET WHEN NEW UKRAINE TALKS WILL TAKE PLACE&lt;br/&gt;&lt;br/&gt;KREMLIN: IT&#x27;S IMPOSSIBLE TO DISCUSS PEACE DEAL WITH JAPAN WITHOUT CHANGING THE RELATIONS&#x27; MODALITY&lt;br/&gt;&lt;br/&gt;KREMLIN: NO DIALOGUE ON PEACE DEAL WITH JAPAN, TOKYO IS TAKING HOSTILE POSITION TOWARDS RUSSIA</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7a74-b56d-7bbe-b964-b1d64a8070a1" target="_blank" class="news-link">UKRAINE’S PRESIDENT ZELENSKIY: READY TO SPEAK ABOUT COMPROMISES WITH THE US</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/600.htm" target="_blank" class="news-link">刷新深空探测极限：我国科学家用天文 AI 模型绘制“极致深空图”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E7%94%A8AI%E9%89%B4%E5%AE%9A%E7%8E%89%E7%9F%B38%E4%B8%AA%E6%9C%88%E6%94%B6%E5%85%A5%E4%B8%8A%E7%99%BE%E4%B8%87%23&amp;t=31&amp;band_rank=5&amp;Refer=top" target="_blank" class="news-link">男子用AI鉴定玉石8个月收入上百万</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7a6a-d485-7bbe-b964-90313260ce22" target="_blank" class="news-link">UKRAINE’S PRESIDENT ZELENSKIY SEEKS TO OPEN A CHAPTER OF DEFENSE COOPERATION WITH JAPAN</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7a5f-cb7d-7bbe-b964-79f6d5143472" target="_blank" class="news-link">Comex Gold Futures’ Bullish Momentum Remains in Play, Daily Chart Shows</a> [11] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3056907" target="_blank" class="news-link">我国科学家用天文AI模型绘制“极致深空图”</a> [16] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c7a47-8d9a-7bbe-b964-255253032aae" target="_blank" class="news-link">IMF CHIEF STATED THAT ARTIFICIAL INTELLIGENCE HAS THE POTENTIAL TO RAISE GLOBAL ECONOMIC GROWTH BY ALMOST 1%</a> [22] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7606728595557957667" target="_blank" class="news-link">Grok 4.2 重磅来袭！xAI 最新 AI 模型功能全解析（2026 年 2 月版）</a> [27] <font color='grey'>- 18时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765902" target="_blank" class="news-link">谷歌美股盘前涨超1%，现货黄金站上5040美元/盎司</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3056911" target="_blank" class="news-link">谷歌美股盘前涨超1%，此前发布Gemini 3.1 Pro，核心推理性能直接翻倍。</a> [12] <font color='grey'>- 18时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
