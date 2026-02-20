@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 145</p><p>生成时间: 2026-02-20 16:03:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">9.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47031197" target="_blank" class="news-link">Defer available in gcc and clang</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3056886" target="_blank" class="news-link">希腊启动“灯塔”项目推动人工智能发展</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c79fe-8c9c-7bbe-b963-534debd44d5c" target="_blank" class="news-link">Trump’s $33 Billion Ohio Gas Project Is Very Short on Details</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时03分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47082854" target="_blank" class="news-link">Pi for Excel: AI sidebar add-in for Excel</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260220151207607800" target="_blank" class="news-link">希腊启动“灯塔”项目推动人工智能发展</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c79ea-1e5f-7bbe-b963-2b3caee3a8db" target="_blank" class="news-link">China AI Startups Surge After Holiday in Rotation From Big Tech</a> [11]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c79e3-868d-7bbe-b963-14ec07c9ac67" target="_blank" class="news-link">TD COWEN RAISES WALMART TARGET PRICE TO $145 FROM $136</a> [14] <font color='grey'>- 16时03分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ada-2/launches/chartgen-ai-4?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ChartGen AI</a> [20] <font color='grey'>- 16时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c79d9-2f4c-7bbe-b962-bbe65107c643" target="_blank" class="news-link">Core Retail Sales (YoY) (Jan)</a> [22] <font color='grey'>- 16时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c79d9-2f51-7bbe-b962-c2ac3162eade" target="_blank" class="news-link">Retail Sales (YoY) (Jan)</a> [23] <font color='grey'>- 16时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c79d9-2f9c-7bbe-b962-d0c4efcc3a07" target="_blank" class="news-link">Core Retail Sales (MoM) (Jan)</a> [24] <font color='grey'>- 16时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c79d9-2f55-7bbe-b962-cd223306c9f2" target="_blank" class="news-link">Retail Sales (MoM) (Jan)</a> [25] <font color='grey'>- 16时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c79d5-e97a-7bbe-b962-b19d97db784e" target="_blank" class="news-link">US Imports More From Taiwan Than China for First Time in Decades</a> [26] <font color='grey'>- 16时03分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7607105207067967514" target="_blank" class="news-link">你的 AI 代码全是“假绿灯”？用“反向测试”逼它自证清白</a> [30] <font color='grey'>- 16时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/586.htm" target="_blank" class="news-link">前谷歌工程师涉嫌盗窃 Tensor 处理器机密：FBI 介入三人被捕，或面临至少 20 年刑期</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
