@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 200</p><p>生成时间: 2026-02-23 21:48:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">8.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/2365281.html" target="_blank" class="news-link">Seedance 2.0: 这款中国AI应用程式令好莱坞陷入恐慌</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1193586" target="_blank" class="news-link">AI 市场现在最大的空白是给设计师用的 Copilot 或是能跟 Figma 协作的 Vibe Coding</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202602/2365280.html" target="_blank" class="news-link">仅耗时20分钟，我骇入了ChatGPT和Google的AI系统</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1193584" target="_blank" class="news-link">Ladybird 浏览器开发者使用 AI 将 JS 编译器用 Rust 改写了一遍</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3057491" target="_blank" class="news-link">美联储理事沃勒：企业在过度招聘后开始削减员工。 首席执行官们表示人工智能将导致大量裁员。 疲软的劳动力市场状况可能持续下去。 我们去年看到的生产力增长并非来自人工智能。 稀缺准备金制度是低效且“愚蠢的”。</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3057490" target="_blank" class="news-link">TS Lombard：美国国债并非AI颠覆性风险背景下的理想选择</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8ab1-2756-7118-bced-b622024c9c04" target="_blank" class="news-link">WALLER: COMPANIES ARE STILL TRYING TO DETERMINE HOW AI MAY REDUCE LABOR DEMAND, OR SIMILARLY ALLOW WORKERS TO BE REPURPOSED</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8ab0-2efe-7118-bced-afc13d7b51ab" target="_blank" class="news-link">WALLER: AI IS DIFFUSING SO FAST IT IS EASY TO WHAT JOBS MIGHT GO AWAY BEFORE IT IS CLEAR WHAT JOBS MAY BE CREATED</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8aaf-ac53-7118-bced-a35601c9fb70" target="_blank" class="news-link">WALLER: HARD TO INTEREPRET RECENT UNINSURANCE CLAIMS DATA</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/981.htm" target="_blank" class="news-link">阿联酋挫败针对关键部门的 AI 驱动有组织恐怖主义性质网络攻击</a> [11] <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8aae-b70a-7118-bced-8ccf387d7578" target="_blank" class="news-link">FED&#x27;S WALLER: THERE ARE REASONS INCLUDING AI TO THINK THE HIRING MAY REMAIN WEAK</a> [13] <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2008557531367224108" target="_blank" class="news-link">24 人团队研发新芯片每秒 17000 个 token，将对 AI 芯片市场带来哪些影响？</a> [13] <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3057483" target="_blank" class="news-link">又一篇“AI灭绝”帖疯传：AI效率悖论或引发经济通缩，标普500指数恐暴跌将近40%</a> [17] <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260223205622668800" target="_blank" class="news-link">国家能源局：主要国家加大氢能、固态电池等前沿技术研发应用，AI成重塑国际能源格局的新变量</a> [22] <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8a96-c007-7118-bced-390da9999613" target="_blank" class="news-link">WALLER: IT IS POSSIBLE THE LABOR MARKET HAS PIVOTED TO A MORE SOLID FOOTING AFTER A WEAK 2025&lt;br/&gt;&lt;br/&gt;WALLER: CONSIDER UNDERLYING INFLATION EXCLUDING THE IMPACT OF TARIFFS TO BE CLOSE TO 2%&lt;br/&gt;&lt;br/&gt;WALLER: NOT CERTAIN HOW FIRMS WILL RESPOND TO SUPREME COURT TARIFF RULING, BUT DO NOT THINK IT WILL INFLUENCE VIEWS ON APPROPRIATE MONETARY POLICY&lt;br/&gt;&lt;br/&gt;WALLER: &quot;NO DISMISSING&quot; WEAK JOB CREATION OF 2025, BUT ALSO TRUE THAT ECONOMIC ACTIVITY HAS BEEN STRONGER THAN EXPECTED</a> [23] <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8a89-b667-7118-bced-2f18c45227c5" target="_blank" class="news-link">ANOTHER ROUND OF TALKS ON UKRAINE PEACE COULD BE HELD AT END OF WEEK, HEAD OF ZELENSKIY&#x27;S OFFICE TELLS UKRAINIAN MEDIA</a> [25] <font color='grey'>- 21时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8a86-53bb-7118-bced-26fc0e23ffeb" target="_blank" class="news-link">TURKEY ADJOURNS HEARING ON MAIN OPPOSITION PARTY TO APRIL 1:NTV</a> [26] <font color='grey'>- 21时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260223204139082800" target="_blank" class="news-link">美媒：美防长赫格塞思将与Anthropic CEO会面</a> [30] <font color='grey'>- 21时48分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
