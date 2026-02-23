@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 308</p><p>生成时间: 2026-02-23 10:37:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">5.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47115805" target="_blank" class="news-link">Google restricting Google AI Pro/Ultra subscribers for using OpenClaw</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8839-1ccf-7118-bce8-b234e1a92b2a" target="_blank" class="news-link">GOLDMAN SACHS RAISES BRENT/WTI FORECAST FOR 2026Q4 BY $6 TO $60/56 ON LOWER OECD STOCKS&lt;br/&gt;&lt;br/&gt;GOLDMAN SACHS RAISES EXPECTS BRENT/WTI TO AVERAGE $65/61 IN 2027 AND TO RECOVER TO $70/66 BY DEC27 ON SOLID DEMAND AND SLOWING SUPPLY GROWTH</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47116866" target="_blank" class="news-link">The surprising power of daily rituals</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c882d-20d2-7118-bce8-98bccedaf2aa" target="_blank" class="news-link">TAIWAN&#x27;S BENCHMARK STOCK INDEX RISES 1.8% TO A RECORD HIGH OF 34,202.05 POINTS</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/894.htm" target="_blank" class="news-link">消息称 OpenAI 去年收入 130 亿美元，预计到 2030 年总计算支出达到约 6000 亿美元</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765955" target="_blank" class="news-link">无视海外“AI恐慌”，中国市场狂炒AI赢家</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/892.htm" target="_blank" class="news-link">法拉第未来 EAI 机器人下周开启首批交付，贾跃亭称有信心按规划完成后续的交付和爬坡计划</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202602/2365223.html" target="_blank" class="news-link">郑智月、薛芬妮：在人工智能经济中提升领导能力</a> [11] <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/888.htm" target="_blank" class="news-link">现代汽车集团将斥资 10 万亿韩元开发人工智能、氢能、机器人</a> [12] <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202602/2365220.html" target="_blank" class="news-link">潘政麟：全球深海酝酿AI军备竞赛</a> [14] <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260223084535159800" target="_blank" class="news-link">人工智能热潮提振芯片需求 韩国出口延续强劲势头</a> [15] <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/2365216.html" target="_blank" class="news-link">中国无惧全球“AI恐慌交易” 投资者纷追逐赢家</a> [18] <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c881f-cd27-7118-bce8-3c2cd549b5a7" target="_blank" class="news-link">HK TECH STOCKS RALLY; NETEASE +4.18%, JD HEALTH +3.2%, KUAISHOU +3.01%, MEITUAN +3%</a> [19] <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47113731" target="_blank" class="news-link">NanoClaw moved from Apple Containers to Docker</a> [21] <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8804-d854-7118-bce7-ffe33afa7766" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX OPENED UP 1.0%</a> [27] <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7608382961723555890" target="_blank" class="news-link">Skills 实战:让 AI 成为你的领域专家</a> [27] <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7609833127870991881/" target="_blank" class="news-link">博主：《飞驰人生3》韩寒沈腾战胜AI焦虑</a> [28] <font color='grey'>- 10时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c87fa-ebf6-7118-bce7-edbbe6c4ceee" target="_blank" class="news-link">&lt;b&gt;SOUTH KOREA INDUSTRY MINISTER: THERE&#x27;S UNCERTAINTY CONCERNING U.S. TARIFFS REFUND&lt;br/&gt;&lt;br/&gt;SOUTH KOREA INDUSTRY MINISTER: CHIPS ARE NOT SUBJECT TO TRUMP&#x27;S NEW TARIFFS&lt;/b&gt;</a> [29] <font color='grey'>- 10时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/922/898.htm" target="_blank" class="news-link">华为鸿蒙 HarmonyOS 特征卡片曝光，支持待机屏保、轻量交互等功能</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
