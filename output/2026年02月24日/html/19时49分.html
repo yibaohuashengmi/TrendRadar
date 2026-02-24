@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 192</p><p>生成时间: 2026-02-24 19:49:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">8.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766067" target="_blank" class="news-link">知名对冲基金经理：软件债务危机，仅因AI恐惧就可能爆发</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/313.htm" target="_blank" class="news-link">谷歌 AI 学习笔记 NotebookLM 现已支持提示词引导修改与幻灯导出等功能</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/312.htm" target="_blank" class="news-link">《绝地求生》《幻兽帕鲁》开发商 Krafton 进一步押注人工智能，任命新“首席 AI 官”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8f5c-82d4-7118-bcf8-78f5c659c83a" target="_blank" class="news-link">&lt;B&gt;INTEL PARTNERS WITH AI CHIP STARTUP SAMBANOVA AFTER ACQUISITION TALKS REPORTEDLY FAILED&lt;/B&gt;</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7610390288040726035/" target="_blank" class="news-link">马斯克设想从月球电磁弹射AI卫星</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3058106" target="_blank" class="news-link">马斯克设想从月球电磁弹射AI卫星</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8f5b-40e0-7118-bcf8-6c29b4b55a22" target="_blank" class="news-link">FED&#x27;S BOSTIC: THE FED HAS MAINTAINED FOCUS ON ECONOMIC OUTCOMES ACROSS GROUPS; THIS DATA IS IMPORTANT IN UNDERSTANDING LABOR MARKET SLACK</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8f5a-a577-7118-bcf8-529671e25d1a" target="_blank" class="news-link">FED&#x27;S BOSTIC: I HAVE HOPE THAT GUARDRAILS PROTECTING FED INDEPENDENCE WILL BE MAINTAINED</a> [12] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260224191851131800" target="_blank" class="news-link">马斯克设想从月球电磁弹射AI卫星</a> [13] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8f59-0d33-7118-bcf8-1aeb50c972ec" target="_blank" class="news-link">CHINA PREMIER LI QIANG CHAIRS STATE COUNCIL MEETING ON PROMOTING SILVER ECONOMY AND ELDERLY CARE DEVELOPMENT</a> [19] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8f50-a922-7118-bcf7-fc6829485b9b" target="_blank" class="news-link">&lt;b&gt;APPLE WILL ALSO EXPAND ADVANCED AI SERVER MANUFACTURING AT HOUSTON FACTORY&lt;/b&gt;</a> [23] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260224190953033800" target="_blank" class="news-link">美联储博斯蒂克：向人工智能的过渡可能令美联储难以理解。</a> [23] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260224190631079800" target="_blank" class="news-link">苹果(AAPL.O)：休斯顿人工智能服务器的生产提前完成。</a> [24] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8f4f-4ad5-7118-bcf7-dc5a02d30fcf" target="_blank" class="news-link">APPLE INC - AI SERVER PRODUCTION IN HOUSTON AHEAD OF SCHEDULE</a> [27] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8f4e-ae0d-7118-bcf7-d01f544c1827" target="_blank" class="news-link">CBI Retail Sales Expectations Index (Feb)</a> [28] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8f4e-5230-7118-bcf7-c86494039e4d" target="_blank" class="news-link">CBI Retail Sales Balance (Feb)</a> [29] <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7608759940800544818" target="_blank" class="news-link">我用Claude Code搭了个四个AI的团队，居然真的能协作开发（附项目地址）</a> [29] <font color='grey'>- 19时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2009538062087123054" target="_blank" class="news-link">如何看待 Anthropic 指控 DeepSeek 、 Kimi 和 MiniMax 「蒸馏攻击」其模型?</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3766010" target="_blank" class="news-link">就在今晚！软件股再遭打击？Anthropic将直播展示Claude最新功能</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47135562" target="_blank" class="news-link">Atlantic: Sam Altman Is Losing His Grip on Humanity</a> [18] <font color='grey'>- 19时49分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
