@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 197</p><p>生成时间: 2026-02-24 21:17:18</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">9.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/336.htm" target="_blank" class="news-link">微软 Xbox 新 CEO 回应舆论风波：承认新建账号，否认“AI 发推”与“营造人设”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8fab-3761-7118-bcf9-46e580bb2e4c" target="_blank" class="news-link">WELLS FARGO RAISES QUALCOMM INCORPORATED TO EQUAL WEIGHT FROM UNDERWEIGHT</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766076" target="_blank" class="news-link">AI算力史诗级订单！Meta豪掷1000亿美元锁定AMD芯片，五年长约硬刚英伟达</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8f9a-935a-7118-bcf9-2140a691357a" target="_blank" class="news-link">Crypto Drops Amid AI, Tariff Concerns; Bitcoin Falls to $63K</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5174564" target="_blank" class="news-link">「双一亿」杀出春节AI混战，是时候重估蚂蚁了</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5174563" target="_blank" class="news-link">民德电子(300656.SZ)：暂无生产存储或者ai芯片相关的产品</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/323.htm" target="_blank" class="news-link">AMD 宣布与 Meta 扩大战略合作伙伴关系：将部署 6 吉瓦 GPU 以加速 AI 基建，股价暴涨 15%</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8f8b-6e6a-7118-bcf9-01c91a755a8e" target="_blank" class="news-link">Meta and AMD Agree to AI Chips Deal Worth More Than $100 Billion</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8f88-a50c-7118-bcf8-f91fde256a83" target="_blank" class="news-link">AMD SHARES JUMP 10.9% PREMARKET AFTER CO AGREES TO SELL UP TO $60 BLN WORTH OF AI CHIPS TO META</a> [11] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260224210150230800" target="_blank" class="news-link">美联储古尔斯比：消费支出而非人工智能投资一直是经济增长的主要动力。</a> [13] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47136179" target="_blank" class="news-link">IDF Killed Gaza Aid Workers at Point Blank Range in 2025 Massacre: Report</a> [13] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3058136" target="_blank" class="news-link">Arini创始人：无需颠覆真正发生 对AI的忧虑便足以引发软件公司违约</a> [14] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/318.htm" target="_blank" class="news-link">SambaNova 发布第五代 RDU AI 芯片，与英特尔达成多年期合作</a> [14] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c8f85-e664-7118-bcf8-be06833d9cb2" target="_blank" class="news-link">META AND AMD AGREE TO AI CHIPS DEAL WORTH MORE THAN $100 BILLION -- WSJ</a> [19] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/312.htm" target="_blank" class="news-link">《绝地求生》开发商 Krafton 进一步押注人工智能，任命新“首席 AI 官”</a> [19] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/f4bf94ebaa724cc5ac704f8237863181" target="_blank" class="news-link">总结下秋招被问到的关于AI的面试题</a> [19] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3058124" target="_blank" class="news-link">AMD美股盘前涨超15%，Meta与AMD达成重磅协议，斥资数百亿美元采购AI设备。</a> [21] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3058122" target="_blank" class="news-link">Meta与AMD达成重磅协议 斥资数百亿美元采购AI设备</a> [22] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9D%8E%E4%BD%B3%E8%96%87JKAI%E5%A3%B0%E4%B9%90%E5%A4%A7%E5%B8%88%E8%AF%BE" target="_blank" class="news-link">李佳薇JKAI声乐大师课</a> [29] <font color='grey'>- 21时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260224210724709800" target="_blank" class="news-link">财捷集团股价上涨5.4%，公司宣布与Anthropic达成协议。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3058148" target="_blank" class="news-link">财捷美股盘前涨超6%，公司和ANTHROPIC宣布建立多年合作伙伴关系。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1193825" target="_blank" class="news-link">好消息, 新版本 antigaravity 的 gemini-pro 3.1 可用性大幅提高了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/855809591567790080" target="_blank" class="news-link">华为 C++ 一面</a> [14] <font color='grey'>- 21时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5174561" target="_blank" class="news-link">金现代(300830.SZ)：轻骑兵低代码开发平台已经应用了DeepSeek等大模型</a> [11] <font color='grey'>- 21时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
