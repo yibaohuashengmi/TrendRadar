@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 345</p><p>生成时间: 2026-02-25 12:57:07</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">26</td>
+                <td class="percentage">7.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1193961" target="_blank" class="news-link">[APP 自荐] Syna Fit : &quot;我通过跑步免费用上了 AI&quot;</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/hkMacao/202602/2565407.html" target="_blank" class="news-link">香港新预算案提多个AI项目 升格雇员再培训局为“技能提升局”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9322-7cf6-7118-bd04-1a46364eb592" target="_blank" class="news-link">&lt;b&gt;HONG KONG BUDGET: GOVERNMENT SAYS TO RAISE PROPERTY STAMP DUTY FOR HOMES WORTH OVER HK$100 MILLION TO 6.5% FROM 4.5%&lt;/b&gt;</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1193957" target="_blank" class="news-link">Neliva - AI 投资研究 Agent，让散户获得机构级分析能力</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83603" target="_blank" class="news-link">Anthropic 指控三家中国 AI 公司蒸馏数据训练模型</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/464.htm" target="_blank" class="news-link">美银调查：AI 泡沫首次成信贷投资者最大担忧</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1193949" target="_blank" class="news-link">我做了一个 macOS QuickLook Markdown 预览工具，支持 Mermaid / Vega / KaTeX / 导出 PDF</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3766112" target="_blank" class="news-link">算力之基与织机之困：AI驱动电子布供需重构与稀缺性定价</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2294409" target="_blank" class="news-link">个人“手搓”AI股票分析助手热潮掀起，全民投研时代要到来了？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1193932" target="_blank" class="news-link">OpenAI 自废 SWE-bench Verified：基准污染后， AI 编程分数还能信吗？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/2565401.html" target="_blank" class="news-link">中国资金大量涌入AI领域，但芯片生产仍面临瓶颈</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766113" target="_blank" class="news-link">小鹏新年亮剑，指向物理AI</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2065410-1-1.html" target="_blank" class="news-link">AIDA64 v8.25已添加Native NVMe支持</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766118" target="_blank" class="news-link">面对企业软件巨头：OpenAI 谋求“颠覆”，Anthropic 选择“共生”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3766105" target="_blank" class="news-link">汇丰“逆市之言”：软件将吞噬AI，现在是抄底好时机</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958649" target="_blank" class="news-link">Anthropic CEO：AI海啸已在眼前，但人类就是视而不见</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958648" target="_blank" class="news-link">AI越聪明，公司越裁人！但谁有钱买你的东西？</a> [11] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766102" target="_blank" class="news-link">AI交易重心东移，韩国综指首次突破6000点关口，市值超法国股市，黄金企稳反弹</a> [13] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260225120311650800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2026-02-25）</a> [13] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/453.htm" target="_blank" class="news-link">告别电脑前死守：新模式让手机接管本地 Claude Code AI 会话</a> [13] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766110" target="_blank" class="news-link">AI时代的“稀缺资产”？高盛：HALO--重资产、不过时</a> [14] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/451.htm" target="_blank" class="news-link">AI 对手发展太快，Anthropic 放弃重要安全承诺</a> [15] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1193904" target="_blank" class="news-link">[开源][首发]探索 AI 时代的流量调试新范式，我开发了一款美观易用的新抓包工具 RelayCraft，欢迎拍砖</a> [15] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/447.htm" target="_blank" class="news-link">职场奇招：Uber 员工开发老板“数字分身”，汇报 PPT 先过 AI 这一关</a> [18] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/445.htm" target="_blank" class="news-link">因人工智能转型，软件制造商 WiseTech 宣布将裁员 30%</a> [20] <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/436.htm" target="_blank" class="news-link">索尼 PSSR 画质增强专利获批：实时量化调节 AI 精度，遏制游戏掉帧</a> [24] <font color='grey'>- 12时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.58%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="http://china.hani.co.kr/arti/international/16545.html" target="_blank" class="news-link">“少女像‘阿里’将在柏林创造新的共同记忆”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3058586" target="_blank" class="news-link">阿里云上线Qwen3.5等四大开源模型</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/466.htm" target="_blank" class="news-link">京都大学团队打造佛教机器人：宇树硬件 + ChatGPT，可向信众讲解佛理</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c92fc-c2da-7118-bd03-c523757100ab" target="_blank" class="news-link">USER REPORTS SHOW PROBLEMS WITH GOOGLE - DOWNDETECTOR</a> [13] <font color='grey'>- 12时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
