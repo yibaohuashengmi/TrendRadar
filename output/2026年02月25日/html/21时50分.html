@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 258</p><p>生成时间: 2026-02-25 21:50:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">5.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c94f6-4166-7118-bd0a-62c84b39097c" target="_blank" class="news-link">Nvidia Earnings Seen as Key Test for AI-Driven Market Rally</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194085" target="_blank" class="news-link">请问一下，如果让 AI 写前端界面，需要让它使用一些 UI 库吗，还是用 html 和 css 直接写？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766183" target="_blank" class="news-link">美英科技协议艰难重启：核能项目率先“破冰”，AI与量子领域仍陷僵局</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c94e4-77c3-7118-bd0a-372b163f405b" target="_blank" class="news-link">MERZ SAYS HE WANTS TO CONTINUE SUCCESSFUL COOPERATION WITH CHINA, FOR THAT WE NEED ORDERLY MARKET ACCESS, FAIR COMPETITION</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3058897" target="_blank" class="news-link">城堡证券反驳Citrini报告 认为人工智能不太可能引发大规模失业</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766173" target="_blank" class="news-link">英伟达今夜财报大考：要多强才能扭转AI泡沫恐慌？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9F%A9%E5%A5%B3%E5%AD%90%E7%94%A8AI%E7%B2%BE%E5%AF%86%E7%AD%96%E5%88%92%E8%AF%B1%E6%9D%80%E8%87%B42%E6%AD%BB1%E4%BC%A4" target="_blank" class="news-link">韩女子用AI精密策划诱杀致2死1伤</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3058893" target="_blank" class="news-link">德银与高盛寻求借助人工智能“盯防”交易员不当行为</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c94e2-7f18-7118-bd0a-0ae90074d232" target="_blank" class="news-link">GERMANY&#x27;S MERZ SAY CHINA HAS ORDERED UP TO 120 ADDITIONAL AIRCRAFT FROM AIRBUS</a> [12] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5175262" target="_blank" class="news-link">世纪天鸿(300654.SZ)：暂不涉及AI营销</a> [13] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766170" target="_blank" class="news-link">AI“恐高症”蔓延：全球投资者正搜寻一切手段，对冲三年的AI狂热</a> [15] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5175260" target="_blank" class="news-link">会畅科技(300578.SZ)：目前未开展AI营销相关业务</a> [15] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c94dc-d856-7118-bd09-c38ed502bfbe" target="_blank" class="news-link">USTR GREER ON TARIFFS: NEW TRADE INVESTIGATIONS WILL LOOK AT EXCESS INDUSTRIAL CAPACITY, FORCED LABOR IN SUPPLY CHAINS -FBN</a> [21]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c94da-990e-7118-bd09-9f14c1fe0c77" target="_blank" class="news-link">&lt;b&gt;USTR GREER ON TARIFFS: HAS BEEN IN TOUCH WITH TRADE PARTNERS TO EXPLAIN HOW REPLACEMENT TARIFFS GO ALONG WITH TRADE DEALS -FBN INTERVIEW&lt;/b&gt;</a> [26] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3058865" target="_blank" class="news-link">债市交易员押注美联储明年将继续降息 AI对就业的影响促使市场重估</a> [29] <font color='grey'>- 21时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194089" target="_blank" class="news-link">我的 gemini pro 是否被降智了？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
