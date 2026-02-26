@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 276</p><p>生成时间: 2026-02-26 21:50:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">22</td>
+                <td class="percentage">7.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9a24-9c3b-7118-bd18-840d4b237607" target="_blank" class="news-link">Initial Jobless Claims 4-Week Average (Feb.21)</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766225" target="_blank" class="news-link">英伟达“答卷”难解AI担忧，美股三大期指集体下跌，存储盘前走强，金涨银跌，油价大幅上涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/015.htm" target="_blank" class="news-link">汉堡王在员工耳机中部署 AI 系统，可检测员工是否说了“请”“谢谢”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194350" target="_blank" class="news-link">做了一个 24 小时不停歇的区块链 AI 电台</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9a24-92d0-7118-bd18-7b37219fcf6a" target="_blank" class="news-link">Continued Jobless Claims (Feb.14)</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766280" target="_blank" class="news-link">百度电话会：AI云2025年收入达300亿元，算力订阅Q4同比增143%，“萝卜快跑”订单狂飙200%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2296230" target="_blank" class="news-link">AI编程迎来热潮！华为、阿里加码，未来人人可成为开发者</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47165299" target="_blank" class="news-link">Fentanyl makeover: Core structural redesign could lead to safer pain medications</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9a24-92ce-7118-bd18-7350745a9ae1" target="_blank" class="news-link">Initial Jobless Claims (Feb.21)</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/008.htm" target="_blank" class="news-link">赛力斯康波：AITO 问界在阿联酋斩获 200 台首批订单，实现中东市场开门红</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9a23-8d08-7118-bd18-66ceac44be53" target="_blank" class="news-link">TRUIST SECURITIES RAISES NVIDIA CORP TARGET PRICE TO $283 FROM $275</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9a23-59fd-7118-bd18-5f5664780b25" target="_blank" class="news-link">LEAVING CEREMONY FOR INDIA&#x27;S NARENDRA MODI AT ISRAEL&#x27;S BEN GURION AIRPORT, AT THE END OF TWO-DAY VISIT</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BDAI%E8%B0%83%E7%94%A8%E9%87%8F%E9%A6%96%E6%AC%A1%E8%B6%85%E8%BF%87%E7%BE%8E%E5%9B%BD" target="_blank" class="news-link">中国AI调用量首次超过美国</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3766225" target="_blank" class="news-link">英伟达“答卷”难解AI担忧，美股三大期指集体下跌，存储盘前走强，金涨银油跌，离岸人民币一度升破6.83</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3059595" target="_blank" class="news-link">百度AI云2025年营收300亿元</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9a16-2291-7118-bd18-247cf75cf4fd" target="_blank" class="news-link">U.S.-LISTED SHARES OF BAIDU FALL 3.6% PREMARKET AFTER LOWER Q4 REVENUE</a> [13] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/991.htm" target="_blank" class="news-link">存储成本飞升 + 云端 AI 算力提升等，荣耀林林称可能所有 3C 设备的形态和使用方式都要发生巨变</a> [15] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3059584" target="_blank" class="news-link">策略师汤姆·李支持黄仁勋：AI惨案与加密货币抛售即将结束</a> [17] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c99f9-2a0b-7118-bd17-f1c9dacc6249" target="_blank" class="news-link">BAIDU EXEC - AI CLOUD BUSINESS SAW HEALTHY GROWTH CONTRIBUTION FROM MID-TIER CLIENTS IN Q4 - CONF. CALL</a> [19] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3059582" target="_blank" class="news-link">立讯新一代人工智能终端项目在苏州开工</a> [19] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c99f8-4390-7118-bd17-ef22b4554baf" target="_blank" class="news-link">BAIDU EXEC - IN Q4, AI CLOUD BUSINESS SAW INCREASES IN USAGE AND SPENDING AS LEADING ENTERPRISE CLIENTS DEEPENED PARTNERSHIPS WITH CO - CONF. CALL</a> [20] <font color='grey'>- 21时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c99f5-c7f6-7118-bd17-d979d0363b40" target="_blank" class="news-link">ECUADOR RAISES PUNITIVE DUTIES ON COLOMBIAN IMPORTS TO 50%</a> [22] <font color='grey'>- 21时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47165397" target="_blank" class="news-link">Anthropic ditches its core safety promise</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/998.htm" target="_blank" class="news-link">摩尔线程 MTT S5000 全面适配阿里 Qwen3.5 三款新模型，原生 MUSA C 支持、深度兼容 Triton-MUSA</a> [11] <font color='grey'>- 21时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
