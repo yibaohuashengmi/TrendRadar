@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 365</p><p>生成时间: 2026-02-26 10:31:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">30</td>
+                <td class="percentage">8.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194147" target="_blank" class="news-link">[开源] 新 Agent Skill： deck —— 用 AI Agent 直接生成演示 Deck（HTML Slides / 现已支持导出 PPTX）</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/2665474.html" target="_blank" class="news-link">阿里云推出低价AI编程套餐</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/itelectric-appliance/61537-2026-02-26-09-28-43.html" target="_blank" class="news-link">日本将设3大支援基地提升AI半导体产业实力</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766218" target="_blank" class="news-link">拆解上万份财报后，大摩发现：遭抛售的“服务+周期”反而AI采用率最高、议价能力最强</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766213" target="_blank" class="news-link">股市“蜜糖”，债市“砒霜”？各国军工和AI开支飙升，推高全球债务至创纪录的348万亿美元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47112299" target="_blank" class="news-link">Artist who &quot;paints&quot; portraits on glass by hitting it with a hammer</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/737.htm" target="_blank" class="news-link">微软回应 Xbox 手机端突现“通知轰炸”：测试 AI 误发，已介入调查</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c97ab-10bf-7118-bd11-5902a33dc691" target="_blank" class="news-link">&lt;b&gt;OPENAI HIRES META AI RESEARCHER RUOMING PANG WHO PREVIOUSLY LED APPLE’S MODELS TEAM - THE INFORMATION&lt;/b&gt;</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3766208" target="_blank" class="news-link">英伟达电话会：黄仁勋高呼代理AI拐点已至，“推理即收入”，当前的太空数据中心经济还是“贫瘠的”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3059204" target="_blank" class="news-link">据The Information：OpenAI聘请了Meta的AI研究员Ruoming Pang，他此前曾领导过苹果的AI模型团队。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3059202" target="_blank" class="news-link">据The Information：OpenAI正讨论扩大云服务协议，以纳入Trainium芯片。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766208" target="_blank" class="news-link">英伟达电话会：黄仁勋高呼代理AI拐点已至，“推理即收入”，当前的太空数据中心经济还是“贫瘠的”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/734.htm" target="_blank" class="news-link">Minimax 推出 Agent Expert 2.0 与云端 AI 助手 MaxClaw，降低 AI 专家创建门槛</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194132" target="_blank" class="news-link">职场的 AI 困局</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202602/2665467.html" target="_blank" class="news-link">评论：深度求索据报未与英伟达等美国科企分享最新AI模型</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c97a9-0026-7118-bd11-498be63ed75c" target="_blank" class="news-link">OPENAI DISCUSSES EXPANDING CLOUD DEAL TO INCLUDE TRANIUM CHIPS- THE INFORMATION</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3059201" target="_blank" class="news-link">据The Information：亚马逊对OpenAI的500亿美元投资可能取决于其IPO进程及AGI（通用人工智能）的实现。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2295374" target="_blank" class="news-link">AI引爆美国电费？特朗普“重拳施压”科技巨头：自掏腰包，下周签协议！</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c97a6-fd99-7118-bd11-4236a3125cdb" target="_blank" class="news-link">AMAZON’S $50 BILLION INVESTMENT IN OPENAI COULD HINGE ON IPO, AGI - THE INFORMATION</a> [11] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194124" target="_blank" class="news-link">关于 Ai Agent 框架-LangChain 优缺点及长期使用建议</a> [11] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c97a1-99ca-7118-bd11-2af2a4aeecb8" target="_blank" class="news-link">Minimax Unveils Expert 2.0 and MaxClaw, Streamlining AI Agent Creation and Cloud Deployment</a> [14] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766215" target="_blank" class="news-link">业绩稳健、电话会解释“AI冲击”，“SaaS巨头”Salesforce股价依旧重挫</a> [14] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/726.htm" target="_blank" class="news-link">英伟达向客户交付 Vera Rubin AI 平台样品，计划下半年量产</a> [16] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260226095745692800" target="_blank" class="news-link">OpenAI聘请Meta公司的AI研究员庞若鸣，他曾领导苹果的模型团队。</a> [18] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47158975" target="_blank" class="news-link">How Will OpenAI Compete?</a> [19] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260226095541144800" target="_blank" class="news-link">OpenAI讨论将云协议扩展至包含Tranium芯片。</a> [20] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/719.htm" target="_blank" class="news-link">AI 冲击苹果 NAND 议价优势：曾多年一签扫货价低至每 GB 约 0.25 美元，如今缩至 6 个月</a> [22] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260226095357061800" target="_blank" class="news-link">亚马逊对OpenAI的500亿美元投资可能取决于其首次公开募股和通用人工智能情况。</a> [24] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c978d-e2bc-7118-bd10-d4a112e3401a" target="_blank" class="news-link">AT OPEN, SHANGHAI COMPOSITE +0.09%, SHENZHEN COMPONENT +0.14%, CHINEXT -0.24%</a> [25] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2411301" target="_blank" class="news-link">AI帮你选对发型</a> [26] <font color='grey'>- 10时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/725.htm" target="_blank" class="news-link">中国科学院软件研究所成为开源鸿蒙唯一特殊捐赠人：系统开发元老，与华为共同搭建底座</a> [17] <font color='grey'>- 10时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/715.htm" target="_blank" class="news-link">华为官宣鸿蒙智行技术焕新发布会定档 3 月 4 日</a> [25] <font color='grey'>- 10时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194140" target="_blank" class="news-link">Gemini 侧边栏频繁崩溃</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/739.htm" target="_blank" class="news-link">何小鹏：大众将成为小鹏第二代 VLA 模型的首发客户，期待开启智驾的“DeepSeek 时刻”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> [25] <font color='grey'>- 10时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
