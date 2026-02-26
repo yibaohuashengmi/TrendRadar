@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 228</p><p>生成时间: 2026-02-26 15:06:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">5.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194237" target="_blank" class="news-link">这一次，让 AI 真正拥有“长久记忆”！-TiMem</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766225" target="_blank" class="news-link">英伟达“交卷”缓解AI担忧，日韩科技股走强，韩国股指再创新高，现货黄金站上5200</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.bbc.com/zhongwen/articles/crk8jrx52n7o/simp" target="_blank" class="news-link">我们需要对AI机器人保持礼貌吗？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/849.htm" target="_blank" class="news-link">亚马逊赋予 Alexa+ AI 助手“个性”，初期可选简洁、放松、甜美 3 种风格</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/848.htm" target="_blank" class="news-link">OpenAI 首席运营官莱特卡普：优质广告可提升 ChatGPT 产品体验</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5175427" target="_blank" class="news-link">铭利达(301268.SZ)：ai应用方面暂无具体项目</a> [12] <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3059339" target="_blank" class="news-link">Lightspeed的联合创始人称 2026年将成为AI从演示走向大规模部署之年</a> [13] <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9883-c1fa-7118-bd12-fd2188851390" target="_blank" class="news-link">EBRD SEES AI INVESTMENT BOOM BOOSTING SOME EASTERN EUROPEAN ECONOMIES</a> [14] <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/829.htm" target="_blank" class="news-link">零 AI 辅助：开发者仅用 CSS 前端成功模拟 x86 处理器</a> [16] <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9876-c1a5-7118-bd12-dbb768d9e4d5" target="_blank" class="news-link">A-SHARE COMPUTE CHIP STOCKS SURGED, CAMBRICON RISING NEARLY 10% AS MARKET RUMOR SAID TENCENT HAS PLACED ORDER TO CAMBRICON FOR 30,000 AI CHIPS</a> [18] <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9872-ed31-7118-bd12-d5f9ded0345f" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX CLOSED UP 1.42 POINTS AT 35414.49</a> [19] <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%A9%AC%E5%B9%B4%E6%98%A5%E8%8A%82%E8%81%8A%E9%87%91%E5%AD%90%E5%92%8CAI%E7%9A%84%E5%A4%9A%E4%BA%86%23&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">马年春节聊金子和AI的多了</a> [27] <font color='grey'>- 15时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">1.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2295271" target="_blank" class="news-link">三星发布会首次展现Gemini手机智能体 苹果iOS翘首以待</a> [12] <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260226141522219800" target="_blank" class="news-link">马来西亚总理：这项投资涵盖了谷歌在马来西亚首个数据中心和云服务基础设施的开发和运营。该项目投入运营后，预计到2030年将带来32亿美元的经济效益，并创造26,500个就业岗位。</a> [22] <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260226141504282800" target="_blank" class="news-link">马来西亚总理：与Alphabet和谷歌的总裁兼首席投资官Ruth Porat及其团队进行了视频会议。我们讨论了谷歌在马来西亚的20亿美元投资进展。该项目进展顺利，超出了最初的预期。</a> [23] <font color='grey'>- 15时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/923/866.htm" target="_blank" class="news-link">华为 Watch GT Runner 2 智能手表渲染图曝光：双频 GPS、钛金属机身、集成 ECG 心电</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
