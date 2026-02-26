@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 116</p><p>生成时间: 2026-02-26 20:03:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">9.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3059550" target="_blank" class="news-link">湖南：加快数字化升级改造 深入实施“人工智能+”“智赋万企”行动</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766265" target="_blank" class="news-link">拉加德：欧央行正严密监控AI对就业市场的影响，目前尚未见裁员潮</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c99cd-77f3-7118-bd17-20485b1c2159" target="_blank" class="news-link">BAIDU ADRS DOWN 2.7% IN PREMARKET TRADING</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3059542" target="_blank" class="news-link">中国AI调用量首超美国，四款大模型霸榜全球前五</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3059541" target="_blank" class="news-link">浙江：建强中德合作平台 在汽车、机械制造、化工及人工智能、绿色低碳等领域加强双向投资</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c99c6-12cb-7118-bd17-037e54ac513d" target="_blank" class="news-link">MIZUHO RAISES CIRCLE INTERNET GROUP TARGET PRICE TO $90 FROM $77</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c99bd-6c44-7118-bd16-fb8ff4fd4400" target="_blank" class="news-link">BOFA GLOBAL RESEARCH RAISES NVIDIA CORP PRICE OBJECTIVE TO $300.00 FROM $275.00</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c99a4-e94f-7118-bd16-bfcb0e966d51" target="_blank" class="news-link">CITIGROUP RAISES NVIDIA CORP TARGET PRICE TO $300 FROM $270</a> [16] <font color='grey'>- 20时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c999f-c781-7118-bd16-982551fb9ef5" target="_blank" class="news-link">MELIUS RESEARCH RAISES NVIDIA CORP TARGET PRICE TO $380 FROM $350</a> [20] <font color='grey'>- 20时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c999f-2745-7118-bd16-92a8944beb99" target="_blank" class="news-link">AMAZON: LAUNCHED THE AWS EDUCATION EQUITY INITIATIVE, COMMITTING UP TO $100 MLN IN CLOUD AND AI TECHNOLOGY THROUGH 2029</a> [21] <font color='grey'>- 20时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c999e-807d-7118-bd16-85f52ce92ab4" target="_blank" class="news-link">AWS COMMITS $100 MLN TO EXPAND EDUCATION ACCESS WITH CLOUD AND AI TECHNOLOGY</a> [23] <font color='grey'>- 20时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47164605" target="_blank" class="news-link">You Want to Visit the UK? You Better Have a Google Play or App Store Account</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
