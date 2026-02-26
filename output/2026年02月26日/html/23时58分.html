@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 132</p><p>生成时间: 2026-02-26 23:58:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">9.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202602/2665531.html" target="_blank" class="news-link">AIT：谷立言和韩国瑜就美台合作进行富有成效的讨论</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766225" target="_blank" class="news-link">强劲财报难解AI担忧，英伟达跌超4%，纳指跌幅扩大至1%，芯片股承压，金涨银跌，WTI原油一度跌逾2%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194374" target="_blank" class="news-link">做了个极简本地多 AI 并排对比插件 Panelize，欢迎试用</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9a5e-b64c-7118-bd19-9c302fe8ac4b" target="_blank" class="news-link">BAIDU DOWN NEARLY 5%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194366" target="_blank" class="news-link">[分享创造] Panelize - 一个开源、无登录、极致轻量的 AI 分屏对比插件</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3766225" target="_blank" class="news-link">强劲财报难解AI担忧，英伟达跌超4%，纳指跌幅扩大至1%，芯片股承压，金涨银跌，WTI原油一度跌逾2%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47167171" target="_blank" class="news-link">In 2025, Meta paid an effective federal tax rate of 3.5%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3059658" target="_blank" class="news-link">Ithina组建全球人工智能（AI）操作平台。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3766259" target="_blank" class="news-link">百度第四季度营收327.4亿元，AI算力订阅收入同比增143%｜财报见闻</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3059656" target="_blank" class="news-link">英伟达跌超3.5%。 人工智能（AI）基建概念股西部数据一度下跌5.1%，Lumentum控股跌5.6%，希捷科技一度跌约4.5%， 美光科技跌约3%；加拿大多伦多上市的Celestica Inc.跌5%。 标普500指数跌幅扩大至0.4%，纳指跌超0.8%，半导体指数跌2.88%。</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3059645" target="_blank" class="news-link">报道：五角大楼已就使用Anthropic人工智能技术发出最终报价</a> [22] <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260226232042710800" target="_blank" class="news-link">黑石集团CEO：对“实体经济”的投资可缓冲人工智能风险。</a> [29] <font color='grey'>- 23时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3059664" target="_blank" class="news-link">黑石集团BXPE基金持有Anthropic、SpaceX、以及Jersey Mike’s。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194364" target="_blank" class="news-link">ClawRelay — 受够了 OpenClaw，我自己 vibe 了一个 Claude Code 调度器</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3059639" target="_blank" class="news-link">纳斯达克金龙中国指数盘初跌超2%。 热门中概股贝壳跌6%，百度、理想跌4.6%，万国数据跌4.2%，小鹏、再鼎医药、B站跌超3%，新东方、阿里巴巴跌超2%，京东、网易、百胜中国、拼多多至少跌约1%。 亚朵涨0.29%，唯品会涨0.68%，华住涨1.22%，小马智行涨2.62%，逸仙电商涨4.33%。</a> [19]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
