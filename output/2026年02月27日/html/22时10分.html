@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 200</p><p>生成时间: 2026-02-27 22:10:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">32</td>
+                <td class="percentage">16.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766389" target="_blank" class="news-link">估值7300亿美元！OpenAI成功融资1100亿美元，亚马逊投了500亿，英伟达300亿</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/372.htm" target="_blank" class="news-link">亚马逊豪掷 500 亿美元投资 OpenAI，共建有状态 AI 开发环境</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f67-f286-7ddd-9061-82aa2dbaaa05" target="_blank" class="news-link">OPENAI CEO: PROGRESS TOWARDS AGI FASTER THAN EVEN I EXPECTED - CNBC INTERVIEW</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3060342" target="_blank" class="news-link">亚马逊股价盘前下跌0.9%，此前该公司宣布计划投资OpenAI。 微软股价盘前下跌2.4%，谷歌A下跌0.7%。</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f66-e6a2-7ddd-9061-7c584394c9d7" target="_blank" class="news-link">US ENERGY SECRETARY WRIGHT SAYS PRESIDENT TRUMP CURRENTLY HAS NO PLANS TO VISIT VENEZUELA, &quot;BUT IT&#x27;S CERTAINLY A VERY REAL POSSIBILITY&quot;</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3060345" target="_blank" class="news-link">OpenAI获1100亿美元投资，投前估值达7300亿美元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3060341" target="_blank" class="news-link">亚马逊将向OpenAI投资500亿美元 建立多年战略伙伴关系</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47179553" target="_blank" class="news-link">PostmarketOS in 2026-02: generic kernels, bans use of generative AI</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260227220453170800" target="_blank" class="news-link">据华尔街日报：OpenAI与美国国防部尚未签署任何协议。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f63-80f5-7ddd-9061-6172d4ddd92b" target="_blank" class="news-link">OPENAI CEO SAYS STILL HAVE A LONG, STATELESS API EXCLUSIVITY WITH MICROSOFT- CNBC INTERVIEW</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766356" target="_blank" class="news-link">贝索斯豪赌工业AI！旗下“普罗米修斯”启动百亿美元级融资</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260227220430471800" target="_blank" class="news-link">据华尔街日报：OpenAI创始人奥尔特曼正与美国国防部合作，探讨是否可使用相关模型。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f63-4651-7ddd-9061-5c2d53ae5466" target="_blank" class="news-link">PENTAGON OPEN TO AI TALKS WITH ANTHROPIC BEFORE FRIDAY DEADLINE</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BDAI%E8%B0%83%E7%94%A8%E9%87%8F%E8%B6%85%E8%B6%8A%E7%BE%8E%E5%9B%BD" target="_blank" class="news-link">中国AI调用量超越美国</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766379" target="_blank" class="news-link">AI与地缘阴云压顶，快钱大举出逃美股，涌入黄金美债避险</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f5e-4e97-7ddd-9061-3dfa1aa58c0c" target="_blank" class="news-link">BARCLAYS CONSIDERS BLOCKCHAIN PLATFORM FOR PAYMENTS, DEPOSITS</a> [11] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260227220219102800" target="_blank" class="news-link">据华尔街日报：OpenAI创始人奥尔特曼呼吁缓和美国国防部与Anthropic之间的争端。</a> [11] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260227215950428800" target="_blank" class="news-link">OpenAI创始人奥尔特曼：当前的融资提供了长期发展的保障。</a> [14] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260227215941059800" target="_blank" class="news-link">OpenAI创始人奥尔特曼：不认为美国应该对人工智能公司实施数据保护法案的威胁。</a> [15] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260227215841312800" target="_blank" class="news-link">美国防部：愿在截止日期前与 Anthropic 开展人工智能相关讨论</a> [17] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f57-b036-7ddd-9060-f839c96c4b28" target="_blank" class="news-link">&lt;b&gt;OPENAI CEO SAYS WILL CONTINUE TO DO OUR WORK WITH MICROSOFT- CNBC INTERVIEW&lt;/b&gt;</a> [19] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260227215545958800" target="_blank" class="news-link">OpenAI创始人奥尔特曼：希望与亚马逊(AMZN.O)建立长期、深入的合作关系。</a> [22] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f53-bbf4-7ddd-9060-dc969fbb8c17" target="_blank" class="news-link">OpenAI Finalizes $110 Billion Funding at $730 Billion Valuation</a> [23] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260227215455321800" target="_blank" class="news-link">OpenAI创始人奥尔特曼：专注于降低服务交付成本。</a> [23] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f4f-6b38-7ddd-9060-c8f74d172835" target="_blank" class="news-link">OPENAI: PACT LOWERS COST &amp; IMPROVES EFFICIENCY</a> [25] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f4f-51e2-7ddd-9060-c3a7d76f22d6" target="_blank" class="news-link">AMAZON EXTENDS DECLINE TO 0.9% AFTER PLANS TO INVEST IN OPENAI</a> [26] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f4f-40d3-7ddd-9060-b82637756eaa" target="_blank" class="news-link">OPENAI SAYS CHATGPT HAS OVER 900M WEEKLY ACTIVE USERS</a> [27] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f4f-2144-7ddd-9060-b0ab9be4dd03" target="_blank" class="news-link">OPENAI: TRAINIUM4 EXPECTED TO BEGIN DELIVERY IN 2027</a> [28] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f4e-fb81-7ddd-9060-af1a1aa2f9da" target="_blank" class="news-link">EM CURRENCIES ON TRACK FOR BIGGEST DAILY DROP SINCE APRIL</a> [29] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260227215117251800" target="_blank" class="news-link">亚马逊(AMZN.O)首席执行官：OpenAI将成为最大的赢家之一。</a> [29] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f4e-cd5d-7ddd-9060-a5f7c17c8dd8" target="_blank" class="news-link">OPENAI: PACT SPANS BOTH TRAINIUM3 &amp; NEXT-GENERATION TRAINIUM4</a> [30] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260227215035431800" target="_blank" class="news-link">OpenAI创始人奥尔特曼：只要收入持续增长，协议就不成问题。</a> [30] <font color='grey'>- 22时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f68-3ece-7ddd-9061-8c8071d68bf4" target="_blank" class="news-link">Pentagon Open to Talks With Anthropic Ahead of Friday Deadline</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f63-3a7c-7ddd-9061-51c2fd9a0504" target="_blank" class="news-link">AMAZON CEO ANDY JASSY: WE STILL HAVE A VERY STRONG RELATIONSHIP WITH ANTHROPIC- CNBC INTERVIEW</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260227215642300800" target="_blank" class="news-link">亚马逊(AMZN.O)首席执行官：与Anthropic的关系将继续保持紧密。</a> [19] <font color='grey'>- 22时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
