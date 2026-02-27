@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 211</p><p>生成时间: 2026-02-27 17:08:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">8.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.bbc.com/zhongwen/articles/cy8gve49mngo/simp" target="_blank" class="news-link">OpenAI报告指中国账号求助ChatGPT打压异见人士，要求协助抹黑高市早苗</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194596" target="_blank" class="news-link">Openframe：一个从剧本到分镜/视频的 AI 创作工作台（桌面端）</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3060158" target="_blank" class="news-link">巴克莱：对AI颠覆风险的担忧有望利好欧洲重资产股票</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83629" target="_blank" class="news-link">汉堡王将用 AI 检查员工是否礼貌</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260227/1069967515.html" target="_blank" class="news-link">媒体：五角大楼希望创造能够寻找中国基础设施薄弱点的人工智能</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/2765574.html" target="_blank" class="news-link">受盈利、AI担忧拖累 恒生科技迈向逾两年最差月度表现</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202602/2765573.html" target="_blank" class="news-link">百度营收连续三个季度下滑 AI业务发展滞后</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/257.htm" target="_blank" class="news-link">英伟达 DGX Spark AI 工作站涨价 700 美元，内存短缺潮成主要推手</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9e4a-0f26-7ddd-905c-90c2f9989e81" target="_blank" class="news-link">BERNSTEIN RAISES BARRICK MINING TARGET PRICE TO $62.5 FROM $46.5</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766342" target="_blank" class="news-link">瑞穗：计划在10年内用AI取代5000个文员岗位</a> [12] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3060005" target="_blank" class="news-link">阿里回应：夸克AI眼镜和千问AI眼镜是同一个团队推出的不同系列</a> [18] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9e3b-63c8-7ddd-905c-44923c96b940" target="_blank" class="news-link">US AIRCRAFT CARRIER GERALD R. FORD ARRIVES IN ISRAEL</a> [19] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9e2e-2515-7ddd-905c-1317fa76370e" target="_blank" class="news-link">BYTEDANCE AND DONGCHEDI DECLINE COMMENT ON MARKET REPORTS THAT DONGCHEDI EYES HK IPO, RAISING $1–1.5B</a> [25] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9e2a-5175-7ddd-905c-0be8e5fecd74" target="_blank" class="news-link">CHINA CONTAINERIZED FREIGHT INDEX DROPPED BY 4% W/W TO 1,044.57</a> [26] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9e29-dcc2-7ddd-905c-02d11a1f09b6" target="_blank" class="news-link">THE SHANGHAI CONTAINERIZED FREIGHT INDEX ROSE BY 6.5% W/W, TO 1,333.11</a> [27] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3060118" target="_blank" class="news-link">恒生指数收盘涨0.95%，能源、资源、AI以及创新药板块不同程度反弹</a> [29] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=AI%E7%9F%AD%E5%89%A7%E5%B7%B2%E7%BB%8F%E4%B8%9D%E6%BB%91%E5%88%B0%E8%BF%99%E7%A7%8D%E7%A8%8B%E5%BA%A6%E4%BA%86&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">AI短剧已经丝滑到这种程度了</a> [30] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7610340608524124211" target="_blank" class="news-link">「前端何去何从」高效提示词（prompts）：前端开发者的AI协作指南</a> [30] <font color='grey'>- 17时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/248.htm" target="_blank" class="news-link">前 Meta 工程师让小狗乱按键盘，只靠 Claude 就把乱码做成了游戏</a> [14] <font color='grey'>- 17时08分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47149829" target="_blank" class="news-link">Writing a &quot;clear room&quot; Z80 and Spectrum emulator with Claude Code</a> [19] <font color='grey'>- 17时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/250.htm" target="_blank" class="news-link">韩国政府允许谷歌出口高精度地图：比例尺 1:5000，有望解决海外游客诉求</a> [12] <font color='grey'>- 17时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
