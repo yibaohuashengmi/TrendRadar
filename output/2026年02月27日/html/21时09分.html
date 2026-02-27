@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 200</p><p>生成时间: 2026-02-27 21:09:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766379" target="_blank" class="news-link">AI与地缘阴云压顶，快钱大举出逃美股、涌入黄金美债</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f2e-3758-7ddd-905f-3a6cc9f8372d" target="_blank" class="news-link">RAYMOND JAMES RAISES DELL TECHNOLOGIES TARGET PRICE TO $182 FROM $166</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3766333" target="_blank" class="news-link">“HALO交易”风口对准酒店行业：AI是OTA的“砒霜”、酒店的“蜜糖”？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f29-a0e5-7ddd-905f-24185081e722" target="_blank" class="news-link">TURKEY&#x27;S MAIN BANKING INDEX DOWN 2%&lt;br/&gt;&lt;br/&gt;TURKEY&#x27;S MAIN BIST-100 INDEX DOWN 1.7</a> [11] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260227/1069969834.html" target="_blank" class="news-link">俄专家: 俄中经贸关系的未来可能在产业技术合作和人工智能领域</a> [12]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f22-65f4-7ddd-905e-ffae2e725009" target="_blank" class="news-link">Citi Sees AI Driving Baidu Revenue in 2026, Raises ADR Target to $188</a> [16] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f14-1d61-7ddd-905e-e862337b2a60" target="_blank" class="news-link">DRUZHBA PIPELINE CARRIED UKRAINIAN AS WELL AS RUSSIAN OIL BEFORE RUSSIAN STRIKE, SOURCES SAY</a> [18] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f07-61c0-7ddd-905e-d5ae14a02777" target="_blank" class="news-link">HONG KONG JANUARY 2026 NET GOLD EXPORTS TO CHINESE MAINLAND 20.585 METRIC TONS VS 12.205 METRIC TONS IN DECEMBER -HK GOVT&lt;br/&gt;&lt;br/&gt;HONG KONG JANUARY 2026 TOTAL GOLD EXPORTS TO CHINESE MAINLAND 36.544 METRIC TONS VS 28.014 METRIC TONS IN DECEMBER -HK GOVT</a> [21]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9eeb-37d6-7ddd-905e-aeb9849b4ad2" target="_blank" class="news-link">MIZUHO RAISES DELL TECHNOLOGIES TARGET PRICE TO $180 FROM $175</a> [26] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9ee9-ac65-7ddd-905e-a269adb57474" target="_blank" class="news-link">BOJ WILL ONLY HAVE LITTLE ROOM TO RAISE INTEREST RATES FURTHER - ANZ</a> [27] <font color='grey'>- 21时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194651" target="_blank" class="news-link">VibeAround：人在外面，突然想 Vibe Coding？写了个工具远程控制家里的 Claude Code/Gemini/Codex</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/347.htm" target="_blank" class="news-link">谷歌优化 Gemini 安卓版界面，悬浮窗与功能布局将迎新调整</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
