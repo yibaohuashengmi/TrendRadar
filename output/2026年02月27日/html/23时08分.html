@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 178</p><p>生成时间: 2026-02-27 23:08:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">10.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194665" target="_blank" class="news-link">[送码] OpenTIL：为 AI Agent 而建的博客平台</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766389" target="_blank" class="news-link">估值7300亿美元！OpenAI完成1100亿美元融资，Altman：对“合适时机”上市持开放态度</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194663" target="_blank" class="news-link">Vibe Coding 了一个模仿 macos 桌面风格的 Web 桌面操作系统，集成 ai 功能</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3766324" target="_blank" class="news-link">超预期PPI打压降息预期，AI担忧发酵，美股指集体低开，金银油携手大涨，美债上扬，人民币贬近150点</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194660" target="_blank" class="news-link">vibe 了一个 AI 分屏对比插件</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f82-0cab-7ddd-9061-ea01b97d0cc4" target="_blank" class="news-link">US STATE DEPARTMENT DEPUTY SPOKESPERSON DENIES REPORTS OF EVACUATION OF NON-ESSENTIAL DIPLOMATS AND FAMILIES FROM IRAQ AND KUWAIT</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f7f-fb91-7ddd-9061-e1c0583985fe" target="_blank" class="news-link">IMF WOULD AGREE TO UKRAINE LIFTING VAT BAR FOR SMALL BUSINESSES</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3060380" target="_blank" class="news-link">OpenAI首席执行官：如果收入保持增长 融资交易就不是“循环交易”</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f76-7d62-7ddd-9061-d8dbe641ca8f" target="_blank" class="news-link">OPENAI’S ALTMAN TELLS STAFF CO WORKING ON A DEAL THAT MIGHT HELP SOLVE THE IMPASSE BETWEEN ANTHROPIC AND PENTAGON - WSJ&lt;br/&gt;&lt;br/&gt;OPENAI’S ALTMAN TELLS STAFF GOING TO SEE IF THERE IS A DEAL WITH THE DOW THAT ALLOWS OUR MODELS TO BE DEPLOYED IN CLASSIFIED ENVIRONMENTS - WSJ</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/376.htm" target="_blank" class="news-link">OpenAI 宣布 1100 亿美元新融资：估值 7300 亿美元，软银、英伟达、亚马逊共同注资</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47180040" target="_blank" class="news-link">Generative AI Use and Depressive Symptoms Among US Adults</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/373.htm" target="_blank" class="news-link">微软重申与 OpenAI 合作不变：Azure 仍为独家云提供商，双方关系稳固</a> [11] <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f6e-f3fc-7ddd-9061-b2a098abb543" target="_blank" class="news-link">KAZAKH MINISTRY OF FOREIGN AFFAIRS HAS URGED ITS CITIZENS TO LEAVE IRAN AND TO TEMPORARILY REFRAIN FROM TRAVELING THERE</a> [13] <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47178371" target="_blank" class="news-link">Get free Claude max 20x for open-source maintainers</a> [14] <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019c9f6a-5b9b-7ddd-9061-927ecbabd51d" target="_blank" class="news-link">MAERSK: CURRENTLY EXPERIENCING UNFORESEEN CONSTRAINTS ARISING FROM THE WIDER OPERATING ENVIRONMENT IN THE RED SEA REGION&lt;br/&gt;&lt;br/&gt;MAERSK: AFTER CONVERSATIONS WITH OUR SECURITY PARTNERS, IT IS CLEAR THAT THESE CONSTRAINTS ARE MAKING IT CHALLENGING TO AVOID DELAYS IN REGARD TO PASSAGE THROUGH THE AREA&lt;br/&gt;&lt;br/&gt;MAERSK: THEREFORE, WE HAVE MADE THE DECISION TO REROUTE SOME OF OUR UPCOMING SAILINGS ON THE ME 11 AND MECL SERVICES FROM TRANS SUEZ TO CAPE OF GOOD HOPE</a> [17]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260227223038290800" target="_blank" class="news-link">美股开盘，道指跌0.75%、标普500指数跌0.82%、纳指跌1.2%，奈飞(NFLX.O)开涨10.83%，此前公司宣布退出对华纳兄弟探索公司(WBD.O)的收购争夺；亚马逊(AMZN.O)跌0.44%，其宣布与OpenAI合作，并在OpenAI新一轮1100亿美元的投资中参投500亿美元。</a> [18] <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=OpenAI%E8%8E%B71100%E4%BA%BF%E7%BE%8E%E5%85%83%E6%8A%95%E8%B5%84" target="_blank" class="news-link">OpenAI获1100亿美元投资</a> [25] <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3060358" target="_blank" class="news-link">据华尔街日报报道，Sam Altman（OpenAI的CEO）与美国国防部合作，研究模型是否可用。 但双方尚未签署任何协议。 Altman呼吁五角大楼与Anthropic缓和争端。</a> [25]</div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">2</td>
+                <td class="percentage">1.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/384.htm" target="_blank" class="news-link">研究称 ChatGPT Health 未能识别医疗紧急情况，恐将导致本可避免的伤亡</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/383.htm" target="_blank" class="news-link">ChatGPT 成人模式“Naughty Chat”代码现身新版客户端，需进行身份验证</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/381.htm" target="_blank" class="news-link">谷歌 Pixel 11 Pro XL 手机现身 Geekbench：7 核 Tensor G6 处理器、多核 2657 分</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/375.htm" target="_blank" class="news-link">谷歌 3 月 9 日起停用 Gemini 3 Pro Preview，开发者需迁移至 3.1 版</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/379.htm" target="_blank" class="news-link">华为经典产品限时官网特价返场，含 P60、Pocket 2、Mate 60 Pro 等</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
