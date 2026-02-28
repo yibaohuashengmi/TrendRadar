@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 206</p><p>生成时间: 2026-02-28 17:32:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">5.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ca37f-f2d8-7ddd-906a-a27b508f3962" target="_blank" class="news-link">&lt;b&gt;ISRAELI MILITARY: AT THIS HOUR, THE ISRAELI AIR FORCE CONTINUES TO STRIKE TARGETS ACROSS IRAN, OPERATIONS WILL CONTINUE AS REQUIRED&lt;/b&gt;</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时32分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194870" target="_blank" class="news-link">Cutia: 运行在浏览器中的视频编辑器， Capcut 在线替代品， AI 原生，</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ca37f-777b-7ddd-906a-8dc5831329aa" target="_blank" class="news-link">WITNESS: SMOKE SEEN FROM BAHRAIN&#x27;S JUFFAIR AREA HOUSING U.S. NAVY BASE</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时32分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/631.htm" target="_blank" class="news-link">中国科大教授任少卿、蔚来汽车 CEO 李斌获中国人工智能最高奖</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时32分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194860" target="_blank" class="news-link">图片用 AI 指哪改哪，我们又做了个 Lovart 的平替，把改图的成本降下来！</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ca37a-87b8-7ddd-906a-7ad396644aa2" target="_blank" class="news-link">&lt;b&gt;AL ARABIYA: SEVERAL EXPLOSIONS HEARD IN BAHRAIN&lt;/b&gt;</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ca379-8ad3-7ddd-906a-6b608421df3c" target="_blank" class="news-link">UAE PARTIALLY AND TEMPORARY CLOSES AIRSPACE PRECAUTIONARY</a> <font color='red'><strong>[8]</strong></font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/613.htm" target="_blank" class="news-link">淘宝闪购发布开源 AI 大模型“白泽”：可 24 小时监控分析后厨直播，自动判断“假堂食”</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ca375-f59f-7ddd-906a-5efb7ce8f191" target="_blank" class="news-link">TASNIM: TEHRAN’S AIR DEFENSE CONTINUES TO ENGAGE WITH &#x27;HOSTILE&#x27; TARGETS IN THE CITY CENTER AND OTHER PARTS OF THE CITY</a> <font color='red'><strong>[10 - 20]</strong></font> <font color='grey'>- 17时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ca373-ac63-7ddd-906a-55ad49b76795" target="_blank" class="news-link">ISRAEL AIRPORTS AUTHORITY: ISRAEL&#x27;S LAND BORDER CROSSINGS WITH JORDAN, EGYPT REMAIN OPEN</a> [11] <font color='grey'>- 17时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ca371-bba1-7ddd-906a-4ac3fc0dea98" target="_blank" class="news-link">UKMTO: AWARE OF SIGNIFICANT MILITARY ACTIVITY IN ARABIAN GULF, GULF OF OMAN, NORTH ARABIAN SEA AND STRAIT OF HORMUZ, VESSELS ADVISED TO TRANSIT WITH CAUTION AND REPORT ANY SUSPICIOUS ACTIVITY</a> [12] <font color='grey'>- 17时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ca360-eb0d-7ddd-906a-18a964863d16" target="_blank" class="news-link">TASNIM NEWS AGENCY: AIR DEFENSE ACTIVATED IN TEHRAN</a> [18] <font color='grey'>- 17时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194858" target="_blank" class="news-link">分享一个基于 Codex app-server 协议做的 Claude Code 与 Codex 协作 skill</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时32分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7611084174967914531" target="_blank" class="news-link">Claude Code 使用心得 - 从尝鲜到日常的进阶之路</a> [30] <font color='grey'>- 17时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/630.htm" target="_blank" class="news-link">沃尔玛首席人力官莫里斯：美国劳动力需学习中国，那里 5 岁孩子都在学 DeepSeek</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时32分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
