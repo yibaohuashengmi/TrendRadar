@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 233</p><p>生成时间: 2026-02-28 10:12:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">6.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766406" target="_blank" class="news-link">AI冲击之下“铁索连环”，美国杠杆贷款遭重创，高达1500亿美元CLO证券面临冲击</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/itelectric-appliance/61574-2026-02-28-08-45-08.html" target="_blank" class="news-link">软银集团将向OpenAI追加出资300亿美元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766404" target="_blank" class="news-link">AI冲击“未来现金流”，华尔街量化策略的“传统因子”失效了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=OpenAI%E8%8E%B71100%E4%BA%BF%E7%BE%8E%E5%85%83%E6%96%B0%E6%8A%95%E8%B5%84" target="_blank" class="news-link">OpenAI获1100亿美元新投资</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194694" target="_blank" class="news-link">历时两个月，开发了一个给命理师搭建 AI 智能体的网站</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202602/2865619.html" target="_blank" class="news-link">特朗普下令联邦机构“立即”停用Anthropic AI技术</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/428.htm" target="_blank" class="news-link">OpenAI 宣布采购 2GW 亚马逊 AWS Trainium 系列 AI 芯片云算力</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/itelectric-appliance/61572-2026-02-28-08-05-54.html" target="_blank" class="news-link">特朗普下令联邦政府全面停用Anthropic的AI</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8r5ygo8zdfZ" target="_blank" class="news-link">外媒爆料：美军想用AI攻击中国电网</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47186677" target="_blank" class="news-link">I am directing the Department of War to designate Anthropic a supply-chain risk</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/423.htm" target="_blank" class="news-link">小米 AI 超轻薄旗舰笔记本曝光：Ultra 5 325/Ultra X7 358H 处理器，重量 1kg±</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3060569" target="_blank" class="news-link">AI算力需求驱动光纤行业步入景气周期</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2297921" target="_blank" class="news-link">美国政府大战AI明星公司 NASA调整载人登月计划 | 环球市场</a> [13] <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228080935525800" target="_blank" class="news-link">一位消息人士透露，五角大楼已同意OpenAI制定的在保密环境下安全部署其技术的规则，但尚未签署任何合同。</a> [21] <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/408.htm" target="_blank" class="news-link">用户反馈 Win10/Win11 版谷歌 Chrome 浏览器悄然在 C 盘下载约 4GB 本地 AI 模型文件</a> [22] <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7610718217906208814" target="_blank" class="news-link">前端开发者的 AI 时代生存指南：大模型如何重塑岗位要求与技能</a> [29] <font color='grey'>- 10时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">7</td>
+                <td class="percentage">3.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228092236899800" target="_blank" class="news-link">Anthropic公司：将在法庭上挑战任何‘供应链风险认定’。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228092223906800" target="_blank" class="news-link">Anthropic公司：认为该认定在法律上站不住脚，同时会为任何与政府进行谈判的美国公司树立危险的先例。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3060575" target="_blank" class="news-link">Anthropic：尚未收到来自美国国防部和白宫的信息。 不会被恐吓而改变立场。 将在法庭上挑战“供应链风险”这一认定。</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228092214409800" target="_blank" class="news-link">Anthropic公司：尚未收到‘战争部’或白宫关于我们谈判状况的直接消息。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228092149841800" target="_blank" class="news-link">Anthropic公司：据我们所知，这些例外情况迄今为止从未影响过任何一项政府任务。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228092137939800" target="_blank" class="news-link">Anthropic公司： 已善意尝试与美国‘战争部’达成协议。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时12分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7610676768316145714" target="_blank" class="news-link">OpenClaw + Codex/Claude Code 智能体集群：一人开发团队的完整搭建方案</a> [23] <font color='grey'>- 10时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/418.htm" target="_blank" class="news-link">谷歌安卓 17 酝酿自动 SIM 卡解锁功能，告别重启后输两个密码</a> [13] <font color='grey'>- 10时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/422.htm" target="_blank" class="news-link">鸿蒙智行尚界 Z7 无伪装视频发布，全系搭载华为途灵平台</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228092015676800" target="_blank" class="news-link">DeepSeek将于下周发布其最新的大型语言模型V4。这是一款具有图片、视频和文本生成功能的“多模态”模型。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
