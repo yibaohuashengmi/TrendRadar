@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 213</p><p>生成时间: 2026-02-28 12:07:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">11.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=AI%E6%8F%90%E4%BE%9B%E7%9A%84%E8%99%9A%E6%8B%9F%E5%BE%AE%E4%BF%A1%E5%8F%B7%E5%8A%A0%E5%88%B0%E4%BA%86%E7%9C%9F%E4%BA%BA" target="_blank" class="news-link">AI提供的虚拟微信号加到了真人</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766407" target="_blank" class="news-link">AI冲击之下，新一轮“次贷危机”来了？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2414159" target="_blank" class="news-link">中国AI跑出马年加速度</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194773" target="_blank" class="news-link">开源了一个 sketch 插件，可以通过对话的方式来让 AI 生成设计稿</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3060590" target="_blank" class="news-link">英伟达计划推出新芯片以加快AI处理速度</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47189650" target="_blank" class="news-link">OpenAI agrees with Dept. of War to deploy models in their classified network</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194764" target="_blank" class="news-link">SkillForge: 用自然语言生成 OpenClaw AI Agent 技能，内置安全扫描</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3060587" target="_blank" class="news-link">OpenAI创始人奥尔特曼：我们与美国国防部达成协议，将我们的模型部署到他们的机密网络中。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194758" target="_blank" class="news-link">Chat Copilot： AI 对话增强助手（浏览器插件）大更新</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194756" target="_blank" class="news-link">Trellis v0.3.0 正式发布！支持多个主流 AI Coding 平台 + Windows</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228110554688800" target="_blank" class="news-link">消息人士称，英伟达正准备推出一款专用芯片，以撼动人工智能计算领域的竞争格局。OpenAI即将成为英伟达新款处理器的最大客户之一。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228110043453800" target="_blank" class="news-link">OpenAI创始人奥尔特曼：我们将部署前线工程师来协助我们的模型，为了确保模型的安全，我们将只在云网络上进行部署。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228105851301800" target="_blank" class="news-link">OpenAI创始人奥尔特曼：我们强烈希望事态能够缓和，避免诉诸法律和政府行动，并达成合理的协议。</a> [11] <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1194745" target="_blank" class="news-link">AI 时代，好消息是年龄将不再是问题，坏消息是</a> [11] <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228105836118800" target="_blank" class="news-link">OpenAI创始人奥尔特曼：我们要求美国国防部向所有人工智能公司提供这些相同条款，我们认为每个人都应该愿意接受。</a> [12] <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228105824885800" target="_blank" class="news-link">OpenAI创始人奥尔特曼：我们也会构建技术安全措施，以确保我们的模型按预期运行，美国国防部也希望如此。</a> [13] <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228105722729800" target="_blank" class="news-link">OpenAI创始人奥尔特曼：我们与美国国防部达成协议，将我们的模型部署到他们的机密网络中。</a> [14] <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2010773992567481420" target="_blank" class="news-link">中国 AI 调用量首超美国，国产算力电力大涨，英伟达市值一夜蒸发 2600 亿美元，如何解读背后市场信号？</a> [16] <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/455.htm" target="_blank" class="news-link">软银计划今年内分三期追加对 OpenAI 投资，完成后持股比例约 13%</a> [17] <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2009928728206149091" target="_blank" class="news-link">买 A18 Pro 的入门级 MacBook 和买 M4 MacBook Air，哪个更值得？</a> [18] <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/453.htm" target="_blank" class="news-link">中兴官宣 MWC 2026 推 TopFlow“直播神器”，还有 AI 宠物 iMoochi</a> [18] <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/450.htm" target="_blank" class="news-link">MIT 携手英伟达开发 TLT 技术，推理 AI 大模型训练效率最高提速 210%</a> [21] <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47189853" target="_blank" class="news-link">OpenAI reaches deal to deploy AI models on U.S. DoW classified network</a> [21] <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7611070995847249954" target="_blank" class="news-link">用了三年AI，我总结出高效使用AI的3个习惯！</a> [28] <font color='grey'>- 12时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">4</td>
+                <td class="percentage">1.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/industry/itelectric-appliance/61577-2026-02-28-09-46-48.html" target="_blank" class="news-link">美Anthropic称3家中企对自身模型进行蒸馏</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47186031" target="_blank" class="news-link">President Trump bans Anthropic from use in government systems</a> [11] <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228105500085800" target="_blank" class="news-link">Anthropic公司将把美国国防部告上法庭</a> [15] <font color='grey'>- 12时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260228105235978800" target="_blank" class="news-link">特朗普政府正在考虑对Anthropic公司采取更强有力的措施。</a> [16] <font color='grey'>- 12时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/924/460.htm" target="_blank" class="news-link">华为乾崑与广汽合作新车“启境”启动共创计划，提供车辆优先体验权</a> [16] <font color='grey'>- 12时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
