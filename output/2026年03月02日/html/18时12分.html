@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 212</p><p>生成时间: 2026-03-02 18:12:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">6.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/151.htm" target="_blank" class="news-link">藏在哪里大声告诉你：苹果 AirTag 2 国补 198 元，查找范围升 50% + 音量升 50%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cade6-3284-7ddd-9078-bda24a3397ff" target="_blank" class="news-link">EU ASKS MEMBER STATES TO SHARE OIL SECURITY OF SUPPLY ASSESSMENTS BY END OF DAY MONDAY, COMMISSION EMAIL SAYS</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cade5-f8fe-7ddd-9078-b21bd943cdda" target="_blank" class="news-link">EU CONSIDERING CONVENING AD-HOC MEETING OF ITS OIL COORDINATION GROUP LATER THIS WEEK, COMMISSION EMAIL SAYS</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3061794" target="_blank" class="news-link">MiniMax2025年全年业绩超预期，AI平台化打开增长空间</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cade4-ccfa-7ddd-9078-afb024b31304" target="_blank" class="news-link">&lt;b&gt;EU COMMISSION SEES NO IMMEDIATE OIL SECURITY OF SUPPLY IMPACT ON EU FROM MIDDLE EAST SITUATION, COMMISSION SAYS IN EMAIL TO EU GOVERNMENTS&lt;/b&gt;</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766522" target="_blank" class="news-link">“千问AI眼镜”正式上线，全面接入千问App，最低1997元！</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cade0-5c4b-7ddd-9078-716b5548fcee" target="_blank" class="news-link">ISRAEL EXPECTED TO GRADUALLY OPEN ITS AIRSPACE STARTING THE EVENING OF MARCH 2, ACCORDING TO ISRAELI AUTHORITIES</a> [15] <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/127.htm" target="_blank" class="news-link">科大讯飞推出 T90 Lite 学习机：13.2 英寸 AG 防眩光屏、AI 辅助学习系统，7799 元</a> [16] <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019caddd-ef32-7ddd-9078-63602ec24d69" target="_blank" class="news-link">KREMLIN SAYS IT VALUES U.S. MEDIATION EFFORTS ON UKRAINE BUT ONLY RELIES ON ITSELF IN THE END</a> [17] <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019caddd-b68e-7ddd-9078-52193252c98b" target="_blank" class="news-link">KREMLIN SAYS IT&#x27;S IN RUSSIA&#x27;S OWN INTERESTS TO CONTINUE TALKS WITH UKRAINE</a> [19] <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/121.htm" target="_blank" class="news-link">AI 解开罗马时代神秘石块谜团，推测出古代棋盘游戏规则</a> [21] <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/120.htm" target="_blank" class="news-link">联想 AI Workmate 概念投影仪亮相：自带酷睿 Ultra Series 3 处理器、64GB 内存，支持整理笔记、扫描文档等</a> [22] <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019caddc-ac73-7ddd-9078-311f70781e68" target="_blank" class="news-link">KREMLIN SAYS RUSSIA&#x27;S STANCE ON TALKS WITH UKRAINE IS UNCHANGED AND THAT IT WOULD PREFER TO ACHIEVE ITS AIMS THROUGH DIPLOMATIC/POLITICAL MEANS</a> [23] <font color='grey'>- 18时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47215489" target="_blank" class="news-link">/e/OS is a complete &quot;deGoogled&quot;, mobile ecosystem</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
