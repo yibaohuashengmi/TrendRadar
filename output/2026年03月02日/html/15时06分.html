@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 219</p><p>生成时间: 2026-03-02 15:06:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">5.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958672" target="_blank" class="news-link">欢迎来到“if时刻”，AI时代投资逻辑彻底变了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47214250" target="_blank" class="news-link">Evolving descriptive text of mental content from human brain activity</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195179" target="_blank" class="news-link">手写 Claude Code！实现你自己的 AI 编程助手</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cad44-7e77-7ddd-9073-80392acb5254" target="_blank" class="news-link">&lt;b&gt;THREE ARMED DRONES SHOT DOWN OVER ERBIL AIRPORT IN NORTHERN IRAQ WHERE U.S. FORCES ARE STATIONED, SECURITY SOURCES SAY&lt;/b&gt;</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cad40-da4f-7ddd-9073-710463af729a" target="_blank" class="news-link">&lt;b&gt;EXPLOSIONS WERE HEARD NEAR ERBIL AIRPORT IN IRAQ, ACCORDING TO AN AFP JOURNALIST&lt;/b&gt;</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cad3f-a212-7ddd-9073-60dd5f580220" target="_blank" class="news-link">&lt;b&gt;NIKKEI STOCK AVERAGE DRAGGED BY FINANCIAL, AIRLINE STOCKS&lt;/b&gt;</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7612431152581967913/" target="_blank" class="news-link">千问AI眼镜开启预约</a> [14] <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cad30-2f02-7ddd-9073-3af863060a4e" target="_blank" class="news-link">US EMBASSY IN KUWAIT URGES PEOPLE NOT TO COME TO THE EMBASSY, TO TAKE COVER</a> [14] <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cad2f-a987-7ddd-9073-377513babb1f" target="_blank" class="news-link">ERICSSON AND INTEL COLLABORATE TO ACCELERATE THE PATH TO COMMERCIAL AI-NATIVE 6G</a> [15] <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cad2f-5d29-7ddd-9073-2bad0f816edb" target="_blank" class="news-link">US EMBASSY IN KUWAIT: THERE IS A CONTINUING THREAT OF MISSILE AND UAV ATTACKS OVER KUWAIT</a> [16] <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cad2a-34c0-7ddd-9073-1ad4ec0a509b" target="_blank" class="news-link">RBC RAISES HSBC TARGET PRICE TO 1,200P FROM 1,050P</a> [18] <font color='grey'>- 15时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cad1f-d6d2-7ddd-9073-03e7cbf6b2b3" target="_blank" class="news-link">&lt;b&gt;SHANGHAI&#x27;S MOST ACTIVE ALUMINIUM CONTRACT SURGES MORE THAN 3%&lt;/b&gt;</a> [21] <font color='grey'>- 15时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
