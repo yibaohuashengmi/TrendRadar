@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 109</p><p>生成时间: 2026-03-03 03:13:27</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">11.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cafe3-7d06-7ddd-9082-6960db9866e6" target="_blank" class="news-link">BLACKROCK APPOINTS J.P. MORGAN AND GOLDMAN SACHS TO SELL 11.4% STAKE IN SPAIN’S NATURGY VIA ACCELERATED BOOKBUILD – FILING</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303030140542800" target="_blank" class="news-link">美媒：美国民主党酝酿立法回应五角大楼人工智能之争</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303025633752800" target="_blank" class="news-link">据AXIOS网站：美国民主党计划对五角大楼的人工智能斗争采取立法回应。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cafe1-a4af-7ddd-9082-4b85cab19ade" target="_blank" class="news-link">WIZZ AIR TO BOOST FLIGHT FREQUENCIES TO SHARM EL-SHEIKH FROM FRIDAY TO BRING PASSENGERS CLOSE TO ISRAEL -BEN GURION AIRPORT STATEMENT</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cafd1-afed-7ddd-9082-27a9a35ff7b0" target="_blank" class="news-link">US AIR FORCE TANKERS FORCED TO LEAVE SPAIN AFTER GOVERNMENT REFUSES AIRBASES TO BE USED FOR IRAN ATTACKS: AIRLIVE</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303024332320800" target="_blank" class="news-link">马斯克旗下xAI拟在IPO前夕提前回购30亿美元债务</a> [13] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cafcb-338e-7ddd-9081-f1cda14bf399" target="_blank" class="news-link">&lt;b&gt;IRANIAN DRONE STRIKE ON BAHRAIN HOTEL INJURES TWO U.S. DEFENSE DEPARTMENT PERSONNEL; U.S. EMBASSY WARNS AMERICANS TO AVOID MANAMA HOTELS – WASHINGTON POST&lt;/b&gt;</a> [16] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cafc6-d67b-7ddd-9081-e2119bdfd526" target="_blank" class="news-link">&lt;b&gt;TWO MARITIME SOURCES CONFIRM OIL TANKER ATHEN NOVA STOPPED IN STRAIT OF HORMUZ AFTER BEING REPORTEDLY STRUCK BY TWO DRONES BY IRAN REVOLUTIONARY GUARDS&lt;/b&gt;</a> [18] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/857306822259060736" target="_blank" class="news-link">AI开发/产品通用面经大盘点：RAG篇</a> [20] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cafbf-bdc6-7ddd-9081-a9a12a60313f" target="_blank" class="news-link">IAEA’S GROSSI SAYS IRAN MILITARY CAMPAIGN WON’T SOLVE NUCLEAR ISSUE, DIPLOMACY ONLY WAY FORWARD</a> [25] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47221264" target="_blank" class="news-link">Apple AI servers unused in warehouses due to low Apple Intelligence usage</a> [27] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cafba-51e3-7ddd-9081-953948af9369" target="_blank" class="news-link">TRUCK RESTRICTION REGULATIONS ACROSS DUBAI TO RESUME ON MARCH 5 – STATEMENT</a> [28] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cafb9-0cfc-7ddd-9081-8c78f632b0b4" target="_blank" class="news-link">AMERICAN AIRLINES: EXPANDS DIGITAL WALLET INTEGRATION, MAKING TRAVEL DAY EASIER FOR CUSTOMERS</a> [29] <font color='grey'>- 03时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7612129754633633819" target="_blank" class="news-link">从零构建一个 Mini Claude Code：面向初学者的 Agent 开发实战指南</a> [26] <font color='grey'>- 03时13分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
