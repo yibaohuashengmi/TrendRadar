@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 187</p><p>生成时间: 2026-03-02 19:54:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">7.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766536" target="_blank" class="news-link">亚马逊、英伟达、软银给OpenAI投资1100亿，好处是什么？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195275" target="_blank" class="news-link">OpenClaw + Chorus：两个人 + AI Agent，一周搭出一条不下班的产品开发管线</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/171.htm" target="_blank" class="news-link">微信打击利用 AI 仿冒名人进行引流，1.3 万条内容与 1200 个账号被处置</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195273" target="_blank" class="news-link">把 10+ 年内容做成 RAG：我在博客里部署了一个可对话的「AI 数字分身」</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cae4c-bd01-7ddd-907a-5f1697029eb4" target="_blank" class="news-link">&lt;b&gt;IAEA CHIEF: WE STAND BY WHAT WE SAID IN TERMS OF NO INDICATION IRAN&#x27;S NUCLEAR FACILITIES WERE HIT&lt;/b&gt;</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cae4a-48d1-7ddd-907a-527e9a83839d" target="_blank" class="news-link">ZELENSKIY SAYS HE RECEIVED NO DIRECT REQUESTS FROM UK ON UKRAINIAN HELP IN MIDDLE EAST</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/165.htm" target="_blank" class="news-link">国行版将至：联想 moto 首款大折叠 razr fold AI 手机官宣即将上市，海外版售价 1999 欧元</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2300009" target="_blank" class="news-link">阿尔特曼回应“牵手”五角大楼：仓促、观感差 但我们是为了AI行业</a> [13] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cae36-ebae-7ddd-907a-142c74ac86c7" target="_blank" class="news-link">US: ALL SIX AIRCREW EJECTED SAFELY</a> [14] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cae36-cd37-7ddd-907a-0b729ab686e8" target="_blank" class="news-link">&lt;b&gt;US: JETS MISTAKENLY SHOT DOWN BY KUWAITI AIR DEFENSES&lt;/b&gt;</a> [15] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E8%A1%A1%E6%B0%B4%E4%B8%AD%E5%AD%A6AI%E7%9B%91%E6%B5%8B%E7%B3%BB%E7%BB%9F&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">衡水中学AI监测系统</a> [16] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cae34-dbf1-7ddd-9079-ef157fe99dad" target="_blank" class="news-link">US: THREE U.S. F-15E STRIKE EAGLES WENT DOWN OVER KUWAIT</a> [19] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cae34-678f-7ddd-9079-dbc75b0e5242" target="_blank" class="news-link">AMAZON PLANS TO INVEST IN PROGRAMS ACROSS SPAIN THROUGH 2035&lt;br/&gt;&lt;br/&gt;AMAZON: INVESTMENT ADDS E18B TO E15.7B ANNOUNCED IN 2024&lt;br/&gt;&lt;br/&gt;AMAZON: INVESTMENT IS EXPECTED TO SUPPORT 29,900 JOBS ANNUALLY</a> [21] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3061858" target="_blank" class="news-link">ASML计划将芯片制造设备扩展至先进封装领域，公司正寻求制造用于多芯片拼接的工具，计划利用人工智能提升设备性能并加快生产速度。（路透）</a> [23] <font color='grey'>- 19时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/anthropics/prompt-eng-interactive-tutorial" target="_blank" class="news-link">anthropics / prompt-eng-interactive-tutorial</a> <font color='red'><strong>[3]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
