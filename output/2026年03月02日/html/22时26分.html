@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 209</p><p>生成时间: 2026-03-02 22:26:04</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">22</td>
+                <td class="percentage">10.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195298" target="_blank" class="news-link">做了个沉浸式 AI 听书工具 Aurader，送大家一个永久 Pro 会员（原价 $59.99）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766555" target="_blank" class="news-link">苹果发布新款iPad Air，配置M4处理器</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/200.htm" target="_blank" class="news-link">苹果 M4 芯片款 iPad Air 发布，3 月 11 日发售</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766553" target="_blank" class="news-link">MiniMax电话会：围绕“全模态”与“高质量”，告别单纯“卷模型”，向AI平台生态演进</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/197.htm" target="_blank" class="news-link">雷鸟推出蝙蝠侠限定版 Air 4 Pro AR 眼镜：可选蝙蝠侠 / 小丑版，提供专属遮光罩</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019caeda-2020-7ddd-907c-c20b1cbc74eb" target="_blank" class="news-link">APPLE INC: IPHONE 17E WILL BE AVAILABLE FOR PRE-ORDER BEGINNING WEDNESDAY, MARCH 4</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3061982" target="_blank" class="news-link">苹果公司发布新款iPad Air，配置M4处理器；起售价599美元。 推出iPhone 17E，将于3月11日开始发售。</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019caeda-072b-7ddd-907c-b883bee8c32b" target="_blank" class="news-link">APPLE INTRODUCES NEW IPAD AIR, POWERED BY M4</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/191.htm" target="_blank" class="news-link">双卡双扬多摄大电池：华为 Mate 70 Air 国补后 3199 元立减千元再降价</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/188.htm" target="_blank" class="news-link">英伟达豪掷 20 亿美元投资 Coherent，加码 AI 数据中心光互连技术</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019caed8-1845-7ddd-907c-9b50850988bf" target="_blank" class="news-link">ANTHROPIC&#x27;S CLAUDE UNAVAILABLE FOR CONSUMER-FACING PRODUCTS&lt;br/&gt;&lt;br/&gt;ANTHROPIC SAYS IN STATEMENT CLAUDE API REMAINS UNAFFECTED</a> [11] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019caed0-91b8-7ddd-907c-75e0443c19a7" target="_blank" class="news-link">Russia, Ukraine Plan for US-Led Peace Talks Despite War in Iran</a> [16] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47216541" target="_blank" class="news-link">Libxml2 Enterprise Edition (AGPL, from the previous maintainer)</a> [17] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3061967" target="_blank" class="news-link">MiniMax创始人：AI办公的机会将比编程更大</a> [18] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019caece-85c1-7ddd-907c-5d1bc44dd90f" target="_blank" class="news-link">UK 2-YEAR GILT YIELDS ON COURSE FOR BIGGEST DAILY RISE SINCE MAY 2025, UP 11 BPS ON THE DAY AT 3.636%</a> [19] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019caecb-309e-7ddd-907c-4bc005562b23" target="_blank" class="news-link">AIRLINES CANCELLED 1,560 FLIGHTS TO MIDDLE EAST ON MONDAY, 41% OF TOTAL SCHEDULED - CIRIUM&lt;br/&gt;&lt;br/&gt;CIRIUM DATA SHOWS 75% OF SCHEDULED FLIGHTS TO UAE CANCELLED, 97% TO BAHRAIN, 81.6% TO QATAR</a> [21] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260302220319409800" target="_blank" class="news-link">苹果(AAPL.O)：新款iPad Air 11英寸版起售价599美元，13英寸版起售价799美元。</a> [21] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3061962" target="_blank" class="news-link">美军参谋长联席会议主席Caine：三架F-15战机的损失正在调查中。</a> [22] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260302220153252800" target="_blank" class="news-link">市场消息：苹果推出iPhone 17e。苹果推出新款iPad Air，搭载M4芯片。</a> [25] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47167960" target="_blank" class="news-link">Squidcasa/midipipe: ALSA Sequencer to plain text and back</a> [25] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019caebe-b383-7ddd-907c-08358460ceff" target="_blank" class="news-link">CAINE: LOSS OF THREE F-15S OVERNIGHT IS UNDER INVESTIGATION</a> [29] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019caebe-9494-7ddd-907c-062ea7209514" target="_blank" class="news-link">CAINE: OPERATIONS WILL REMAIN ACTIVE ACROSS THEATER, GLOBE</a> [30] <font color='grey'>- 22时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/186.htm" target="_blank" class="news-link">Anthropic 证实 Claude 出现全球服务中断现象，正在调查原因</a> [12] <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019caec4-7b7e-7ddd-907c-220b96dbe27c" target="_blank" class="news-link">ANTHROPIC HAS IDENTIFIED CLAUDE ISSUE, IMPLEMENTING FIX</a> [26] <font color='grey'>- 22时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019caedd-7463-7ddd-907c-d503f78de0b9" target="_blank" class="news-link">APPLE MULLS GOOGLE HOSTING SIRI AS NEED FOR CLOUD: INFORMATION</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260302220223583800" target="_blank" class="news-link">苹果公司讨论由谷歌托管新版Siri，进一步加深对云计算的依赖。</a> [24] <font color='grey'>- 22时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7612253034873651242" target="_blank" class="news-link">阿里出手，最强Coding Plan出炉，OpenClaw可以痛快玩了</a> [30] <font color='grey'>- 22时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
