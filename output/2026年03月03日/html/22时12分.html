@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 188</p><p>生成时间: 2026-03-03 22:12:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">5.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb3f9-e748-7006-9e9a-8dab050d9979" target="_blank" class="news-link">IRAQ HAS DECREASED OIL PRODUCTION FROM THE RUMAILA OIL FIELD BY 700,000 BPD ON TUESDAY - IRAQI OIL OFFICIALS</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766647" target="_blank" class="news-link">苹果发布搭载M5芯片MacBook Air，起始存储翻倍、AI能力升级</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时12分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47231261" target="_blank" class="news-link">India&#x27;s top court angry after junior judge cites fake AI-generated orders</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766646" target="_blank" class="news-link">牟一凌：中国的硬资产会被重估，消费也不会差，现在讨论AI泡沫没有意义</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766643" target="_blank" class="news-link">春节AI大战复盘：豆包“赢”流量，千问“占”留存</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时12分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BA%BA%E5%A4%A7%E4%BB%A3%E8%A1%A8%EF%BC%9A%E5%B9%B4%E8%BD%BB%E4%BA%BA%E4%B8%8D%E8%A6%81%E5%92%8CAI%E6%AF%94%E6%95%88%E7%8E%87" target="_blank" class="news-link">人大代表：年轻人不要和AI比效率</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303220448413800" target="_blank" class="news-link">苹果(AAPL.O)：搭载M5的13英寸MacBook Air起售价为1099美元，15英寸MacBook Air起售价为1299美元。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时12分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/563.htm" target="_blank" class="news-link">研究：在 95% 的模拟核危机场景中，AI 模型会选择部署核武器</a> [11] <font color='grey'>- 22时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303220254056800" target="_blank" class="news-link">苹果(AAPL.O)推出搭载全新M5 Pro和M5 Max芯片的MacBook Pro，带来突破性的专业性能与进阶的端侧人工智能体验。</a> [14] <font color='grey'>- 22时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb3ca-9d6b-7006-9e99-dbc2f6aff64c" target="_blank" class="news-link">HUNGARY PM ORBAN HELD PHONE CALL WITH RUSSIA&#x27;S PUTIN ON TUESDAY, DISCUSSED THE SITUATION IN THE MIDDLE EAST AND UKRAINE - HUNGARIAN GOVT SPOKESMAN</a> [23]</div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3062825" target="_blank" class="news-link">Altman承认：在舆论抵制下，OpenAI的美国国防协议“显得投机且草率”</a> [26] <font color='grey'>- 22时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47230710" target="_blank" class="news-link">Claude&#x27;s Cycles: Claude Opus 4.6 solves a problem posed by Don Knuth [pdf]</a> [24] <font color='grey'>- 22时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47232224" target="_blank" class="news-link">The Internet&#x27;s Top Tech Publications Lost 58% of Their Google Traffic Since 2024</a> [19] <font color='grey'>- 22时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5178647" target="_blank" class="news-link">大连重工(002204.SZ)：公司暂未就低轨卫星通信技术为华为提供技术服务</a> [12] <font color='grey'>- 22时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
