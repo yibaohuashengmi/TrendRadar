@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 206</p><p>生成时间: 2026-03-03 23:27:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">12.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766645" target="_blank" class="news-link">标普下调软银评级至负面，称向OpenAI投资300亿美元或有损信用质量</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/584.htm" target="_blank" class="news-link">苹果 M5 芯片款 MacBook Air 标配 40W 动态电源适配器，最高可输出 60W 功率</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195576" target="_blank" class="news-link">dev-planner-skill：一个让 AI 帮你开发软件的技能包，连代码都不用懂</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb419-5567-7006-9e9b-26e4cb9656dd" target="_blank" class="news-link">OPENAI, PENTAGON NEW LANGUAGE NOT YET FORMALLY SIGNED: AXIOS</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/582.htm" target="_blank" class="news-link">李开复谈“Anthropic 指责中国蒸馏 AI 模型”：小题大做，这公司还欠我 3000 美元稿费</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47232502" target="_blank" class="news-link">Apple introduces the new MacBook Air with M5</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb416-7725-7006-9e9b-1a3899b6f35f" target="_blank" class="news-link">&lt;b&gt;OPENAI, PENTAGON AGREE TO STRENGTHEN RECENT CONTRACT: AXIOS&lt;/b&gt;</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb415-c9c4-7006-9e9b-164866e4ac98" target="_blank" class="news-link">OPENAI, PENTAGON ADD SURVEILLANCE PROTECTIONS TO AI DEAL: AXIOS</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3062863" target="_blank" class="news-link">美联储Schmid：通胀仍然太高，我们不能掉以轻心。 数据似乎大体表明，劳动力市场处于平衡状态。 不认为人工智能（AI）会造成结构性失业。</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb410-4f8b-7006-9e9b-08443950ac08" target="_blank" class="news-link">Apple Launches Upgraded MacBook Pro, Air and New Studio Monitors</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/579.htm" target="_blank" class="news-link">苹果 M5 Pro / Max 采用新融合架构，AI 计算性能大幅提升</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303230927875800" target="_blank" class="news-link">美联储威廉姆斯：不认为AI会造成结构性失业；新技术创造的岗位多于其摧毁的岗位。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83665" target="_blank" class="news-link">Ars Technica 的 AI 记者离职</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/577.htm" target="_blank" class="news-link">苹果 M5 MacBook Air 笔记本发布：搭 N1 无线网络芯片、支持灵活定制，8499 元起</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303230906394800" target="_blank" class="news-link">美联储威廉姆斯：人工智能的影响程度尚待确定。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47232903" target="_blank" class="news-link">Launch HN: Cekura (YC F24) – Testing and monitoring for voice and chat AI agents</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303230816331800" target="_blank" class="news-link">美联储威廉姆斯：人工智能将改变生产率增长和劳动力需求。</a> [12] <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb402-c41c-7006-9e9a-c8d80731a4a5" target="_blank" class="news-link">AMAZON: INTRODUCING CANVAS EXPERIENCE IN SELLER CENTRAL THAT INTEGRATES AI-POWERED CHAT WITH DYNAMIC, PERSONALIZED VISUALS - WEBSITE</a> [14] <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb401-8761-7006-9e9a-bee02b41388c" target="_blank" class="news-link">APPLE UNVEILS NEW STUDIO DISPLAY, ALL-NEW STUDIO DISPLAY XDR &lt;br/&gt;&lt;br/&gt;APPLE INC: 16‑INCH MACBOOK PRO WITH M5 PRO STARTS AT $2,699 (U.S.) AND $2,499 (U.S.) FOR EDUCATION&lt;br/&gt;&lt;br/&gt;APPLE INC - MACBOOK AIR WITH M5 AVAILABLE FOR PRE-ORDER MARCH 4&lt;br/&gt;&lt;br/&gt;APPLE INC: CUSTOMERS CAN PRE-ORDER NEW 13- AND 15-INCH MACBOOK AIR WITH M5 BEGINNING AT 6:15 A.M. PST ON WEDNESDAY, MARCH 4</a> [16] <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3062845" target="_blank" class="news-link">OpenAI与美国五角大楼在AI协议中新增监控保护条款。（Axios）</a> [18] <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb3fd-4d52-7006-9e9a-a5b39a3fd655" target="_blank" class="news-link">REDUCTION IN OIL PRODUCTION FROM IRAQ&#x27;S RUMAILA DUE TO OVERLOADED STORAGE AS TENSION IN STRAIT OF HORMUZ SLOWS ARRIVAL OF TANKERS - IRAQI OIL OFFICIALS</a> [19] <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303230718753800" target="_blank" class="news-link">美联储施密德：不排除人工智能推动非通胀性增长的可能性，但目前尚未实现。</a> [19] <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb3fb-0c29-7006-9e9a-90d7d05006df" target="_blank" class="news-link">Redbook Retail Sales (YoY) (Feb.27)</a> [21] <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47232289" target="_blank" class="news-link">AI-generated art can&#x27;t be copyrighted (Supreme Court declines review)</a> [21] <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3062834" target="_blank" class="news-link">苹果推出升级版MacBook Pro、Air、以及新款Studio显示器</a> [27] <font color='grey'>- 23时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83670" target="_blank" class="news-link">ChatGPT 卸载率在五角大楼交易之后飙升 295%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3062847" target="_blank" class="news-link">纳斯达克金龙中国指数盘初跌3.55%。 中概股金山云跌9.44%，小鹏跌7.42%，再鼎医药、晶科能源、蔚来汽车至少跌5.02%，新东方、大全新能源、阿里巴巴至少跌4.83%。 ETF中，ASHS跌5.64%，CQQQ跌5.39%，KWEB跌3.21%，ASHS跌3.02%。</a> [16]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
