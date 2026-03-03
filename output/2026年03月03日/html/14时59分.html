@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 232</p><p>生成时间: 2026-03-03 14:59:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">26</td>
+                <td class="percentage">11.21%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb278-407a-7ddd-908b-b540f99d1095" target="_blank" class="news-link">&lt;b&gt;JEFFERIES RAISES UPS TARGET PRICE TO $135 FROM $130&lt;/b&gt;</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195449" target="_blank" class="news-link">分享一个免费的数学 AI 求解器 - Math AI，支持逐步解题和可视化</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202603/0365898.html" target="_blank" class="news-link">OpenAI与五角大楼修订协议 确保AI不用于美国监控</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/422.htm" target="_blank" class="news-link">OpenAI 将修改与美国战争部的协议，明确禁止监视美国人</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2065841-1-1.html" target="_blank" class="news-link">为了一个“密码提示”，我和AI分析了30轮……最终赢家居然是它！</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb276-4953-7ddd-908b-a4cf735f9efc" target="_blank" class="news-link">Iran Conflict Raises Odds BOJ Skips March 18-19 Rate Hike</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5178217" target="_blank" class="news-link">研报掘金丨东方证券：维持扬杰科技“买入”评级，AI驱动功率高增，多产品线全面布局</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47228390" target="_blank" class="news-link">Daily Driving GrapheneOS</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb272-e532-7ddd-908b-9a5fd4d5ba3b" target="_blank" class="news-link">&lt;b&gt;IRAN CONFLICT RAISES ODDS BOJ WILL FORGO RATE HIKE IN MARCH, SOURCES SAY&lt;/b&gt;</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb270-7195-7ddd-908b-95b0360a37a8" target="_blank" class="news-link">U.S. ORDERS DEPARTURE OF NON-EMERGENCY GOVERNMENT PERSONNEL AND FAMILY MEMBERS FROM QATAR AND KUWAIT - STATE DEPARTMENT</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5178215" target="_blank" class="news-link">AI时代重资产崛起！AI HALO成焦点 国信证券：基建与硬件受益明确</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/418.htm" target="_blank" class="news-link">美国最高法院一锤定音，AI 作品不受版权保护</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb26b-d8f5-7ddd-908b-8897ea066d3a" target="_blank" class="news-link">A-SHARE INDICES WIDEN LOSSES: SHENZHEN COMPONENT DOWN OVER 3%, CHINEXT DOWN 2.4%, SHANGHAI COMPOSITE DOWN 1.57%, MORE THAN 4,800 STOCKS IN RED</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/417.htm" target="_blank" class="news-link">高通展示 AI200 推理机架：结合自有加速器与 AMD CPU</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb26b-62b1-7ddd-908b-70d0bb09e7a8" target="_blank" class="news-link">KOSPI FALLS FOR SECOND STRAIGHT SESSION; CHIP, AUTO STOCKS RETREAT</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb269-0f4a-7ddd-908b-5d88c56e964d" target="_blank" class="news-link">SOME ASIAN OIL REFINERS ARE SAID TO CONSIDER RUN CUTS OF 20% TO 30%</a> [13] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb266-f49c-7ddd-908b-4c4787f91b28" target="_blank" class="news-link">SEOUL KOSPI OFFICIALLY ENDS DOWN 7.24%, BIGGEST DAILY FALL SINCE AUG 5, 2024</a> [15] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/408.htm" target="_blank" class="news-link">美团旗下 AI 浏览器涉嫌抄袭代码？官方回应称充分尊重原作者，已移除相关项目</a> [15] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7612624423942995995" target="_blank" class="news-link">春节后，有些公司明确要求 AI 经验了</a> [16] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=AI%E7%94%9F%E6%88%90%20%E7%94%B7%E5%A5%B3%E8%BA%AB%E9%AB%98&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">AI生成 男女身高</a> [18] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/401.htm" target="_blank" class="news-link">联想 ThinkBook 14+ / 16+ 锐龙 AI 9 H 465 / HX 470 款预售，8499 / 8999 元</a> [21] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb257-cd14-7ddd-908b-013cd1f7894b" target="_blank" class="news-link">&lt;b&gt;U.S. EMBASSY IN KUWAIT SAYS IT WILL BE CLOSED UNTIL FURTHER NOTICE - POST ON X&lt;/b&gt;</a> [24] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb257-b04d-7ddd-908a-fbcc9c993f52" target="_blank" class="news-link">&lt;b&gt;QATAR AIRWAYS SAYS FLIGHT OPERATIONS REMAIN SUSPENDED DUE TO CLOSURE OF QATARI AIRSPACE&lt;/b&gt;</a> [25] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb256-6051-7ddd-908a-e3e927c49572" target="_blank" class="news-link">SHANGHAI&#x27;S MOST ACTIVE TIN CONTRACT PLUNGES MORE THAN 11%</a> [28] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3062468" target="_blank" class="news-link">标普将软银评级展望下调至“负面”，因其对OpenAI追加投资</a> [28] <font color='grey'>- 14时59分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7612562930848383002" target="_blank" class="news-link">我会如何考核一个在简历里大谈 AI 提效的高级前端？</a> [29] <font color='grey'>- 14时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/415.htm" target="_blank" class="news-link">Omdia 报告 2025 大中华区手机出货量：华为同比增 2%、vivo 降 7%、苹果增 7%、小米增 4%</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3062482" target="_blank" class="news-link">阿里桌面Agent QoderWork全面开放</a> [17] <font color='grey'>- 14时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
