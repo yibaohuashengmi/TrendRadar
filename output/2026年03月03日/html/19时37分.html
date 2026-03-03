@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 167</p><p>生成时间: 2026-03-03 19:37:18</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">8.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb36c-6170-7006-9e98-d9669641a3a0" target="_blank" class="news-link">EU&#x27;S VON DER LEYEN, UKRAINE&#x27;S ZELENSKIY TO SPEAK THIS AFTERNOON</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195514" target="_blank" class="news-link">前端如何利用 ai 快速迭代 ios 应用？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/CodebuffAI/codebuff" target="_blank" class="news-link">CodebuffAI / codebuff</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb364-3666-7006-9e98-c3c43ea72d63" target="_blank" class="news-link">ZELENSKIY SAYS UKRAINE, UAE AGREED FOR TEAMS TO WORK TOGETHER TO PROTECT LIVES</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/541.htm" target="_blank" class="news-link">消息称马斯克旗下 X 与 xAI 计划全额偿还约 175 亿美元债务，资金来源未知</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/agentscope-ai/agentscope" target="_blank" class="news-link">agentscope-ai / agentscope</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/agentscope-ai/ReMe" target="_blank" class="news-link">agentscope-ai / ReMe</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2301441" target="_blank" class="news-link">AI加剧“电荒” 美国电网将迎史诗级扩建 750亿美元聚焦“超高压”输电</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb35e-d857-7006-9e98-96585ac65148" target="_blank" class="news-link">SOUTH KOREA&#x27;S LEE: SOUTH KOREA, PHILIPPINES TO EXPAND COOPERATION IN SHIPBUILDING, NUCLEAR ENERGY, AND AI</a> [11] <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb35c-122c-7006-9e98-8ab34a2943cb" target="_blank" class="news-link">SAUDI ARAMCO TO REVIEW ALTERNATIVE ROUTES FOR EXPORTS INCLUDING VIA PIPELINE TO RED SEA TO AVOID STRAIT OF HORMUZ, INDUSTRY SOURCE SAYS</a> [12] <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb359-bc05-7006-9e98-85758205c0e0" target="_blank" class="news-link">SHANGHAI INTERNATIONAL ENERGY EXCHANGE: CRUDE OIL FUTURES DAILY OPENING POSITION LIMIT SET AT 1,200 LOTS&lt;br/&gt;&lt;br/&gt;SHANGHAI INTERNATIONAL ENERGY EXCHANGE: LOW-SULFUR FUEL OIL FUTURES DAILY OPENING POSITION LIMIT SET AT 6,000 LOTS</a> [13]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb357-428f-7006-9e98-77b86357ad9d" target="_blank" class="news-link">SHANGHAI INTERNATIONAL ENERGY EXCHANGE: TO ADJUST TRADING LIMITS FOR SOME CRUDE OIL, LOW-SULFUR FUEL OIL AND SHIPPING INDEX FUTURES FROM MARCH 3 NIGHT SESSION</a> [15]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb355-80b3-7006-9e98-6169268390d6" target="_blank" class="news-link">COMMERZBANK SAYS IF THE STRAIT OF HORMUZ WERE COMPLETELY BLOCKED, CAUSING SUPPLY TO FALL BY 20%, THE OIL PRICE WOULD LIKELY RISE TO OVER USD 100</a> [17]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb353-3153-7006-9e98-55724433452e" target="_blank" class="news-link">BARCLAYS RAISES APPLE TARGET PRICE TO $248 FROM $239</a> [19] <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb347-bf5a-7006-9e98-2b485f10f19d" target="_blank" class="news-link">SPAIN&#x27;S IBEX35 PLUNGES 5.00% ON THE DAY</a> [24] <font color='grey'>- 19时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/545.htm" target="_blank" class="news-link">华为终端 × 华为乾崑强强联合：余承东、靳玉志有望在鸿蒙智行技术焕新发布会同台亮相</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
