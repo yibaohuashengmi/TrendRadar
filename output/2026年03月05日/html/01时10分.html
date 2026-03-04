@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 164</p><p>生成时间: 2026-03-05 01:10:24</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">7</td>
+                <td class="percentage">4.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb9c8-8d49-7006-9eb7-ce30367da4d4" target="_blank" class="news-link">WHITE HOUSE SAYS IT SUBMITS NOMINATION OF KEVIN WARSH FOR FED CHAIR TO SENATE - WHITE HOUSE NOTICE OF PRESIDENTIAL ACTIONS</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时10分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195892" target="_blank" class="news-link">感觉这一行，人生尽头就是 AI 了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb9c1-7613-7006-9eb7-a79d4462b5e7" target="_blank" class="news-link">&lt;b&gt;INVESTORS WORRIED THE &#x27;SUPPLY CHAIN RISK&#x27; DESIGNATION COULD HURT ANTHROPIC BUSINESS&lt;/b&gt;</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 01时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb9bf-324b-7006-9eb7-78aa01252890" target="_blank" class="news-link">FITCH: EUROPEAN IT COMPANIES FACE DISRUPTION &amp; GROWTH PRESSURE AS AI DEVELOPS</a> [11] <font color='grey'>- 01时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb9be-b2c6-7006-9eb7-6ef23340451f" target="_blank" class="news-link">FITCH RATINGS: EUROPEAN IT COMPANIES FACE DISRUPTION &amp; GROWTH PRESSURE AS AI DEVELOPS</a> [13] <font color='grey'>- 01时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260305004614487800" target="_blank" class="news-link">惠誉评级：随着人工智能的发展，欧洲IT企业面临中断和增长压力。</a> [18] <font color='grey'>- 01时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb9b8-75cc-7006-9eb7-1583c9c2032b" target="_blank" class="news-link">LEBANESE SOCIAL AFFAIRS MINISTER SAYS 20 PEOPLE KILLED IN ISRAELI STRIKES ON LEBANON ON WEDNESDAY</a> [24] <font color='grey'>- 01时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">4</td>
+                <td class="percentage">2.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb9c1-4920-7006-9eb7-9c1da48f68a8" target="_blank" class="news-link">&lt;b&gt;SOME ANTHROPIC INVESTORS URGE DE-ESCALATION WITH THE PENTAGON, SOURCES SAY&lt;/b&gt;</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 01时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb9c1-1cb2-7006-9eb7-96c8756f4074" target="_blank" class="news-link">ANTHROPIC AND PENTAGON CONTINUING DISCUSSIONS, SOURCE SAYS</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260305005102314800" target="_blank" class="news-link">市场消息：消息人士称，部分Anthropic投资者敦促与美国国防部缓和紧张局势，投资者担忧“供应链风险”认定可能损害Anthropic的业务，该公司与美国国防部仍在继续磋商。</a> [13] <font color='grey'>- 01时10分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2005458619710317173" target="_blank" class="news-link">Claude Code 真的那么厉害吗？</a> [19] <font color='grey'>- 01时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/993.htm" target="_blank" class="news-link">谷歌 Pixel 以外首家：OPPO Find X9 系列手机将通过“快速共享”打通苹果隔空投送</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47249343" target="_blank" class="news-link">Something is afoot in the land of Qwen</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
