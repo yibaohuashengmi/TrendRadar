@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 231</p><p>生成时间: 2026-03-04 21:06:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">4.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47245211" target="_blank" class="news-link">Bet on German Train Delays</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766721" target="_blank" class="news-link">AI算力持续爆发！沐曦股份Q1营收同比预增25%-87%，扣非净利润亏损收窄4.00%-77.14% | 财报见闻</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766724" target="_blank" class="news-link">对标苹果三星！小米官宣自研Soc“年更”计划，拟联手谷歌Gemini打造国际版AI助手</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/cf152c39e05c4252943ed4c64cfeda04" target="_blank" class="news-link">部门领导要每周组织AI脑暴会，只为开发新的agent工具</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb8cb-32b9-7006-9eb2-e3a26c54e026" target="_blank" class="news-link">U.S. TREASURY SECRETARY BESSENT ON AI, ANTHROPIC: VENDOR DOES NOT GET TO INSERT USE CLAUSE &lt;br/&gt;&lt;br/&gt;U.S. TREASURY SECRETARY BESSENT ON AI, ANTHROPIC: WILL HAVE OUT OF U.S. SYSTEM IN SEVERAL DAYS</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47246044" target="_blank" class="news-link">Users fume over Outlook.com email &#x27;carnage&#x27;</a> [15] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47246463" target="_blank" class="news-link">Iran war wreaking havoc on shipping and air cargo, could create global delays</a> [17] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb8c1-48d3-7006-9eb2-8b0672a2b115" target="_blank" class="news-link">UK&#x27;S STARMER: WE&#x27;VE BEEN LIAISING CLOSELY WITH US ON PRE-DEPLOYMENT</a> [20] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3063619" target="_blank" class="news-link">高盛：股市因AI和伊朗回调带来买入机会 长期深度熊市的风险较低</a> [22] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb8c0-dae5-7006-9eb2-73c404f4702f" target="_blank" class="news-link">TURKISH FOREIGN MINISTER CONVEYED TO IRANIAN COUNTERPART IN CALL TURKEY&#x27;S PROTEST TO BALLISTIC MISSILE FIRED FROM IRAN AND HEADING TOWARD TURKISH AIRSPACE, TURKISH DIPLOMATIC SOURCE SAYS</a> [23] <font color='grey'>- 21时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3063640" target="_blank" class="news-link">美国财长贝森特：非常看好今年的就业市场。 Anthropic将在数日内从财政系统中移除。</a> <font color='red'><strong>[9]</strong></font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2011731606025499798" target="_blank" class="news-link">AWS 阿联酋数据中心遭物体撞击后起火，同时 Claude 全球宕机，两者有关系吗？如何看待这一风波？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/958.htm" target="_blank" class="news-link">广汽昊铂 A800 豪华轿车上市：华为乾崑 ADS 4.1 加持，指导价 18.98 万-29.98 万元</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5179172" target="_blank" class="news-link">紫光股份(000938.SZ)：控股子公司新华三与DeepSeek在大模型训练等领域保持持续深度的常态化沟通和技术合作</a> [15] <font color='grey'>- 21时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3063649" target="_blank" class="news-link">林俊旸提出离职后，阿里高管紧急答疑</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
