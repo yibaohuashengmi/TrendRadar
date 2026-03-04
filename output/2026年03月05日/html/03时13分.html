@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 102</p><p>生成时间: 2026-03-05 03:13:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">16.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cba34-1f81-7006-9ebb-0fef792cea0e" target="_blank" class="news-link">Nvidia CEO: $30B OpenAI Investment ‘Might Be the Last’ Before IPO</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cba30-9926-7006-9eba-e4631a99a98f" target="_blank" class="news-link">WHITE HOUSE: PENTAGON AND ENERGY DEPARTMENT WORKING ON PLAN TO SECURE STRAIT OF HORMUZ SHIPPING</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47251163" target="_blank" class="news-link">Roboflow (YC S20) Is Hiring a Security Engineer for AI Infra</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cba2f-e6ff-7006-9eba-de9950b931ab" target="_blank" class="news-link">WHITE HOUSE: CRUDE PRICES FELL YESTERDAY AND REMAIN STABLE TODAY</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3063822" target="_blank" class="news-link">英伟达CEO黄仁勋：目前并不存在1000亿美元投资机会。 OpenAI（潜在的）IPO限制投资机会。 与OpenAI、Anthropic的协议可能是最后一轮。</a> <font color='red'><strong>[9]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260305024546577800" target="_blank" class="news-link">英伟达CEO黄仁勋：AI热潮的资金来源“清晰明了”。</a> [11] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3063819" target="_blank" class="news-link">Mosaic股价下跌3.7%，CF Industries跌3.5%。</a> [12] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cba2d-3ba8-7006-9eba-b8886840d400" target="_blank" class="news-link">DUBAI: SUCCESSFULLY CONDUCTED AIR DEFENCE INTERCEPTION OPERATIONS</a> [13] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260305024519491800" target="_blank" class="news-link">市场消息：消息人士称，美国司法部调查肥料市场可能存在的价格操控行为；受调查公司包括Nutrien、Mosaic、CFIndustries、Koch和Yara等。</a> [13] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cba2b-9369-7006-9eba-ae40ca059df2" target="_blank" class="news-link">NVIDIA CEO HUANG SAYS FUNDING FOR THE AI BOOM IS “CRYSTAL CLEAR.”</a> [15] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cba28-fc6f-7006-9eba-8e6f32d519c3" target="_blank" class="news-link">HEAVY AIRSTRIKES REPORTED IN TABRIZ, NORTHWEST IRAN - NOUR</a> [19] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cba28-9ee7-7006-9eba-79766f6d6eb5" target="_blank" class="news-link">COMPANIES UNDER DOJ SCRUTINY INCLUDE NUTRIEN LTD, MOSAIC CO, CF INDUSTRIES HOLDINGS INC, KOCH INC, NORWAY’S YARA INTERNATIONAL</a> [21]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cba28-8554-7006-9eba-755771722a9f" target="_blank" class="news-link">BIG TECH LOBBY GROUP - WHOSE MEMBERS INCLUDE NVIDIA, AMAZON AND APPLE - EXPRESS CONCERN TO PENTAGON CHIEF HEGSETH ABOUT HIS DESIGNATING ANTHROPIC A SUPPLY-CHAIN RISK - LETTER</a> [22] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260305023545478800" target="_blank" class="news-link">英伟达CEO黄仁勋：向OpenAI投资1000亿美元的机会可能并不存在，因为该公司即将上市。</a> [25] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260305023519224800" target="_blank" class="news-link">英伟达CEO黄仁勋：将投资300亿美元于OpenAI，1000亿美元不在考虑之中。</a> [26] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cba24-f3e8-7006-9eba-43921714e146" target="_blank" class="news-link">ISRAELI OFFICIAL: WE MAY TARGET FACILITIES IN LEBANON IF THE GOVERNMENT FAILS TO ASSERT CONTROL — AL ARABIYA</a> [28] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cba22-e8ad-7006-9eba-34509eff1eae" target="_blank" class="news-link">&lt;b&gt;WHITE HOUSE: SPAIN HAS AGREED TO COOPERATE WITH U.S. MILITARY&lt;/b&gt;</a> [30] <font color='grey'>- 03时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260305024250603800" target="_blank" class="news-link">市场消息：信件显示，大型科技游说组织就美国国防部长赫格塞思将Anthropic列为供应链风险一事，向美国国防部高层表达关切；组织成员包括英伟达、亚马逊和苹果。</a> [15] <font color='grey'>- 03时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260305023559588800" target="_blank" class="news-link">英伟达CEO黄仁勋：对Anthropic的100亿美元投资很可能是最后一次。</a> [24] <font color='grey'>- 03时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3063812" target="_blank" class="news-link">谷歌公司与Epic达成和解协议之后，将在全区范围内下调APP开发者费用。</a> [17] <font color='grey'>- 03时13分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
