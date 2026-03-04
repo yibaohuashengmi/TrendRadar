@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 248</p><p>生成时间: 2026-03-04 14:55:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">6.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766696" target="_blank" class="news-link">美军被曝使用Claude AI空袭伊朗，负责情报评估与目标识别，专家发出严厉警告</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195742" target="_blank" class="news-link">VideoDance — AI 短剧一键式创作平台</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195744" target="_blank" class="news-link">各位用 AI 编程时都喂给 AI 什么？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195741" target="_blank" class="news-link">最近做了一个 AI 工具聚合导航站，主要面向海外用户，同时开源出来，给想做独立产品的朋友一个参考。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766694" target="_blank" class="news-link">担忧油价冲击，海外资金撤离亚洲AI热潮，韩股暴跌</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb779-1eaf-7006-9eac-7d084f8e9104" target="_blank" class="news-link">U.S. Air Force C-40C Flies from Yokota Air Base to Beijing Capital International Airport</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb770-99f4-7006-9eac-5145dd955073" target="_blank" class="news-link">ISRAELI ARMY: OUR PLANES CONTINUE TO STRIKE THE IRANIAN REGIME&#x27;S AIR CAPABILITIES, AND WE TARGETED SOLDIERS WHO ACTIVATED AIR DEFENSE SYSTEMS</a> [12] <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb76f-0b95-7006-9eac-4cbce3ea6567" target="_blank" class="news-link">DUBAI&#x27;S MAIN SHARE INDEX DOWN 4.7% IN EARLY TRADE - LSEG</a> [13] <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb760-13db-7006-9eac-3c6e4675d797" target="_blank" class="news-link">Oil Prices May Remain Elevated Relative to Preconflict Levels</a> [15] <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/858527368137146368" target="_blank" class="news-link">字节Coze Ai 测开校招一面（感觉很迷惑的一场面试</a> [16] <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb757-d2a1-7006-9eac-12ee9a82b4fa" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX CLOSED DOWN 4.35%, AT 32828.88</a> [20] <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb756-2651-7006-9eab-fad86120f201" target="_blank" class="news-link">&lt;b&gt;THAILAND&#x27;S TFEX - TFEX ANNOUNCES TEMPORARY TRADING HALT OF INDEX FUTURES, INDEX OPTIONS AND SINGLE STOCK FUTURES&lt;/b&gt;</a> [23] <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb755-2514-7006-9eab-f15554f968dc" target="_blank" class="news-link">THAILAND STOCKS FALL 8% TO 1,348.99, BIGGEST INTRA-DAY PCT DROP SINCE MARCH 2020</a> [24] <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb754-73d8-7006-9eab-ede97354a680" target="_blank" class="news-link">&lt;b&gt;THAILAND&#x27;S SET - SET TRADING WILL BE RESUMED TO NORMAL FROM THE AFTERNOON SESSION&lt;/b&gt;</a> [25]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb752-68fd-7006-9eab-e6bbfac84552" target="_blank" class="news-link">GOLDMAN RAISES 2026Q2 AVERAGE OIL PRICE FORECAST FOR BRENT BY $10 TO $76/BBL (VS. $66 PRIOR) AND BY $9 FOR WTI TO $71 (VS. $62)</a> [26]</div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E5%8F%82%E6%88%98%E5%AF%B9%E4%BC%8A%E7%A9%BA%E8%A2%AD" target="_blank" class="news-link">AI参战对伊空袭</a> [30] <font color='grey'>- 14时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195729" target="_blank" class="news-link">google 搜索“汽水音乐” 为什么 不是 官网上第一个结果了？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/793.htm" target="_blank" class="news-link">谷歌安卓 17 酝酿启用 16KB 页面大小：应用启动时间最高缩短 30%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/790.htm" target="_blank" class="news-link">阿里千问大模型核心掌舵者林俊旸宣布离职，高层出面挽留</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304142907056800" target="_blank" class="news-link">以色列国防部长卡茨表示，如果伊朗任命任何人来取代阿里·哈梅内伊，那么此人将成为“必须坚决铲除的目标”。</a> [11] <font color='grey'>- 14时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
