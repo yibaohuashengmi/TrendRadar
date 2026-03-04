@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 371</p><p>生成时间: 2026-03-04 10:28:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">30</td>
+                <td class="percentage">8.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47240694" target="_blank" class="news-link">Lenovo&#x27;s New ThinkPads Score 10/10 for Repairability</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195635" target="_blank" class="news-link">国产 AI Coding Plan 现在选哪家比较好？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb6a4-be6a-7006-9ea8-3847d2a0fa7c" target="_blank" class="news-link">SHARES OF HK-LISTED CATHAY PACIFIC AIRWAYS DOWN MORE THAN 5%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/648.htm" target="_blank" class="news-link">研究发现 AI 好战：95% 模拟战争对局下首选核打击</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32692366" target="_blank" class="news-link">如何释放服务消费潜力？AI发展会冲击就业岗位？委员这样看</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3063204" target="_blank" class="news-link">马云再现身，阿里核心高管罕见聚齐谈AI</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766679" target="_blank" class="news-link">用AI重做一遍？OpenAI开发Github的替代品，与微软竞争</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304100632979800" target="_blank" class="news-link">日本太空一号：将在确定后公布“KAIROS”火箭新的发射日期。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb6a2-e1fc-7006-9ea8-21708f30e8e8" target="_blank" class="news-link">South Korea’s AI-Fueled Stock Euphoria Unravels on Iran War Risk</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304100401835800" target="_blank" class="news-link">日本太空一号中止“KAIROS”火箭发射。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304100241902800" target="_blank" class="news-link">日本太空一号“KAIROS”火箭未按计划发射时间升空。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195616" target="_blank" class="news-link">BookletAI - 免费 AI 小册子生成器，支持 26 种语言，一键生成精美电子书</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47241813" target="_blank" class="news-link">Marcus AI Claims Dataset</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb69f-4675-7006-9ea8-0ab9cd353e98" target="_blank" class="news-link">Altman Tells Staff OpenAI Has No Say Over Pentagon Decisions</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.donga.com/cn/article/all/20260304/6124390/1" target="_blank" class="news-link">安斯罗普技术公司尽管与特朗普存在矛盾，其人工智能“克劳德”在对伊朗空袭中发挥核心作用</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958680" target="_blank" class="news-link">AI抢光饭碗+武装军队=AI必被国有化</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195607" target="_blank" class="news-link">Java 后端开发面对 ai 无力</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202603/0465951.html" target="_blank" class="news-link">马云与阿里和蚂蚁核心管理层罕见一起亮相谈AI</a> [12] <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/638.htm" target="_blank" class="news-link">苹果 M4 iPad Air 跑分出炉：单核与 iPad Pro 持平，多核因核心数略逊一筹</a> [12] <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.donga.com/cn/article/all/20260304/6124327/1" target="_blank" class="news-link">“人机大战”经典重现，李世石时隔十年再与人工智能对弈</a> [13] <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/632.htm" target="_blank" class="news-link">奥尔特曼：OpenAI 无法左右美国防部决策，Anthropic 是前车之鉴</a> [16] <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202603/0465946.html" target="_blank" class="news-link">谢伟铿：从龙虾之乱看新加坡AI布局</a> [17] <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202603/0465944.html" target="_blank" class="news-link">祁冬涛：AI逼我们再次思考“人是什么”</a> [19] <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb690-7620-7006-9ea7-c38873d84aae" target="_blank" class="news-link">SHIPMENTS OF FOREIGN BRANDED PHONES INCLUDING APPLE IPHONES WITHIN CHINA DOWN 36.5% Y/Y AT 2.79 MILLION HANDSETS IN JANUARY - CALCULATIONS BASED ON CAICT DATA</a> [19] <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/629.htm" target="_blank" class="news-link">微软 Xbox 专利概述 AI 代打：游戏遇阻不用查攻略，可无缝接管你的手柄</a> [19] <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766666" target="_blank" class="news-link">美考虑对中企买H200芯片“限购”，专家：美国试图在AI芯片上遏制中国策略已破产</a> [20] <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%BB%BA%E8%AE%AE%E4%B8%BAAI%E7%94%9F%E6%88%90%E5%86%85%E5%AE%B9%E6%B7%BB%E5%8A%A0%E4%B8%8D%E5%8F%AF%E5%8E%BB%E9%99%A4%E6%B0%B4%E5%8D%B0" target="_blank" class="news-link">建议为AI生成内容添加不可去除水印</a> [22] <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/623.htm" target="_blank" class="news-link">挑战微软 GitHub：消息称 OpenAI 正秘密开发代码托管平台</a> [24] <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/619.htm" target="_blank" class="news-link">希捷推出第二代商用 HAMR HDD 平台 Mozaic 魔彩盒 4+，单盘 44TB 创新纪录</a> [27] <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/618.htm" target="_blank" class="news-link">微软 Build 2026 开发者大会定档 6 月：直击 AI 核心，纳德拉将携众高管出席</a> [28] <font color='grey'>- 10时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">4</td>
+                <td class="percentage">1.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2012332008160895210" target="_blank" class="news-link">如何评价阿里千问大模型负责人林俊旸自宣卸任？会对通义千问造成什么影响？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195630" target="_blank" class="news-link">阿里千问负责人林俊旸千问离职</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766662" target="_blank" class="news-link">突发！阿里Qwen深夜地震，林俊旸官宣「下台离开」</a> [18] <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/624.htm" target="_blank" class="news-link">阿里千问技术负责人林俊旸宣布卸任</a> [23] <font color='grey'>- 10时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb6aa-1eca-7006-9ea8-50ab1c6a7f42" target="_blank" class="news-link">Anthropic Nears $20 Billion Revenue Run Rate Amid Pentagon Feud</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195612" target="_blank" class="news-link">claude code 开 2 个窗口，同时做不同的项目，会对缓存命中有影响吗？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/645.htm" target="_blank" class="news-link">再次提速：谷歌 Chrome 浏览器 9 月 153 稳定版开始，发布周期缩短至 2 周</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/617.htm" target="_blank" class="news-link">黄仁勋宣布临时关闭英伟达迪拜办公室：正积极支持受影响员工，谷歌员工也被困</a> [29] <font color='grey'>- 10时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/641.htm" target="_blank" class="news-link">华为鸿蒙存量设备 API 版本使用数据更新，HarmonyOS 6.0.2 (22) 占比突破 90%</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/640.htm" target="_blank" class="news-link">阿维塔 06T 车型确认五一劳动节前后上市，首搭华为全新一代激光雷达</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
