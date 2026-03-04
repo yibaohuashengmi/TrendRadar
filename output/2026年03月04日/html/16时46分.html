@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 237</p><p>生成时间: 2026-03-04 16:46:13</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">6.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb7f3-4453-7006-9eae-d9b288e6f6f8" target="_blank" class="news-link">SHANGHAI INTERNATIONAL ENERGY EXCHANGE: TO ADJUST PRICE LIMITS AND MARGIN RATIOS FOR SOME CRUDE OIL, FUEL OIL AND SHIPPING INDEX FUTURES FROM MARCH 4 CLOSING SETTLEMENT</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb7f2-9d93-7006-9eae-d0c733328b1f" target="_blank" class="news-link">KUWAIT SOUNDS SIRENS: AL JAZEERA</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766703" target="_blank" class="news-link">美股本轮财报季最大关键词——AI焦虑</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195783" target="_blank" class="news-link">AI coding 跨工程或者 k 如何编码</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb7ee-55df-7006-9eae-bd6b334cb8ab" target="_blank" class="news-link">&lt;b&gt;SHANGHAI FUTURES EXCHANGE: TO ADJUST PRICE LIMITS AND MARGIN RATIOS FOR FUEL OIL FUTURES CONTRACT FU2604&lt;/b&gt;</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/878.htm" target="_blank" class="news-link">上线约半年，百度全新搜索 App“梯子 AI”停运</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195789" target="_blank" class="news-link">使用 windows 和 wsl2 下什么 ai 编程工具最好</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195782" target="_blank" class="news-link">我觉得以后 AI 编程应该是这个逻辑</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766707" target="_blank" class="news-link">刚拿下五角大楼订单，OpenAI又考虑与北约签订AI合同</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195771" target="_blank" class="news-link">发现一个无限生成的 AI 图片编辑网站，试了一下很秀</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2302236" target="_blank" class="news-link">突发！马云刚发声谈AI 阿里千问核心负责人林俊旸辞职</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195772" target="_blank" class="news-link">我做了一款能帮你生成「个人洞察」的 AI 笔记 App，支持自带 API Key</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/860.htm" target="_blank" class="news-link">微软 Win12 曝光：模块化架构、深度集成 AI、硬件门槛 40 TOPS 算力</a> [16] <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/lunair/launches/lunair?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Lunair</a> [20] <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb7d5-f7e7-7006-9eae-328347c5ef19" target="_blank" class="news-link">THAILAND&#x27;S SET - BOARD OF GOVERNORS HAS RESOLVED TO PERMIT PROGRAM TRADING FROM 15:00 HRS. ONWARDS ON 4 MARCH 2026</a> [22] <font color='grey'>- 16时46分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">5</td>
+                <td class="percentage">2.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/882.htm" target="_blank" class="news-link">不只是“五界”，消息称华为系更多车型将搭载 896 线激光雷达</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/861.htm" target="_blank" class="news-link">华为余承东：鸿蒙智行“最年轻的车”尚界 Z7/Z7T 更多信息本月底揭晓</a> [15] <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/854.htm" target="_blank" class="news-link">华为余承东官宣“鸿蒙智行最年轻的车”尚界 Z7：电光紫粉配色，首发随动四维屏</a> [19] <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/846.htm" target="_blank" class="news-link">华为余承东官宣鸿蒙智行首款猎装车型尚界 Z7T，3 月底公布详情</a> [20] <font color='grey'>- 16时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/833.htm" target="_blank" class="news-link">鸿蒙智行高配版尊界 S800、问界 M9 同步首发搭载华为乾崑新一代双光路图像级激光雷达</a> [24] <font color='grey'>- 16时46分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb7e4-567c-7006-9eae-822ff4cb481a" target="_blank" class="news-link">GOOGLE: ANNOUNCING NEW COLLABORATION WITH DATA USAGE AND MONETIZATION PLATFORM PROVIDER DIGITALROUTE</a> [12] <font color='grey'>- 16时46分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195794" target="_blank" class="news-link">千问别买阿里的 coding plan</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时46分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
