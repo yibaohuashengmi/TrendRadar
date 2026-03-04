@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 190</p><p>生成时间: 2026-03-04 17:48:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">4.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb82c-f6c5-7006-9eaf-d0afddb5feb4" target="_blank" class="news-link">FITCH: EXPECT CHINA LOCAL GOVTS&#x27; CAPEX TO KEEP GROWING IN 2026, FUNDED MAINLY BY CENTRAL TRANSFERS AND DEBT ISSUANCE</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2065923-1-1.html" target="_blank" class="news-link">IT之家3月4日消息，微软 Win12 曝光：模块化架构、深度集成 AI、硬件门槛 40 TOPS 算力</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb82c-7eff-7006-9eaf-cb2d537f1c17" target="_blank" class="news-link">FITCH: CHINA LOCAL GOVTS&#x27; OPEX GROWTH SHOULD REMAIN TIGHTLY CONTAINED IN 2026</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb82b-aa3a-7006-9eaf-c60fff913f16" target="_blank" class="news-link">&lt;b&gt;FITCH: EXPECTS CHINESE LOCAL GOVERNMENTS&#x27; FISCAL RECOVERY TO REMAIN GRADUAL IN 2026, WITH PROVINCIAL BUDGETS SHOWING REGIONAL DIVERGENCE&lt;/b&gt;</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb823-6adf-7006-9eaf-a9725d0f878b" target="_blank" class="news-link">TAIWAN STOCK EXCHANGE: ALTHOUGH GEOPOLITICAL RISKS MAY LEAD TO SHORT-TERM VOLATILITY IN TAIWAN’S STOCK MARKET, THE CAPITAL MARKET CONTINUES TO HOLD STRONG GROWTH POTENTIAL OVER THE MEDIUM TO LONG TERM</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/889.htm" target="_blank" class="news-link">换场景就不准，研究指出 AI 识别野生动物暴露出“迁移性危机”</a> [12] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb808-8fc3-7006-9eaf-307db45c1f01" target="_blank" class="news-link">PetroChina Reclaims Top A-Share Market Cap, Surpassing Agricultural Bank</a> [21] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb7fc-4627-7006-9eaf-0ea9a05a2173" target="_blank" class="news-link">RUSSIA&#x27;S TRANSPORTATION MINISTRY SAYS UKRAINIAN NAVAL DRONES ATTACKED RUSSIAN GAS TANKERS FROM LYBIA&#x27;S COAST</a> [26] <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cb7f8-7cd3-7006-9eae-f585522544ce" target="_blank" class="news-link">Retail Sales Volume (YoY) (Jan)</a> [29] <font color='grey'>- 17时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">1.58%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7612975690631249970/" target="_blank" class="news-link">华为乾崑发布896线激光雷达</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2302544" target="_blank" class="news-link">开年即迎“颠覆性”技术！华为896线激光雷达上车 比亚迪将发第二代刀片电池</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/891.htm" target="_blank" class="news-link">华为王金辉：建议运营商将光纤入户以 300M 为起步标准，宽带发达区域打造真千兆网络</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766712" target="_blank" class="news-link">硅谷遭中东惊魂？英伟达撤离、亚马逊遇袭、微软谷歌百亿投资蒙阴影</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/925/908.htm" target="_blank" class="news-link">谷歌 Pixel 8 及后续机型正式上线“桌面模式”，手机连接显示器“秒变电脑”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时48分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
