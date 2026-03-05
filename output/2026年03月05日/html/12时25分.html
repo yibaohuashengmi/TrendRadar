@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 326</p><p>生成时间: 2026-03-05 12:25:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">33</td>
+                <td class="percentage">10.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766758" target="_blank" class="news-link">博通电话会：2027年AI芯片营收将破1000亿美元，AI不会颠覆基础设施软件</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260305120534883800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2026-03-05）</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/109.htm" target="_blank" class="news-link">工信部部长李乐成：坚持 AI 为人所控，全力推进新一代人工智能产品的攻关和迭代更新</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47257020" target="_blank" class="news-link">Regulator contacts Meta over workers watching intimate AI glasses videos</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195994" target="_blank" class="news-link">提供一些 AI Token 信息</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbc1f-1487-7006-9ec1-624619465709" target="_blank" class="news-link">CHINA CABINET RESEARCH HEAD: LIKELY TO BE MORE UNCERTAIN AND UNPREDICTABLE FACTORS IN ECONOMIC OPERATION THAN EXPECTED</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195981" target="_blank" class="news-link">分享一个自己做的工具：把视频和文章转换成 AI 播客</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbc1d-d0a1-7006-9ec1-5dbcc75f7bb8" target="_blank" class="news-link">CHINA CABINET RESEARCH HEAD: THE RANGE GROWTH TARGET HELPS ECONOMY COPE WITH UNCERTAINTIES</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766782" target="_blank" class="news-link">OpenAI聘请Cooley和Wachtell两家律所筹备IPO，上市最快今年落地</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766781" target="_blank" class="news-link">OpenAI收缩ChatGPT购物野心，AI电商变现路径再遭考验</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5179355" target="_blank" class="news-link">北京君正(300223.SZ)：目前公司AI技术主要面向端侧应用</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2007415716228330401" target="_blank" class="news-link">如何评价贾樟柯用 Seedance2.0 生成的短片《贾科长 Dance》？未来 AI 与影视将如何共存？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195964" target="_blank" class="news-link">嵌入式软件都用哪个 Ai 编程工具的？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3064172" target="_blank" class="news-link">【工信部部长李乐成：全力推进新一代人工智能产品的攻关和迭代更新】在十四届全国人大四次会议首场“部长通道”集中采访活动上，工业和信息化部部长李乐成表示，2026年工信部将按照政府工作报告要求，大力推动人工智能（AI）和制造业双向奔赴。我国产业门类齐全，创新人才众多，创新生态不断改善，我们有信心，坚信必将有更多的世界级智能产品在这片热土上生产出来。要努力推动AI电脑、AI手机、智能家居，更好满足人民群众对美好生活的需求。要全力推进新一代人工智能产品的攻关和迭代更新，包括脑机接口、自动驾驶汽车、机器人，推动科技攻关、技术迭代。大力支持发展智能农业机械、智能医疗器械，让更多智能产品满足各行各业各领域的需要。</a> [11] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbc14-82b5-7006-9ec1-254567753358" target="_blank" class="news-link">THAILAND STOCKS JUMP AS MUCH AS 3.3% TO 1,430.6 POINTS</a> [12] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958685" target="_blank" class="news-link">达利欧：AI正吞噬一切，最终轮到自己，因为它赚不到钱</a> [12] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3064167" target="_blank" class="news-link">工业和信息化部部长李乐成：要坚持AI为人所控</a> [13] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2303137" target="_blank" class="news-link">黄仁勋：对OpenAI的300亿美元投资“可能是最后一次”</a> [13] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbc0f-39aa-7006-9ec1-15a778e5957b" target="_blank" class="news-link">OPENAI TOPPED $25 BILLION IN ANNUALIZED REVENUE AS OF THE END OF LAST MONTH - THE INFORMATION</a> [14] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbc0c-d207-7006-9ec1-0f34749224b5" target="_blank" class="news-link">China’s $600 Billion Tech Stock Rout Risks Deepening on AI Costs</a> [15] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47256781" target="_blank" class="news-link">Jensen Huang says Nvidia is pulling back from OpenAI and Anthropic</a> [15] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3064161" target="_blank" class="news-link">工业和信息化部部长李乐成：我国规上制造业企业人工智能（AI）技术应用普及率超30%</a> [17] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7613230154210852910" target="_blank" class="news-link">2026 Flutter VS React Native ，同时在 AI 时代 VS Native 开发，你没见过的版本</a> [17] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/076.htm" target="_blank" class="news-link">360 周鸿祎眼睛换上人工晶体：摘掉眼镜是为了戴 AI 眼镜，自嘲“眼神更像机器人了”</a> [19] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7613576713213054470/" target="_blank" class="news-link">马斯克为何频繁为中国AI站台</a> [20] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbbfa-ba9f-7006-9ec0-e1e6a84132ca" target="_blank" class="news-link">ALIBABA CEO CONFIRMS QWEN TECH LEAD DEPARTURE IN STAFF LETTER, SAYS WILL ESTABLISH A NEW TASK FORCE TO ACCELERATE AI FOUNDATION MODEL DEVELOPMENT</a> [20] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbbf7-4057-7006-9ec0-d4cfb71e69ba" target="_blank" class="news-link">Anthropic chief back in talks with Pentagon about AI deal</a> [22] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbbf6-24ab-7006-9ec0-c9b65b951a32" target="_blank" class="news-link">RUSSIA IS PREPARED TO RAISE OIL DELIVERIES TO CHINA AND INDIA, DEPUTY PRIME MINISTER ALEXANDER NOVAK SAID</a> [23] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3064152" target="_blank" class="news-link">截至上月末，OpenAI年化收入已超过250亿美元。（The Information）</a> [24] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7612492005218402367" target="_blank" class="news-link">普通人用AI加持赚到的第一个100块</a> [27] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2419330" target="_blank" class="news-link">一键进入AI幻想世界</a> [28] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%99%BE%E5%BA%A6AIGC%E8%88%8C%E5%B0%96%E9%81%87%E9%A1%BA%E5%BE%B7" target="_blank" class="news-link">百度AIGC舌尖遇顺德</a> [30] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7612624423943405595" target="_blank" class="news-link">用 GLM + OpenClaw 打造你的 AI PR Review Agent — 让龙虾帮你审代码</a> [30] <font color='grey'>- 12时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">3</td>
+                <td class="percentage">0.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%98%BF%E9%87%8C%E5%90%B4%E6%B3%B3%E9%93%AD%E5%9B%9E%E5%BA%94%E6%9E%97%E4%BF%8A%E6%97%B8%E7%A6%BB%E8%81%8C%23&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">阿里吴泳铭回应林俊旸离职</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7613198481663164422/" target="_blank" class="news-link">核心成员集体辞职 千问何去何从</a> [17] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/093.htm" target="_blank" class="news-link">阿里批准千问技术负责人林俊旸辞职，将成立基础模型支持小组</a> [17] <font color='grey'>- 12时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47255881" target="_blank" class="news-link">Google Workspace CLI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1195996" target="_blank" class="news-link">一款适用于 Figma 的谷歌插件，自动上传选中图片到自定义后端服务或 oss，快速获取 svg 内容。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/094.htm" target="_blank" class="news-link">华为靳玉志回应安徽浓雾路段事故：辅助驾驶已降速，车主又持续踩电门</a> [16] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/065.htm" target="_blank" class="news-link">消息称 2025 款问界 M9、尊界 S800 汽车支持升级华为全新 896 激光雷达，费用为 1 万 / 2 万元</a> [21] <font color='grey'>- 12时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
