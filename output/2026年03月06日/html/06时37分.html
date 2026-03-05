@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 83</p><p>生成时间: 2026-03-06 06:37:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">13.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3064683" target="_blank" class="news-link">美国拟将AI芯片出口管制扩展至全球 英伟达、AMD等公司出口需获许可</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc003-bb26-7001-80ab-4aaf3cea5737" target="_blank" class="news-link">NVIDIA CLOUD ALLY TOGETHER AI IN TALKS TO RAISE AROUND $1 BILLION AT $7.5 BILLION VALUATION - THE INFORMATION</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc001-a32b-7001-80ab-447abb2b3ddf" target="_blank" class="news-link">US CHINA PANEL CHAIR MOOLENAAR WARNS OF RISKS WITH CHINESE AUTOS IN THE US</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3064681" target="_blank" class="news-link">Together AI正洽谈以75亿美元的估值进行融资。（The Information）</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3064679" target="_blank" class="news-link">美国证券交易委员会（SEC）结束对加密货币亿万富翁孙宇晨的诉讼。SEC表示，Rainberry公司将在孙宇晨案中支付1000万美元罚款。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbff2-4096-7001-80ab-09a50c95e9b6" target="_blank" class="news-link">KUWAIT PETROLEUM HAS A PLAN TO FULFIL LOCAL NEEDS - KUNA</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbff1-426e-7001-80ab-043bafa38f33" target="_blank" class="news-link">IRAN&#x27;S IRGC: A NEW WAVE OF TRUE PROMISE 4 OPERATION HAS BEGUN, INVOLVING MISSILE AND DRONE ATTACK TARGETING CENTRAL TEL AVIV WITH KHAIBAR MISSILES -STATE MEDIA</a> [11] <font color='grey'>- 06时37分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47267628" target="_blank" class="news-link">Proton Mail Helped FBI Unmask Anonymous &#x27;Stop Cop City&#x27; Protester</a> [13] <font color='grey'>- 06时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbfef-cb22-7001-80aa-d9e1a4b2ef55" target="_blank" class="news-link">TRUMP: IRAN&#x27;S ANTI-AIRCRAFT WEAPONS ARE GONE&lt;br/&gt;&lt;br/&gt;TRUMP: IRAN&#x27;S COMMUNICATIONS AND AEROPLANES ARE GONE</a> [16] <font color='grey'>- 06时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306060013613800" target="_blank" class="news-link">美国证交会与孙宇晨就民事欺诈案件达成和解协议，孙宇晨旗下公司Rainberry将支付1000万美元的民事罚款。</a> [18] <font color='grey'>- 06时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306053453441800" target="_blank" class="news-link">美国商务部：新出台的人工智能出口规则不会复制拜登政府的人工智能扩散规则，其过于严苛且难以遵循。</a> [30] <font color='grey'>- 06时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
