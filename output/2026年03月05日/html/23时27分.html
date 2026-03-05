@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 194</p><p>生成时间: 2026-03-05 23:27:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">5.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=456ec59b-5a62-4b9c-a849-2667963b03ea" target="_blank" class="news-link">Global Supply Chain Pressure Index (Feb)</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1196165" target="_blank" class="news-link">Clipal 无感常驻系统的 AI API 代理，终于更新了一个 webUI 界面</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbe60-7c60-7006-9ecb-3acb4a312850" target="_blank" class="news-link">UK STARMER FAILS TO RULE OUT JOINING OFFENSIVE ACTIONS VS IRAN</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbe60-19e1-7006-9ecb-31cdda29d8e0" target="_blank" class="news-link">&lt;b&gt;WORLD GOLD COUNCIL: NORTH AMERICA AND ASIA DROVE INFLOWS, WHILE EUROPE SAW EARLY‑MONTH OUTFLOWS TIED TO THE LATE‑JANUARY SELL‑OFF; GLOBAL TRADING VOLUMES EASED TO US$478BN/DAY BUT REMAINED WELL ABOVE 2025 LEVELS.&lt;/b&gt;</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/331.htm" target="_blank" class="news-link">消息称 Anthropic 重启与美国国防部谈判，OpenAI“抢单”局面生变</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbe5f-95fa-7006-9ecb-23d717a542fd" target="_blank" class="news-link">WORLD GOLD COUNCIL: GLOBAL GOLD ETFS ADDED US$5.3BN IN FEBRUARY, EXTENDING THEIR NINTH STRAIGHT MONTH OF INFLOWS AND MARKING THE STRONGEST TWO‑MONTH START TO A YEAR ON RECORD.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5179844" target="_blank" class="news-link">美股异动丨亚马逊涨1.5%，推出AI平台自动化医疗行政流程</a> [12] <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260305230503213800" target="_blank" class="news-link">The Information：OpenAI开发出一款“双向”音频模型。</a> [12] <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbe50-745e-7006-9eca-f396c4cf8ec2" target="_blank" class="news-link">IRAN&#x27;S ARAGHCHI DENIES ANY PROJECTILE FIRED TOWARD AZERBAIJAN</a> [14] <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbe50-61d0-7006-9eca-eb1254c8531f" target="_blank" class="news-link">IRAN&#x27;S FM ARAGHCHI HOLDS PHONE CALL WITH AZERBAIJAN COUNTERPART</a> [15] <font color='grey'>- 23时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47240424" target="_blank" class="news-link">The Man Who Broke into Jail</a> [15] <font color='grey'>- 23时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cbe5f-114e-7006-9ecb-15da45099503" target="_blank" class="news-link">GOOGLE: PLEDGING $50 MILLION THROUGH 2030 TO TAKE ACTION ON SUPERPOLLUTANTS - BLOG</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
