@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 166</p><p>生成时间: 2026-03-06 15:42:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">9.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1196336" target="_blank" class="news-link">差点被京东金融的 AI 客服骗了。。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc213-5385-7001-80b1-2f80ef58bd1d" target="_blank" class="news-link">CHINA CONTAINERIZED FREIGHT INDEX ROSE BY 0.4% W/W TO 1,054.26</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时42分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5179988" target="_blank" class="news-link">汉得信息(300170.SZ)：在财务运营及合同管理领域，有AI智能审核的相关产品和解决方案</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc213-3197-7001-80b1-20c547e2c2bf" target="_blank" class="news-link">SHANGHAI CONTAINERIZED FREIGHT INDEX JUMPED BY 11.7% W/W, AT 1,489.19</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766890" target="_blank" class="news-link">人大经济主题记者会：设立国家级并购基金，“十五五”末AI相关产业规模将增长到10万亿元以上</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时42分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%85%A8%E5%9B%BD%E9%A6%96%E4%BE%8BAI%E5%B9%BB%E8%A7%89%E4%BE%B5%E6%9D%83%E7%BA%A0%E7%BA%B7%E6%A1%88%E5%88%A4%E4%BA%86" target="_blank" class="news-link">全国首例AI幻觉侵权纠纷案判了</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23AI%E7%9B%B8%E5%85%B3%E4%BA%A7%E4%B8%9A%E8%A7%84%E6%A8%A1%E5%B0%86%E8%B6%8510%E4%B8%87%E4%BA%BF%E5%85%83%23&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">AI相关产业规模将超10万亿元</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc20d-e1e4-7001-80b0-f7386b0664d8" target="_blank" class="news-link">CHINA&#x27;S COMMERCE MINISTER: WILL COMBINE LIVELIHOOD BENEFITS WITH CONSUMPTION PROMOTION, USE POLICY AND CAMPAIGNS TO FULLY BOOST CONSUMPTION AND DOMESTIC DEMAND</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/544.htm" target="_blank" class="news-link">绿源推出 D50 休闲三轮车：支持 AI 智能语音交互、蓝牙 / App / 钥匙共享 / 机械钥匙解锁</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc207-3332-7001-80b0-d9ecafc1dd56" target="_blank" class="news-link">CHINA FOREIGN MINISTRY ON STRAIT OF HORMUZ: URGES IMMEDIATE HALT TO MILITARY ACTIONS TO PREVENT ESCALATION AND PROTECT GLOBAL ECONOMIC STABILITY</a> [12] <font color='grey'>- 15时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3064956" target="_blank" class="news-link">国家发展改革委主任：“十五五”末人工智能相关产业规模将增长到10万亿元以上</a> [12] <font color='grey'>- 15时42分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5179977" target="_blank" class="news-link">恒实科技(300513.SZ)：将全力推动AI技术在营销、调度、配网、交易等核心电力业务场景中的规模化应用</a> [13] <font color='grey'>- 15时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc202-9b8b-7001-80b0-c9faf710030d" target="_blank" class="news-link">CHINA&#x27;S FINANCE MINISTRY: 2026 FISCAL POLICY TO MAINTAIN MORE PROACTIVE STANCE</a> [14] <font color='grey'>- 15时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc1fe-bdbc-7001-80b0-a8906e348abc" target="_blank" class="news-link">CHINA&#x27;S STATE PLANNER HEAD: AI INDUSTRY SCALE EXPECTED TO EXCEED 10 TRILLION YUAN</a> [18] <font color='grey'>- 15时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%A0%B45%E4%BA%BF%E6%92%AD%E6%94%BEAI%E7%9F%AD%E5%89%A7%E6%88%90%E6%9C%AC%E4%BB%853000%23&amp;t=31&amp;band_rank=21&amp;Refer=top" target="_blank" class="news-link">破5亿播放AI短剧成本仅3000</a> [21] <font color='grey'>- 15时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc1f4-b106-7001-80b0-538631a8abd4" target="_blank" class="news-link">CHINA STOCKS CLOSE HIGHER: SHANGHAI COMPOSITE +0.38%, SHENZHEN COMPONENT +0.59%, CHINEXT +0.38%</a> [29] <font color='grey'>- 15时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/551.htm" target="_blank" class="news-link">谷歌宣布 2030 年前投入至少 5000 万美元，遏制“超级污染物”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/541.htm" target="_blank" class="news-link">靳玉志再谈新一代双光路图像级激光雷达，强调华为乾崑智驾始终坚持多传感器融合感知路线</a> [13] <font color='grey'>- 15时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
