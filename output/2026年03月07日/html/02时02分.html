@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 133</p><p>生成时间: 2026-03-07 02:02:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">7.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3065406" target="_blank" class="news-link">美国堪萨斯城联储主席Schmid：受人工智能影响及劳动力人口老龄化，企业雇佣计划处于停滞状态。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47276220" target="_blank" class="news-link">Paul Brainerd, Founder of Aldus PageMaker, has died</a> [12] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc418-bb81-7001-80bb-8e12314befc9" target="_blank" class="news-link">ECB&#x27;S SCHNABEL: POST PANDEMIC LESSONS SUGGEST ECB MUST TREAD CAREFULLY&lt;br/&gt;&lt;br/&gt;ECB&#x27;S SCHNABEL: SMALL, TEMPORARY INFLATION OVERSHOOT OF LITTLE RELEVANCE IF EXPECTATIONS REMAIN ANCHORED</a> [14] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc417-ef8f-7001-80bb-7e1bf84d2ceb" target="_blank" class="news-link">&lt;b&gt;SAUDI ARABIA ADDS A NEW MAERSK SHIPPING SERVICE TO THE JEDDAH PORT, ADDS SHIPPING CAPACITY OF 17K STANDARD CONTAINERS&lt;/b&gt;</a> [16] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc417-bfba-7001-80bb-73f013f63be3" target="_blank" class="news-link">IRAN LAUNCHES ATTACK ON US FORCES IN BAHRAIN - IRANIAN MILITARY SPOKESMAN, CITED BY STATE MEDIA</a> [17] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc411-34d6-7001-80bb-5ba806e4384c" target="_blank" class="news-link">AEGEAN AIR: TEL AVIV FLIGHTS CANCELLED UNTIL MARCH 20 MORNING &lt;br/&gt;&lt;br/&gt;AEGEAN AIR: DUBAI FLIGHTS CANCELLED UNTIL MARCH 19 EVENING</a> [20] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc410-d295-7001-80bb-48b245183634" target="_blank" class="news-link">US ISSUES LICENSE AUTHORIZING CERTAIN ACTIVITIES INVOLVING VENEZUELAN-ORIGIN GOLD -TREASURY DEPT WEBSITE</a> [22] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47272734" target="_blank" class="news-link">We might all be AI engineers now</a> [25] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc409-ab7f-7001-80bb-27b379729166" target="_blank" class="news-link">&lt;b&gt;CENTCOM: IRAN&#x27;S ATTACKS ON BAHRAIN WILL NOT GO UNANSWERED&lt;/b&gt;</a> [27] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc408-2db5-7001-80bb-1b3e35f13d80" target="_blank" class="news-link">CENTCOM: THURSDAY NIGHT, IRANIAN FORCES FIRED SEVEN ATTACK DRONES AT CIVILIAN, RESIDENTIAL NEIGHBORHOODS IN BAHRAIN</a> [28] <font color='grey'>- 02时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47276604" target="_blank" class="news-link">Show HN: Claude-replay – A video-like player for Claude Code sessions</a> [28] <font color='grey'>- 02时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
