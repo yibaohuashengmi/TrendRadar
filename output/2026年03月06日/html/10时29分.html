@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 330</p><p>生成时间: 2026-03-06 10:29:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">23</td>
+                <td class="percentage">6.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1196224" target="_blank" class="news-link">BBP 超级个体实践：从 AI 开发到产品变现，「牛马配件」的全公开成长日志</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1196222" target="_blank" class="news-link">想了很久，普通开发参与/迈向 AI 时代的方法也许就是转型做 Agent 开发。Agent 开发也许就是 AI 时代的 CRUD。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/394.htm" target="_blank" class="news-link">消息称 Oracle 甲骨文将实施数千人规模大裁员，为 AI 业务留出更多资金</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47268662" target="_blank" class="news-link">The next generations of Bubble Tea, Lip Gloss, and Bubbles are available now</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1196216" target="_blank" class="news-link">Jetbrains 党可能迎来了春天,Cursor/OpenCode/Kimi 订阅都可以接入 IDEA</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc0d5-ec18-7001-80ac-e07e1f68ab0d" target="_blank" class="news-link">QATAR DEFENCE MINISTRY SAYS DRONE ATTACK ON U.S. AL UDEID AIR BASE THWARTED</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=OpenAI%E5%8F%91%E5%B8%83GPT-5.4" target="_blank" class="news-link">OpenAI发布GPT-5.4</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1196207" target="_blank" class="news-link">OpenAI Symphony / Anthropic Claude Code 背后的共识： Agent Harness Engineering 比选模型重要（附 50+ 项目清单）</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3766836" target="_blank" class="news-link">OpenAI发布最强专业模型GPT-5.4，自动操作电脑，插件支持AI玩转Excel和金融分析</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766855" target="_blank" class="news-link">美商务部拟将AI芯片出口审批“全球化”，白宫称违背特朗普意愿</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5179887" target="_blank" class="news-link">天风证券：AI需求叠加多次涨价点火玻纤板块，关注电子布板块</a> [13] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8F%B7%E7%A7%B0%E6%9C%80%E5%BC%BA%E6%A8%A1%E5%9E%8B+OpenAI+GPT-5.4%E5%8F%91%E5%B8%83" target="_blank" class="news-link">号称最强模型 OpenAI GPT-5.4发布</a> [19] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc0c9-f7df-7001-80ac-753dee93e855" target="_blank" class="news-link">AT OPEN, SHANGHAI COMPOSITE FALLS 0.55%, SHENZHEN COMPONENT DOWN 0.52%, CHINEXT DOWN 0.6%&lt;br/&gt;&lt;br/&gt;AT OPEN, HANG SENG INDEX UP 0.15%, HANG SENG TECH INDEX UP 0.47%</a> [19] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3766851" target="_blank" class="news-link">3月6日会员早报：战火蔓延至高加索 OpenAI收入增速大幅降低</a> [19] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/637725950.html" target="_blank" class="news-link">那些Ai都实现不来了的拍摄手法</a> [20] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/369.htm" target="_blank" class="news-link">Anthropic 回应被美国列为国家安全风险实体：将以象征性成本向政府提供 AI 模型及工程师支持</a> [23] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc0ba-c20d-7001-80ac-4e8235c7c7fe" target="_blank" class="news-link">KPLER DATA SHOWS THAT BULK CARRIER “IRON MAIDEN” CHANGES SIGNAL TO “CHINA OWNER,” HUGGING OMAN COAST WHILE TRANSITING STRAIT OF HORMUZ</a> [24] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/366.htm" target="_blank" class="news-link">南亚科技启动定制化 AI 内存研发，有望今年下半年公布进展</a> [25] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/premium/articles/3766557?layout=wscn-layout" target="_blank" class="news-link">从AI产业链视角理解恒生科技的疲弱走势【付鹏说19】</a> [26] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc0b3-74dc-7001-80ac-31b1287097f1" target="_blank" class="news-link">U.S. FORCES AREN&#x27;T HOLDING BACK ON THE MISSION TO SINK THE ENTIRE IRANIAN NAVY. TODAY, AN IRANIAN DRONE CARRIER, ROUGHLY THE SIZE OF A WWII AIRCRAFT CARRIER, WAS STRUCK AND IS NOW ON FIRE-U.S. CENTRAL COMMAND ON X</a> [27] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/364.htm" target="_blank" class="news-link">仅存活约 2 个月，微软 Copilot AI 下线实验“真话”模式</a> [27] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc0b0-42bc-7001-80ac-2666bf53c6ad" target="_blank" class="news-link">&lt;b&gt;BEIJING BETS ON AI-MANUFACTURING INTEGRATION TO NARROW DIGITAL GAP WITH US-SCMP&lt;/b&gt;</a> [29] <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7612486041334136842" target="_blank" class="news-link">为 AI Agent 编写高质量 Skill：Claude 官方指南</a> [29] <font color='grey'>- 10时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/397.htm" target="_blank" class="news-link">华为 Watch GT 6 新增薄荷青配色：21 天超长续航，1488 元今日开售</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/365.htm" target="_blank" class="news-link">华为发布业界首款 Wi-Fi 7 三频 FTTR 全光家庭解决方案：全屋 3000Mbps、10ms 超低时延</a> [26] <font color='grey'>- 10时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32707241" target="_blank" class="news-link">阿里否认大模型核心团队集体离职：团队稳定，服务正常，未设置商业化KPI</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时29分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202603/0666146.html" target="_blank" class="news-link">阿里辟谣“千问”大模型核心团队集体离职</a> [19] <font color='grey'>- 10时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1196209" target="_blank" class="news-link">Claude Code 用中转 API 有没有坑？想听听大家的实际体验</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
