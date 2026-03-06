@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 227</p><p>生成时间: 2026-03-06 17:45:47</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">6.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.bbc.com/zhongwen/articles/ce94mxdlxe4o/simp" target="_blank" class="news-link">五角大楼将AI公司Anthropic列为供应链风险，或遭起诉</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766890" target="_blank" class="news-link">人大经济主题记者会：完善稳市机制建设，AI产业规模将增至10万亿元以上，千亿级财政安排促内需</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc278-e513-7001-80b4-78b9a678873a" target="_blank" class="news-link">CHINA&#x27;S STATE PLANNER HEAD: WE WILL PAY ATTENTION TO IMPACT OF AI ON EMPLOYMENT</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=TES%E4%B8%8A%E6%8A%A5Naiyou%E4%B8%8D%E5%BD%93%E8%A1%8C%E4%B8%BA" target="_blank" class="news-link">TES上报Naiyou不当行为</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2304910" target="_blank" class="news-link">“AI颠覆”下的失业潮究竟如何？今晚美国非农揭开真相！</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/594.htm" target="_blank" class="news-link">TrendForce：Micro LED CPO 有望在 AI 数据中心纵向扩展大放异彩</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23TES%E4%B8%8A%E6%8A%A5Naiyou%E4%B8%8D%E6%AD%A3%E5%BD%93%E8%A1%8C%E4%B8%BA%23&amp;t=31&amp;band_rank=12&amp;Refer=top" target="_blank" class="news-link">TES上报Naiyou不正当行为</a> [12] <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3065113" target="_blank" class="news-link">国家发展改革委主任：将推进人工智能超大规模智算集群、卫星互联网、可控核聚变等一系列重大工程和项目</a> [13] <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5180171" target="_blank" class="news-link">美股异动｜陶氏盘前续涨3% 上调EMEAI地区多元醇价格 小摩上调其评级及目标价</a> [13] <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/859040544318554112" target="_blank" class="news-link">AI产品实习生面试要达到什么水平？</a> [14] <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3065107" target="_blank" class="news-link">千问持续推进AI生活服务落地</a> [18] <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3065106" target="_blank" class="news-link">智元机器人等入股AI公司福来数创</a> [19] <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc25f-e2b0-7001-80b3-ebbfb55e191c" target="_blank" class="news-link">US RETAIL GASOLINE PRICES CLIMB TO HIGHEST SINCE SEPT 2024</a> [21] <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc254-98e7-7001-80b3-bca3d5ba54cd" target="_blank" class="news-link">&lt;b&gt;SHANGHAI INTERNATIONAL ENERGY EXCHANGE: TO ADJUST TRADE LIMIT FOR LOW-SULPHUR FUEL OIL FUTURES CONTRACTS FROM MARCH 6 NIGHT SESSION&lt;/b&gt;</a> [27] <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc253-fe39-7001-80b3-b656d642ece4" target="_blank" class="news-link">&lt;b&gt;SHANGHAI INTERNATIONAL ENERGY EXCHANGE: TO ADJUST PRICE LIMITS, MARGIN RATIOS FOR SOME CRUDE OIL, LOW-SULPHUR FUEL OIL, SHIPPING INDEX FUTURES CONTRACTS FROM MARCH 9 CLOSING SETTLEMENT&lt;/b&gt;</a> [28] <font color='grey'>- 17时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1196378" target="_blank" class="news-link">claude code CLI 登录 401</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/597.htm" target="_blank" class="news-link">Anthropic：Claude 每天新增用户数量已超百万</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/595.htm" target="_blank" class="news-link">启境汽车详解华为乾崑 896 线激光雷达与上一代 192 线区别差距：远距多点命中，决策更果断</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1196364" target="_blank" class="news-link">阿里百炼的 Coding Plan 是不是有什么 BUG？经常输出中断。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时45分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
