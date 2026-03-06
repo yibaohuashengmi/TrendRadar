@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 180</p><p>生成时间: 2026-03-06 13:33:02</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">10.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958689" target="_blank" class="news-link">AI最大的利空，可能是iPhone</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/491.htm" target="_blank" class="news-link">盛大创始人陈天桥九年来首度受访：致力于打造“比人类更聪明”的 AI，历史或以“ChatGPT 前后”划分</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc187-ba16-7001-80ae-ed0dbf684ecd" target="_blank" class="news-link">UK TO DELAY DIFFICULT DECISIONS ON AI COPYRIGHT RULES-FT</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766873" target="_blank" class="news-link">华为要在AI通信修一条新路：2年后启动U6GHz规模化部署</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/488.htm" target="_blank" class="news-link">Meta AI 智能眼镜陷隐私诉讼，用户敏感视频疑遭外包审核</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1196288" target="_blank" class="news-link">Real Money, Fake Models: Deceptive Model Claims in Shadow APIs</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc178-a29b-7001-80ae-d78638e09ee8" target="_blank" class="news-link">UAE CENTRALBANK SAYS FINANCIAL SECTOR REMAINS RESILIENT AMID IRAN-ISRAEL-US WAR-CNBC</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/487.htm" target="_blank" class="news-link">广汽埃安 AION RT 换电版车型官宣 4 月上市，支持宁德时代巧克力换电</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc178-6d0e-7001-80ae-ce58f3434fc7" target="_blank" class="news-link">INDIAN AIR FORCE: THE SU-30MKI WHICH WAS ON A TRAINING MISSION, CRASHED IN THE AREA OF KARBI ANGLONG, ASSAM, APPROX 60 KM FROM JORHAT.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/486.htm" target="_blank" class="news-link">80% 涉黄账号被 AI 冻结：BOSS 直聘宣布升级“灭蟑行动”，月均打击涉黄违规账号过万</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc16c-6ea5-7001-80ae-bf33f5ae7f29" target="_blank" class="news-link">U.S. OFFERS INDIA A 30-DAY WAIVER FOR BUYING RUSSIAN OIL AS IRAN WAR DEEPENS ENERGY SUPPLY WORRIES</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/482.htm" target="_blank" class="news-link">微软本月升级 Microsoft 365 办公套件：内置 AI 助手长“眼睛”，可直接截图分析</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3064881" target="_blank" class="news-link">英国将推迟作出关于AI版权规则的决定。（英国金融时报）</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc15c-4ea7-7001-80ae-90b20628f5d0" target="_blank" class="news-link">&lt;b&gt;SOFTBANK IS SEEKING A LOAN OF AS MUCH AS $40 BILLION TO MOSTLY HELP FINANCE ITS INVESTMENT IN US TECH GIANT OPENAI- BLOOMBERG REPORTER ED LUDLOIW&lt;/b&gt;</a> [13] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306124014996800" target="_blank" class="news-link">印度移动广告公司InMobi将在日本和美国推广AI购物聊天机器人。</a> [17] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306122409333800" target="_blank" class="news-link">软银寻求创纪录的400亿美元贷款投资OpenAI</a> [18] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3064865" target="_blank" class="news-link">债务交易平台运营方MarketAxess表示，约25%的固定收益交易员预计，未来12至18个月内，其所在公司将大幅扩大人工智能的使用。</a> [21] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3064859" target="_blank" class="news-link">软银寻求高达400亿美元的创纪录贷款，用于收购OpenAI股份。（彭博）</a> [26] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1196291" target="_blank" class="news-link">求助：这个是 Gemini 给出的 2 个月学习计划，烦请大家提供批评与建议</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7613590357510881318" target="_blank" class="news-link">阿里批准林俊旸离职，CTO周靖人接管千问！Gemini周浩确定加盟</a> [27] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/637736068.html" target="_blank" class="news-link">[流言板]阿里千问大模型核心掌舵者宣布离职，高层出面挽留</a> [21] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
