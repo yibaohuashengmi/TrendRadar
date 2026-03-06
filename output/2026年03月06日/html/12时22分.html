@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 311</p><p>生成时间: 2026-03-06 12:22:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">7.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/4bc3eab67c734c759e9753ef906c1017" target="_blank" class="news-link">简历上的AI项目，面试官到底想看什么？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc14b-c35c-7001-80ae-8570fdd8f694" target="_blank" class="news-link">XIAOMI GROUP SAYS XIAOMI MICLAW, AN AI INTERACTION TEST PRODUCT BUILT ON THE MIMO LARGE MODEL, ENTERS LIMITED CLOSED BETA STARTING TODAY</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766871" target="_blank" class="news-link">甲骨文裁员数千人，AI数据中心扩张引发现金流危机</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/454.htm" target="_blank" class="news-link">苹果 AI 生态关键拼图，其智能家居中枢 HomePad 有望今秋发布</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202603/0666168.html" target="_blank" class="news-link">携程下线AI调价助手 反垄断调查仍在继续</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2066036-1-1.html" target="_blank" class="news-link">仅存活约 2 个月，微软 Copilot AI 下线实验“真话”模式</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306120949776800" target="_blank" class="news-link">OpenAI将把从英伟达(NVDA.O)和亚马逊(AMZN.O)循环融资获得的资金借给软银。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306120926767800" target="_blank" class="news-link">软银集团正寻求一笔至高达400亿美元的创纪录贷款，用于收购OpenAI的股权。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47268391" target="_blank" class="news-link">Labor market impacts of AI: A new measure and early evidence</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2066028-1-1.html" target="_blank" class="news-link">报告称微软必应搜索被污染，错误推荐恶意 OpenClaw AI 项目</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/448.htm" target="_blank" class="news-link">解放用户注意力：AI 编程助手 Cursor 上线自动化智能体模式</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc133-701d-7001-80ae-43234cc79518" target="_blank" class="news-link">LARGE STRIKE PENETRATES ISRAELI AIR DEFENSES, HITS HEART OF TEL-AVIV</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2304544" target="_blank" class="news-link">3月6日投资避雷针：美国拟将AI芯片出口管制扩展至全球</a> [13] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306115316980800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2026-03-06）</a> [14] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3064824" target="_blank" class="news-link">Meta开放AI竞争者使用WhatsApp一年，以避免欧盟采取行动</a> [17] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc123-45b9-7001-80ae-00468a70cb45" target="_blank" class="news-link">ISRAEL’S HAIFA NAVAL FACILITY TARGETED BY HEZBOLLAH ROCKET FIRE</a> [18] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/436.htm" target="_blank" class="news-link">OpenAI GPT-5.4「原生操控电脑」实测封神：OpenClaw 天选模型来了</a> [18] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc120-5f26-7001-80ad-fb7ec279de51" target="_blank" class="news-link">&lt;B&gt;THE BUILDING HOUSING THE ISRAELI EMBASSY IN MANAMA, BAHRAIN, WAS STRUCK BY IRAN&lt;/B&gt;</a> [19] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/926/434.htm" target="_blank" class="news-link">英伟达黄仁勋盛赞 OpenClaw AI 智能体：3 周普及程度超 Linux 30 年积累</a> [20] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%AF%A6%E8%A7%A3OpenAI%E6%96%B0%E6%A8%A1%E5%9E%8BGPT-5.4" target="_blank" class="news-link">详解OpenAI新模型GPT-5.4</a> [24] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2420009" target="_blank" class="news-link">忍住AI让我把食欲忍住</a> [26] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc10d-e9c9-7001-80ad-b0d5d551da6a" target="_blank" class="news-link">TAIWAN&#x27;S FOXCONN: IF WAR DRAGS ON THERE WILL BE AN IMPACT ON OIL AND RAW MATERIALS PRICES THAT EVERYONE WILL FEEL</a> [28] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc10c-82fd-7001-80ad-aa24855ca626" target="_blank" class="news-link">TAIWAN&#x27;S FOXCONN: OUR RELATIONS WITH OUR CUSTOMERS ARE VERY GOOD&lt;br/&gt;&lt;br/&gt;TAIWAN&#x27;S FOXCONN: IMPACT OF WAR IN IRAN ON COMPANY IS LIMITED AT PRESENT</a> [29] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc10b-3f4f-7001-80ad-a37127276b2f" target="_blank" class="news-link">TAIWAN&#x27;S FOXCONN: THIS WILL BE A VERY GOOD YEAR FOR THE COMPANY&lt;br/&gt;&lt;br/&gt;TAIWAN&#x27;S FOXCONN: OUR RELATIONS WITH OUR CUSTOMERS ARE VERY GOOD</a> [30] <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3064826" target="_blank" class="news-link">美国国防部高级官员Emil Michael：五角大楼目前并未与Anthropic进行任何实质性谈判。</a> [16] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cc116-e4f0-7001-80ad-c39233733495" target="_blank" class="news-link">&lt;b&gt;US UNDER SECRETARY OF WAR MICHAEL: THERE IS THERE IS NO ACTIVE PENTAGON NEGOTIATION WITH ANTHROPIC&lt;/b&gt;</a> [26] <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306112518378800" target="_blank" class="news-link">科威特阿里·萨利姆空军基地遭伊朗袭击。</a> [30] <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
