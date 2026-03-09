@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 254</p><p>生成时间: 2026-03-09 15:34:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">4.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3066304" target="_blank" class="news-link">最高法：恶意滥用AI换脸、拟声技术 电诈手法更隐蔽更具迷惑性</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47305461" target="_blank" class="news-link">US Court of Appeals: TOS may be updated by email, use can imply consent [pdf]</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd175-f4ab-7001-80c9-8a7e4c6bc160" target="_blank" class="news-link">CHINA FOREIGN MINISTRY, ON TAIWAN PREMIER&#x27;S VISIT TO JAPAN: CHO HAD &#x27;EVIL MOTIVES&#x27; TO VISIT JAPAN, ENGAGED IN &#x27;PROVOCATIVE GAMESMANSHIP&#x27;</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958703" target="_blank" class="news-link">工作手脚越勤快，越早被AI取代</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1196834" target="_blank" class="news-link">剧荒，不知道看什么，就到 airing show 找找吧</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd16b-7598-7001-80c9-6494caccdc63" target="_blank" class="news-link">EUROPEAN EQUITY STRATEGY: MORGAN STANLEY DOWNGRADES MEDIA &amp; ENTERTAINMENT TO UNDERWEIGHT FROM EQUAL-WEIGHT</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5180700" target="_blank" class="news-link">人民日报强调AI的尽头是电力，低费率电网设备ETF易方达(560390)逆势上涨，近3日资金净流入3.87亿元</a> [12] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd167-6159-7001-80c9-305d807584f0" target="_blank" class="news-link">SHANGHAI COMPOSITE CLOSES -0.67%, SHENZHEN COMPONENT -0.74%, CHINEXT INDEX -0.64%</a> [13] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd164-e9f3-7001-80c9-0b039f2c1d17" target="_blank" class="news-link">TURKISH DEFENCE MINISTRY: TURKEY HAS DEPLOYED 6 F-16 JETS, AIR DEFENCE SYSTEMS TO NORTHERN CYPRUS&lt;br/&gt;&lt;br/&gt;TURKISH DEFENCE MINISTRY: TURKEY WILL TAKE ADDITIONAL MEASURES FOR SECURITY OF TURKISH CYPRIOTS IF NEEDED</a> [18] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd161-c080-7001-80c8-f99581a55779" target="_blank" class="news-link">TURKEY&#x27;S MAIN BIST 100 INDEX DOWN 1.5% AT EARLY TRADING, TURKEY&#x27;S MAIN BANKING INDEX DOWN 3.24% AT EARLY TRADING</a> [20] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd15d-6d4c-7001-80c8-ecdeed7521e7" target="_blank" class="news-link">SIRENS BLARING IN BAHRAIN</a> [22] <font color='grey'>- 15时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/927/236.htm" target="_blank" class="news-link">五菱 × 华为合作新车华境 S 大六座 SUV 通过 C-NCAP 安全测试验证，2026 上半年上市</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BAMate80%E9%94%80%E9%87%8F%E5%9B%BD%E4%BA%A7%E7%AC%AC%E4%B8%80%23&amp;t=31&amp;band_rank=5&amp;Refer=top" target="_blank" class="news-link">华为Mate80销量国产第一</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
