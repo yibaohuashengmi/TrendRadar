@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 205</p><p>生成时间: 2026-03-10 13:33:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">8.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47318421" target="_blank" class="news-link">Learnings from paying artists royalties for AI-generated art</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/927/545.htm" target="_blank" class="news-link">“AI 教父”杨立昆初创公司 AMI 获 10.3 亿美元种子轮融资，获英伟达、三星注资</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd62d-a74e-7001-80dc-cbf3a7602b65" target="_blank" class="news-link">SAUDI ARAMCO - WE CONTINUE TO LEVERAGE ADVANCED TECHNOLOGIES INCLUDING AI TO ENHANCE EFFICIENCY AND UNLOCK VALUE ACROSS OUR BUSINESS</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197094" target="_blank" class="news-link">不是，现在 AI 圈子就没一个懂安全的吗？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/860823766656372736" target="_blank" class="news-link">面试官视角聊聊：AI大模型岗从业务面到HR面全流程</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3067033" target="_blank" class="news-link">沙特阿美：我们持续运用包括人工智能在内的先进技术，提升全业务运营效率并挖掘价值。 我们相信对业务的持续投资将为公司未来发展奠定坚实基础。 天然气扩建项目按计划推进，以满足国内日益增长的需求。 项目推进势头强劲，彰显未来运营现金流增长潜力。</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5181317" target="_blank" class="news-link">中手游早盘最高涨超6%，AI深入游戏叠加行业政策红利凸显</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310131741446800" target="_blank" class="news-link">沙特阿美：正在利用人工智能提升各项运营效率。我们相信，持续投资于我们的业务，将使我们在未来处于有利地位。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd626-52c0-7001-80dc-b01cccdd6340" target="_blank" class="news-link">IRGC: ANY ARAB OR EUROPEAN COUNTRY THAT EXPELS ISRAELI AND AMERICAN AMBASSADORS FROM ITS TERRITORY WILL HAVE COMPLETE FREEDOM AND AUTHORITY TO PASS THROUGH THE STRAIT OF HORMUZ STARTING TOMORROW</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd621-7c0e-7001-80dc-ad7a766efffd" target="_blank" class="news-link">TRUMP TO REVIEW OPTIONS INCLUDING SANCTIONS WAIVERS TO REDUCE OIL COSTS-CNBC</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd60c-db76-7001-80dc-81aaa8d6b065" target="_blank" class="news-link">U.S. FAA STATUS PAGE SHOWS GROUNDSTOP FOR ALL JETBLUE AIRLINES FLIGHTS</a> [12] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd60b-036a-7001-80dc-7b8f8eae6588" target="_blank" class="news-link">AMAZON HOLDS ENGINEERING MEETING FOLLOWING AI-RELATED OUTAGES- FT</a> [13] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/9b2042a59f2e4d7cb0b2b43ceda5cdbb" target="_blank" class="news-link">滴滴AI agent开发日常实习面经</a> [14] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd607-8ef9-7001-80dc-6140c5c1c525" target="_blank" class="news-link">JP MORGAN RAISES FEDEX TARGET PRICE TO $424 FROM $294</a> [16] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310123947391800" target="_blank" class="news-link">据英国《金融时报》：亚马逊在人工智能相关宕机事件后召开工程会议。</a> [17] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3067011" target="_blank" class="news-link">亚马逊在发生AI相关停机事故后召开工程会议。（英国金融时报）</a> [18] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd5f6-c24b-7001-80dc-2e0433abb4f2" target="_blank" class="news-link">BAIRD CUTS ORACLE CORP TARGET PRICE TO $200 FROM $300</a> [23] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/927/537.htm" target="_blank" class="news-link">全新一代奥迪 A6L 开启预售：华为乾崑智驾、外观大变，32.3 万元起，降价超 10 万元</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3067010" target="_blank" class="news-link">根据IDC最新发布的《中国可穿戴设备市场季度跟踪报告》，2025年中国腕戴设备市场出货量为7,390万台，同比增长20.8%。其中，华为以2510万台出货量，34%市场份额稳居中国市场出货量第一。</a> [19] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47317132" target="_blank" class="news-link">No, it doesn&#x27;t cost Anthropic $5k per Claude Code user</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/b5ec5f7f9121413f9eec489b86154e38" target="_blank" class="news-link">阿里云暑期实习电话面</a> [18] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
