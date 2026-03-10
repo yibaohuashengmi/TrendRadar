@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 222</p><p>生成时间: 2026-03-10 23:33:51</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">6.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767169" target="_blank" class="news-link">剑指阿里字节！报道：腾讯秘密布局微信AI智能体，年内或向全用户开放</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/927/770.htm" target="_blank" class="news-link">英伟达黄仁勋罕见发布长文：定义 AI“五层架构”，预判将创造更多就业（附全文）</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47324087" target="_blank" class="news-link">Debian decides not to decide on AI-generated contributions</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28351656&amp;amp;topic_name=%E9%AB%98%E6%A0%A1%E5%87%BA%E6%89%8B%2CAI%E9%BE%99%E8%99%BE%E8%A2%AB%E7%A6%81" target="_blank" class="news-link">高校出手,AI龙虾被禁</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767170" target="_blank" class="news-link">史上最强业绩！工业富联2025年营收、净利双双创新高，AI服务器营收增超3倍，计划分红129亿元 | 财报见闻</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/927/768.htm" target="_blank" class="news-link">理想 AI 眼镜 Livis 官宣“再进化”，新增佩戴检测 + 一气呵成开关等功能</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197231" target="_blank" class="news-link">如果你拿 AI 当作锋利的锄头，你会变成一个能干的长工；如果你把 AI 当作长工，你就是一个地主</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197229" target="_blank" class="news-link">从零搭建 AI 助手： OpenClaw 安装配置全记录与使用心路历程</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%99%A2%E5%A3%AB%E8%AF%B4%E6%96%87%E7%A7%91%E7%94%9F%E7%BB%9D%E4%B8%8D%E4%BC%9A%E8%A2%ABAI%E6%9B%BF%E4%BB%A3%23&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">院士说文科生绝不会被AI替代</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202603/1066536.html" target="_blank" class="news-link">下午察：AI短剧《霍去病》爆红竟是一场乌龙？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/927/763.htm" target="_blank" class="news-link">Meta 收购曾火爆一时的 AI 智能体社交网络 Moltbook，创始人入职超智能实验室</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47322033" target="_blank" class="news-link">PgAdmin 4 9.13 with AI Assistant Panel</a> [13] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3067406" target="_blank" class="news-link">AI机器人初创公司Rhoda AI完成4.5亿美元A轮融资，旨在推动机器人从实验室走向现实应用。本轮融资由淡马锡（Temasek）、Capricorn投资集团、Khosla Ventures、Leitmotif、Matter Venture Partners及Xora等机构参投。</a> [14] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd818-4c0f-7001-80e4-633063a90014" target="_blank" class="news-link">Google Rolls Out AI Agents to Pentagon Workforce to Automate Tasks</a> [26] <font color='grey'>- 23时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197245" target="_blank" class="news-link">cc-connect: 将你的 codex 和 claudecode 秒变 openclaw</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3067419" target="_blank" class="news-link">IPX Power宣布正式作为独立发电企业（IPP）投入运营，此前谷歌已完成对能源供应商Intersect的收购。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
