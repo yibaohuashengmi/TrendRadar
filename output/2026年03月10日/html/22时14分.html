@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 192</p><p>生成时间: 2026-03-10 22:14:16</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">6.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd805-8def-7001-80e4-03612e1a283f" target="_blank" class="news-link">JAPAN INDUSTRY MINISTER AKAZAWA SAYS IEA&#x27;S BIROL EXPLAINED NECESSITY OF RESUMING SHIPPING IN THE STRAIT OF HORMUZ AND NEED FOR COORDINATED OIL RESERVES RELEASE</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时14分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/927/758.htm" target="_blank" class="news-link">Adobe Photoshop 修图软件 AI 助手 Beta 版上线，付费用户 4 月 9 日前可无限次使用</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3067361" target="_blank" class="news-link">工业富联董事长郑弘孟：AI算力基础设施将成为未来多年最具确定性的核心发展领域之一</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767167" target="_blank" class="news-link">巨头借钱不停歇！亚马逊跨币种狂发11批债券，市场紧盯AI变现周期</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3067356" target="_blank" class="news-link">Meta收购AI社交网络平台Moltbook。（AXIOS）</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时14分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%A4%E4%BC%9A%E7%8E%B0%E5%9C%BA+%E6%88%91%E9%97%AE%E4%BA%86AI%E8%BF%99%E6%A0%B7%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98" target="_blank" class="news-link">两会现场 我问了AI这样一个问题</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7d8-2a02-7001-80e3-7ffe190a2115" target="_blank" class="news-link">Nvidia invests in Mira Murati’s Thinking Machines Lab under multiyear AI infrastructure partnership</a> [18] <font color='grey'>- 22时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310213156918800" target="_blank" class="news-link">伊朗的战火，可能烧掉美国的AI梦？丨Hi，今天怎么看？</a> [18] <font color='grey'>- 22时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7d6-9ea4-7001-80e3-727fa3842948" target="_blank" class="news-link">TENCENT BUILDING A NEW AI AGENT FOR WECHAT APP: INFORMATION</a> [19] <font color='grey'>- 22时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7d6-3c44-7001-80e3-6b9677f58007" target="_blank" class="news-link">QUALCOMM AND WAYVE ADVANCE PRODUCTION-READY END-TO-END AI FOR ADAS AND AUTOMATED DRIVING</a> [20] <font color='grey'>- 22时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7d6-0fd1-7001-80e3-62ded5dce906" target="_blank" class="news-link">SPAIN&#x27;S FM ALBARES: RELATIONS WITH THE UNITED STATES HAVE BEEN OPERATING NORMALLY SINCE TRUMP&#x27;S THREAT TO CUT TIES</a> [21] <font color='grey'>- 22时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3067332" target="_blank" class="news-link">英伟达宣布对AI企业Thinking Machines Lab进行新一轮投资，并将向该初创公司提供芯片，用于训练和运行其AI模型。</a> [23] <font color='grey'>- 22时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7d1-30b7-7001-80e3-4ba49857eea5" target="_blank" class="news-link">Redbook Retail Sales (YoY) (Mar.6)</a> [24] <font color='grey'>- 22时14分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7dd-cc2a-7001-80e3-93ec8b3f1fa5" target="_blank" class="news-link">&lt;b&gt;GOOGLE- LAUNCHES NEW BETA FEATURES FOR GEMINI IN SHEETS&lt;/b&gt;</a> [15] <font color='grey'>- 22时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3067324" target="_blank" class="news-link">一项由谷歌和特斯拉等公司组成的新联盟将通过利用电网闲置容量来解决能源可负担性问题。（AXIOS）</a> [29] <font color='grey'>- 22时14分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
