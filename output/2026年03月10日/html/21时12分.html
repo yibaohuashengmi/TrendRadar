@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 239</p><p>生成时间: 2026-03-10 21:12:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">7.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47286657" target="_blank" class="news-link">The Gervais Principle, or the Office According to &quot;The Office&quot; (2009)</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7cd-8ff0-7001-80e3-2c9996287d45" target="_blank" class="news-link">Amazon Starts Bond Sale That Aims to Raise at Least $37 Billion</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197210" target="_blank" class="news-link">看见 V 站没人说， JetBrains 也出了个 Agent IDE，叫 Air</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767153" target="_blank" class="news-link">AI泡沫论未消，甲骨文股价已腰斩：今夜财报再好也救不了？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3767089" target="_blank" class="news-link">英伟达下场！将推“类OpenClaw式”AI智能体开源平台</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3767072" target="_blank" class="news-link">AI圈贩卖焦虑已经过于离谱了</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7c2-b42b-7001-80e2-f48dc5c564ef" target="_blank" class="news-link">&lt;b&gt;CHINA, NORTH KOREA TO RESUME INTERNATIONAL PASSENGER TRAIN SERVICE FROM MARCH 12 - CHINA&#x27;S RAIL AUTHORITY STATEMENT&lt;/b&gt;</a> [11] <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7bc-202a-7001-80e2-ea62ab96ae91" target="_blank" class="news-link">UK PM STARMER&#x27;S SPOKESPERSON: WORKING WITH ALLIES ON A RANGE OF OPTIONS TO SUPPORT COMMERCIAL SHIPPING THROUGH THE STRAIT OF HORMUZ AS THE THREAT PICTURE DEVELOPS</a> [12] <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28351653&amp;amp;topic_name=AI%E8%83%8C%E9%94%85%2C%E5%86%85%E5%AD%98%E9%99%8D%E4%BB%B7%E9%81%A5%E9%81%A5%E6%97%A0%E6%9C%9F" target="_blank" class="news-link">AI背锅,内存降价遥遥无期</a> [12] <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7bc-0c01-7001-80e2-e45a2ca32414" target="_blank" class="news-link">UK PM STARMER SPOKE TO LEADERS OF GERMANY AND ITALY ON MONDAY, AGREED TO WORK CLOSELY TOGETHER ON FREEDOM OF NAVIGATION THROUGH THE STRAIT OF HORMUZ IN FACE OF IRANIAN THREATS - DOWNING STREET</a> [13] <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7ba-1d22-7001-80e2-da90ed2ac49b" target="_blank" class="news-link">IRAN&#x27;S SECURITY CHIEF LARIJANI: STRAIT OF HORMUZ WILL EITHER BE A STRAIT OF PEACE AND PROSPERITY FOR ALL OR WILL BE A STRAIT OF DEFEAT AND SUFFERING FOR &#x27;WARMONGERS&#x27;</a> [14] <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7b8-c89c-7001-80e2-d4fe1dfacf00" target="_blank" class="news-link">&lt;b&gt;HEGSETH: IF IRAN DOES ANYTHING TO STOP FLOW OF OIL WITHIN STRAIT OF HORMUZ, THEY WILL BE HIT HARDER THAN EVER&lt;/b&gt;</a> [15] <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3067302" target="_blank" class="news-link">央视网评AI养“龙虾”狂欢：我们怕的不是风险，是掉队</a> [15] <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7b7-c576-7001-80e2-cfc5d93fbc03" target="_blank" class="news-link">&lt;b&gt;TOP U.S. GENERAL: LOOKING AT RANGE OF OPTIONS IF TASKED WITH ESCORTING SHIPS THROUGH STRAIT OF HORMUZ&lt;/b&gt;</a> [16] <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7ab-5552-7001-80e2-944fe7e95640" target="_blank" class="news-link">CHAIRMAN OF JOINT CHIEFS DAN CAINE SAYS US HAS DESTROYED MORE THAN 50 IRANIAN SHIPS</a> [23] <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3067294" target="_blank" class="news-link">阿联酋最大的炼油厂Ruwais炼油厂在无人机袭击后出于安全考虑暂停运营。</a> [23] <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7a4-a3db-7001-80e2-7e876df4bd8e" target="_blank" class="news-link">JPM&#x27;S FOLEY: AI GIANTS ARE STILL CONSIDERED HAVENS</a> [26] <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3067287" target="_blank" class="news-link">应用材料与美光科技合作开发AI存储解决方案。（彭博）</a> [28] <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7614788881902190598" target="_blank" class="news-link">热榜全是 OpenClaw，但我用 50 行 Python 就造了个桌面 AI Agent 🤖</a> [28] <font color='grey'>- 21时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">1.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7d0-9571-7001-80e3-431aabde2472" target="_blank" class="news-link">Google, Tesla Join “Utilize” Coalition to Improve Grid Efficiency and Cut Power Costs</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd7cf-a524-7001-80e3-39f5bf08d631" target="_blank" class="news-link">GOOGLE,TESLA TO TAP INTO UNDERUSED ELECTRIC GRID CAPACITY: AXIOS</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310205317042800" target="_blank" class="news-link">据AXIOS网站：由谷歌和特斯拉等公司组成的联盟将通过挖掘未充分利用的电网容量来解决能源可负担性问题。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5181794" target="_blank" class="news-link">美股盘前要点 | 特朗普称对伊战争“基本结束”！微软与Anthropic扩大合作</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
