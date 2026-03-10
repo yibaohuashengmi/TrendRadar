@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 138</p><p>生成时间: 2026-03-11 01:56:24</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">9.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd8e0-dd19-7001-80e8-b92f5e4978a5" target="_blank" class="news-link">US Raises 2027 Oil Output Forecast After Iran War Drives Price Spike</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47326101" target="_blank" class="news-link">Show HN: RunAnwhere – Faster AI Inference on Apple Silicon</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd8dd-f6b6-7001-80e8-a28ddf07e6cb" target="_blank" class="news-link">IRGC SPOKESPERSON DENIES U.S. CLAIM OF ESCORTING OIL TANKER IN STRAIT OF HORMUZ</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd8dc-5e8d-7001-80e8-9afe0797603b" target="_blank" class="news-link">ACCORDING TO MILITARY SOURCES CITED BY JENNIFER GRIFFIN, NO U.S. MILITARY ASSETS HAVE ESCORTED OIL TANKERS THROUGH THE STRAIT OF HORMUZ, CONTRADICTING CLAIMS MADE BY ENERGY SECRETARY CHRIS WRIGHT</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd8d8-f3fe-7001-80e8-918ba34a9d49" target="_blank" class="news-link">SIX CIVILIANS KILLED, 37 INJURED IN UKRAINIAN MISSILE ATTACK ON RUSSIA&#x27;S BRYANSK REGION - GOVERNOR</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 01时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd8d2-5695-7001-80e8-6b89542724a2" target="_blank" class="news-link">&lt;b&gt;U.S. ENERGY SECRETARY CHRIS WRIGHT REMOVES POST ABOUT NAVY ESCORTING OIL TANKER THROUGH THE STRAIT OF HORMUZ&lt;/b&gt;</a> [11] <font color='grey'>- 01时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3067481" target="_blank" class="news-link">亚马逊在网站和APP推出健康AI智能体。</a> [12] <font color='grey'>- 01时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311012115573800" target="_blank" class="news-link">特朗普可能在本周晚些时候下令切断与人工智能公司Anthropic的联系。</a> [15] <font color='grey'>- 01时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd8c7-b5f9-7001-80e8-2fe76744804f" target="_blank" class="news-link">DRONE ATTACK TARGETS IRAQ’S BALAD AIR BASE NORTH OF BAGHDAD - SECURITY SOURCES</a> [19] <font color='grey'>- 01时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd8c5-3a5a-7001-80e8-1d01708c37f6" target="_blank" class="news-link">U.S. ENERGY SECRETARY CHRIS WRIGHT: U.S. NAVY SUCCESSFULLY ESCORTED AN OIL TANKER THROUGH THE STRAIT OF HORMUZ TO ENSURE OIL REMAINS FLOWING TO GLOBAL MARKETS</a> [21] <font color='grey'>- 01时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd8be-1e12-7001-80e7-edadbed12450" target="_blank" class="news-link">TWO DRONES TARGET U.S. DIPLOMATIC FACILITY NEAR BAGHDAD INTERNATIONAL AIRPORT, INTERCEPTED AND SHOT DOWN - SECURITY SOURCES</a> [27] <font color='grey'>- 01时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd8be-029b-7001-80e7-e14e1ce620cb" target="_blank" class="news-link">US ENERGY SECRETARY WRIGHT: THE US ESCORTED AN OIL TANKER THROUGH THE STRAIT OF HORMUZ</a> [28] <font color='grey'>- 01时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd8ba-1200-7001-80e7-da7c07df05d4" target="_blank" class="news-link">&lt;b&gt;SUPERTANKER SAILS THROUGH STRAIT OF HORMUZ WITH 2 MILLION BBLS OF IRANIAN OIL, ADDING TO AT LEAST 5 OTHER IRAN OIL SHIPMENTS SINCE FEB. 28 - SHIP TRACKERS&lt;/b&gt;</a> [29] <font color='grey'>- 01时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">2.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3067492" target="_blank" class="news-link">特朗普预计将于本周晚些时候发布行政令，正式切断与Anthropic的业务往来。（CBS）</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47325595" target="_blank" class="news-link">I built a programming language using Claude Code</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cd8c4-1e5f-7001-80e8-1294b3d2b9f1" target="_blank" class="news-link">TRUMP ORDER CUTTING TIES WITH ANTHROPIC LIKELY COMING LATER THIS WEEK- CBS NEWS</a> [22] <font color='grey'>- 01时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
