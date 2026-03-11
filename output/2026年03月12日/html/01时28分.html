@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 204</p><p>生成时间: 2026-03-12 01:28:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">7.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767274" target="_blank" class="news-link">马斯克推出特斯拉与xAI联合项目Macrohard，旨在颠覆软件行业</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767269" target="_blank" class="news-link">OFC 2026前瞻：硅光子与CPO如何重塑下一代AI互联体系</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260312/1070190745.html" target="_blank" class="news-link">美国军方表示积极使用人工智能工具打击伊朗</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cddc7-a836-7001-80fc-a4f6f1181364" target="_blank" class="news-link">TRUMP: SPAIN LEADERSHIP IS NOT SO GOOD</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cddc7-5add-7001-80fc-9800d2ecf01b" target="_blank" class="news-link">TRUMP SAYS ON SPAIN: HAVE BEEN BAD, MAY CUT OFF TRADE WITH SPAIN</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47336111" target="_blank" class="news-link">Faster asin() was hiding in plain sight</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47337659" target="_blank" class="news-link">Launch HN: Sentrial (YC W26) – Catch AI Agent Failures Before Your Users Do</a> [11] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cddc4-3f91-7001-80fc-68b8ac734fb7" target="_blank" class="news-link">TRUMP: I THINK OIL COMPANIES SHOULD USE STRAIT OF HORMUZ</a> [12] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47338091" target="_blank" class="news-link">Show HN: Vanilla JavaScript refinery simulator built to explain job to my kids</a> [12] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cddc2-cdc6-7001-80fc-46b56c4727b6" target="_blank" class="news-link">&lt;b&gt;GLOBAL REFINERS HOLD OFF BUYING OIL AS PREMIUMS SURGE - TRADERS&lt;br/&gt;&lt;br/&gt;MARKUPS ALSO SEEN IN CRUDE FROM BRAZIL, AZERBAIJAN: TRADERS &lt;/b&gt;</a> [17] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cddbd-1018-7001-80fc-2430bb5b2fdf" target="_blank" class="news-link">&lt;B&gt;JMIC: NO CONFIRMED EVIDENCE OF MINES IN THE STRAIT OF HORMUZ&lt;/B&gt;</a> [21] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47331034" target="_blank" class="news-link">Writing my own text editor, and daily-driving it</a> [21] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cddb8-8bd8-7001-80fc-12f69f90a714" target="_blank" class="news-link">INTEL: NEW PROCESSORS AVAILABLE VIA RETAIL MARCH 26</a> [23] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cddb6-85e0-7001-80fc-0a10afbca64d" target="_blank" class="news-link">&lt;b&gt;TRUMP, ASKED IF IRAN LAID MINES IN HORMUZ: WE DON&#x27;T THINK SO&lt;/b&gt;</a> [24] <font color='grey'>- 01时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cddb6-2ff4-7001-80fc-03a720811dd8" target="_blank" class="news-link">INTEL: INTEL CORE ULTRA 7 270K PLUS &amp; CORE ULTRA 5 250K PLUS PROCESSORS AVAILABLE FROM MARCH 26; PRICE STARTING FROM $299 &amp; $199, RESPECTIVELY</a> [25] <font color='grey'>- 01时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47336889" target="_blank" class="news-link">Elevated errors on login with Claude Code</a> [15] <font color='grey'>- 01时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47336476" target="_blank" class="news-link">Wiz joins Google</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
