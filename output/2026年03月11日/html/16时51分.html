@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 229</p><p>生成时间: 2026-03-11 16:51:16</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">6.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cdc01-6822-7001-80f2-ef1c18af96ae" target="_blank" class="news-link">VON DER LEYEN: EU PREPARING OPTIONS TO LOWER ENERGY PRICES&lt;br/&gt;&lt;br/&gt;VON DER LEYEN: OPTIONS INCLUDE BETTER USE OF PURCHASE POWER AGREEMENTS AND CONTRACTS FOR DIFFERENCE, STATE AID MEASURES, GAS PRICE SUBSIDIES OR CAPS</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47332939" target="_blank" class="news-link">Why does AI tell you to use Terminal so much?</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时51分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197468" target="_blank" class="news-link">使用 AI 编程的时候，配置文件里的敏感数据会被读取上传吗</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767228" target="_blank" class="news-link">对标谷歌Gemini？OpenAI拟在ChatGPT开启视频生成功能</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767232" target="_blank" class="news-link">国防部：各方立即停止中东军事行动，AI军事应用应坚持由人主导、防止失控</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cdbfb-c125-7001-80f2-ce35c09cb397" target="_blank" class="news-link">NIO RAISED TO BUY FROM NEUTRAL BY NOMURA</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时51分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197466" target="_blank" class="news-link">AI 发展太快，俺已经跟不是节奏了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cdbf3-753d-7001-80f2-9653e8ae3054" target="_blank" class="news-link">RUSSIA WELCOMES TRUMP&#x27;S EFFORTS TO RESOLVE THE SITUATION IN UKRAINE AND IS GRATEFUL TO HIM, PESKOV STATED</a> [12] <font color='grey'>- 16时51分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E7%BC%A4%E7%BA%B7%E4%B8%96%E7%95%8C/20260311-%E5%BE%AE%E8%BD%AF%E5%A3%B0%E6%8F%B4anthropic-%E4%BF%83%E8%AF%B7%E7%BE%8E%E6%9A%82%E7%BC%93ai%E9%BB%91%E5%90%8D%E5%8D%95%E7%A6%81%E4%BB%A4" target="_blank" class="news-link">微软声援Anthropic 促请美暂缓AI黑名单禁令</a> [14]</div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/928/019.htm" target="_blank" class="news-link">对标马斯克 SpaceX：追觅芯迹穿越宣布将发射 200 万颗“瑶台”卫星，组建超级太空 AI 算力中心</a> [15] <font color='grey'>- 16时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cdbeb-bb01-7001-80f2-740638a8dad8" target="_blank" class="news-link">ORACLE SHARES JUMP 11.2% PREMARKET AFTER CO PREDICTS AI DATA CENTER BOOM WILL POWER ITS REVENUE ABOVE ESTIMATES WELL INTO 2027</a> [16] <font color='grey'>- 16时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cdbe8-53b4-7001-80f2-5747a12ab82d" target="_blank" class="news-link">FITCH: APAC, ESPECIALLY INDIAN, AIRPORTS, COULD FACE NEAR-TERM TRAFFIC VOLATILITY IF DISRUPTION TO WEST ASIAN AIRSPACE PERSISTS</a> [20] <font color='grey'>- 16时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cdbe7-b82f-7001-80f2-499369d0fd53" target="_blank" class="news-link">FITCH SAYS CHINESE CONTAINER PORTS LIKELY TO EXPERIENCE CLEAREST IMPACT THROUGH NETWORK DISLOCATION RATHER THAN MATERIAL MIDDLE EAST EXPOSURE</a> [21] <font color='grey'>- 16时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cdbe7-abab-7001-80f2-439953d6dda4" target="_blank" class="news-link">FITCH: MAIN TAIL RISK IS PROLONGED CLOSURE OF STRAIT OF HORMUZ FOR APAC PORTS AND AIRPORTS</a> [22] <font color='grey'>- 16时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cdbe6-9a99-7001-80f2-331874603f0a" target="_blank" class="news-link">FITCH RTGS: PROLONGED IRAN DISRUPTION RAISES CREDIT RISK FOR APAC PORTS, AIRPORTS</a> [24] <font color='grey'>- 16时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cdbe4-fe2e-7001-80f2-2236ddd5ded5" target="_blank" class="news-link">MALAYSIA PM: RETAINING RON95 TRANSPORT FUEL PRICE AT 1.99 RGT PER LITRE DESPITE SPIKE IN PRICES</a> [26] <font color='grey'>- 16时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/928/039.htm" target="_blank" class="news-link">谷歌宣布将 AutoFDO 引入 Android 内核，通过真实执行数据提升系统性能</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197458" target="_blank" class="news-link">有偿寻求具有个人开发者身份的阿里云盘账号</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时51分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
