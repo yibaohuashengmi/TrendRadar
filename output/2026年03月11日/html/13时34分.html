@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 159</p><p>生成时间: 2026-03-11 13:34:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">9.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cdb5b-d728-7001-80ef-dac2ead2da3f" target="_blank" class="news-link">&lt;b&gt;HONG KONG AI STOCKS DECLINE: MINIMAX -7%, ZHIPU AND XUNCE ~-5%&lt;/b&gt;</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767213" target="_blank" class="news-link">如何把握AI大赛赢家？纳指从机制上要优于标普</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5182003" target="_blank" class="news-link">研报掘金丨国盛证券：维持同花顺“买入”评级，市场活跃+AI驱动业绩超预期</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/927/929.htm" target="_blank" class="news-link">活跃度呈现下滑趋势后，消息称 OpenAI 视频生成工具 Sora 将登陆 ChatGPT</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cdb59-8b4c-7001-80ef-cdbf02f5ab9a" target="_blank" class="news-link">IRAN HAS PLACED FEWER THAN 10 MINES IN THE STRAIT OF HORMUZ: WSJ</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197380" target="_blank" class="news-link">[分享] Pixalice - AI 生图和视频网站 模板化 prompt 免写复杂提示词</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cdb4d-4860-7001-80ef-a9d6aff68cb6" target="_blank" class="news-link">BAIRD RAISES ORACLE CORP TARGET PRICE TO $215 FROM $200</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5181996" target="_blank" class="news-link">大行评级丨美银：腾讯新AI代理产品及微信功能成催化剂，维持“买入”评级</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2309250" target="_blank" class="news-link">黄仁勋亲写博文：AI是“五层蛋糕”基础设施，还需数万亿美元建设！</a> [12] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cdb3e-a5c6-7001-80ef-531ca8015f9c" target="_blank" class="news-link">Baidu Cloud Launches DuClaw Service</a> [18] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3067769" target="_blank" class="news-link">OpenAI计划将AI视频生成工具Sora接入ChatGPT。（The Information）</a> [19] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cdb36-fe16-7001-80ef-40653aa5eabd" target="_blank" class="news-link">AUSTRALIA&#x27;S ACCC: TO INCREASE FUEL MARKET SCRUTINY AND CALLS ON FUEL RETAILERS TO EXPLAIN PRICING</a> [20] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cdb31-4a36-7001-80ef-398ce21bf705" target="_blank" class="news-link">D.A. DAVIDSON RAISES ORACLE CORP TARGET PRICE TO $200 FROM $180</a> [21] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cdb26-aa77-7001-80ef-235bd8017bc7" target="_blank" class="news-link">BARCLAYS RAISES ORACLE CORP TARGET PRICE TO $240 FROM $230</a> [24] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7615455795723976739" target="_blank" class="news-link">OpenAI 亲自教你如何构建可靠 AI 代码，从古法编程转向 Agnet 编程，或者 PUA 你的 AI</a> [28]</div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197391" target="_blank" class="news-link">前华为外包大龄失业程序员 寻软件项目合作提供无偿开发</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
