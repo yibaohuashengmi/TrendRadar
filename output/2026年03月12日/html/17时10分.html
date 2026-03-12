@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 248</p><p>生成时间: 2026-03-12 17:10:51</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">6.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="http://china.hani.co.kr/arti/economy/16614.html" target="_blank" class="news-link">三星半导体平均售价走势：AI热潮比互联网热潮更强劲</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767336" target="_blank" class="news-link">Anthropic年化收入飙至190亿美元，拟联手黑石成立AI咨询公司</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/928/457.htm" target="_blank" class="news-link">国家反诈中心上线 AI 内容鉴定功能，可辨图像、视频、文本、音频内容</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260312/1070201822.html" target="_blank" class="news-link">俄专家：俄中在教育领域联合运用人工智能技术</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767338" target="_blank" class="news-link">司法部部长贺荣：今年将加快研究AI领域立法，立法着力解决“内卷式”竞争</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197757" target="_blank" class="news-link">给 AI 投毒</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2310349" target="_blank" class="news-link">SkillHub上线 腾讯推出“中国专供”的AI Skills社区</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/928/439.htm" target="_blank" class="news-link">菜鸟官宣将在海外部署大规模机器人仓储网络，主要使用自研新一代仓储机器人及 AI 调度系统</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/928/438.htm" target="_blank" class="news-link">司法部部长贺荣：今年将加快研究人工智能、低空经济等领域立法</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BB%8A%E5%B9%B4%E5%8A%A0%E5%BF%AB%E7%A0%94%E7%A9%B6%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%AB%8B%E6%B3%95%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">今年加快研究人工智能立法</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ce137-96c1-7001-8106-cce7114bb4a5" target="_blank" class="news-link">BMW SALES CHIEF: CHINESE CARMAKERS WILL WIN CERTAIN MARKET SHARE IN EUROPE BUT NOT FROM US</a> [11] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767333" target="_blank" class="news-link">英伟达豪掷260亿美元下场造AI模型，直接叫板OpenAI</a> [11] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3068770" target="_blank" class="news-link">老板电器发布全球首款AI烹饪眼镜</a> [12] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767328" target="_blank" class="news-link">黄仁勋说对了！AI基建急缺电工：微软谷歌后，贝莱德砸1亿美元培训技工</a> [12] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2310272" target="_blank" class="news-link">谷歌和特斯拉组建“电网利用联盟” AI缺电逻辑有望持续演绎</a> [12] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ce136-2b53-7001-8106-b53bca7c1a4a" target="_blank" class="news-link">U.S. FERTILIZER STOCKS RISE PREMARKET AS MIDDLE EAST CONFLICT CONTINUES TO DISRUPT SHIPPING THROUGH STRAIT OF HORMUZ: CF INDUSTRIES CLIMBS 3.4%, MOSAIC RISES 4.9%</a> [14] <font color='grey'>- 17时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/928/435.htm" target="_blank" class="news-link">华为智选车产品总监彭磊：本周上海 AWE 2026 华为全场景将有享界惊喜，由余总牵头亮相</a> [12] <font color='grey'>- 17时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
