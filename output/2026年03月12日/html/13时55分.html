@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 162</p><p>生成时间: 2026-03-12 13:55:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">6.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197701" target="_blank" class="news-link">ai 时代的一点小随想</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时55分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197697" target="_blank" class="news-link">分享一个自己做的 AI 编程 Agent 监控面板， 3D 机器人实时可视化</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ce07b-89bd-7001-8103-6ddf5cfa80ca" target="_blank" class="news-link">DP WORLD - JEBEL ALI REMAINS FULLY OPERATIONAL WITH NO INFRASTRUCTURE DAMAGE&lt;br/&gt;&lt;br/&gt;DP WORLD - REGIONAL SECURITY DEVELOPMENTS HAVE TEMPORARILY REDUCED INBOUND VESSEL TRAFFIC INTO PORT OF JEBEL ALI&lt;br/&gt;&lt;br/&gt;DP WORLD - IMPLEMENTING OPERATIONAL MITIGATION MEASURES ACROSS ITS REGIONAL NETWORK</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958726" target="_blank" class="news-link">马斯克：在AI面前，人类终将被边缘化</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时55分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47346091" target="_blank" class="news-link">Iran-backed hackers claim wiper attack on medtech firm Stryker</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时55分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197693" target="_blank" class="news-link">做了一个聚合全球 483 个佛教数字资源的开源平台，支持 AI 问答和知识图谱</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时55分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197690" target="_blank" class="news-link">[自荐] 业余用 AI 工具 + SwiftUI 搓了一个 macOS 原生监控客户端，主打轻量和高颜值，有人感兴趣尝鲜吗？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时55分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197691" target="_blank" class="news-link">[Chrome 插件]做了一个 AI 控制浏览器的 Chrome 插件</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ce06c-8284-7001-8103-343bb9f30c6a" target="_blank" class="news-link">RUSSIA’S ENVOY DMITRIEV SAYS DISCUSSED CURRENT CRISIS ON GLOBAL ENERGY MARKETS WITH US COUNTERPARTS&lt;br/&gt;&lt;br/&gt;DMITRIEV SAID DISCUSSED PROMISING PROJECTS THAT COULD CONTRIBUTE TO RESTORATION OF US-RUSSIA RELATIONS&lt;br/&gt;&lt;br/&gt;DMITRIEV SAYS MANY COUNTRIES, PRIMARILY U.S., NOW BETTER UNDERSTAND SYSTEMIC ROLE OF RUSSIAN OIL AND GAS FOR GLOBAL ECONOMY</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ce06a-d02c-7001-8103-286fe3f6dc7e" target="_blank" class="news-link">IRAN FOREIGN MIN SAYS GIVEN PERMISSION FOR INDIAN OIL TANKERS TO PASS THROUGH STRAIT OF HORMUZ - ZEE BUSINESS</a> [11] <font color='grey'>- 13时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ce064-11ef-7001-8103-1062639dcee9" target="_blank" class="news-link">Microsoft Pushes for Africa AI Adoption in Challenge to DeepSeek</a> [14] <font color='grey'>- 13时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">3</td>
+                <td class="percentage">1.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3068592" target="_blank" class="news-link">报道：原千问后训练负责人郁博文据悉加盟字节Seed，曾与林俊旸同日宣布离职</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312131833125800" target="_blank" class="news-link">迪拜世界港口：鉴于地区安全局势的发展，已暂时减少进入杰贝勒阿里港的船舶流量。</a> [11] <font color='grey'>- 13时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312131741595800" target="_blank" class="news-link">迪拜世界港口：杰贝勒阿里港仍保持全面运营，基础设施未受损。</a> [12] <font color='grey'>- 13时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
