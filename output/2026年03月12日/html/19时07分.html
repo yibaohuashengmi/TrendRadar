@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 194</p><p>生成时间: 2026-03-12 19:07:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">6.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ce1b5-d137-7001-8108-9fb492556928" target="_blank" class="news-link">INDIA OIL MINISTER: AVAILABILITY OF PETROL, DIESEL FULLY SECURE</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202603/1266707.html" target="_blank" class="news-link">台湾中华文化总会英文名称拟改用Taiwan</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1197802" target="_blank" class="news-link">别怪模型不行！ AI 编程的致命问题是工程问题</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/langflow-ai/openrag" target="_blank" class="news-link">langflow-ai / openrag</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5183100" target="_blank" class="news-link">奇点国峰(01280.HK)附属签订2.78亿元AI服务器销售合约 出售200台服务器</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767340" target="_blank" class="news-link">为什么市场坚信美联储会降息到2027年？德银：他们在赌AI引发衰退</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/google-ai-edge/LiteRT" target="_blank" class="news-link">google-ai-edge / LiteRT</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E4%B9%90%E5%B1%B1%E5%A4%A7%E4%BD%9B%E6%98%AF%E5%A4%A7%E7%A6%B9%E9%9B%95%E5%83%8F%E2%80%9D%E7%B3%BBAI%E7%94%9F%E6%88%90" target="_blank" class="news-link">“乐山大佛是大禹雕像”系AI生成</a> [11] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ce19a-2a22-7001-8108-4036a403556e" target="_blank" class="news-link">SHANGHAI FUTURES EXCHANGE:TO ADJUST PRICE LIMITS, MARGIN RATIO FOR SOME GOLD, SILVER, NICKEL FUTURES CONTRACTS FROM LISTING</a> [12] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ce18f-9554-7001-8108-2b463a63c415" target="_blank" class="news-link">THAI FINMIN ON U.S. SECTION 301 INVESTIGATION: THAILAND HAS STRATEGY TO CLARIFY SITUATION TO U.S.</a> [15] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7616268055123722303/" target="_blank" class="news-link">美金融巨头为AI基建花上亿培训水电工</a> [19] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3068832" target="_blank" class="news-link">真爱美家：公司关注到有关媒体在网络上流传关于公司被收购后将“变更主营业务”“被借壳”的传闻。经公司核实，公司的主营业务仍为毛毯为主的家用纺织品研发、设计、生产与销售，不涉及人工智能业务，公司主营业务未发生重大变化。控股股东亦不存在将其控制的资产在未来36个月内通过上市公司借壳上市的计划或安排。</a> [19] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7616278214587924534/" target="_blank" class="news-link">今年将加快研究人工智能等领域立法</a> [30] <font color='grey'>- 19时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767347" target="_blank" class="news-link">Anthropic紧急上诉：五角大楼“封杀令”恐致今年损失数十亿美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/anthropics/claude-plugins-official" target="_blank" class="news-link">anthropics / claude-plugins-official</a> [13]</div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7615332643660841003" target="_blank" class="news-link">比 Claude Code 便宜一半！Codex 国内部署使用教程，三种方法任选一！</a> [30] <font color='grey'>- 19时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/google/A2UI" target="_blank" class="news-link">google / A2UI</a> [12]</div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/928/484.htm" target="_blank" class="news-link">阿维塔 06T 新色“鎏棕”揭幕：搭载华为乾崑全球量产最高 896 线激光雷达，五一前后上市</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
