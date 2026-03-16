@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 229</p><p>生成时间: 2026-03-16 21:23:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">21</td>
+                <td class="percentage">9.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/929/661.htm" target="_blank" class="news-link">苹果发布 AirPods Max 2</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1198765" target="_blank" class="news-link">做了个「Your AI Slop Bores Me」中文背景站，帮你一次看懂这个梗和游戏</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83782" target="_blank" class="news-link">FSF 希望用户自由是 AI 公司版权诉讼的一个目标</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5185717" target="_blank" class="news-link">CAI控股(00080.HK)2025年度净亏损为3167万港元</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2313854" target="_blank" class="news-link">“AI界春晚”重磅来袭！一文读懂：英伟达GTC今年有哪些看点？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cf6c0-3f5c-777a-a975-462ead2ac1cd" target="_blank" class="news-link">OPENAI&#x27;S SACHIN KATTI NOW OVERSEES STARGATE GROUPS: INFORMATION</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3767569" target="_blank" class="news-link">英伟达GTC大会前瞻：整合Groq技术大举进攻推理芯片，三星首度代工生产，OpenAI或成首批客户</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cf6be-720f-777a-a975-3a35d05e0f4a" target="_blank" class="news-link">IRAN ALSO SEEKS SUPPLIES OF CERTAIN MEDICINES AND MEDICAL EQUIPMENT, SOURCE SAYS</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%94%90%E8%AF%84B%E7%AB%99AI%E5%A4%A7%E8%B5%9B%E7%83%AD%E9%97%A8%E4%BD%9C%E5%93%81" target="_blank" class="news-link">锐评B站AI大赛热门作品</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cf6bd-cce9-777a-a975-34c02653d46e" target="_blank" class="news-link">&lt;b&gt;OPENAI NAMES NEW INFRASTRUCTURE LEADERS: INFORMATION&lt;/b&gt;</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cf6bd-38cf-777a-a975-2dc1a41d52ac" target="_blank" class="news-link">APPLE: AIRPODS MAX 2 WILL BE AVAILABLE TO ORDER STARTING MARCH 25</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%91%84%E5%BD%B1%E4%BC%9A%E8%A2%ABAI%E5%BD%BB%E5%BA%95%E6%B7%98%E6%B1%B0%E5%90%97" target="_blank" class="news-link">摄影会被AI彻底淘汰吗</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cf6bd-0aa1-777a-a975-21c61fd3a32c" target="_blank" class="news-link">APPLE: AIRPODS MAX 2 BRINGING EVEN BETTER ACTIVE NOISE CANCELLATION, ELEVATED SOUND QUALITY AND INTELLIGENT FEATURES</a> [11] <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cf6bc-e0d0-777a-a975-1e6589d51cd5" target="_blank" class="news-link">IRAN ASKS FOR RELEASE OF THREE TANKERS SEIZED BY INDIA IN FEBRUARY AS PART OF TALKS ON SAFE PASSAGE OF INDIAN VESSELS VIA STRAIT OF HORMUZ, SOURCES SAY</a> [12] <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cf6bc-15c7-777a-a975-119b4378550b" target="_blank" class="news-link">APPLE INTRODUCES AIRPODS MAX 2</a> [13] <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260316210328584800" target="_blank" class="news-link">OpenAI 任命新的基础设施负责人。</a> [13] <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32773464" target="_blank" class="news-link">315晚会曝光AI大模型被“投毒”，给AI洗脑已成产业链</a> [16] <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260316210151913800" target="_blank" class="news-link">苹果(AAPL.O)：AirPods Max 2 将于3月25日起接受订购。</a> [16] <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260316210136848800" target="_blank" class="news-link">苹果推出Airpods MAX 2。</a> [17] <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3070915" target="_blank" class="news-link">广东出台人工智能OPC行动方案，打造一批年营业收入超千万元的优质企业</a> [18] <font color='grey'>- 21时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cf6ae-8524-777a-a974-a8ef7083da53" target="_blank" class="news-link">CHINA&#x27;S LI: CHINA RAISED REPRESENTATIONS ON SECTION 301 PROBES</a> [26] <font color='grey'>- 21时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1198762" target="_blank" class="news-link">写代码做应用容易了，独立开发者如何解决发 Google Play, App Store 对外实名姓名和地址问题的？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/929/646.htm" target="_blank" class="news-link">华为 WATCH Ultimate 2 非凡探索手表「旷野绿」现身马来西亚官网，售价 3999 马币</a> [11] <font color='grey'>- 21时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767637" target="_blank" class="news-link">阿里给Token建立了一座“内部央行”</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
