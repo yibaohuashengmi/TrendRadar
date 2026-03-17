@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 153</p><p>生成时间: 2026-03-18 02:04:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">22</td>
+                <td class="percentage">14.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfce8-9aca-777a-a98f-20edd6a6a2b7" target="_blank" class="news-link">&lt;b&gt;TRUMP ON IRAN: WILL TAKE 10 YEARS TO REPAIR DAMAGE, BUT WE HAVE TO MAKE IT MORE PERMANENT&lt;/b&gt;</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767761" target="_blank" class="news-link">英伟达豪赌AI“万亿时代”：黄仁勋称芯片收入预期有“强能见度”，目标将继续膨胀</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2016992148197750088" target="_blank" class="news-link">苹果 3 月 16 日新发布的 AirPods Max 2，它相比 1 有哪些升级？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3071829" target="_blank" class="news-link">欧莱雅与英伟达扩大AI合作伙伴关系。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47397367" target="_blank" class="news-link">Toward automated verification of unreviewed AI-generated code</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfce0-959f-777a-a98e-ec3074417274" target="_blank" class="news-link">SPAIN WEIGHS BUYING MORE ALGERIAN GAS AS WAR TIGHTENS SUPPLIES</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3071826" target="_blank" class="news-link">OpenAI：GPT-5.4 Mini在ChatGPT、Codex、API上线。 在GPT-5.4中，GPT-5.4 Nano是最便宜的一款。</a> [11]</div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47412015" target="_blank" class="news-link">Show HN: March Madness Bracket Challenge for AI Agents Only</a> [11] <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3071824" target="_blank" class="news-link">MasterCard Inc.推出新款生成式AI模型。 大模型Tabular在结构性数据的基础上进行训练。</a> [13]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfcd3-1b85-777a-a98e-cb2e73b7356a" target="_blank" class="news-link">ZELENSKIY CALLS ON ALLIES TO BUILD &#x27;MODERN DEFENCE FORCES&#x27; TOGETHER WITH UKRAINE, USING ITS BATTLE-TESTED EXPERIENCE</a> [14] <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318011537189800" target="_blank" class="news-link">欧莱雅：与英伟达携手，借助预测性人工智能科学加速美妆研发。</a> [16] <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfccd-ef05-777a-a98e-b46a6dfa3d37" target="_blank" class="news-link">ZELENSKIY SAYS UKRAINE IS WORKING ON UNDERWATER DRONES, DRONES CAPABLE OF OPERATING IN OCEAN</a> [17] <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfccc-8963-777a-a98e-ac7feff3f7fe" target="_blank" class="news-link">L&#x27;ORÉAL AND NVIDIA TO ACCELERATE BEAUTY DISCOVERY POWERED BY PREDICTIVE AI SCIENCE</a> [18] <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfcca-a391-777a-a98e-9f18cca8b16b" target="_blank" class="news-link">ZELENSKIY SAYS UKRAINE CAPABALE OF PRODUCING 2,000 INTERCEPTOR DRONES A DAY, CAN SUPPLY HALF OF IT TO ALLIES</a> [20] <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318010850842800" target="_blank" class="news-link">OpenAI：GPT-5.4 mini 今天在 ChatGPT、Codex 和 API 中上线。针对编码、计算机使用、多模态理解和子代理进行了优化。速度是 GPT-5 mini 的两倍。GPT-5.4nano也从今天开始在API中提供。</a> [21] <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfcc7-953b-777a-a98e-800f406a1e81" target="_blank" class="news-link">&lt;b&gt;OPENAI: WE’RE INTRODUCING GPT-5.4 MINI AND NANO - X POST&lt;/b&gt;</a> [23] <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3071813" target="_blank" class="news-link">超微电脑加入英伟达BlueField-4 STX首发阵营，旨在通过存储服务器提升AI推理性能</a> [23] <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318010657215800" target="_blank" class="news-link">英伟达(NVDA.O)：AT&amp;T与思科和英伟达合作，为物联网构建人工智能网格</a> [23] <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/637931308.html" target="_blank" class="news-link">第54届联合国小姐冠军，在外网被认为是AI，大家觉得呢？</a> [23] <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfcc3-fed2-777a-a98e-7e656db9c8a9" target="_blank" class="news-link">NVIDIA CORP: AT&amp;T PARTNERING WITH CISCO AND NVIDIA TO BUILD AN AI GRID FOR IOT</a> [24] <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3071811" target="_blank" class="news-link">英伟达CEO黄仁勋：IT企业将是OpenAI和Anthropic的中间商。</a> [25] <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfcc2-4a01-777a-a98e-63ce74b77c52" target="_blank" class="news-link">MASTERCARD - LARGE TABULAR MODEL IS TRAINED ON STRUCTURED DATA</a> [27] <font color='grey'>- 02时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1199059" target="_blank" class="news-link">Claude Max20 并发是多少</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47366616" target="_blank" class="news-link">Font Smuggler – Copy hidden brand fonts into Google Docs</a> [18] <font color='grey'>- 02时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2016557256355890931" target="_blank" class="news-link">华为畅享 90 曝光，麒麟鸿蒙入局入门机，将如何搅动市场？</a> [19] <font color='grey'>- 02时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
