@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 258</p><p>生成时间: 2026-03-17 16:58:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">7.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202603/1767084.html" target="_blank" class="news-link">华为发布新一代AI数据基础设施</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23AI%E5%A4%A7%E5%8E%82%E6%9C%88%E8%96%AA3%E4%B8%87%E7%96%AF%E6%8A%A2%E6%96%87%E7%A7%91%E7%94%9F%23&amp;t=31&amp;band_rank=1&amp;Refer=top" target="_blank" class="news-link">AI大厂月薪3万疯抢文科生</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3071529" target="_blank" class="news-link">百度集团执行副总裁、百度智能云事业群总裁沈抖：搜索能力是OpenClaw这类AI Agent落地的重要基础设施</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfafd-896a-777a-a983-ff8305b5e077" target="_blank" class="news-link">KOREAN AIR EXTENDS DUBAI FLIGHT SUSPENSION UNTIL APRIL 19 OVER MIDDLE EAST TENSIONS</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/929/944.htm" target="_blank" class="news-link">东擎发布紧凑型工作站 AI BOX-A395，搭载 AMD 锐龙 AI Max+ 395 处理器</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfaf4-cabc-777a-a983-d1a40022b4d7" target="_blank" class="news-link">EU&#x27;S KALLAS: THE DOOR IS NOT CLOSED ON PARTICIPATION IN STRAIT OF HORMUZ</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfaf3-b5ee-777a-a983-c919f27cfba2" target="_blank" class="news-link">EU&#x27;S KALLAS: MAIN CONCERN OF EU COUNTRIES IS THAT THEY WERE NOT CONSULTED ON START OF THE WAR IN IRAN OR THE OBJECTIVES</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfaf1-cb86-777a-a983-bfd4fbff0c2d" target="_blank" class="news-link">EU&#x27;S KALLAS: A MODEL SIMILAR TO THAT IN THE BLACK SEA COULD BE USED IN STRAIT OF HORMUZ</a> [11] <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317161933180800" target="_blank" class="news-link">3·15晚会点名AI投毒 中广协已启动GEO标准化建设工作</a> [11] <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3071516" target="_blank" class="news-link">英伟达押注下一个万亿级机遇 入局AI服务器系统</a> [12] <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfaee-41b7-777a-a983-a910d75a785e" target="_blank" class="news-link">GERALD FORD&#x27;S CREW RECEIVED A NOTICE TO REMAIN IN THE MIDDLE EAST UNTIL MAY: NEW YORK TIMES</a> [13] <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfae8-cdb4-777a-a983-9f771f0fb1f2" target="_blank" class="news-link">US Diesel Tops $5 a Gallon as War Disrupts Fuel Supply Chains</a> [15] <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfae4-fedf-777a-a983-909f5823fff3" target="_blank" class="news-link">THAI STATE PLANNING AGENCY: RISES IN DOMESTIC DIESEL PRICES WILL BE GRADUAL</a> [16] <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/929/915.htm" target="_blank" class="news-link">荣耀 MagicBook 全新 AI UI 实机效果公布：悬浮 Dock 栏 + 右上状态菜单，界面更像 macOS</a> [16] <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfac1-fce4-777a-a983-5980912a1c5d" target="_blank" class="news-link">SOUTH KOREA DEFENCE MINISTER AHN: NOT CONSIDERING SENDING CHEONGHAE UNIT DESTROYER TO STRAIT OF HORMUZ</a> [23] <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfaba-cc31-777a-a983-55b3e4af789d" target="_blank" class="news-link">CHINESE STATE MAJORS RESUME SEEKING RUSSIAN OIL SHIPMENTS FOLLOWING US WAIVER, SOURCES SAY</a> [24] <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3071491" target="_blank" class="news-link">华为面向AI推理场景发布新一代AI数据基础设施</a> [27] <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfaaf-fc18-777a-a983-37a6e36b3fba" target="_blank" class="news-link">CHINA&#x27;S FOREIGN MINISTRY: US CLARIFIES TRUMP CHINA VISIT UNRELATED TO STRAIT OF HORMUZ SHIPPING ISSUE</a> [28] <font color='grey'>- 16时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cfaae-88de-777a-a983-2e1ae0939217" target="_blank" class="news-link">Top AI Stories of PAST 24 Hours - MKTNews</a> [29] <font color='grey'>- 16时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7617707985038016527" target="_blank" class="news-link">Cursor 独有的 12 个技巧：这些是 Claude Code 没有的</a> [27] <font color='grey'>- 16时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2016896539008726692" target="_blank" class="news-link">谷歌 Gemini 网页应用向香港用户开放，将带来哪些影响？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/929/940.htm" target="_blank" class="news-link">消息称华为、小米 REDMI、一加、vivo 等厂商正打磨小平板</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
