@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 187</p><p>生成时间: 2026-03-18 14:11:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">20</td>
+                <td class="percentage">10.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3072166" target="_blank" class="news-link">AI大模型龙头月之暗面创始人杨植麟首次完整披露Kimi技术路线图</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5186908" target="_blank" class="news-link">大行评级丨小摩：上调哔哩哔哩评级至“增持”，相信公司增加AI投资的策略正确</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767806" target="_blank" class="news-link">微软拟起诉亚马逊与OpenAI：500亿美元云合作涉嫌违约</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1199189" target="_blank" class="news-link">AI 编程时代，程序员如何才能清晰地描述需求？有什么方法论？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1199188" target="_blank" class="news-link">说一下最近本人玩 AI 的感觉</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1199179" target="_blank" class="news-link">做了一个 AI 原生的文献管理工具 Zoro，主打母语阅读体验，开源了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cff79-f61a-777a-a995-885e4ed79a30" target="_blank" class="news-link">TD COWEN RAISES TOTALENERGIES TO BUY FROM HOLD; RAISES TARGET PRICE TO $97 FROM $80</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1199177" target="_blank" class="news-link">Java idea 仔如何用 ai 进行代码开发</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BD%91%E4%BC%A0%E2%80%9C%E7%94%B7%E4%BA%8C%E4%BB%A5%E4%B8%8B%E7%94%A8AI%E6%BC%94%E5%91%98%E2%80%9D+%E4%BA%8E%E6%AD%A3%E5%8F%91%E5%A3%B0" target="_blank" class="news-link">网传“男二以下用AI演员” 于正发声</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5186900" target="_blank" class="news-link">阿里巴巴2027届实习生招聘全球启动：八成岗位押注AI，首设Agent工程师等七类新兴职位</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5186899" target="_blank" class="news-link">CPO概念股走强，创业板人工智能ETF涨超4%</a> [11] <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cff71-ff8d-777a-a995-5db23067ecc5" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX CLOSED UP 1.51%</a> [12] <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/bad20fee0f504623986f0fed2e7812b0" target="_blank" class="news-link">美团暑期AI面</a> [16] <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cff5d-924c-777a-a995-2a86e95cda43" target="_blank" class="news-link">&lt;b&gt;JAPAN TRADE MINISTRY: NATIONAL AVERAGE RETAIL GASOLINE PRICE RISES TO 190.80 YEN PER LITER, NEW RECORD HIGH&lt;/b&gt;</a> [18] <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3072139" target="_blank" class="news-link">阿里巴巴2027届实习生招聘启动，AI相关岗位占比超八成</a> [19] <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cff54-8702-777a-a995-1551488fc90d" target="_blank" class="news-link">Microsoft Threatens Legal Action Over OpenAI-Amazon Frontier Deal</a> [21] <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cff51-faa4-777a-a995-0225b08bac42" target="_blank" class="news-link">MICROSOFT WEIGHS LEGAL ACTION OVER $50BN AMAZON-OPENAI CLOUD DEAL- FT</a> [23] <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3072135" target="_blank" class="news-link">阿里巴巴港股午后走高，现涨2.6%，阿里云AI算力和存储产品最高涨价34%。</a> [23] <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3072134" target="_blank" class="news-link">微软考虑就亚马逊与OpenAI达成的500亿美元云交易采取法律行动。 (英国金融时报)</a> [24] <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3072133" target="_blank" class="news-link">A股算力概念股持续活跃，数据港直线涨停，杭钢股份、首都在线、优刻得、铜牛信息、东方国信等纷纷冲高，消息上，阿里云AI算力和存储产品最高涨价34%。</a> [25] <font color='grey'>- 14时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">4</td>
+                <td class="percentage">2.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767798" target="_blank" class="news-link">创业板震荡上涨，算力硬件全线反弹，存储芯片再爆发，恒科指午后翻红，阿里直线拉升</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318140359154800" target="_blank" class="news-link">港股OpenClaw概念股午后走高，MINIMAX-W(00100.HK)涨超18%，金山云(03896.HK)涨超14%，智谱(02513.HK)涨超13%，迅策(03317.HK)涨超8%，阿里巴巴(09988.HK)、网易-S(09999.HK)等个股跟涨。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3072136" target="_blank" class="news-link">“Token第一股”迅策午后跌幅收窄至4%，此前盘中跌超9%。消息称阿里云此轮涨价的重要原因之一是“Token调用量暴涨”。</a> [22] <font color='grey'>- 14时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1199191" target="_blank" class="news-link">怎么解决 claude code 不让新用户注册登录</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019cff69-35e7-777a-a995-4bb6c1a295b9" target="_blank" class="news-link">China’s OpenClaw Stocks Rise as Nvidia’s Huang Calls It the Next ChatGPT</a> [14] <font color='grey'>- 14时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1199173" target="_blank" class="news-link">Antigravity 只用 gemini 3 flash 其他的模型额度也会被消耗吗？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7616562352344580096" target="_blank" class="news-link">OpenClaw 配置指南：DeepSeek 与 飞书集成</a> [29] <font color='grey'>- 14时11分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
