@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2026-03-18 21:59:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">6.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767836" target="_blank" class="news-link">腾讯电话会：马化腾首谈“养虾”构想，今年AI投资至少翻倍，智能体将催生去中心化新生态</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/406.htm" target="_blank" class="news-link">腾讯总裁刘炽平：去年腾讯在 AI 新产品上投入 180 亿元，今年至少翻倍</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767856" target="_blank" class="news-link">AI跑通后清退外包? 这件事网易辟谣了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3767836" target="_blank" class="news-link">腾讯电话会：核心业务在AI时代具备强大韧性，智能体将催生去中心化新生态，今年AI投资至少翻倍</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767854" target="_blank" class="news-link">从提升开支到微信Agent，市场坐等腾讯AI的二连击</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/399.htm" target="_blank" class="news-link">联想来酷预告 AI MINI 迷你主机，搭载英特尔 &quot;Lunar Lake&quot; 处理器</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d011b-9442-7004-88e1-eb08f51e53e7" target="_blank" class="news-link">GEELY: WORKING NVIDIA TO BUILD FULL-CHAIN INTELLIGENT MOBILITY ECOSYSTEM</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d011a-b782-7004-88e1-da01a39f3f7f" target="_blank" class="news-link">GEELY EXPANDS STRATEGIC PARTNERSHIP WITH NVIDIA ACROSS PHYSICAL, ENTERPRISE, AND INDUSTRIAL AI</a> [11] <font color='grey'>- 21时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767845" target="_blank" class="news-link">英伟达、阿里重估AI，把FLOPS“扔进垃圾堆”</a> [13] <font color='grey'>- 21时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3072481" target="_blank" class="news-link">普华永道：降低风险损失是AI给金融机构带来的主要投资回报之一</a> [14] <font color='grey'>- 21时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767846" target="_blank" class="news-link">华为联手广汽，撕开了AI汽车的口子</a> [14] <font color='grey'>- 21时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/389.htm" target="_blank" class="news-link">联想 AI 平板拯救者 Y700 五代发布：骁龙 8 Elite Gen5 + 8.8 英寸 165Hz 电竞屏，首发 3999 元起</a> [16] <font color='grey'>- 21时59分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BD%91%E5%8F%8B%E6%8A%B5%E5%88%B6AI%E6%BC%94%E5%91%98%23&amp;t=31&amp;band_rank=22&amp;Refer=top" target="_blank" class="news-link">网友抵制AI演员</a> [22] <font color='grey'>- 21时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/379.htm" target="_blank" class="news-link">联想小新 Pro 14 GT AI 元启版发布：英特尔酷睿 Ultra 5 338H/X7 358H 可选，国补价 6800~7225 元</a> [23] <font color='grey'>- 21时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/377.htm" target="_blank" class="news-link">联想小新 Pro 16 GT AI 元启版发布：英特尔酷睿 Ultra 5 338H/X9 388H 可选，国补价 6970~8500 元</a> [25] <font color='grey'>- 21时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d010a-7b66-7004-88e1-5506440f836c" target="_blank" class="news-link">APPLE SAYS SOME AI VIBE CODING APPS VIOLATE APP STORE RULES BY RUNNING CODE THAT ALTERS APP FUNCTIONALITY - THE INFORMATION</a> [28] <font color='grey'>- 21时59分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BB%80%E4%B9%88%E5%B7%A5%E4%BD%9C%E4%B8%8D%E4%BC%9A%E8%A2%ABAI%E6%9B%BF%E4%BB%A3%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">什么工作不会被AI替代</a> [29] <font color='grey'>- 21时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1199342" target="_blank" class="news-link">Claude Code Opus 4.6 挂了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3072463" target="_blank" class="news-link">谷歌：正在与英国竞争与市场管理局（CMA）合作，致力于确保规则促进公平与选择。</a> [30] <font color='grey'>- 21时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
