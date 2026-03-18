@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 227</p><p>生成时间: 2026-03-18 18:02:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">20</td>
+                <td class="percentage">8.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1199288" target="_blank" class="news-link">AI 时代，程序员不用写代码了，但总要做系统设计，那具体要如何做系统设计呢？分享下我的真实感受。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767836" target="_blank" class="news-link">腾讯媒体电话会：计划减少股票回购，将资金用于人工智能投资</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2434994" target="_blank" class="news-link">短剧演员谈被AI替代</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3072308" target="_blank" class="news-link">腾讯首席财务官：腾讯计划减少股票回购，将资金用于AI投资。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1199269" target="_blank" class="news-link">一些 ai 中转站 Sora 2 api 接口价格能做到官网的十分之一，怎么做到的？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318173058178800" target="_blank" class="news-link">腾讯控股(00700.HK)首席财务官：腾讯计划减少股票回购，将资金用于AI投资。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1199262" target="_blank" class="news-link">[开源] NowenReader - Go 写的自托管漫画 &amp; 小说管理平台，单二进制部署，支持 17+ AI 模型</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318173048985800" target="_blank" class="news-link">富士康与SAP签署战略合作 加速AI驱动型制造与供应链转型</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d004c-2cae-777a-a998-6523a8eb9d35" target="_blank" class="news-link">SINCE START OF WAR ON 28 FEBRUARY 108 VESSELS PASSED THROUGH THE STRAIT OF HORMUZ: DATA FROMKPLER</a> [13]</div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2316793" target="_blank" class="news-link">AI算力需求爆发 阿里云、百度智能云同日联袂涨价 涨幅最高34%</a> [13] <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/341.htm" target="_blank" class="news-link">网易回应“使用 AI 清退全部外包员工”：不实消息</a> [13] <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/340.htm" target="_blank" class="news-link">盟友反目：OpenAI 牵手亚马逊，微软拟对其采取法律行动</a> [14] <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0049-3f12-777a-a998-563a6862d9d6" target="_blank" class="news-link">&lt;B&gt;TENCENT CFO: COMPANY PLANS TO CUT SHARE BUYBACKS, REDIRECT FUNDS TO AI INVESTMENT&lt;/B&gt;</a> [15] <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/863335527771140096" target="_blank" class="news-link">字节跳动 抖音 AI Agent开发 一面</a> [16] <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0042-ef30-777a-a998-47c329b2ca31" target="_blank" class="news-link">FTSE STRAITS TIMES INDEX CLOSES 1.3% HIGHER AT 5002.17</a> [17] <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d003f-86de-777a-a998-2c6b1979bf3d" target="_blank" class="news-link">CHINA&#x27;S XI MET WITH TURKMENISTAN PEOPLE&#x27;S COUNCIL CHAIRMAN - CCTV</a> [20] <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d002d-5113-777a-a997-f9319f7a471d" target="_blank" class="news-link">TURKEY SAYS NATO DEPLOYING ANOTHER PATRIOT MISSILE DEFENCE SYSTEM TO SOUTHERN PROVINCE WHERE INCIRLIK AIR BASE IS LOCATED</a> [26] <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7618109587552993286" target="_blank" class="news-link">34岁前端倒计时：老板用AI手搓系统那天，我知道我的“体面退休”是个笑话</a> [26] <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d002d-3369-777a-a997-f7232e7dcb4b" target="_blank" class="news-link">KINGFISHER AND GOOGLE CLOUD PARTNER TO DELIVER AI-POWERED SHOPPING ACROSS UK AND EUROPE</a> [27] <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7618109587552059398" target="_blank" class="news-link">让你的 OpenClaw 带你学习，清华开源 AI 私人导师 OpenMAIC</a> [30] <font color='grey'>- 18时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/349.htm" target="_blank" class="news-link">消息称某厂自研 CIS 已公开：国产工艺 + 全栈自研，预计归属华为旗下</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/345.htm" target="_blank" class="news-link">华为 nova 品牌主题曲《Just Like nova》作为 nova 15 系列手机专属铃声上线</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318173116479800" target="_blank" class="news-link">南向资金今日净买入12.17亿元。港股通（沪）方面，小米集团-W、阿里巴巴-W分别获净买入6.28亿港元、6.28亿港元；腾讯控股净卖出额居首，金额为7.08亿港元；港股通（深）方面，阿里巴巴-W、长飞光纤光缆分别获净买入9.08亿港元、4.24亿港元；中芯国际净卖出额居首，金额为2.78亿港元。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
