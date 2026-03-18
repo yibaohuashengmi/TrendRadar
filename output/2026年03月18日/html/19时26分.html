@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 237</p><p>生成时间: 2026-03-18 19:26:04</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">10.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3072397" target="_blank" class="news-link">腾讯总裁刘炽平：今年AI投资至少翻倍</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767836" target="_blank" class="news-link">腾讯媒体电话会：“养虾”可结合微信去中心化理念，今年AI投资至少翻倍</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/379.htm" target="_blank" class="news-link">联想小新 Pro14GT AI 元启版发布：英特尔酷睿 Ultra 5 338H/X7 358H 可选，国补价 6800~7225 元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83797" target="_blank" class="news-link">GTC 2026 重磅 AI 会议推荐：注册观看还有机会获得 NVIDIA 定制装备</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/378.htm" target="_blank" class="news-link">联想小新 14 360 2026 AI 元启版笔记本发布：32GB+1TB、英特尔酷睿 Ultra 5 336H，首发 6999 元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1199316" target="_blank" class="news-link">大家在开发的时候给 AI 的 rules 都是什么？来分享一下</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/377.htm" target="_blank" class="news-link">联想小新 Pro16GT AI 元启版发布：英特尔酷睿 Ultra X5 338H/X9 388H 可选，国补价 6970~8500 元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/unslothai/unsloth" target="_blank" class="news-link">unslothai / unsloth</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www3.nhk.or.jp/nhkworld/zh/news/20260317_20/" target="_blank" class="news-link">英伟达宣布开发出可增强AI“推理”计算能力的半导体</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0083-1f7c-777a-a999-63811349ab0c" target="_blank" class="news-link">EU GUIDANCE: IF AUTHORISED LNG CARGOES ARE REROUTED BECAUSE OF STRAIT OF HORMUZ CLOSURE, COMPANIES ARE EXEMPTED FROM NEEDING A NEW AUTHORISATION PERMIT</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/930/374.htm" target="_blank" class="news-link">联想小新 Pro16 2026 AI 元启版发布：首发 7199~7999 元，国补价 6120 元起</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1199307" target="_blank" class="news-link">给 AI 用的 React 调试小工具：选中节点即可精准定位源码行号复制给 AI</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/langchain-ai/open-swe" target="_blank" class="news-link">langchain-ai / open-swe</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2435233" target="_blank" class="news-link">AI短片流金谷恩仇录</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767832" target="_blank" class="news-link">Manus发布桌面版AI代理，可直接访问本地文件和应用</a> [14] <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d006b-c26b-777a-a999-104934ff909d" target="_blank" class="news-link">SHANGHAI INTERNATIONAL ENERGY EXCHANGE: TO ADJUST AUTOMATIC CONVERSION STANDARDS FOR HEDGING POSITION QUOTAS FORCRUDE OIL, LOW-SULFUR FUEL OIL CONTRACTS</a> [15] <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0069-632b-777a-a999-0d19d18242d0" target="_blank" class="news-link">SHANGHAI FUTURES EXCHANGE: TO ADJUST AUTOMATIC CONVERSION STANDARDS FOR HEDGING POSITION QUOTAS FOR FUEL OIL PRODUCT CONTRACTS</a> [16] <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2017543464514974274" target="_blank" class="news-link">网传以后男二以下的角色都用 AI 做，不用真人演员，可能性多大？当前的技术条件支持吗？</a> [16]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0068-fe61-777a-a999-015a11f46639" target="_blank" class="news-link">BERNSTEIN RAISES MICRON TECHNOLOGY TARGET PRICE TO $510 FROM $330</a> [17] <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0063-a358-777a-a998-e6cc0346e1dc" target="_blank" class="news-link">INDIA GOVT OFFICIAL: 200,000 T LNG LOADED ON A VESSEL STRANDED IN STRAIT OF HORMUZ</a> [21] <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E8%80%80%E5%AE%A2AI%E6%BC%94%E5%91%98%20%E8%B5%B5%E4%BB%8A%E9%BA%A6%E7%BF%9F%E5%AD%90%E8%B7%AF&amp;t=31&amp;band_rank=21&amp;Refer=top" target="_blank" class="news-link">耀客AI演员 赵今麦翟子路</a> [21] <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0062-ea22-777a-a998-d0aa5e2b8340" target="_blank" class="news-link">INDIA GOVT OFFICIAL: TANKERS WITH 320,000 T LPG STRANDED IN STRAIT OF HORMUZ</a> [23] <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0062-e515-777a-a998-cc96be49dd0d" target="_blank" class="news-link">INDIA GOVT OFFICIAL: CRUDE VESSELS WITH 1.6 MLN TONNES OF OIL STRANDED IN STRAIT OF HORMUZ</a> [24] <font color='grey'>- 19时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3072356" target="_blank" class="news-link">腾讯2025年游戏营收同比增长22%，游戏AI应用成关键驱动力之一</a> [27] <font color='grey'>- 19时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83796" target="_blank" class="news-link">韩国游戏发行商 CEO 为避免支付合同承诺的 2.5 亿美元而求助于 ChatGPT</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
