@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 174</p><p>生成时间: 2026-03-19 19:39:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">10.34%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d05dd-fe9c-7bb9-8af4-df04e4b73342" target="_blank" class="news-link">WEDBUSH RAISES MICRON TECHNOLOGY TARGET PRICE TO $550 FROM $500</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d05db-0af6-7bb9-8af4-d5a02dae735f" target="_blank" class="news-link">PAN, CHAN DISCUSS CURRENT MACRO ECONOMY, DEEPENING MAINLAND-HONG KONG FINANCIAL CONNECTIVITY, STRENGTHENING OFFSHORE RMB MARKET, ENHANCING HONG KONG’S STATUS AS INTERNATIONAL FINANCIAL CENTER, AND PROMOTING HIGH-LEVEL FINANCIAL OPENING-UP</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d05d1-3ec5-7bb9-8af4-b441a96aafe5" target="_blank" class="news-link">RAYMOND JAMES RAISES NVIDIA CORP TARGET PRICE TO $323 FROM $291</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d05cf-3d1a-7bb9-8af4-99731e466f4f" target="_blank" class="news-link">RAYMOND JAMES RAISES MICRON TECHNOLOGY TARGET PRICE TO $530 FROM $310</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d05cd-81b9-7bb9-8af4-94cdfc91226f" target="_blank" class="news-link">IRAN CLAIMS IT IS CONSIDERING CHARGING A 10% TOLL ON SHIPS PASSING THROUGH THE STRATEGIC STRAIT OF HORMUZ</a> [11] <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/shareAI-lab/learn-claude-code" target="_blank" class="news-link">shareAI-lab / learn-claude-code</a> [11]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d05cd-6432-7bb9-8af4-889432e8e725" target="_blank" class="news-link">US AVERAGE RETAIL GASOLINE PRICE CLIMBS TO HIGHEST SINCE 2022</a> [12] <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d05ca-e0f4-7bb9-8af4-85b47733bd6e" target="_blank" class="news-link">DEUTSCHE BANK RAISES MICRON TECHNOLOGY TARGET PRICE TO $550 FROM $500</a> [13] <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d05c7-428c-7bb9-8af4-7af64c59a0f3" target="_blank" class="news-link">ROSENBLATT SECURITIES RAISES MICRON TECHNOLOGY TARGET PRICE TO $600 FROM $500</a> [14] <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d05c5-caae-7bb9-8af4-6c951529a1c3" target="_blank" class="news-link">THAI PM ANUTIN: HAVE REDUCED OIL EXPORTS TO MYANMAR AND LAOS</a> [16] <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d05c5-59d5-7bb9-8af4-62e4d382384c" target="_blank" class="news-link">THAI PM ANUTIN:WE HAVE 100 DAYS OF OIL RESERVES</a> [17] <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d05c3-cfb6-7bb9-8af4-5e6f027e1e09" target="_blank" class="news-link">BOFA GLOBAL RESEARCH RAISES MICRON TECHNOLOGY PRICE OBJECTIVE TO $500 FROM $400</a> [18] <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2017544894055407699" target="_blank" class="news-link">如何看待黄仁勋「OpenClaw 是 AI 时代的 Linux」的观点？其将如何加速行业的发展？</a> [18] <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d05bd-826c-7bb9-8af4-4b09e2eff88c" target="_blank" class="news-link">WORKING LUNCH BETWEEN TRUMP AND JAPAN PM TAKAICHI CANCELLED, TIME ALLOCATED FOR SUMMIT MEETING EXTENDED INSTEAD, JIJI NEWS AGENCY SAYS</a> [20] <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d05bc-47fb-7bb9-8af4-3f73378e8aba" target="_blank" class="news-link">EU TRANSPORT COMMISSIONER REJECTS AIRLINE CALLS FOR SUSPENSION OF SYNTHETIC GREEN JET FUEL MANDATE, TELLS REUTERS IT IS UP TO INDUSTRY TO INVEST</a> [22] <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%9F%AD%E5%89%A7%E6%96%B9%E7%A7%B0%E7%94%B7%E4%BA%8C%E4%BB%A5%E4%B8%8BAI%E6%BC%94%E5%91%98%E6%97%A0%E6%B3%95%E5%AE%9E%E7%8E%B0" target="_blank" class="news-link">短剧方称男二以下AI演员无法实现</a> [25] <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d05ac-5750-7bb9-8af4-0e29ea61b0dd" target="_blank" class="news-link">WELLS FARGO RAISES MICRON TECHNOLOGY TARGET PRICE TO $550 FROM $470</a> [28] <font color='grey'>- 19时39分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d05ab-5a63-7bb9-8af4-072b2a3983f1" target="_blank" class="news-link">MIZUHO RAISES MICRON TECHNOLOGY TARGET PRICE TO $530 FROM $480</a> [29] <font color='grey'>- 19时39分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
