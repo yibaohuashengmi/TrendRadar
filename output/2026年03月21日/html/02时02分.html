@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 103</p><p>生成时间: 2026-03-21 02:02:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">18.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768034" target="_blank" class="news-link">OpenAI要牵手亚马逊撬动AI云格局，500亿协议或引发微软诉讼</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47457472" target="_blank" class="news-link">Launch HN: Sitefire (YC W26) – Automating actions to improve AI visibility</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0c4f-9bf9-7dd1-9ff7-c1979485559a" target="_blank" class="news-link">&lt;b&gt;BRITAIN HAS GIVEN THE US THE GREEN LIGHT TO USE RAF FAIRFORD AND DIEGO GARCIA TO CARRY OUT RAIDS ON IRANIAN MISSILE SITES THAT ARE ATTACKING SHIPS IN THE STRAIT OF HORMUZ - REPORTS IN THE UK&lt;/b&gt;</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260321012501666800" target="_blank" class="news-link">惠誉：将举办关于私募信贷和杠杆贷款中人工智能软件风险的网络研讨会。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0c4c-d46b-7dd1-9ff7-baeeb48284d2" target="_blank" class="news-link">UK MINISTERS MET TODAY TO DISCUSS THE MIDDLE EAST AND THE STRAIT OF HORMUZ</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47453942" target="_blank" class="news-link">France&#x27;s aircraft carrier located in real time by Le Monde through fitness app</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0c46-ebc2-7dd1-9ff7-b00208392bf6" target="_blank" class="news-link">US Races to Prevent Prolonged Strait of Hormuz Closure</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0c3e-838d-7dd1-9ff7-99dbb37721b5" target="_blank" class="news-link">SIRENS ACTIVATED IN BAHRAIN</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0c3c-08c6-7dd1-9ff7-912e11f13e51" target="_blank" class="news-link">BAHRAINI MINISTRY OF INTERIOR: SIRENS HAVE BEEN ACTIVATED, AND WE URGE CITIZENS AND RESIDENTS TO REMAIN CALM AND HEAD TO THE NEAREST SAFE PLACE</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0c3a-c85a-7dd1-9ff7-8d51fdeca01b" target="_blank" class="news-link">TRANSPORTATION SECURITY ADMINISTRATION AIRPORT OFFICER ABSENCES REMAIN STEADY AT AROUND 10% THURSDAY -DHS</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%99%AE%E9%80%9A%E4%BA%BA%E5%A6%82%E4%BD%95%E9%98%B2%E8%8C%83AI%E6%8A%95%E6%AF%92" target="_blank" class="news-link">普通人如何防范AI投毒</a> [11] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47454164" target="_blank" class="news-link">HP trialed mandatory 15-minute support call wait times (2025)</a> [11] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0c36-a170-7dd1-9ff7-7a843df3baa6" target="_blank" class="news-link">IRAN SAID TO STICK TO HARDLINE POSITION ON STRAIT OF HORMUZ &lt;br/&gt;&lt;br/&gt;IRAN UNWILLING TO DISCUSS HORMUZ WHILE UNDER ATTACK: OFFICIAL &lt;br/&gt;&lt;br/&gt;OFFICIAL BRIEFED ON PRIVATE TALKS COMMENTS ON IRANIAN POSITION</a> [12] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0c34-d495-7dd1-9ff7-6c9625f1823a" target="_blank" class="news-link">AMAZON TO INVEST USD50 BLN IN OPENAI</a> [14] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0c34-ab89-7dd1-9ff7-66fc93bd8da4" target="_blank" class="news-link">DRONES TARGET U.S. DIPLOMATIC FACILITY NEAR BAGHDAD AIRPORT -SECURITY SOURCES</a> [15] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47457107" target="_blank" class="news-link">MacBook M5 Pro and Qwen3.5 = Local AI Security System</a> [20] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0c28-f0a7-7dd1-9ff7-22f5df6cfc8b" target="_blank" class="news-link">RUSSIA ATTACKED OIL AND GAS FACILITIES IN UKRAINE&#x27;S POLTAVA AND SUMY REGIONS, NAFTOGAZ SAYS</a> [23] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0c24-de94-7dd1-9ff7-0f80b161fc5b" target="_blank" class="news-link">China Curbs Fuel, Fertiliser Exports, Raising Asia Supply Risks</a> [26] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0c20-8c5a-7dd1-9ff6-eb8b007aa792" target="_blank" class="news-link">QATARENERGY CEO TELLS HE HAD WARNED U.S. ENERGY SECRETARY AND TOP EXECUTIVES ALMOST DAILY OF THE DIRE CONSEQUENCES FOR OTHERS SHOULD IRAN&#x27;S OIL AND GAS FACILITIES BE TARGETED</a> [30] <font color='grey'>- 02时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47403905" target="_blank" class="news-link">FSF statement on copyright infringement lawsuit Bartz v. Anthropic</a> [22] <font color='grey'>- 02时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
