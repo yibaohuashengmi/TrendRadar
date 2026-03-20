@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 217</p><p>生成时间: 2026-03-20 17:07:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">5.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0a61-4289-7997-bc06-36d4a197160f" target="_blank" class="news-link">ZHENGZHOU COMMODITY EXCHANGE: TO ADJUST DAILY OPENING POSITION LIMITS FOR METHANOL FUTURES 2605 CONTRACT, CAUSTIC SODA FUTURES 2605 CONTRACT, STARTING MARCH 20 NIGHT SESSION TRADING</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202603/2067330.html" target="_blank" class="news-link">小米拟未来三年在AI领域投资至少600亿人民币</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0a5f-f1c3-7997-bc06-2364acc226a6" target="_blank" class="news-link">CHINA&#x27;S SINOCHEM HAS CUT CRUDE THROUGHPUT AT 300,000-BPD QUANZHOU REFINERY TO AROUND 60%, SOURCES SAY&lt;br/&gt;&lt;br/&gt;SINOCHEM ALSO REDUCED OPERATIONS AT STEAM CRACKER TO AROUND 60%, SOURCES SAY&lt;br/&gt;&lt;br/&gt;SINOCHEM SEEKING PROMPT-DELIVERY CRUDE OIL, INCLUDING RUSSIAN OIL UNDER WAIVER, TO COVER SUPPLY GAP, SOURCES SAY</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767997" target="_blank" class="news-link">战争信息过载，华尔街交易员转向用AI：直接节省80%的研究时间</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/060.htm" target="_blank" class="news-link">Akko 推出 Air 01 系列三模矮轴机械键盘，399 元</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/055.htm" target="_blank" class="news-link">腾讯元宝 AI 更换 Logo，长眼睛了</a> [11] <font color='grey'>- 17时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0a45-026f-7997-bc05-e214f8a5624b" target="_blank" class="news-link">SUPER MICRO COMPUTER SHARES DROP 20.3% PREMARKET AFTER US CHARGES THREE TIED TO CO WITH HELPING SMUGGLE AI CHIPS TO CHINA</a> [12] <font color='grey'>- 17时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0a3f-dc98-7997-bc05-c5b4ea99faa7" target="_blank" class="news-link">SPAIN TO REDUCE VAT ON FUEL TO 10% FROM CURRENT 21% TO MITIGATE IRAN WAR IMPACT, SER RADIO REPORTS</a> [16] <font color='grey'>- 17时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/034.htm" target="_blank" class="news-link">到手即更新，联想 AI 平板拯救者 Y700 五代 OTA 0 开启推送</a> [18] <font color='grey'>- 17时07分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32795344" target="_blank" class="news-link">上万条大厂春招要求的背后，非技术岗位也要求“会AI”？</a> [19] <font color='grey'>- 17时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0a32-c4e9-7997-bc05-9555dc8d3a65" target="_blank" class="news-link">ByteDance to Sell Moonton for Over $6 Billion to Sharpen AI Focus</a> [22] <font color='grey'>- 17时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320162945026800" target="_blank" class="news-link">阿里妈妈发布“AI万相”，多智能体协同重构经营新范式</a> [29] <font color='grey'>- 17时07分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7618601991490322483" target="_blank" class="news-link">借助AI，1周，0后端成本，我开源了一款Office预览SDK</a> [30] <font color='grey'>- 17时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/057.htm" target="_blank" class="news-link">曝华为畅享 90 Pro Max 搭载“麒麟 8 系芯最大电池”：额定 8320mAh，典型值 8500mAh</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3767973" target="_blank" class="news-link">沪指失守4000点，光伏、锂电走强，油气、化工回调、恒科指跌超2%，阿里跌6%、小米跌超8%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
