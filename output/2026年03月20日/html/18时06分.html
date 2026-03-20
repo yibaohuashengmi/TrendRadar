@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 212</p><p>生成时间: 2026-03-20 18:06:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">6.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3074022" target="_blank" class="news-link">超级麦吉3.0宣布成为全球首个企业级开源AI Agent平台</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0a95-9ca6-7dda-9ce7-f84e57723baa" target="_blank" class="news-link">SHANGHAI STOCK EXCHANGE ACCEPTS UNITREE&#x27;S IPO APPLICATION, PLANS TO RAISE 4.202 BILLION YUAN</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/102.htm" target="_blank" class="news-link">TrendForce 预测：ASIC 方案在整体 AI 服务器中的占比到 2030 年有望接近四成</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0a94-c943-7dda-9ce7-f38fb0c7d7c6" target="_blank" class="news-link">S&amp;PGRBULLETIN: TENCENT AI PUSH COULD REINFORCE MARKET POSITION</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3074006" target="_blank" class="news-link">利通电子：廖某走私英伟达AI服务器售卖给公司的传闻不实</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0a94-926e-7dda-9ce7-ecb48791165d" target="_blank" class="news-link">SHANGHAI STOCK EXCHANGE: ACCEPTS UNITREE&#x27;S IPO APPLICATION</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/095.htm" target="_blank" class="news-link">清华教授杨斌建议把 AI 核心单位 Token 中文命名为“模元”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d0a8e-c3ab-7dda-9ce7-c90ec62345fd" target="_blank" class="news-link">AIR CHINA&#x27;S LONG POSITION IN CATHAY PACIFIC AIRWAYS REDUCES TO 77.47% ON MARCH 17 FROM 79.75% - HKEX</a> [11] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=a0cf04dd-6239-4440-a1b8-c722b79f80bd" target="_blank" class="news-link">ITALY ENERGY MINISTER: IN TALKS WITH OTHER COUNTRIES, INCLUDING U.S., AZERBAIJAN AND ALGERIA TO OFFSET STOP IN GAS SUPPLY FROM QATAR&lt;br/&gt;&lt;br/&gt;ITALY ENERGY MINISTER: AGREE WITH EU THAT RUSSIAN GAS MUST NOT RETURN TO EUROPE</a> [13] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2319626" target="_blank" class="news-link">马斯克“扫货”光伏设备 AI加速迈入太空领域？</a> [13] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/085.htm" target="_blank" class="news-link">Cloudflare 首席执行官 Matthew Prince：2027 年互联网 AI 机器人流量将超过人类</a> [15] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320172557882800" target="_blank" class="news-link">利通电子：廖某走私英伟达AI服务器售卖给公司的传闻不实</a> [18] <font color='grey'>- 18时06分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7618896648212725800" target="_blank" class="news-link">🚀AI 写代码越来越快，但我开始不敢上线了</a> [28] <font color='grey'>- 18时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1199891" target="_blank" class="news-link">分享一个自己做的 ChatGPT 对话导出扩展，支持 PDF / Markdown / Word / JSON</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
