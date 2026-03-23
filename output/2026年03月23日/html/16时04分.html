@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 271</p><p>生成时间: 2026-03-23 16:04:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">4.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1200431" target="_blank" class="news-link">一个集成 RSS 订阅 + 自动化 AI 产出的桌面客户端</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=iPhone%20Air%E4%BD%BF%E7%94%A8%E6%8A%A5%E5%91%8A" target="_blank" class="news-link">iPhone Air使用报告</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1200411" target="_blank" class="news-link">最近在学 AI Coding，顺手做了个网站，欢迎体验~</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5189907" target="_blank" class="news-link">日联科技(688531.SH)：已发布业内首款工业射线影像AI垂直大模型</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d19a2-5d40-7dd1-a001-058b3526fed9" target="_blank" class="news-link">CHINA FOREIGN MINISTRY ON TRUMP’S ULTIMATUM TO IRAN OVER STRAIT OF HORMUZ: CHINA URGES IMMEDIATE HALT TO MILITARY ACTION</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d199d-7bf2-7dd1-a000-dc1713fdcf76" target="_blank" class="news-link">RECENT GEOPOLITICAL TENSIONS BRINGING BIG CHALLENGES TO COMPANY&#x27;S OPERATIONS, SINOPEC CHAIRMAN SAYS</a> [14] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/776.htm" target="_blank" class="news-link">华为 MatePad Mini 小平板悦读版「幻影紫」发布：8.8 英寸 OLED 云晰柔光屏、AI 眼动翻页，3299 元起</a> [15] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768142" target="_blank" class="news-link">还没到“投降”时刻！高盛警告：AI或是最后的抛售来源</a> [16] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/769.htm" target="_blank" class="news-link">英伟达 CEO 黄仁勋：如果工程师 AI Token 用的少，我会非常担心</a> [20] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d198d-4325-7dd1-a000-781962b9dc02" target="_blank" class="news-link">CHINA FOREIGN MINISTRY, ON ANY SAFE PASSAGE FOR CHINA-BOUND OIL SHIPMENTS: WE HAVE MAINTAINED COMMUNICATION WITH ALL PARTIES REGARDING THE CURRENT SITUATION</a> [26] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d198b-36d4-7dd1-a000-61ab1615ddd8" target="_blank" class="news-link">Bitcoin Hits Two-Week Low as War Tensions Fan Uncertainty</a> [29] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d198a-2722-7dd1-a000-5b741506a167" target="_blank" class="news-link">CHINA FOREIGN MINISTRY, ON STRAIT OF HORMUZ: CHINA STRONGLY URGES ALL PARTIES TO STOP MILITARY OPERATIONS, RETURN TO TALKS</a> [30] <font color='grey'>- 16时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">12</td>
+                <td class="percentage">4.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/791.htm" target="_blank" class="news-link">华为何刚：鸿蒙智行问界 M7 Pro+ 搭载舱内激光视觉，已支持城区 NCA，预计 4 月起全量推送</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768150" target="_blank" class="news-link">8500mAh华为史上最大电池！华为畅享90 Pro Max亮相</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/786.htm" target="_blank" class="news-link">华为何刚：鸿蒙智行预计年底销售门店增至 2459+、服务门店增至 1459+，全国城市覆盖率超 94%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2440642" target="_blank" class="news-link">华为春季发布会</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/782.htm" target="_blank" class="news-link">华为何刚：鸿蒙智行全系累计交付突破 130 万，连续 14 个月中国汽车品牌成交均价第一</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/781.htm" target="_blank" class="news-link">【视频】华为最大云晰柔光屏来了！HUAWEI MateView GT 体验如何？</a> [11] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/780.htm" target="_blank" class="news-link">华为 MatePad Pro 12.2 英寸新增幻影紫配色，4499 元起</a> [12] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/778.htm" target="_blank" class="news-link">华为 MateView GT 新款显示器发布，售价 1099 元起</a> [13] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/777.htm" target="_blank" class="news-link">何刚：华为以后所有新手机都将支持 Wi-Fi 7</a> [14] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/762.htm" target="_blank" class="news-link">华为终端 BG 首席执行官何刚官宣华为手机全面回归</a> [22] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/751.htm" target="_blank" class="news-link">华为 WATCH Ultimate 2 非凡探索手表“旷野绿”上市：三款表带、高尔夫功能升级，7999 元</a> [24] <font color='grey'>- 16时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/733.htm" target="_blank" class="news-link">华为畅享 90 系列手机发布：麒麟 8000 芯 + 鸿蒙 6 + 巨鲸大电池，1299 元起</a> [28] <font color='grey'>- 16时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3074987" target="_blank" class="news-link">阿里将造“养虾”PC？知情人士：未来将提供更多形态的养虾入口</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
