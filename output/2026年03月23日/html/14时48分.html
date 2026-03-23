@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 275</p><p>生成时间: 2026-03-23 14:48:48</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">5.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768134" target="_blank" class="news-link">硅谷顶级资金集体押注！大摩万字干货详解AI下一个前沿——“世界模型”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/722.htm" target="_blank" class="news-link">Meta 推出 AI 支持助手，为 Facebook 和 Instagram 账户问题提供全天候帮助</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768135" target="_blank" class="news-link">AMD在亚太斩获重磅订单：韩国AI初创拟购入1万颗最新芯片</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5189859" target="_blank" class="news-link">极智嘉(2590.HK)亮相全球首场AI时装大秀，AI+机器人定义零售履约新范式</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/721.htm" target="_blank" class="news-link">《勇者斗恶龙 10》游戏将引入谷歌 Gemini AI 助手，化身“话痨史莱姆”为玩家提供指导</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/715.htm" target="_blank" class="news-link">限地区 4199 → 2866 元：华为 Mate 70 Air 国补新低，双卡双扬多摄大电池</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d193c-07a5-7dd1-9ffe-ee122845d184" target="_blank" class="news-link">JAPAN PETROLEUM ASSOCIATION PRESIDENT: TRANSPORTING MIDDLE EASTERN CRUDE OIL VIA THE RED SEA RATHER THAN THE STRAIT OF HORMUZ IS ONE OPTION</a> [12] <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7619991717072371753/" target="_blank" class="news-link">美透露误击伊朗小学原因：AI决策失误</a> [13] <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d193a-3dfd-7dd1-9ffe-d11ce3b3001c" target="_blank" class="news-link">A-SHARE THREE MAJOR STOCK INDEXES PLUNGE OVER 3%: SHANGHAI COMPOSITE INDEX -3.20%, SHENZHEN COMPONENT INDEX -3.16%, CHINEXT -3.01%</a> [15] <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/699.htm" target="_blank" class="news-link">华硕天选 Air 2026 锐龙 AI Max 版评测：旗舰移动 U 对决，AMD 太超雄</a> [15] <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1933-aa36-7dd1-9ffe-cb2244c4d43d" target="_blank" class="news-link">JAPAN PETROLEUM ASSOCIATION PRESIDENT: WE HAD NEVER ANTICIPATED THE CLOSURE OF THE STRAIT OF HORMUZ, AS IT WOULD TRIGGER A GLOBAL ENERGY CRISIS.</a> [16] <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1931-2a7e-7dd1-9ffe-c3527ae6cc44" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX CLOSED DOWN 2.45%</a> [17] <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1930-fcf4-7dd1-9ffe-bc58c1f3e86a" target="_blank" class="news-link">&lt;b&gt;SHANGHAI&#x27;S MOST ACTIVE TIN CONTRACT FALLS MORE THAN 3%&lt;/b&gt;</a> [18] <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d192f-5d87-7dd1-9ffe-a6e36764cc23" target="_blank" class="news-link">China Energy-Chemical Futures Rise; Butadiene Rubber, LPG Hit Daily Limit Up</a> [21] <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1926-c5b3-7dd1-9ffe-8572a5ad2f4c" target="_blank" class="news-link">SHANGHAI COMPOSITE INDEX DOWN OVER 3%</a> [25] <font color='grey'>- 14时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">6</td>
+                <td class="percentage">2.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/726.htm" target="_blank" class="news-link">2026 华为春季全场景新品发布会由 Mate 80 系列手机直播</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3074920" target="_blank" class="news-link">3月23日，华为发布Mate 80 Pro Max 风驰版，起售价为8499元。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/723.htm" target="_blank" class="news-link">华为 Mate 80 Pro Max 风驰版发布：业界首创隐藏式无感出风设计，8499 元起</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/720.htm" target="_blank" class="news-link">华为鸿蒙 HarmonyOS 5 / HarmonyOS 6 终端设备数突破 5000 万</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3074916" target="_blank" class="news-link">华为鸿蒙终端设备数量突破5000万</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA%E5%8F%91%E5%B8%83%E4%BC%9A%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">华为发布会</a> [18] <font color='grey'>- 14时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">3</td>
+                <td class="percentage">1.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/931/704.htm" target="_blank" class="news-link">阿里回应拟推“养虾”PC：是云电脑产品，暂无发布时间表</a> [14] <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3074897" target="_blank" class="news-link">恒生科技指数跌4%，恒生指数跌近4%。老铺黄金跌约12%，赤峰黄金跌约27%，宁德时代跌约6%，京东集团跌约4%，阿里巴巴跌约5%。</a> [19] <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3074886" target="_blank" class="news-link">阿里云回应将推出更多形态“养虾”入口</a> [24] <font color='grey'>- 14时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1200396" target="_blank" class="news-link">写了个 zsh 插件，一键浏览和恢复 Claude Code 会话</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1200385" target="_blank" class="news-link">「教程揭秘向」扒完中转站掺假，再扒低价代充——顺便教你自己订阅 Claude/ChatGPT，一分钱不经手中间商</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83834" target="_blank" class="news-link">SE 将在《勇者斗恶龙X》中集成 Google Gemini</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时48分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
