@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 123</p><p>生成时间: 2026-03-25 07:42:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">9.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325071304352800" target="_blank" class="news-link">卡塔尔液化天然气田受损后，Airgas化工产品公司限制氦气订单。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/315.htm" target="_blank" class="news-link">打破基建瓶颈：微软、英伟达合作推出 AI 工具，大幅缩短核电站开发周期</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/314.htm" target="_blank" class="news-link">苹果更新 AirPods 4、AirPods Pro 2 和 3 耳机固件，统一升至 8B39</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/312.htm" target="_blank" class="news-link">苹果 iOS / iPadOS 26.4 正式版更新汇总：新增 8 个表情、增强 Apple Music、未实装 AI 版 Siri</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3768225" target="_blank" class="news-link">CPU王炸登场！阿里新一代旗舰处理器玄铁C950刷新全球纪录，为AI Agent时代量身定制</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3768269" target="_blank" class="news-link">小米电话会：未来三年AI领域投入600亿，内存涨价“尽力消化不排除传导”，汽车出海时间表不变</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2442005" target="_blank" class="news-link">AI时代最离谱的KPI</a> [12] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/307.htm" target="_blank" class="news-link">OpenAI 将停止 Sora AI 视频生成服务，精简产品线为 IPO 铺路</a> [12] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3076237" target="_blank" class="news-link">Anduril、Palantir向美国总统特朗普提倡的“金穹”反导系统提供软件支持。 这两家公司是“金穹”软件团体的一部分。 谷歌公司参与投资的Aalyria Tech和Scale AI也对此有贡献。（华尔街日报）</a> [18]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325064051929800" target="_blank" class="news-link">OpenAI首席财务官：本轮融资总额达1200亿美元</a> [20] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1937236067859306429" target="_blank" class="news-link">如何看待 Ai 音乐创作这个趋势？</a> [20] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325063733355800" target="_blank" class="news-link">OpenAI首席财务官弗里尔：我们必须打造一家为上市做好准备的公司，此轮融资是为了降低相关风险。</a> [22] <font color='grey'>- 07时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
