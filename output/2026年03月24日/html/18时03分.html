@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 215</p><p>生成时间: 2026-03-24 18:03:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">6.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768265" target="_blank" class="news-link">中国电信2025年营收5295.6亿元，净利润331.8亿元，聚焦建设领先AI服务商｜财报见闻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768267" target="_blank" class="news-link">小米集团2025全年营收、经调整净利均创历史新高，汽车及AI创新业务同比大增223.8%｜财报见闻</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3766923" target="_blank" class="news-link">燃气轮机第二期：AI驱动全球需求上行，国内配套份额不断提升</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时03分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1200789" target="_blank" class="news-link">我用 ai 做了一个直播播放器</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768259" target="_blank" class="news-link">战争和AI，谁主浮沉</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/213.htm" target="_blank" class="news-link">Perplexity CEO：AI 虽会导致现有岗位流失但也将引发个人创业潮</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3075834" target="_blank" class="news-link">小米集团：2025年智能电动汽车及AI等创新业务分部收入同比增长223.8%</a> [11] <font color='grey'>- 18时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1f28-b0cb-744e-8af6-b3945b6a0222" target="_blank" class="news-link">THAI FOREIGN TOURIST ARRIVALS DOWN 2.97% SO FAR THIS YEAR - TOURISM MINISTRY</a> [12] <font color='grey'>- 18时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E5%8E%BB%E4%BA%BA%E5%8C%96%E2%80%9D%E7%9A%84AI%E5%BD%B1%E8%A7%86+%E4%BD%A0%E8%BF%98%E4%BC%9A%E7%9C%8B%E5%90%97" target="_blank" class="news-link">“去人化”的AI影视 你还会看吗</a> [18] <font color='grey'>- 18时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1f1f-3bb6-744e-8af6-851a7b15b1c8" target="_blank" class="news-link">JAPAN PM TAKAICHI TO MEET WITH IEA CHIEF BIROL ON WEDNESDAY, GOVT SAYS</a> [18] <font color='grey'>- 18时03分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32819970" target="_blank" class="news-link">马上评｜“去人化”的AI影视，你还会看吗？</a> [20] <font color='grey'>- 18时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1f1c-9ad6-744e-8af6-77e317b68e03" target="_blank" class="news-link">RUSSIA&#x27;S FERTILISER EXPORT RESTRICTIONS CONCERN ONLY AMMONIUM NITRATE, AGRICULTURE MINISTRY SAID</a> [20] <font color='grey'>- 18时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1f1b-30d3-744e-8af6-6a0b2377700b" target="_blank" class="news-link">Trump’s Delay Fails to Calm Jitters Over War as Funds Trim Risk</a> [21] <font color='grey'>- 18时03分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9C%B1%E4%B8%80%E6%97%A6AI%E7%9F%AD%E7%89%87%E7%98%80%E8%A1%80%E9%BB%91%E5%B8%AE" target="_blank" class="news-link">朱一旦AI短片瘀血黑帮</a> [28] <font color='grey'>- 18时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1f0e-7c8e-744e-8af6-27270c69e207" target="_blank" class="news-link">IRAQ&#x27;S PMF LEADER FALIH AL-FAYADH WAS NOT AT THE HOUSE DURING THE AIRSTRIKE IN MOSUL - SECURITY SOURCES</a> [30] <font color='grey'>- 18时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1200792" target="_blank" class="news-link">一行代码没写，用 Claude Code 把上一篇帖子的评论区做成了可视化网站</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768255" target="_blank" class="news-link">Claude刚刚杀死了OpenClaw！</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%90%84%E5%9C%B0%E6%96%87%E6%97%85%E7%BB%99%E5%8D%83%E9%97%AE%E4%B8%8A%E4%BA%86%E6%B3%A2%E5%BC%BA%E5%BA%A6%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">各地文旅给千问上了波强度</a> [18] <font color='grey'>- 18时03分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7619915308670599219" target="_blank" class="news-link">千问点奶茶是如何实现的？</a> [29] <font color='grey'>- 18时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/185.htm" target="_blank" class="news-link">华为余承东：鸿蒙智行问界 M6 SUV 24 小时订单突破 6 万台</a> [13] <font color='grey'>- 18时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
