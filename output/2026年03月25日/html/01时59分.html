@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 169</p><p>生成时间: 2026-03-25 01:59:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">8.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d20e4-e12e-744e-8afe-ee15b252e7be" target="_blank" class="news-link">&lt;b&gt;ROYAL NAVY TO LEAD COALITION EFFORTS TO REOPEN STRAIT OF HORMUZ - THE TIMES&lt;/b&gt;</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325012845101800" target="_blank" class="news-link">Arm将首次出售自有芯片 以争夺人工智能市场份额</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d20df-f3c0-744e-8afe-ceb165d05fe8" target="_blank" class="news-link">SNB CHAIRMAN: WE HAVE RAISED OUR READINESS TO INTERVENE TO COUNTER THE QUICK APPRECIATION OF THE FRANC</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d20de-3922-744e-8afe-bcc6fd45ef1e" target="_blank" class="news-link">SNB CHAIRMAN: SWISS FRANC IS A SAFE HAVEN IN UNCERTAIN TIMES</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47505144" target="_blank" class="news-link">Show HN: Email.md – Markdown to responsive, email-safe HTML</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d20dc-76ba-744e-8afe-b79bb87ccf45" target="_blank" class="news-link">META: ARM AGI CPU TO BE AVAILABLE TO BROADER AI ECOSYSTEM THROUGH ARM, WILL RELEASE BOARD &amp; RACK DESIGNS UNDER OPEN COMPUTE PROJECT LATER THIS YEAR</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d20dc-36f4-744e-8afe-a700ac6c64b0" target="_blank" class="news-link">SWISS NATIONAL BANK CHAIRMAN: CONFLICT IN THE MIDDLE EAST CAN INCREASE THE APPRECIATION PRESSURE ON THE FRANC</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d20d9-5ad9-744e-8afe-934703b7c9f4" target="_blank" class="news-link">ADNOC L&amp;S SAYS IT REMAINS FINANCIALLY STRONG AND FULLY OPERATIONAL ACROSS ALL DIVISIONS</a> [12] <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d20d5-5069-744e-8afe-8045914509f8" target="_blank" class="news-link">US-LISTED SHARES OF ARM HOLDINGS ADD 1.4% AFTER CO UNVEILS NEW AI CHIP</a> [14] <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d20d3-d0ad-744e-8afe-75b2fae64452" target="_blank" class="news-link">A SENIOR U.S. OFFICIAL TELLS ME: THE 82ND AIRBORNE DIVISION HEADQUARTERS HAS RECEIVED AN ORDER FROM THE PENTAGON TO DEPLOY TO THE MIDDLE EAST ALONG WITH SEVERAL INFANTRY BRIGADES OF THOUSANDS OF SOLDIERS - AXIOS REPORTER ON X</a> [16] <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3076108" target="_blank" class="news-link">谷歌公司Quantum AI拓展量子计算研究，将中性原子量子计算（Neutral Atom Quantum Computing）纳入其中。</a> [17] <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d20cf-827f-744e-8afe-59231f643d4f" target="_blank" class="news-link">Pentagon Plans Deployment of 3,000 82nd Airborne Soldiers to Middle East</a> [19] <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d20ce-e158-744e-8afe-5271b25726a2" target="_blank" class="news-link">&lt;b&gt;US TO ORDER 3,000 82ND AIRBORNE SOLDIERS TO MIDDLE EAST : WSJ&lt;/b&gt;</a> [20] <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/865519197839753216" target="_blank" class="news-link">携程 AI Agent开发 二面</a> [20] <font color='grey'>- 01时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOGL" target="_blank" class="news-link">谷歌A</a> [16] <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOG" target="_blank" class="news-link">谷歌C</a> [22] <font color='grey'>- 01时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3768255" target="_blank" class="news-link">Claude刚刚杀死了OpenClaw！</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 01时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768294" target="_blank" class="news-link">摩根大通阿里投资者会：公司长期价值叙事完好，估值存在显著期权价值低估</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
