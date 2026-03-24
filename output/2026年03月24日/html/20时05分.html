@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 123</p><p>生成时间: 2026-03-24 20:05:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">11.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1fb6-7b67-744e-8af8-bfeb213820a1" target="_blank" class="news-link">IAEA: INITIATES DISCUSSIONS WITH UKRAINE AND RUSSIA ON ESTABLISHING LOCAL CEASEFIRE TO ENABLE REPAIRS OF DAMAGED POWER LINE</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/249.htm" target="_blank" class="news-link">小米卢伟冰：Xiaomi miclaw 未来会拓展到电脑、手表端，反对将“AI 手机”概念化</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1fb1-432d-744e-8af8-b0d8d366b50f" target="_blank" class="news-link">IRAN-TURKEY GAS FLOW SAID TO STOP AFTER SOUTH PARS STRIKE</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时05分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1200807" target="_blank" class="news-link">把 GPT Plus 订阅 OAuth 塞进 Typora：开源插件支持 GPT Plus 订阅账号 OAuth 登录，实现真·原生 AI 编辑</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768269" target="_blank" class="news-link">小米媒体电话会：2026年研发投入预超400亿元，反对将AI手机概念化，若内存涨价超预期，不排除涨价可能</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768270" target="_blank" class="news-link">沪电股份2025年营收增长42%，净利增47.74%，AI交换机业务翻倍领跑｜财报见闻</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1fa2-010f-744e-8af8-8b8f654141d3" target="_blank" class="news-link">&lt;b&gt;CHINA TO BOOST LAW ENFORCEMENT ON ANTI-UNFAIR COMPETITION WORK&lt;/b&gt;</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1f9f-3357-744e-8af8-874b9f44f24b" target="_blank" class="news-link">AFGHAN TALIBAN FOREIGN MINISTRY: DECIDED TO RELEASE AMERICAN DETAINEE DENNIS COYL</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1f9e-5222-744e-8af8-7cd36bdb98b3" target="_blank" class="news-link">&lt;b&gt;CHINA’S MARKET REGULATOR HOLDS MEETING ON PRICE SUPERVISION AND ANTI-UNFAIR COMPETITION ENFORCEMENT&lt;/b&gt;</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1f92-3aa8-744e-8af8-6869baf50dda" target="_blank" class="news-link">EDF FACES EU INVESTIGATION NEXT MONTH INTO FRENCH STATE AID FOR NUCLEAR REACTORS, SOURCES SAY&lt;br/&gt;&lt;br/&gt;EU REGULATORS ALSO WORRIED NEW PLAYERS MAY BE DETERRED FROM ENTERING MARKET, SOURCE SAYS&lt;br/&gt;&lt;br/&gt;EU COMPETITION REGULATORS CONCERNED SCHEME WILL FURTHER BOOST EDF&#x27;S MARKET DOMINANCE, SOURCES SAY</a> [11] <font color='grey'>- 20时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1f8a-1684-744e-8af8-57971e553a2d" target="_blank" class="news-link">INDIA GOVT OFFICIAL: NO PERMISSION NEEDED FROM ANYONE FOR TRANSIT OF VESSELS FROM STRAIT OF HORMUZ</a> [14] <font color='grey'>- 20时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1f81-bfcb-744e-8af8-235ebc569fab" target="_blank" class="news-link">INDIA GOVT OFFICIAL: TALKS OF LEVY ON TRANSIT OF VESSELS FROM STRAIT OF HORMUZ ARE &quot;BASELESS&quot;</a> [20] <font color='grey'>- 20时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1f81-43f0-744e-8af8-1de804837458" target="_blank" class="news-link">CBI Retail Sales Expectations Index (Mar)</a> [21] <font color='grey'>- 20时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1f80-61cb-744e-8af8-0ef78391e3f7" target="_blank" class="news-link">CBI Retail Sales Balance (Mar)</a> [23] <font color='grey'>- 20时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
