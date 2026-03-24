@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 262</p><p>生成时间: 2026-03-24 21:57:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">6.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47501729" target="_blank" class="news-link">LiteLLM Python package compromised by supply-chain attack</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2003-7259-744e-8afa-519df4890c46" target="_blank" class="news-link">MODI: ENSURING STRAIT OF HORMUZ REMAINS OPEN IS ESSENTIAL</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768269" target="_blank" class="news-link">小米电话会：未来三年AI领域投入600亿，反对将AI手机概念化，若内存涨价超预期，不排除涨价可能</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/263.htm" target="_blank" class="news-link">一加磁吸小涡轮 2 AIRVOOC 50W 磁吸无线充电器发布：安卓苹果都能用、自带桌面支架，349 元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时57分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2322996" target="_blank" class="news-link">官方定调！AI时代“词元经济”崛起</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/260.htm" target="_blank" class="news-link">苹果联合创始人沃兹尼亚克：AI 体验常令人失望，自己很少使用</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1ffe-07d5-744e-8afa-3b539a553032" target="_blank" class="news-link">NASA AIMS TO LAUNCH MARS MISSION BEFORE END OF 2028&lt;br/&gt;&lt;br/&gt;NASA TO DEVELOP NUCLEAR POWERED MARS-BOUND SPACECRAFT</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1ffa-6d8c-744e-8afa-32842d44fdb7" target="_blank" class="news-link">TURKEY&#x27;S MAIN BIST 100 INDEX DOWN 1.9%, TURKEY&#x27;S MAIN BANKING INDEX DOWN 3%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768278" target="_blank" class="news-link">SemiAnalysis GTC深度解读：三款新系统背后，英伟达正在重新定义AI基础设施的边界</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/255.htm" target="_blank" class="news-link">甲骨文 CEO 西西里亚：AI 不会取代人类，而是增强能力</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时57分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47501511" target="_blank" class="news-link">Secure Domain Name System (DNS) Deployment 2026 Guide [pdf]</a> [12] <font color='grey'>- 21时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1ff6-52e7-744e-8af9-f271e75adb33" target="_blank" class="news-link">SAUDI PRINCE IS SAID TO PUSH TRUMP TO CONTINUE IRAN WAR: NYT</a> [14] <font color='grey'>- 21时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1ff0-8f11-744e-8af9-e05215563761" target="_blank" class="news-link">&lt;b&gt;CHINA STATE PLANNER HEAD MEETS SAMSUNG CHAIRMAN - STATEMENT&lt;/b&gt;</a> [16] <font color='grey'>- 21时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1fef-eed8-744e-8af9-d54d495f5afb" target="_blank" class="news-link">&lt;b&gt;AMAZON EXPECTS INTERNAL AI TO REDUCE CORPORATE WORKFORCE OVER TIME - THE INFORMATION&lt;/b&gt;</a> [18] <font color='grey'>- 21时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1fe9-a981-744e-8af9-af11d1d10f49" target="_blank" class="news-link">Redbook Retail Sales (YoY) (Mar.20)</a> [23] <font color='grey'>- 21时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1fe1-9c35-744e-8af9-97b216e7ee8c" target="_blank" class="news-link">MODI, TRUMP SPOKE ABOUT IMPORTANCE OF KEEPING THE STRAIT OF HORMUZ OPEN - US ENVOY TO INDIA</a> [26] <font color='grey'>- 21时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1200820" target="_blank" class="news-link">480+免费模型可以让你在 cursor\winsurf\antigravity\claude\vs code 中随意使用！</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7620785931657678355/" target="_blank" class="news-link">华为畅享90被低估了吗</a> [29] <font color='grey'>- 21时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
