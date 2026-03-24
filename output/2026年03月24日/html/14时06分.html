@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 183</p><p>生成时间: 2026-03-24 14:06:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">6.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/062.htm" target="_blank" class="news-link">阿里国际在海外落地首个企业级 AI 智能体 Accio Work，号称 30 分钟即可自主创建网店</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时06分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1200703" target="_blank" class="news-link">VidPilot 上线 AI 对话功能了，限时注册送 2000 积分</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768224" target="_blank" class="news-link">无人机--火爆的“物理AI”，稀土依旧关键</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时06分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1200695" target="_blank" class="news-link">AI 时代，程序员的哪些能力 AI 目前还替代不了？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1e57-429d-744e-8af3-b8f3ca20479b" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX CLOSED DOWN 0.34%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时06分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1200681" target="_blank" class="news-link">Tikfilmer.com — AI movie generator | from Idea to Scenes 🎬</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1e51-da3f-744e-8af3-98c20ff6890b" target="_blank" class="news-link">Japan Prepares Stopgap Budget as Takaichi Faces Upper House Gridlock</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时06分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/tobira-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Tobira.ai</a> [20] <font color='grey'>- 14时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1e39-10c3-744e-8af3-373eacf49371" target="_blank" class="news-link">ACEA: SAIC MOTOR FEB EU NEW CAR REGISTRATIONS ROSE 14%&lt;br/&gt;&lt;br/&gt;ACEA: STELLANTIS FEB EU NEW CAR REGISTRATIONS ROSE 9.8%</a> [23] <font color='grey'>- 14时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1e38-593a-744e-8af3-10f06aff1d3d" target="_blank" class="news-link">ACEA: HYUNDAI FEB EU NEW CAR REGISTRATIONS FELL 3.4%&lt;br/&gt;&lt;br/&gt;ACEA: TOYOTA FEB EU NEW CAR REGISTRATIONS FELL 4.8%</a> [27] <font color='grey'>- 14时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1e37-9ede-744e-8af3-0d4a247f85e9" target="_blank" class="news-link">ACEA: EU NEW CAR REGISTRATIONS FELL 1.2% IN JAN-FEB PERIOD TO 1,664,680&lt;br/&gt;&lt;br/&gt;ACEA: TESLA FEB EU NEW CAR REGISTRATIONS ROSE 29%&lt;br/&gt;&lt;br/&gt;ACEA: BYD FEB EU NEW CAR REGISTRATIONS ROSE 185%&lt;br/&gt;&lt;br/&gt;TESLA&#x27;S MARKET SHARE IN EU, BRITAIN, EFTA IN FEBRUARY RISES TO 1.8% VS BYD&#x27;S 1.8%; TESLA BEV MARKET SHARE AT 9.3%</a> [28] <font color='grey'>- 14时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d1e37-0903-744e-8af3-06700f0dde7c" target="_blank" class="news-link">INDIA&#x27;S HEALTH MINISTRY: REGULATORY SURVEILLANCE OVER WEIGHT LOSS DRUG (GLP-1) SUPPLY CHAIN</a> [29] <font color='grey'>- 14时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">3</td>
+                <td class="percentage">1.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260324140101804800" target="_blank" class="news-link">阿里巴巴(09988.HK)：根据协议，西门子计划在阿里云计算平台上验证并部署其云端CAE解决方案，以及其他相关方案。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3075683" target="_blank" class="news-link">阿里巴巴成立两家数据科技新公司</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260324140036145800" target="_blank" class="news-link">阿里巴巴(09988.HK)：西门子与阿里云宣布扩大合作伙伴关系。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/041.htm" target="_blank" class="news-link">华为 Pura X 阔折叠手机被曝将上新，新增型格橙和型格紫配色</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
