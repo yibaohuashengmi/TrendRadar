@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 86</p><p>生成时间: 2026-03-25 05:06:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">11.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768298" target="_blank" class="news-link">Arm亲自下场挑战英特尔与AMD，首款CPU直指AI数据中心，料年收入150亿</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时06分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47508745" target="_blank" class="news-link">Is anybody else bored of talking about AI?</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3076186" target="_blank" class="news-link">OpenAI旗下文生视频Sora确认，该部门将不会再得到公司的支持。（彭博）</a> [12] <font color='grey'>- 05时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3076185" target="_blank" class="news-link">报道：OpenAI完成了新款AI模型的初步开发，Altman将专注供应链和打造数据中心</a> [13] <font color='grey'>- 05时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d219b-46c1-744e-8b01-e07c42172405" target="_blank" class="news-link">US SAID TO HAVE SENT IRAN A PLAN TO END THE MIDEAST WAR - NYT</a> [15] <font color='grey'>- 05时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2197-6fa6-744e-8b01-df56e93b8a75" target="_blank" class="news-link">FRANCE&#x27;S MACRON: REITERATED TO IRAN PRESIDENT NECESSITY OF PRESERVING ENERGY &amp; CIVILIAN INFRA, RESTORING FREEDOM OF NAVIGATION IN STRAIT OF HORMUZ</a> [16] <font color='grey'>- 05时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2197-4daa-744e-8b01-d374de63a62c" target="_blank" class="news-link">FRANCE&#x27;S MACRON: CALLED ON IRAN TO ENGAGE IN GOOD FAITH IN NEGOTIATIONS</a> [17] <font color='grey'>- 05时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2190-2bea-744e-8b01-ac7d1e8a86b1" target="_blank" class="news-link">DISNEY &quot;WILL CONTINUE TO ENGAGE WITH AI PLATFORMS ... WHILE RESPONSIBLY EMBRACING NEW TECHNOLOGIES THAT RESPECT IP AND THE RIGHTS OF CREATORS&quot; - SPOKESPERSON</a> [22] <font color='grey'>- 05时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2190-0ce3-744e-8b01-a38666278d1f" target="_blank" class="news-link">DISNEY SAYS &quot;WE RESPECT OPENAI’S DECISION TO EXIT THE VIDEO GENERATION BUSINESS AND TO SHIFT ITS PRIORITIES ELSEWHERE&quot; - SPOKESPERSON</a> [23] <font color='grey'>- 05时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d218a-cc2e-744e-8b01-80085de638d8" target="_blank" class="news-link">&lt;b&gt;OPENAI TO WIND DOWN DISNEY PARTNERSHIP LESS THAN 3 MONTHS AFTER ANNOUNCING IT&lt;/b&gt;</a> [27] <font color='grey'>- 05时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">1.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3076182" target="_blank" class="news-link">纳斯达克金龙中国指数收跌0.43%，报6771.27点。 热门中概股里，文远知行初步收涨9.5%，晶科能源涨6.5%，理想、万国数据至多涨2.8%，拼多多涨1.8%，比亚迪涨1.7%，美团、腾讯、新东方、小鹏涨幅不足1%，京东、阿里、百胜中国至多跌0.4%，网易、蔚来、百度至多跌1.7%，小米跌2%，汽车之家跌3.7%。 ETF中，中国科技指数ETF（CQQQ）收跌0.63%，中概互联网指数ETF（KWEB）收跌0.56%。 德银嘉实沪深300指数ETF（ASHR）收跌0.40%，XtrackersHarvest中证50（ASHS）收涨0.38%。</a> [16]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
