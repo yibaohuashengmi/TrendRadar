@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 197</p><p>生成时间: 2026-03-25 23:05:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">5.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3076781" target="_blank" class="news-link">DocuSign推出AI合同评估助理。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时05分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1201134" target="_blank" class="news-link">想转型 AI Agent 要学到什么程度才行？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/695.htm" target="_blank" class="news-link">OpenAI 突然宣布停止视频生成服务 Sora，消息称迪士尼“深感震惊”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时05分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5195598" target="_blank" class="news-link">美股异动｜斯伦贝谢涨2.5%，与英伟达合作将AI技术应用于能源行业</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3076768" target="_blank" class="news-link">瑞士央行：瑞士境内的人工智能（AI）应用尚未“绞杀”那么多的就业岗位。</a> [13] <font color='grey'>- 23时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2564-1f19-7ffc-b826-6239b42b708e" target="_blank" class="news-link">EGYPT&#x27;S FOREIGN MINISTER SAYS CAIRO SUPPORTS TRUMP&#x27;S INITIATIVE TO NEGOTIATE WITH IRAN AND IS PUSHING TO HOLD THESE TALKS AS SOON AS POSSIBLE</a> [17] <font color='grey'>- 23时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2559-9195-7ffc-b826-2df4bed133c5" target="_blank" class="news-link">IRAN WANTS INT&#x27;L RECOGNITION OF AUTHORITY OVER HORMUZ STRAIT</a> [24] <font color='grey'>- 23时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2558-5e81-7ffc-b826-214acfd29258" target="_blank" class="news-link">MAERSK TRIES TO BRING CARGO INTO GULF VIA OTHER WAYS: CHAIRMAN</a> [25] <font color='grey'>- 23时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2558-3798-7ffc-b826-1998c21ff331" target="_blank" class="news-link">&lt;b&gt;FITCH: EXPECTS ELEVATED POLICY UNCERTAINTY TO CONTINUE SHAPING US GOODS TRADE THROUGH 2026&lt;/b&gt;</a> [26] <font color='grey'>- 23时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2557-6838-7ffc-b826-0a86044740ff" target="_blank" class="news-link">FITCH RATINGS: TARIFFS AND AI INVESTMENT DRIVE DIVERGENCE IN U.S. STATES&#x27; INTERNATIONAL GOODS TRADE</a> [28] <font color='grey'>- 23时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768391" target="_blank" class="news-link">谷歌发布KV缓存压缩技术，存储需求预期遭冲击，美股存储板块集体下挫</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/696.htm" target="_blank" class="news-link">华为天气 15.0.14.300 版本官宣上线，新增降水、台风、温度、风力自研天气地图</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
