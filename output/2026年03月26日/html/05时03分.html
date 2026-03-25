@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 93</p><p>生成时间: 2026-03-26 05:03:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">7</td>
+                <td class="percentage">7.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d26ac-103b-7bb5-a84e-d794b7412978" target="_blank" class="news-link">FED&#x27;S MIRAN: FED POLICY IS INCORRECTLY RESTRAINING THE ECONOMY CURRENTLY</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d26ab-ef76-7bb5-a84e-ceb570f0ed5b" target="_blank" class="news-link">FED&#x27;S MIRAN: APPROPRIATE TO REACH NEUTRAL RATE THIS YEAR; RAISED FED RATE PROJECTION DUE TO INFLATION DATA</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d26ab-9137-7bb5-a84e-c170f4df3ef1" target="_blank" class="news-link">&lt;b&gt;FED&#x27;S MIRAN: EXPECTS AI &amp; DEREGULATION TO BE DISINFLATIONARY; RAISED 2026 HEADLINE INFLATION FORECAST TO 2.7% DUE TO OIL SHOCK&lt;/b&gt;</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3076894" target="_blank" class="news-link">周三（3月25日），存储芯片与硬件供应链指数跌2.08%，报113.03点，跳空低开之后、在美股盘初跌至109.00点刷新日低，大部分交易时间“高位震荡”。 北美科技软件股指数ETF收跌0.52%，报80.40美元。 信息科技指数涨0.35%，人工智能（AI）赢家指数涨0.72%，AI软件先驱指数跌0.63%。</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47521876" target="_blank" class="news-link">Apple randomly closes bug reports unless you &quot;verify&quot; the bug remains unfixed</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d26ab-5d2b-7bb5-a84e-ba0c2a2f4a56" target="_blank" class="news-link">&lt;B&gt;FED&#x27;S MIRAN: I RAISED MY PROJECTION FOR THE FED RATE DUE TO INFLATION DATA&lt;br/&gt;&lt;br/&gt;FED&#x27;S MIRAN: THE FED IS ABOUT 1 PERCENTAGE POINT OVER THE NEUTRAL RATE. THE FED SHOULD CUT TOWARD THE NEUTRAL RATE THIS YEAR&lt;/B&gt;</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3076892" target="_blank" class="news-link">美联储理事米兰：我预计，AI和去监管将让通胀失速。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">1.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47521157" target="_blank" class="news-link">90% of Claude-linked output going to GitHub repos w &lt;2 stars</a> [16] <font color='grey'>- 05时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">1.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260326035612512800" target="_blank" class="news-link">美国社交媒体成瘾案陪审团裁定，谷歌需支付90万美元的惩罚性赔偿金。</a> [29] <font color='grey'>- 05时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">1.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3076882" target="_blank" class="news-link">纳斯达克金龙中国指数收涨1.86%，报6897.01点。 热门中概股里，宝尊电商初步收涨15.5%，美团涨13.8%，京东涨8.3%，阿特斯太阳能涨7.8%，金山云涨6.5%，拼多多涨4.5%，阿里涨3.6%，百度涨2.8%，新东方、小米涨超2%。 ETF中，中国科技指数ETF（CQQQ）收涨3.29%，中概互联网指数ETF（KWEB）收涨3.04%。 XtrackersHarvest中证50（ASHS）收涨2.61%，德银嘉实沪深300指数ETF（ASHR）收涨2.09%。</a> [17]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
