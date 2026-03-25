@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 325</p><p>生成时间: 2026-03-25 12:58:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">32</td>
+                <td class="percentage">9.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47513008" target="_blank" class="news-link">US Army raises enlistment age to 42 and removes marijuana waiver requirement</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/78dc630ed0114d839a90f659d18a8da6" target="_blank" class="news-link">OpenAI关停Sora，这就不玩了？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2341-c3cb-7ff4-a498-c9237e781bb6" target="_blank" class="news-link">Mainland Investors Show Volatile Fund Flows in Hong Kong ETFs</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768328" target="_blank" class="news-link">从根本上改变工作方式、价值创造模式、决策机制--AI正加速颠覆一切</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1200968" target="_blank" class="news-link">分享一个打破信息差听歌的方式，拒绝平台算法推荐。用 AI 寻找世界上另一个你</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/25/c3a6f60a430742a78d9cb52925b38be6.html" target="_blank" class="news-link">港媒：中国致力于让AI提升社会福祉</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2020036375211157322" target="_blank" class="news-link">OpenAI 将停止 Sora 视频生成服务，以精简产品线，这透露出哪些行业信号？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3767982" target="_blank" class="news-link">光来了！CPO元年，如何读懂AI行业关键变革？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/444.htm" target="_blank" class="news-link">前微软元老推出 AI“指纹水印”技术：专防游戏行业“内鬼”泄密，已有部分厂商悄悄部署</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1200954" target="_blank" class="news-link">我把自己一直在用的 AI pair programming 工具开源了： The Pair</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2321-0747-7ff4-a498-94128136d8ed" target="_blank" class="news-link">Tencent Launches Desktop Version of Yuanbao Pai</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d231d-a53e-7ff4-a498-89deed97568d" target="_blank" class="news-link">MOONSHOT AI FOUNDER: FROM THIS YEAR, THE DIRECTION OF AI RESEARCH WILL UNDERGO HUGE CHANGES AND BE DIRECTED BY AI</a> [11] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768321" target="_blank" class="news-link">看不清方向、猜不透反转！当AI颠覆撞上地缘动荡，如何在毫无确定性的市场中交易？</a> [11] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d231c-0add-7ff4-a498-82ce67c61acf" target="_blank" class="news-link">&lt;b&gt;MOONSHOT AI FOUNDER: KIMI BEING USED IN MODEL EVALUATIONS BY CHIP MANUFACTURERS WORLDWIDE&lt;/b&gt;</a> [12] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1200932" target="_blank" class="news-link">[开源首发] APP 控制硬件的时代结束了。我给 AI 智能体（如 Openclaw）写了一个“住宅空间大本营” OS</a> [12] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5194874" target="_blank" class="news-link">瑞声科技(2018.HK)散热营收大增410.9%，受AI驱动5年或达百亿规模</a> [13] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=OpenAI%E4%B8%BA%E4%BD%95%E5%85%B3%E5%81%9CSora" target="_blank" class="news-link">OpenAI为何关停Sora</a> [13] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d231b-4c34-7ff4-a498-731645aa648b" target="_blank" class="news-link">MOONSHOT FOUNDER (KIMI AI CREATOR): IN OUR LATEST KIMI MODEL WE INTRODUCED AGENT SWARM, ENABLING MANY AGENTS TO WORK TOGETHER&lt;br/&gt;&lt;br/&gt;MOONSHOT FOUNDER (KIMI AI CREATOR): WE FOCUS ON ENHANCING TOKEN EFFICIENCY</a> [14]</div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Token%20AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%96%B0KPI" target="_blank" class="news-link">Token AI时代的新KPI</a> [14] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d231a-a3b8-7ff4-a498-6b114176475c" target="_blank" class="news-link">MOONSHOT FOUNDER (KIMI AI CREATOR): SCALING UP HAS BEEN A CRUCIAL FOUNDATION FOR THE DEVELOPMENT OF THE AI INDUSTRY IN TECENT HEARS</a> [15] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d231a-78fb-7ff4-a498-66851b547390" target="_blank" class="news-link">MOONSHOT AI FOUNDER: WE HAVE ALWAYS BEEN COMMITTED TO R&amp;D AND DEVELOPING STRONGER NETWORK ARCHITECTURE</a> [16] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d230e-aacb-7ff4-a498-5f2c84942e7d" target="_blank" class="news-link">Mixed Moves in China’s Most Active Futures; Shanghai Silver Up 7%</a> [17] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d230d-87db-7ff4-a498-51ed03ab92ad" target="_blank" class="news-link">JP MORGAN RAISES AMAZON TARGET PRICE TO $280 FROM $265</a> [18] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1200919" target="_blank" class="news-link">[送码] Chaterm： AI 原生终端， SSH / 多云与 Agent 一体，一周年福利：送 3 个月会员</a> [18] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d22f7-5d2c-7ff4-a498-34212220531e" target="_blank" class="news-link">&lt;b&gt;BYTEDANCE’S DOUBAO AI MODEL EXCEEDS 100 TRILLION TOKENS IN DAILY CALLS: SOURCES - CAILIAN PRESS&lt;/b&gt;</a> [22] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325121505832800" target="_blank" class="news-link">Kimi杨植麟：开源模型正在成为新的标准，AI将在未来更大程度主导研究</a> [22] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/389.htm" target="_blank" class="news-link">扎克伯格的 AI 眼镜野心受阻：Meta 新显示屏眼镜无缘欧盟</a> [24] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/390.htm" target="_blank" class="news-link">拒绝重复造轮子：Mozilla 首发 cq 共享知识库，让 AI 编程学会“抄作业”</a> [25] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47507666" target="_blank" class="news-link">Show HN: AI Roundtable – Let 200 models debate your question</a> [26] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d22df-7f53-7ff4-a498-0f0f5d0f8f89" target="_blank" class="news-link">SK Hynix Files Confidentially for U.S. Listing Amid AI-Driven Demand</a> [27] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/387.htm" target="_blank" class="news-link">Form Energy 再获 AI 数据中心订单，将向 Crusoe 供应 12GWh 铁空气电池储能系统</a> [27] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7619589568713687046" target="_blank" class="news-link">Agent教程21：知识图谱🕸，让AI🤖学会联想</a> [29] <font color='grey'>- 12时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">0.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1200923" target="_blank" class="news-link">做了一个基于 GitHub 和 claude agent sdk 的开源软件工厂</a> [15] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Claude Computer Use</a> [17] <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7620005798770556943" target="_blank" class="news-link">🚀 Claude Code 入门完全指南（一）：安装与首次体验</a> [24] <font color='grey'>- 12时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/442.htm" target="_blank" class="news-link">阿里巴巴蔡崇信：CEO 岗位永远安全，智能体不会取代 CEO</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时58分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/388.htm" target="_blank" class="news-link">阿里 JVS Claw 全面开放，无需邀请码云端“养龙虾”</a> [26] <font color='grey'>- 12时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
