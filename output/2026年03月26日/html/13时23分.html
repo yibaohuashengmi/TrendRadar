@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 250</p><p>生成时间: 2026-03-26 13:23:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">6.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5195891" target="_blank" class="news-link">MiniMax 发布 M2.7 大模型 国泰海通梳理AI全产业链投资标的</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/870.htm" target="_blank" class="news-link">追觅轻灵双滚刷吸尘器 Air 发售：1.1 千克重量、100AW 吸力，1499 元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1201276" target="_blank" class="news-link">4 亿 Token，烧出了一个让多个 AI 协同的利器，让你成为统领 AI 的神</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/869.htm" target="_blank" class="news-link">天钡推出 MACO 47 迷你主机：搭锐龙 AI 9 HX470 + 板载 32G RAM，准系统首发价 5299 元起</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1201274" target="_blank" class="news-link">[免费/无限量] 做了一个多智能体 AI 平台 SenseSpace，欢迎 V 友来白嫖并探讨技术</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47525378" target="_blank" class="news-link">False claims in a widely-cited paper</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/866.htm" target="_blank" class="news-link">阿里千问 AI 首次上车：一汽红旗 HS6 PHEV 首发搭载，复杂路径规划、一句话点咖啡</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2883-d8d0-7ff7-a4bf-7e43470b258c" target="_blank" class="news-link">SOUTH KOREA FIN MIN: TO RAISE NUCLEAR POWER PLANT OPERATING RATE, SCRAP COAL POWER PLANT OPERATING CAP</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/847.htm" target="_blank" class="news-link">用 AI 造谣骑手将洒落在地的面条重新装盒配送，一网民被行拘</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7621055514819297280" target="_blank" class="news-link">两位大佬相继离世，AI时代我们活得太着急了</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2877-ee35-7ff7-a4bf-50b692090fcf" target="_blank" class="news-link">JEFFERIES RAISES ARM TARGET PRICE TO $210 FROM $170</a> [12] <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/806.htm" target="_blank" class="news-link">卡巴斯基示警微软用户：无代码 AI 工具被滥用成网络钓鱼“隐形外衣”</a> [12] <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260326125531947800" target="_blank" class="news-link">报告：2025年国内消费级AI/AR市场销量增幅109%，雷鸟夺冠</a> [14] <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2866-5eb7-7ff7-a4bf-3fd05883617c" target="_blank" class="news-link">UAE MINISTRYOF DEFENCE: UAE AIR DEFENCES ARE CURRENTLY RESPONDING TO INCOMING MISSILE AND DRONE THREATS FROM IRAN</a> [15] <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2846-22ba-7ff7-a4bf-2b150a5f7734" target="_blank" class="news-link">Inflation Pulse From AI and Energy Will Last Decades, IFM Says</a> [17] <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/786.htm" target="_blank" class="news-link">谷歌 TurboQuant 引爆存储芯片崩盘：AI 内存占用锐降至 1/6、推理狂飙 8 倍</a> [22] <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7619589568713687046" target="_blank" class="news-link">Agent教程21：知识图谱🕸，让AI🤖学会联想</a> [30] <font color='grey'>- 13时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/867.htm" target="_blank" class="news-link">谷歌安卓 17 精细化授权：App 只能看用户想给的联系人</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/932/825.htm" target="_blank" class="news-link">谷歌侧载新规抬高安卓玩机门槛：三星 Galaxy Store 等商店恐被波及</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
