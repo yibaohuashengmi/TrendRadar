@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 173</p><p>生成时间: 2026-03-27 23:58:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">8.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2ff7-b3fb-7ffc-98cb-55c8fb0e1ed2" target="_blank" class="news-link">MEXICO NAVY SEARCHING FOR LOST AID BOATS TO CUBA: SHEINBAUM</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2ff5-feac-7ffc-98cb-48dad6c039ce" target="_blank" class="news-link">IRAN&#x27;S INDUSTRIAL UNIT IN ARAK TARGETED IN AIRSTRIKES: TASNIM</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47543167" target="_blank" class="news-link">Iran-linked hackers claim breach of FBI director&#x27;s personal email</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1201739" target="_blank" class="news-link">程序员独立出海尝试：用 AI 把水果照片变成爆款短视频，前 10 登录就送免费生成次数</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3078369" target="_blank" class="news-link">美国费城联储主席Anna Paulson（2026年FOMC票委）：（美国和以色列发动的）伊朗战争已经给美国通胀也经济增长带来新的风险。 长期通胀预期可能变得更加脆弱。 并没有迹象表明劳动力市场助燃通胀。 不可能预料到人工智能（AI）的影响范围。</a> <font color='red'><strong>[8]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327233032326800" target="_blank" class="news-link">美联储保尔森：目前尚不清楚人工智能在多大程度上推动了生产率的提升。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327233020527800" target="_blank" class="news-link">美联储保尔森：通胀高于目标水平将使美联储应对人工智能驱动的经济增长的政策举措更加复杂。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2fec-8fb7-7ffc-98cb-015dfa7cb509" target="_blank" class="news-link">FED&#x27;S PAULSON: UNCLEAR HOW MUCH AI IS DRIVING HIGHER PRODUCTIVITY SO FAR</a> [11] <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47543361" target="_blank" class="news-link">Rising Air-Conditioning Use Intensifies Global Warming</a> [20] <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2fe3-3fa6-7ffc-98ca-af378a81d606" target="_blank" class="news-link">FRENCH FOREIGN MINISTER BARROT: RUSSIA DOES NOT DEFEND INTERNATIONAL LAW NEITHER IN UKRAINE OR IRAN</a> [22] <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2fe2-591d-7ffc-98ca-9dfff173410c" target="_blank" class="news-link">U.S. Warns Allies Iran War May Disrupt Ukraine Weapons Supply</a> [24] <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2fe1-151a-7ffc-98ca-884b1840e6b1" target="_blank" class="news-link">&lt;b&gt;US WARNS IRAN WAR MAY DELAY UKRAINE WEAPONS SHIPMENTS: POLITICO&lt;/b&gt;</a> [26] <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2fe0-2e56-7ffc-98ca-8692dc67dd83" target="_blank" class="news-link">&lt;b&gt;IRAN&#x27;S KHONDAB HEAVY WATER RESEARCH REACTOR TARGETED IN AIR ATTACK, OFFICIAL TELLS FARS NEWS, NO CASUALTIES AND NO DANGER THREATENS RESIDENTS IN AREA&lt;/b&gt;</a> [27] <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2fdb-3420-7ffc-98ca-71b7137c3d07" target="_blank" class="news-link">SAUDI ARABIA, UKRAINE SIGN DEFENCE PROCUREMENT MEMORANDUM -STATE NEWS AGENCY</a> [29] <font color='grey'>- 23时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47543139" target="_blank" class="news-link">Anatomy of the .claude/ Folder</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47543189" target="_blank" class="news-link">Anthropic&#x27;s Claude loses its &gt;99% uptime in Q1 2026</a> [13] <font color='grey'>- 23时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/933/513.htm" target="_blank" class="news-link">谷歌员工喜提全新智能体“Smith”：与《黑客帝国》反派同名，火到官方限制访问</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时58分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2327153" target="_blank" class="news-link">全球内存股惨遭谷歌新算法冲击 瑞穗：恰恰是一个上车机会！</a> [11] <font color='grey'>- 23时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
