@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 164</p><p>生成时间: 2026-03-28 02:12:24</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">7.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1201762" target="_blank" class="news-link">我把 NetNewsWire 改成了 Reeder 5 的交互并增加了 AI 总结功能</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768618" target="_blank" class="news-link">AI“反噬”安全行业？Anthropic新模型引发恐慌，网络安全股集体跳水</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3059-b6c0-700a-b7ce-d30be2979a2f" target="_blank" class="news-link">APPLE SAYS IT HAS HIRED EX-GOOGLE EXECUTIVE LILIAN RINCON AS THE VICE PRESIDENT OF PRODUCT MARKETING FOR AI</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时12分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47544980" target="_blank" class="news-link">AI got the blame for the Iran school bombing. The truth is more worrying</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3053-a370-700a-b7ce-a4fa1b062b02" target="_blank" class="news-link">&lt;b&gt;IRAN REVOLUTIONARY GUARDS SAYS IT TARGETED &#x27;US-ISRAELI&#x27; FORCES IN KUWAIT&#x27;S BUBIYAN ISLAND - STATE TV&lt;/b&gt;</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328013224717800" target="_blank" class="news-link">苹果(AAPL.O)：聘请前谷歌高管莉莲·林孔担任人工智能产品营销副总裁。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d304b-f1c9-700a-b7ce-8a37e843b841" target="_blank" class="news-link">FBI SPOKESMAN SAYS DATA TARGETED BY HACKERS &#x27;IS HISTORICAL IN NATURE AND INVOLVES NO GOVERNMENT INFORMATION&#x27;&lt;br/&gt;&lt;br/&gt;FBI SPOKESMAN SAYS &#x27;MALICIOUS ACTORS&#x27; HAVE TARGETED DIRECTOR KASH PATEL’S PERSONAL EMAIL</a> [13] <font color='grey'>- 02时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d304b-6b95-700a-b7ce-79ac6232e040" target="_blank" class="news-link">FRANCE&#x27;S FINANCE MINISTER LESCURE: ENERGY AID WON&#x27;T REQUIRE A NEW BUDGET</a> [15] <font color='grey'>- 02时12分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47524051" target="_blank" class="news-link">21,864 Yugoslavian .yu domains</a> [17] <font color='grey'>- 02时12分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47545032" target="_blank" class="news-link">Iran-linked hackers have breached FBI director&#x27;s personal emails</a> [20] <font color='grey'>- 02时12分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47531922" target="_blank" class="news-link">Show HN: Sup AI, a confidence-weighted ensemble (52.15% on Humanity&#x27;s Last Exam)</a> [21] <font color='grey'>- 02时12分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47544785" target="_blank" class="news-link">Netflix raises prices for every subscription tier by up to 12.5 percent</a> [23] <font color='grey'>- 02时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d303f-8566-7ffc-98ce-22662068f1a2" target="_blank" class="news-link">US SECRETARY OF STATE RUBIO CLAIMED THAT THE US IS CLOSE TO HOLDING SERIOUS TALKS WITH IRAN - AXIOS</a> [24] <font color='grey'>- 02时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47543139" target="_blank" class="news-link">Anatomy of the .claude/ folder</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328014753556800" target="_blank" class="news-link">据英国金融时报：谷歌接近达成协议，为租予Anthropic的数十亿美元数据中心提供资金支持。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1201759" target="_blank" class="news-link">qwen3.5-plus 这，难道是故意的？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
