@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 234</p><p>生成时间: 2026-03-27 14:46:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">8.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1201594" target="_blank" class="news-link">做了个 AI 优先的运维工具， SSH、数据库、Redis 等资产集中管理</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2e02-7fdf-7bb0-98dc-84d27921e0e2" target="_blank" class="news-link">BOJ: ALTHOUGH FUNDING COSTS ARE ON THE RISE FOLLOWING CHANGES IN THE POLICY INTEREST RATE, OVERALL FUNDING DEMAND REMAINS FIRM</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2e02-6bf7-7bb0-98dc-7f56b2f6e9c4" target="_blank" class="news-link">&lt;b&gt;BOJ: GIVEN UNCERTAINTY SURROUNDING ESTIMATES OF THE NATURAL RATE OF INTEREST, IT IS NECESSARY TO ASSESS THE DEGREE OF MONETARY ACCOMMODATION IN COMPREHENSIVE MANNER, CAREFULLY EXAMINING ECONOMIC ACTIVITY, PRICES, AND FINANCIAL DEVELOPMENTS&lt;/b&gt;</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2e02-2640-7bb0-98dc-776e7e960c80" target="_blank" class="news-link">BOJ: BOJ IS PRESENTLY ADJUSTING THE DEGREE OF MONETARY ACCOMMODATION TOWARD THE SUSTAINABLE AND STABLE ACHIEVEMENT OF 2% PRICE TARGET</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/933/266.htm" target="_blank" class="news-link">Sharkoon 推出 S40 / S50 ARGB / S60 ARGB 处理器 AIO 水冷散热器</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47538190" target="_blank" class="news-link">Agent-to-agent pair programming</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/933/262.htm" target="_blank" class="news-link">淘天集团推出“AI 生产力计划”：实习生与正式员工可享免费 Token 额度，购买外部 AI 开发工具也能报销</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2017224899635142906" target="_blank" class="news-link">AI 短剧《雪山救狐狸》为什么火了？它戳中了什么点？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2df6-1ebf-7bb0-98dc-280f40ea0f0e" target="_blank" class="news-link">AI Breakthrough From Google Exposes Divide in Memory Chip Stocks</a> [13] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2df3-7d22-7bb0-98dc-23be49cb460a" target="_blank" class="news-link">Japan Prioritizes Domestic Use of Oil Reserves Amid Regional Supply Strain</a> [14] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%B9%98%E5%A5%B3%E5%A4%9A%E6%83%85AI%E9%99%B6%E5%96%86%E7%89%88" target="_blank" class="news-link">湘女多情AI陶喆版</a> [14] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/933/250.htm" target="_blank" class="news-link">OpenClaw 之父谈 AI 温差：美国员工会因“养龙虾”被裁，中国员工不用反而会被开除</a> [14] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2de8-94b6-7bb0-98dc-0923f957d0ac" target="_blank" class="news-link">DUBAI&#x27;S SHARE INDEX ROSE 1.3% IN EARLY TRADE - LSEG</a> [17] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/933/247.htm" target="_blank" class="news-link">英特尔庄蓓瑜：AI PC 普及进度符合预期，中长期发展不受存储器影响</a> [17] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/933/245.htm" target="_blank" class="news-link">美团发布开源原生多模态大模型 LongCat-Next，让视觉和语音成为 AI 的母语</a> [19] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2de2-a6c4-7bb0-98db-f0e449e25cc8" target="_blank" class="news-link">JAPAN&#x27;S TORAY: TO INTRODUCE SURCHARGE SYSTEM FOR CERTAIN PRODUCTS INCLUDING RESINS, CARBON FIBRE TO SWIFTLY REFLECT SWINGS IN RAW MATERIALS COSTS</a> [20] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2dde-8f92-7bb0-98db-e9bd7eaa22a3" target="_blank" class="news-link">Moonshot AI Weighs Restructuring Ahead of Potential Hong Kong IPO</a> [21] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47486705" target="_blank" class="news-link">Chopping my brain into bits – turning my brain into a 3D model on the web</a> [22] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d2dca-9b18-7bb0-98db-d192f5659975" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX CLOSED DOWN 0.68%</a> [24] <font color='grey'>- 14时46分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">1.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/933/276.htm" target="_blank" class="news-link">谷歌安卓 17 直击拍照痛点：微信等应用有望解锁手机原生高级影像功能</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/933/263.htm" target="_blank" class="news-link">谷歌安卓侧载 App 不用等 24 小时，官方 ADB 成核心破局工具</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%B0%B7%E6%AD%8CTurboQuant%E8%AE%BA%E6%96%87%E8%A7%A3%E8%AF%BB" target="_blank" class="news-link">谷歌TurboQuant论文解读</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时46分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768554" target="_blank" class="news-link">Anthropic高管讨论Q4 IPO，投行预计募资高达600亿美元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时46分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
