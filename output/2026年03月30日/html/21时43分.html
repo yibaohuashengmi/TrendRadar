@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 315</p><p>生成时间: 2026-03-30 21:43:51</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">4.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47573420" target="_blank" class="news-link">How the AI Bubble Bursts</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47572771" target="_blank" class="news-link">Mathematical methods and human thought in the age of AI</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1202331" target="_blank" class="news-link">替代 SourceTree 基于 AI 自己写的 Git 客户端</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/242.htm" target="_blank" class="news-link">小米澎湃 OS 3 Beta 版上线自研系统级输入法，支持 AI 对话、高级材质等</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83914" target="_blank" class="news-link">AI 和机器人流量超过人类</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768772" target="_blank" class="news-link">芯原股份2025年营收创新高，净亏损收窄至5.28亿元，AI算力收入占比升至64%｜财报见闻</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3edd-0f1e-7aa6-8f89-d9e808986d6a" target="_blank" class="news-link">KATAYAMA: OIL PRICE RISES WOULD HURT GROWTH WHILE FUELING INFLATIONARY PRESSURE, QUITE A FEW G7 C.BANK CHIEFS SAID THEY MAY HAVE TO FOCUS ON DEALING WITH INFLATIONARY FEARS</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768779" target="_blank" class="news-link">AI驱动半导体行业复苏，兆易创新2025年营收增长25%，净利润增长49% | 财报见闻</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3ed8-eea4-7aa6-8f89-d0753487bd59" target="_blank" class="news-link">KATAYAMA: NOW CERTAIN OIL PRICE HIKES AFFECTING MARKET, GROWTH</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768768" target="_blank" class="news-link">AI服务器需求井喷！澜起科技2025年净利同比增长58%，H股上市获60倍超额认购｜财报见闻</a> [12] <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768764" target="_blank" class="news-link">美光率先押注GDDR堆叠技术，AI内存市场新一轮竞赛悄然打响</a> [18] <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3ebd-ab7f-7aa6-8f89-7ea8c115735a" target="_blank" class="news-link">&lt;b&gt;BESSENT: US TO RETAKE STRAITS, WHETHER BY US OR INT&#x27;L ESCORTS&lt;/b&gt;</a> [20] <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3ebc-7bc3-7aa6-8f89-73d58c7eabec" target="_blank" class="news-link">BESSENT: US WILL &#x27;RETAKE&#x27; CONTROL OF THE STRAITS</a> [21] <font color='grey'>- 21时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3079409" target="_blank" class="news-link">阿里发布全模态大模型Qwen3.5-Omni，多项指标超越Gemini-3.1 Pro</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时43分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
