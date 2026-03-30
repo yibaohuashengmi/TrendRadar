@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 246</p><p>生成时间: 2026-03-30 15:08:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">4.07%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3d7d-e37e-7cc4-bf2a-f8c43cf925ec" target="_blank" class="news-link">WTO Fails to Extend E-Commerce Tariff Ban as Talks Stall at MC14</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768707" target="_blank" class="news-link">“Token新时代”--中国AI产业“十问十答”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3d74-d457-7cc4-bf2a-c2b2924acdee" target="_blank" class="news-link">KOSPI FALLS FOR THIRD STRAIGHT SESSION; CHIP, AUTO STOCKS RETREAT</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3d72-a7ad-7cc4-bf2a-be1541171133" target="_blank" class="news-link">BOJ: IF RECENT RISES IN FOOD PRICES WERE TO PERSIST, THEY COULD EXERT SUSTAINED UPWARD IMPACT ON OVERALL CONSUMER PRICES</a> [11]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3d64-92f9-7cc4-bf2a-8da5011bbdeb" target="_blank" class="news-link">THAI CENTRAL BANK: RENEWS BILATERAL LOCAL CURRENCY SWAP ARRANGEMENT WITH BANK OF JAPAN FOR THREE YEARS</a> [17] <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/032.htm" target="_blank" class="news-link">三星推出 Infinite AI 红酒柜：可自动管理品种、年份等，支持 Bixby 语音操控</a> [17] <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/867824288634630144" target="_blank" class="news-link">入职互联网厂大半年，我觉得ai时代学历更加重要了</a> [20] <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3d54-5b33-7cc4-bf2a-64a9207309b7" target="_blank" class="news-link">HEAD OF EUROPEAN AVIATION SAFETY REGULATOR WARNS OF RISKS TIED TO NARROWING AIRSPACE DUE TO CONFLICTS&lt;br/&gt;&lt;br/&gt;EASA&#x27;S HEAD SAYS AGENCY ALSO DRAFTING CLEARER GUIDANCE ON COUNTER-DRONE TECHNOLOGY</a> [22] <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3d3f-5155-7cc4-bf2a-3cc9286827b0" target="_blank" class="news-link">S&amp;P: OUTLOOK ON JAPAN&#x27;S LONG-TERM RATINGS REFLECTS VIEW NOMINAL GDP &amp; REV GROWTH WILL REMAIN RESILIENT DESPITE RISKS FROM GEOPOLITICAL DEVELOPMENTS&lt;br/&gt;&lt;br/&gt;S&amp;P: UNCERTAINTY OVER U.S. TARIFF POLICIES IS LIKELY TO ABATE SIGNIFICANTLY FOLLOWING AGREEMENT REACHED BETWEEN THE U.S. AND JAPAN</a> [27] <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3d3d-e45a-7cc4-bf2a-37360ade168d" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX CLOSED DOWN 1.8%, AT 32518.16</a> [28] <font color='grey'>- 15时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">1.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/039.htm" target="_blank" class="news-link">消息称某 TOP5 年底旗舰“大杯”在评估考虑双层 OLED 屏幕，预计是华为 Mate 90 Pro</a> [13] <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/035.htm" target="_blank" class="news-link">华为靳玉志：ADS Pro 城区领航辅助 NCA 今天将开启推送，问界新 M7 Pro+、五菱华境 S 等车型搭载</a> [15] <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/031.htm" target="_blank" class="news-link">奇瑞路虎 FREELANDER 神行者明日发布，官方暗示新车搭载华为 896 线激光雷达</a> [18] <font color='grey'>- 15时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/091.htm" target="_blank" class="news-link">谷歌 Willow 量子处理器开放限量早期试用，加速商业化进程</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时08分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/030.htm" target="_blank" class="news-link">两台安卓手机也能贴贴传文件了，代码显示谷歌将推出系统级 NFC 轻触分享功能</a> [19] <font color='grey'>- 15时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768716" target="_blank" class="news-link">Anthropic史上最大训练曝光，Ilya错了？CEO哀嚎：创业公司将被毁灭</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330145226460800" target="_blank" class="news-link">以色列国防军：周六，以军对阿里·哈桑·沙伊布进行了打击并将其消灭。沙伊布是真主党拉德万部队情报部门的一名恐怖分子。多年来，沙伊布一直以各种方式为真主党提供协助，同时他还是一名记者。2020年，他正式加入真主党的军事组织。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
