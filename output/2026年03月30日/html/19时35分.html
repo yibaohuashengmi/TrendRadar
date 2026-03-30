@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 223</p><p>生成时间: 2026-03-30 19:35:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">4.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768755" target="_blank" class="news-link">用AI“龙虾”炒股，有投资者称“取得月赚90%惊人战绩”，有人20万元却亏掉8万元！普通人能玩吗？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1202315" target="_blank" class="news-link">Vibe 了一个在 VSCode 里使用的 AI 聊天扩展</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/shanraisshan/claude-code-best-practice" target="_blank" class="news-link">shanraisshan / claude-code-best-practice</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3e5c-d7f0-7dde-92c8-7b237e478c0c" target="_blank" class="news-link">EU&#x27;S COSTA: EU REMAINS GRAVELY CONCERNED OVER PROLONGATION OF THE IRAN WAR</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3e58-6194-7dde-92c8-58a8050747e0" target="_blank" class="news-link">KWEICHOW MOUTAI SAYS TO INCREASE DIRECT RETAIL PRICE OF FEITIAN 53% VOL 500ML MOUTAI (2026) TO 1,539 YUAN FROM 1,499 YUAN</a> [12] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3e58-109a-7dde-92c8-545b5921f31c" target="_blank" class="news-link">KWEICHOW MOUTAI SAYS PRICE ADJUSTMENT WILL HAVE SOME IMPACT ON OPERATING RESULTS</a> [13] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768743" target="_blank" class="news-link">解码林俊旸离职后首篇长文：给AI投资的6个启示</a> [13] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3e56-c0a2-7dde-92c8-4d650621f91d" target="_blank" class="news-link">KWEICHOW MOUTAI TO RAISE FEITIAN 53% 500ML CONTRACT PRICE TO 1,269 YUAN/BOTTLE FROM MAR 31</a> [14] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3e55-d23b-7dde-92c8-4745d50dba50" target="_blank" class="news-link">ISRAEL SAYS FIRE BROKE OUT AT GASOLINE TANK AT HAIFA REFINERIES</a> [15] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d3e35-cbb2-7dde-92c8-0b144197f38e" target="_blank" class="news-link">BARCLAYS CUTS PONY AI INC. TARGET PRICE TO $10 FROM $15</a> [22] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7622069365056798762" target="_blank" class="news-link">2026年AI大模型选择指南：8大主流模型深度对比，小白秒懂如何选！</a> [29] <font color='grey'>- 19时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/209.htm" target="_blank" class="news-link">华为余承东谈移动卫星通信新突破，称其正逐步成为智能设备的标配</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时35分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
