@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 243</p><p>生成时间: 2026-03-31 21:43:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">6.58%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768904" target="_blank" class="news-link">黄仁勋再落一子！英伟达20亿美元入股Marvell，助力5G/6G网络AI融合</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/664.htm" target="_blank" class="news-link">【视频】苹果 AirPods Max 2 首发体验：看不见的升级，听得见的质变</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1202612" target="_blank" class="news-link">被 Intercom 价格劝退后，我自己搓了个免费的 AI 客服</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768905" target="_blank" class="news-link">消费者正在悄然抛弃谷歌？高盛：AI成购物新入口，零售业格局或将重塑</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1202608" target="_blank" class="news-link">用 AI Agent 跑了 20 个定时任务，踩了哪些坑？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768893" target="_blank" class="news-link">英伟达估值创七年新低：市场正在系统性低估AI最大赢家？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260331210751541800" target="_blank" class="news-link">Coreweave(CRWV.O)美股盘前涨5.6%，此前该公司获得85亿美元贷款以扩展人工智能基础设施。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d440a-f443-7556-8f8f-a31c3e21fb75" target="_blank" class="news-link">&lt;b&gt;CHINA, PAKISTAN: URGE PROTECTION OF STRAIT OF HORMUZ SHIPPING LANES - XINHUA&lt;/b&gt;</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4403-2fb0-7556-8f8f-82de71619a0a" target="_blank" class="news-link">WERIDE AND UBER LAUNCH FULLY DRIVERLESS ROBOTAXI FARE-CHARGING OPS IN DUBAI</a> [13] <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d43fd-aa47-7220-b21f-733a2919625a" target="_blank" class="news-link">&lt;b&gt;META: NEW STYLES OF AI GLASSES TO BE AVAILABLE AT OPTICAL RETAILERS IN US AND SELECT INTERNATIONAL MARKETS STARTING APRIL 14&lt;/b&gt;</a> [15] <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d43fc-0cbe-7220-b21f-6e9f78c4bf2d" target="_blank" class="news-link">META: NEW SOFTWARE UPDATES LIKE HANDS-FREE NUTRITION TRACKING, WHATSAPP SUMMARIES AND RECALL BY META AI, AND NEURAL HANDWRITING ARE ROLLING OUT SOON</a> [16] <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d43fb-cc6d-7220-b21f-669073c198c7" target="_blank" class="news-link">META: INTRODUCING OUR FIRST AI GLASSES BUILT FOR PRESCRIPTIONS</a> [17] <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3080178" target="_blank" class="news-link">摩根大通CEO戴蒙：特朗普账户是个“好主意”，我们将参与。 由于人工智能而出现了一些岗位流失，大部分已经重新安排。</a> [18]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260331210216044800" target="_blank" class="news-link">Meta公司：新款AI眼镜即日起在美国开启预订，起售价499美元。</a> [18] <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7623242804392902665" target="_blank" class="news-link">💥 Claude Code 源码泄露？我把这个最强 AI Coding Agent 的架构扒干净了</a> [20] <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d43f6-2e07-7220-b21f-06245ea5e2b9" target="_blank" class="news-link">Redbook Retail Sales (YoY) (Mar.27)</a> [29] <font color='grey'>- 21时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">8</td>
+                <td class="percentage">3.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768894" target="_blank" class="news-link">华为2025年营收、净利润温和增长，智能汽车收入大增 72%、云计算小幅下滑 | 财报见闻</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/660.htm" target="_blank" class="news-link">奇瑞路虎 FREELANDER 神行者官宣全系标配华为乾崑 ADS V4.1，全地形 SUV 全球首搭 896 线激光雷达</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/658.htm" target="_blank" class="news-link">华为汪涛接任轮值董事长，任期自 2026 年 4 月 1 日至 9 月 30 日</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/657.htm" target="_blank" class="news-link">捷豹路虎 × 奇瑞：神行者全球首批搭载高通骁龙 8397 车机芯片，全球首发宁德时代全地形专用骁遥增混电池、全系标配华为乾崑 ADS 4.1</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/656.htm" target="_blank" class="news-link">华为 2025 年全球销售收入 8809 亿元：研发投入 1923 亿元占比约 21.8%，智能汽车业务营收 450.18 亿元同比增长 72.1%</a> [11] <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%AD%9F%E6%99%9A%E8%88%9F%E5%8D%8E%E4%B8%BA%E5%B9%B4%E6%8A%A5%E8%87%B4%E8%BE%9E%E8%B0%88%E6%88%98%E7%95%A5%E8%81%9A%E7%84%A6%23&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">孟晚舟华为年报致辞谈战略聚焦</a> [19] <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA2025%E5%B9%B4%E9%94%80%E5%94%AE%E6%94%B6%E5%85%A58809%E4%BA%BF" target="_blank" class="news-link">华为2025年销售收入8809亿</a> [21] <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3080163" target="_blank" class="news-link">华为汪涛当值轮值董事长</a> [27] <font color='grey'>- 21时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1202609" target="_blank" class="news-link">Claude Code 源码泄露了？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Claude%20Code%E6%BA%90%E7%A0%81%E6%84%8F%E5%A4%96%E6%B3%84%E9%9C%B2" target="_blank" class="news-link">Claude Code源码意外泄露</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时43分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47586176" target="_blank" class="news-link">Anthropic: Claude Code users hitting usage limits &#x27;way faster than expected&#x27;</a> [18] <font color='grey'>- 21时43分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
