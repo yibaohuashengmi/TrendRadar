@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 263</p><p>生成时间: 2026-03-31 17:42:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">7.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1202558" target="_blank" class="news-link">开源一个 ESP32 WOL ,云端唤醒局域网内的 PC， Vibe Coding 必备助手，配合 Tailscale 即刻穿回</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4339-f5d1-7aa5-92a5-aa5d2d737d44" target="_blank" class="news-link">CHINA TO RAISE DOMESTIC AIR ROUTE FUEL SURCHARGES FIVEFOLD FROM APR 5</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768855" target="_blank" class="news-link">抄底Meta时刻？大摩：坏消息已被充分定价，Meta AI有望进化为MetaClaw，开启新一轮增长引擎</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/604.htm" target="_blank" class="news-link">Slimbook 推出 2026 款 Creative 笔记本电脑：AI 9 365 + RTX 5070</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768866" target="_blank" class="news-link">对话Chance AI创始人：看见世界的另一条路，走出“大模型同质化”的围墙</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/600.htm" target="_blank" class="news-link">雷鸟蝙蝠侠限定版 Air 4 Pro AR 眼镜发售：可选蝙蝠侠 / 小丑版，提供专属遮光罩，1849 元</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47584304" target="_blank" class="news-link">Closed Source AI = Neofeudalism</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4330-11c2-7aa5-92a5-851aa07e537e" target="_blank" class="news-link">THAI FINANCE OFFICIAL: OIL FUND TO BORROW 150 BLN BAHT</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/596.htm" target="_blank" class="news-link">不看学历看实绩：武汉光谷推出 AI 人才新政，团队扶持最高 1350 万元</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d432f-fbe4-7aa5-92a5-7eac4f553a40" target="_blank" class="news-link">THAI FINANCE OFFICIAL: WILL GUARANTEE BORROWING FOR OIL FUND</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d432f-bd5e-7aa5-92a5-71023213caa5" target="_blank" class="news-link">THAI FINANCE OFFICIAL: THERE IS ROOM TO BORROW 300 BLN BAHT</a> [11] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d432f-8406-7aa5-92a5-6918401adbd5" target="_blank" class="news-link">CHINA C.BANK: MAJOR ECONOMIES SHOW DIVERGING GROWTH, INFLATION AND POLICY OUTLOOK REMAIN UNCERTAIN</a> [12] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d432b-5667-7aa5-92a5-3b08150d95c3" target="_blank" class="news-link">CHINA C.BANK: TO MAINTAIN AMPLE LIQUIDITY AND KEEP YUAN STABLE AT REASONABLE EQUILIBRIUM LEVEL</a> [18]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d432b-44b1-7aa5-92a5-3271894fb287" target="_blank" class="news-link">CHINA C.BANK: TO MAINTAIN MODERATELY LOOSE MONETARY POLICY WITH STRONGER COUNTER-CYCLICAL ADJUSTMENTS</a> [19] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4325-10fa-7dd5-ac3d-1639a57a4a15" target="_blank" class="news-link">FUJITSU TO CONSIGN ADVANCED AI CHIP PRODUCTION TO RAPIDUS, NIKKEI SAYS</a> [22] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4324-29c4-7dd5-ac3d-091f71153dee" target="_blank" class="news-link">THAI FINMIN: WILL TRY TO PURCHASE OIL AHEAD AS MUCH AS POSSIBLE</a> [23] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4323-7dfe-7dd5-ac3d-007e324e4675" target="_blank" class="news-link">&lt;b&gt;FUJITSU TO DEVELOP 1.4-NANOMETRE, ADVANCED AI CHIPS, NIKKEI SAYS&lt;/b&gt;</a> [24] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4322-0369-7aae-9d66-14aa5a07a7ed" target="_blank" class="news-link">ORACLE AND NETSUITE DELIVER NEW AI-POWERED SOLUTION FOR RESTAURANT OPERATIONS</a> [27] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4321-b399-7aae-9d66-08c8059f0666" target="_blank" class="news-link">ORACLE CORP - ORACLE NETSUITE RESTAURANT OPERATIONS AVAILABLE GLOBALLY WITHIN 12 MONTHS</a> [28] <font color='grey'>- 17时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">1.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/581.htm" target="_blank" class="news-link">岚图泰山 X8 汽车官宣首发华为双 15.6 英寸智慧双联屏：双屏协同操作、分区独立娱乐</a> [18] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/579.htm" target="_blank" class="news-link">消息称某厂 4 月下旬发布影像旗舰系列 + 阔折叠新机，预计是华为 Pura 90 系列 +Pura X2</a> [20] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BA%94%E8%8F%B1%E5%8D%8E%E4%B8%BA%E4%B9%BE%E5%B4%91%E5%8F%8C%E5%90%91%E5%A5%94%E8%B5%B4%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">五菱华为乾崑双向奔赴</a> [29] <font color='grey'>- 17时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%E4%B8%BA%E4%BD%95%E5%AE%95%E6%9C%BA7%E5%B0%8F%E6%97%B6" target="_blank" class="news-link">DeepSeek为何宕机7小时</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=DeepSeek%E5%B4%A9%E4%BA%86&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">DeepSeek崩了</a> [15] <font color='grey'>- 17时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47584540" target="_blank" class="news-link">Claude Code&#x27;s source code has been leaked via a map file in their NPM registry</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83921" target="_blank" class="news-link">Google 开始推行 Android 开发者身份验证</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
