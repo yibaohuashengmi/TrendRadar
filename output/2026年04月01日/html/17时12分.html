@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 241</p><p>生成时间: 2026-04-01 17:12:47</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">4.15%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5202027" target="_blank" class="news-link">四环医药(00460.HK)与百奥赛图达成战略合作 通过AI驱动的全人抗体研发平台加速减重等多领域创新药研发</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4830-3d5f-7770-9830-ba264eb2a7ab" target="_blank" class="news-link">HK GOVT SPOKESMAN: GROWTH MOMENTUM IN ECONOMY, INCREASE IN INBOUND VISITORS EXPECTED TO SUPPORT RETAIL&lt;br/&gt;&lt;br/&gt;HK GOVT SPOKESMAN: TO MONITOR GEOPOLITICAL DEVELOPMENTS, ASSESS IMPLICATIONS FOR CONSUMER SPENDING</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时12分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1202865" target="_blank" class="news-link">Lyria 3 Pro： Google 推出的免费 AI 音乐生成模型，效果超乎想象</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d482d-656f-7770-9830-b72ddc508781" target="_blank" class="news-link">UAE ADNOC&#x27;S CEO SULTAN AL JABER SAYS WORLD MUST ACT TOGETHER TO PROTECT FREE FLOW OF ENERGY, UNSC RESOLUTION 2817 SHOULD BE UPHELD TO ENSURE FREE NAVIGATION IN STRAIT OF HORMUZ</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d482b-fee2-7770-9830-9f97574ccd3b" target="_blank" class="news-link">Retail Sales Volume (YoY) (Feb)</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3080773" target="_blank" class="news-link">Anthropic意外泄露了Claude AI智能体的源代码</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d482a-1ab7-7770-9830-7db21a14e0c3" target="_blank" class="news-link">Retail Sales (YoY) (Feb)</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3080767" target="_blank" class="news-link">微软预计到2029年将在新加坡的AI领域投资55亿美元。（彭博）</a> [11] <font color='grey'>- 17时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3080764" target="_blank" class="news-link">HBM之父：看好高带宽闪存技术 未来AI产业或从GPU转向内存主导</a> [13] <font color='grey'>- 17时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260401164104532800" target="_blank" class="news-link">HBM之父：看好高带宽闪存技术 未来AI产业或从GPU转向内存主导</a> [23] <font color='grey'>- 17时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">4</td>
+                <td class="percentage">1.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1202850" target="_blank" class="news-link">I built Claude Code-lite, a small local-first coding agent CLI runtime inspired by Claude Code</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时12分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1202841" target="_blank" class="news-link">今天下午 claude code 和 codex 感觉都很慢，不知道是不是我的错觉</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时12分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1202840" target="_blank" class="news-link">Claude Code 发布了宠物模式</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时12分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/986.htm" target="_blank" class="news-link">Anthropic 回应 Claude Code 源代码泄露：人为失误导致，不涉及用户数据</a> [24] <font color='grey'>- 17时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/997.htm" target="_blank" class="news-link">华为靳玉志：去年中国新能源乘用车辅助驾驶渗透率已接近九成，车价越高搭载比例越高</a> [14] <font color='grey'>- 17时12分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/934/994.htm" target="_blank" class="news-link">华为「融合开发引擎」上线鸿蒙 PC 端，允许开发人员直接运行 Linux 环境</a> [17] <font color='grey'>- 17时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2331479" target="_blank" class="news-link">币圈“量子末日”恐加速到来？谷歌预警逃生时间表：2029年！</a> [13] <font color='grey'>- 17时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
