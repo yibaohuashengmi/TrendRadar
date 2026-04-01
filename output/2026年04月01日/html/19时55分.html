@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 219</p><p>生成时间: 2026-04-01 19:55:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">5.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768997" target="_blank" class="news-link">叙事驱动一切，中国AI新贵进入极端波动时代，散户疯狂涌入！</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/935/081.htm" target="_blank" class="news-link">华为鸿蒙 Harmony 6 系统负一屏内测关联 Claw 智能体功能，可提供 AI 任务完成提醒等服务</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1202906" target="_blank" class="news-link">想咨询一下大家 OpenClaw 的 AI 方案</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d48d2-023e-7448-a659-138ce80eb344" target="_blank" class="news-link">&lt;b&gt;CHINA TO ENRICH FINANCIAL PRODUCTS TAILORED TO HIGH-TECH SECTORS&lt;/b&gt;</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768998" target="_blank" class="news-link">素人正在AI短剧狂飙中「失陷」</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/openai/codex" target="_blank" class="news-link">openai / codex</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E7%94%A8AI%E8%BF%98%E5%8E%9F%E5%A5%B6%E5%A5%B6%E7%9A%84%E7%AC%91%E8%84%B8" target="_blank" class="news-link">UP主用AI还原奶奶的笑脸</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3080861" target="_blank" class="news-link">12家企业宣布无限Token计划，支持深度使用飞书AI产品</a> [16] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%91%A8%E6%B7%B1%E6%96%B0%E6%AD%8C%E7%A6%81%E6%AD%A2%E7%94%A8%E4%BA%8EAI%E8%AE%AD%E7%BB%83%23&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">周深新歌禁止用于AI训练</a> [16] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3080859" target="_blank" class="news-link">英国央行称AI应用或构成金融稳定威胁 伊朗冲突带来重大负面供给冲击</a> [17] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d48aa-b7ff-7448-a658-8d799c59911f" target="_blank" class="news-link">SWISS GOVERNMENT STATEMENT: TIMELINE FOR THE DELIVERY OF THE PATRIOT LONG-RANGE GROUND-BASED AIR DEFENSE SYSTEM TO SWITZERLAND REMAINS UNCERTAIN</a> [20]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d48a1-197a-7448-a658-7223e268829a" target="_blank" class="news-link">SPAIN NEW TESLA REGISTRATIONS RISE 42.9% Y/Y IN Q1 WHILE ELECTRIC CARS AS A WHOLE RISE 58.4% - ANFAC</a> [23] <font color='grey'>- 19时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">4</td>
+                <td class="percentage">1.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/anthropics/claude-code" target="_blank" class="news-link">anthropics / claude-code</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Claude%20Code%E6%B3%84%E6%BC%8F%E4%BB%A3%E7%A0%81%E5%AE%8C%E6%95%B4%E9%80%86%E5%90%91" target="_blank" class="news-link">Claude Code泄漏代码完整逆向</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Claude%20Code%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E4%B8%8E%E5%A4%8D%E5%88%BB%E5%AE%9E%E7%8E%B0" target="_blank" class="news-link">Claude Code源码分析与复刻实现</a> [16] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7623322130490507310" target="_blank" class="news-link">Claude Code 源码中 REPL.tsx 深度解析：一个 5005 行 React 组件的架构启示</a> [29] <font color='grey'>- 19时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/google-research/timesfm" target="_blank" class="news-link">google-research / timesfm</a> <font color='red'><strong>[4]</strong></font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3080853" target="_blank" class="news-link">三江购物：阿里泽泰拟减持不超过2%。</a> [22] <font color='grey'>- 19时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
