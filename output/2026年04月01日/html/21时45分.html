@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 292</p><p>生成时间: 2026-04-01 21:45:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">22</td>
+                <td class="percentage">7.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769014" target="_blank" class="news-link">AI战略掉队、接班人不明，股价今年已跌近 7%……苹果面临50周年的“五大灵魂拷问”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47599956" target="_blank" class="news-link">Show HN: Sycamore – next gen Rust UI library powered by fine-grained reactivity</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4929-3d08-7448-a65a-b6fd5125bcb9" target="_blank" class="news-link">FED&#x27;S MUSALEM: AI COULD BOOST SUPPLY, BUT ALSO NOW LIFTING DEMAND</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260401213620357800" target="_blank" class="news-link">美联储穆萨莱姆：目前尚难在宏观层面观察到人工智能带来的生产率提升。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/935/096.htm" target="_blank" class="news-link">开发者为苹果 AirPort Time Capsule 路由器备份功能延命，为其“外挂”现代 Samba 服务以兼容 macOS 27</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/868532475885121536" target="_blank" class="news-link">如何把面试主动权握在手里？Ai岗面试焚诀！</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4928-6cbe-7448-a65a-8e27840fd8eb" target="_blank" class="news-link">FED&#x27;S MUSALEM SAYS HE CAN SEE SCENARIOS TO BOTH RAISE AND CUT INTEREST RATES</a> [11] <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769005" target="_blank" class="news-link">做空之王“浑水”转战信用债，CEO押注AI将引发大面积裁员与违约潮</a> [11] <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3080943" target="_blank" class="news-link">美国圣路易斯联储主席Musalem：我决心将通货膨胀率降至 2%。 预计未来两个季度关税影响将逐渐减弱。 降低通胀有利于经济增长。 长期通胀预期仍然看起来得到锚定。 尚未看到石油冲击将如何在经济中传导。 部分潜在的通胀压力无法用关税来解释。 目前尚无法在宏观层面看到人工智能带来的生产力提升。</a> [12]</div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/935/091.htm" target="_blank" class="news-link">天钡 MACO 47 迷你主机发售：搭锐龙 AI 9 HX470 + 板载 32G RAM，准系统 5299 元起</a> [12] <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4928-45bf-7448-a65a-7c42ce184248" target="_blank" class="news-link">FED&#x27;S MUSALEM: ECONOMIC OUTLOOK IS &#x27;HIGHLY UNCERTAIN&#x27;</a> [13] <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3080941" target="_blank" class="news-link">美联储理事Barr：目前人工智能还不太可能提高美国的生产效率。 人工智能对劳动力市场的影响迄今相对较小。</a> [14]</div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47599771" target="_blank" class="news-link">Show HN: Baton – A desktop app for developing with AI agents</a> [15] <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/935/082.htm" target="_blank" class="news-link">湖南首例 AI 造谣刑事案宣判：男子制作“化工厂重大事故”“多人被杀抛尸案”等虚假视频获刑六个月</a> [17] <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/935/081.htm" target="_blank" class="news-link">华为鸿蒙 HarmonyOS 6 系统负一屏内测关联 Claw 智能体功能，可提供 AI 任务完成提醒等服务</a> [18] <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47600244" target="_blank" class="news-link">CEO of largest public hospital says he&#x27;s ready to replace radiologists with AI</a> [18] <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4927-5815-7448-a65a-4be612cb689f" target="_blank" class="news-link">&lt;b&gt;BAIDU: APOLLO GO STARTS DRIVERLESS RIDE-HAILING SERVICE IN DUBAI&lt;/b&gt;</a> [19] <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3080936" target="_blank" class="news-link">美国圣路易斯联储主席Musalem：维持利率不变可能在相当长一段时间内是合适的。 劳动力市场与通胀双方风险均有所上升。 若核心通胀或通胀预期上升，可能支持加息。 私募信贷压力并非广泛的信贷质量问题。 若劳动力市场走弱，可能支持降息。 目前通胀在2026年全年持续高企的风险加大。 裁员激增可能导致失业率快速上升。 人工智能可能提升供给，但目前也在拉动需求。</a> [19]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4924-439a-7448-a65a-345866bf6c7d" target="_blank" class="news-link">SOFTBANK EXECUTED $10B FIRST TRANCHE OF OPENAI INVESTMENT</a> [22] <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7623024602586103860" target="_blank" class="news-link">让TypeScript 再次伟大：愚人节前夜Claude Code意外开源与OpenClaw小龙虾打造 AI 原生开发新纪元</a> [24] <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d491c-e4ce-7448-a65a-0656f04dcc4a" target="_blank" class="news-link">&lt;b&gt;EU TO USE E1.4B IMMOBILIZED RUSSIAN ASSETS REVENUE FOR UKRAINE&lt;/b&gt;</a> [28] <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d491a-4b00-7448-a659-f8030326981e" target="_blank" class="news-link">UKRAINE IN CONTACT WITH IRAQ FOR MILITARY COOPERATION, ZELENSKIY SAYS</a> [29] <font color='grey'>- 21时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">4</td>
+                <td class="percentage">1.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1202934" target="_blank" class="news-link">Claude Code 18 个电子宠物图鉴</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Claude%20Opus%E6%98%AF%E5%90%A6%E4%BC%9A%E6%B7%98%E6%B1%B0%E7%A8%8B%E5%BA%8F%E5%91%98" target="_blank" class="news-link">Claude Opus是否会淘汰程序员</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BB%8E%E6%B3%84%E9%9C%B2%E6%BA%90%E7%A0%81%E6%89%92%E5%87%BAClaude%E9%9A%90%E8%97%8F%E5%BD%A9%E8%9B%8B" target="_blank" class="news-link">从泄露源码扒出Claude隐藏彩蛋</a> [14] <font color='grey'>- 21时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769001" target="_blank" class="news-link">翻遍Claude Code泄露的50万行代码，我终于发现了它好用的秘密</a> [16] <font color='grey'>- 21时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.34%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/935/093.htm" target="_blank" class="news-link">我国首部移动电源安全国标出台：小米华为等各大公司参与起草，电芯须通过针刺测试不起火不爆炸</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时45分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
