@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 250</p><p>生成时间: 2026-04-02 21:24:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">5.2%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1203176" target="_blank" class="news-link">4 天， 38 次提交，我用 AI + SDD 方法论造了一个 DJI Osmo 第三方遥控器</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4e4c-8bcd-7dda-8d19-83123339366d" target="_blank" class="news-link">IMF ON US: GENERAL GOVERNMENT DEFICIT IS EXPECTED TO REMAIN IN THE 7–7 ½ PERCENT OF GDP RANGE WITH DEBT EXCEEDING 140 PERCENT OF GDP BY 2031</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时24分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/zai-org/GLM-OCR" target="_blank" class="news-link">zai-org / GLM-OCR</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28352714&amp;amp;topic_name=AI%E5%86%B2%E5%87%BB%2B%E4%BE%B5%E6%9D%83%2C%E9%85%8D%E9%9F%B3%E6%BC%94%E5%91%98%E8%81%94%E5%90%88%E6%8A%B5%E5%88%B6" target="_blank" class="news-link">AI冲击+侵权,配音演员联合抵制</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/935/486.htm" target="_blank" class="news-link">Vocci Ring 智能戒指发布：内置录音功能可联动 AI 智能体，199 美元</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时24分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/869249850703962112" target="_blank" class="news-link">网易互娱（AI应用）实习岗位一面</a> [17] <font color='grey'>- 21时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3081601" target="_blank" class="news-link">滴滴AI打车用户增长37倍</a> [18] <font color='grey'>- 21时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4e35-88b7-7dda-8d19-16b8a995c332" target="_blank" class="news-link">U.S. WTI CRUDE OIL FUTURES HEADED FOR BIGGEST DAILY PRICE JUMP IN ABSOLUTE TERMS SINCE 2020 AFTER TRUMP SPEECH INDICATING FURTHER ATTACKS ON IRAN</a> [19] <font color='grey'>- 21时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4e34-0f52-788d-9103-b87ffbacf2ff" target="_blank" class="news-link">US Initial Jobless Claims Fell to 202,000 Last Week</a> [21] <font color='grey'>- 21时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4e2c-e113-788d-9103-9c7d447065c4" target="_blank" class="news-link">US JOBLESS CLAIMS 202,000 IN MARCH 28 WEEK; EST. 212K</a> [28] <font color='grey'>- 21时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4e2c-c5d6-788d-9103-9188626b6dec" target="_blank" class="news-link">Continued Jobless Claims (Mar.21)</a> [29] <font color='grey'>- 21时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3081587" target="_blank" class="news-link">美国科技公司宣布的裁员人数持续增加 AI成主要推手</a> [29] <font color='grey'>- 21时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4e2c-63aa-788d-9103-8c9b521230ef" target="_blank" class="news-link">Initial Jobless Claims 4-Week Average (Mar.28)</a> [30] <font color='grey'>- 21时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47612387" target="_blank" class="news-link">DMCA-resistant Claude Code source code</a> [29] <font color='grey'>- 21时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/935/491.htm" target="_blank" class="news-link">谷歌公布“安卓开发者验证机制”落地路线图，后年起未认证 APK 应用将无法侧载</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
