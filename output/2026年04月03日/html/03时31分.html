@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 98</p><p>生成时间: 2026-04-03 03:31:16</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">9.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4f9e-d7ee-7aa3-a071-3801d7791dd6" target="_blank" class="news-link">&lt;b&gt;IRAN&#x27;S REVOLUTIONARY GUARDS SAY THEY HAVE TARGETED ORACLE&#x27;S DATA CENTER IN DUBAI - STATE MEDIA&lt;/b&gt;</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47618189" target="_blank" class="news-link">Tailscale&#x27;s New macOS Home</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4f99-7b35-7aa3-a071-2eb6080e88f5" target="_blank" class="news-link">&lt;b&gt;IRANIAN MILITARY SPOKESPERSON SHEKARCHI SAYS THE STRAIT OF HORMUZ WILL BE CLOSED &#x27;LONG TERM&#x27; TO U.S. AND ISRAEL&lt;/b&gt;</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47618602" target="_blank" class="news-link">Zep AI Is Hiring – Building the Agent Context Layer (YC W24)</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4f68-bf87-7aa3-a070-b42f69219c60" target="_blank" class="news-link">PAKISTAN PETROLEUM MINISTER: RAISES PETROL PRICES TO 458.40 RUPEES A LITER</a> [18] <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4f66-43a4-7aa3-a070-aafa3f65028a" target="_blank" class="news-link">&lt;b&gt;EU&#x27;S KALLAS ON STRAIT OF HORMUZ: IRAN CANNOT BE ALLOWED TO CHARGE COUNTRIES A BOUNTY TO LET SHIPS PASS&lt;/b&gt;</a> [19]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4f5e-db95-7aa3-a070-a320df39762e" target="_blank" class="news-link">EU&#x27;S KALLAS: WE SUPPORT WORK BY THE UN ON HUMANITARIAN CORRIDORS IN THE STRAIT OF HORMUZ TO GET FOOD AND FERTILISERS OUT</a> [20]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4f59-9871-7aa3-a070-91f05522226d" target="_blank" class="news-link">JP MORGAN: WORKING ASSUMPTION IS THAT STRAIT DISRUPTION WILL EVENTUALLY BE RESOLVED, WITH OIL PRICES EXPECTED TO STAY ELEVATED (HIGHER THAN $100/BBL) IN 2Q BEFORE RETRACING IN 2H26</a> [22] <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4f57-efe0-7aa3-a070-81a65b4a7ec6" target="_blank" class="news-link">JP MORGAN: THERE IS A RISK OF PRICES ABOVE $150/BBL IF STRAIT OF HORMUZ FLOWS REMAIN IMPAIRED INTO MID-MAY</a> [24] <font color='grey'>- 03时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">1.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d4f9b-dc47-7aa3-a071-36fd7a3efd8f" target="_blank" class="news-link">GOOGLE: ADDED TWO NEW SERVICE TIERS TO THE GEMINI API</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
