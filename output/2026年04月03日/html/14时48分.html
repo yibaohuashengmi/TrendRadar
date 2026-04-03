@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 214</p><p>生成时间: 2026-04-03 14:48:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">6.07%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d5203-30d2-7aa3-a075-2b2fd4a92d93" target="_blank" class="news-link">&lt;b&gt;MYANMAR JUNTA CHIEF MIN AUNG HLAING CONFIRMED AS PRESIDENT - HOUSE SPEAKER&lt;/b&gt;</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1203342" target="_blank" class="news-link">刚上线了一个 AI 工具导航站，目前可免费提交</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d51e2-6b3f-7aa3-a074-feb8a0e191b5" target="_blank" class="news-link">MYANMAR JUNTA CHIEF MIN AUNG HLAING WINS PARLIAMENTARY VOTES NEEDED TO BECOME PRESIDENT - LIVE VOTE COUNT</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d51d7-7512-7aa3-a074-edc849e7fbbd" target="_blank" class="news-link">&lt;b&gt;TAIWAN&#x27;S WEIGHTED INDEX CLOSED DOWN 1.82%, AT 32572.43&lt;/b&gt;</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/935/701.htm" target="_blank" class="news-link">中东冲突、AI 浪潮、产能受限 DEBUFF 叠满：涨价已从内存、处理器传导至 PCB 等元件</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d51d6-6cee-7aa3-a074-e253e33a29ce" target="_blank" class="news-link">UKRAINE IS READY TO SHARE ITS BLACK SEA MARITIME EXPERTISE AS THE UN SECURITY COUNCIL PREPARES TO DEBATE A BAHRAIN-BACKED RESOLUTION ON PROTECTING SHIPPING IN THE STRAIT OF HORMUZ-KYIV POST</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d51cc-e5ce-7aa3-a074-dd143c4abed9" target="_blank" class="news-link">&lt;b&gt;JAPANESE GOVERNMENT REPORTEDLY TAPPING 800 BILLION YEN IN RESERVE FUNDS ​TO FINANCE SUBSIDIES AIMED AT KEEPING GAS PRICES LOW&lt;/b&gt;</a> [11] <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47562455" target="_blank" class="news-link">The True Shape of Io&#x27;s Steeple Mountain</a> [11] <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d51c8-30b0-7aa3-a074-c7eb887d8c8b" target="_blank" class="news-link">SHENZHEN COMPONENT INDEX DOWN OVER 1%, SHANGHAI COMPOSITE INDEX DOWN 1.17%</a> [14] <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d51b9-3732-7aa3-a074-a97b3e41b8f9" target="_blank" class="news-link">FITCH EXPECTS REPAIRS TO QATARENERGY LNG INFRASTRUCTURE WILL TAKE SEVERAL YEARS TO COMPLETE</a> [17] <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d51b7-88bf-7aa3-a074-a5e5c18247d4" target="_blank" class="news-link">SHANGHAI COMPOSITE INDEX DOWN OVER 1%</a> [18] <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2023359161887450046" target="_blank" class="news-link">同事被优化后 AI 分身在群里回消息、写代码，这种「数字分身」会侵犯离职员工权益吗？可能带来哪些问题？</a> [20] <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/638228980.html" target="_blank" class="news-link">谢谢AI，成功让我笑了出来</a> [25] <font color='grey'>- 14时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">3</td>
+                <td class="percentage">1.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260403143651709800" target="_blank" class="news-link">阿里发布Wan2.7-Video视频生成模型</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3082014" target="_blank" class="news-link">阿里发布Wan2.7-Video视频生成模型</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时48分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1203320" target="_blank" class="news-link">香港服务器租用为什么首选阿里云国际？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1203315" target="_blank" class="news-link">claude code 新推出宠物太丑了 我做了一个 macOS 桌面宠物</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83951" target="_blank" class="news-link">Google 发布开放权重模型 Gemma 4</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/935/695.htm" target="_blank" class="news-link">华为智选车产品总监彭磊：享界超级工厂将试制全新 SUV 和 MPV</a> [14] <font color='grey'>- 14时48分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
