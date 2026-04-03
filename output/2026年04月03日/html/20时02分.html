@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 144</p><p>生成时间: 2026-04-03 20:02:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">6.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d5329-807a-7cc8-94ab-4032a42d5755" target="_blank" class="news-link">CANADA FINANCE MINISTER: RAISED THE ISSUE OF PORK DURING MEETING WITH CHINESE COUNTERPARTS</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d5329-6b11-7cc8-94ab-3abdf21f3334" target="_blank" class="news-link">China Steel Inventory Declines in Late March, Remains Above Year-Ago Levels</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d5323-80b5-7cc8-94ab-2dbace53fb96" target="_blank" class="news-link">CANADA FINANCE MINISTER: DISCUSSED IMPORTANCE OF SUPPLY CHAIN INTEGRITY DURING MEETING IN CHINA</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d531b-6a8d-7cc8-94ab-13d35521efc5" target="_blank" class="news-link">US ATTEMPT TO RESCUE ITS DOWNED FIGHTER PILOT HAS FAILED - TASNIM REPORTER</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d5317-2447-7cc8-94ab-08f5165897ce" target="_blank" class="news-link">IRAN&#x27;S TASNIM CLAIMS A U.S. PILOT EJECTED AFTER F-15E JET WAS DOWNED IN IRAN AND MAY HAVE BEEN CAPTURED BY IRANIAN FORCES, THOUGH DETAILS REMAIN UNCONFIRMED.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d5309-45a1-7cc8-94ab-04e5a7842487" target="_blank" class="news-link">MITSUI O.S.K. LINES SPOKESPERSON: AN LNG TANKER WE CO-OWN HAS CROSSED STRAIT OF HORMUZ</a> [11] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d5304-c797-7cc8-94aa-f87ba902ed0a" target="_blank" class="news-link">JAPAN&#x27;S MITSUI O.S.K. LINES LNG TANKER &#x27;SOHAR&#x27; CROSSED STRAIT OF HORMUZ, ASAHI NEWSPAPER REPORTS, CITING COMPANY</a> [12] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d52ff-5382-7cc8-94aa-f1b15142673d" target="_blank" class="news-link">CHINA&#x27;S XI CONGRATULATES MIN AUNG HLAING ON ELECTION AS MYANMAR&#x27;S PRESIDENT- XINHUA</a> [13] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260403190851634800" target="_blank" class="news-link">上海市新增7款已完成备案的生成式人工智能服务</a> [22] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47573728" target="_blank" class="news-link">Intel Assured Supply Chain Product Brief</a> [23] <font color='grey'>- 20时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1203411" target="_blank" class="news-link">从 Antigravity 转 Claude Code 几天的心得</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Gemma4%E4%B8%8EQwen3.6%E6%9C%89%E5%93%AA%E4%BA%9B%E5%8D%87%E7%BA%A7" target="_blank" class="news-link">Gemma4与Qwen3.6有哪些升级</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
