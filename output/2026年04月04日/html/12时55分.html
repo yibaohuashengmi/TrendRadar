@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 216</p><p>生成时间: 2026-04-04 12:55:13</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">4.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3082383" target="_blank" class="news-link">千问AI打车上线后周环比增长超1500%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769250" target="_blank" class="news-link">网传OpenAI“股权结构表”：微软“130亿美元投资”已升至“2283亿美元”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/935/963.htm" target="_blank" class="news-link">1.4 万亿词元！阿里 Qwen3.6-Plus 刷新全球最大 AI 聚合平台 OpenRouter 日调用量纪录</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47635033" target="_blank" class="news-link">Show HN: Travel Hacking Toolkit – Points search and trip planning with AI</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/935/950.htm" target="_blank" class="news-link">不只是出错，研究称 AI 智能体开始学会“撒谎”“不听话”</a> [11] <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47621792" target="_blank" class="news-link">Post Mortem: axios NPM supply chain compromise</a> [16] <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7624100808338276358" target="_blank" class="news-link">别再像个傻子一样天天手敲 Prompt 了！我用“拖拽连线”把 AI 驯服成了无情的 CRUD 机器（鳌虾 2.0 震撼发布）</a> [25] <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7623609603088105487" target="_blank" class="news-link">重磅！JetBrains 正式发布全新的 AI 开发工具，定名 AI IDE AIR</a> [28] <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7623653112386289683" target="_blank" class="news-link">多模态是假的?李飞飞团队发现AI根本&quot;看不见&quot;,靠海市蜃楼效应编造</a> [30] <font color='grey'>- 12时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769246" target="_blank" class="news-link">Anthropic封堵“龙虾”：4月4日下午3点起，Claude 订阅账号额度无法用于OpenClaw</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=ClaudeCode%E5%BA%95%E5%B1%82%E6%8A%80%E6%9C%AF%E6%8B%86%E8%A7%A3" target="_blank" class="news-link">ClaudeCode底层技术拆解</a> [16] <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7623470639080816646" target="_blank" class="news-link">Claude Code 源码泄露后，我反而更确定：终端 Agent 只该接 3 类活</a> [27] <font color='grey'>- 12时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404114402936800" target="_blank" class="news-link">千问3.6Plus大模型登顶全球模型调用排行榜首，日调用量破万亿</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3082373" target="_blank" class="news-link">千问3.6Plus大模型登顶全球模型调用排行榜首</a> [12] <font color='grey'>- 12时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769240" target="_blank" class="news-link">长达30年的法律保护失效！Meta和谷歌陷危机</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
