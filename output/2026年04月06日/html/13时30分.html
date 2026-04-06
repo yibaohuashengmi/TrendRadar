@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 208</p><p>生成时间: 2026-04-06 13:30:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">4.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6129-a6f2-7447-987e-259d1da8aaa2" target="_blank" class="news-link">Retail Sales (YoY) (Feb)</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769308" target="_blank" class="news-link">最刺激的“调研”？“网红AI研究机构”：公开数据漏报了50%霍尔木兹真实通行量</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6129-75b3-7447-987e-1180f96d753f" target="_blank" class="news-link">Retail Sales SA (MoM) (Feb)</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时30分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/217.htm" target="_blank" class="news-link">字节跳动红果短剧：针对近期 AI 短剧素材违规使用问题频发的情况，已处置作品 670 部</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时30分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/214.htm" target="_blank" class="news-link">“害怕被淘汰”心态席卷美国职场，AI 焦虑催生新词“FOBO”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406121342962800" target="_blank" class="news-link">AirAsia X创始人：燃油成本基本上已翻了一倍多。</a> [19] <font color='grey'>- 13时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406120359099800" target="_blank" class="news-link">AirAsia X创始人：飞机交付未出现延误；今年将按计划接收四架新机。</a> [22] <font color='grey'>- 13时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406120353341800" target="_blank" class="news-link">AirAsia X创始人：不受林吉特汇率波动影响；油价是最关键因素。</a> [23] <font color='grey'>- 13时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406120124811800" target="_blank" class="news-link">AirAsia X创始人：马来西亚国家石油公司告知我们，燃油储备可维持至6月。越南和泰国对飞机加油仍有一定限制。</a> [27] <font color='grey'>- 13时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1203771" target="_blank" class="news-link">阿里的 codingplan pro,中转站的人很喜欢</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时30分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
