@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 55</p><p>生成时间: 2026-04-07 06:01:51</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">7.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769334" target="_blank" class="news-link">审判临近火药味升级，OpenAI要求调查马斯克的“违规和反竞争行为”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3082983" target="_blank" class="news-link">博通公司与谷歌达成至2031年的长期TPU和网络供应协议。 与谷歌、Anthropic扩大合作。 Anthropic将从2027年起接入3.5吉瓦的TPU人工智能算力。</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407052427059800" target="_blank" class="news-link">博通公司：与谷歌、Anthropic扩大合作；Anthropic将从2027年起接入3.5吉瓦的TPU人工智能算力。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 06时01分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47662596" target="_blank" class="news-link">AI singer now occupies eleven spots on iTunes singles chart</a> [23] <font color='grey'>- 06时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">5.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769336" target="_blank" class="news-link">博通公司与谷歌达成至2031年的长期TPU和网络供应协议。博通盘后股价一度涨3%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407054343855800" target="_blank" class="news-link">博通与谷歌达成长期协议，合作开发并供应TPU</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407052400392800" target="_blank" class="news-link">博通(AVGO.O)公司与谷歌(GOOG.O)达成至2031年的长期TPU和网络供应协议。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">3.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407054847210800" target="_blank" class="news-link">Anthropic公司：预计2026年年化收入将超过300亿美元，高于2025年底的约90亿美元。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时01分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47660925" target="_blank" class="news-link">Issue: Claude Code is unusable for complex engineering tasks with Feb updates</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 06时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">1.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47659135" target="_blank" class="news-link">Sam Altman may control our future – can he be trusted?</a> [12] <font color='grey'>- 06时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
