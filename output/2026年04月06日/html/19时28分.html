@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 179</p><p>生成时间: 2026-04-06 19:28:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">6.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d627d-c65d-711f-8e87-5119b342db4a" target="_blank" class="news-link">&lt;b&gt;ISRAELI AIR FORCE STRUCK IRAN&#x27;S &quot;LARGEST PETROCHEMICAL FACILITY&quot; A SHORT WHILE AGO, DEFENSE MINISTER ISRAEL KATZ SAYS&lt;/b&gt;</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1203822" target="_blank" class="news-link">用几十块搞一个比市场上几千块的 AI 眼镜更强的智能硬件</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d627d-7bc2-711f-8e87-4c4e330517e2" target="_blank" class="news-link">REPORTS FROM IRAN: QATARI SHIPS WERE TURNED BACK FROM THE STRAIT OF HORMUZ</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6278-65ed-711f-8e87-4231f21bbb31" target="_blank" class="news-link">&lt;b&gt;UKRAINE&#x27;S FIRE POINT IN TALKS WITH EUROPEAN FIRMS WITH AIM OF DEVELOPING AIR DEFENCE SYSTEM BY NEXT YEAR&lt;br/&gt;&lt;br/&gt;FIRE POINT SAYS ANTI-TRUST AUTHORITY HAS UNTIL OCTOBER TO DECIDE ON $760 MLN INVESTMENT BY MIDDLE EAST FIRM&lt;br/&gt;&lt;br/&gt;FIRE POINT SAYS IT WILL START TESTING LONGER-RANGE FP-9 BALLISTIC MISSILE CAPABLE OF REACHING MOSCOW&lt;/b&gt;</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3082806" target="_blank" class="news-link">室内空气系统供应商Madison Air Solutions寻求通过IPO筹资至多22.3亿美元。（彭博）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6253-80de-711f-8e87-10bc7d635403" target="_blank" class="news-link">INDIA GOVT OFFICIAL: SEEKING SAFE PASSAGE OF REMAINING VESSELS FROM STRAIT OF HORMUZ</a> <font color='red'><strong>[9]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3082798" target="_blank" class="news-link">OpenAI发布文章 提出AI时代产业政策建议</a> [12] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32911737" target="_blank" class="news-link">易烊千玺被“换脸”？红果短剧：坚决打击AI短剧素材违规使用、无授权盗用等行为</a> [18] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406183015530800" target="_blank" class="news-link">OpenAI发布文章 提出AI时代产业政策建议</a> [24] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7624422672949035046" target="_blank" class="news-link">从“能跑”到“能用”：Gemma 4 如何成为本地 AI Agent 的实用之选</a> [25] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7624405552064217124" target="_blank" class="news-link">2026 年 AI 领域最火范式：Harness Engineering（驾驭工程）全解析</a> [26] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7624757025520058378" target="_blank" class="news-link">LangChain 第一阶段学完后，我对 AI Agent 开发的 6 个核心判断</a> [29]</div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7624409348656857094" target="_blank" class="news-link">突发：Anthropic 今天起封杀 OpenClaw 用订阅额度，我的应对方案</a> [23] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7624105806963834930" target="_blank" class="news-link">CC 开源源码解读（一）：为什么 Claude Code 不需要 RAG？</a> [27] <font color='grey'>- 19时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7624083270016827446" target="_blank" class="news-link">Gemma 4 发布：Google 这次玩真的，4 种规模全开源，从手机到服务器都能跑。</a> [20] <font color='grey'>- 19时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406190358039800" target="_blank" class="news-link">伊朗伊斯兰革命卫队：阿联酋与“犹太复国主义政权”的无人机联合生产中心，以及驻扎在阿里·萨利姆基地的数架飞机，均遭无人机和导弹精确打击。</a> [11] <font color='grey'>- 19时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
