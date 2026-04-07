@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 149</p><p>生成时间: 2026-04-08 02:31:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">7.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47679121" target="_blank" class="news-link">Project Glasswing: Securing critical software for the AI era</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时31分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1204158" target="_blank" class="news-link">ZoyaChat - 给 openclaw 做了个桌面客户端，不用命令行也能搞 AI Agent</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3083664" target="_blank" class="news-link">Anthropic正创建一个名为Project Glasswing的倡议，允许苹果、亚马逊测试更加强大的AI模型Mythos。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47664836" target="_blank" class="news-link">AI helps add 10k more photos to OldNYC</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6916-876a-7bb8-817e-96b03e6102a7" target="_blank" class="news-link">KUWAIT URGES PEOPLE TO AVOID GOING OUT FROM MIDNIGHT TO WEDNESDAY, 6 AM LOCAL TIME</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6915-12c5-7bb8-817e-86bed9cc3a90" target="_blank" class="news-link">UK WARSHIP HMS DRAGON HAS BEEN FORCED TO WITHDRAW IN ORDER TO BE REPAIRED AT A PORT AFTER BEING DEPLOYED TO THE MIDDLE EAST - DAILY MAIL</a> [12] <font color='grey'>- 02时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d68f1-1fb9-7bb8-817e-3156b0b3f0c0" target="_blank" class="news-link">FED&#x27;S GOOLSBEE: $5/GALLON GAS WILL AFFECT THE SUPPLY CHAIN</a> [22] <font color='grey'>- 02时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d68ee-a998-7bb8-817e-243d3d2de883" target="_blank" class="news-link">Iran Signals Arsenal Remains Intact in Mediator Talks</a> [24] <font color='grey'>- 02时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d68e9-b7b1-7bb8-817e-13887fae41dd" target="_blank" class="news-link">FED&#x27;S GOOLSBEE: THE LONGER YOU GO WITH HIGH INFLATION, THE MORE IT GETS INGRAINED INTO THE ECONOMY</a> [26] <font color='grey'>- 02时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d68e9-3c8b-7bb8-817e-04e38f475622" target="_blank" class="news-link">DHS SECRETARY SAYS GOVERNMENT COULD STOP PROCESSING INTERNATIONAL TRAVELERS AT MAJOR AIRPORTS IN SO-CALLED &quot;SANCTUARY CITIES&quot;</a> [28] <font color='grey'>- 02时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d68e7-9969-7bb8-817d-f68115490c71" target="_blank" class="news-link">CHINA&#x27;S U.N. AMBASSADOR SAYS BAHRAINI DRAFT HORMUZ RESOLUTION CONTAINED ONE-SIDED CONDEMNATION AND PRESSURE</a> [30] <font color='grey'>- 02时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">7</td>
+                <td class="percentage">4.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260408020158994800" target="_blank" class="news-link">Anthropic：“GLASSWING”项目由Claude Mythos预览版提供支持；合作方将利用Mythos预览版开展防御性安全工作。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260408020118531800" target="_blank" class="news-link">Anthropic：在与“GLASSWING”项目相关的各项工作中，承诺提供高达1亿美元的使用额度。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260408020039926800" target="_blank" class="news-link">Anthropic：正与美国政府官员就Claude Mythos预览版及其进攻性和防御性网络能力进行持续磋商。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47679258" target="_blank" class="news-link">System Card: Claude Mythos Preview [pdf]</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d691b-6297-7bb8-817e-abe7fc0e678d" target="_blank" class="news-link">ANTHROPIC TO PREVIEW CYBERSECURITY FOCUSED MYTHOS MODEL</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d691a-5283-7bb8-817e-a00a30adbe35" target="_blank" class="news-link">&lt;b&gt;ANTHROPIC: IN ONGOING DISCUSSIONS WITH US GOVT OFFICIALS ABOUT CLAUDE MYTHOS PREVIEW AND ITS OFFENSIVE &amp; DEFENSIVE CYBER CAPABILITIES&lt;/b&gt;</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47679155" target="_blank" class="news-link">Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities</a> [21] <font color='grey'>- 02时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
