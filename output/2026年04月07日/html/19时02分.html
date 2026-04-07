@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 234</p><p>生成时间: 2026-04-07 19:02:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">20</td>
+                <td class="percentage">8.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d678c-7b4e-755e-95ee-6e4d110f9e7b" target="_blank" class="news-link">INDIA SEES NO NEED TO REVISE BUDGET PROJECTIONS UNLESS CRISIS LASTS 2-3 MONTHS: GOVERNMENT SOURCES&lt;br/&gt;&lt;br/&gt;INDIA TO MAINTAIN CAPEX, PRUNE OTHER SPENDING AMID RISING COSTS: GOVERNMENT SOURCES&lt;br/&gt;&lt;br/&gt;INDIA SEES NO IMMEDIATE RISKS TO FISCAL DEFICIT TARGET: GOVERNMENT SOURCES</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6785-accc-755e-95ee-5e858fa77bb2" target="_blank" class="news-link">&lt;b&gt;IRAN’S REVOLUTIONARY GUARD WARNS NEIGHBOURING COUNTRIES &#x27;RESTRAINT IS OVER&#x27;, SAYS IT WILL TARGET U.S. AND PARTNERS&#x27; INFRASTRUCTURE, THREATENS TO DISRUPT REGIONAL OIL AND GAS SUPPLIES FOR YEARS&lt;/b&gt;</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/692.htm" target="_blank" class="news-link">苹果海外官网上架 Herschel Cloudform iPhone 斜挎包：可放置 AirTag，59.95 美元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1204090" target="_blank" class="news-link">AI 编程真的太省心了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47672318" target="_blank" class="news-link">Blackholing My Email</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6775-d4a3-755e-95ee-2e2a62519b49" target="_blank" class="news-link">UAE SAYS AIR DEFENSES RESPONDING TO MISSILE THREAT- DEFENSE MINISTRY</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6775-c10e-755e-95ee-2338e0bc7deb" target="_blank" class="news-link">&lt;b&gt;JAPAN PM TAKAICHI: ENOUGH CRUDE OIL, OIL PRODUCTS HAVE BEEN SECURED FOR JAPAN&lt;/b&gt;</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d676d-5cf6-755e-95ee-12d853ef3b0c" target="_blank" class="news-link">SENIOR IRANIAN SOURCE: PRECONDITIONS INCLUDE AN IMMEDIATE HALT TO STRIKES, GUARANTEES STRIKES WILL NOT BE REPEATED, COMPENSATION FOR DAMAGES&lt;br/&gt;&lt;br/&gt;SENIOR IRANIAN SOURCE: UNDER A PERMANENT PEACE DEAL, TEHRAN DEMANDS FEES FOR SHIPS PASSING THROUGH HORMUZ STRAIT&lt;br/&gt;&lt;br/&gt;SENIOR IRANIAN SOURCE: FEES WOULD VARY DEPENDING ON TYPE OF SHIP, ITS CARGO, PREVAILING CONDITIONS</a> [12] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7625528557730365486" target="_blank" class="news-link">Cursor + Claude Code 组合使用心得：我为什么不只用一个 AI 编程工具</a> [13] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d676a-42da-755e-95ed-fb784f732b8f" target="_blank" class="news-link">JAPAN PM TAKAICHI: WILL KEEP CLOSE EYE ON MIDDLE EAST SITUATION&#x27;S IMAPCT ON ECONOMY AND TAKE NECESSARY STEPS WITHOUT HESITATION</a> [15] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3083393" target="_blank" class="news-link">香农芯创：预计一季度净利润11.4亿元–14.8亿元，同比增长6,714.72%-8,747.18%；在生成式人工智能(AGI)应用需求蓬勃增长的强劲驱动下，行业景气度持续上行，企业级存储产品价格持续上涨，公司盈利能力持续改善，利润水平大幅提高。</a> [16] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6767-7816-755e-95ed-eac46ce611cb" target="_blank" class="news-link">&lt;b&gt;GOOGLE: UPDATES GEMINI AI TO PROVIDE DIRECT CRISIS HOTLINE CONNECTIONS FOR MENTAL HEALTH SUPPORT&lt;/b&gt;</a> [17] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6767-48a7-755e-95ed-e47fb6baaa3d" target="_blank" class="news-link">GOOGLE: EXPANDING PARTNERSHIP WITH REFLEXAI, INITIATIVE INCLUDES $4 MILLION IN DIRECT FUNDING</a> [18] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6751-60ab-755e-95ed-c60f9e3e120d" target="_blank" class="news-link">JAPAN FINMIN KATAYAMA: TOO PREMATURE TO TALK ABOUT COST ESTIMATES AS IT REMAINS UNCERTAIN HOW LONG THE MIDDLE EAST SITUATION WILL LAST, WHEN ASKED ABOUT EXTRA BUDGET</a> [22] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3083382" target="_blank" class="news-link">云汉芯城：预计一季度净利润4,904.41万元–5,420.66万元，同比增长139.40%–164.60%；第一季度，人工智能算力、新能源汽车等领域需求旺盛，带动相关电子元器件需求持续增长。</a> [22] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7624757025520975882" target="_blank" class="news-link">AI 翻译代码会干掉跨平台框架吗？KMP、Flutter、RN 的真实处境</a> [22] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6750-7001-755e-95ed-bcaf58e575d3" target="_blank" class="news-link">&lt;b&gt;JAPAN FINMIN KATAYAMA: PM TAKAICHI WILL SPEAK WITH ONE OF OIL PRODUCING COUNTRIES TODAY&lt;/b&gt;</a> [23] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7625454584483463202" target="_blank" class="news-link">实测！Gemma 4 成功跑在安卓手机上：离线 AI 助手终于来了</a> [23] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7624541532617179151" target="_blank" class="news-link">用 React Native + AI Agent 做宠物社交App，我踩了这些坑</a> [25] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6747-02a2-755e-95ed-95a874fc4349" target="_blank" class="news-link">PONY AI: RECEIVED REGULATORY APPROVAL TO ENTER BY-INVITE RIDES IN SINGAPORE</a> [28] <font color='grey'>- 19时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">2</td>
+                <td class="percentage">0.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83976" target="_blank" class="news-link">Sam Altman 能被信任吗？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9B%9DGPT6%E6%9C%AC%E6%9C%88%E5%8F%91%E5%B8%83" target="_blank" class="news-link">曝ChatGPT6本月发布</a> [17] <font color='grey'>- 19时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/695.htm" target="_blank" class="news-link">谷歌改进 Gemini 助手危机响应机制，可帮助用户一键拨打求助热线</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6767-9c48-755e-95ed-f08639ce91e8" target="_blank" class="news-link">&lt;b&gt;GOOGLE: ANNOUNCING $30 MLN FUNDING GLOBALLY OVER NEXT THREE YEARS TO HELP GLOBAL HOTLINES - BLOG&lt;/b&gt;</a> [16] <font color='grey'>- 19时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/679.htm" target="_blank" class="news-link">HiCar 互联来了：华为畅享 90 Pro Max 手机获鸿蒙 HarmonyOS 6.0.0.138 SP23 升级</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
