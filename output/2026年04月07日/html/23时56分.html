@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 222</p><p>生成时间: 2026-04-07 23:56:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">5.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d689f-dc18-7bb8-817c-5f74f651059f" target="_blank" class="news-link">AIR DEFENSES ACTIVATED OVER TEHRAN, FIGHTER PLANES FLYING ON LOW ALTITUDE OVER THE CITY, BORNA NEWS AGENCY SAYS</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769416" target="_blank" class="news-link">英特尔入局马斯克“Terafab”，联手打造1太瓦级AI算力帝国</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1204131" target="_blank" class="news-link">VibeAround v0.1 发布：在 IM 里和 AI 编程 Agent 对话，无需订阅官方会员方案</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d689b-7f61-7bb8-817c-3ba4f80d3a31" target="_blank" class="news-link">&lt;b&gt;U.N. SECURITY COUNCIL FAILS TO APPROVE BAHRAINI RESOLUTION ON PROTECTING SHIPPING IN STRAIT OF HORMUZ&lt;/b&gt;</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d689a-1d62-7bb8-817c-25bac214b38b" target="_blank" class="news-link">AIR FRANCE - FLIGHTS TO AND FROM TEL AVIV AND BEIRUT SUSPENDED UNTIL MAY 3, 2026 INCLUSIVE</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6899-7a20-7bb8-817c-12d33d49d7ba" target="_blank" class="news-link">ROCKETS LAUNCHED FROM DIRECTION OF KUWAIT HIT HOUSE IN KHOR AL-ZUBAIR NEAR IRAQ’S BASRA, KILL THREE PEOPLE, DEATH TOLL COULD RISE - SECURITY, HOSPITAL SOURCES</a> [12] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/742.htm" target="_blank" class="news-link">吉利汽车与紫光展锐将携手共同定义下一代座舱及端侧 AI 芯片</a> [13] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/740.htm" target="_blank" class="news-link">英特尔加入 Terafab 计划，与特斯拉、SpaceX、xAI 携手变革芯片制造</a> [15] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260407233039870800" target="_blank" class="news-link">&lt;a href=&quot;https://cdn.jin10.com/vip_column/index.html#/detail?id=850501&amp;skuID=1671010697886&amp;type=article&amp;courseID=225&amp;from=flash&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://img.jin10.com/misc/26/04/RhrmLqp_gn12R_5R054U5.jpg/lite&quot; height=&quot;120&quot;/&gt;&lt;/a&gt;</a> [16] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d688f-3e37-7bb8-817b-eeae0d5f03af" target="_blank" class="news-link">Tehran Signals Talks Ongoing, Reverses Earlier Claim of Cut Channels</a> [17] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/738.htm" target="_blank" class="news-link">索尼“The ColleXion”头戴式耳机新品曝光：定位高端，售价比苹果 AirPods Max 2 还贵</a> [18] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6882-2f83-7bb8-817b-b61e4f35411b" target="_blank" class="news-link">IRAN SAYS ALBORZ-ZANJAN RAILWAY LINES DAMAGED IN ENEMY ATTACK&lt;br/&gt;&lt;br/&gt;ONE PERSON DIED, 11 WOUNDED FROM RAILWAY ATTACK IN IRAN</a> [24] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/936/729.htm" target="_blank" class="news-link">美国网约车平台优步（Uber）与亚马逊 AWS 达成合作，使用 Trainium3 芯片训练出行 AI 模型</a> [25] <font color='grey'>- 23时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47676521" target="_blank" class="news-link">Claude Code is locking people out for hours</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1204149" target="_blank" class="news-link">claude code 怎么开启流式传输？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5205133" target="_blank" class="news-link">全系标配华为乾崑，华境S携手全球顶级供应链首发亮相，正式开启预订</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
