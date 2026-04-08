@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 245</p><p>生成时间: 2026-04-08 23:59:02</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">4.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769502" target="_blank" class="news-link">AI泡沫：美国新一轮量化宽松导火索？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/937/200.htm" target="_blank" class="news-link">华为鸿蒙电脑 HarmonyOS 6.0.0.328 花粉 Beta 版小艺升级点公布，新增投喂感应区、AI 音频播客等</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1204446" target="_blank" class="news-link">Ai 出现之后，人与人的差距被放大了</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6db0-3a96-7880-9eab-91f276e85e89" target="_blank" class="news-link">GENERAL ATLANTIC SAID TO BUY TEAM SERVICES FOR $3 BILLION</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/937/191.htm" target="_blank" class="news-link">联想 ThinkPad X13 Gen 7 笔记本发布：锐龙 AI Pro 400 / 酷睿 Ultra 300 系列处理器，936g 重</a> [11] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6da9-6663-7880-9eab-5669c3fdd431" target="_blank" class="news-link">U.S. EMBASSY IN BAGHDAD SAYS IRAN-BACKED IRAQI ARMED GROUPS CARRIED OUT DRONE ATTACKS NEAR DIPLOMATIC FACILITY AND BAGHDAD AIRPORT ON WEDNESDAY -POST ON X</a> [12] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47690415" target="_blank" class="news-link">Show HN: We fingerprinted 178 AI models&#x27; writing styles and similarity clusters</a> [12] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6da6-b80d-7880-9eab-41220749070a" target="_blank" class="news-link">KUWAIT: 4 MISSILES, 42 DRONES TARGET COUNTRY IN PAST 24 HOURS</a> [14] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/937/187.htm" target="_blank" class="news-link">强脑科技发布 BrainCo Revo 3 智能灵巧手：33 种抓握手势、3Hz 极速开合能力</a> [15] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6da0-c832-7880-9eab-1f1ff2fc53c4" target="_blank" class="news-link">&lt;b&gt;SAUDI OIL PIPELINE DAMAGE SAID TO BE LIMITED AFTER DRONE STRIKE&lt;br/&gt;&lt;br/&gt;SAUDI EAST-WEST PIPELINE WAS NOT SHUT DOWN AFTER STRIKE&lt;br/&gt;&lt;br/&gt;SAUDI OIL LOADINGS AT YANBU CONTINUE AS NORMAL ON WEDNESDAY&lt;/b&gt;</a> [19] <font color='grey'>- 23时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1204442" target="_blank" class="news-link">OwlCC - 完美改造 claudecode 的本地源代码，支持本地模型和云端模型自由切换</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1204441" target="_blank" class="news-link">antigravity 用 claude 怎么刚才到现在一直 high traffic</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/937/186.htm" target="_blank" class="news-link">智谱 GLM-5.1“Day0”上线华为云，在昇腾算力上实现 Layer 级 MOE 绝对均衡</a> [16] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/937/185.htm" target="_blank" class="news-link">华为畅享 90m Plus 手机现身官网：麒麟 8 系芯片、6620mAh 巨鲸电池，独占珊瑚橙配色</a> [17] <font color='grey'>- 23时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
