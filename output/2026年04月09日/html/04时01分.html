@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 129</p><p>生成时间: 2026-04-09 04:01:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">8.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47693679" target="_blank" class="news-link">I&#x27;ve been waiting over a month for Anthropic support to respond</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6e9b-b34a-7880-9eb1-603d7f983db7" target="_blank" class="news-link">IRAN&#x27;S PRESS TV: STRAIT OF HORMUZ HAS BEEN FULLY CLOSED, FORCING OIL TANKERS TO TURN BACK</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6e97-0dfc-7880-9eb1-35a27af5314b" target="_blank" class="news-link">VANCE: IRANIANS ARE PROMISING TO OPEN STRAIT OF HORMUZ</a> [16] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6e92-0970-7880-9eb1-243521f467c6" target="_blank" class="news-link">BAHRAIN STRESSES NECESSITY OF SOLUTION TO REFRAIN IRAN FROM ANY ACTIVITIES THAT COULD DE-ESTABLIZE SECURITY OF THE GULF AND REGION - BAHRAINI STATE NEWS AGENCY</a> [18] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6e91-edd3-7880-9eb1-1fc06c58d719" target="_blank" class="news-link">BAHRAIN STRESSES NECESSITY OF LASTING SOLUTION TO ENSURE IRAN DOES NOT POSSESS A NUCLEAR WEAPON AND HALT DEVELOPMENT AND PROLIFERATION OF BALLISTIC MISSILES AND DRONES - BAHRAINI STATE NEWS AGENCY</a> [19] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47694093" target="_blank" class="news-link">One item purchased, ten emails</a> [21] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=df9203c9-8804-4b59-8c38-cc26d2d90925" target="_blank" class="news-link">&lt;b&gt;IRAN&#x27;S SNN SAYS AN OIL TANKER THAT TRIED TO PASS THROUGH THE STRAIT OF HORMUZ WAS RETURNED BACK TO THE GULF WATERS&lt;/b&gt;</a> [22] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=117edb37-70fa-4591-a69a-ba0c70090330" target="_blank" class="news-link">&lt;b&gt;IRAN PORTS AND MARITIME ORGANIZATION SAYS PASSAGE THROUGH THE STRAIT OF HORMUZ MUST BE DONE IN COORDINATION WITH IRAN&#x27;S REVOLUTIONARY GUARDS- SNN&lt;/b&gt;</a> [25] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6e7d-b740-7880-9eb1-042671d82cfd" target="_blank" class="news-link">IRAN PORTS AND MARITIME ORGANIZATION DESIGNATES ALTERNATIVE SAFE ROUTES THROUGH THE STRAIT OF HORMUZ DUE POSSIBILITY OF MINES IN SOME PARTS OF THE STRAIT - SNN</a> [27] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6e7b-a69c-7880-9eb0-faf9cacaa558" target="_blank" class="news-link">IRAQI AIRWAYS RESUMES ITS DOMESTIC, INTERNATIONAL FLIGHTS STARTING FRIDAY -STATE NEWS AGENCY</a> [28] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6e77-0257-7880-9eb0-f6573b232811" target="_blank" class="news-link">&lt;b&gt;U.S. CRUDE OIL PRODUCTION TO REMAIN RELATIVELY STABLE, DECREASE SLIGHTLY BY 2050: EIA SAYS IN ANNUAL ENERGY OUTLOOK REPORT&lt;br/&gt;&lt;br/&gt;TOTAL U.S. CONSUMPTION OF PETROLEUM, OTHER LIQUIDS TO FALL BY 11%-23% IN 2050 VS. 2025, MAINLY DUE TO INCREASED USE OF ELECTRIC VEHICLES: EIA&lt;br/&gt;&lt;br/&gt;EIA ESTIMATES BRENT CRUDE PRICES BELOW $70 PER BARREL THROUGH 2030, ABOVE $75 IN LATE 2030S&lt;br/&gt;&lt;br/&gt;U.S. CRUDE PRODUCTION ESTIMATED TO BE BETWEEN 12.4 MLN BPD AND 12.7 MLN BPD BY 2050 VS. 13.6 MLN BPD IN 2025: EIA&lt;/b&gt;</a> [29] <font color='grey'>- 04时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769518" target="_blank" class="news-link">Anthropic新颠覆来了！Claude管理智能体将构建和部署速度提升10倍</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6ea2-a2f1-7880-9eb1-a3ee87a1e8e2" target="_blank" class="news-link">ANTHROPIC PLANS TO OPEN OFFICE IN BRAZIL, WITH OPERATIONS LAUNCHING IN 2027, REPORTS VALOR ECONOMICO</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
