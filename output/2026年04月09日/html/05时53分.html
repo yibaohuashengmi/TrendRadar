@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 77</p><p>生成时间: 2026-04-09 05:53:57</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">11.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1204471" target="_blank" class="news-link">让 AI 给我优化了一下 AI 默认规则，大佬们看看如何，有更好的建议吗？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3084595" target="_blank" class="news-link">AI21 Labs曾在2025年讨论出售给英伟达。 Nebius洽谈收购AI初创公司AI21。（The Information）</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6edc-f5d5-7880-9eb1-e9a84478722d" target="_blank" class="news-link">GOOGLE BLOG -ROLLING OUT NOTEBOOKS IN GEMINI THIS WEEK, STARTING WITH GOOGLE AI ULTRA, PRO AND PLUS SUBSCRIBERS ON WEB</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6ed5-71f4-7880-9eb1-e7473363cb76" target="_blank" class="news-link">BITCOIN DEPOT REPORTS CYBERSECURITY INCIDENT ON MARCH 23; UNAUTHORIZED TRANSFER OF 50.9 BITCOIN VALUED AT $3.665 MLN FROM COMPANY WALLETS - SEC FILING&lt;br/&gt;&lt;br/&gt;BITCOIN DEPOT: INCIDENT CONTAINED TO CORPORATE ENVIRONMENT; NO IMPACT ON CUSTOMER PLATFORMS; NO EVIDENCE OF CUSTOMER DATA ACCESSED; INVESTIGATION ONGOING</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3084589" target="_blank" class="news-link">周三（4月8日），存储芯片与硬件供应链指数涨8.08%，报125.83点，跳空高开、迅速刷新日高至127.77点，美股开盘后90分钟内呈现出冲高回落走势。 信息科技指数涨4.61%，人工智能（AI）赢家指数涨4.96%；AI软件先驱指数跌1.04%。</a> <font color='red'><strong>[8]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409051523248800" target="_blank" class="news-link">日本央行前执行董事Masaaki Kaizuka称，日本央行本月可能会提高基准利率，以避免在控制通胀方面落后。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 05时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409051237886800" target="_blank" class="news-link">OpenAI首席财务官表示，OpenAI正筹备上市，将向散户投资者分配IPO股份。</a> [11] <font color='grey'>- 05时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3084581" target="_blank" class="news-link">OpenAI的CFO Sarah Friar：公司将在IPO中配售股票给散户们。（CNBC）</a> [14] <font color='grey'>- 05时53分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47696035" target="_blank" class="news-link">John Deere to pay $99M in right-to-repair settlement</a> [19] <font color='grey'>- 05时53分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
