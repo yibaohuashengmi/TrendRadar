@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 225</p><p>生成时间: 2026-04-08 19:02:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">7.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769482" target="_blank" class="news-link">取代燃气轮机，AI电力的首选答案，是燃气发电机组？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/937/132.htm" target="_blank" class="news-link">Roblox 产品负责人 Peter Yang 谈 AI 时代育儿之道：希望孩子跳过上大学直接创业</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6cb9-764d-799c-926f-a553ed659cfd" target="_blank" class="news-link">RUSSIAN FOREIGN MINISTRY: RUSSIA LODGES PROTEST OVER JAPAN&#x27;S TERRA DRONE INVESTMENT IN UKRAINIAN INTERCEPTOR DRONES</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/937/128.htm" target="_blank" class="news-link">华为 AI 眼镜将至，何刚首曝新机拍摄样张</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/937/126.htm" target="_blank" class="news-link">SteamGPT 曝光：以 AI 分析账号关联，可迅速处理玩家游戏举报、退款咨询等问题</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/937/121.htm" target="_blank" class="news-link">微星推出第二代 MAG Infinite S AI 游戏 PC 整机：至高酷睿 Ultra 7 265 处理器、RTX 5070 Ti 显卡</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6cb1-95f0-799c-926f-7c880a946143" target="_blank" class="news-link">INDIA GOVT SOURCE - EXPECTS U.S. TO EXTEND WAIVER ON RUSSIAN OIL PURCHASES</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6cad-13e1-799c-926f-6fbedb47a977" target="_blank" class="news-link">UNITED AIRLINES SHARES RALLY 10%, AMERICAN AIRLINES UP 8.9%</a> [11] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6c9c-95f5-799c-926f-48dbd31d3d1d" target="_blank" class="news-link">KUWAIT CALLS ON IRAN AND ALLIED GROUPS TO HALT HOSTILITIES AND STRESSES NEED TO PROTECT FREEDOM OF NAVIGATION IN HORMUZ STRAIT</a> [15] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6c9c-7751-799c-926f-429dd0e06ba7" target="_blank" class="news-link">EU COMMISSION SPOKESPERSON DECLINES TO COMMENT ON POSSIBLE FUTURE STEPS TO SECURE TRAFFIC IN THE STRAIT OF HORMUZ</a> [16] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2018378114875482573" target="_blank" class="news-link">现在 AI 发展这么快，作为大学生，我们到底该重点培养哪些「AI 抢不走」的能力？</a> [16] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6c89-61fa-799c-926f-223cf6e48aff" target="_blank" class="news-link">ATTACK ON IRAN&#x27;S LAVAN ISLAND REFINERY LEFT NO CASUALTY, FUEL SUPPLY AND DISTRIBUTION NETWORK REMAINS STABLE - OIL MINISTRY&#x27;S SHANA</a> [20] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6c7f-087b-799c-926f-071ec6c2bf3a" target="_blank" class="news-link">VANCE SAYS IF IRANIANS DON&#x27;T ENGAGE IN GOOD FAITH THEY&#x27;RE GOING TO FIND OUT THAT PRESIDEN TRUMP IS NOT ONE TO MESS AROUND</a> [24] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6c7d-14a0-799c-926e-eebbcac973d8" target="_blank" class="news-link">VANCE SAYS THE IRANIANS HAVE AGREED TO OPEN THE STRAIT OF HORMUZ</a> [27] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7624757025521106954" target="_blank" class="news-link">AI时代，工程师的学习方式已经过时了</a> [28] <font color='grey'>- 19时02分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7625107538134417460" target="_blank" class="news-link">一人公司六步闭环：我把 WorkBuddy 用成了&quot;AI 合伙人&quot;</a> [29] <font color='grey'>- 19时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/937/119.htm" target="_blank" class="news-link">华为之外第一：深开鸿开源鸿蒙社区代码贡献量超过 800 万行</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d6c83-9e47-799c-926f-10bdc53a4aa6" target="_blank" class="news-link">ALIBABA HAS PROMOTED QWEN LAB TO QWEN LARGE MODEL BUSINESS UNIT, AND ESTABLISHED TECH COMMITTEE, LED BY CEO EDDIE WU, ACCORDING TO INSIDER NOTE</a> [22] <font color='grey'>- 19时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
