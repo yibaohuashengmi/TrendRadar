@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 187</p><p>生成时间: 2026-04-09 20:10:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">6.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769586" target="_blank" class="news-link">CoreWeave与Meta扩大AI基础设施协议，规模约210亿美元至2032年</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769587" target="_blank" class="news-link">无惧产能瓶颈！亚马逊一季度AI年化营收超150亿美元，自研芯片规模翻倍至200亿</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时10分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1204701" target="_blank" class="news-link">由于最近 Coding 开了好多 GPT 账号，管理切换 codex 麻烦，做了一个 AI Accounts Hub 工具</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时10分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84000" target="_blank" class="news-link">大电芯降本、AI算力“施压”，谁来替储能系统兜底这笔“物理账”？</a> <font color='red'><strong>[4 - 5]</strong></font> <font color='grey'>- 20时10分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1204692" target="_blank" class="news-link">AI 非常火，公司也是强制使用 AI，针对打工人来说，使用 AI 不会变的更加的轻松； 唯独使用 AI 做出自己的产品，才是最好的出路，也能提高自己的效率，最近借助 AI 做了一个短链产品</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=83997" target="_blank" class="news-link">科学家捏造了一种病，AI 告诉人们这是真的</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d720a-edbc-7880-9eb9-16aa7fbd9a39" target="_blank" class="news-link">BARCLAYS: CEASEFIRE ANNOUNCEMENT HAS NOT YET LIFTED OIL FLOWS THROUGH STRAIT OF HORMUZ BUT QUICK NORMALIZATION IS LARGELY IN PRICE</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d71f8-36e8-7880-9eb8-fefa4620bf54" target="_blank" class="news-link">SYRIAN FOREIGN MINISTER AL-SHAIBANI TO VISIT TURKEY THURSDAY</a> [11] <font color='grey'>- 20时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d71ee-ba6b-7880-9eb8-e7a2d41d2ce4" target="_blank" class="news-link">CHINA MIIT, NDRC, SAMR, AND NEA HOLD MEETING ON POWER AND ENERGY STORAGE BATTERY INDUSTRY, STRESS IMPORTANCE OF ADDRESSING &quot;INVOLUTION&quot; COMPETITION AND MAINTAINING A HEALTHY MARKET ENVIRONMENT</a> [14] <font color='grey'>- 20时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d71eb-51d6-7880-9eb8-de99582ee506" target="_blank" class="news-link">&lt;b&gt;CORE-WEAVE AND META HAVE AGREED ON A $21 BILLION EXPANSION OF THEIR AI INFRASTRUCTURE PARTNERSHIP, WHICH WILL FEATURE THE NVIDIA VERA RUBEN PLATFORM&lt;/b&gt;</a> [15] <font color='grey'>- 20时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3085038" target="_blank" class="news-link">CoreWeave美股盘前涨超7%，公司与Meta签署210亿美元AI基础设施协议</a> [23] <font color='grey'>- 20时10分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E7%BA%A2%E5%88%A9%E5%92%8C%E6%99%AE%E9%80%9A%E4%BA%BA%E6%9C%89%E4%BD%95%E5%85%B3%E7%B3%BB" target="_blank" class="news-link">AI红利和普通人有何关系</a> [23] <font color='grey'>- 20时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.07%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1204694" target="_blank" class="news-link">今天尝试了 Claude Managed Agents，发现了它的一些能力边界</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时10分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2025035806335596432" target="_blank" class="news-link">如何看待 Anthropic 的新模型 Mythos？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/937/523.htm" target="_blank" class="news-link">华为 &amp; 广汽合作车型启境 GT7 完成申报：车长超 5 米，搭载 250 kW 电机</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
