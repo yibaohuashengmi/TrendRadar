@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 84</p><p>生成时间: 2026-04-10 05:12:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">13.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769624" target="_blank" class="news-link">亚马逊考虑对外销售自研AI芯片，年化营收规模或达500亿美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d73f7-735f-7447-bc9b-e308532bf8fa" target="_blank" class="news-link">SUPERMICRO LAUNCHES GOLD SERIES ENTERPRISE SERVER SOLUTIONS OPTIMISED FOR ENTERPRISE AI COMPUTE, STORAGE &amp; INTELLIGENT WORKLOADS</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260410044609661800" target="_blank" class="news-link">OpenAI创始人奥尔特曼：很高兴看到Codex受到这么多人的喜爱。应广大用户的强烈要求，我们即将推出100美元的ChatGPT Pro会员等级。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47709130" target="_blank" class="news-link">Discovering, detecting, and surgically removing Google&#x27;s AI watermark</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260410043705456800" target="_blank" class="news-link">OpenAI声称其算力比Anthropic更有优势</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d73eb-68d7-7447-bc9b-b0ebfe1b8aaa" target="_blank" class="news-link">&lt;b&gt;NORTH SEA OIL PRICES HIT RECORD HIGH AS IRAN MAINTAINS GRIP OVER HORMUZ - FT&lt;/b&gt;</a> [11] <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d73e7-1480-7447-bc9b-ae86e58557eb" target="_blank" class="news-link">OpenAI Highlights Compute Lead Over Anthropic to Investors</a> [12] <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3085328" target="_blank" class="news-link">美国佛州总检察长就涉ChatGPT枪击事件调查OpenAI</a> [12] <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3085326" target="_blank" class="news-link">美股芯片存储指数收涨超3.5%，与涨9%的成分股闪迪创历史新高，AI软件先驱指数跌约5.1%</a> [14] <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d73e3-dbcf-7447-bc9b-924799a40333" target="_blank" class="news-link">&lt;b&gt;OPENAI TELLS INVESTORS IT HAS COMPUTING EDGE OVER ANTHROPIC&lt;/b&gt;</a> [15] <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260410041947855800" target="_blank" class="news-link">OpenAI告诉投资者，其计算能力优于Anthropic。</a> [17] <font color='grey'>- 05时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3085315" target="_blank" class="news-link">纳斯达克金龙中国指数收跌1.32%，报6786.05点。 热门中概股里，蔚来初步收跌4.8%，百度跌4.6%，晶科能源跌3.9%，比亚迪跌3.4%，小马智行跌3.3%，拼多多跌3%，金山云涨1.5%，阿里巴巴涨1.8%。 ETF中，中概互联网指数ETF（KWEB）收跌1.07%，中国科技指数ETF（CQQQ）收跌0.84%。 德银嘉实沪深300指数ETF（ASHR）收跌0.36%，XtrackersHarvest中证50（ASHS）收跌0.03%。</a> [23]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
