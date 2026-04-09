@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 262</p><p>生成时间: 2026-04-09 16:23:27</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">7.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769544" target="_blank" class="news-link">A股三大股指全线下跌，算力硬件逆势活跃，恒科指跌超2%，AI大模型股强势拉升，智谱涨8%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202604/0968908.html" target="_blank" class="news-link">研究：AI陪伴虽能解孤独 长期或致焦虑抑郁</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d7139-0aca-7880-9eb6-f83c8031a5a2" target="_blank" class="news-link">CORRECTED-ISRAELI MILITARY SAYS IT HAS KILLED THE NEPHEW OF LEBANON&#x27;S HEZBOLLAH CHIEF NAIM QASSEM (NOT NAIM QASSEM HIMSELF), NO CONFIRMATION FROM GROUP</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769564" target="_blank" class="news-link">手握“通云哥”的阿里，正在复刻谷歌AI路线图</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d712f-6d89-7880-9eb6-ecafe5067af5" target="_blank" class="news-link">&lt;b&gt;ISRAELI MILITARY SAYS IT HAS KILLED LEBANON&#x27;S HEZBOLLAH CHIEF NAIM QASSEM, NO CONFIRMATION FROM GROUP&lt;/b&gt;</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1204622" target="_blank" class="news-link">HappyHorse-1.0：没有发布会没有公司名，直接登顶 AI 视频榜，然后消失了</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958878" target="_blank" class="news-link">Altman：AI已经发生，但多数人还停在过去</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/937/446.htm" target="_blank" class="news-link">AI 类股票超额收益 112%：“国会山股神”宝座易主，马斯克惊叹</a> [11] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d7121-2996-7880-9eb6-b9242684a7bb" target="_blank" class="news-link">SPAIN WILL REOPEN ITS EMBASSY IN TEHRAN</a> [12] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d711c-0434-7880-9eb6-ac25cef6a894" target="_blank" class="news-link">INDIAN OIL CORP LTD CHAIR- INDIA&#x27;S ANNUAL JET FUEL DEMAND TO RISE TO MORE THAN 20 MLN T BY 2040 VS 8 MLN T NOW</a> [14] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5206280" target="_blank" class="news-link">红板科技(603459.SH)：已在AI服务器PCB领域进行技术研发与产品布局</a> [14] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409154818939800" target="_blank" class="news-link">港股AI应用板块午后持续走弱，金蝶国际(00268.HK)跌超7%，金山软件(03888.HK)2跌超4%，阜博集团(03738.HK)、涂鸦智能(02391.HK)等跟跌。</a> [16] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/937/429.htm" target="_blank" class="news-link">微信支付已支持 AI 原生接入，推出打包 Skill</a> [16] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d7115-df1d-7880-9eb6-90c5e9d2d5a4" target="_blank" class="news-link">CHINA COMMERCE MINISTRY ON RARE EARTH EXPORT RULES: US-CHINA TO MAINTAIN DIALOGUE VIA TRADE CONSULTATION MECHANISM</a> [17]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d7112-bcac-7880-9eb6-796110cceffe" target="_blank" class="news-link">CHINA COMMERCE MINISTRY, ON EU TRADE:CHINA IS OPEN TO CONCLUSION OF ECONOMIC, TRADE AGREEMENTS BETWEEN PAIR</a> [20] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d710d-7507-7880-9eb6-6eb5b5e7c581" target="_blank" class="news-link">AT CLOSE, SHANGHAI COMPOSITE INDEX CLOSED DOWN 0.72%, SHENZHEN COMPONENT INDEX DOWN 0.33%, CSI 300 INDEX DOWN 0.64%, CHINEXT INDEX DOWN 0.73%</a> [22] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409153725917800" target="_blank" class="news-link">Meta Platforms(META.O)：Instagram上针对青少年的AI体验已更新，灵感来自针对13岁及以上人群的电影分级，这意味着AI不应给出不符合年龄的回复。</a> [25] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/937/412.htm" target="_blank" class="news-link">Linux 7 精细化 AI 交互：新增 3 个功能按键，可一键总结与搜索</a> [25] <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d710a-47c5-7880-9eb6-45f23b13961e" target="_blank" class="news-link">JEFFERIES RAISES COINBASE GLOBAL TARGET PRICE TO $181 FROM $151</a> [27] <font color='grey'>- 16时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3084923" target="_blank" class="news-link">隆基绿能与华为数字能源达成战略合作 推动储能产业高质量发展</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/937/433.htm" target="_blank" class="news-link">岚图泰山 X8 大五座 SUV 内饰公布，华为双 15.6 英寸智慧双联屏首发亮相</a> [15] <font color='grey'>- 16时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769561" target="_blank" class="news-link">阿里一季报有何期待？即时零售亏损有望减半，云业务增速或突破40%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时23分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2338812" target="_blank" class="news-link">港股恒指强力反弹背后 阿里巴巴卖空股数激增近130%</a> [12] <font color='grey'>- 16时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1204631" target="_blank" class="news-link">关于尼区 App Store 订阅 Claude</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
