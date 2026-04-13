@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 376</p><p>生成时间: 2026-04-13 11:24:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">6.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d84c4-8daf-7443-8eee-a8a9c5979e8b" target="_blank" class="news-link">CHINESE RIDE-HAILING PLATFORM CAOCAO AIMS FOR FIRST YEAR OF PROFITABILITY IN 2026&lt;br/&gt;&lt;br/&gt;GEELY-BACKED CAOCAO MOBILITY SEES 20%-25% REVENUE GROWTH IN 2026, CEO SAYS&lt;br/&gt;&lt;br/&gt;CAOCAO TARGETS EXPANDING TO 2-3 OVERSEAS MARKETS IN 2026, CEO SAYS&lt;br/&gt;&lt;br/&gt;CAOCAO PLANS TO LAUNCH ROBOTAXI SERVICES IN HONG KONG THIS YEAR, CEO SAYS&lt;br/&gt;&lt;br/&gt;CAOCAO TO ROLL OUT ROBOTAXI SERVICES IN 5-6 CITIES IN CHINA THIS YEAR, CEO SAYS</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769791" target="_blank" class="news-link">Claude Code缔造者：一个自学成才的程序员如何重塑AI编程赛道</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/453.htm" target="_blank" class="news-link">合作开发日本 AI 基础模型，软银、NEC、本田、索尼等成立新公司</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d84a9-c812-7443-8eee-8ce8e8c0ac3d" target="_blank" class="news-link">SOFTBANK, OTHER MAJOR JAPAN FIRMS SET UP NEW COMPANY FOR AI DEVELOPMENT-KYODO</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2026361952214017900" target="_blank" class="news-link">太乙真人配音演员声音被 AI 偷走，合作告吹，当声音被轻易复制，配音演员该如何保护自己的饭碗与权益？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3086623" target="_blank" class="news-link">工信部：做好2026年工业和信息化质量工作，深化人工智能赋能质量提升</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d849b-5797-7443-8eee-6ccd2c73895f" target="_blank" class="news-link">Airline Stocks Fall Broadly in Hong Kong, China</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3769770" target="_blank" class="news-link">战争间歇期的四个缩圈方向：AI硬件、资源、周期涨价和红利</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769788" target="_blank" class="news-link">苹果“AI眼镜”追求“标志性设计”：长方形或圆形镜框，“垂直椭圆形”摄像头 只写标题部分</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2341719" target="_blank" class="news-link">券商晨会精华：AI供需缺口和出海新能源成为新“宁组合”概率正在增大</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/445.htm" target="_blank" class="news-link">多名被 AI 偷声音的配音演员发声，“太乙真人”配音者张珈铭称被抢商单影响生计</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8499-2c70-7443-8eee-58be2b2f9f0b" target="_blank" class="news-link">JAPAN CHIEF CABINET SECRETARY KIHARA: UP TO BOJ TO DECIDE DETAILS OF MONETARY POLICY</a> [11] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5208034" target="_blank" class="news-link">A股异动丨涨价潮蔓延与AI需求共振，PCB概念股继续强势，中国巨石等多股涨停</a> [13] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260413105754305800" target="_blank" class="news-link">市场消息：曹操出行(02643.HK)押注无人驾驶出租车和AI，力争实现首个年度盈利。</a> [13] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1205376" target="_blank" class="news-link">最近看太多 AI 的东西，太 AI(油)腻了，来点生活的吧，推荐分享一些你日常好物呗</a> [13] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47738883" target="_blank" class="news-link">Tell HN: Docker pull fails in Spain due to football Cloudflare block</a> [14] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/426.htm" target="_blank" class="news-link">微软：AI 智能体不仅不会压缩软件收入，反而有望带来新的增长空间</a> [18] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47738978" target="_blank" class="news-link">We have a 99% email reputation, but Gmail disagrees</a> [18] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260413105150796800" target="_blank" class="news-link">在抨击梵蒂冈教皇之后，美国总统特朗普发布了一张自己化身成耶稣治愈病人的AI图片，其两侧还有老鹰、战斗机和自由女神像等形象。</a> [19] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202604/1369177.html" target="_blank" class="news-link">徐海娜：只要会用AI就可以了吗？</a> [20] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8471-e469-7443-8eed-f68341c473f7" target="_blank" class="news-link">A-SHARES OPEN LOWER: SHANGHAI COMPOSITE DOWN 0.38%, SHENZHEN COMPONENT DOWN 0.53%, CHINEXT DOWN 0.42%</a> [24] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202604/1369172.html" target="_blank" class="news-link">符婉月：人类素质+AI素养才是全人教育</a> [25] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260413104925319800" target="_blank" class="news-link">工信部：深化人工智能赋能质量提升 组织编制重点行业“人工智能+质量”应用全景图和转型路线图</a> [25] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260413104407929800" target="_blank" class="news-link">招银国际料腾讯首季业绩稳健 市场对AI投资反应过度</a> [29] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8468-9293-7443-8eed-c0547db79b82" target="_blank" class="news-link">Trump’s Hormuz Blockade Risks Piling Pain on Asia Allies, China</a> [30] <font color='grey'>- 11时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">7</td>
+                <td class="percentage">1.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BAPuraXMax&amp;t=31&amp;band_rank=7&amp;Refer=top" target="_blank" class="news-link">华为PuraXMax</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7628049058224950847/" target="_blank" class="news-link">余承东首曝华为阔折叠Pura X Max真机</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/447.htm" target="_blank" class="news-link">华为 Pura X Max 阔折叠手机可选幻夜黑、橄榄金等 5 款配色，还有典藏版</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2026830637785433240" target="_blank" class="news-link">如何看待 4 月 13 日华为官宣首款大阔折华为 Pura X Max？</a> [17] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3086600" target="_blank" class="news-link">据华为终端微博消息，华为阔折叠手机Pura X Max将于4月20日发布。</a> [18] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/417.htm" target="_blank" class="news-link">华为 Pura X Max 今日开启预订，行业首款横向阔折叠手机</a> [23] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/404.htm" target="_blank" class="news-link">行业首款横向阔折叠手机：华为 Pura X Max 正式亮相，4 月 20 日发布</a> [29] <font color='grey'>- 11时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">4</td>
+                <td class="percentage">1.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260413111138445800" target="_blank" class="news-link">港股科网股持续走低，腾讯控股(00700.HK)、百度(09888.HK)跌超3%，网易-S(09999.HK)跌2.75%，美团(03690.HK)跌2.45%，阿里巴巴(09988.HK)跌超2%。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769792" target="_blank" class="news-link">A股震荡上涨，创业板率先翻红，锂矿拉升、“宁王”市值逼近2万亿，恒科指跌1%，阿里、腾讯跌2%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3086604" target="_blank" class="news-link">阿里云：调整标准版、专业版用户的API免费额度并支持按量付费</a> [16] <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/420.htm" target="_blank" class="news-link">阿里云：调整标准版、专业版用户的 API 免费额度并支持按量付费</a> [21] <font color='grey'>- 11时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1205431" target="_blank" class="news-link">Claude 额度缩水了嘛？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时24分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1205377" target="_blank" class="news-link">claude code 降智被实锤了</a> [12] <font color='grey'>- 11时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
