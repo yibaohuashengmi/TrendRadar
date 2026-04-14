@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 258</p><p>生成时间: 2026-04-14 15:09:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">6.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5208825" target="_blank" class="news-link">同程旅行全场景AI旅游解决方案亮相第六届消博会 技术赋能入境游体验升级</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1205786" target="_blank" class="news-link">使用 ai 编程后的感想和困惑</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8acc-ccec-777e-bb35-fae56a7618ff" target="_blank" class="news-link">A-SHARES CLOSE HIGHER: SHANGHAI COMPOSITE UP 0.95%, SHENZHEN COMPONENT UP 1.61%, CHINEXT UP 2.36%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1205769" target="_blank" class="news-link">做了个 CLI 工具用 AI 来剪辑 vlog 效果意外地还不错</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3087488" target="_blank" class="news-link">斯坦福大学报告：中国多项AI指标占据优势</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/919.htm" target="_blank" class="news-link">AI 加速药物研发：生物制药公司诺和诺德宣布与 OpenAI 建立战略合作伙伴关系</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/926.htm" target="_blank" class="news-link">哩布哩布就 AI 生成涉黄擦边内容致歉，称已启动专项排查与技术修复</a> [14] <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8aab-ef5a-777e-bb35-97897bbe6c6b" target="_blank" class="news-link">WIZZ AIR SAYS IT IS DELAYING RETURN OF FLIGHTS TO ISRAEL THROUGH MAY 4</a> [16] <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8aa4-c310-777e-bb35-8a9ef38aa37d" target="_blank" class="news-link">SPAIN&#x27;S PM SANCHEZ: I HAVE DISCUSSED WITH PRESIDENT XI THE REFORMS OUR MULTIPOLAR SYSTEM REQUIRES</a> [17] <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8aa4-9ed6-777e-bb35-872beb571aa2" target="_blank" class="news-link">SPAIN&#x27;S PM SANCHEZ: IT IS IN SPAIN AND EUROPE&#x27;S INTERESTS TO STRENGTHEN TIES WITH CHINA</a> [18] <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8aa3-90f1-777e-bb35-7cafbbafbec2" target="_blank" class="news-link">SPAIN&#x27;S PM SANCHEZ: WE ARE SIGNING DEALS ON EXPANDING ACCESS FOR SPANISH AGRICULTURAL PRODUCTS IN CHINA, AS WELL AS TRANSPORT, INFRASTRUCTURE</a> [19] <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8a9e-fbd6-777e-bb35-69cbdddc9585" target="_blank" class="news-link">SPAIN&#x27;S PM SANCHEZ: OUR ECONOMIC TIES TO CHINA NEED TO BE MUCH CLOSER BUT ALSO MORE BALANCED</a> [21] <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/908.htm" target="_blank" class="news-link">OpenAI 反击 Anthropic：聚焦企业 AI 落地，最强 Spud 模型对标 Claude Mythos</a> [21] <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/903.htm" target="_blank" class="news-link">韩 AI 芯片制造商 DEEPX：基于三星 2nm 的 DX-M2 目标 2027 年量产</a> [22] <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8a96-8ebe-777e-bb35-4c61042216e2" target="_blank" class="news-link">NOVO NORDISK: OPENAI WILL ASSIST CO IN UPSKILLING GLOBAL WORKFORCE AND ENHANCING AI LITERACY</a> [25] <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8a93-9887-777e-bb35-433843d4a13e" target="_blank" class="news-link">&lt;b&gt;NOVO NORDISK AND OPENAI PARTNER TO TRANSFORM HOW MEDICINES ARE DISCOVERED AND DELIVERED&lt;/b&gt;</a> [26] <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3087448" target="_blank" class="news-link">诺和诺德与OpenAI合作，旨在革新药物研发方式。</a> [30] <font color='grey'>- 15时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47762006" target="_blank" class="news-link">Can Claude Fly a Plane?</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时09分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1205752" target="_blank" class="news-link">写了三个月 Agent Harness，我终于敢让 Claude Code 全自动写代码了</a> [11] <font color='grey'>- 15时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
