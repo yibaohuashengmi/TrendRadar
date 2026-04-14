@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 305</p><p>生成时间: 2026-04-14 13:29:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">23</td>
+                <td class="percentage">7.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1205748" target="_blank" class="news-link">整理了一份 ai 逆向的工具清单，持续更新</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8a5f-2020-777e-bb34-9d16137d81f8" target="_blank" class="news-link">Xi Highlights China–Spain Alignment Amid Global Turmoil During Sánchez Visit</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5208806" target="_blank" class="news-link">港股异动丨云知声飙涨近35%！大模型收入暴增10倍，AI商业化闭环打通</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=OpenAI%E4%BC%A6%E6%95%A6%E8%AE%BE%E7%AB%8B%E6%B0%B8%E4%B9%85%E5%8A%9E%E5%85%AC%E5%AE%A4" target="_blank" class="news-link">OpenAI伦敦设立永久办公室</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202604/1469294.html" target="_blank" class="news-link">BBC采访了为伊朗制作病毒式乐高风AI影片的男子，专家称这是强力政治宣传手段</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/894.htm" target="_blank" class="news-link">美国男子因 AI 企图谋杀 OpenAI 奥尔特曼，面临最高 30 年监禁</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/22c08e97f0e34becbae6d388131209f3" target="_blank" class="news-link">美团前端考察AI coding出的题是周报生成？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5208801" target="_blank" class="news-link">卡准算力命脉！曦智科技冲刺全球AI硅光芯片第一股</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/889.htm" target="_blank" class="news-link">单日 300 美元 Claude 预算：消息称苹果商业团队推进 AI 使用率，并挂钩招聘审批</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414124747645800" target="_blank" class="news-link">OpenAI估值8520亿美元遭质疑：押注企业市场，投资人直言“失焦”</a> [11] <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5208795" target="_blank" class="news-link">研报掘金丨中金：维持腾讯“跑赢行业”评级，主业强韧性为持续AI投资提供底气</a> [14] <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8a2d-de22-777e-bb34-3022f5de6471" target="_blank" class="news-link">OpenAI Valuation Scrutiny Grows as Enterprise Pivot Tests Strategy</a> [15] <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5208794" target="_blank" class="news-link">AI技术持续迭代，后续行情将如何演绎？</a> [15] <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8a2a-1f95-777e-bb34-2d454b32e836" target="_blank" class="news-link">SPAIN&#x27;S SANCHEZ: INTERNATIONAL LAW MORE NECESSARY TODAY THAN EVER&lt;br/&gt;&lt;br/&gt;SPAIN&#x27;S SANCHEZ, IN TALKS WITH XI: INTERNATIONAL LAW BEING UNDERMINED REPEATEDLY, DANGEROUSLY&lt;br/&gt;&lt;br/&gt;SPAIN&#x27;S SANCHEZ: IF CHINA, EU UNDERSTAND EACH OTHER AND COOPERATE, THEIR SOCIETIES WILL BENEFIT</a> [16] <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8a27-aedd-777e-bb34-24663f74c245" target="_blank" class="news-link">SOME OPENAI INVESTORS TOLD THE FT THE CHANGES COULD LEAVE IT VULNERABLE TO ANTHROPIC AND A RESURGENT GOOGLE - FT</a> [17] <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8a27-6438-777e-bb34-191c5de75a79" target="_blank" class="news-link">OPENAI INVESTORS QUESTION $852BN VALUATION AS STRATEGY SHIFTS- FT</a> [18] <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/872512773710696448" target="_blank" class="news-link">快手ai应用服务端开发 二面</a> [20] <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3087406" target="_blank" class="news-link">韩国人工智能芯片初创公司DeepX准备在韩国进行IPO，其也对通过ADR在美国上市持开放态度。</a> [21] <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8a22-7fe5-777e-bb33-f8ea4040466d" target="_blank" class="news-link">CHINA&#x27;S XI, TO SPANISH PRIME MINISTER: CHINA-SPAIN RELATIONS HAVE DEVELOPED STEADILY, INJECTING STABILITY INTO CHINA-EU RELATIONS</a> [22] <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3087405" target="_blank" class="news-link">随着OpenAI战略转型，投资者对其8520亿美元的估值提出质疑，部分投资者称，这些变化可能使OpenAI容易受到Anthropic和谷歌的冲击。（英国金融时报）</a> [22] <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/869.htm" target="_blank" class="news-link">斯坦福 423 页 AI 报告出炉！中美差距仅 2.7%，清华 DeepSeek 冲进全球前十</a> [22] <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8a22-6e24-777e-bb33-f0e6432eb896" target="_blank" class="news-link">SOUTH KOREA&#x27;S AI CHIP STARTUP DEEPX PREPARES FOR IPO IN SOUTH KOREA - CEO&lt;br/&gt;&lt;br/&gt;DEEPX: IS OPEN TO U.S. LISTING THROUGH ADR</a> [23] <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/867.htm" target="_blank" class="news-link">60 亿美元 AI 基建项目引发反弹，美国小镇选民罢免半数市议员</a> [23] <font color='grey'>- 13时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/861.htm" target="_blank" class="news-link">谷歌搜索 6 月重拳出击，严打“网站劫持用户返回按钮”行为</a> [28] <font color='grey'>- 13时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/853.htm" target="_blank" class="news-link">谷歌用 Rust 改造 Pixel 10 手机基带：组件增加 371KB，可阻断内存攻击</a> [30] <font color='grey'>- 13时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7627798854582747190" target="_blank" class="news-link">Claude降智再被实锤!推理能力严重下滑,用户连夜跑路 Codex</a> [26] <font color='grey'>- 13时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA%E5%A4%BA%E4%B8%80%E5%AD%A3%E5%BA%A6%E4%B8%AD%E5%9B%BD%E6%89%8B%E6%9C%BA%E5%87%BA%E8%B4%A7%E9%87%8F%E7%AC%AC%E4%B8%80%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">华为夺一季度中国手机出货量第一</a> [20] <font color='grey'>- 13时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/868.htm" target="_blank" class="news-link">阿里巴巴首款具身机器人：消息称高德将发布机器狗产品</a> [21] <font color='grey'>- 13时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
