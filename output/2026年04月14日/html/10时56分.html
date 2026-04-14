@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 365</p><p>生成时间: 2026-04-14 10:56:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">4.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1205716" target="_blank" class="news-link">我为 AI 时代的独立开发者们，做了一点小小的贡献</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1205711" target="_blank" class="news-link">讲讲家里云新人部署求职项目用的大模型 API 供应商：主力 NVIDIA NIM + 备用 Ollama + OpenAI Codex 调试，含 glm-5.1、gemma4:31b、minimax-m2.7，零成本不爆账单</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/849.htm" target="_blank" class="news-link">IDC 预测：亚太 2029 年 AI 支出将达 3700 亿美元，是 2024 年的 5 倍</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5208768" target="_blank" class="news-link">华创证券：上调瑞声科技(02018.HK)至&quot;强推&quot;评级，AI硬件、数据中心与机器人打开新空间</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d89d1-f6db-7443-8efd-f741aec19a90" target="_blank" class="news-link">Hong Kong to Draft Low-Altitude Economy Plan, Advance Cross-Border Trials with China&#x27;s Mainland</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769894" target="_blank" class="news-link">死敌爆料是狠！OpenAI内部信阴阳Claude营收注水80亿，然后泄露了…</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1205698" target="_blank" class="news-link">一个关于 AI 的点子，大家也可讨论提出一些新的点子或痛点。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d89cb-6844-7443-8efd-d956cfc9f272" target="_blank" class="news-link">China Trade Above 10 Trn Yuan for 12 Straight Quarters; Q1 Growth Back to Double Digits: Customs</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d89c6-3216-7443-8efd-bb275cebe433" target="_blank" class="news-link">CHINA CUSTOMS VICE MINISTER: EXTERNAL UNCERTAINTIES REMAIN HIGH; GEOPOLITICAL CONFLICTS CONTINUE TO COMPLEXLY IMPACT GLOBAL SUPPLY CHAINS</a> [13] <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47759292" target="_blank" class="news-link">The AI revolution in math has arrived</a> [13] <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3769822" target="_blank" class="news-link">AI如何重塑PCB行业？算力霸权、材料奇点与“电子之母”的火花四溅</a> [14] <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202604/1469270.html" target="_blank" class="news-link">企业为何争先恐后在AI搜寻中争位？</a> [19] <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1205639" target="_blank" class="news-link">如何让我放心地把隐私数据接入到 AI Agent 里？</a> [19] <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/809.htm" target="_blank" class="news-link">多所高校鼓励博士生再读一个 AI 等相关专业硕士</a> [21] <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7626633916915367971" target="_blank" class="news-link">AI全栈入门指南：一文搞清楚NestJs 中的 Controller 和路由</a> [30] <font color='grey'>- 10时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2068817-1-1.html" target="_blank" class="news-link">为何用Chrome无法访问google.com，请景友们指教。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769891" target="_blank" class="news-link">全球数字广告老大或将&quot;易主&quot;：Meta有望首次超越谷歌</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/832.htm" target="_blank" class="news-link">远近都有戏：华为 Pura 90 Pro Max 手机搭载超大底 2 亿长焦</a> [11] <font color='grey'>- 10时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/938/841.htm" target="_blank" class="news-link">阿里千问上线表格 Agent，支持在对话中直接生成、编辑 Excel 文件</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
