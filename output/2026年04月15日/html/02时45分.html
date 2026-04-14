@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 162</p><p>生成时间: 2026-04-15 02:45:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">8.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415022142675800" target="_blank" class="news-link">英国央行行长贝利警告AI模型Mythos或威胁金融稳定</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时45分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47768195" target="_blank" class="news-link">Spain to expand internet blocks to tennis, golf, movies broadcasting times</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8d42-9149-7eed-8842-20ee609e0f8f" target="_blank" class="news-link">UKRAINE&#x27;S ZELENSKIY: WE DO NOT HAVE CONFIRMATION OF WHEN STEVE WITKOFF AND JARED KUSHNER WILL COME TO UKRAINE</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3087919" target="_blank" class="news-link">Adobe跌幅扩大至2.1%，报道称Anthropic正准备发布新款AI设计工具。 北美科技软件股指数ETF涨幅收窄至不足0.6%。</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3087917" target="_blank" class="news-link">报道：Anthropic正准备Opus 4.7模型和AI设计工具</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8d3a-22dc-7eed-8842-0fe45ede8a9f" target="_blank" class="news-link">NORWAY GOVERNMENT: NORWAY AND UKRAINE TO STRENGTHEN BILATERAL DEFENCE COOPERATION&lt;br/&gt;&lt;br/&gt;NORWAY GOVERNMENT: UKRAINIAN DRONES TO BE PRODUCED IN NORWAY&lt;br/&gt;&lt;br/&gt;NORWAY GOVERNMENT: TO HELP INCREASE PRODUCTION OF AMMUNITION AND AIR DEFENCE FOR UKRAINE</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时45分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://sspai.com/post/107600" target="_blank" class="news-link">浅谈人工智能时代的用户体验：Agent Experience 导论</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8d2c-0ed8-7eed-8841-ea61ea8f1277" target="_blank" class="news-link">&lt;B&gt;ECB&#x27;S DOLENC: THE ECB WILL RAISE RATES IF INFLATION HAS A LONGER-LASTING EFFECT&lt;/B&gt;</a> [13] <font color='grey'>- 02时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8d2a-07b9-7eed-8841-e1bc6e4d2172" target="_blank" class="news-link">FED CHAIR NOMINEE WARSH SENATE BANKING COMMITTEE HEARING SET FOR APRIL 21</a> [14] <font color='grey'>- 02时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8d23-36dd-7eed-8841-d6fbbc779f67" target="_blank" class="news-link">&lt;b&gt;ANTHROPIC PREPS OPUS 4.7 MODEL, AI DESIGN TOOL SOON AS THIS WEEK: THE INFORMATION&lt;/b&gt;</a> [16] <font color='grey'>- 02时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8d0e-8ddc-7eed-8841-904b840190c5" target="_blank" class="news-link">FRENCH GOVERNMENT CONSIDERS CAP ON RETAIL MARGINS AT GAS STATIONS</a> [24] <font color='grey'>- 02时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415012050964800" target="_blank" class="news-link">微软接手OpenAI挪威数据中心租约</a> [27] <font color='grey'>- 02时45分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47768339" target="_blank" class="news-link">Turn your best AI prompts into one-click tools in Chrome</a> [29] <font color='grey'>- 02时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47768133" target="_blank" class="news-link">Claude Code Routines</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415013726810800" target="_blank" class="news-link">Anthropic因Claude Code性能下降引发用户强烈不满</a> [19] <font color='grey'>- 02时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84046" target="_blank" class="news-link">Google 将惩罚“后退按钮劫持”行为</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时45分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
