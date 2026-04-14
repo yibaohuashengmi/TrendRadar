@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 214</p><p>生成时间: 2026-04-14 20:00:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">7.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3087702" target="_blank" class="news-link">甲骨文将Agentic AI平台扩展至企业银行业务。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769939" target="_blank" class="news-link">全球AI芯片被一家味精厂卡脖子？份额超95%，英伟达也得排队抢产能</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8bae-f4bb-777e-bb39-a5bd5f2bfd7d" target="_blank" class="news-link">INTEL: SUSQUEHANNA RAISES TARGET PRICE TO $65 FROM $45</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414194229713800" target="_blank" class="news-link">市场消息：甲骨文(ORCL.N)将Agentic AI平台扩展至企业银行业务。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8ba9-9328-777e-bb39-83e7615659ce" target="_blank" class="news-link">GERMANY&#x27;S MERZ SAYS THERE WILL BE NO AGREEMENT BETWEEN UNITED STATES AND RUSSIA ABOUT UKRAINE WITHOUT EUROPE HAVING A SAY</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3087683" target="_blank" class="news-link">第二十届深圳金博会定档5月 聚焦AI时代制造业与服务业协同发展</a> [13] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8ba1-1429-777e-bb39-4fdc0a74869d" target="_blank" class="news-link">GERMANY&#x27;S MERZ SAYS WE ARE NOT SEEKING 2ND CLASS EU MEMBERSHIP FOR UKRAINE</a> [16] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8b9a-757e-777e-bb39-22d51c9268ea" target="_blank" class="news-link">TESLA SHARES RISE 1.8% PREMARKET AFTER UBS RAISES TO NEUTRAL FROM SELL</a> [21] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8b99-dea3-777e-bb39-1b8fd2467738" target="_blank" class="news-link">TESLA: UBS RAISES TO NEUTRAL FROM SELL</a> [22] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8b99-2a24-777e-bb39-118eb5366006" target="_blank" class="news-link">APPLE: BOFA GLOBAL RESEARCH RAISES PRICE OBJECTIVE TO $325.00 FROM $320.00</a> [23] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8b96-df8a-777e-bb39-041671dab986" target="_blank" class="news-link">&lt;b&gt;COMMERZBANK: IF THE STRAIT OF HORMUZ REMAINS BLOCKED UNTIL END OF MAY, ALUMINIUM PRICES COULD TEMPORARILY RISE TO ALMOST $4,000 PER TON&lt;/b&gt;</a> [25] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8b96-66a4-777e-bb38-fcdfb258b86d" target="_blank" class="news-link">JPMORGAN CHASE&#x27;S DIMON: TAILWINDS SUPPORTING RESILIENCY INCLUDING INCREASED FISCAL STIMULUS, BENEFITS OF DEREGULATION, AI-DRIVEN CAPITAL INVESTMENT, FED&#x27;S ASSET PURCHASES</a> [26] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8b94-043e-777e-bb38-e3673476df65" target="_blank" class="news-link">QATAR FOREIGN MINISTRY SPOKESPERSON: THERE IS A HIGH LEVEL OF COORDINATION WITH PAKISTAN AND THE U.S., AND OUR DEMANDS ARE BEING RAISED THROUGH THESE CHANNELS</a> [29]</div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%A6%BB%E8%81%8C%E5%91%98%E5%B7%A5%E8%A2%AB%E8%AE%AD%E7%BB%83%E5%87%BAAI%E5%88%86%E8%BA%AB%E7%BB%A7%E7%BB%AD%E4%B8%8A%E7%8F%AD%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">离职员工被训练出AI分身继续上班</a> [29] <font color='grey'>- 20时00分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7628080756385398824" target="_blank" class="news-link">AI来了，同事们的效率为什么差这么多？</a> [30] <font color='grey'>- 20时00分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769935" target="_blank" class="news-link">月薪3万，去内蒙草原给DeepSeek守机房</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时00分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
