@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 113</p><p>生成时间: 2026-04-15 05:26:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">10.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769970" target="_blank" class="news-link">OpenAI推出网络安全专用模型，与Anthropic展开竞速</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8dc2-1099-7eed-8844-186a7ff9f364" target="_blank" class="news-link">WH SR. ADVISER HASSETT ON AI: IT IS RAISING THE PRODUCTIVITY OF SMALL AND LARGE BUSINESSES</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3087974" target="_blank" class="news-link">白宫顾问哈塞特谈AI，称：（正在）提高小企业和大公司的生产力。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415045655489800" target="_blank" class="news-link">OpenAI推出Cyber紧咬Anthropic，AI漏洞挖掘能力引监管层忧虑</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3769939" target="_blank" class="news-link">全球AI芯片被一家味精厂卡脖子？份额超95%，英伟达也得排队抢产能</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3087968" target="_blank" class="news-link">纳斯达克网络安全ETF收跌0.63%，ETFMG网络安全ETF跌1.08%，整体高开低走，OpenAI发布网络AI模型后跌幅略微收窄。</a> [12] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8dab-4c73-7eed-8843-a638fcd03155" target="_blank" class="news-link">IMF&#x27;S GEORGIEVA: CONCERNED THAT OIL SHOCK IS TAKING ATTENTION AWAY FROM PRESSING ISSUES INCLUDING AI AND FINANCIAL STABILITY RISKS</a> [19] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3087961" target="_blank" class="news-link">加拿大AI部长会见Anthropic PBC的领导层。</a> [19] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8da8-cba0-7eed-8843-9b3cb7696159" target="_blank" class="news-link">UKRAINE&#x27;S ZELENSKIY: NO CONFIRMATION ON TIMING OF WITKOFF &amp; KUSHNER VISIT TO UKRAINE</a> [20] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3087960" target="_blank" class="news-link">Lumen Technologies的CEO Johnson：AI机器人正在占领网络。</a> [20] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8da0-6e6f-7eed-8843-733ae5a5660c" target="_blank" class="news-link">IMF&#x27;S GEORGIEVA: FISCAL ASSISTANCE TO OFFSET PAIN OF HIGHER ENERGY PRICES SHOULD BE NARROWLY TARGETED AND TEMPORARY</a> [25] <font color='grey'>- 05时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3087952" target="_blank" class="news-link">OpenAI向有限群体发布网络安全模型，与Mythos展开角逐</a> [26] <font color='grey'>- 05时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3087967" target="_blank" class="news-link">Gitlab宣布，与谷歌云合作。</a> [13] <font color='grey'>- 05时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3087949" target="_blank" class="news-link">纳斯达克金龙中国指数收涨2.35%，报7016.57点。 热门中概股里，京东涨7.7%，世纪互联涨6.7%，百度涨5.4%，阿特斯太阳能涨5.1%，文远知行涨4%，阿里巴巴涨2.6%。 ETF中，中概互联网指数ETF（KWEB）收涨2.26%，中国科技指数ETF（CQQQ）收涨1.87%。 XtrackersHarvest中证50（ASHS）收涨1.76%，德银嘉实沪深300指数ETF（ASHR）收涨1.43%。</a> [28]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
