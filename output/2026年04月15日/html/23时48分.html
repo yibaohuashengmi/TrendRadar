@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 224</p><p>生成时间: 2026-04-15 23:48:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">8.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206197" target="_blank" class="news-link">有点好奇， AI Agent 会是什么 SBTI 人格？于是， vibe 了一个。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84055" target="_blank" class="news-link">斯坦福报告凸显了 AI 业内人士和公众之间的分歧</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770057" target="_blank" class="news-link">“AI光芯片第一股”要来了，有投资人已豪赚40倍</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415232038346800" target="_blank" class="news-link">消息人士：欧洲央行监管机构收集有关新的Anthropic“Mythos”模型的信息，央行将向欧元区银行发出警告，提醒他们注意新型人工智能模型带来的风险。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5210345" target="_blank" class="news-link">美股异动丨Adobe涨2.6%，发布Firefly AI助手</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/637.htm" target="_blank" class="news-link">华为 Pura X Max 横向阔折叠手机确认支持 AI 眼动翻页功能，4 月 20 日发布</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d91c6-0c21-7008-9c8a-c806bff3456c" target="_blank" class="news-link">NAGEL: APRIL MOVE HINGES ON STRAIT OF HORMUZ SITUATION</a> [16] <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47779730" target="_blank" class="news-link">Elevated errors on Claude.ai, API, Claude Code</a> [19] <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/c60ac60ba91a443192249b5675eb9d0c" target="_blank" class="news-link">字节aidp部门前端一面凉经</a> [19] <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3088634" target="_blank" class="news-link">Claude：正调查Claude.AI出错率偏高这个问题。</a> [21] <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47778920" target="_blank" class="news-link">US v. Heppner (S.D.N.Y. 2026) no attorney-client privilege for AI chats [pdf]</a> [21] <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415230013923800" target="_blank" class="news-link">Claude表示正在调查Claude.AI上的高错误率。</a> [22] <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d91c3-1652-7008-9c8a-97f352fdddf0" target="_blank" class="news-link">GEORGIEVA: CENTRAL BANKS CAN TAKE WAIT AND SEE ATTITUDE</a> [23 - 24] <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3088625" target="_blank" class="news-link">鞋类和服装产品供应商Allbirds一度上涨461%，最高达到13.97美元，该公司宣布切换至AI赛道。</a> [23] <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47778933" target="_blank" class="news-link">Sam Vimes &#x27;Boots&#x27; Theory of Socio-Economic Unfairness</a> [24] <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47778050" target="_blank" class="news-link">Study: Back-to-basics approach can match or outperform AI in language analysis</a> [25] <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47778038" target="_blank" class="news-link">Allbirds, Inc. Announces Expansion into AI Compute Infrastructure</a> [29] <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d91bb-50ef-7008-9c8a-5d03d48a843c" target="_blank" class="news-link">GEORGIEVA: MARKETS SHOULD PROBABLY BE MORE CAUTIOUS&lt;br/&gt;&lt;br/&gt;GEORGIEVA: SUPPLY CHAIN DISRUPTIONS ARE ALREADY SIGNIFICANT</a> [30] <font color='grey'>- 23时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3088641" target="_blank" class="news-link">欧洲央行将对银行业发出与Anthropic模型Mythos相关的风险警告。（路透）</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7628825069887799339" target="_blank" class="news-link">彻底疯狂，Claude居然要上传身份证！</a> [24] <font color='grey'>- 23时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7628152198593691675/" target="_blank" class="news-link">DeepSeek招人去内蒙草原“守机房”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时48分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23DeepSeek%E9%AB%98%E8%96%AA%E6%8B%9B%E8%81%98%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E4%BA%BA%E6%89%8D%23&amp;t=31&amp;band_rank=17&amp;Refer=top" target="_blank" class="news-link">DeepSeek高薪招聘数据中心人才</a> [17] <font color='grey'>- 23时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47779094" target="_blank" class="news-link">Gemini Robotics-ER 1.6</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/644.htm" target="_blank" class="news-link">事关 L2 级辅助驾驶：相关强制性国标进一步公开征求意见，华为引望、小米汽车、比亚迪、特斯拉等单位联合起草</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时48分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
