@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2026-04-15 14:02:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">5.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5209623" target="_blank" class="news-link">“政策+出海+AI”三重引擎驱动电网设备成“黄金赛道”！</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8fa3-c224-7eed-8846-d578f6f73282" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX CLOSED UP 1.17%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/313.htm" target="_blank" class="news-link">微软接手 OpenAI 挪威“星门”数据中心，获 3 万块英伟达芯片算力</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时02分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5209621" target="_blank" class="news-link">AI对电力到底有多少需求？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8f97-8ca4-7eed-8846-ba146c6757f9" target="_blank" class="news-link">SOUTH KOREA PRESIDENTIAL ENVOY: DISCUSSED BUILDING OIL STORAGE FACILITIES OUTSIDE HORMUZ STRAIT WITH MIDEAST OIL PRODUCERS</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8f94-f942-7eed-8846-b7faede04267" target="_blank" class="news-link">HONG KONG AI STOCKS SLIP: ZHIPU AI DOWN OVER 8%, MINIMAX DOWN OVER 5%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时02分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206045" target="_blank" class="news-link">AI Inner OS 开源项目分享</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/305.htm" target="_blank" class="news-link">谷歌 I/O 2026 日程公布，AI 与安卓 17 成核心议题</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3088208" target="_blank" class="news-link">港股AI概念股午后下挫，智谱跌超8%，MINIMAX、迅策跌超5%。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8f65-12e6-7eed-8846-5fcfa592bf2f" target="_blank" class="news-link">JEFFERIES RAISES MODERNA TARGET PRICE TO $45 FROM $37</a> [17] <font color='grey'>- 14时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/294.htm" target="_blank" class="news-link">Anthropic 增长迅猛，OpenAI 超 8000 亿美元估值遭部分投资者质疑</a> [17] <font color='grey'>- 14时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3088191" target="_blank" class="news-link">李家超：将于下半年启动香港人工智能研发院，推动人工智能技术转化</a> [18] <font color='grey'>- 14时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d8f3f-c01f-7eed-8846-28a217fec5d8" target="_blank" class="news-link">PRESIDENT TRUMP SAID HE ISN&#x27;T THINKING ABOUT EXTENDING THE CEASEFIRE. HE DOESN&#x27;T THINK IT WILL BE NECESSARY. - ABC REPORTER X POST</a> [23] <font color='grey'>- 14时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/283.htm" target="_blank" class="news-link">阿里千问 AI 眼镜全球首店开业，位于南京禄口国际机场 T2 航站楼内</a> [24] <font color='grey'>- 14时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206057" target="_blank" class="news-link">在 iTerm2 下更优雅的使用 Claude Code 和 Codex</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
