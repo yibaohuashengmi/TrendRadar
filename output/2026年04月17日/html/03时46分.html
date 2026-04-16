@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 116</p><p>生成时间: 2026-04-17 03:46:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">9.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770180" target="_blank" class="news-link">OpenAI发布Codex更新，可与用户协同操作电脑进行持续性工作</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770170" target="_blank" class="news-link">大族激光2025营收创新高，扣非净利润大增82%，AI带动PCB业务需求｜财报见闻</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3089544" target="_blank" class="news-link">OpenAI发布用于药物研发的新款AI模型。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d97ac-e289-7aa6-b470-9d939249cb66" target="_blank" class="news-link">OPENAI UNVEILS NEW AI MODEL AIMED AT DRUG DISCOVERY</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d97aa-9896-7aa6-b470-9537c0b06609" target="_blank" class="news-link">IAEA: UKRAINE‘S ZAPORIZHZHIA NPP TEMPORARILY LOST ALL OFF-SITE POWER THIS EVENING&lt;br/&gt;&lt;br/&gt;IAEA: UKRAINE‘S ZNPP&#x27;S CONNECTION RESTORED AFTER ABOUT 40MINUTES. CAUSE OF POWER LOSS IS NOT YET KNOWN</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d97a6-4168-7aa6-b470-8ca777ff8c28" target="_blank" class="news-link">CANADA TRADE MINISTER DISCUSSED MARKET ENTRY PATHWAYS UNDER CANADA&#x27;S ELECTRIC VEHICLE IMPORT QUOTA, REGULATORY SUPPLY CHAIN REQUIREMENTS AND LONG-TERM INVESTMENT OPPORTUNITIES - STATEMENT</a> [11] <font color='grey'>- 03时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417030201225800" target="_blank" class="news-link">OpenAI：推出新模型GPT-Rosalind，旨在服务于生命科学研究。该模型最初将以研究预览版的形式提供给部分企业客户。</a> [18] <font color='grey'>- 03时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9790-1801-7aa6-b470-45560eec4808" target="_blank" class="news-link">INTEL HIRES SAMSUNG CHIP MANUFACTURING VETERAN SHAWN HAN TO AID IN INTEL FOUNDRY EFFORT, COMPANY SAYS</a> [20] <font color='grey'>- 03时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d978f-8a37-7aa6-b470-35da10bb6083" target="_blank" class="news-link">US STATE DEPT: NEGOTIATIONS WITH OBJECTIVE OF RESOLVING ALL REMAINING ISSUES, INCLUDING DEMARCATION OF INTERNATIONAL LAND BOUNDARY</a> [22] <font color='grey'>- 03时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9789-2f1a-7aa6-b470-00774dc08c0b" target="_blank" class="news-link">White House Weighs Mythos AI Access for Federal Agencies</a> [28] <font color='grey'>- 03时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9787-bdc7-7aa6-b46f-fe6d8e748bd6" target="_blank" class="news-link">US HOUSE VOTES TO EXTEND TEMPORARY PROTECTIONS FOR HAITIAN IMMIGRANTS</a> [29] <font color='grey'>- 03时46分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47796830" target="_blank" class="news-link">Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时46分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/101.htm" target="_blank" class="news-link">华为鸿蒙 HarmonyOS 6.0.0.328 SP58 新版本未公布特性抢先看，含畅连实时对讲、星盾防诈等</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时46分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
