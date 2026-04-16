@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 274</p><p>生成时间: 2026-04-16 17:57:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">4.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206381" target="_blank" class="news-link">开源了一个 AI 口语练习工具，音素级发音评分，完全免费可自部署</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d95af-3a7a-7444-9f51-aa2ac3d8f6f4" target="_blank" class="news-link">XPENG AIMS FOR 38% REDUCTION IN CORPORATE OPERATIONS&#x27; CARBON EMISSION INTENSITY BY 2027</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770139" target="_blank" class="news-link">黄仁勋又放大招？GTC台北演讲或揭晓下一代AI革命技术，消费级产品也有惊喜</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84059" target="_blank" class="news-link">Cal.com 因 AI 从开源转为闭源</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d95ae-89f0-7444-9f51-9fdac2141d79" target="_blank" class="news-link">EUROPEAN COMMISSION APPROVES BULGARIAN, GERMAN, SLOVENIAN STATE AID SCHEMES FOR TEMPORARY ELECTRICITY PRICE RELIEF FOR INDUSTRY&lt;br/&gt;&lt;br/&gt;EUROPEAN COMMISSION: GERMAN MEASURE TO START RETROACTIVELY FROM JANUARY 1, 2026 AND RUN TO DECEMBER 31, 2028&lt;br/&gt;&lt;br/&gt;EUROPEAN COMMISSION: BUDGET FOR GERMANY&#x27;S SCHEME AT 3.8 BILLION EUROS; BULGARIA AT 334 MILLION, SLOVENIA AT 90 MILLION</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/998.htm" target="_blank" class="news-link">【视频】轻薄本也能兼顾续航和性能，更有 AI 新视界，荣耀MagicBook系列 2026 评测</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9598-fb96-7444-9f51-69f055b669d3" target="_blank" class="news-link">RUSSIAN DEFENCE MINISTRY: ENERGY TARGETS USED BY UKRAINIAN FORCES WERE HIT - TASS</a> [12] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9598-733d-7444-9f51-60c5609bb10b" target="_blank" class="news-link">RUSSIAN DEFENCE MINISTRY: RUSSIA CARRIED OUT A MASSIVE STRIKE ON UKRAINE - IFX</a> [13] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770127" target="_blank" class="news-link">干不过AI，就去送外卖？没那么简单了</a> [13] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/972.htm" target="_blank" class="news-link">“让 AI 帮忙买保险，结果付款给了陌生人”引热议，涉事平台回应称“系模型幻觉”已修复相应问题</a> [17] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d957d-b6eb-7444-9f51-152f896b12b6" target="_blank" class="news-link">JAPANESE STOCKS HIT NEW HIGH AS AI BOOSTS TECH HEAVY ASIAN MARKETS</a> [23] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d955c-c035-733e-963f-f80da25944bc" target="_blank" class="news-link">SENIOR IRANIAN OFFICIAL: THE FATE OF IRAN’S HIGHLY ENRICHED URANIUM AND THE DURATION OF ITS NUCLEAR RESTRICTIONS REMAIN UNRESOLVED</a> [27] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d955c-9e7b-733e-963f-f38f5c0d494e" target="_blank" class="news-link">&lt;b&gt;SENIOR IRANIAN OFFICIAL: FUNDAMENTAL DISAGREEMENTS REMAIN OVER NUCLEAR ISSUES&lt;/b&gt;</a> [28] <font color='grey'>- 17时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206385" target="_blank" class="news-link">如果业务部门领导不要你开发功能，而是要求你教会它用 claude code 开发功能，你会怎么做？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d959e-d6da-7444-9f51-7b0851854b5d" target="_blank" class="news-link">ANTHROPIC PLANS TO GIVE UK BANKS MYTHOS ACCESS WITHIN THE NEXT WEEK</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260416172816678800" target="_blank" class="news-link">市场消息：Anthropic计划在下周内向英国银行提供“Mythos”的访问权限。</a> [25] <font color='grey'>- 17时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/978.htm" target="_blank" class="news-link">华为云发布自研龙虾办公智能体 OfficeClaw：快速生成专业 PPT、智能整理本地文件，支持微信一键扫码直连</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/939/963.htm" target="_blank" class="news-link">中端线开卷：消息称华为在评估万级大电池新手机，小米万级也在路上</a> [23] <font color='grey'>- 17时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770131" target="_blank" class="news-link">阿里发布3D世界模型Happy Oyster，直指游戏、影视内容生产</a> [11] <font color='grey'>- 17时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260416173114640800" target="_blank" class="news-link">南向资金今日净买入42.91亿元。港股通（沪）方面，盈富基金、中国海洋石油分别获净买入21.92亿港元、5.23亿港元；小米集团-W净卖出额居首，金额为8.63亿港元；港股通（深）方面，盈富基金、阿里巴巴-W分别获净买入4.91亿港元、4.8亿港元；小米集团-W净卖出额居首，金额为2.89亿港元。</a> [20] <font color='grey'>- 17时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206393" target="_blank" class="news-link">Chatgpt Pro 用量用不完的可以开这些设置</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84060" target="_blank" class="news-link">波士顿动力的机器狗集成了 Google 的 Gemini 模型</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
