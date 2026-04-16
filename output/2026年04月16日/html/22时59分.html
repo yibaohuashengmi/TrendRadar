@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 280</p><p>生成时间: 2026-04-16 22:59:28</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">22</td>
+                <td class="percentage">7.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d96b3-1fed-711f-8042-b644ab640671" target="_blank" class="news-link">MEXICO&#x27;S MAIN STOCK INDEX DOWN 1% AMID NEW TALKS BETWEEN U.S. AND IRAN</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206452" target="_blank" class="news-link">OpenAI 最新图片模型 GPT-image-2 已经发布，快来 gptimage-2.co 免费体验吧</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d96b2-3065-711f-8042-a31b1c02c505" target="_blank" class="news-link">ANTHROPIC PBC: OPUS 4.7 PRICING REMAINS SAME AS OPUS 4.6</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3089434" target="_blank" class="news-link">据行业组织American Securities Association：Anthropic的Mythos模型对美国证券交易委员会（SEC）市场追踪数据库构成风险。 这款新型AI模型可能会让交易员和金融系统面临风险。</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d96b1-0e1c-711f-8042-9d2be3ea4e29" target="_blank" class="news-link">US COMMODITY FUTURES TRADING COMMISSION CHAIR SAYS AGENCY WILL CONTINUE MAKING RULES WHEN HE IS THE ONLY SITTING COMMISSIONER</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47792538" target="_blank" class="news-link">Cloudflare&#x27;s AI Platform: an inference layer designed for agents</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206444" target="_blank" class="news-link">我用 AI 写代码，但终端管理反而成了累赘——于是我做了 codux</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47792593" target="_blank" class="news-link">Cloudflare Email Service: now in public beta. Ready for your agents</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206425" target="_blank" class="news-link">Weeko 更新了 CLI 和 Skills —— 一个给人类和 AI 同时使用的稍后读工具</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d96a8-f316-711f-8042-75ac6d69f4de" target="_blank" class="news-link">INDIA OIL MINISTRY: LOCAL DAILY LPG OUTPUT UP BY 40% TO 50,000 TONS VS NEED OF ABOUT 80,000 TONS</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47791236" target="_blank" class="news-link">AI cybersecurity is not proof of work</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d96a5-9983-711f-8042-645171516345" target="_blank" class="news-link">&lt;b&gt;HOUSE CHINA PANEL ISSUES REPORT ON CHINA, AI CAPABILITIES&lt;/b&gt;</a> [11] <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3089423" target="_blank" class="news-link">告别高危人工作业，云深处“AI防汛勇士”机器狗首次亮相</a> [11] <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d96a5-72f4-711f-8042-5d4695e72f6b" target="_blank" class="news-link">EU&#x27;S KOS: EU EXPECTS TO DISBURSE 2.5 BILLION EUROS TO 2.7 BILLION EUROS TO UKRAINE AFTER UKRAINIAN PARLIAMENT COMPLETED NECESSARY REFORMS</a> [12]</div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770159" target="_blank" class="news-link">从“芯片奥林匹克”看AI芯片的未来：互连技术瓶颈浮出水面，封装创新成为下一个主战场`</a> [12] <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2346625" target="_blank" class="news-link">AI需求强劲支撑涨势 美股三大期指小幅走高 | 今夜看点</a> [12] <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d96a4-8370-711f-8042-4b0bafea613d" target="_blank" class="news-link">SEC SEEKS PUBLIC INPUT ON CHANGES TO CONSOLIDATED AUDIT TRAIL&lt;br/&gt;&lt;br/&gt;ATKINS SAYS NEED TO ADDRESS ASPECTS OF MARKET-TRACKING DATABASE</a> [14] <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d96a3-1f08-711f-8042-2a6950b75185" target="_blank" class="news-link">FED’S WILLIAMS: MARKET PRICING BALANCING STRONG US OUTLOOK VERSUS WAR UNCERTAINTY&lt;br/&gt;&lt;br/&gt;FED’S WILLIAMS: INFLATION WILL BE ‘WELL ABOVE’ 3% OVER NEXT FEW MONTHS&lt;br/&gt;&lt;br/&gt;FED’S WILLIAMS: SOME OF MARKET STRENGTH DUE TO REDUCED US EXPOSURE TO OIL SHOCK&lt;br/&gt;&lt;br/&gt;FED’S WILLIAMS: WE ARE IN THE RIGHT PLACE FOR MONETARY POLICY&lt;br/&gt;&lt;br/&gt;FED’S WILLIAMS: THE LONGER THE CONFLICT LASTS, THE BIGGER THE ECONOMIC IMPACT WILL BE&lt;br/&gt;&lt;br/&gt;FED’S WILLIAMS: WAR SHOCK IS ABOUT PRICES BUT ALSO UNAVAILABLE COMMODITIES</a> [18] <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d969e-531d-711f-8042-18c14e0f01bc" target="_blank" class="news-link">EU COMMISSIONER KOS SAYS CHANCES THAT EU WILL DELIVER 90 BILLION EURO LOAN TO UKRAINE ARE 100%</a> [20] <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9697-6c61-711f-8041-e0033f1313cb" target="_blank" class="news-link">FCA TO SHARE AI USE BEST PRACTICES WITH FINANCIAL SERVICE FIRMS</a> [27] <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9695-c198-711f-8041-d4291c2a8375" target="_blank" class="news-link">BANK OF ENGLAND AND UK FCA COMMIT TO ACTION ON AI</a> [29] <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9693-2677-711f-8041-cd5de8675d5a" target="_blank" class="news-link">AIRBUS LIKELY GAVE CHINESE ENTITY SATELLITE IMAGES: MOOLENAAR</a> [30] <font color='grey'>- 22时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">4</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770165" target="_blank" class="news-link">悄然填补Anthropic空缺，谷歌据报道与五角大楼洽谈使用Gemini模型</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206451" target="_blank" class="news-link">这样用 ClaudeCode 怎么样？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260416223038757800" target="_blank" class="news-link">Anthropic PBC：OPUS 4.7的定价较OPUS 4.6保持不变。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260416223011854800" target="_blank" class="news-link">Anthropic PBC：推出Claude OPUS 4.7，OPUS 4.7的功能不如Mythos预览版全面。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">4</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47792764" target="_blank" class="news-link">Qwen3.6-35B-A3B: Agentic Coding Power, Now Open to All</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206447" target="_blank" class="news-link">浅试了一下 Qwen3.6-35B-A3B，很强</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3089431" target="_blank" class="news-link">阿里推出“皮皮谷”、阅文打造“阅谷咪”App，大厂围猎千亿谷子赛道</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/079.htm" target="_blank" class="news-link">阿里千问 Qwen3.6-35B-A3B 开源发布：30 亿激活参数实现顶尖智能体编程能力</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/083.htm" target="_blank" class="news-link">谷歌整治“返回键劫持”网站，6 月 15 日起违规站点搜索排名将大幅下降</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/071.htm" target="_blank" class="news-link">谷歌无屏 Fitbit 手环现身，NBA 球星库里已佩戴数月</a> [14] <font color='grey'>- 22时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/073.htm" target="_blank" class="news-link">全新深蓝 S07 华为乾崑激光版预热：全车搭载 27 个传感器融合感知系统、支持 WEWA 架构 ADS 4.1</a> [13] <font color='grey'>- 22时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/065.htm" target="_blank" class="news-link">字节近亿元挖来 DeepSeek 核心员工？抖音集团副总裁李亮回应称报道不实</a> [19] <font color='grey'>- 22时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
