@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 210</p><p>生成时间: 2026-04-17 19:54:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">5.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9b35-4487-7ffd-989e-5fc3d990dcb1" target="_blank" class="news-link">China Fines Alibaba and PDD for Food Delivery Oversight Failures</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206715" target="_blank" class="news-link">AI 时代我们还需要做笔记吗？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770251" target="_blank" class="news-link">Claude Code 桌面版烂爆了，Anthropic 终于把 “100% AI 编码”演砸了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/553.htm" target="_blank" class="news-link">美国医学会旗下期刊：现阶段 AI 难以直接应用于临床决策，早期诊断错误率达到 80%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/550.htm" target="_blank" class="news-link">谷歌向 AI 智能体开放最新 Android 开发指南访问权限，助力 AI 开发出高质量 App</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9b21-524f-7ffd-989e-043bff975d86" target="_blank" class="news-link">LEBANON&#x27;S PRESIDENT AOUN SAYS FOCUS IS TO ENSURE CEASEFIRE STANDS, ISRAEL WITHDRAWS FROM SOUTH LEBANON, RETURN OF DETAINEES</a> [12] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9b1a-aded-7ffd-989d-c481692505bf" target="_blank" class="news-link">HONG KONG CANCELS AMBER RAINSTORM WARNING SIGNAL</a> [20] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9b1a-7e2e-7ffd-989d-bb00329b8077" target="_blank" class="news-link">AMAZON: TRUIST SECURITIES RAISES TARGET PRICE TO $285 FROM $280</a> [21] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9b13-a1dd-7ffd-989d-a51a58886945" target="_blank" class="news-link">CHINA&#x27;S CHANGAN IS SAID TO WEIGH SETTING UP AUTO PLANT IN SPAIN&lt;br/&gt;&lt;br/&gt;CHANGAN IS YET TO MAKE FINAL DECISION ON SPANISH PLANT</a> [24] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3090015" target="_blank" class="news-link">Xiaomi miclaw通过首批中国信通院可信AI手机端智能助手（Claw）评测</a> [29] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7629374592915128383" target="_blank" class="news-link">Android CLI ，谷歌为 Android 开发者专研的 AI Agent，提速三倍</a> [29] <font color='grey'>- 19时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">3</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3090047" target="_blank" class="news-link">阿里云：受短信服务综合成本显著上涨影响，5月20日起调整国内短信服务产品价格</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3770232" target="_blank" class="news-link">7家平台涉“幽灵外卖”被罚没近36亿元：拼多多15.22亿、美团7.46亿、阿里系6.3亿</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417190611421800" target="_blank" class="news-link">阿里云国内短信服务价格上涨</a> [30] <font color='grey'>- 19时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2028483142109996288" target="_blank" class="news-link">如何看待橘子海乐队向华为终端发布侵权声明，要求在 7 日之内赔偿道歉？</a> [13] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/874695974399111168" target="_blank" class="news-link">华为和莉莉丝的offer</a> [19] <font color='grey'>- 19时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/Donchitos/Claude-Code-Game-Studios" target="_blank" class="news-link">Donchitos / Claude-Code-Game-Studios</a> <font color='red'><strong>[6]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
