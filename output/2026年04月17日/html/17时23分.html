@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 256</p><p>生成时间: 2026-04-17 17:23:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">4.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5211632" target="_blank" class="news-link">美股异动｜Stellantis盘前涨超2% 与微软签署为期五年的AI合作协议</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206680" target="_blank" class="news-link">AI 时代，开源项目安全性如何保证</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206677" target="_blank" class="news-link">请教有注册过公司的 v 友，你们是自己记账，还是找 300 块一个月的记账公司，记账能不能让 AI 搞</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9aa1-7075-7ffd-989c-8185221e01fa" target="_blank" class="news-link">&lt;b&gt;ALIBABA - OPEN-SOURCES QWEN3.6-35B-A3B AI MODEL&lt;/b&gt;</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9a9f-3c60-7ffd-989c-78a0668bb21f" target="_blank" class="news-link">HKEX - PROPOSALS AIM TO FACILITATE EARLIER COMPLETION OF POST TRADE ACTIVITIES ON THE TRADE EXECUTION DATE, OTHERS&lt;br/&gt;&lt;br/&gt;HKEX - PROPOSES TO EXTEND SERVICE WINDOWS FOR SETTLEMENT-RELATED ACTIVITIES SUCH AS SETTLEMENT INSTRUCTION INPUT AND MATCHING, OTHERS</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9a97-bb33-7ffd-989c-5db840a71ac5" target="_blank" class="news-link">&lt;b&gt;INDIA REFINERS PAY FOR IRANIAN CRUDE UNDER US WAIVER OF SANCTIONS IN CHINESE YUAN VIA ICICI BANK, SOURCES SAY&lt;/b&gt;</a> [11] <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2346971" target="_blank" class="news-link">风头盖过英伟达！美股CPU双雄股价齐创新高 AI属性渐获市场认可</a> [13] <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/450.htm" target="_blank" class="news-link">华为 Pura X Max 横向阔折叠手机首搭全新小艺伴随式 AI，支持智能待办、行程助手等功能</a> [16] <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417165554147800" target="_blank" class="news-link">AI龙头业绩与指引双双提振信心 瑞银仍看好AI长期趋势</a> [17] <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9a91-3384-7ffd-989c-24cc09fa2c8a" target="_blank" class="news-link">&lt;b&gt;SINGAPORE EXCHANGE - 3 NEW ADDITIONS GEELY AUTOMOBILE, KUAISHOU TECHNOLOGY AND UBTECH ROBOTICS PROVIDE ACCESS TO STRUCTURAL GROWTH THEMES&lt;/b&gt;</a> [18] <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/427.htm" target="_blank" class="news-link">vivo TWS 5i 耳机开启预约：50h 续航、蓝牙 5.4 多设备双连接、AI 通话降噪</a> [18] <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7628943925371191350" target="_blank" class="news-link">从零开始:前端转型AI agent直到就业第十二天-第十三天</a> [29] <font color='grey'>- 17时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3089952" target="_blank" class="news-link">阿里巴巴在澜起科技H股的持股比例降至5.88%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206664" target="_blank" class="news-link">牛逼了，我的阿里云百炼 Coding Plan Pro 莫名被永久封禁，联系客服，无法解封。寻求替代。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770236" target="_blank" class="news-link">AMD下一代芯片，被曝拿下Anthropic大单</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3089919" target="_blank" class="news-link">黄仁勋：DeepSeek如果先在华为平台适配，对美国来说非常糟糕。（每经网）</a> [27] <font color='grey'>- 17时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770241" target="_blank" class="news-link">DeepSeek悄悄更新：Mega MoE、FP4 Indexer来了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
