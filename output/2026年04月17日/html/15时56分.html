@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 308</p><p>生成时间: 2026-04-17 15:56:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">6.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9a40-27c5-7aa6-b475-0b885dbfbc5e" target="_blank" class="news-link">A-SHARES CLOSE MIXED: SHANGHAI COMPOSITE INDEX -0.10%, SHENZHEN COMPONENT INDEX +0.60%, CHINEXT +1.43%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770225" target="_blank" class="news-link">“缺电缺人缺设备”，美国40%数据中心恐延期，AI巨头被算力“卡脖子”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206628" target="_blank" class="news-link">Top AI brings you visual shock</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/291.htm" target="_blank" class="news-link">赵明：因“AI 的商业闭环”加入千里科技，AI 与车的结合是未来十年最具想象力的落地场景</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206623" target="_blank" class="news-link">现在 Google 的 Gemini 和 AI 模式降智的厉害啊</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/388.htm" target="_blank" class="news-link">彭博社：AI 冲击印度 IT 外包模式，“毕业即失业”情况严峻</a> [11] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206609" target="_blank" class="news-link">来感受一下顶级 AI 冠军短片的魅力</a> [12] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/374.htm" target="_blank" class="news-link">消息称 Cerebras 获 OpenAI 超 200 亿美元 AI 芯片订单，计划 IPO</a> [13] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206607" target="_blank" class="news-link">[送码] 做了一个跨平台开发者工具箱 AirTools (一些工具)，求反馈</a> [13] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3089855" target="_blank" class="news-link">禾赛发布空间智能AI硬件产品KOSMO，可服务物理AI数据训练</a> [14] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9a10-c8dd-7aa6-b474-a4b2caabcfbf" target="_blank" class="news-link">AUDI: DEEPENS PARTNERSHIP WITH SAIC FOR FUTURE GENERATION OF AUDI MODELS</a> [18] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9a0e-e000-7aa6-b474-9dcf79ad9713" target="_blank" class="news-link">AUDI AND SAIC WILL BUILD AUDI INNOVATION AND TECHNOLOGY CENTER IN SHANGHAI</a> [19] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47799322" target="_blank" class="news-link">The beginning of scarcity in AI</a> [22] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/343.htm" target="_blank" class="news-link">英伟达发布 Lyra 2.0：单张照片 AI 生成 90 米 3D 场景，仿真训练机器人提速</a> [23] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9a02-db33-7aa6-b474-6d3c5cc36a3c" target="_blank" class="news-link">SHANGHAI COMPOSITE TURNS POSITIVE; SHENZHEN COMPONENT INDEX +0.73%, CHINEXT +1.48%</a> [25] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d99f3-c12a-7aa6-b474-56573675297a" target="_blank" class="news-link">RUSSIAN DRONES ATTACK DAMAGED PORT INFRASTRUCTURE FACILITIES IN UKRAINE&#x27;S ODESA REGION OVERNIGHT, GOVERNOR SAYS</a> [28] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d99ef-c5b7-7aa6-b474-4eb56fabaf22" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX CLOSED DOWN 0.88%</a> [29] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/328.htm" target="_blank" class="news-link">OpenAI ChatGPT AI 全球周活跃用户逼近 10 亿，女性占比超 50%</a> [29] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=AI%E8%83%BD%E8%87%AA%E5%B7%B1%E8%B5%9A%E9%92%B1%E6%84%8F%E5%91%B3%E7%9D%80%E4%BB%80%E4%B9%88" target="_blank" class="news-link">AI能自己赚钱意味着什么</a> [30] <font color='grey'>- 15时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">4</td>
+                <td class="percentage">1.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206654" target="_blank" class="news-link">再开一贴，讨论 claude code 的平替</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47801255" target="_blank" class="news-link">Show HN: SPICE simulation → oscilloscope → verification with Claude Code</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206627" target="_blank" class="news-link">大家的 Claude 弹了 kyc 嘛</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/claude-redesigned?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Claude Code Desktop App Redesigned</a> [19] <font color='grey'>- 15时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">4</td>
+                <td class="percentage">1.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770227" target="_blank" class="news-link">iPhone一季度在华出货大涨20%！内存涨价推高国产手机门槛，苹果华为逆势走强</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/411.htm" target="_blank" class="news-link">CounterPoint 报告 2026Q1 中国手机出货量：华为增 2%、苹果增 20%、OPPO 降 5%、vivo 增 2%、荣耀降 3%、小米降 35%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/383.htm" target="_blank" class="news-link">华为擎云 HA5B0 商用智能手环发布：8.99mm 超薄机身，支持多维度健康监测</a> [12] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/940/322.htm" target="_blank" class="news-link">华为智慧屏 S7 Pro 官宣 4 月 20 日发布：低反光护眼屏、灵犀手写笔，预售价 7999 元起</a> [20] <font color='grey'>- 15时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206630" target="_blank" class="news-link">解决 ChatGPT 信用卡扣费失败，分享一个 Session 授权充值工具</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1206638" target="_blank" class="news-link">阿里云百炼 Coding Plan Pro 套餐 新增当日 token 限制</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
