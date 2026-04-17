@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 35</p><p>生成时间: 2026-04-18 05:50:16</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">11.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3090344" target="_blank" class="news-link">Palantir、泰雷兹等公司竞标美国FAA新型AI空管工具</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9d2a-c2d2-7ffd-98a7-c774cee54b2d" target="_blank" class="news-link">MOODY&#x27;S: BAHRAIN&#x27;S EXTERNAL ACCOUNTS WILL FACE RENEWED PRESSURE FROM DISRUPTION TO SHIPPING AND AIR TRAVEL</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019d9d29-2ba8-7ffd-98a7-b94d1d6de1e1" target="_blank" class="news-link">MOODY&#x27;S: EVEN IN SCENARIO WHERE IRAN CEASEFIRE WERE TO BE SUSTAINED, WILL TAKE SOME TIME FOR TRADE FLOWS THROUGH STRAIT OF HORMUZ TO RETURN TO NORMAL&lt;br/&gt;&lt;br/&gt;MOODY&#x27;S ON BAHRAIN: EVEN IN SCENARIO WHERE IRAN CEASEFIRE WERE TO BE SUSTAINED, WILL TAKE SOME TIME FOR AIR TRAVEL RESUMPTION TO RETURN TO NORMAL</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7629334130569297970/" target="_blank" class="news-link">人类第一张在太空中AI生成的图片曝光</a> [29] <font color='grey'>- 05时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">5.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3090346" target="_blank" class="news-link">美国财政部长贝森特参加了Anthropic PBC CEO与白宫幕僚长的会谈。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3090333" target="_blank" class="news-link">Figma收跌6.89%，Adobe跌1.49%，Wix.com跌0.67%，投资者关注Anthropic PBC发布Claude Design。</a> [12] <font color='grey'>- 05时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3090316" target="_blank" class="news-link">纳斯达克金龙中国指数收涨0.58%，报7230.64点，本周累计上涨6.23%。 热门中概股里，小马智行初步收涨6.5%，文远知行涨2%，新东方、阿里涨1.7%，拼多多涨1%。 ETF中， 中国科技指数ETF（CQQQ）收涨2.12%，本周累涨6.05%、上周涨5.49%； XtrackersHarvest中证50（ASHS）收涨1.98%，本周涨4.02%——此前两周先后反弹0.6%、5.04%； 中概互联网指数ETF（KWEB）收涨1.16%，本周涨6.10%连涨三周； 德银嘉实沪深300指数ETF（ASHR）收涨0.81%，本周涨2.87%——此前两周先后反弹1.81%、3.87%。</a> [27]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
