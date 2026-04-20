@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 108</p><p>生成时间: 2026-04-21 05:12:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">11</td>
+                <td class="percentage">10.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3091332" target="_blank" class="news-link">迈威尔科技/美满科技美股盘后涨3%，其客户亚马逊与Anthropic达成协议。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dac9d-5ab3-711c-a13d-112138a7d1a5" target="_blank" class="news-link">AMAZON SHARES RISE 2.5% AFTER THE BELL, ANNOUNCED EXPANDED ANTHROPIC COLLABORATION</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260421044043115800" target="_blank" class="news-link">亚马逊(AMZN.O)：Anthropic将在AWS技术上投资超过1000亿美元。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dac9a-da3a-711c-a13d-0616437f146e" target="_blank" class="news-link">&lt;b&gt;ANTHROPIC TO SPEND OVER $100B OVER NEXT TEN YEARS ON AWS TECH&lt;/b&gt;</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3091329" target="_blank" class="news-link">Anthropic与亚马逊扩大战略合作</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260421043955367800" target="_blank" class="news-link">亚马逊(AMZN.O)：Anthropic的Claude平台现已在AWS上线。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260421043916018800" target="_blank" class="news-link">亚马逊(AMZN.O)盘后涨2.5%，公司宣布扩大与Anthropic的合作。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dac97-27f4-711c-a13c-e6e06fcf2409" target="_blank" class="news-link">AMAZON - AMAZON AND ANTHROPIC EXPAND STRATEGIC COLLABORATION</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260421043308137800" target="_blank" class="news-link">亚马逊(AMZN.O)：将投资高达250亿美元于Anthropic。</a> [13] <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260421043250625800" target="_blank" class="news-link">亚马逊(AMZN.O)与Anthropic扩大战略合作关系。</a> [14] <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47832366" target="_blank" class="news-link">Figma&#x27;s woes compound with Claude Design</a> [28] <font color='grey'>- 05时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">9.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019daca1-b482-711c-a13d-18f190771cf2" target="_blank" class="news-link">Apple Names Ternus CEO, Cook to Become Executive Chairman</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47840219" target="_blank" class="news-link">Tim Cook to become Apple Executive Chairman</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47839951" target="_blank" class="news-link">AI Resistance Is Growing</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dac9d-3fdb-711c-a13d-0ae3341133ea" target="_blank" class="news-link">APPLE SHARES DOWN 1.2%AFTER THE BELL; TIM COOK TO BECOME APPLE EXECUTIVE CHAIRMAN; JOHN TERNUS TO BECOME APPLE CEO</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770445" target="_blank" class="news-link">Anthropic未来十年将在亚马逊AWS技术上投入超过1000亿美元，将在亚马逊Trainium芯片锁定高达5 GW算力</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dac9a-2c68-711c-a13c-f9b98aab9373" target="_blank" class="news-link">AMAZON - ANTHROPIC’S CLAUDE PLATFORM AVAILABLE ON AWS</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dac97-7d98-711c-a13c-f1c1df8de0f1" target="_blank" class="news-link">TIM COOK TO BECOME APPLE EXECUTIVE CHAIRMAN; JOHN TERNUS TO BECOME APPLE CEO</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260421043339536800" target="_blank" class="news-link">亚马逊(AMZN.O)： Anthropic将获得5吉瓦的亚马逊Trainium芯片。</a> [12] <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dac81-ae93-711c-a13c-b618865be9e8" target="_blank" class="news-link">U.S. STEEL CAPACITY UTILISATION AT 80% FOR THE WEEK ENDING APRIL 18, ACCORDING TO AISI</a> [14] <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dac7f-c568-711c-a13c-ae3d47e2295c" target="_blank" class="news-link">US Stocks Edge Lower as Iran Tensions Disrupt Strait, Oil Surges</a> [15] <font color='grey'>- 05时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47838788" target="_blank" class="news-link">We got 207 tok/s with Qwen3.5-27B on an RTX 3090</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
