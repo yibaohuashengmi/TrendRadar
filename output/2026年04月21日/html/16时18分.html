@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 322</p><p>生成时间: 2026-04-21 16:18:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">5.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019daf08-8f50-7558-ae7e-e8874b99f724" target="_blank" class="news-link">&lt;b&gt;EU&#x27;S KALLAS: TO TAKE IMPORTANT DECISIONS TOMORROW ON UKRAINE&#x27;S 90 BLN EUROS LOAN&lt;br/&gt;&lt;br/&gt;EU&#x27;S KALLAS: UKRAINE REALLY NEEDS THIS LOAN&lt;/b&gt;</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84103" target="_blank" class="news-link">Deezer 称 44% 的新上传音乐是 AI 生成的</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202604/2169893.html" target="_blank" class="news-link">苹果新任CEO特努斯什么来历？25年硬件老将 推出AirPods的核心人物</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770484" target="_blank" class="news-link">AI驱动盈利增长，高盛上调美股目标：标普500年底有望冲击7600点</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47845429" target="_blank" class="news-link">Less human AI agents, please</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1207476" target="_blank" class="news-link">目前市场上各公司招聘 AI coding 工程师是什么阶段了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019daefe-81bb-7558-ae7e-d3f7653abac5" target="_blank" class="news-link">SPANISH FOREIGN MINISTER: SPAIN, SLOVENIA, IRELAND HAVE ASKED EU TO DISCUSS SUSPENSION OF ASSOCIATION TREATY WITH ISRAEL</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/668.htm" target="_blank" class="news-link">微信鸿蒙版 App 获 8.0.17.16 邀测升级，听一听灰度 AI 写歌 / 翻唱功能</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47844890" target="_blank" class="news-link">Salmon exposed to cocaine and its main byproduct roam more widely</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202604/2169883.html" target="_blank" class="news-link">中国官媒：AI应赋能而非取代艺术创作</a> [13] <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019daee7-6a4f-7558-ae7e-811d2242d7fb" target="_blank" class="news-link">CHINA FOREIGN MINISTRY, ON IRAN WAR: HOPES RELEVANT PARTIES MAINTAIN MOMENTUM FOR CEASEFIRE TALK</a> [15] <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019daee6-558a-7558-ae7e-78ee7af1ec15" target="_blank" class="news-link">&lt;b&gt;CHINA FOREIGN MINISTRY, ON IRAN WAR: HOPES TO ACHIEVE NORMAL TRANSIT IN STRAIT OF HORMUZ AS SOON AS POSSIBLE&lt;/b&gt;</a> [16] <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/656.htm" target="_blank" class="news-link">三星展示 Project Luna 概念 AI 伴侣，配可旋转圆形屏幕</a> [17] <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47819738" target="_blank" class="news-link">Air is full of DNA</a> [19] <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/652.htm" target="_blank" class="news-link">萤石 EZVIZ AI Core X 智能大模型主机发布：64Tops 算力，首个智能家居“小龙虾”</a> [20] <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019daedc-f51f-7558-ae7e-4183d6b2a312" target="_blank" class="news-link">&lt;b&gt;CHINA FOREIGN MINISTRY: WANG YI WILL VISIT CAMBODIA, THAILAND, MYANMAR APR 22-26&lt;/b&gt;</a> [23] <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019daed9-7673-7558-ae7e-399a7fe3f884" target="_blank" class="news-link">A-SHARES CLOSE HIGHER: SHANGHAI COMPOSITE UP 0.07%, SHENZHEN COMPONENT UP 0.10%, CHINEXT UP 0.31%</a> [24] <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019daecf-8ea1-7558-ae7e-11faba8d7770" target="_blank" class="news-link">SpaceX Filing Shows xAI Loss Surge, Starlink Profit Jump, Musk Retains Control</a> [29] <font color='grey'>- 16时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1207479" target="_blank" class="news-link">分享几个效率小工具，在 Finder 中一键使用 claude code / codex-cli / opencode-cli / gemini-cli 打开项目</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019daec5-9e47-7558-ae7e-0b8d6ede4d8a" target="_blank" class="news-link">ECB&#x27;S NAGEL: WE MUST PREVENT THE MISUSE OF ANTHROPIC&#x27;S MYTHOS</a> [30] <font color='grey'>- 16时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1207484" target="_blank" class="news-link">Gemini in Chrome 支持日本了，为什么我的不生效？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/665.htm" target="_blank" class="news-link">谷歌承认旗下 Pixel 手机安装 2026 年 3 月更新后存在耗电过快问题，正在积极修复</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/659.htm" target="_blank" class="news-link">除华为鸿蒙还有安卓苹果阔折：消息称今年该品类 4 台新机 4 种 SoC，定价极大概率都会破万</a> [14] <font color='grey'>- 16时18分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5213658" target="_blank" class="news-link">科大国创(300520.SZ)：与华为在星闪方面无合作</a> [15] <font color='grey'>- 16时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2350095" target="_blank" class="news-link">DeepSeek启动首轮外部融资 有望助推国产算力生态全面铺开</a> [13] <font color='grey'>- 16时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
