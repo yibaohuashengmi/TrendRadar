@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 323</p><p>生成时间: 2026-04-21 21:53:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">5.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db038-4ac9-711d-8361-dea117e60a2e" target="_blank" class="news-link">UKRAINE OFFICIALS HAVE SUGGESTED &#x27;DONNYLAND&#x27; IN TALKS: NYT</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2350762" target="_blank" class="news-link">国务院重磅部署！事关AI、算力、6G、卫星互联网等</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db037-d87e-711d-8361-d641043677fb" target="_blank" class="news-link">UKRAINE PROPOSES RENAMING PART OF THE DONBAS FOR TRUMP: NYT</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/21/a1d43b962db042c8ad8bf787fed20885.html" target="_blank" class="news-link">李在明访问印度，韩印加强AI及防务合作</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1207572" target="_blank" class="news-link">我们把给不同产品单独写的 AI 客服，做成了一个通用产品</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3770514" target="_blank" class="news-link">美债关注油价中枢与AI通缩交易，伊朗战后重建提振中游中间品，4月EPMI超季节性需求改善价格上行---0421宏观脱水</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/823.htm" target="_blank" class="news-link">大众汽车今年下半年将为中国市场车型引入 AI 语音助手功能，整合腾讯阿里百度等企业技术</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47848195" target="_blank" class="news-link">Tindie store under &quot;scheduled maintenance&quot; for days</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db02d-62e0-711c-a9f7-9f5492852420" target="_blank" class="news-link">OPENAI INTRODUCING CODEX LABS&lt;br/&gt;&lt;br/&gt;OPENAI: WEEKLY CODEX USERS JUMPED TO 4M FROM 3M IN TWO WEEKS&lt;br/&gt;&lt;br/&gt;OPENAI: PARTNERS INCLUDE INFOSYS, PWC,TATA CONSULTANCY SERVICES&lt;br/&gt;&lt;br/&gt;OPENAI: PARTNERS INCL ACCENTURE, CAPGEMINI, CGI, COGNIZANT&lt;br/&gt;&lt;br/&gt;OPENAI: CODEX LABS TO BRING OPENAI EXPERTS DIRECTLY INTO ORGS</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3091875" target="_blank" class="news-link">OpenAI推出Codex Labs</a> [11] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db029-3b32-711d-8361-79044cc418c3" target="_blank" class="news-link">TRUMP: EUROPE MUST STRAIGHTEN OUT ON IMMIGRATION, ENERGY</a> [13] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3091872" target="_blank" class="news-link">C大普微：已实现对海外客户Google等客户的产品销售 2025年已通过Nvidia、xAI两家全球AI头部公司测试导入</a> [14] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db028-7d85-711d-8361-60df68ea63a5" target="_blank" class="news-link">TRUMP: SPOKE TO SAUDIS YESTERDAY, NOT ASKING FOR ANYTHING&lt;br/&gt;&lt;br/&gt;TRUMP: SAUDI ARABIA IS HELPING US ON THE STRAIT</a> [16] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770509" target="_blank" class="news-link">苹果为什么在AI时代，选了一个造芯片的人当CEO？</a> [18] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260421211330666800" target="_blank" class="news-link">OpenAI推出Codex实验室（Codex Labs）。</a> [25] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db024-fb62-711d-8361-02b5337f4dbf" target="_blank" class="news-link">&lt;b&gt;TRUMP PRAISES RAYTHEON&lt;/b&gt;</a> [28] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/800.htm" target="_blank" class="news-link">荣威联合火山引擎发布全球首个 AI 原生汽车序列“家越”，三款概念车亮相</a> [29] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db023-8e6f-711d-8360-f73a626ca2a7" target="_blank" class="news-link">AMERICAN AIRLINES TURNS NEGATIVE AFTER TRUMP COMMENTS</a> [30] <font color='grey'>- 21时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">4</td>
+                <td class="percentage">1.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260421213027894800" target="_blank" class="news-link">美股三大股指高开，道指涨0.5%，标普500指数涨0.28%，纳指涨0.27%。联合健康(UNH.N)涨9.4%，一季度财报优于预期。亚马逊(AMZN.O)涨2.1%，其与Anthropic升级合作关系。苹果(AAPL.O)跌0.3%，库克将卸任CEO，特努斯接任。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47848276" target="_blank" class="news-link">Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return</a> [14] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260421211530928800" target="_blank" class="news-link">特朗普：Anthropic“发展态势良好”，愿意考虑恢复合作</a> [23] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3091857" target="_blank" class="news-link">特朗普称有可能与Anthropic达成协议</a> [26] <font color='grey'>- 21时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">4</td>
+                <td class="percentage">1.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/837.htm" target="_blank" class="news-link">居然不是“BUG”：华为鸿蒙 HarmonyOS 6 沉浸光感“超透”控制 / 通知中心背板属小彩蛋</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/830.htm" target="_blank" class="news-link">消息称华为鸿蒙 HarmonyOS 6.1 系统畅连 App「实时对讲」功能后续将升级支持无网状态使用</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/828.htm" target="_blank" class="news-link">华为 Pura 90 / Pro / Max 全系手机 Type-C 接口规格参数页相对上一代移除“USB 3.1 Gen 1”描述</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/941/807.htm" target="_blank" class="news-link">雅迪联手百度地图，首度支持华为鸿蒙 HarmonyOS 手机投屏至电动车进行导航</a> [24] <font color='grey'>- 21时53分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
