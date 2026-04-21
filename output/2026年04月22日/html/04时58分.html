@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 101</p><p>生成时间: 2026-04-22 04:58:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">8.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db1aa-d5c4-7aa3-a662-56becc824d23" target="_blank" class="news-link">TRUMP: DIRECTED OUR MILITARY TO CONTINUE THE BLOCKADE AND, IN ALL OTHER RESPECTS, REMAIN READY AND ABLE</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3092092" target="_blank" class="news-link">奥多比宣布250亿美元股票回购计划，此前AI颠覆担忧拖累股价</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770535" target="_blank" class="news-link">成也AI败也AI？高通深陷内存供应瓶颈，分析师预警未来两年增长几近停滞</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db1a6-53d5-7aa3-a662-4103db656781" target="_blank" class="news-link">TORONTO STOCK INDEX POSTS BIGGEST DAILY DECLINE SINCE MARCH 20</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 04时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770536" target="_blank" class="news-link">OpenAI升级图像模型，强化复杂图表生成能力，提升付费需求</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 04时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db1a4-64a8-7aa3-a662-3685f7fd727d" target="_blank" class="news-link">UNITED AIRLINES 1Q FUEL EXPENSE INCREASES $340M Y/Y</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 04时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db1a1-2229-7aa3-a662-1dbfdae55fda" target="_blank" class="news-link">CHINA DIALS UP PRESSURE AFTER JAPANESE DESTROYER TRANSITS TAIWAN STRAIT - NIKKEI</a> [11] <font color='grey'>- 04时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db195-a4a5-7aa3-a661-d697daaaf8f1" target="_blank" class="news-link">U.S. TRANSPORTATION SECRETARY WANTS $10 BILLION FROM CONGRESS FOR NEXT PHASE OF MASSIVE AIR TRAFFIC CONTROL OVERHAUL</a> [20] <font color='grey'>- 04时58分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7631204301230050870/" target="_blank" class="news-link">库克卸任：4万亿市值与AI失落的十年</a> [28] <font color='grey'>- 04时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260422040117439800" target="_blank" class="news-link">美股周二收盘，三大股指集体收跌，道指跌0.59%，纳指跌0.59%，标普500指数跌0.63%，热门科技股多数下跌，苹果跌超2%，英伟达、谷歌、特斯拉跌超1%。</a> [23] <font color='grey'>- 04时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3092076" target="_blank" class="news-link">纳斯达克金龙中国指数收跌2.60%，报7020.14点。 热门中概股里，大全新能源初步收跌超9%，B站、阿特斯太阳能跌超6%，世纪互联跌5.8%，拼多多跌4.9%，新东方、小鹏、阿里、百度、蔚来、网易至少跌约3%。 ETF中，中概互联网指数ETF（KWEB）收跌2.91%，中国科技指数ETF（CQQQ）收跌2.66%。 XtrackersHarvest中证50（ASHS）收跌1.86%，德银嘉实沪深300指数ETF（ASHR）收跌1.09%。</a> [19]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
