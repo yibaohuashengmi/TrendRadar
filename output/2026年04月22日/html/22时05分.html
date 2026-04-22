@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 283</p><p>生成时间: 2026-04-22 22:05:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">21</td>
+                <td class="percentage">7.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260422/1070913191.html" target="_blank" class="news-link">俄专家：人工智能无法替代汉语教师和翻译人员</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db565-e4ef-7dd4-a366-ac9040c9bbf9" target="_blank" class="news-link">UNITED AIRLINES SHARES DOWN 2.4% AFTER CO SEES WEAK Q2, FULL-YEAR PROFIT</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db564-de7b-7dd4-a366-a76a873aab3b" target="_blank" class="news-link">SEAGATE SHARES ADD 4% AFTER BARCLAYS RAISES TO OVERWEIGHT FROM EQUAL-WEIGHT</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770635" target="_blank" class="news-link">AI芯片“分工”时刻！谷歌第八代TPU，为什么是两款？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1207839" target="_blank" class="news-link">给我的 AI 生成了简历和状态卡, 大家帮忙看下 Ta 能找到啥样的</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/22/82b74d75a47843159f17e675c11f9048.html" target="_blank" class="news-link">苹果公司任命特努斯为下任CEO “硬件老兵”接班应对AI变革</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770633" target="_blank" class="news-link">Anthropic最强AI模型遭未授权访问：所谓&quot;安全防线&quot;究竟有多脆弱？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770631" target="_blank" class="news-link">谷歌一口气推出两款TPU，首度拆分训练与推理芯片，企业AI智能体全面铺开</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/304.htm" target="_blank" class="news-link">谷歌推出 TPU 8t / 8i，两款 AI 芯片分别面向训练和智能体推理</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db550-68ef-7dd4-a366-30e4c1e2528f" target="_blank" class="news-link">&lt;b&gt;LEBLANC: 232 TARIFFS LIKELY TO REMAIN BUT ADJUSTMENTS POSSIBLE&lt;/b&gt;</a> [16] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47833651" target="_blank" class="news-link">I don&#x27;t chain everything in JavaScript anymore</a> [18] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db54b-9b9d-7dd4-a366-1d9f16f0ecb8" target="_blank" class="news-link">3M COMPANY: WELLS FARGO RAISES TARGET PRICE TO $165 FROM $160</a> [19] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3092631" target="_blank" class="news-link">谷歌发布一系列新AI工具 挑战OpenAI和Anthropic</a> [19] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db548-6ed3-7dd4-a366-0f7d24870a00" target="_blank" class="news-link">CHINA&#x27;S 360 HUNTS SOFTWARE FLAWS WITH AI, ECHOING MYTHOS</a> [21] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3092628" target="_blank" class="news-link">Merck与谷歌云签订最高达10亿美元AI合作协议</a> [22] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/283.htm" target="_blank" class="news-link">徕芬 CEO 叶洪新预热 AirFold 手持风扇，5 月将集中推出 7 款新品</a> [22] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%94%A8AI%E5%8A%9E%E4%BA%86%E5%9C%BA%E8%BD%A6%E5%B1%95" target="_blank" class="news-link">用AI办了场车展</a> [24] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db53c-2558-7dd4-a365-d0c53b6f5810" target="_blank" class="news-link">TRUMP LABOR AGENCY AIMS TO SIMPLIFY JOINT EMPLOYER RULES: BLAW&lt;br/&gt;&lt;br/&gt;PREVIOUS TRUMP STANDARD STRUCK DOWN BY FEDERAL JUDGE: BLAW</a> [28] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3092620" target="_blank" class="news-link">谷歌云AI使用量达到每分钟160亿Tokens。（彭博）</a> [28] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3092619" target="_blank" class="news-link">Altimetrik今日宣布已加入谷歌云的AI原生合作伙伴队列，谷歌云正通过与这一群体合作，在全球企业中推广规模化代理型AI。（彭博）</a> [29] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260422213035194800" target="_blank" class="news-link">美股三大股指高开，道指涨0.7%，标普500指数涨0.7%，纳指涨0.8%。波音(BA.N)涨4%，一季度财报好于预期，营收同比增长14%。Alphabet(GOOGL.O)涨1.1%，谷歌云发布用于人工智能的新型TPU芯片。特斯拉(TSLA.O)跌0.1%，其将于今日盘后发布一季度财报。</a> [30] <font color='grey'>- 22时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">7</td>
+                <td class="percentage">2.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/310.htm" target="_blank" class="news-link">华为余承东再放豪言：两年前发布的问界 M9 让中国汽车产业家家都学习，新 M9 要让他们永远追不上</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770632" target="_blank" class="news-link">华为鸿蒙智行五车齐发：尚界Z7正式开售，首发“电磁压铸”黑科技</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/301.htm" target="_blank" class="news-link">黄金频谱：华为在尼日利亚完成全球首个 Sub-1GHz Massive MIMO 商用部署</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3092647" target="_blank" class="news-link">华为终端BG董事长余承东：问界M6上市15分钟大定突破10000台。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/293.htm" target="_blank" class="news-link">华为余承东：鸿蒙智行全新一代问界 M9 系列新车首发乾崑智驾 HUAWEI ADS 5</a> [13] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3092629" target="_blank" class="news-link">【问界M6正式上市，售价25.98万元起】鸿蒙智行旗下新锐智慧SUV问界M6正式上市，全系搭载华为896线双光路雷达、华为乾崑智驾ADS 4.1高阶版等配置，售价25.98万元起。</a> [21] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/282.htm" target="_blank" class="news-link">鸿蒙智行尚界 Z7 / Z7T 新车上市：标配华为乾崑 896 线激光雷达，21.98 万元 / 22.98 万元起</a> [23] <font color='grey'>- 22时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">1.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3092639" target="_blank" class="news-link">谷歌云与Collibra宣布扩大合作伙伴关系。（彭博）</a> [15] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db547-6198-7dd4-a366-056ad0df65fa" target="_blank" class="news-link">BROADCOM EXPANDS PACT WITH GOOGLE CLOUD ON NETWORK INSIGHTS</a> [22] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3092623" target="_blank" class="news-link">智能数据基础设施公司NetApp今日宣布，该公司荣获“2026年Google Cloud存储类别年度基础架构现代化合作伙伴奖”。</a> [25]</div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/302.htm" target="_blank" class="news-link">通义千问 Qwen3.6-27B 宣布开源：270 亿参数稠密模型，编程能力超越 15 倍规模 MoE 模型</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260422213306784800" target="_blank" class="news-link">阿里巴巴(BABA.N)上涨1.1%。</a> [22] <font color='grey'>- 22时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/22/14ab2124ddc14445bd0a2185d05536ad.html" target="_blank" class="news-link">亚马逊向Anthropic追加投资50亿美元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db564-9f8c-7dd4-a366-99d0f7157311" target="_blank" class="news-link">U.S.-LISTED SHARES OF ALIBABA UP 1.1% AFTER REPORT CO IN TALKS TO INVEST IN DEEPSEEK AT $20 BLN VALUATION</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
