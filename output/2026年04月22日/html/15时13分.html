@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 274</p><p>生成时间: 2026-04-22 15:13:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">9.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db3ff-aa4a-7dd4-a361-81b2aa3d8937" target="_blank" class="news-link">UKRAINE&#x27;S FOREIGN MINISTER SAYS HE HAS ALREADY EXCHANGED WRITTEN MESSAGES WITH HUNGARY&#x27;S INCOMING FOREIGN MINISTER, KYIV READY TO &#x27;OPEN A NEW PAGE&#x27; WITH BUDAPEST</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db3ff-8f2a-7dd4-a361-7affea62cfc7" target="_blank" class="news-link">UKRAINE&#x27;S FOREIGN MINISTER SAYS KYIV WANTS A MEETING BETWEEN ZELENSKIY AND PUTIN, HAS ASKED TURKEY IF IT WOULD BE WILLING TO HOST IT</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db3ff-2ed8-7dd4-a361-6932a0db79b7" target="_blank" class="news-link">A-SHARES CLOSE HIGHER: SHANGHAI COMPOSITE UP 0.52%, SHENZHEN COMPONENT UP 1.30%, CHINEXT UP 1.73%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770578" target="_blank" class="news-link">一文读懂ChatGPT Images 2.0：图像AI的下一个阶段</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260422145040323800" target="_blank" class="news-link">马斯克新动作！SpaceX拿下AI编程新贵600亿美元收购权</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260422145010097800" target="_blank" class="news-link">寒武纪回应互联网大厂自研芯片影响：公司产品对各类人工智能技术具备较好普适性</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958930" target="_blank" class="news-link">大摩：AI进入下半场，智能体崛起，GPU不再是一切</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%B7%B1%E5%BA%A6%E5%89%96%E6%9E%902026%E6%96%AF%E5%9D%A6%E7%A6%8FAI%E6%8A%A5%E5%91%8A" target="_blank" class="news-link">深度剖析2026斯坦福AI报告</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3092366" target="_blank" class="news-link">寒武纪回应互联网大厂自研芯片影响：公司产品对各类人工智能技术具备较好普适性</a> [11] <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5214665" target="_blank" class="news-link">创业板指续创近11年新高，费率最低的创业板人工智能ETF华夏(159381)飙涨5%，创业板成长ETF华夏(159967)劲升近4%</a> [11] <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3092357" target="_blank" class="news-link">抖音生活服务发布多条AIGC创作规范</a> [16] <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260422144504655800" target="_blank" class="news-link">据伊朗媒体报道，在伊斯法罕市从Kowsar大道到Darchai桥的区域，可能听到受控爆炸的声音。</a> [16] <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db3c8-1847-7aa3-a665-685157b1ddb7" target="_blank" class="news-link">BARCLAYS RAISES TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD TARGET PRICE TO $470 FROM $450</a> [17] <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db3c7-4946-7aa3-a665-656554b33383" target="_blank" class="news-link">UKRAINIAN PROSECUTOR GENERAL RUSLAN KRAVCHENKO SAYS SUCH LAUNCHES ARE EXTREMELY IRRESPONSIBLE AND SHOW A COMPLETE DISREGARD FOR THE SAFETY OF CIVILIANS</a> [18] <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3092355" target="_blank" class="news-link">千问AI眼镜持续位居线上市场第一</a> [18] <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260422144045770800" target="_blank" class="news-link">抖音生活服务发布多条AIGC创作规范</a> [18] <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2029620355082335491" target="_blank" class="news-link">爱奇艺回应 AI 授权，称真人完成关键表演后将其数字化，未来减少对「顶流」的依赖，对影视行业是好事吗？</a> [18] <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db3c7-47ae-7aa3-a665-5ea864b4721e" target="_blank" class="news-link">&lt;b&gt;RUSSIA HAS REPEATEDLY LAUNCHED DRONES AND MISSILES ON A FLIGHT PATH NEAR THE DISUSED CHORNOBYL NUCLEAR PLANT - UKRAINE&#x27;S TOP STATE PROSECUTOR&lt;/b&gt;</a> [19] <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db3c6-6a92-7aa3-a665-51971e5e59a2" target="_blank" class="news-link">Core Retail Price Index (YoY) (Mar)</a> [20] <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db3c6-6a91-7aa3-a665-4ab2d63407aa" target="_blank" class="news-link">Retail Price Index (MoM) (Mar)</a> [21] <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260422143508950800" target="_blank" class="news-link">北京高院：用AI生成侵权图片并制作拼图销售，构成侵犯著作权罪</a> [21] <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db3c6-6a91-7aa3-a665-401bf24a0bac" target="_blank" class="news-link">Retail Price Index (YoY) (Mar)</a> [22] <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/064.htm" target="_blank" class="news-link">OpenAI 最前沿的 AI 智能体编程模型 GPT-5.5 偷跑</a> [23] <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/060.htm" target="_blank" class="news-link">消息称 OpenAI 拟 15 亿美元投资一合资企业，发力企业级 AI 市场</a> [25] <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7630839350435086386" target="_blank" class="news-link">我做了个AI项目后才发现：会做事的人，正在输给会讲故事的人</a> [29] <font color='grey'>- 15时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">1.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1207741" target="_blank" class="news-link">中国的算力缺口这么大嘛？看到 2025 华为昇腾出货 81 万块，又看到各家 coding plan 不是停售就是限流</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/112.htm" target="_blank" class="news-link">华为 MatePad 旗舰新平板入网：消息称高配版支持卫星通信，采用星环镜组设计</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3092339" target="_blank" class="news-link">华为终端：行业首款大阔折华为Pura X Max将于4月25日10:08正式开售。</a> [29] <font color='grey'>- 15时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db3ff-4b71-7dd4-a361-70600d65b537" target="_blank" class="news-link">GOOGLE CLOUD- VODAFONE BUSINESS LAUNCHES MANAGED DETECTION AND RESPONSE SERVICE ENABLED BY GOOGLE SECURITY OPERATIONS</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/071.htm" target="_blank" class="news-link">谷歌发布 Gemini 3.1 Pro 深度研究智能体，可连接专有数据源生成专业图表</a> [19] <font color='grey'>- 15时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1207731" target="_blank" class="news-link">阿里云 Coding Plan 增加动态限流，频繁暂停无法使用</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时13分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
