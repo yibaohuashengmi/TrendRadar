@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 163</p><p>生成时间: 2026-04-24 03:18:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">14.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbbb9-f366-766f-8995-3fa69c04780c" target="_blank" class="news-link">Iran Adds Naval Mines in Strait of Hormuz as U.S. Reinforces Military Presence</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770740" target="_blank" class="news-link">OpenAI发布GPT-5.5，押注“少指令执行”争夺企业级付费市场</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbbb8-0add-766f-8995-340ebcb00cc1" target="_blank" class="news-link">THE ACTIVATION OF AIR DEFENSE SYSTEMS IN TEHRAN TONIGHT CAME IN RESPONSE TO THE PRESENCE OF DRONES, SOME OF WHICH ARE OF THE ORBITER TYPE - FARS</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47876043" target="_blank" class="news-link">Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbbb7-1448-766f-8995-29613cc91546" target="_blank" class="news-link">IRAN DEPLOYS MORE MINES IN THE STRAIT OF HORMUZ, SOURCES SAY - AXIOS</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47878117" target="_blank" class="news-link">MeshCore development team splits over trademark dispute and AI-generated code</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbbb1-ee3a-766f-8995-1f57eccc8ebc" target="_blank" class="news-link">Trump Set to Extend Jones Act Waiver to Support US Fuel Supply</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbba2-f603-766f-8995-088b04d333a5" target="_blank" class="news-link">U.S. Munitions Depletion From Iran War Raises Taiwan Defense Concerns</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbba2-0c3a-766f-8995-05a193754cbb" target="_blank" class="news-link">IRAN WAR COMPLICATES CONTINGENCY PLANS TO DEFEND TAIWAN, SOME U.S. OFFICIALS SAY - WSJ &lt;br/&gt;&lt;br/&gt;U.S. OFFICIALS ESTIMATE FULL MILITARY STOCKPILE REPLENISHMENT MAY TAKE UP TO SIX YEARS</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbb93-ee3f-766f-8994-de00d4825db3" target="_blank" class="news-link">TRUMP: IRAN DEAL ONLY MADE WHEN APPROPRIATE AND GOOD FOR US, ALLIES AND WORLD &lt;br/&gt;&lt;br/&gt;TRUMP: NOT ANXIOUS TO END IRAN CONFLICT; HAVE ALL TIME IN WORLD BUT IRAN DOES NOT &lt;br/&gt;&lt;br/&gt;TRUMP: IRAN BLOCKADE IS AIRTIGHT AND STRONG</a> [14] <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbb8f-caf1-766f-8994-c2978394fb6b" target="_blank" class="news-link">&lt;b&gt;SWISS NATIONAL BANK VICE CHAIRMAN: WE HAVE SAID VERY CLEARLY THAT, GIVEN THE SITUATION CREATED BY THE MIDDLE EAST WAR, WE ARE READY TO INTERVENE&lt;br/&gt;&lt;br/&gt;SNB VICE CHAIRMAN TELLS BROADCASTER RTS: WE HAVE A GREATER WILLINGNESS TO INTERVENE IN THE FOREIGN EXCHANGE MARKET&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;SNB VICE CHAIRMAN TELLS BROADCASTER RTS: WE HAVE OBSERVED SINCE THE START OF THE CONFLICT IN IRAN THAT THE SWISS FRANC HAS LOST VALUE</a> [17] <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3093466" target="_blank" class="news-link">OpenAI发布新模型GPT 5.5，能更好地帮助科学家们、简化软件开发、执行更复杂的任务。</a> [17] <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbb86-4816-766f-8994-b257143aec2f" target="_blank" class="news-link">OPENAI: WILL BRING GPT‑5.5 AND GPT‑5.5 PRO TO THE API VERY SOON</a> [19] <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbb85-039c-766f-8994-aba1832d8583" target="_blank" class="news-link">OPENAI: RELEASING GPT‑5.5 WITH OUR STRONGEST SET OF SAFEGUARDS TO DATE</a> [20] <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbb84-e35c-766f-8994-a62d3ed4e39c" target="_blank" class="news-link">&lt;b&gt;OPENAI: GPT‑5.5 IS ROLLING OUT TO PLUS, PRO, BUSINESS, &amp; ENTERPRISE USERS IN CHATGPT ,CODEX&lt;/b&gt;</a> [21] <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbb83-eb4c-766f-8994-9ac3d83b0994" target="_blank" class="news-link">&lt;b&gt;US CENTCOM: AIRCRAFT CARRIER BUSH SAILS IN THE CENTRAL COMMAND AREA&lt;/b&gt;</a> [22] <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424020703790800" target="_blank" class="news-link">OpenAI：将很快把GPT‑5.5和GPT‑5.5 PRO引入 API。</a> [24] <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbb7d-58a9-766f-8994-83a8422b4cf2" target="_blank" class="news-link">BRENT CRUDE FUTURES LEAP $5 A BARREL ON REPORTS OF AIR ATTACKS IN IRAN</a> [25] <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424020634954800" target="_blank" class="news-link">OpenAI：GPT‑5.5 PRO正在向ChatGPT的专业版、商业版和企业用户推出。</a> [25] <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3093456" target="_blank" class="news-link">Meta内部宣布将裁员10%来提升效率，弥补AI方面高额支出</a> [26] <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424020613042800" target="_blank" class="news-link">OpenAI：发布GPT‑5.5，并配备迄今为止最强大的一套安全防护措施。</a> [26] <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424020534371800" target="_blank" class="news-link">OpenAI：推出 GPT‑5.5，这是我们迄今为止最智能、最直观易用的模型，也是迈向在电脑上完成工作的全新方式的下一步。</a> [27] <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47878208" target="_blank" class="news-link">&#x27;Hairdryer used to trick weather sensor&#x27; to win Polymarket bet</a> [28] <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbb76-8d88-766f-8994-6309b452bf14" target="_blank" class="news-link">NO ISRAELI ACTIVITY IN IRANIAN AIRSPACE - ISRAEL&#x27;S CHANNEL 13 CITES MILITARY SOURCE</a> [29] <font color='grey'>- 03时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47878905" target="_blank" class="news-link">An update on recent Claude Code quality reports</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbb7a-6831-766f-8994-757414ba9e43" target="_blank" class="news-link">UK IN TALKS WITH ANTHROPIC OVER MYTHOS ACCESS FOR BANKS AND BUSINESS - FT</a> [27] <font color='grey'>- 03时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA%E4%B9%BE%E5%B4%91%E6%99%BA%E9%A9%BEADS5%23&amp;t=31&amp;band_rank=9&amp;Refer=top" target="_blank" class="news-link">华为乾崑智驾ADS5</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
