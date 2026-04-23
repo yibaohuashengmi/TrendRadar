@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 259</p><p>生成时间: 2026-04-23 14:09:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">22</td>
+                <td class="percentage">8.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db8d6-15fc-7ff7-95a2-d863f90eaf47" target="_blank" class="news-link">TAIWAN&#x27;S WEIGHTED INDEX CLOSED DOWN 0.43%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958936" target="_blank" class="news-link">那一刻，OpenAI决定和马斯克分道扬镳</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db8d3-15f0-7ff7-95a2-cfda6e3f30f3" target="_blank" class="news-link">MAERSK: THE STRAIT OF HORMUZ REMAINS “FIRMLY CLOSED&quot;</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5215945" target="_blank" class="news-link">研报掘金丨华鑫证券：维持莲花控股“买入”评级，“消费+AI科技”双轮驱动发展战略</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/499.htm" target="_blank" class="news-link">美参议员示警：若“AI 泡沫”破碎，恐将引发下一次金融危机</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db8cd-c5fb-7ff7-95a2-bdbce1a2d040" target="_blank" class="news-link">SPOKESPERSON FOR AUSTRALIA HOME AFFAIRS MINISTER: MUCH OF CRITICAL INFRASTRUCTURE RELIES ON A DIGITAL BACKBONE PROVIDED BY A HANDFUL OF SOFTWARE PROVIDERS</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1207706" target="_blank" class="news-link">如何实现自我进化的 AI 的 Skills?</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db8cd-ab8f-7ff7-95a2-b12d6a037dc1" target="_blank" class="news-link">SPOKESPERSON FOR AUSTRALIA HOME AFFAIRS MINISTER: WORKING WITH SOFTWARE PROVIDERS AND COMPANIES LIKE ANTHROPIC TO MAKE SURE WE ARE AWARE OF EMERGING VULNERABILITIES</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770676" target="_blank" class="news-link">从存储、MLCC、ABF到磷化铟，关于AI算力链的“瓶颈”，这是高盛的最新看法</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1207981" target="_blank" class="news-link">大伙用 AI 会考虑在 user scope 的 CLAUDE.md/AGENTS.md 里交代 AI 说中文吗</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db8c1-a0cd-7ff7-95a2-a1fbc8061d8e" target="_blank" class="news-link">HYUNDAI MOTOR: Q1 NET PROFIT 2.3 TRLN WON (LSEG SMARTESTIMATE 2.5 TRLN WON)</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db8c1-6c01-7ff7-95a2-99047dce9d54" target="_blank" class="news-link">HYUNDAI MOTOR: REPORTS 860 BLN WON COST FROM TARIFFS</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db8b1-7339-7ff7-95a2-700b755bc058" target="_blank" class="news-link">SpaceX Plans In-House GPU Manufacturing and AI Chip “Terafab” Project, S-1 Filing Shows</a> [14] <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/479.htm" target="_blank" class="news-link">SpaceX 拟 600 亿美元买下 AI 编程工具 Cursor，消息称微软一度也有竞购野心</a> [16] <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33032397" target="_blank" class="news-link">人民海军成立77周年丨“吉野号已击毁”！AI让福建舰与北洋水师同框</a> [18] <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/477.htm" target="_blank" class="news-link">Maingear 发布 MG-1 MkII 游戏台式机，首发 AMD 9950X3D2 处理器</a> [18] <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db881-a207-7ff7-95a2-359446a3db6d" target="_blank" class="news-link">MARCH ELECTRIC VEHICLE MARKET SHARE AT 70.2% OF NEW REGISTRATIONS IN EU, BRITAIN, EFTA, ACEA SAYS</a> [22] <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db87f-e11c-7ff7-95a2-2eedcd3c24a3" target="_blank" class="news-link">ACEA: TESLA MARCH EU NEW CAR REGISTRATIONS ROSE NEARLY 102%&lt;br/&gt;&lt;br/&gt;ACEA: BYD MARCH EU NEW CAR REGISTRATIONS ROSE 155%&lt;br/&gt;&lt;br/&gt;ACEA: SAIC MOTOR MARCH EU NEW CAR REGISTRATIONS ROSE 6%</a> [23] <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db87f-19c1-7ff7-95a2-19c5b378f091" target="_blank" class="news-link">TESLA&#x27;S MARKET SHARE IN EU, BRITAIN, EFTA IN MARCH RISES TO 3.3% VS BYD&#x27;S 2.4%; TESLA BEV MARKET SHARE AT 15.3%&lt;br/&gt;&lt;br/&gt;PASSENGER CAR REGISTRATIONS IN EU, BRITAIN, EFTA UP 11.1% YEAR-ON-YEAR IN MARCH&lt;br/&gt;&lt;br/&gt;ACEA: EU MARCH NEW CAR REGISTRATIONS ROSE 12.5% TO 1,158,316</a> [25] <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db87e-33b6-7ff7-95a2-10fc58884a51" target="_blank" class="news-link">JP MORGAN RAISES CME GROUP TARGET PRICE TO $273 FROM $271</a> [26] <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db875-c661-7ff7-95a2-0827ab30001d" target="_blank" class="news-link">&lt;b&gt;CHINA MOFCOM, SAMR: TO PROMOTE AI-ENABLED SERVICE TRADE STANDARDIZATION AND ACCELERATE DIGITAL TRADE DEVELOPMENT THROUGH IMPROVED POLICIES AND MARKET ENVIRONMENT&lt;/b&gt;</a> [27] <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019db874-40b1-7ff7-95a1-ff02058aefea" target="_blank" class="news-link">CHINA MOFCOM, SAMR: TO PRIORITIZE STANDARDS DEVELOPMENT IN SOFTWARE, DATA FLOW, AND NEW TECH INTEGRATION WITH AI AND VR</a> [29] <font color='grey'>- 14时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47872200" target="_blank" class="news-link">A Boy That Cried Mythos: Verification Is Collapsing Trust in Anthropic</a> [16] <font color='grey'>- 14时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260423132552613800" target="_blank" class="news-link">澳大利亚内政部发言人：正与软件供应商及Anthropic等公司合作，以确保我们能了解新兴的漏洞问题。</a> [30] <font color='grey'>- 14时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
