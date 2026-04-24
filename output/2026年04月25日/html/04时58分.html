@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 72</p><p>生成时间: 2026-04-25 04:58:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">5</td>
+                <td class="percentage">6.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dc126-577d-7bba-b976-5c73b190609a" target="_blank" class="news-link">ALPHABET INC: CHIEF EXECUTIVE OFFICER, ALPHABET AND GOOGLE, AND DIRECTOR SUNDAR PICHAI 2025 TOTAL COMPENSATION $10.9 MLN</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dc11b-afcd-7bba-b976-43640ac9a66a" target="_blank" class="news-link">S&amp;P 500, Nasdaq Hit Records as Nvidia Reclaims $5T, Intel Breaks 2000 High</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时58分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47894734" target="_blank" class="news-link">TIPSv2: Advancing Vision-Language Pretraining with Enhanced Patch-Text Alignment</a> [20] <font color='grey'>- 04时58分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47894291" target="_blank" class="news-link">MiniZinc, constraint modelling language solve discrete optimisation problems</a> [30] <font color='grey'>- 04时58分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1208319" target="_blank" class="news-link">说实话，我不明白程序员为什么对 AI 的隐私问题这么不关注</a> [30] <font color='grey'>- 04时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">4.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47895080" target="_blank" class="news-link">Google to invest up to $40B in Anthropic in cash and compute</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时58分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47894690" target="_blank" class="news-link">Could a Claude Code routine watch my finances?</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 04时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770859" target="_blank" class="news-link">谷歌计划对Anthropic投资至多400亿美元，既是伙伴，又是对手</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 04时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">1.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3094294" target="_blank" class="news-link">美国商品期货交易委员会（CFTC）：就Coinbase与Gemini的行为起诉美国纽约。 （纽约）对“合约市场”监管过多。 纽约在预测市场领域的执法走得太远。（彭博法律Blaw）</a> <font color='red'><strong>[6]</strong></font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">1.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3094285" target="_blank" class="news-link">纳斯达克金龙中国指数收涨1.59%，报6952.52点，本周累计下跌3.85%。 热门中概股里，百度初步收涨5.9%，再鼎医药、小鹏、万国数据涨超4%，世纪互联、文远知行、阿里巴巴至少涨约3%。 ETF中，中国科技指数ETF（CQQQ）收涨1.69%，本周累跌0.89%，结束此前连续三周反弹的趋势； 中概互联网指数ETF（KWEB）收涨1.41%，本周累跌5.32%，此前连续三周反弹； 德银嘉实沪深300指数ETF（ASHR）收跌0.06%，本周累涨0.32%，此前三周先后反弹XtrackersHarvest中证50（ASHS）收跌1.15%，本周累跌0.96%，此前连续三周反弹。</a> [15]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
