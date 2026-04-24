@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 252</p><p>生成时间: 2026-04-24 19:42:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">5.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbf35-b96c-711a-92e1-aae7077e1f1d" target="_blank" class="news-link">INTEL: WEDBUSH RAISES TARGET PRICE TO $60 FROM $30</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=AI%E5%9C%A8%E4%BF%9D%E6%8A%A4AI&amp;t=31&amp;band_rank=2&amp;Refer=top" target="_blank" class="news-link">AI在保护AI</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1208364" target="_blank" class="news-link">chrome dev tools console 里这个 AI 有啥场景用</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770823" target="_blank" class="news-link">OpenAI总裁布罗克曼：我的兄弟奥特曼，和他被“干掉”的72小时</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/943/314.htm" target="_blank" class="news-link">Perplexity CEO 阿拉温德：AI 不会颠覆 iPhone，反而会强化其“数字护照”地位</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbf2c-2ca0-711a-92e1-73d82a679c90" target="_blank" class="news-link">WHITE HOUSE EXTENDS SHIPPING WAIVER TO EASE OIL SUPPLY TIGHTNESS</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2355054" target="_blank" class="news-link">一图看懂 | 站在“光”里，苏州这些上市公司藏着AI算力密码</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/deepseek-ai/DeepEP" target="_blank" class="news-link">deepseek-ai / DeepEP</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbf24-5350-711a-92e1-49f74a9c30a2" target="_blank" class="news-link">UKRAINE PRESIDENT ARRIVES IN JEDDAH, SAUDI ARABIA: SPA</a> [14] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbf1e-080a-711a-92e1-3f8f3a8e9b30" target="_blank" class="news-link">S&amp;P GLOBAL TO LAUNCH AI-POWERED UPSTREAM DATA PLATFORM -- TITAN</a> [16] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbf1a-8de5-711a-92e1-1b8f8a0a989d" target="_blank" class="news-link">SWISS NATIONAL BANK CHAIRMAN: WE HAVE NO PLANS TO INCREASE OR DECREASE OUR GOLD HOLDINGS</a> [20]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbf1a-65b3-711a-92e1-11d27f04ed37" target="_blank" class="news-link">INTEL: STIFEL RAISES TARGET PRICE TO $75 FROM $65</a> [21] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbf11-3e67-711a-92e0-e10c7dda4231" target="_blank" class="news-link">INTEL: MIZUHO RAISES TARGET PRICE TO $71 FROM $69</a> [27] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%AF%B9%E8%AF%9DAI%E5%A4%A9%E6%89%8D%E5%B0%91%E5%A5%B3%E7%BD%97%E7%A6%8F%E8%8E%89" target="_blank" class="news-link">对话AI天才少女罗福莉</a> [27] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7631040435457720366" target="_blank" class="news-link">AI Coding 订阅的集体退潮：从狂欢到收紧，中间只隔了一个季度</a> [27] <font color='grey'>- 19时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">3</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1208361" target="_blank" class="news-link">DeepSeek 4 好贵啊，比 3.2 贵 12 倍。。。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2030986330935670571" target="_blank" class="news-link">如何评价 Deepseek V4 因为缺少昇腾芯片而不得不抬高价格？</a> [11] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3094009" target="_blank" class="news-link">阿里国际旗下Accio Work已接入DeepSeek V4</a> [13] <font color='grey'>- 19时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1208366" target="_blank" class="news-link">确定必须需要 claude code 的 max 版本吗？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/google/osv-scanner" target="_blank" class="news-link">google / osv-scanner</a> <font color='red'><strong>[3]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
