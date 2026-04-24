@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 395</p><p>生成时间: 2026-04-24 11:20:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">32</td>
+                <td class="percentage">8.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424111745046800" target="_blank" class="news-link">国家知识产权局：人工智能、芯片、脑机接口纳入“快保护”通道</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/959.htm" target="_blank" class="news-link">JetBrains 修复 IntelliJ IDEA 五年顽疾，远程开发 Emmet 缩写展开终可用</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbd65-5277-766f-8999-aecdafef64ef" target="_blank" class="news-link">SAIC VW EXECUTIVE: WILL DEVELOP THE NEXT GEN ADP PLATFORM TO ADOPT THE LATEST CHIP AND INTELLIGENT TECHNOLOGIES IN CARS OF THE FOUR-LETTER AUDI BRAND</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770772" target="_blank" class="news-link">重估腾讯AI价值： &quot;40%效率提升+极致定价&quot;，混元HY3.0主打“实用主义”，已具规模化商用能力</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbd62-fbf9-766f-8999-a502493a8efa" target="_blank" class="news-link">SAIC VW EXECUTIVE: WILL START PRE-SALE OF E7X ON MAY 8</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958940" target="_blank" class="news-link">AI时代，执行力不值钱了，想法才最重要</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbd62-7fca-766f-8999-963ba723eb0c" target="_blank" class="news-link">SAIC VW EXECUTIVE: CHINA AND GERMANY WILL CONTRIBUTE THEIR STRONGEST CAPABILITIES TO THE FOUR-LETTER AUDI BRAND</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbd62-712a-766f-8999-8e43d3e20344" target="_blank" class="news-link">SOUTH KOREA PROSECUTOR SEEKS 30-YEAR JAIL TERM FOR EX-PRESIDENT YOON SUK YEOL IN CASE INVOLVING SUSPICION OF SENDING DRONE TO PYONGYANG - MEDIA</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770771" target="_blank" class="news-link">Q1基金抱团三大方向：AI、涨价链、新能源，中际旭创、新易盛稳坐前三</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2030834616181970293" target="_blank" class="news-link">如何评价 OpenAI 最新发布的 GPT-5.5 模型？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbd61-bfa1-766f-8999-84a0671da0fa" target="_blank" class="news-link">NIO FOUNDER, CHAIRMAN AND CEO WILLIAM LI SAYS ONVO L90 HAS DELIVERED 50,000 UNITS AS OF APRIL 3, RANKING NO. 1 IN SALES AMONG LARGE SUVS PRICED AROUND 300,000 YUAN</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/951.htm" target="_blank" class="news-link">开源网络工具 cURL 开发者示警“高质量混乱”：AI 提速漏洞挖掘，开源维护者修不过来</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1208191" target="_blank" class="news-link">35 岁前端，裁员失业后，我花 1 个月做了个 AI 生图网站</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbd61-3387-766f-8999-7f0b06b0f2bd" target="_blank" class="news-link">SAIC VW EXECUTIVE: THE ESTABLISHMENT OF NEW SAIC AUDI RESEARCH CENTRE REPRESENTS THE START OF THE 3.0 ERA OF JOINT VENTURE PATNERSHIP</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2354272" target="_blank" class="news-link">OpenAI深夜王炸！GPT-5.5正式发布：更会编程和使用计算机的最强模型</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbd5e-69c7-766f-8999-750b305cd3be" target="_blank" class="news-link">TSMC Hits Record as Taiwan Eases Fund Limits, JPMorgan Sees $6B Inflows</a> [11] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1208176" target="_blank" class="news-link">如何用 AI 做比较酷炫的落地页?</a> [11] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1208166" target="_blank" class="news-link">求真！最近 AI 生图的能力强到可怕</a> [12] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbd58-e1a1-766f-8999-677ff0228dcc" target="_blank" class="news-link">OPENAI: SALES AND MARKETING NEED TO FEEL AGI THAN ENGINEERS</a> [13] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2354138" target="_blank" class="news-link">AI电力巨头捷报频传 西门子能源因“需求强劲”上调全年业绩指引</a> [13] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5217424" target="_blank" class="news-link">AI算力高景气获业绩验证，资金盘中抢筹创业板人工智能ETF华夏(159381)，通信ETF华夏(515050)近5日流入超7亿</a> [13] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1208164" target="_blank" class="news-link">想做个有真实长时记忆和多人房间的 AI 角色扮演平台，大家看看有没有搞头</a> [13] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202604/2470122.html" target="_blank" class="news-link">白宫官员：中国正在窃取美国人工智能技术</a> [15] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbd50-481d-766f-8999-4cc047da51ed" target="_blank" class="news-link">ChiNext Outperformance Driven by AI Hardware, Analysts Cite Earnings Visibility Gap</a> [16] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2030235662557951222" target="_blank" class="news-link">如何看待 MiroMind 被指有组织的将在中国孵化的 AI 大模型核心技术和团队，转移到西方国家并融资？</a> [16] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260424/1070941959.html" target="_blank" class="news-link">白宫指责中国大规模窃取人工智能技术</a> [17]</div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3093658" target="_blank" class="news-link">可灵AI原生4K直出功能上线，提升影视工业级视频制作效率</a> [19] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3093657" target="_blank" class="news-link">创业板指跌超2%，沪指跌0.69%，深成指跌1.31%，AI应用、算力租赁、算力硬件等方向跌幅居前，沪深京三市下跌个股近4000只。</a> [20] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770753" target="_blank" class="news-link">英特尔电话会：Q1营收超指引14亿美元，AI业务猛增40%，CEO高呼“CPU重返AI核心”</a> [20] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47884967" target="_blank" class="news-link">2026 Ruby on Rails Community Survey</a> [27] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbd21-551d-766f-8998-e5b9bd98d53f" target="_blank" class="news-link">CHINA’S COMMERCE MINISTER: AIRBUS SHOULD HELP PROMOTE EU-CHINA DIALOGUE TO PROPERLY RESOLVE DIFFERENCES THROUGH CONSULTATION</a> [29] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbd21-3e9c-766f-8998-d94345398e77" target="_blank" class="news-link">CHINA’S COMMERCE MINISTER: AIRBUS SHOULD SEIZE CHINA’S EXPANDING AVIATION MARKET AND DEEPEN WIN-WIN COOPERATION</a> [30] <font color='grey'>- 11时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">8</td>
+                <td class="percentage">2.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1208216" target="_blank" class="news-link">DeepSeek 4.0 发布在即, 官网 Price plan 已经可以看到价格了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbd72-e5d1-766f-8999-bb624f218700" target="_blank" class="news-link">DeepSeek Launches v4 API With Flash and Pro Models</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1208214" target="_blank" class="news-link">DeepSeek V4 上了，连发布会都省了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=DeepSeek-V4+%E9%A2%84%E8%A7%88%E7%89%88%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%BA%BF" target="_blank" class="news-link">DeepSeek-V4 预览版正式上线</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1208208" target="_blank" class="news-link">DeepSeek V4 终于来了，是牛子是马拉出来溜溜</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/955.htm" target="_blank" class="news-link">迈入百万上下文普惠时代：DeepSeek-V4 模型预览版正式上线并同步开源</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3093676" target="_blank" class="news-link">全新系列模型DeepSeek-V4预览版本正式上线并同步开源</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424105805144800" target="_blank" class="news-link">Deepseek官网公布deepseek-v4接口文档</a> [16] <font color='grey'>- 11时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">0.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/948.htm" target="_blank" class="news-link">猛士 M817 Ultimate 越野车首秀：磐石底盘 2.0、首发华为乾崑智驾 NCA 越野版</a> [11] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/932.htm" target="_blank" class="news-link">华为随行 WiFi X 预售：1000Mbps 上行峰值速率，2499 元</a> [17] <font color='grey'>- 11时20分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/942/897.htm" target="_blank" class="news-link">全新一代红旗 H9 亮相 2026 北京车展，首批搭载华为乾崑智驾 ADS 5</a> [26] <font color='grey'>- 11时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7631419063718772742" target="_blank" class="news-link">把 Claude Design 做成 Skill，你的网站也能拥有顶级视觉体验</a> [30] <font color='grey'>- 11时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3093644" target="_blank" class="news-link">千问加速上车！10多家头部车企同日宣布接入</a> [24] <font color='grey'>- 11时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
