@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 234</p><p>生成时间: 2026-04-24 23:12:07</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">5.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1208392" target="_blank" class="news-link">SubFlowAI 实时字幕（macOS）V1.3.1 更新来了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时12分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/943/360.htm" target="_blank" class="news-link">Meta 与亚马逊 AWS 达成合作，部署数千万 Graviton 核心构建 AI 基础设施</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时12分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1208391" target="_blank" class="news-link">性价比高的 AI 有推荐的吗？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时12分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260424/1070954686.html" target="_blank" class="news-link">土耳其拜卡公司借助人工智能将自杀式无人机和巡飞弹排成编队</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2355166" target="_blank" class="news-link">罚没已超33亿，证监会新一轮打击财务造假，强化财务舞弊监管AI大模型应用</a> [12] <font color='grey'>- 23时12分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47887683" target="_blank" class="news-link">South Korea police arrest man for posting AI photo of runaway wolf</a> [16] <font color='grey'>- 23时12分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47890094" target="_blank" class="news-link">The pope moves to police AI</a> [21] <font color='grey'>- 23时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbfc3-624c-7bba-b970-f30e38de5c8a" target="_blank" class="news-link">PARLIAMENT COMMUNICATIONS CHIEF: IRAN SPEAKER QALIBAF HAS NOT RESIGNED, DISMISSES REPORTS AS RUMORS AIMED AT MISLEADING PUBLIC</a> [23] <font color='grey'>- 23时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424223840578800" target="_blank" class="news-link">Spirit Aviation场外交易股票上涨36%，有报道称，美国已聘请柯克兰与埃利斯律师事务所（Kirkland &amp; Ellis）就救助Spirit Airlines提供咨询。</a> [23] <font color='grey'>- 23时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbfbf-cd81-7bba-b970-de82e3ebedb0" target="_blank" class="news-link">SOME U.S. CHIPMAKERS RISE AFTER INTEL GUIDES Q2 REVENUE ABOVE ESTIMATES&lt;br/&gt;&lt;br/&gt;U.S.-LISTED SHARES OF TAIWAN SEMICONDUCTOR MANUFACTURING UP 4.7%&lt;br/&gt;&lt;br/&gt;ADVANCED MICRO DEVICES UP 12.4%, ARM HOLDINGS UP 10.2%, QUALCOMM UP 10%&lt;br/&gt;&lt;br/&gt;NVIDIA UP 1.6%, MICRON TECHNOLOGY UP 3%</a> [26] <font color='grey'>- 23时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dbfba-f9e2-7ff0-8ed2-cf8abfcf73cb" target="_blank" class="news-link">INTEL: BOFA GLOBAL RESEARCH RAISES PRICE OBJECTIVE TO $56 FROM $48</a> [27]</div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7632244941749489179/" target="_blank" class="news-link">中国AI隐形王者股价一年翻10倍</a> [28] <font color='grey'>- 23时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3094157" target="_blank" class="news-link">摩尔线程TileLang-MUSA Day-0支持DeepSeek-V4全新TileKernels</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时12分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%20V4%20Pro%E5%AE%9E%E6%B5%8B" target="_blank" class="news-link">DeepSeek V4 Pro实测</a> [19] <font color='grey'>- 23时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1208389" target="_blank" class="news-link">谷歌的这个 antigravity 为啥这么难用</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E6%B7%B1%E5%BA%A6%E6%B5%8B%E8%AF%95%E5%8D%8E%E4%B8%BA%E5%A4%A7%E9%98%94%E6%8A%98" target="_blank" class="news-link">UP主深度测试华为大阔折</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2069718-1-1.html" target="_blank" class="news-link">Windows 11（26H1/25H2/24H2）2026年4月更新 MSDN 分流【阿里云盘/腾讯微云/移动云盘/ed2k/BT】</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
