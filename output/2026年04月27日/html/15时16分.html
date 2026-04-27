@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 333</p><p>生成时间: 2026-04-27 15:16:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">7.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958960" target="_blank" class="news-link">OpenAI敢保17.5%收益，我这辈子没见过，这不是好信号</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28353780&amp;amp;topic_name=AI%E6%B5%B7%E6%8A%A5%E6%9D%80%E7%96%AF%2C%E8%AE%BE%E8%AE%A1%E5%B8%88%E9%A5%AD%E7%A2%97%E8%A2%AB%E7%A0%B8" target="_blank" class="news-link">AI海报杀疯,设计师饭碗被砸</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202604/2770361.html" target="_blank" class="news-link">AI帮爱犬找到救命药 普通人可以找AI求生机吗？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dcdc1-ac27-7bba-b979-ff61511c1cec" target="_blank" class="news-link">FITCH: EXPECT CHINA VANKE&#x27;S FREE CASH FLOW, INCLUDING POTENTIAL ASSET DISPOSAL PROCEEDS, TO REMAIN NEGATIVE IN 2026</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dcdc0-901b-7bba-b979-e74c1888c5b2" target="_blank" class="news-link">COMMERZBANK SHARES UP 2% AFTER BOFA RAISES TO BUY FROM NEUTRAL</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dcdbf-79f1-7bba-b979-d96b915c9f11" target="_blank" class="news-link">AT CLOSE, SHANGHAI COMPOSITE INDEX UP 0.16%, SHENZHEN COMPONENT INDEX UP 0.37%, CSI 300 INDEX UP 0.03%, CHINEXT INDEX DOWN 0.52</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770955" target="_blank" class="news-link">AI竞争核心从抢人才转向拼算力？算力已成最大成本项</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770956" target="_blank" class="news-link">OpenAI被曝要做手机，联手联发科、高通！苹果危？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/943/941.htm" target="_blank" class="news-link">WIKO 情感陪伴 AI 电子宠物“智能憨憨”蜂窝版开售：支持华为小艺大模型，499 元</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dcdbb-935f-7bba-b979-c976b447aa1f" target="_blank" class="news-link">CHINA CUSTOMS: ALLOWS IMPORTS OF QUALIFIED ANIMAL PROTEIN FEED FROM SPAIN</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3770953" target="_blank" class="news-link">时薪100元的新工种：把iPhone绑在脑门上，替AI蒸馏自己</a> [12] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5219694" target="_blank" class="news-link">澳门通推出AI支付助手 以人工智能升级本地支付能力</a> [12] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1208794" target="_blank" class="news-link">1 分钟创建 1 个 AI 对话式问卷</a> [12] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dcdae-443c-7bba-b979-b0ff1b214f82" target="_blank" class="news-link">SHIPMENTS OF FOREIGN BRANDED PHONES INCLUDING APPLE IPHONES WITHIN CHINA UP 78.2% Y/Y AT 3.36 MILLION HANDSETS IN MARCH - REUTERS CALCULATIONS BASED ON CAICT DATA</a> [13] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dcdac-b992-7bba-b979-a9a7975e4938" target="_blank" class="news-link">SHIPMENTS OF PHONES WITHIN CHINA DOWN 7.1% Y/Y AT 21.15 MILLION HANDSETS IN MARCH - CAICT</a> [14] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33057893" target="_blank" class="news-link">席卷全球AI圈！DeepSeek-V4成OpenClaw默认模型</a> [20] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2030599879777572198" target="_blank" class="news-link">在 AI 一键生成代码的时代，程序员还有必要坚持手写「古法编程」吗？</a> [20] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dcda1-2d0b-7bba-b979-608be43330b4" target="_blank" class="news-link">Flights Resume as Iraq’s Najaf Airport Welcomes Iranian Plane After 60-Day Halt</a> [23] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/943/905.htm" target="_blank" class="news-link">紫光展锐、华阳通用携手发布 A8880 芯片 AI 座舱平台</a> [23] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7632776346620280851" target="_blank" class="news-link">离职字节后，北大教授泼了盆冷水：中国AI的真实差距，可能正在拉大</a> [23] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dcd9d-8fc2-7bba-b979-5cfde9881e0d" target="_blank" class="news-link">AI TRANSFORMATION OF MANUFACTURING INDUSTRY KEY TO SURVIVAL IN GLOBAL AI RACE: S. KOREA-YONHAP</a> [24] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/943/900.htm" target="_blank" class="news-link">OpenAI 发布 Privacy Filter：1.5B 参数 PII 脱敏模型，Apache 2.0 开源上线</a> [24] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dcd90-4893-7aa8-a28c-d94ad6265897" target="_blank" class="news-link">MAGNITUDE 6.4 EARTHQUAKE STRIKES HOKKAIDO, JAPAN REGION REGION - GFZ</a> [26] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7632872949415067658" target="_blank" class="news-link">告别重复劳动：一套插件让 AI 替你写代码、修Bug、做测试、上生产</a> [28]</div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/943/884.htm" target="_blank" class="news-link">印度医学生用 AI 生成“MAGA 女孩”诈骗美国男性，月入数千美元</a> [29] <font color='grey'>- 15时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">6</td>
+                <td class="percentage">1.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3094772" target="_blank" class="news-link">中国信通院正式启动DeepSeek V4国产化适配测试工作</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/943/944.htm" target="_blank" class="news-link">中国信通院正式启动 DeepSeek V4 国产化适配测试工作</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2356166" target="_blank" class="news-link">“价格屠夫”DeepSeek再度出手 国产算力核心标的有望直接受益</a> [12] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3094754" target="_blank" class="news-link">网传公司给DeepSeek提供算力服务？浙数文化：与DeepSeek未开展业务合作</a> [19] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3094744" target="_blank" class="news-link">手机厂商加速接入DeepSeek-V4，荣耀打响第一枪</a> [24] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260427144910332800" target="_blank" class="news-link">中国信通院正式启动DeepSeek V4国产化适配测试工作</a> [28] <font color='grey'>- 15时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/943/942.htm" target="_blank" class="news-link">资产配置新玩法：用湾区豪宅置换 Anthropic 股权</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7632616802066530355" target="_blank" class="news-link">长文：Claude Code 实践 Harness 工程，开发效率翻几倍</a> [17] <font color='grey'>- 15时16分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7632776346619936787" target="_blank" class="news-link">Bun 官方将正式支持 Android，Claude Code 未来可以直接在手机上跑</a> [22] <font color='grey'>- 15时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dcdbb-d99f-7bba-b979-d7c2f064bc35" target="_blank" class="news-link">SAMSUNG SDS, LG CNS SECURE SALES RIGHTS FOR CHATGPT EDU IN S. KOREA - YONHAP</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时16分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
