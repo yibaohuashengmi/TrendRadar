@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 124</p><p>生成时间: 2026-04-28 03:40:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">8.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dd054-ca64-7bba-b982-05bb41817a0a" target="_blank" class="news-link">IRAQI PRESIDENT NIZAR AMEDI NAMES ALI AL-ZAIDI PM-DESIGNATE - LAWMAKERS</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1208975" target="_blank" class="news-link">AI 中转站避坑指南：立刻停用&quot;无缓存&quot;中转，钱烧得比正常快 4 倍以上</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260428/1070998858.html" target="_blank" class="news-link">OpenAI、阿里巴巴、亚马逊入选《时代》周刊全球最具影响力 AI 企业榜单</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47920315" target="_blank" class="news-link">China blocks Meta&#x27;s acquisition of AI startup Manus</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dd037-6fa6-7bba-b981-e0d514109413" target="_blank" class="news-link">IRAQ’S SHI’ITE ALLIANCE NAMES ALI AL-ZAIDI AS ITS NOMINEE FOR THE POST OF PRIME MINISTER - IRAQI STATE NEWS AGENCY</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3095194" target="_blank" class="news-link">伊拉克议员们表示：总统Nizar Amedi任命Ali al-Zaidi为总理。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47904615" target="_blank" class="news-link">Magic by Return of Post: How Mail Order Delivered the Occult</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dd019-9427-7bba-b981-a2d40f31f196" target="_blank" class="news-link">SUSPECT IN WHITE HOUSE CORRESPONDENTS&#x27; DINNER SHOOTING ALSO FACES FIREARMS CHARGES IN 3-COUNT COMPLAINT-COURT PROCEEDINGS</a> [13] <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3095185" target="_blank" class="news-link">伊拉克什叶派联盟提名Ali al-Zaidi为总理。（伊拉克国家新闻机构）</a> [14] <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3095168" target="_blank" class="news-link">谷歌DeepMind将与韩国合作推进“登月”级AI项目</a> [28] <font color='grey'>- 03时40分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7632567246006992950" target="_blank" class="news-link">AI编码提效实战：Skill、Rule与上下文工程</a> [30] <font color='grey'>- 03时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260428023312046800" target="_blank" class="news-link">伊拉克什叶派联盟提名阿里·扎伊迪为总理人选。</a> [19] <font color='grey'>- 03时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
