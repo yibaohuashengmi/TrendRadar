@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 300</p><p>生成时间: 2026-04-29 19:42:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">5.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1209467" target="_blank" class="news-link">[自荐] 开源 AI 聊天客户端 ChatNeo</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84182" target="_blank" class="news-link">马斯克称他创办非盈利的 OpenAI 是为了对抗 Google</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/hkMacao/202604/2970578.html" target="_blank" class="news-link">香港录得74年来最大贸易逆差 或是中东战争和AI热潮影响</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dd8f1-7f3b-755b-8a17-982762e6fa70" target="_blank" class="news-link">&lt;b&gt;TOTALENERGIES CEO: WE WILL WAIT FOR A REAL STABILIZATION IN STRAIT OF HORMUZ BEFORE RESTARTING OPERATIONS IN THE REGION&lt;/b&gt;</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771239" target="_blank" class="news-link">AI狂欢还能继续，还是开始变脸？Mag 7财报今夜见分晓</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/177.htm" target="_blank" class="news-link">研究团队：自 2022 年 ChatGPT 诞生以来，如今互联网新增内容中 35% 均由 AI 生成</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/ZhuLinsen/daily_stock_analysis" target="_blank" class="news-link">ZhuLinsen / daily_stock_analysis</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dd8e6-9e3a-755b-8a17-650844acab67" target="_blank" class="news-link">UKRAINE REQUESTS ISRAEL TO ARREST PANORAMITIS VESSEL SUSPECTED OF CARRYING GRAIN FROM RUSSIA-OCCUPIED REGIONS, UKRAINE&#x27;S FOREIGN MINISTER SAYS</a> [12] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/171.htm" target="_blank" class="news-link">AI 涨价潮致苹果供应链遭挤压，消息称明年 iPhone 内存 / 闪存成本将占整机 45%</a> [13] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/soxoj/maigret" target="_blank" class="news-link">soxoj / maigret</a> [13]</div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/169.htm" target="_blank" class="news-link">荣耀亲选 coocaa 便携剃须刀 Air 发售：IPX7 防水认证，99 元</a> [15] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dd8e2-65fa-755b-8a17-3ea8472f73be" target="_blank" class="news-link">IDF SPOKESPERSON: ALERTS WERE ACTIVATED IN SEVERAL AREAS IN THE NORTH OF THE COUNTRY, DETAILS ARE UNDER INVESTIGATION</a> [17] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2032593268840600541" target="_blank" class="news-link">美股芯片股跳水，OpenAI 用户和营收不及预期，CFO 担心付不起数据中心账单，哪些信息值得关注？</a> [19] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33072106" target="_blank" class="news-link">澎湃AI晚新闻丨2026年4月28日</a> [20] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/144.htm" target="_blank" class="news-link">通用汽车将在美为 400 万辆 2022 款及更新汽车推送谷歌 Gemini AI 助手</a> [21] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dd8bd-a268-755b-8a17-0cf569ce3a2c" target="_blank" class="news-link">EUROPEAN COMMISSION ANNOUNCES TEMPORARY STATE AID RULES UNTIL DECEMBER 31 TO HELP BUSINESSES HIT BY IRAN WAR EFFECTS</a> [23] <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dd8b1-8775-755b-8a16-ec28e6160e67" target="_blank" class="news-link">META: BRINGING PREPAID MOBILE RECHARGES TO WHATSAPP USERS IN INDIA</a> [27] <font color='grey'>- 19时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1209465" target="_blank" class="news-link">做了个开源工具，节约 Claude Code command 的 token 和运行时间</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1209435" target="_blank" class="news-link">[MIT 开源]写了个 claude 根据 /model 切换到不同代理商模型的代理工具， Tauri+React</a> [11] <font color='grey'>- 19时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1209439" target="_blank" class="news-link">DeepSeek 网页端上线识图能力，终于是要补上多模态了吗？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=DeepSeek%E4%B8%8A%E7%BA%BF%E8%AF%86%E5%9B%BE%E6%A8%A1%E5%BC%8F" target="_blank" class="news-link">DeepSeek上线识图模式</a> [19] <font color='grey'>- 19时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1209444" target="_blank" class="news-link">来发一篇谷歌注册帖子</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
