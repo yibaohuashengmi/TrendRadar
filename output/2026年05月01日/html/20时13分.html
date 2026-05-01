@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 153</p><p>生成时间: 2026-05-01 20:13:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">23</td>
+                <td class="percentage">15.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41958986" target="_blank" class="news-link">AI算力烧钱过头了，“一分不花”的苹果反而躺赢</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019de36a-de36-766f-afb1-baa1eff3257d" target="_blank" class="news-link">FED’S HAMMACK: UNCERTAINTY AROUND ECONOMY, POLICY PATH HAS RISEN</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3770681" target="_blank" class="news-link">当AI开始“接管工作”：就业市场的拐点已经出现？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/880.htm" target="_blank" class="news-link">安克首款神经网络存算一体 AI 音频芯片“ANKER Thus”5 月 22 日发布，同期推出旗舰耳机产品</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019de36a-7fb6-766f-afb1-a7135261c953" target="_blank" class="news-link">KASHKARI: DISSENTED AT FOMC MEETING BECAUSE UNCERTAINTY AROUND STRAIT OF HORMUZ MEANS FED SHOULD ACKNOWLEDGE RISK OF RATE HIKES IN ITS STATEMENT</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3097888" target="_blank" class="news-link">五角大楼的MICHAEL：在人工智能方面不能只依赖一个合作伙伴。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019de369-8990-766f-afb1-7d275a58250e" target="_blank" class="news-link">KASHKARI: THE PRICE SHOCK FROM A PROLONGED CLOSURE OF THE STRAIT COULD PUT INFLATION EXPECTATIONS AT RISK, REQUIRE A &quot;STRONG POLICY RESPONSE&quot;</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501194509832800" target="_blank" class="news-link">美国防部与7家AI公司达成协议</a> [11] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019de369-68c5-766f-afb1-6f1c68e91345" target="_blank" class="news-link">&lt;b&gt;KASHKARI: EVEN &quot;BENIGN SCENARIO&quot; WHERE STRAIT OF HORMUZ OPENS SOON WOULD LEAVE INFLATION SO HIGH RATES WOULD NEED TO STAY ON HOLD FOR AN EXTENDED PERIOD&lt;/b&gt;</a> [12] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3097883" target="_blank" class="news-link">美国防部与7家AI公司达成协议</a> [13] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019de362-665d-766f-afb1-50776221a741" target="_blank" class="news-link">MICHAEL: AI MODELS TRAINED ON DIFFERENT DATA, DIFFERENT SKILLS</a> [15] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3097879" target="_blank" class="news-link">五角大楼将扩大英伟达和微软人工智能技术在机密网络中的应用。（彭博）</a> [16] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501194029217800" target="_blank" class="news-link">美国国防部副部长迈克尔：不能只依赖单一的人工智能合作伙伴。</a> [16] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019de358-ade7-766f-afb1-3a1248533e61" target="_blank" class="news-link">SANDISK CORP: RAYMOND JAMES RAISES TARGET PRICE TO $1470 FROM $725</a> [18] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501193515187800" target="_blank" class="news-link">AI踩平量化门槛，普通人入局机会在哪？</a> [18] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501193512844800" target="_blank" class="news-link">&lt;a href=&quot;https://cdn.jin10.com/vip_column/index.html#/detail?id=850519&amp;skuID=1671010697886&amp;type=article&amp;courseID=225&amp;from=flash&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://img.jin10.com/misc/26/04/iahqvFRhLOCuS-TXYlZQU.jpg/lite&quot; height=&quot;120&quot;/&gt;&lt;/a&gt;</a> [19] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%A2%ABAI%E8%AF%AF%E5%AF%BC%E9%97%AF%E5%85%A5%E6%AF%92%E8%9B%87%E7%AA%9D%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">女子被AI误导闯入毒蛇窝</a> [20] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019de347-01b4-766f-afb1-222c6ad25e24" target="_blank" class="news-link">Nvidia, Microsoft, AWS Expanding Classified Military AI Use</a> [21] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501193320957800" target="_blank" class="news-link">美国五角大楼宣布达成网络人工智能相关协议，已与SpaceX、OpenAI、谷歌(GOOG.O)和英伟达(NVDA.O)签署协议。</a> [21] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019de33c-a37f-766f-afb0-f9673acb0e4a" target="_blank" class="news-link">HYUNDAI MOTOR AMERICA APRIL SALES 80,157 UNITS, -2% Y/Y</a> [26] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019de32d-5b8a-766f-afb0-f41ef8b00700" target="_blank" class="news-link">EXXONMOBIL - IF STRAIT OF HORMUZ WERE TO OPEN ON MAY 1, ADDITIONAL 350 THOUSAND OIL-EQUIVALENT BARRELS SHOULD BE ADDED TO QTRLY PRODUCTION ESTIMATE</a> [27] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019de328-12ed-766f-afb0-eee840d0e047" target="_blank" class="news-link">APPLE INC: MORGAN STANLEY RAISES TARGET PRICE TO $330 FROM $315</a> [28] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7633302704467492879" target="_blank" class="news-link">AI！一种新的AI项目架构思想与尝试（怎么让AI更有效的开发）</a> [30] <font color='grey'>- 20时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1209877" target="_blank" class="news-link">「项目推荐」花了一周时间使用 Claude code 写的项目 「Wallhaven 壁纸浏览器」</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47973378" target="_blank" class="news-link">Apple accidentally left Claude.md files Apple Support app</a> [22] <font color='grey'>- 20时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47972367" target="_blank" class="news-link">Our agent found a bug with WireGuard in Google Kubernetes Engine</a> [29] <font color='grey'>- 20时13分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
