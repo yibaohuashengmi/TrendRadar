@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 262</p><p>生成时间: 2026-05-02 11:41:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">6.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/983.htm" target="_blank" class="news-link">微软公布 Windows 质量更新进展：简化 Insider 通道、电源菜单不再“强求更新”，精简 AI 功能</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时41分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1209929" target="_blank" class="news-link">搭建了一个 AI 学习平台，支持多 LLM 提供商和多格式内容解析</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3770485" target="_blank" class="news-link">连接器格局大变天：从“组件制造”迈向“AI算力系统集成”的终极一战</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3771348" target="_blank" class="news-link">国产算力推动超节点爆发：AI Infra架构代际革命的系统性重估</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260502095648869800" target="_blank" class="news-link">AI热潮导致供应短缺 苹果公司将Mac Mini的起售价提高至799美元</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时41分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47952773" target="_blank" class="news-link">Direct electrochemical black coffee quality appraisal using cyclic voltammetry</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3098092" target="_blank" class="news-link">美军使用AI技术在霍尔木兹海峡扫雷</a> [14] <font color='grey'>- 11时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260502085918272800" target="_blank" class="news-link">美军使用AI技术在霍尔木兹海峡扫雷</a> [14] <font color='grey'>- 11时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/962.htm" target="_blank" class="news-link">美国五角大楼与 SpaceX、OpenAI、谷歌、英伟达、微软等 8 家公司合作，在机密网络部署 AI、用于作战</a> [20] <font color='grey'>- 11时41分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47977134" target="_blank" class="news-link">The gay jailbreak technique</a> [20] <font color='grey'>- 11时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/961.htm" target="_blank" class="news-link">亚马逊 AWS CEO：AI 并未让程序员丢饭碗，今年计划招聘 11000 名实习生</a> [21] <font color='grey'>- 11时41分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7634071718033837610/" target="_blank" class="news-link">美军使用AI技术在霍尔木兹海峡扫雷</a> [22] <font color='grey'>- 11时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/960.htm" target="_blank" class="news-link">奥斯卡明确规定：AI 演员和剧本没资格获奖</a> [22] <font color='grey'>- 11时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/959.htm" target="_blank" class="news-link">AirTag 被指存在跟踪隐患，苹果面临数十项相关诉讼</a> [23] <font color='grey'>- 11时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/957.htm" target="_blank" class="news-link">IT早报 0502：曝苹果 iPhone Air 多轮降价后激活量勉强破 70 万台；4 月汽车销量汇总：比亚迪、奇瑞、吉利前三；新华社曝光网购平台商家“AB 货”...</a> [25] <font color='grey'>- 11时41分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=AI%E6%89%8B%E6%90%93%E5%B0%8F%E9%BB%84%E4%BA%BA%E4%BA%A7%E7%94%9F%E6%84%8F%E8%AF%86%E4%BA%86&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">AI手搓小黄人产生意识了</a> [28] <font color='grey'>- 11时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%A9%AC%E6%96%AF%E5%85%8B%E6%89%BF%E8%AE%A4%E8%92%B8%E9%A6%8FChatGPT" target="_blank" class="news-link">马斯克承认蒸馏ChatGPT</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/945/953.htm" target="_blank" class="news-link">谷歌将在 Gemini 投放广告，目前处于准备阶段</a> [29] <font color='grey'>- 11时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=DeepSeek%E6%8B%9F%E4%BA%BA%20%E5%93%87%E5%91%80%E5%95%A7%E5%91%9C%E5%93%87&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">DeepSeek拟人 哇呀啧呜哇</a> [29] <font color='grey'>- 11时41分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
