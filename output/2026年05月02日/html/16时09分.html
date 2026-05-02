@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 170</p><p>生成时间: 2026-05-02 16:09:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">5.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1209965" target="_blank" class="news-link">用 AI Agent 自动搜索推文、发推 — X (Twitter) Skill 演示</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771481" target="_blank" class="news-link">AI CPU推高DDR5内存需求，存储芯片“超级周期”或延续至2027年</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/011.htm" target="_blank" class="news-link">Meta CEO 扎克伯格谈裁员：是因为资本支出、并非“员工被 AI 替代”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/010.htm" target="_blank" class="news-link">威联通推出 GPU-Ready 边缘 AI 存储服务器 QAI-h1290FX</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3098116" target="_blank" class="news-link">据日本经济产业省消息，日本太阳石油公司（Taiyo Oil）将接收一船来自俄罗斯“萨哈林2号”（Sakhalin-2）项目的原油。（日本每日新闻）</a> [14] <font color='grey'>- 16时09分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33091903" target="_blank" class="news-link">专访｜赵又廷：别让AI取代我就行</a> [15] <font color='grey'>- 16时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/000.htm" target="_blank" class="news-link">AMD 第一方迷你主机锐龙 AI Halo 实物现身，消息称 6 月推出</a> [19] <font color='grey'>- 16时09分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E6%97%B6%E9%9A%94%E4%BA%94%E5%B9%B4%E6%88%91%E7%94%A8AI%E5%A4%8D%E6%B4%BB%E4%BA%86%E7%88%B6%E4%BA%B2&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">时隔五年我用AI复活了父亲</a> [26] <font color='grey'>- 16时09分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E7%94%A8AI%E6%8A%8A%E6%88%91%E5%AE%B6%E7%8C%AB%E5%85%BB%E5%9C%A8%E4%BA%86%E7%94%B5%E8%84%91%E4%B8%8A&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">用AI把我家猫养在了电脑上</a> [27] <font color='grey'>- 16时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
