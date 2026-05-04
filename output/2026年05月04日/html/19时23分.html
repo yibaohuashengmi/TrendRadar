@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 258</p><p>生成时间: 2026-05-04 19:23:24</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">4.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771542" target="_blank" class="news-link">美光CEO：AI才刚开始，但内存已经不够了，今年DRAM与NAND需求或吞噬过半市场</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771539" target="_blank" class="news-link">AI抢产能升级！三星、SK海力士签长约锁供应，内存价格或被“合同化抬升”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df29d-6176-700b-ab6b-7fb73289f88c" target="_blank" class="news-link">&lt;B&gt;AFTER REPORTS EMERGED ABOUT A US NAVY CORVETTE BEING TARGETED BY IRAN, AN MQ-4C DRONE CONDUCTING RECONNAISSANCE OVER THE PERSIAN GULF TURNED OFF ITS TRANSMITTERS - REPORTS&lt;/B&gt;</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df298-8007-700b-ab6b-6a3b3feedac0" target="_blank" class="news-link">EU COMMISSION SPOKESPERSON: WE WILL ISSUE GUIDANCE FOR AIRLINES ON JET FUEL THIS WEEK</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3771537" target="_blank" class="news-link">豆包测试付费版本，三档订阅曝光，AI进入“分层收费”时代</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771533" target="_blank" class="news-link">“从未见过此等增速”！Anthropic年化收入两个月翻番，首超OpenAI</a> [12] <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E6%88%BF%E4%B8%9C%E2%80%9D%E9%AA%97%E5%AE%8C%E7%A7%9F%E5%AE%A2%E8%BD%AC%E5%A4%B4%E9%97%AEAI%E4%BC%9A%E8%A2%AB%E6%8A%93%E5%90%97" target="_blank" class="news-link">“房东”骗完租客转头问AI会被抓吗</a> [17] <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df278-c7e7-700b-ab6b-0118ff1cf8ad" target="_blank" class="news-link">TURKEY&#x27;S MAIN BANKING INDEX EXTENDS LOSSES, DOWN 2.5%</a> [20] <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df278-b203-700b-ab6a-fcd04860ed52" target="_blank" class="news-link">&lt;b&gt;IRAN&#x27;S NAVY SAYS IT PREVENTED THE ENTRY OF U.S. WARSHIPS IN THE STRAIT OF HORMUZ AREA - STATE TV&lt;/b&gt;</a> [21] <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7635510696695873546" target="_blank" class="news-link">我做了个让 AI 看屏幕跑测试的工具,因为 Playwright 测不了我的 Flutter Web</a> [23] <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df276-ba70-700b-ab6a-d9ee8a6e752c" target="_blank" class="news-link">SHARES OF SOME US DELIVERY COMPANIES FALL PREMARKET AFTER AMAZON LAUNCHES SUPPLY CHAIN SERVICES FOR ALL BUSINESSES&lt;br/&gt;&lt;br/&gt;FEDEX DROPS 2.5%, UNITED PARCEL SERVICE DOWN 1.8%</a> [25] <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48006627" target="_blank" class="news-link">United flight collides with truck and light pole as it lands at Newark airport</a> [26] <font color='grey'>- 19时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7635480534214852660" target="_blank" class="news-link">Claude Code 指令入门教程</a> [29] <font color='grey'>- 19时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/BABA" target="_blank" class="news-link">阿里巴巴</a> [18] <font color='grey'>- 19时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
