@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 214</p><p>生成时间: 2026-05-04 21:09:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">5.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df314-4c64-700b-ab6d-1fad3a68a078" target="_blank" class="news-link">ANTHROPIC - NEW FIRM TO LEVERAGE CONSORTIUM NETWORK FOR ENTERPRISE AI DEPLOYMENTS</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df313-2b56-700b-ab6d-04499c9ee662" target="_blank" class="news-link">ANTHROPIC PARTNERS WITH BLACKSTONE, HELLMAN &amp; FRIEDMAN, AND GOLDMAN SACHS TO LAUNCH ENTERPRISE AI SERVICES FIRM</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3098487" target="_blank" class="news-link">OpenAI与私募巨头敲定100亿美元合资协议</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260504210217022800" target="_blank" class="news-link">Anthropic、黑石、Hellman、高盛联合推出人工智能服务公司。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df305-5005-700b-ab6c-e61bd8b74d41" target="_blank" class="news-link">OpenAI Finalizes $10 Billion Joint Venture With PE Firms to Deploy AI</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3098482" target="_blank" class="news-link">Alphabet与美国官员周四会谈中讨论了人工智能“产能”。（纽约时报）</a> [11] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/299.htm" target="_blank" class="news-link">2026 款华硕 a 豆 14 Air 笔记本 13DE MARZO 联名款发售：A 面镭雕联动图案、赠多款周边，8599 元</a> [11] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df302-c143-700b-ab6c-c2f18e70a58a" target="_blank" class="news-link">UAE IN PACT TO BUY 10 C-390 MILLENNIUM AIRCRAFT: VICE PRESIDENT</a> [13] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df2f8-8383-700b-ab6c-973945ac0b93" target="_blank" class="news-link">OPENAI FINALIZES $10 BILLION JOINT VENTURE WITH BUYOUT GIANTS</a> [19] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260504205012357800" target="_blank" class="news-link">OpenAI与私募股权公司敲定合资计划，推动部署人工智能</a> [22] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df2eb-3d4d-700b-ab6c-5d5c76f716ed" target="_blank" class="news-link">CENTCOM: U.S. NAVY GUIDED-MISSILE DESTROYERS ARE CURRENTLY OPERATING IN ARABIAN GULF AFTER TRANSITING STRAIT OF HORMUZ IN SUPPORT OF PROJECT FREEDOM</a> [26] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7616624197225185316" target="_blank" class="news-link">AI 抢不走的技能：用 Claude API 构建自动化工作流实战</a> [29] <font color='grey'>- 21时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">5</td>
+                <td class="percentage">2.34%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df313-b0f3-700b-ab6d-13a6525cbda9" target="_blank" class="news-link">ANTHROPIC - NEW FIRM BACKED BY GENERAL ATLANTIC, LEONARD GREEN, APOLLO, GIC, SEQUOIA CAPITAL</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df313-a020-700b-ab6d-0c125721444b" target="_blank" class="news-link">ANTHROPIC - NEW FIRM TO OPERATE AS STANDALONE ENTITY WITH ANTHROPIC ENGINEERING EMBEDDED</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260504210128136800" target="_blank" class="news-link">Anthropic：新公司将作为独立实体运营，并内嵌Anthropic的工程能力。新公司获得了泛大西洋投资（General Atlantic）、Leonard Green、阿波罗全球管理（Apollo）、新加坡政府投资公司（GIC）以及红杉资本（Sequoia Capital）的支持。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/300.htm" target="_blank" class="news-link">消息称 Anthropic 看上英国企业 Fractile 推理芯片，有意导入</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df2fb-c3d6-700b-ab6c-a5a3ba606ae8" target="_blank" class="news-link">BLACKSTONE AND GOLDMAN AMONG BACKERS FOR $1.5BN ANTHROPIC JV - FT</a> [17] <font color='grey'>- 21时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df2dd-5614-700b-ab6c-41cf9dd91123" target="_blank" class="news-link">US SEEKING WAYS TO ACCELERATE CLEARANCE FOR GOOGLE TPUS: NYT</a> [29] <font color='grey'>- 21时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
