@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 247</p><p>生成时间: 2026-05-05 16:33:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">7.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959004" target="_blank" class="news-link">ClaudeCode之父：“老公司”转型难，现在是“AI原生公司”最好的机会</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时33分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/05/02c9df98e1e64a1faf3f472ce396693e.html" target="_blank" class="news-link">外媒：马斯克与OpenAI管理层法庭对决</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df728-e9c9-777b-96ec-f552412bca6c" target="_blank" class="news-link">ZELENSKIY SAYS UKRAINE CARRIED OUT TWICE AS MANY &#x27;MIDDLE-STRIKES&#x27; AT RUSSIA IN APRIL VS MARCH</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3771568" target="_blank" class="news-link">上调寒武纪、下调浪潮信息！高盛预言了“国产AI芯片的崛起”场景</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时33分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48019219" target="_blank" class="news-link">Google Chrome silently installs a 4 GB AI model on your device without consent</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df71d-e177-777b-96ec-d24b4982b80d" target="_blank" class="news-link">BAIC BLUEPARK NEW ENERGY TECHNOLOGY SAYS UNIT SOLD 17,658 VEHICLES IN APRIL, UP 70.99% Y/Y</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3098735" target="_blank" class="news-link">挪威主权财富基金首席执行官：即将有3个重要IPO——SpaceX、Anthropic和OpenAI，我们通常会投资这些公司。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df71d-c287-777b-96ec-c992deee31bb" target="_blank" class="news-link">NORWAY SOVEREIGN WEALTH FUND CEO: 3 IMPORTANT IPOS COMING UP - SPACEX, ANTHROPIC AND OPEN AI - AND WE WILL GENERALLY BUY INTO THOSE COMPANIES</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df712-2516-777b-96ec-b5d5c1313d21" target="_blank" class="news-link">MOODY&#x27;S RATINGS ASSIGNS AA2 RATING TO ALPHABET&#x27;S NEW SENIOR UNSECURED NOTES; OUTLOOK REMAINS STABLE</a> [13] <font color='grey'>- 16时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df70d-9dd8-777b-96ec-afebddedac56" target="_blank" class="news-link">FOXCONN:BASED ON CURRENT VISIBILITY,THE OUTLOOK FOR SECOND-QUARTER OPERATIONS IS EXPECTED TO SHOW BOTH QOQ AND YOYGROWTH, THOUGH IT REMAINS NECESSARY TO MONITOR THE IMPACT OF THE VOLATILE GLOBALPOLITICAL AND ECONOMIC SITUATION.</a> [14] <font color='grey'>- 16时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3098730" target="_blank" class="news-link">鸿海：4月营收同比增长29.74%。 第二季度是ICT行业的传统淡季，主要产品正处于新旧机型交替期。 不过，AI服务器预计将保持持续增长趋势。 根据目前的可见性，预计第二季度营收将实现环比和同比增长。 但仍需关注全球政治与经济局势波动的影响。</a> [14]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df70d-8f19-777b-96ec-a5f756febe03" target="_blank" class="news-link">FOXCONN:THE SECOND QUARTER IS A TRADITIONAL OFF-SEASON FOR THE ICT INDUSTRY, WITH MAJORPRODUCTS ENTERING A TRANSITION PERIOD BETWEEN OLD AND NEW MODELS. HOWEVER, AIRACKS ARE EXPECTED TO MAINTAIN A CONTINUED GROWTH TREND.</a> [15] <font color='grey'>- 16时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260505160525286800" target="_blank" class="news-link">鸿海AI服务器业务扩张，营收增长近30%</a> [18] <font color='grey'>- 16时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df6e8-f0ee-777b-96ec-6d9c8972f876" target="_blank" class="news-link">&lt;b&gt;ZELENSKIY SAYS UKRAINE WILL RESPOND IN KIND&lt;/b&gt;</a> [22] <font color='grey'>- 16时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df6e8-b3f9-777b-96ec-676dcbeddf06" target="_blank" class="news-link">UKRAINE&#x27;S ZELENSKIY SAYS IT IS &#x27;UTTERLY CYNICAL&#x27; THAT RUSSIA ASKS FOR CEASEFIRE AND LAUNCHES MISSILE AND DRONE ATTACKS IN DAYS AHEAD</a> [23] <font color='grey'>- 16时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/408.htm" target="_blank" class="news-link">英伟达九成生产成本来自亚洲供应商，AI 产能争夺加剧</a> [23] <font color='grey'>- 16时33分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48016534" target="_blank" class="news-link">Y Combinator&#x27;s Stake in OpenAI (0.6%?)</a> [26] <font color='grey'>- 16时33分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7635102638107246630" target="_blank" class="news-link">前端开发者做 Agent：别只会执行，用 4 类失败策略让 AI 知道怎么停</a> [30] <font color='grey'>- 16时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1210307" target="_blank" class="news-link">搬运|真 0 元！开通 ChatGPT Plus 教程（已实测）可用的话给个铜币</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
