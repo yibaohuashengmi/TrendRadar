@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 133</p><p>生成时间: 2026-05-06 05:07:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">7.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771597" target="_blank" class="news-link">Anthropic发布金融AI代理，FactSet等数据服务商遭到冲击</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771600" target="_blank" class="news-link">AMD一季度营收103亿美元，AI驱动增长提速，二季度指引超预期</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df9d1-51d5-7888-99f5-8db4c74791b7" target="_blank" class="news-link">AMD Raises Outlook on AI Data Center Demand Surge</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23OpenAI%E6%88%96%E5%8A%A0%E9%80%9F%E6%89%8B%E6%9C%BA%E5%BC%80%E5%8F%91%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">OpenAI或加速手机开发</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df9c9-40ba-7888-99f5-6a10c77e26d9" target="_blank" class="news-link">AMD 1Q ADJ EPS $1.37, EST. $1.28 &lt;br/&gt;&lt;br/&gt;AMD 1Q REV. $10.25B, EST. $9.89B &lt;br/&gt;&lt;br/&gt;AMD FORECASTS QUARTERLY REVENUE ABOVE EXPECTATIONS AS AI CHIP DEMAND STAYS STRONG &lt;br/&gt;&lt;br/&gt;AMD: DATA CENTER PRIMARY DRIVER OF REVENUE &amp; EARNINGS GROWTH</a> [14] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df9c8-5e8a-7888-99f5-5bed3b5f0cf2" target="_blank" class="news-link">&lt;b&gt;APPLE REACHES $250MN SETTLEMENT OVER DELAYED ‘AI SIRI- FT&lt;/b&gt;</a> [16] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df9b9-6ee9-7888-99f5-241698410cdf" target="_blank" class="news-link">RUBIO: IRAN HAS A HIGH PAIN THRESHOLD, BUT IT IS NOT UNLIMITED</a> [23] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df9b7-7965-7888-99f5-161a1d3c303f" target="_blank" class="news-link">RUBIO: HOPE CHINA TELLS IRAN WHAT IT&#x27;S DOING IN THE STRAIT IS CAUSING ITS GLOBAL ISOLATION</a> [25] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df9b1-1fc8-7888-99f5-074bc653ed97" target="_blank" class="news-link">RUBIO: MADE SOME ADJUSTMENTS TO U.N. RESOLUTION ON STRAIT OF HORMUZ TO AVOID VETO</a> [27]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df9ad-4b31-7888-99f4-e941cdd49cff" target="_blank" class="news-link">RUBIO: WE DON&#x27;T NEED ANY DESTABILIZING EVENTS TO OCCUR WITH REGARDS TO TAIWAN</a> [30] <font color='grey'>- 05时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">4</td>
+                <td class="percentage">3.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3098935" target="_blank" class="news-link">Anthropic PBC承诺，将在谷歌公司云服务和芯片上投资2000亿美元。（The Information）</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df9d0-18b4-7888-99f5-861a41630bc7" target="_blank" class="news-link">ANTHROPIC TO SPEND ~$200 BLN WITH GOOGLE OVER 5 YEARS - THE INFORMATION</a> [11] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506043310242800" target="_blank" class="news-link">Anthropic拟向谷歌投入2000亿美元</a> [16] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506042238368800" target="_blank" class="news-link">Anthropic 承诺在谷歌的云服务和芯片上投资2000亿美元。（The Information）</a> [22] <font color='grey'>- 05时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOG" target="_blank" class="news-link">谷歌C</a> [13] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506042737308800" target="_blank" class="news-link">谷歌(GOOG.O)美股盘后涨超2%。</a> [20] <font color='grey'>- 05时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3098925" target="_blank" class="news-link">纳斯达克金龙中国指数收涨0.12%，报6889.48点。 热门中概股里，阿特斯太阳能初步收涨5.9%，万国数据涨4.5%，新东方涨1.1%，阿里跌0.8%，小鹏、网易跌0.9%，拼多多跌1%，蔚来跌2.3%。 ETF中，中国科技指数ETF（CQQQ）收平，中概互联网指数ETF（KWEB）收跌0.21%。 贝莱德集团旗下MSCI新兴市场ex中国ETF涨2.50%，德银嘉实沪深300指数ETF（ASHR）收涨0.68%，XtrackersHarvest中证50（ASHS）收涨0.55%。</a> [19]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
