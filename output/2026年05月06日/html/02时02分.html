@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 156</p><p>生成时间: 2026-05-06 02:02:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">12.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506014918064800" target="_blank" class="news-link">知情人士透露，谷歌(GOOG.O)正在为Gemini打造一个7x24小时全天候运行的人工智能“个人代理”。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df936-fecb-7888-99f2-ee2398cd844c" target="_blank" class="news-link">&lt;B&gt;IRAN&#x27;S PRESIDENT PEZESHKIAN: AMERICA&#x27;S DEMAND FROM IRAN IS IMPOSSIBLE AND UNATTAINABLE - FARS NEWS&lt;br/&gt;&lt;br/&gt;IRAN&#x27;S PRESIDENT PEZESHKIAN: IRAN TARGETED TWICE DURING NEGOTIATIONS. WE ARE WITNESSING MILITARY MOBILIZATION AND THREATS - FARS NEWS&lt;/B&gt;</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df933-60fa-7888-99f2-e7a2d8dc5213" target="_blank" class="news-link">&lt;b&gt;IRAN SETS UP NEW BODY TO MANAGE VESSEL TRANSIT THROUGH STRAIT OF HORMUZ - IRAN&#x27;S PRESS TV&lt;/b&gt;</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df92f-ad5b-7888-99f2-da735d6b77e7" target="_blank" class="news-link">Apple to Open iOS 27 to Third-Party AI Models Across Core Features</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3098878" target="_blank" class="news-link">苹果公司将允许用户选用多款第三方人工智能服务，为旗下全系软件功能提供智能支持。 据知情人士透露，用户未来可选择多款第三方AI模型，完成文字创作编辑、图像生成修改等任务。 这项功能变更定于今年秋季随iOS 27、iPadOS 27以及macOS 27正式上线，用户可通过设置应用，自主挑选想要为苹果智能功能提供服务的AI平台。</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df929-497c-7888-99f2-c89f6a2f4fb3" target="_blank" class="news-link">&lt;b&gt;APPLE TO OFFER MORE AI FLEXIBILITY WITH IOS 27 DUE THIS FALL&lt;/b&gt;</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df927-c73c-7888-99f2-c0783caabf4d" target="_blank" class="news-link">APPLE HAS BEEN TESTING INTEGRATIONS WITH GOOGLE AND ANTHROPIC &lt;br/&gt;&lt;br/&gt;APPLE PLANS TO LET USERS CHOOSE RIVAL AI MODELS ACROSS IOS 27</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df925-ba2d-7888-99f2-b1a0314e2cf9" target="_blank" class="news-link">THE SPOKESPERSON FOR THE U.S. CENTRAL COMMAND ANNOUNCED IN AN INTERVIEW WITH AL JAZEERA THAT POSITIVE RESPONSES HAVE BEEN RECEIVED FROM SHIP OWNERS AND INSURANCE COMPANIES REGARDING THE PROSPERITY GUARDIAN PROJECT&lt;br/&gt;&lt;br/&gt;A SAFE PASSAGE HAS BEEN PROVIDED BY WASHINGTON IN THE STRAIT OF HORMUZ, AND A SECURITY UMBRELLA HAS BEEN PLACED OVER IT</a> [11] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3098871" target="_blank" class="news-link">OpenAI：GPT-5.5 Instant已开始在ChatGPT中推出</a> [12] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506013420106800" target="_blank" class="news-link">苹果将允许用户在iOS 27各功能中选择使用不同AI模型</a> [12] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506012430985800" target="_blank" class="news-link">苹果(AAPL.O)：将在今年秋季发布的iOS 27中提供更灵活的人工智能方案。</a> [16] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506012427946800" target="_blank" class="news-link">苹果(AAPL.O)：计划让用户在iOS 27系统中自行选择使用竞争对手的人工智能模型。</a> [17] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2032011984942649735" target="_blank" class="news-link">vibe coding 这么久了，大家有没有较好的 AI 开发模式经验沉淀下来？</a> [17] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506012340306800" target="_blank" class="news-link">OpenAI更新ChatGPT默认模型 提升准确性与个性化</a> [18] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df918-1bef-7888-99f2-717577b9d578" target="_blank" class="news-link">OPENAI: MEMORY SOURCES ARE ROLLING OUT ACROSS ALL CHATGPT CONSUMER PLANS ON THE WEB AND SOON ON MOBILE</a> [19] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df917-6dd1-7888-99f2-6a5b9fc1282b" target="_blank" class="news-link">OPENAI: FOR PAID USERS GPT‑5.3 INSTANT WILL REMAIN AVAILABLE FOR 3 MONTHS ACCESSIBLE THROUGH MODEL CONFIGURATION SETTINGS, BEFORE BEING RETIRED</a> [20]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df917-4733-7888-99f2-650165923a92" target="_blank" class="news-link">OPENAI: INTRODUCING MEMORY SOURCES ACROSS ALL CHATGPT MODELS</a> [21] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df916-e015-7888-99f2-5f4b387e1e86" target="_blank" class="news-link">OPENAI: GPT-5.5 INSTANT IS ROLLING OUT STARTING TODAY TO ALL CHATGPT USERS - WEBSITE</a> [22] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df901-f4ff-7888-99f2-3cb3eff4c4d8" target="_blank" class="news-link">WE WARN ALL VESSELS INTENDING TO TRANSIT THE STRAIT; THE ONLY SAFE ROUTE FOR PASSING THROUGH THE STRAIT OF HORMUZ IS THE CORRIDOR PREVIOUSLY ANNOUNCED BY THE ISLAMIC REPUBLIC OF IRAN, AND ANY DEVIATION OF VESSELS TO OTHER ROUTES IS UNSAFE AND WILL FACE DECISIVE ACTION BY THE IRGC NAVY - IRGC NAVY COMMAND</a> [26] <font color='grey'>- 02时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506012503542800" target="_blank" class="news-link">市场消息：苹果(AAPL.O)一直在测试与谷歌和Anthropic的集成。</a> [15] <font color='grey'>- 02时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
