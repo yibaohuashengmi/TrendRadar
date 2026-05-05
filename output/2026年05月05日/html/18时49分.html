@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 254</p><p>生成时间: 2026-05-05 18:49:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">6.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%94%A8AI%E5%86%99%E5%87%BA20%E4%BA%BF%E6%92%AD%E6%94%BE%E9%87%8F%E7%A5%9E%E6%9B%B2%EF%BC%9F%E9%9F%B3%E4%B9%90%E4%BA%BA%E5%8F%91%E5%A3%B0" target="_blank" class="news-link">用AI写出20亿播放量神曲？音乐人发声</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771582" target="_blank" class="news-link">高管出走潮持续蔓延，OpenAI销售主管悄然离职</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/450.htm" target="_blank" class="news-link">Fairphone 3 手机将于今年 8 月结束官方支持，用户可以刷入 /e/OS 继续获得安全补丁直至 2028 年</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df7af-af57-777b-96ee-0ab28d0bcfe7" target="_blank" class="news-link">UBS GROUP AG&#x27;S LONG POSITION IN KUAISHOU TECHNOLOGY DECREASES TO 6.88% ON APRIL 28 FROM 7.63% - HKEX</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=47962032" target="_blank" class="news-link">Should I Run Plain Docker Compose in Production in 2026?</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1210325" target="_blank" class="news-link">做了个轻量 AI 网页翻译插件</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8ssll5TyVCi" target="_blank" class="news-link">立场反转，特朗普政府考虑对AI模型进行安全审查</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771578" target="_blank" class="news-link">鸿海4月营收创同期新高、同比增长近30%，AI服务器需求持续撑盘</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df781-298c-777b-96ed-b8a4f81aed4d" target="_blank" class="news-link">ZELENSKIY SAYS UKRAINE HIT MILITARY-INDUSTRIAL FACILITIES IN RUSSIA&#x27;S CHEBOKSARY WITH FLAMINGO MISSILES OVERNIGHT SOME 1,500 KM AWAY</a> [12] <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df766-13f6-777b-96ed-86aecc33f6df" target="_blank" class="news-link">&lt;b&gt;RUSSIAN DEFENCE MINISTRY: THIS WAS RETALIATORY STRIKE IN RESPONSE TO UKRAINIAN ATTACKS ON RUSSIAN CIVIL INFRASTRUCTURE - IFX&lt;/b&gt;</a> [19] <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df765-bddf-777b-96ed-7acdf4b9cb79" target="_blank" class="news-link">RUSSIAN DEFENCE MINISTRY: RUSSIAN FORCES HIT UKRAINIAN DEFENCE AND ENERGY FACILITIES - TASS</a> [20] <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48006403" target="_blank" class="news-link">Setting up server monitoring for a Rails app on Hatchbox</a> [20] <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df752-9582-777b-96ed-543ca72c4029" target="_blank" class="news-link">US AND GULF ARAB NATIONS ARE DRAFTING A UN SECURITY COUNCIL RESOLUTION DESIGNED TO CONDEMN IRAN FOR BLOCKING THE STRAIT OF HORMUZ IN RESPONSE TO A US-ISRAELI BOMBING CAMPAIGN, US AMBASSADOR TO THE UN MIKE WALTZ SAYS</a> [25] <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7635579651420061730" target="_blank" class="news-link">从零搭建项目：React 19 + Vite 8 + Tailwind CSS v4 实战配置</a> [27] <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df746-cedc-777b-96ed-3f8f4135ab7b" target="_blank" class="news-link">UKRAINE SEEKS TO ATTRACT CLOSE TO 13 BILLION HRYVNIA THROUGH PRIVATISATION OF STATE ASSETS THIS YEAR, PM SAYS</a> [28] <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019df73a-8d37-777b-96ed-365050dbcf5b" target="_blank" class="news-link">RUSSIAN ATTACK AT UKRAINE&#x27;S PORT OF &#x27;GREATER ODESA&#x27; DAMAGES CIVILIAN VESSEL UNDER COOK ISLAND FLAG, UKRAINIAN SEAPORTS AUTHORITY SAYS</a> [29] <font color='grey'>- 18时49分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7635702552887427123" target="_blank" class="news-link">LangChain Agent 实战接入</a> [29] <font color='grey'>- 18时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959006" target="_blank" class="news-link">ClaudeCode之父：“全员编程”时代，“行业专家”致胜</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771577" target="_blank" class="news-link">谷歌TPU困局：敞开市场大门，Nebius、CoreWeave 等新云服务商却选择观望</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时49分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E4%BC%98%E5%8C%96DeepSeek%20V4" target="_blank" class="news-link">UP主优化DeepSeek V4</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时49分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
