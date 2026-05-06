@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 135</p><p>生成时间: 2026-05-07 05:15:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">20</td>
+                <td class="percentage">14.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dff0a-d7bd-7997-aa52-bf80933a78f8" target="_blank" class="news-link">AIRASIA CEO HAS OPTION FOR 150 A220-500 STRETCH JETS TO REPLACE EXISTING A320 CURRENT GENERATION PLANES - INTERVIEW</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dff0a-915e-7997-aa52-b3eb52e295dc" target="_blank" class="news-link">AIRBUS COMMERCIAL AIRCRAFT CEO SAYS PLANS TO MAKE DECISION THIS YEAR ON LARGER A220 JET - INTERVIEW</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3099573" target="_blank" class="news-link">Meta支持的Scale AI获五角大楼5亿美元AI合同</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dff08-dc6f-7997-aa52-a97dc4b4ae16" target="_blank" class="news-link">IRAN ISSUES MESSAGE TO COMMERCIAL VESSELS IN STRAIT OF HORMUZ SAYING IRAN&#x27;S PORTS FULLY PREPARED TO PROVIDE GENERAL MARITIME SERVICES AND SUPPORT TO THE VESSELS -IRNA</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dff08-318e-7997-aa52-a218340b0dfb" target="_blank" class="news-link">Trump Signals Progress as U.S. Awaits Iran Reply on Peace Framework</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260507050409862800" target="_blank" class="news-link">据CNBC：随着苹果(AAPL.O)加大对人工智能的投资力度，截至三月当季，苹果(AAPL.O)的研发支出占营收的比例达到10.3%。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260507050033181800" target="_blank" class="news-link">Scale AI获美国防部价值5亿美元的合同</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dfef5-cd07-7997-aa52-884d7fe39438" target="_blank" class="news-link">META-BACKED SCALE AI WINS $500 MILLION DEFENSE DEPARTMENT DEAL</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dfef4-4c85-7997-aa52-7baabec79070" target="_blank" class="news-link">MOHAMMAD AKBARZADEH, DEPUTY POLITICAL OFFICER OF THE IRGC NAVY: THE IRGC NAVY DOMINATES THE STRAIT OF HORMUZ, AND ANY POTENTIAL ATTACK WILL FACE A PLAN BEYOND THE &quot;ENEMY&#x27;S&quot; CALCULATIONS</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dfee5-e70e-755b-9a70-620e0e754e5b" target="_blank" class="news-link">US Stocks Hit Records as AI Rally, Iran Deal Optimism Lift Sentiment</a> [12] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dfee3-b0bc-755b-9a70-5713947fb006" target="_blank" class="news-link">&lt;b&gt;BESSENT WILL SPEAK INDIVIDUALLY ON TUESDAY WITH PM SANAE TAKAICHI, FM SATSUKI KATAYAMA AND BANK OF JAPAN GOV. KAZUO UEDA - NIKKEI&lt;/b&gt;</a> [14] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260507042524989800" target="_blank" class="news-link">得益于AI数据中心需求的激增，Arm营收展望高于预期</a> [15] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2035415081798869913" target="_blank" class="news-link">如何看待蔡浩宇的硅谷 AI 公司战略转向，LLM 团队整体回流国内？</a> [15] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260507042354436800" target="_blank" class="news-link">市场消息：由Meta支持的Scale AI公司获得了一份价值5亿美元的美国国防部合同。</a> [17] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dfee2-7ae6-755b-9a70-35076d52fbe3" target="_blank" class="news-link">FED&#x27;S GOOLSBEE: NOT SURPRISED TO SEE EVIDENCE OF SUPPLY CHAIN PROBLEMS DEVELOPING GIVEN LENGTH OF U.S.-IRAN CONFLICT</a> [18] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3099557" target="_blank" class="news-link">苹果研发投入占营收比重突破10%，AI竞赛引发“紧迫感”</a> [18] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dfee2-5d4d-755b-9a70-25ff0c28eddc" target="_blank" class="news-link">FED&#x27;S GOOLSBEE: EVIDENCE OF MORE PERSISTENT INFLATION MIGHT COME FROM SUSTAINED PRICE INCREASES IN CORE SERVICES, WEALTH-DRIVEN SPENDING AMONG MORE AFFLUENT HOUSEHOLDS, AND WAGE HIKES IN OCCUPATIONS TIED TO ARTIFICIAL INTELLIGENCE INVESTMENT</a> [20] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260507040722308800" target="_blank" class="news-link">美联储古尔斯比：持续的核心服务价格上涨、富裕家庭的财富驱动消费以及与人工智能投资相关职业的工资上涨，可能表明通胀更加持久。</a> [24] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=AI%E8%AE%B0%E8%B4%A6%E8%BD%AF%E4%BB%B6%E6%80%BC%E7%94%A8%E6%88%B7%E4%B9%B0%E7%9A%84%E8%A1%A3%E6%9C%8D%E5%83%8F%E5%AF%BF%E8%A1%A3" target="_blank" class="news-link">AI记账软件怼用户买的衣服像寿衣</a> [28] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dfee1-7981-755b-9a6f-e5515823b305" target="_blank" class="news-link">FED&#x27;S GOOLSBEE: THE LONGER OIL PRICES REMAIN HIGH, THE GREATER THE CHANCE PEOPLE START FACTORING HIGHER INFLATION INTO EXPECTATIONS, WHICH WOULD BE &#x27;EXTREMELY PROBLEMATIC&#x27; FOR THE CENTRAL BANK</a> [28] <font color='grey'>- 05时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
