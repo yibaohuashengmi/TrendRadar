@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 361</p><p>生成时间: 2026-05-06 17:27:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">6.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959019" target="_blank" class="news-link">美光高管：AI上下文，以每年30倍速度暴涨，存储怎么可能够用</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84220" target="_blank" class="news-link">苹果同意向美国 iPhone 用户支付 2.5 亿美元和解 AI 功能交付延迟诉讼</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dfc87-726b-7ffc-8bfb-aeaaee5fab11" target="_blank" class="news-link">LSEG: WILL MAKE ITS LICENSED DATA AND ANALYTICS AVAILABLE IN AMAZON QUICK, VIA ITS MODEL CONTEXT PROTOCOL SERVER - WEBSITE</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/904.htm" target="_blank" class="news-link">原相发声：Ninjutso 定制鼠标传感器 AIMNINJA 2 部分宣传与实际规格不符</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84219" target="_blank" class="news-link">OpenAI、Google 和微软推动在学校课程中加入 AI 素养课</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959018" target="_blank" class="news-link">美光高管：AI真正的下一战，不是算力，而是记忆力</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48027897" target="_blank" class="news-link">DNSSEC disruption affecting .de domains – Resolved</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771650" target="_blank" class="news-link">高盛深度：中国AI五大关键辩论</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1210585" target="_blank" class="news-link">近期发现有 v 友购买了正价 Claude/Openai 订阅后，疑似被诱导将账号用于反向代理（反代转 API）。提醒大家：将账号反代为 API 使用属于严重违反 TOS 的行为，一经检测账号将被封禁（返回 401）。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3771597" target="_blank" class="news-link">Anthropic发布金融AI代理，FactSet等数据服务商遭到冲击</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959017" target="_blank" class="news-link">美光高管：AI正在吃光全球存储，把所有数据“加热”</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202605/0671089.html" target="_blank" class="news-link">AI科技如何协助“无精症”男性 解决不孕症</a> [12] <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1210582" target="_blank" class="news-link">分享一个公开数据的 ai 中转站大模型检测工具</a> [12] <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771643" target="_blank" class="news-link">英飞凌：AI数据中心电源解决方案需求旺盛，季度营收指引高于预期</a> [14] <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959016" target="_blank" class="news-link">美光高管：在全球狂建5座超级晶圆厂，一座=10个足球场，还是不够AI吃</a> [15] <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1210565" target="_blank" class="news-link">已开源，大学生面试刷题 + AI 辅助网站，目前已有 865 道题</a> [18] <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/886.htm" target="_blank" class="news-link">Mionix 发布 AVIOR AIR CARBON FIBER 鼠标：手工打造，限量出售</a> [19] <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771639" target="_blank" class="news-link">91%有漏洞、94%可投毒——AI Agent的安全“一团糟”</a> [20] <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1210562" target="_blank" class="news-link">用 ai 做了个飞牛 nas 接入米家极客版接入 ai 的工具</a> [20] <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959015" target="_blank" class="news-link">AI赚疯之后，韩国最强“脱单战袍”：SK海力士工装！员工成相亲角顶配</a> [21] <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959014" target="_blank" class="news-link">存储行业最恐怖的状态：你造多少，AI吃多少</a> [26] <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019dfc72-a1bb-7ffc-8bfa-efadd52c8216" target="_blank" class="news-link">Moonshot AI Nears $2B Raise at $20B+ Valuation</a> [28] <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7636277855711395846" target="_blank" class="news-link">最近半年，我做了个 AI-Native 的 Agent 从零到进阶教程</a> [28] <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7635653259488182308" target="_blank" class="news-link">格力之🐯王自如48天做出AI App：这不是“技术神话”，而是工程能力的重构！</a> [29] <font color='grey'>- 17时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">2</td>
+                <td class="percentage">0.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1210610" target="_blank" class="news-link">Mem0 好野鸡啊，代码拉下来，我和 chatgpt 一起修复了 13 个 bug，才能正常用，一看 github， pr 都提交 1 周多了，就是把不合并</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时27分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1210584" target="_blank" class="news-link">海鲜市场已经开始屏蔽 chatgpt codex 克劳德等关键字了，大家怎么找新的靠谱渠道?</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/946/905.htm" target="_blank" class="news-link">谷歌杰出科学家瓦西尔维茨基强硬回应欧盟：若开放搜索引擎数据，用户隐私恐将不保</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202605/0671078.html" target="_blank" class="news-link">DeepSeek据报估值450亿美金 大基金领投</a> [23] <font color='grey'>- 17时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
