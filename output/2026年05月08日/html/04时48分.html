@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 124</p><p>生成时间: 2026-05-08 04:48:32</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">11.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508043705146800" target="_blank" class="news-link">英伟达与IREN宣布达成战略合作，以加速部署高达5吉瓦的人工智能基础设施。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e0416-efaa-7775-8cba-9cf20f8575e7" target="_blank" class="news-link">&lt;b&gt;EXCHANGE OF FIRE BETWEEN IRAN AND THE US IN THE STRAIT OF HORMUZ, ACCORDING TO AN ISRAELI SOURCE -ISRAEL HAYOM&lt;/b&gt;</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3100197" target="_blank" class="news-link">英伟达与IREN宣布达成战略合作，以加速部署高达5吉瓦的人工智能基础设施。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e040a-c529-7775-8cba-80d317cf7bdf" target="_blank" class="news-link">Stocks Slip as Iran Tensions and AI Trade Cool Momentum</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e0409-af9e-7775-8cba-7b9143b49908" target="_blank" class="news-link">AIRBNB SEES 2Q REV. $3.54B TO $3.60B, EST. $3.46B</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 04时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e0407-5387-7775-8cba-74e889ba7e82" target="_blank" class="news-link">IRAN&#x27;S MEHR SAYS AIR DEFENCES SHOT DOWN TWO &#x27;HOSTILE&#x27; DRONES OVER BANDAR ABBAS AND QESHM</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 04时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e0404-a8d5-7775-8cba-5205a6176832" target="_blank" class="news-link">IRAN&#x27;S STATE BROADCASTER CITING UNNAMED MILITARY OFFICIAL: FOLLOWING ATTACK BY U.S. MILITARY ON IRANIAN TANKER, &#x27;ENEMY UNITS&#x27; IN STRAIT OF HORMUZ CAME UNDER IRANIAN MISSILE FIRE</a> [13] <font color='grey'>- 04时48分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48053203" target="_blank" class="news-link">AI Slop Is Killing Online Communities</a> [13] <font color='grey'>- 04时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e0402-c1e2-7775-8cba-45d48f28f198" target="_blank" class="news-link">SENIOR IRANIAN MILITARY OFFICIAL: IRANIAN MISSILES HIT US UNITS IN STRAIT OF HORMUZ. DAMAGED US UNITS FORCED TO FLEE - IRIB</a> [15] <font color='grey'>- 04时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e0400-147b-7775-8cba-2b82830cf181" target="_blank" class="news-link">IRAN&#x27;S STATE-RUN MIZAN NEWS AGENCY CITING SOURCES: EXPLOSION SOUNDS HEARD IN QESHM CAUSED BY AIR DEFENCES CONFRONTING SEVERAL SMALL DRONES</a> [18] <font color='grey'>- 04时48分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48050732" target="_blank" class="news-link">Show HN: Stage CLI – An easier way of reading your AI generated changes locally</a> [20] <font color='grey'>- 04时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e03f5-5cae-7775-8cb9-f01bcb887c41" target="_blank" class="news-link">FED&#x27;S WILLIAMS: THERE IS A LOT OF UNCERTAINTY IN THE ECONOMY RIGHT NOW</a> [25] <font color='grey'>- 04时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e03f0-6290-7775-8cb9-db8ff4698709" target="_blank" class="news-link">&lt;b&gt;SOME SOURCES SAY THAT THE SOUND OF SEVERAL EXPLOSIONS IN BANDAR ABBAS WAS RELATED TO AIR DEFENSE COUNTERING TWO SMALL DRONES - TASNIM&lt;/b&gt;</a> [28] <font color='grey'>- 04时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e03ee-0b32-7775-8cb9-d4b9e4af8acc" target="_blank" class="news-link">MIDDLE EASTERN CHANNELS REPORT CLAIMS THAT UAE FIGHTER JETS BOMBED BAHMAN QESHM DOCK IN IRAN, WITH SOME SUGGESTING POSSIBLE US LOGISTICAL SUPPORT IN A JOINT OPERATION, THOUGH THE ALLEGATIONS REMAIN UNVERIFIED - FARS</a> [29] <font color='grey'>- 04时48分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
