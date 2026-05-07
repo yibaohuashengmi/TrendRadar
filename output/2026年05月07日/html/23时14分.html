@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 335</p><p>生成时间: 2026-05-07 23:14:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">21</td>
+                <td class="percentage">6.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7636674300020015155/" target="_blank" class="news-link">“人工智能+”走向智能经济新形态</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e02d3-50ff-766d-bbae-b84a61fed261" target="_blank" class="news-link">FED&#x27;S HAMMACK: UNCERTAINTY OVER OUTLOOK SHOULD TRANSLATE TO POLICY UNCERTAINTY</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/947/441.htm" target="_blank" class="news-link">谷歌发布极简无屏、无按键健身手环 Fitbit Air，专注无感健康监测</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1211001" target="_blank" class="news-link">你们的 ai agent 一般用哪些 web_search 工具？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771771" target="_blank" class="news-link">华尔街“传奇大佬”都铎琼斯：AI牛市“还能再持续一两年”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48049160" target="_blank" class="news-link">Cloudflare responded to the &quot;Copy Fail&quot; Linux vulnerability</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3771688" target="_blank" class="news-link">Anthropic与SpaceX签署300兆瓦算力协议，旨在满足AI需求增长</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1210976" target="_blank" class="news-link">用 Vibe Coding 给自己做了个 AI 音乐电台， DJ 还会关心我的城市天气和股市</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e02cb-9b90-766d-bbae-7e5a42fe77fa" target="_blank" class="news-link">FED&#x27;S HAMMACK: JOB MARKET REMAINS LOW HIRE, LOW FIRE ENVIRONMENT</a> [11] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771763" target="_blank" class="news-link">解散xAI ，马斯克和Anthropic都赢麻了</a> [12] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/947/422.htm" target="_blank" class="news-link">欧盟就“弱化版”AI 法案达成初步协议，禁止深度伪造色情内容</a> [13] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771759" target="_blank" class="news-link">全球AI新王诞生！Anthropic估值冲爆1.2万亿，首次反超OpenAI</a> [17] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/947/416.htm" target="_blank" class="news-link">翻译软件公司 DeepL 计划裁员 25%，CEO 归因于 AI 带来巨大结构性转变</a> [17] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e02c5-d9a7-766d-bbae-384bdb1acf09" target="_blank" class="news-link">GOOGLE: MAKING GOOGLE HEALTH COACH PUBLICLY AVAILABLE AS PART OF GOOGLE HEALTH PREMIUM - WEBSITE&lt;br/&gt;&lt;br/&gt;GOOGLE: PREMIUM PLANS START AT $9.99 PER MONTH OR $99 PER YEAR, ARE AUTOMATICALLY BUNDLED AS PART OF GOOGLE AI PRO &amp; ULTRA TIERS- WEBSITE</a> [19] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e02c5-d3cb-766d-bbae-35ce51d71440" target="_blank" class="news-link">GOOGLE: FITBIT AIR IS COMPATIBLE WITH ANDROID AND IOS AND AVAILABLE FOR PRE-ORDER, STARTING TODAY FOR $99.99&lt;br/&gt;&lt;br/&gt;GOOGLE- GOOGLE FITBIT AIR SPECIAL EDITION WILL BE AVAILABLE FOR PRE-ORDER TODAY, AND ON-SHELF IN THE U.S. MAY 26 FOR $129.99</a> [20]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e02c5-2cd5-766d-bbae-20d742a78cd9" target="_blank" class="news-link">&lt;b&gt;FED&#x27;S HAMMACK: I SEE A LOT OF UNCERTAINTY IN ECONOMIC OUTLOOK - PUBLIC RADIO&lt;/b&gt;</a> [22] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e02be-5b02-766d-bbae-199e46fffd34" target="_blank" class="news-link">ZELENSKIY SAYS UKRAINE&#x27;S PEACE NEGOTIATOR WILL HOLD TALKS WITH U.S. TEAM</a> [23] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3100053" target="_blank" class="news-link">谷歌推出Fitbit Air，售价100美元，对标Whoop。</a> [24] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e02b3-6b52-766d-bbae-012bf4be7be0" target="_blank" class="news-link">&lt;b&gt;ISRAELI PRIME MINISTER BENJAMIN NETANYAHU SAID HE WAS IN ‘ALMOST DAILY’ CONTACT WITH US PRESIDENT TRUMP AND THAT THERE WOULD BE ‘NO SURPRISES’ WHEN IT CAME TO US NEGOTIATIONS AROUND PEACE WITH IRAN&lt;/b&gt;</a> [26] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7635510696696119306" target="_blank" class="news-link">AI 情绪陪伴助手：从 0 到 1 的 PWA + 跨端应用实战</a> [28] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3100046" target="_blank" class="news-link">美团公测AI社区“觅游”，打造人和AI的赛博生活</a> [29] <font color='grey'>- 23时14分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1211005" target="_blank" class="news-link">分享一个自用文件管理工具 iFile：把 WebDAV、S3、R2、Google Drive 等挂到系统文件管理器</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48050278" target="_blank" class="news-link">AlphaEvolve: Gemini-powered coding agent scaling impact across fields</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/947/437.htm" target="_blank" class="news-link">谷歌预告 Snapseed 修图应用 4.0 版本将于本周发布，安卓版将同步 iOS 进度获全新相机功能及胶片滤镜</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时14分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/947/406.htm" target="_blank" class="news-link">中国信通院联合腾讯、华为等发起智能体可信握手协议（ATH），建立智能体开源社区</a> [25] <font color='grey'>- 23时14分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BAMatePadProMax%E6%B5%B7%E5%A4%96%E9%A6%96%E5%8F%91%23&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">华为MatePadProMax海外首发</a> [28] <font color='grey'>- 23时14分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7636537742285799434" target="_blank" class="news-link">DeepSeek版Claude Code登顶热榜：8700星，鲸鱼哥火了</a> [29] <font color='grey'>- 23时14分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
