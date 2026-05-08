@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 244</p><p>生成时间: 2026-05-08 18:05:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">7.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e06ec-e072-7113-a192-b1003dec5f41" target="_blank" class="news-link">PHILIPPINES&#x27; MARCOS: LEADERS AGREED ON THE IMPORTANCE OF STABLE AND RELIABLE ENERGY SUPPLY CHAINS</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771845" target="_blank" class="news-link">OpenAI让模型“张嘴”，你要注意：辱骂AI，很贵的</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1211242" target="_blank" class="news-link">Audjust AI（智能缩短/延长歌曲 + 自动找 Loop + 文本生成音乐）</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48059662" target="_blank" class="news-link">ClojureScript Gets Async/Await</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771840" target="_blank" class="news-link">物理AI时代核心“卖铲人”：数据采集是机器人下一个风口？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e06d0-cdbb-7113-a192-862d3c0a9b98" target="_blank" class="news-link">EU MINISTERS EXPECTED TO ADOPT SANCTIONS ON MONDAY RELATED TO DEPORTATION OF UKRAINIAN CHILDREN TO RUSSIA, EU SOURCES SAY</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1211234" target="_blank" class="news-link">多个云服务器、数据库、OSS、各种密钥如何让 AI 安全使用？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e06c8-7ad7-7113-a192-7a6e3199d316" target="_blank" class="news-link">EU to Clarify That Airlines Can Use Jet-A Fuel Amid Hormuz Block</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771825" target="_blank" class="news-link">市场静候非农夜，AI交易支撑美股盘前涨势，伊朗局势恶化，布油重返百元关口，黄金小幅上涨</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5229877" target="_blank" class="news-link">顺丰同城(09699.HK)拟出资2.13亿入股产业基金，瞄准人工智能、物流科技等领域投资</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771839" target="_blank" class="news-link">100亿美元没人敢借，软银OpenAI保证金贷款目标下调至60亿</a> [11] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2365785" target="_blank" class="news-link">券商All in AI要多大财力？IT投入实力较量最新排行榜</a> [11] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1211167" target="_blank" class="news-link">当前学 agent 有必要学 langchain langgraph 吗，还是 cc,hermes,openclaw 先扒一扒源码</a> [11] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e06a8-74d9-7113-a192-5c7a043be89b" target="_blank" class="news-link">KOREAN AIR EXTENDS SUSPENSION OF FLIGHTS TO DUBAI TO AUGUST 2</a> [12] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/947/848.htm" target="_blank" class="news-link">AI 搜索电视剧出现盗版链接，法院判决平台不存在主观过错</a> [19] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/947/838.htm" target="_blank" class="news-link">谷歌试点软件工程师面试新流程：候选人可使用 AI 助手</a> [21] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7637134822670532635" target="_blank" class="news-link">在AI编程统治下，为什么UniApp开发更加需要这个框架？</a> [21] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508172813049800" target="_blank" class="news-link">《人工智能终端智能化分级》系列国家标准发布宣贯会在京召开</a> [25] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7636724456984428607" target="_blank" class="news-link">基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践｜得物技术</a> [28] <font color='grey'>- 18时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/947/899.htm" target="_blank" class="news-link">DeepSeek 服务大宕机，网页 / API 暂不可用</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=DeepSeek%E5%B4%A9%E4%BA%86&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">DeepSeek崩了</a> [16] <font color='grey'>- 18时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1211211" target="_blank" class="news-link">chatgpt 的 /mnt/data 没法提取文件，问了一圈真无解</a> [13] <font color='grey'>- 18时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/947/869.htm" target="_blank" class="news-link">消息称华为 Pura X Max 首销超越所有折叠屏手机，10 天累计激活超 20 万</a> [16] <font color='grey'>- 18时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
