@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 119</p><p>生成时间: 2026-05-09 05:35:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">12.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3100934" target="_blank" class="news-link">报道：xAI上周裁员约10人，近期离职人员包括Mistral AI创始成员</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48066524" target="_blank" class="news-link">AI is breaking two vulnerability cultures</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e093a-3c7d-7222-b4aa-fc1256411e3f" target="_blank" class="news-link">CITI MAINTAINS 0-3MTH POINT OIL PRICE FORECAST OF $120</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e092e-5433-7222-b4aa-d0dc2bb134e8" target="_blank" class="news-link">FED SURVEY RESPONDENTS PUT GEOPOLITICAL RISKS IN TOP SPOT IN SPRING 2026 SURVEY, UP ONE NOTCH FROM FALL 2025 SURVEY; AI CLIMBS TO NO. 3 FROM NO. 5; PRIVATE CREDIT CLIMBS TO NO. 4 FROM NO. 9; INFLATION/TIGHTENING DROPS TO NO. 5 FROM NO. 3</a> [12] <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e092e-3b43-7222-b4aa-c8ff10752412" target="_blank" class="news-link">FED REPORT: CONTINUED PRIVATE CREDIT REDEMPTIONS AND NEGATIVE SENTIMENT COULD REDUCE CREDIT AVAILABILITY FOR SOME BORROWERS</a> [13] <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e092e-1ff6-7222-b4aa-bd05c7f854fe" target="_blank" class="news-link">FED REPORT: LEVERAGE AT HEDGE FUNDS REMAINS NEAR ALL-TIME HIGHS, CONCENTRATED IN SMALL NUMBER OF LARGE FUNDS</a> [15] <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/639093805.html" target="_blank" class="news-link">谢谢AI，成功让我笑了出来</a> [16] <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e092e-003c-7222-b4aa-aa77ad258db4" target="_blank" class="news-link">FED REPORT: WORRIES ARE MOUNTING THAT AI EXPANSION IS FUNDED BY DEBT</a> [17] <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e092d-e555-7222-b4aa-99321852b28c" target="_blank" class="news-link">FED REPORT: WIDESPREAD ADOPTION OF AI TECHNOLOGY COULD PUSH UP UNEMPLOYMENT</a> [19] <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e091f-4cdb-7222-b4aa-82ef77629f4e" target="_blank" class="news-link">FRANCE CALLS FOR SWIFT REOPENING OF THE STRAIT OF HORMUZ, FOREIGN MINISTRY SAYS</a> [22] <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260509040340876800" target="_blank" class="news-link">美联储报告：地缘政治风险、石油冲击、人工智能、私人信贷以及持续通胀/货币紧缩是威胁美国金融稳定的五大主要风险。</a> [22] <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e091f-1893-7222-b4aa-7d898672d9f3" target="_blank" class="news-link">IRAN REMAINS OPPOSED TO TRANSFERRING NUCLEAR MATERIAL TO US:WSJ</a> [23] <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3100906" target="_blank" class="news-link">Forward Air Corp.（FWRD）收跌43%，创1999年以来最差单日表现。</a> [25] <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3100905" target="_blank" class="news-link">Akamai收涨27%，创2004年以来最佳单日表现。</a> [26] <font color='grey'>- 05时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3100904" target="_blank" class="news-link">【美联储：与私人信用赎回相关的风险“是可控的”】美联储调查受访者在2026年春季调查中将地缘政治风险列为首位，较 2025 年秋季调查上升一位；人工智能（AI）从第 5 位升至第 3 位；私人信用从第 9 位升至第 4 位；通胀/紧缩政策从第 3 位降至第 5 位。 石油冲击在春季调查中被列为第 2 大风险；而在秋季调查中并未进入主要关注名单。 根据美联储半年一度的报告，地缘政治风险、石油冲击、人工智能、私人信用以及持续的通胀/货币紧缩是美国金融稳定面临的五大最受关注风险。 私人信用赎回请求对金融稳定构成的风险似乎有限且可控。 政策不确定性在春季调查中降至第 8 位风险；其在秋季曾是首要关注点。</a> [27]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
