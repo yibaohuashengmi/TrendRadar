@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 266</p><p>生成时间: 2026-05-08 19:55:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">5.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e075a-fa71-7ff0-9ed3-f967eef732e9" target="_blank" class="news-link">MICROCHIP TECHNOLOGY: ROSENBLATT SECURITIES RAISES TARGET PRICE TO $120 FROM $115</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3100682" target="_blank" class="news-link">工业和信息化部：加快形成人工智能终端产品目录 拓展人工智能应用广度深度</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/947/917.htm" target="_blank" class="news-link">斯坦福 AI 教授安杰尼 · 米达：若想让美国人接受数据中心，企业得先学会共情</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771849" target="_blank" class="news-link">7250亿美元豪赌AI的代价：美股科技巨头现金流创逾十年新低</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/947/914.htm" target="_blank" class="news-link">全球首款“双 8kHz”三模矮磁轴键盘狼蛛 HERO 68 MINI Air 发售，299 元起</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/awslabs/aidlc-workflows" target="_blank" class="news-link">awslabs / aidlc-workflows</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/HKUDS/AI-Trader" target="_blank" class="news-link">HKUDS / AI-Trader</a> <font color='red'><strong>[8]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e0720-30e2-7ff0-9ed3-76e8ce9dcd29" target="_blank" class="news-link">UKRAINE, U.S. COORDINATE SCHEDULE FOR U.S. ENVOYS VISIT TO UKRAINE AT THE TURN OF SPRING AND SUMMER, ZELENSKIY SAYS</a> [18] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e0720-2280-7ff0-9ed3-69d2341c925e" target="_blank" class="news-link">UKRAINE&#x27;S PEACE NEGOTIATOR HAD SUBSTANTIVE TALKS IN U.S., ZELENSKIY SAYS</a> [19] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e0714-166f-7ff0-9ed3-4dda824533db" target="_blank" class="news-link">CHINA’S CYBERSPACE REGULATOR CALLS FOR EXPANDING AI AGENT APPLICATIONS IN INDUSTRIAL INTERNET, INTEGRATING THEM WITH CNC MACHINES, INDUSTRIAL ROBOTS, AND AUTOMATED PRODUCTION LINES</a> [23] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e0713-e98d-7ff0-9ed3-4028d7690d4d" target="_blank" class="news-link">&lt;b&gt;CHINA’S CYBERSPACE REGULATOR: WILL EXPLORE REPLICABLE AND SCALABLE APPLICATION MODELS FOR AI AGENTS&lt;/b&gt;</a> [24] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e0713-b449-7ff0-9ed3-3cd6f03ac7ae" target="_blank" class="news-link">CHINA’S CYBERSPACE REGULATOR URGES STEADY PROMOTION OF AI AGENT USE IN KEY SCENARIOS TO DRIVE IMPROVEMENT IN TECHNOLOGY AND PRODUCTS</a> [25] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3100649" target="_blank" class="news-link">大普微：受AI商业化节奏、云计算投入及下游应用景气度变化影响，AI带动的企业级SSD存储需求发展存在一定的波动和不确定性。</a> [25] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e0713-4bab-7ff0-9ed3-2d454cd56b59" target="_blank" class="news-link">&lt;b&gt;CHINA’S CYBERSPACE REGULATOR: SAFETY, RELIABILITY, AND TRUSTWORTHINESS MUST BE THE BASELINE FOR AI AGENT DEVELOPMENT, COVERING R&amp;D, DEPLOYMENT, AND ROLLOUT.&lt;/b&gt;</a> [27] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e070d-60b6-7ff0-9ed3-1a6ee888033f" target="_blank" class="news-link">CHINA’S CYBERSPACE REGULATOR ISSUES IMPLEMENTATION GUIDELINES ON STANDARDIZED APPLICATION AND INNOVATIVE DEVELOPMENT OF AI AGENTS</a> [29] <font color='grey'>- 19时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sxjGvI6vnj" target="_blank" class="news-link">黄仁勋话音刚落，国内光纤厂商披露与华为合作成果</a> [12] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/947/900.htm" target="_blank" class="news-link">华为乾崑智能汽车解决方案发布 2026 五一出行报告，假期间辅助驾驶里程总计达 2.8 亿公里</a> [15] <font color='grey'>- 19时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/947/899.htm" target="_blank" class="news-link">（已恢复）DeepSeek 服务大宕机，网页 / API 暂不可用</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3100642" target="_blank" class="news-link">DeepSeek网页及API相关服务已恢复</a> [30] <font color='grey'>- 19时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508191200528800" target="_blank" class="news-link">欧盟委员会发言人：我们将给予谷歌更多时间，以解决与数字市场法案相关的委员会关切。</a> [21] <font color='grey'>- 19时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202605/0871263.html" target="_blank" class="news-link">美国据报怀疑泰企向阿里巴巴私运英伟达晶片</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
