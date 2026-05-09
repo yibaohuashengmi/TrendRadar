@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 266</p><p>生成时间: 2026-05-09 16:43:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">5.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771900" target="_blank" class="news-link">报道：字节跳动计划将AI基础设施支出增加25%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260509162114709800" target="_blank" class="news-link">工信部启动人工智能科技伦理审查与服务先导计划</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/09/a9943cf3dd3e4413a04e7cea79414b9f.html" target="_blank" class="news-link">马斯克欲建“世界最大AI芯片工厂”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260509162004695800" target="_blank" class="news-link">据悉字节跳动计划将AI基础设施支出增加25%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48072720" target="_blank" class="news-link">All my clients wanted a carousel, now it&#x27;s an AI chatbot</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1211488" target="_blank" class="news-link">企业 AI 落地，审批预审是不是比聊天机器人更容易先跑出价值？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3101030" target="_blank" class="news-link">工信部启动人工智能科技伦理审查与服务先导计划，加快推动审查工作落地实施</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771897" target="_blank" class="news-link">AI基础设施投资风向转变：AMD、英特尔与美光飙涨，英伟达光环渐褪</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3101029" target="_blank" class="news-link">字节跳动已将今年的AI基础设施支出计划增加25%至2,000亿元人民币。（南华早报）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1211470" target="_blank" class="news-link">我们做了一个 AI 交友网络</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48051951" target="_blank" class="news-link">OpenAI’s WebRTC problem</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3771893" target="_blank" class="news-link">大空头：当前AI热潮酷似2000年互联网泡沫“破灭前几个月”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2366815" target="_blank" class="news-link">24岁掌管55亿美元！从被OpenAI扫地出门到华尔街投资新王：Leopold的“开挂人生”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5230375" target="_blank" class="news-link">两项AI政策发布，范式智能战略布局与产业方向高度契合</a> [12] <font color='grey'>- 16时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1211492" target="_blank" class="news-link">我被 Claude Code 搞崩后，用了这个，爽歪了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7637440674708406298" target="_blank" class="news-link">Claude Code 团队工程师：我为什么放弃 Markdown，全面转向 HTML</a> [29] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7637075155848052770" target="_blank" class="news-link">3P骚操作！把DeepSeekV4直接接入Claude桌面版！</a> [30] <font color='grey'>- 16时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/948/241.htm" target="_blank" class="news-link">上汽通用五菱与华为合作首车上市，华境品牌独立筹备工作仍在推进中</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8D%8E%E5%A2%83S%E8%AE%A9%E5%8D%8E%E4%B8%BA%E5%85%A8%E5%AE%B6%E6%A1%B6%E8%BF%9B%E5%85%A515%E4%B8%87%E6%97%B6%E4%BB%A3" target="_blank" class="news-link">华境S让华为全家桶进入15万时代</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3101032" target="_blank" class="news-link">Deepseek和阿里谈崩了？市场人士：双方应该没有进行谈判</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28354128&amp;amp;topic_name=DeepSeek%E7%9D%81%E7%9C%BC%2C%E5%BC%80%E6%94%BE%E8%AF%86%E5%9B%BE%E6%A8%A1%E5%BC%8F" target="_blank" class="news-link">DeepSeek睁眼,开放识图模式</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时43分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
