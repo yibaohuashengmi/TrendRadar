@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 155</p><p>生成时间: 2026-05-13 03:59:07</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">11.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e1db3-a9ab-7772-877d-a634b6620b2a" target="_blank" class="news-link">US TRANSPORTATION SECRETARY DUFFY SAYS FEDERAL GOVERNMENT PLANS $22 BILLION REBUILDING OF WASHINGTON DULLES AIRPORT</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e1db3-8e0b-7772-877d-9ccd1ef5fc8c" target="_blank" class="news-link">INDIA RAISES IMPORT TARIFFS ON GOLD, SILVER - GOVERNMENT ORDER</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260513/1071228015.html" target="_blank" class="news-link">媒体：美国公司Anthropic拒绝中国研究人员访问新的人工智能模型</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e1da2-f88b-7772-877d-84c45296a578" target="_blank" class="news-link">Iran Fails to Export Crude by Sea for Nearly a Month</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e1da1-c2f6-7772-877d-79f25bf51b61" target="_blank" class="news-link">IRAN&#x27;S FOREIGN MINISTRY SAYS ITS EMBASSY IN KUWAIT NEEDS TO BE GRANTED ACCESS TO THE DETAINED IRANIAN NATIONALS&lt;br/&gt;&lt;br/&gt;IRAN&#x27;S FOREIGN MINISTRY SAYS THE FOUR IRANIANS, ARRESTED BY KUWAIT, WERE ENGAGED IN A ROUTINE NAVAL PATROL MISSION AND ENTERED KUWAIT&#x27;S TERRITORIAL WATERS DUE TO &#x27;DISRUPTION IN THEIR NAVIGATION&#x27;</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48111581" target="_blank" class="news-link">Reimagining the mouse pointer for the AI era</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/949/544.htm" target="_blank" class="news-link">谷歌今夏推进 Gemini Intelligence：重塑安卓手机 AI 交互，可操控浏览器填写表单等</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e1d8f-f196-7772-877d-7105d778d4cc" target="_blank" class="news-link">Pentagon Weighs “Operation Sledgehammer” if Iran Ceasefire Fails</a> [11] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48108778" target="_blank" class="news-link">Show HN: Statewright – Visual state machines that make AI agents reliable</a> [15] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3102465" target="_blank" class="news-link">汤森路透（Thomson Reuters）一度跌超过5%，该公司正将Anthropic的Claude整合至其人工智能法律工具CoCounsel Legal中。</a> [17] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513023414045800" target="_blank" class="news-link">Meta：将为竞争对手的人工智能聊天机器人提供一个月的WhatsApp免费访问权限。</a> [18] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2031495233876251385" target="_blank" class="news-link">Ai 时代，现在还有人在坚持古法编程吗？</a> [19] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3102458" target="_blank" class="news-link">OpenAI仅通过承诺向供应商采购就赚取了数十亿美元。 微软在OpenAI相关方面收入超过300亿美元。（The Information）</a> [24]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e1d78-7558-7772-877d-06199b9de1c6" target="_blank" class="news-link">MOVE AIMS TO RESOLVE EU INVESTIGATION WITH QUICK AND FAIR OUTCOME, META SAYS</a> [25] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e1d78-5452-7772-877c-f9dae3852961" target="_blank" class="news-link">META PLATFORMS TO GIVE RIVAL AI CHATBOTS FREE ACCESS TO WHATSAPP FOR A MONTH, META SAYS</a> [26] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e1d6a-c9e5-7772-877c-e578256d41f5" target="_blank" class="news-link">GOOGLE TO HIRE HUNDREDS OF ENGINEERS TO HELP CUSTOMERS ADOPT ITS AI- THE INFORMATION</a> [29] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%85%A8%E5%9B%BD%E9%A6%96%E4%BE%8BAI%E4%BB%A3%E5%86%99%E2%80%9C%E7%A7%8D%E8%8D%89%E7%AC%94%E8%AE%B0%E2%80%9D%E6%A1%88%E5%AE%A3%E5%88%A4" target="_blank" class="news-link">全国首例AI代写“种草笔记”案宣判</a> [30] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e1d69-18ad-7772-877c-db23fbddd634" target="_blank" class="news-link">TRUMP&#x27;S PROPOSED &#x27;GOLDEN DOME&#x27; ESTIMATED TO COST $1.2 TRILLION, FAR MORE THAN HE INITIALLY SAID - AP &lt;br/&gt;&lt;br/&gt;TRUMP’S MISSILE DEFENSE PROJECTION ROSE FROM $175 BILLION TO $1.2 TRILLION</a> [30] <font color='grey'>- 03时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">13</td>
+                <td class="percentage">8.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/949/552.htm" target="_blank" class="news-link">谷歌安卓 17 新增系统验证功能：Pixel 10 等手机首发，识别恶意仿冒系统</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48111545" target="_blank" class="news-link">Googlebook</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/949/551.htm" target="_blank" class="news-link">谷歌将升级 Android Auto：升级谷歌地图，60fps 全高清视频上车</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/949/550.htm" target="_blank" class="news-link">谷歌升级安卓 17 防盗：窃贼即便拿到 PIN 码，也难关闭手机追踪</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/949/549.htm" target="_blank" class="news-link">谷歌官宣安卓 Noto 3D 设计，重绘全部约 4000 个 Emoji 表情</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772108" target="_blank" class="news-link">报道：SpaceX与谷歌洽谈轨道数据中心合作</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/949/548.htm" target="_blank" class="news-link">谷歌携手苹果升级换机体验：iPhone 转安卓可无线迁移密码、主屏布局</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/949/547.htm" target="_blank" class="news-link">谷歌确认安卓版 Adobe Premiere 今夏上线，打通短视频制作到发布链路</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/949/546.htm" target="_blank" class="news-link">10 年支持不变：谷歌力保现有 Chromebook，部分笔记本“有资格过渡到新体验”</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/949/545.htm" target="_blank" class="news-link">谷歌安卓推出 Pause Point：想刷短视频等分心 App 前先让你冷静 10 秒</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48111896" target="_blank" class="news-link">Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/949/543.htm" target="_blank" class="news-link">谷歌扩展安卓“快速分享”：WhatsApp 首批接入，更多手机兼容苹果“隔空投送”</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7638444770281259060" target="_blank" class="news-link">ReBAC 与 Google Zanzibar：权限系统的未来</a> [26] <font color='grey'>- 03时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3102483" target="_blank" class="news-link">Anthropic进一步拓展法律行业，新工具可协助准备司法考试</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
