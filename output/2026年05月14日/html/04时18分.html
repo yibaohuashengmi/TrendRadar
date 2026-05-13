@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 124</p><p>生成时间: 2026-05-14 04:18:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">9.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260514034444194800" target="_blank" class="news-link">市场消息：马斯克的xAI正加紧推动华尔街公司使用Grok聊天机器人，阿波罗与摩根士丹利已开始在内部使用Grok，并与其他人工智能模型制造商的软件一起使用。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48126156" target="_blank" class="news-link">Making the news available at no cost is a victory</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e22f9-2927-7dd0-a6aa-d2b431fea051" target="_blank" class="news-link">MICROSOFT EXPLORING AI STARTUP DEALS TO PREPARE FOR LIFE AFTER OPENAI: SOURCES&lt;br/&gt;&lt;br/&gt;MICROSOFT WEIGHED ACQUISITION OF CURSOR, BACKED AWAY OVER ANTITRUST CONCERNS: SOURCES&lt;br/&gt;&lt;br/&gt;MICROSOFT HAS DISCUSSED DEAL WITH AI STARTUP INCEPTION: SOURCES&lt;br/&gt;&lt;br/&gt;INCEPTION HAS HIRED BANK TO NEGOTIATE A DEAL OF AT LEAST $1 BILLION: SOURCE</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48122635" target="_blank" class="news-link">Setting up a free *.city.state.us locality domain (2025)</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e22f7-c1df-7dd0-a6aa-ce4d431e2be2" target="_blank" class="news-link">&lt;b&gt;AI CHIPMAKER CEREBRAS SAID POISED TO PRICE IPO AT $185/SHARE&lt;/b&gt;</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772211" target="_blank" class="news-link">回应Anthropic旗下Mythos！Mistral为欧洲银行开发网络安全AI模型</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e22df-6e72-7dd0-a6aa-9554e9d18596" target="_blank" class="news-link">FAA TO SPEND $16.5 MILLION TO EQUIP ALL ITS AIRPORT VEHICLES WITH TRANSPONDERS AFTER FATAL AIR CANADA EXPRESS COLLISION IN NEW YORK</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e22df-46d0-7dd0-a6aa-8f982218acef" target="_blank" class="news-link">APOLLO GLOBAL MANAGEMENT INC. AND MORGAN STANLEY HAVE BEGUN USING GROK INTERNALLY ALONGSIDE SOFTWARE FROM OTHER AI MODEL MAKERS</a> [11] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e22de-c933-7dd0-a6aa-7c941f662154" target="_blank" class="news-link">PENTAGON SEEKS CHEAPER CRUISE MISSILES AFTER WAR DRAIN - WSJ</a> [13] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e22de-9597-7dd0-a6aa-70ceda3f644a" target="_blank" class="news-link">MUSK’S XAI RACES TO GET WALL STREET FIRMS TO USE GROK CHATBOT</a> [14] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e22bc-2ab1-7dd0-a6aa-594101a86bdc" target="_blank" class="news-link">CDC OFFICIAL: RISK TO AMERICAN PUBLIC FROM HANTAVIRUS REMAINS LOW</a> [17] <font color='grey'>- 04时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e22b6-e90e-7dd0-a6aa-3b1dd79de7ed" target="_blank" class="news-link">ECB&#x27;S LANE: PROPAGATION OF IRAN SHOCK MAY BE MORE CONTAINED THAN IN 2022, BUT STRONGER AND FASTER THAN HISTORICAL AVERAGES</a> [21] <font color='grey'>- 04时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3103212" target="_blank" class="news-link">谷歌母公司Alphabet收涨3.9%，创收盘历史新高。 英伟达收涨2.3%，连续第六个交易日走高。</a> <font color='red'><strong>[2]</strong></font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3103208" target="_blank" class="news-link">纳斯达克金龙中国指数初步收涨3.9%。 热门中概股里，世纪互联初步收涨25.3%，金山云涨17%，美团涨12%，阿里巴巴涨8.3%，百度涨7.8%，蔚来涨7.5%，京东涨7.2%，万国数据、理想、老虎证券涨超6%，拼多多涨4.1%，日月光半导体涨3.4%。 ETF中，KWEB涨5%，CQQQ涨5%。</a> <font color='red'><strong>[5]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
