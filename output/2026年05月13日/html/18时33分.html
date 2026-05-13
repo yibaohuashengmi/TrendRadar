@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 365</p><p>生成时间: 2026-05-13 18:33:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">28</td>
+                <td class="percentage">7.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/008.htm" target="_blank" class="news-link">韩官员提议发放“AI 芯片全民红利”，引发市场震荡</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e20cd-839e-7eef-a1ca-538778480541" target="_blank" class="news-link">EX-BOJ GOVERNOR KURODA: BOJ NO DOUBT NEEDS TO GRADUALLY RAISE ITS POLICY RATE AS REAL BORROWING COSTS DEEPLY NEGATIVE, THOUGH MIDDLE EAST CONFLICT IS MAKING ITS DECISIONS DIFFICULT</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772184" target="_blank" class="news-link">马化腾：一年前以为上了AI的船结果发现漏水了，现在站上去但还坐不下去</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2369967" target="_blank" class="news-link">AI超节点放量元年？国内大厂相继押注 OEM环节或成下一受益方向</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E7%BB%AD%E5%86%99%E8%BD%BB%E9%9F%B3%E5%B0%91%E5%A5%B3%E7%AC%AC%E4%B8%89%E5%AD%A3" target="_blank" class="news-link">AI续写轻音少女第三季</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772187" target="_blank" class="news-link">阿里巴巴Q1营收小幅增长，云收入同比增长38%，首次披露AI产品ARR | 财报见闻</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772181" target="_blank" class="news-link">AI转型加速，腾讯Q1营收同比增9%，净利润大增21%，资本开支达370亿元｜财报见闻</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%B0%81%E7%A5%9E2%E7%89%B9%E6%95%88%20%E4%B8%8D%E5%A6%82AI&amp;t=31&amp;band_rank=5&amp;Refer=top" target="_blank" class="news-link">封神2特效 不如AI</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/949/991.htm" target="_blank" class="news-link">1099 → 358 元：小米 G100 智能门锁 618 破冰新低，AI 指纹识别 + 九种开锁方式</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48089921" target="_blank" class="news-link">New stainless steel can survive conditions for hydrogen production in seawater</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772173" target="_blank" class="news-link">谷歌突袭苹果！安卓变身“豆包手机”，首发Gemini电脑，把AI塞进光标</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28354246&amp;amp;topic_name=%E9%AB%98%E6%A0%A1%E7%A1%AC%E6%9F%A5AI%E7%8E%87%2C%E5%A4%8D%E6%97%A6%E6%95%99%E6%8E%88%E6%80%92%E4%BA%86" target="_blank" class="news-link">高校硬查AI率,复旦教授怒了</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772183" target="_blank" class="news-link">谷歌推出新一代AI笔记本，或采用NPU提升Gemini AI体验</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1212453" target="_blank" class="news-link">做了一个 AI 视频图片生成站，把常用的视频图片大模型聚到一个订阅里</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7639279967072518180/" target="_blank" class="news-link">马化腾回应腾讯AI是否落后</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A9%AC%E5%8C%96%E8%85%BE%EF%BC%9A%E4%BB%A5%E4%B8%BA%E4%B8%8A%E4%BA%86AI%E7%9A%84%E8%88%B9%E5%8D%B4%E5%8F%91%E7%8E%B0%E6%BC%8F%E6%B0%B4%E4%BA%86" target="_blank" class="news-link">马化腾：以为上了AI的船却发现漏水了</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772139" target="_blank" class="news-link">创业板大涨超2%创历史新高，万亿巨头工业富联涨停，AI算力产业链爆发，港股AI大模型狂飙、智谱涨近40%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://tech.ifeng.com/c/8t5w0wxVfbb" target="_blank" class="news-link">马化腾：1年前以为上了AI的船结果发现漏水，现在站上去但坐不下</a> [11] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/884027743585812480" target="_blank" class="news-link">从java跑路做ai了</a> [11] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3102910" target="_blank" class="news-link">阿里巴巴Q4财报：AI相关产品收入连续十一个季度实现三位数增长 ARR突破358亿元</a> [13] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/949/966.htm" target="_blank" class="news-link">Anthropic Claude Code 缔造者：数千个 AI 智能体夜间自动为我写代码</a> [14] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772176" target="_blank" class="news-link">“AI公民红利”掀翻市场后，韩国总统亲自出面灭火</a> [18] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e20ad-7a5f-7eef-a1c9-c28b00b7764c" target="_blank" class="news-link">ALIBABA GROUP: CONFIDENT IN OUR BUSINESS OUTLOOK AND WILL CONTINUE TO INVEST IN AI + CLOUD TO STRENGTHEN OUR COMPETITIVE ADVANTAGES</a> [21] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/949/954.htm" target="_blank" class="news-link">哈佛计算机科学教授马兰：AI 并不是导致本专业热度下降的唯一原因</a> [22] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e20ab-058d-7eef-a1c9-9c5dc841190a" target="_blank" class="news-link">EX-BOJ GOVERNOR KURODA: RISING OIL PRICES SINCE UKRAINE WAR, US-JAPAN INTEREST RATE DIVERGENCE LIKELY BEHIND YEN&#x27;S SLIDE, WHICH LED JAPAN TO INTERVENE IN FX MARKET TO KEEP YEN FROM FALLING BELOW 160 VS DOLLAR</a> [26] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e20a6-88cf-7eef-a1c9-85dc0525de9b" target="_blank" class="news-link">JAPAN PM TAKAICHI TO VISIT UK AND ITALY BEFORE G7 SUMMIT IN FRANCE IN JUNE, NTV REPORTS</a> [29] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e20a5-5997-7eef-a1c9-7ea6e2bf2280" target="_blank" class="news-link">EX-BOJ GOVERNOR KURODA: 10-YEAR JGB HAS RECENTLY RISEN TO AROUND 2.58%, WHICH IS NATURAL GIVEN JAPAN&#x27;S INFLATION MOVING AROUND 2-3% AND CENTRAL BANK RAISING SHORT-TERM POLICY RATE</a> [30] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7638888225260584998" target="_blank" class="news-link">Claude Code 推出Agent View，一个人同时指挥十个 AI 写代码！</a> [30] <font color='grey'>- 18时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">11</td>
+                <td class="percentage">3.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3102923" target="_blank" class="news-link">阿里巴巴美股盘前跌幅扩大至2.6%，此前公布Q4财报。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1212465" target="_blank" class="news-link">我做了一个免费开源的多网盘聚合播放器 BoxPlayer，支持阿里/百度/115/123/PikPak/OneDrive/Dropbox/Box/WebDAV</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3102917" target="_blank" class="news-link">阿里巴巴：批准每股ADS派发1.05美元现金股息。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/949/981.htm" target="_blank" class="news-link">阿里巴巴 2026 财年净利润 1059.04 亿元，同比下降 18%</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3102916" target="_blank" class="news-link">阿里巴巴Q4财报：即时零售业务收入同比增长57%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3102914" target="_blank" class="news-link">阿里巴巴：超过10万卡真武PPU已部署于阿里云公共云平台</a> [11] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513175953584800" target="_blank" class="news-link">阿里巴巴(BABA.N)财报公布后，美股盘前一度跌超3%，现跌幅缩窄至2%。</a> [11] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3102913" target="_blank" class="news-link">阿里巴巴Q4财报：资本性支出269亿元人民币</a> [12] <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3102907" target="_blank" class="news-link">阿里巴巴第四季度营收2,433.8亿元人民币，同比增长2.9%，市场预估2,465.1亿元人民币。 第四季度阿里国际数字商业集团收入354.3亿元人民币，同比增长5.5%，市场预估359.3亿元人民币。 第四季度云智能集团收入416.3亿元人民币，同比增长38%，市场预估414.4亿元人民币。 第四季度中国电商事业集团收入1,222.2亿元人民币，市场预估1,260.3亿元人民币。 第四季度调整后EBITDA164.4亿元人民币，同比下降61%，市场预估240.6亿元人民币。 第四季度调整后净利润8,600万元人民币，上年同期298.5亿元人民币，市场预估150.8亿元人民币。 阿里巴巴美股盘前上涨2.6%。</a> [14]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513174937709800" target="_blank" class="news-link">阿里巴巴(09988.HK)：截至2026年3月31日止年度，本公司于纽交所回购合共7,300万股普通股，总对价为10亿美元。截至本业绩公布日期，截至2026年3月31日止年度回购的所有普通股均已注销。</a> [24] <font color='grey'>- 18时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1212443" target="_blank" class="news-link">看新闻说 ClaudeCode 的人在手机上面工作？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时33分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BF%9D%E5%A7%86%E7%BA%A7Claude%20Code%E9%80%9F%E6%88%90%E6%94%BB%E7%95%A5" target="_blank" class="news-link">保姆级Claude Code速成攻略</a> [13] <font color='grey'>- 18时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772186" target="_blank" class="news-link">大科技烧7000亿美元，谷歌独自交卷</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/884101993650716672" target="_blank" class="news-link">离开华为一年多，说说我的真实感受</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
