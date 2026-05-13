@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 334</p><p>生成时间: 2026-05-13 21:17:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">7.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5233009" target="_blank" class="news-link">美股异动丨AI云服务商Nebius盘前飙升近20%，Q1营收暴增近7倍，超预期</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%A9%AC%E5%8C%96%E8%85%BE%E5%9B%9E%E5%BA%94AI%E6%8E%89%E9%98%9F%23&amp;t=31&amp;band_rank=2&amp;Refer=top" target="_blank" class="news-link">马化腾回应AI掉队</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84286" target="_blank" class="news-link">亚马逊员工用 AI 工具刷分</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3772187" target="_blank" class="news-link">阿里巴巴Q1营收小幅增长，云收入同比增长38%，首次披露AI产品收入规模 | 财报见闻</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772197" target="_blank" class="news-link">吴泳铭：阿里AI ARR年底超过300亿元，资本支出将超过3800亿元</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/045.htm" target="_blank" class="news-link">网信中国：截至 4 月 30 日，我国累计有 868 款生成式人工智能服务完成备案</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/K-Dense-AI/scientific-agent-skills" target="_blank" class="news-link">K-Dense-AI / scientific-agent-skills</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84283" target="_blank" class="news-link">韩国总统幕僚提议向全民发放“ AI 红利”</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772196" target="_blank" class="news-link">科技巨头的AI中场战事：阿里在收账，腾讯在买船票</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/044.htm" target="_blank" class="news-link">Meta 更新开源沉浸式 Web 开发框架 Immersive Web SDK，新增支持接入 AI 工具</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/danielmiessler/Personal_AI_Infrastructure" target="_blank" class="news-link">danielmiessler / Personal_AI_Infrastructure</a> <font color='red'><strong>[8]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772193" target="_blank" class="news-link">李彦宏定调AI下半场：AI主角从“大模型”走向“应用”，DAA将成新度量衡，“日抛软件”重塑生产力</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3772184" target="_blank" class="news-link">马化腾：一年前以为上了AI的船结果发现漏水了，现在站上去但还坐不下去</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3103040" target="_blank" class="news-link">支付宝“AI收”上线新能力</a> [11] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e2156-b94d-7eee-bb63-8f0a5d23ba02" target="_blank" class="news-link">INDIA&#x27;S HALDIA PETROCHEMICALS IMPORTS NAPHTHA FROM OMAN TO REPLACE KUWAIT, QATAR SUPPLIES, ACCORDING TO SHIPPING DATA AND AN INDUSTRY SOURCE</a> [13] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772187" target="_blank" class="news-link">阿里巴巴Q1营收小幅增长，云收入同比增长38%，首次披露AI产品收入规模 | 财报见闻</a> [16] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/035.htm" target="_blank" class="news-link">ANKER 安克 Air+ 磁吸充电宝开售：10000mAh、无线 15W、有线 30W，399 元</a> [16] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/ton-blockchain/acton" target="_blank" class="news-link">ton-blockchain / acton</a> [17]</div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/025.htm" target="_blank" class="news-link">「AI 脚步声增强」功能登陆荣耀 Magic8 系列手机，适配《和平精英》等 9 款 FPS 游戏</a> [22] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/024.htm" target="_blank" class="news-link">《星球大战：旧共和国的命运》获大量投资，导演哈德森曾直言生成式 AI“没灵魂”</a> [23] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7638577060101161000" target="_blank" class="news-link">前端唯一的护城河？结合 AI 将字节组件库 Headless 化后的感想~</a> [24] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e2148-66e8-7eef-a1cc-22d42db07453" target="_blank" class="news-link">GULF STATES BAHRAIN, KUWAIT, QATAR AND UAE TO WIN NATO SUMMIT INVITES WITH IRAN WAR ON AGENDA - REPORTS</a> [26] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e2146-1714-7eef-a1cc-17b7df1d35c2" target="_blank" class="news-link">LONDON METAL EXCHANGE: JOHN WILLIAMSON WILL CONTINUE IN HIS ROLE AS CHAIRMAN OF THE BOARD, FOLLOWING THE COMPLETION OF HIS INITIAL TERM&lt;br/&gt;&lt;br/&gt;LME - ANNOUNCED THAT JOHN WILLIAMSON WILL CONTINUE IN HIS ROLE AS CHAIRMAN OF THE BOARD, FOLLOWING THE COMPLETION OF HIS INITIAL TERM&lt;br/&gt;&lt;br/&gt;LME: JOHN WILLIAMSON WILL CONTINUE IN HIS ROLE AS CHAIRMAN OF THE BOARD</a> [28] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3103016" target="_blank" class="news-link">阿里巴巴：目前的（AI）供给能力无法完全满足不断增长的需求。 模型服务业务的快速增长将在未来几个季度对毛利率产生“非常积极的影响”。 过去一年我们坚定投入AI领域，未来两年也将继续坚定投资。 持续对云基础设施的投入将提升相关产品的毛利率。 我们认为这项AI投资在未来3到5年内的投资回报非常明确。</a> [28]</div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=AI%E5%81%87%E6%89%AE%E5%A5%B3%E5%84%BF%E6%89%93%E7%94%B5%E8%AF%9D%EF%BC%9A%E5%A6%88%E5%A6%88%E5%BC%80%E9%97%A8" target="_blank" class="news-link">AI假扮女儿打电话：妈妈开门</a> [30] <font color='grey'>- 21时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1212488" target="_blank" class="news-link">当我将记账软件接入了 Claude Code</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2031930574454137517" target="_blank" class="news-link">如何看待在哈佛大学物理学教授 Schwartz 指导下，Claude 完成高能物理论文？</a> [17] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7638807947525816366" target="_blank" class="news-link">Claude Code 智能体是如何设计实现的？</a> [30] <font color='grey'>- 21时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/034.htm" target="_blank" class="news-link">赠灵犀手写笔 + 免费送装一体：75 英寸华为智慧屏 V6 国补后 7999 → 5845 元</a> [17] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/019.htm" target="_blank" class="news-link">鸿蒙智行尊界 S800 Grand Design 高定版实车上路，华为余承东剧透新车锚定 200 万级</a> [28] <font color='grey'>- 21时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3103045" target="_blank" class="news-link">阿里巴巴：目标是保持高于市场平均水平的增长，以获得更大的市场份额，并巩固云计算领域的领先地位。 在云计算领域争取份额并巩固市场优势是主要目标，利润率仍然是次要的。 预计在未来1-2个季度内，阿里云的毛利率将显著提升。 到2033年，我们所需的算力将是2022年的10倍。 鉴于扩展算力的快速投资，将超出此前提出的3,800亿元资本支出计划。</a> <font color='red'><strong>[8]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3103031" target="_blank" class="news-link">阿里巴巴CEO吴泳铭：阿里服务器几乎没有一张卡是空的</a> [20] <font color='grey'>- 21时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
