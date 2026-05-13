@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 186</p><p>生成时间: 2026-05-14 02:25:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">9.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/072.htm" target="_blank" class="news-link">美联储：AI 使用者更倾向于认为其会助力职业发展，而非替代自己</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e228a-5fcd-7dd0-a6a9-259361b82a48" target="_blank" class="news-link">VANCE: U.S. GOVERNMENT TO DEFER $1.3 BILLION IN MEDICAID FUNDING TO CALIFORNIA</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84289" target="_blank" class="news-link">美国左右派都对 AI 表示担忧</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e2280-0da7-7dd0-a6a8-e68a310683da" target="_blank" class="news-link">SENATE NOW VOTING TO CONFIRM KEVIN WARSH AS FED CHAIR</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e227f-cc90-7dd0-a6a8-dc89a2d52429" target="_blank" class="news-link">&#x27;STICKINESS OF FEAR&#x27; SLOWS RETURN TO THE STRAIT OF HORMUZ, SAYS SHIPPING BOSS - WSJ</a> [11] <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48121929" target="_blank" class="news-link">The US is winning the AI race where it matters most: commercialization</a> [11] <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2370586" target="_blank" class="news-link">富国银行：AI就是泡沫，但在破裂前投资者应顺势而为</a> [12] <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e227c-5902-7dd0-a6a8-cc85ae03977a" target="_blank" class="news-link">&lt;b&gt;TRUMP SET TO UNVEIL EXTENSION OF TARIFF TRUCE AND BOEING AIRCRAFT ORDERS FROM CHINA, TRADERS FORECAST – CNBC&lt;/b&gt;</a> [13] <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e2279-8247-7dd0-a6a8-b2ddf2bcbf26" target="_blank" class="news-link">KASHKARI: ANY CHAIR WILL HAVE TO BRING THE FED POLICYSETTING COMMITTEE ALONG</a> [16] <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e2279-80b4-7dd0-a6a8-ab1f7fd79096" target="_blank" class="news-link">KASHKARI: FED CHAIR WILL HAVE TO PERSUADE OTHER POLICYMAKERS</a> [17] <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3103166" target="_blank" class="news-link">记者起诉英伟达、谷歌、微软，指控其AI语音模型侵权</a> [17] <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e2279-3be4-7dd0-a6a8-a5bce8e66af4" target="_blank" class="news-link">KASHKARI: FED CHAIR IS ONE OF 12 VOTERS ON FED POLICY</a> [18] <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e2278-9f85-7dd0-a6a8-9dd1ebb223d0" target="_blank" class="news-link">KASHKARI: FED CHAIR HAS A LOT OF INFLUENCE</a> [19] <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3103164" target="_blank" class="news-link">苹果公司探索在应用商店APP Store纳入AI智能体。（The Information）</a> [19] <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48124002" target="_blank" class="news-link">Haiku</a> [19] <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e226e-2493-7dd0-a6a8-7b10d9132a29" target="_blank" class="news-link">KASHKARI: NOT SURPRISED BY HEADLINE INFLATION RISE, WHAT MATTERS IS HOW PERSISENT STRAIT CLOSURE IS</a> [23] <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e226d-c472-7dd0-a6a8-7533db39f864" target="_blank" class="news-link">KASHKARI: EVEN IF HORMUZ STRAIT REOPENS, IT WILL BE MONTHS BEFORE SUPPLY CHAINS RETURN TO NORMAL</a> [24] <font color='grey'>- 02时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">1.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48073979" target="_blank" class="news-link">A History of IDEs at Google</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3103161" target="_blank" class="news-link">纳斯达克100指数涨幅扩大至1%，标普500指数目前涨0.6%，道指跌幅收窄至0.3%，半导体指数涨2.7%，银行指数跌超0.8%。 谷歌母公司Alphabet股价创历史新高，报402.04美元/股，日内涨近4%。SpaceX正与谷歌就火箭发射协议进行谈判。</a> [22]</div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOG" target="_blank" class="news-link">谷歌C</a> [30] <font color='grey'>- 02时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260514014322577800" target="_blank" class="news-link">市场消息：微软、谷歌、X遭美国议员就大语言模型事宜问询，Anthropic、Perplexity也因相关问题遭问询。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3103173" target="_blank" class="news-link">谷歌公司、微软、马斯克旗下X（原名推特）、Anthropic、Perplexity因大语言模型（LLM）问题而被美国议员们质询。（PunchBowl）</a> [13] <font color='grey'>- 02时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3103184" target="_blank" class="news-link">美国佛州枪击案律师：ChatGPT为枪手作案“出谋划策”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
