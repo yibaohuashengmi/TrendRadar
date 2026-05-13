@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 77</p><p>生成时间: 2026-05-14 07:08:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">7</td>
+                <td class="percentage">9.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772218" target="_blank" class="news-link">思科本季和全年指引全面超预期、AI订单大幅上调，拟聚焦AI重组，盘后两位数高涨 | 财报见闻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772223" target="_blank" class="news-link">华尔街疯抢，报道称AI芯片Cerebras IPO定价一再被突破，估值将逼近490亿美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/076.htm" target="_blank" class="news-link">消息称苹果评估 AI 编程类应用入驻方案，担心恶意软件与收入流失</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48127815" target="_blank" class="news-link">Medicare&#x27;s new payment model is built for AI. Most of the tech world has no idea</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3103241" target="_blank" class="news-link">美国国会山两党议员们就AI网络威胁发函白宫，要求就此问题采取行动。 信函中提及Anthropic的大模型Mythos。（Axios）</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260514062007934800" target="_blank" class="news-link">美国会议员敦促白宫应对AI网络安全威胁</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260514061052798800" target="_blank" class="news-link">据AXIOS：美国国会正敦促白宫回应日益加剧的AI网络安全威胁。美国议员要求白宫应对Anthropic旗下Mythos等前沿AI网络模型带来的风险。</a> [13] <font color='grey'>- 07时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">2.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3103252" target="_blank" class="news-link">日本银行业、政府部门最快将于两周内Anthropic模型Mythos。（读卖新闻）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48128003" target="_blank" class="news-link">Tell HN: Dont use Claude Design, lost access to my projects after unsubscribing</a> [11] <font color='grey'>- 07时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">1.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5233198" target="_blank" class="news-link">纳指、标普500指数再创新高！英伟达、谷歌、苹果均创新高，中概指数大涨3.89%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">1.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/075.htm" target="_blank" class="news-link">华为 Pura X Max 大阔折真香礼盒开售：含阿玛尼香水、唇膏等，13198 元起</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
