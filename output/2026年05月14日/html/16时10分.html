@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 350</p><p>生成时间: 2026-05-14 16:10:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">28</td>
+                <td class="percentage">8.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1212703" target="_blank" class="news-link">做了个中文 AI 工具导航站，求推荐些常用的工具/提示词 我加进去</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/439.htm" target="_blank" class="news-link">消息称微软筹备收购 AI 初创企业，降低对 OpenAI 依赖</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772269" target="_blank" class="news-link">AI热潮与通胀压力交织，英伟达夜盘涨超2%，韩股续创新高、三星涨4%，债市承压</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5233348" target="_blank" class="news-link">中亦科技(301208.SZ)：暂未介入AI数据中心集群领域</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3103542" target="_blank" class="news-link">鸿海：AI服务器需求强劲，预期第二季AI机柜出货较上季高双位成长，全年出货倍数以上成长。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e2556-fef0-7aa5-b400-56e904e81484" target="_blank" class="news-link">FOXCONN: AI IS NOT SHORT TERM TREND</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772236" target="_blank" class="news-link">味之素ABF薄膜涨价30%，AI芯片需求推动基板供应链成本全面上行</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5233345" target="_blank" class="news-link">有研粉材(688456.SH)：新型散热铜粉已批量应用于国产人工智能芯片</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e2556-e437-7aa5-b400-4d49547d072c" target="_blank" class="news-link">FOXCONN: WE WILL GRASP LONG TERM GROWTH TREND OF AI</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772265" target="_blank" class="news-link">AI服务器需求支撑持续增长，鸿海Q1净利润499.2亿元新台币超预期</a> [11] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772264" target="_blank" class="news-link">AI硬件“黄金时代”，美对冲基金赚得“盆满钵满”</a> [12] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1212673" target="_blank" class="news-link">做了一个 AI vs AI 的石头剪刀布竞技场，想邀请大家把自己的 Agent 丢进去打榜</a> [14] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e254b-be35-799f-8004-476cc2ca9551" target="_blank" class="news-link">CHINA’S SHANGHAI COMPOSITE CLOSES DOWN 1.5%, MARKING ITS BIGGEST ONE-DAY DROP SINCE MARCH 23</a> [15] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2037926535315677917" target="_blank" class="news-link">网友相信豆包「机票退票只扣 5% 手续费」，退票后发现与实际不符遂起诉字节，AI 该为传达错误信息担责吗？</a> [15] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e254b-aa49-799f-8004-3b5b924cfa73" target="_blank" class="news-link">A-SHARES CLOSE LOWER: SHANGHAI COMPOSITE INDEX -1.52%, SHENZHEN COMPONENT INDEX -2.14%, CHINEXT -2.16%</a> [16] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/417.htm" target="_blank" class="news-link">OpenAI 回应开源库遭供应链攻击：用户数据未泄露，已隔离受影响系统</a> [16] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33174800" target="_blank" class="news-link">马化腾谈AI：一年前以为上了船后来发现船漏水，现在站上去了还坐不下去</a> [17] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3103531" target="_blank" class="news-link">鸿海：对今年持谨慎乐观态度。 AI不是短期趋势。 我们将把握AI的长期增长趋势。 仍预计2026财年销售额将强劲增长。</a> [17]</div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33172507" target="_blank" class="news-link">【社论】中国AI企业背后的创新密码</a> [19] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/414.htm" target="_blank" class="news-link">阿里云发布万小智 2.0：打通 AI 建站、域名备案到上线运营全流程</a> [19] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e2545-98ba-799f-8004-11b6964f5824" target="_blank" class="news-link">IRAN&#x27;S FOREIGN MINISTER ARAQCHI: FROM OUR PERSPECTIVE, THE STRAIT OF HORMUZ IS OPEN TO ALL COMMERCIAL SHIPS, BUT THEY MUST COOPERATE WITH OUR NAVAL FORCES</a> [21] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E6%89%B9%E9%87%8F%E7%94%9F%E6%88%90AI%E8%A7%86%E9%A2%91%E6%8A%B9%E9%BB%91%E4%B8%AD%E5%9B%BD%23&amp;t=31&amp;band_rank=21&amp;Refer=top" target="_blank" class="news-link">日本批量生成AI视频抹黑中国</a> [21] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/405.htm" target="_blank" class="news-link">Anthropic CFO：AI 已能编写九成代码，人类白领从执行者转变为监督者</a> [22] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772249" target="_blank" class="news-link">CerebrasIPO：深度绑定OpenAI，以“Fast Tokens”重塑AI芯片市场预期</a> [23] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e2540-036e-799f-8003-fee9fb13f62a" target="_blank" class="news-link">U.S. CRUDE FUTURES FALL $1.15 TO $99.87/BBL AS CHINA&#x27;S XI HAILS TRADE PROGRESS IN TRUMP SUMMIT</a> [24] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/399.htm" target="_blank" class="news-link">腾讯辟谣“AI 一号位即将离职”：纯属子虚乌有</a> [24] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e2535-8ccf-799f-8003-ef61c7a13e9a" target="_blank" class="news-link">Nvidia Partner Hon Hai Profit Jumps After AI Fuels Server Sales</a> [26] <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3103517" target="_blank" class="news-link">腾讯辟谣“AI一号位即将离职”</a> [28] <font color='grey'>- 16时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">0.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1212697" target="_blank" class="news-link">有跑 claude 模型蒸馏的大佬吗？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1212692" target="_blank" class="news-link">Claude360：面向开发者的 Claude/GPT 模型中转站。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48130679" target="_blank" class="news-link">A Claude Code and Codex Skill for Deliberate Skill Development</a> [15] <font color='grey'>- 16时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772237" target="_blank" class="news-link">沪指失守4200点、工业气体、碳化硅逆势走强，小金属领跌，恒科指涨幅回落，阿里涨4%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时10分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1212661" target="_blank" class="news-link">别买阿里 Token Plan [降智严重]</a> [18] <font color='grey'>- 16时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/400.htm" target="_blank" class="news-link">没网也能“张口就翻”，安卓版谷歌翻译 App 正酝酿离线实时翻译</a> [23] <font color='grey'>- 16时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/393.htm" target="_blank" class="news-link">消息称华为 HarmonyOS NEXT 最高峰投入约 4 万人，比安卓 / iOS / Windows 任何一个大版本都要多</a> [29] <font color='grey'>- 16时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/950/419.htm" target="_blank" class="news-link">DeepSeek 专家模式已无法上传文件，官方提示资源紧张</a> [14] <font color='grey'>- 16时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
