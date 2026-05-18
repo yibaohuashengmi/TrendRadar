@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 166</p><p>生成时间: 2026-05-19 02:20:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">22</td>
+                <td class="percentage">13.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48182281" target="_blank" class="news-link">Anthropic Acquires Stainless</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c44-7654-7dd6-889e-3f52f14d212d" target="_blank" class="news-link">CDC: RISK TO THE UNITED STATES REMAINS LOW</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772565" target="_blank" class="news-link">戴尔AI服务器新增1,000家客户，全力进军企业级用户市场</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3105549" target="_blank" class="news-link">马斯克起诉Altman案败诉，强制OpenAI重组的企图落空</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772558" target="_blank" class="news-link">降息预期再度后移，高盛：AI生产率改善才是当前最关键的宏观变量</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3105548" target="_blank" class="news-link">报道：苹果计划为iOS 27推出AI写作助手、快捷指令及壁纸功能</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c3c-31d8-7dd6-889e-198662ef56df" target="_blank" class="news-link">JAPANESE PRIME MINISTER SANAE TAKAICHI AND SOUTH KOREAN PRESIDENT LEE JAE MYUNG ARE SET TO AGREE AT THEIR SUMMIT TUESDAY TO ESTABLISH A FRAMEWORK FOR COOPERATING ON THE PROCUREMENT OF CRUDE OIL, INCLUDING A JOINT RESERVE</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48182592" target="_blank" class="news-link">Iran Starts Bitcoin-Backed Ship Insurance for Hormuz Strait</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260519014351133800" target="_blank" class="news-link">戴尔AI业务加速扩张 “AI工厂”客户数量新增1000家</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260519013819455800" target="_blank" class="news-link">苹果iOS 27将引入AI写作与新的快捷功能</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84325" target="_blank" class="news-link">Linus Torvalds 称 AI 发现的 Bug 报告让安全邮件列表几乎无法管理</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c31-6413-7dd6-889d-f559bc763640" target="_blank" class="news-link">EU LINKS PORTION OF UKRAINE EUR 90 BLN AID TO UNPOPULAR TAX MEASURE</a> [11] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260519013301611800" target="_blank" class="news-link">法官驳回埃隆·马斯克对OpenAI及其CEO奥尔特曼的诉讼</a> [12] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c28-8e19-7dd6-889d-d81438de3f04" target="_blank" class="news-link">ISRAELI CHANNEL 12: WASHINGTON INFORMED ISRAEL THAT ITS REFUELING AIRCRAFT WILL REMAIN AT BEN GURION UNTIL THE END OF THE YEAR</a> [14] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c28-1ba7-7dd6-889d-d36ba325c8ae" target="_blank" class="news-link">Apple Prepares AI Writing Tools, Smart Shortcuts and Wallpaper Generation for iOS 27</a> [15] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3105535" target="_blank" class="news-link">戴尔AI服务器新增1,000家客户，全力进军企业级用户市场</a> [16] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c23-f5e5-7dd6-889d-ab800551dc2a" target="_blank" class="news-link">APPLE PLANS AI WRITING AID, SHORTCUTS AND WALLPAPERS FOR IOS 27</a> [20] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/fere-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Fere AI</a> [20] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c23-25f8-7dd6-889d-8fa3be916374" target="_blank" class="news-link">U.S. JURY FINDS OPENAI, CEO SAM ALTMAN NOT LIABLE TO ELON MUSK FOR STRAYING FROM CHARITABLE MISSION, BECAUSE MUSK WAITED TOO LONG TO SUE</a> [24] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c20-ee58-7dd6-889d-78100d9d8ee7" target="_blank" class="news-link">Trump to Swear In Kevin Warsh as Fed Chair on Friday</a> [26] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c1d-a1f1-7dd6-889d-684b123b42ff" target="_blank" class="news-link">KATAYAMA: PM TAKAICHI TOLD ME TO CONSIDER HOW TO FINANCE PLANNED EXTRA BUDGET WHILE MITIGATING RISKS</a> [28] <font color='grey'>- 02时20分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2503064" target="_blank" class="news-link">用AI记录早餐奶奶的一生</a> [30] <font color='grey'>- 02时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48181877" target="_blank" class="news-link">Qwen 3.7 Preview</a> [15] <font color='grey'>- 02时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
