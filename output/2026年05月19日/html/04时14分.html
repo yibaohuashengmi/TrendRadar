@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 160</p><p>生成时间: 2026-05-19 04:14:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">10.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c9e-6dbe-7dd6-889f-4e5c216ef61a" target="_blank" class="news-link">TRUMP SAYS HE WILL ASK ATTORNEY GENERAL AND JUSTICE DEPARTMENT TO INVESTIGATE MAIL IN BALLOTS IN MARYLAND</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时14分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48182281" target="_blank" class="news-link">Anthropic acquires Stainless</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c90-889d-7dd6-889f-39d8cda8062a" target="_blank" class="news-link">THE MAYOR OF SAN DIEGO ANNOUNCED A SHOOTING AT AN ISLAMIC CENTER IN THE CLAIREMONT AREA. POLICE STATED THAT SECURITY FORCES HAVE BEEN DISPATCHED TO THE SCENE AND OPERATIONS ARE UNDERWAY</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772565" target="_blank" class="news-link">戴尔AI服务器新增1000家客户，全力进军企业级市场</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c7e-fdd0-7dd6-889f-276abd86d913" target="_blank" class="news-link">&lt;b&gt;IRAN&#x27;S TASNIM SAYS AIR DEFENCES WERE ACTIVATED AT QESHM ISLAND AFTER DETECTION OF MICRO DRONES&lt;/b&gt;</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 04时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3105584" target="_blank" class="news-link">Gradiant宣布完成E轮融资，公司估值达20亿美元，助力加快AI、半导体以及工业水务基建领域布局。 随着Gradiant依托AI基建和先进制造业务实现业绩大幅增长，新资金将用于支持战略性并购、新一代技术研发以及上市筹备工作。</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48183301" target="_blank" class="news-link">We let AIs run radio stations</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 04时14分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48183579" target="_blank" class="news-link">Haiku OS runs on M1 Macs now</a> <font color='red'><strong>[1 - 30]</strong></font> <font color='grey'>- 04时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c74-e0c6-7dd6-889e-e84480c4402e" target="_blank" class="news-link">AIR DEFENCES ACTIVATED ON QESHM ISLAND NEAR STRAIT OF HORMUZ - IRAN&#x27;S MEHR NEWS AGENCY REPORTS, REASON UNKNOWN</a> [13] <font color='grey'>- 04时14分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48182592" target="_blank" class="news-link">Iran starts Bitcoin-backed ship insurance for Hormuz strait</a> [13] <font color='grey'>- 04时14分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7641158160073375795/" target="_blank" class="news-link">AI短片《疯驰人生》致敬极致热爱</a> [14] <font color='grey'>- 04时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c73-2f90-7dd6-889e-e2696f2d16f4" target="_blank" class="news-link">&lt;b&gt;META PLANS TO CONDUCT MAY 20 LAYOFFS IN THREE BATCHES GLOBALLY, EACH AT 4 A.M. LOCAL TIME -INTERNAL DOCUMENT &lt;br/&gt;&lt;br/&gt;META TELLS EMPLOYEES &#x27;MANY LEADERS WILL ANNOUNCE ORG CHANGES&#x27; ALONG WITH THE LAYOFFS -INTERNAL DOCUMENT &lt;br/&gt;&lt;br/&gt;META TO MOVE 7,000 PEOPLE TO NEW INITIATIVES RELATED TO AI WORKFLOWS AND ELIMINATE MANAGERIAL ROLES -INTERNAL DOCUMENT &lt;br/&gt;&lt;br/&gt;META EMPLOYEES IN NORTH AMERICA TOLD TO WORK FROM HOME ON WEDNESDAY -INTERNAL DOCUMENT&lt;/b&gt;</a> [14] <font color='grey'>- 04时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c6e-3746-7dd6-889e-cf2417078a1e" target="_blank" class="news-link">IRANIAN LAWMAKER ALI KHEZRIAN: IF THE STRAIT OF HORMUZ IS OPENED, THE NEXT WAR WILL BEGIN WITH GREATER INTENSITY; IF ENRICHED URANIUM IS REMOVED FROM THE COUNTRY, THERE IS A POSSIBILITY OF A NUCLEAR ATTACK BY THE ENEMY</a> [17] <font color='grey'>- 04时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c60-20ad-7dd6-889e-b1bac6788bdc" target="_blank" class="news-link">HUANG: AI BOOM DRIVING EXPANSION OF CHIP MAKING BEYOND TAIWAN</a> [20] <font color='grey'>- 04时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c5f-3fef-7dd6-889e-a8aa4d49e4f3" target="_blank" class="news-link">HUANG: WE NEED TO MAKE SURE THE SUPPLY CHAIN IS PREPARED</a> [21] <font color='grey'>- 04时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e3c5b-3d76-7dd6-889e-85fed518a8d8" target="_blank" class="news-link">NVIDIA&#x27;S HUANG SAYS IT&#x27;S UP TO CHINA TO DECIDE ON AI CHIPS</a> [26] <font color='grey'>- 04时14分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3105589" target="_blank" class="news-link">纳斯达克金龙中国指数初步收跌0.7%。 热门中概股里，理想初步收跌9.8%，日月光半导体跌6.6%，蔚来、小鹏跌超3%，阿里巴巴涨0.5%，小米涨1.4%，百度涨1.8%。</a> <font color='red'><strong>[4]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
