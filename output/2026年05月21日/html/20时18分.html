@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 410</p><p>生成时间: 2026-05-21 20:18:51</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">33</td>
+                <td class="percentage">8.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e4a68-8173-799b-b5d6-55790d1903a7" target="_blank" class="news-link">ORACLE FUSION DATA INTELLIGENCE HELPS ORGANIZATIONS ACROSS THE WORLD ACCELERATE AI-DRIVEN DECISION-MAKING</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2040738759281473391" target="_blank" class="news-link">如何评价 OpenAI 称推翻困扰数学界近 80 年的「平面单位距离猜想」？这一结果的可信度如何？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1214503" target="_blank" class="news-link">ai 之 cli+skill 方案讨论</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e4a5f-eeed-799b-b5d6-4ddd048a7065" target="_blank" class="news-link">AIRBUS, AIR FRANCE RIO CRASH RULING OVERTURNED ON APPEAL: AFP</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84361" target="_blank" class="news-link">Google 的 AI 搜索容易被人为操纵</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1214494" target="_blank" class="news-link">Vibe Coding 了一个 AI 植物图鉴小程序，养花爱好者可以看看</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2377977" target="_blank" class="news-link">【每日收评】沪指放量跌超2%失守4100点，AI硬件与半导体等热门赛道大幅回调</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1214491" target="_blank" class="news-link">发现个彩票走势的网站，感觉还不错，还有没有类似的网站呢 https://caipiao.aiones.cc/</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e4a4b-0ed1-799b-b5d6-2fa0723d97f5" target="_blank" class="news-link">NVIDIA CORP: UBS RAISES TARGET PRICE TO $280 FROM $275</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260521200107725800" target="_blank" class="news-link">深南电路：公司PCB业务受益于AI算力基础设施硬件相关产品需求的增长，工厂产能利用率维持高位</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48220105" target="_blank" class="news-link">Google officially announces that ads will be included in AI Mode search results</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e4a48-c61c-799b-b5d6-1fb31fd290f8" target="_blank" class="news-link">UBS RAISES SEPTEMBER FORECASTS BY $10/BBL TO $105/BBL FOR BRENT AND $97/BBL FOR WTI</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2378186" target="_blank" class="news-link">涨停封单最高超百亿元！京东方A签约康宁搅动AI封装产业链</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e4a48-b054-799b-b5d6-136a1d4ec3c2" target="_blank" class="news-link">NVIDIA CORP: WEDBUSH RAISES TARGET PRICE TO $330 FROM $300</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%80%86%E8%BD%AC%E8%A3%81%E5%88%A4%E4%BD%86%E7%BD%91%E6%96%87AI%E5%AF%B9%E5%86%B3" target="_blank" class="news-link">逆转裁判但网文AI对决</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1214478" target="_blank" class="news-link">分享一个免费的临时邮件网站:domainsuffix.top</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1214472" target="_blank" class="news-link">现在中小制造企业对智能体或者用 AI 改造流程的需求多到超乎你的想象。</a> [11] <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e4a3f-ad0c-799b-b5d5-ffd7630caad7" target="_blank" class="news-link">IEA CHIEF FATIH BIROL: MY HOPE IS THAT THE STRAIT OF HORMUZ WILL OPEN FULLY AND UNCONDITIONALLY</a> [12 - 13] <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/multica-ai/multica" target="_blank" class="news-link">multica-ai / multica</a> [13]</div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202605/2172291.html" target="_blank" class="news-link">Airbnb反驳美议员对中国AI疑虑：误解开源模型运作</a> [14] <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3107399" target="_blank" class="news-link">高盛称对冲基金对大涨的芯片股获利了结 同时维持AI主题整体敞口</a> [15] <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1214463" target="_blank" class="news-link">有什么好的思路能把 AI 生成的图片变成真实的照片吗?</a> [15] <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/21/6e9d21164f274171bf406b2eaef8f315.html" target="_blank" class="news-link">庭审持续三周 裁定已过时效 马斯克诉OpenAI案遭遇惨败</a> [16] <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772829" target="_blank" class="news-link">当MuleRun开始放手：一次有关AI Native的组织验证</a> [17] <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e4a39-fdfd-799b-b5d5-c859baf2b37a" target="_blank" class="news-link">NVIDIA: TRUIST SECURITIES RAISES TARGET PRICE TO $307 FROM $287</a> [18] <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/953/598.htm" target="_blank" class="news-link">马斯克的 AI 野心遇挫：Grok 在美国政府“几乎没人用”</a> [19] <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e4a34-26be-799b-b5d5-b050dc700a61" target="_blank" class="news-link">NVIDIA CORP: BOFA GLOBAL RESEARCH RAISES PRICE OBJECTIVE TO $350 FROM $320</a> [21]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e4a33-3d80-799b-b5d5-ac93bd61aa1c" target="_blank" class="news-link">MICROSOFT: ORGANIZATIONS ARE JOINTLY INVESTING US$1B+ IN A NEW INITIATIVE TO ACCELERATE ENTERPRISE AI TRANSFORMATION</a> [22] <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e4a2e-079d-799b-b5d5-9dc8d22aab2f" target="_blank" class="news-link">NVIDIA CORP: STIFEL RAISES TARGET PRICE TO $282 FROM $250</a> [24] <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48210226" target="_blank" class="news-link">OpenAI Is Preparing to File for an IPO Soon</a> [24] <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2507151" target="_blank" class="news-link">这波AI短片的梦幻联动给到夯</a> [27] <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7641912628643528738" target="_blank" class="news-link">AI Harness 企业级落地实践（一）</a> [27] <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7640350331688566820" target="_blank" class="news-link">Flutter 官方 Skills：一条命令，让 AI 写出「专家级别」的代码</a> [28] <font color='grey'>- 20时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84362" target="_blank" class="news-link">SpaceX 最大的收入来源是与 Anthropic 达成的数据中心交易</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时18分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7641417840354099240" target="_blank" class="news-link">Claude Code 在大型项目中的最佳实践指南</a> [23] <font color='grey'>- 20时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84359" target="_blank" class="news-link">Google 意外公开了未修复 Chromium 漏洞的利用代码</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E4%B8%8D%E5%B0%8F%E5%BF%83%E6%8A%8ADeepSeek%E5%8F%AB%E6%88%90%E8%B1%86%E5%8C%85&amp;t=31&amp;band_rank=4&amp;Refer=top" target="_blank" class="news-link">不小心把DeepSeek叫成豆包</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
