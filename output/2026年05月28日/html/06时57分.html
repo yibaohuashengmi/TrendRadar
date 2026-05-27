@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 125</p><p>生成时间: 2026-05-28 06:57:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">15.2%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e6b99-8cba-722a-b522-87aefac40d55" target="_blank" class="news-link">Iran&#x27;s Fars News Agency reported three explosions were heard east of Bandar Abbas port and air-defense systems were activated for several minutes.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773283" target="_blank" class="news-link">Salesforce指引不及预期，AI颠覆软件隐忧加剧｜财报见闻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e6b96-2f32-722a-b522-79ab34bd6de6" target="_blank" class="news-link">Sources at Iran&#x27;s Bandar Abbas port said they heard three to four distant explosions, which sounded as if they came from the same direction as the blasts that occurred on a night a few days ago.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e6b93-8215-722a-b522-70574905661b" target="_blank" class="news-link">Local sources said explosions were heard at Iran&#x27;s southern Bandar Abbas port.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773281" target="_blank" class="news-link">Robinhood推出AI代理功能，允许客户授权AI自主交易和刷卡消费</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48299623" target="_blank" class="news-link">Rust (and Slint) on a Jailbroken Kindle</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3110288" target="_blank" class="news-link">中信证券：“AI+能化”构成今年杠铃配置结构</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773280" target="_blank" class="news-link">Meta要靠订阅“回血”？推出AI聊天机器人付费服务，股价盘中拉升超4%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3110284" target="_blank" class="news-link">报道：Meta拟成立新部门 为企业客户定制AI服务</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e6b4b-08bc-722a-b522-352f52aed68f" target="_blank" class="news-link">U.S. officials said the PENTAGON awarded Microsoft (MSFT.O) a $9.7 bln enterprise software contract intended to reduce costs.</a> [11] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2383460" target="_blank" class="news-link">美国“散户大本营”开闸：股民可接入第三方智能体 让AI替自己炒股</a> [12] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e6b3e-6056-722a-b522-1a71c4fd98c4" target="_blank" class="news-link">RBNZ Governor Breman said the central bank is doing everything possible to keep inf within the target range.</a> [14] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3110280" target="_blank" class="news-link">Asahi Kasei等将投资日本软银集团AI风投公司。（日经新闻）</a> [14] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e6b3c-059b-722a-b522-126168df9b19" target="_blank" class="news-link">RBNZ Chair Bu Leiman said supply-chain issues and oil prices will have a larger-than-expected impact on the New Zealand government&#x27;s budget.</a> [15] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e6b3b-89f4-722a-b522-0feb452d0d0a" target="_blank" class="news-link">Wells Fargo (WFC.N) CEO said consumer spending has improved in recent weeks; although firms remain cautious, their financial condition is sound.</a> [16] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e6b3a-fd4d-722a-b522-041014ad8bca" target="_blank" class="news-link">Ebrahim Aziz, chairman of Iran&#x27;s Parliament National Security Committee, said: Everyone now knows US President TRUMP, in order to escape this strategic impasse, uses threats as a tool today and begs for an agreement tomorrow.</a> [17] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e6b3a-c99e-722a-b521-f946d95f036f" target="_blank" class="news-link">Iran&#x27;s Parliament National Security Committee chairman Ebrahim Aziz said Iran will not yield its red lines in the face of TRUMP&#x27;s rhetoric, citing the right to enrich uranium, enriched uranium itself, management of the Strait of Hormuz and the lifting of sanctions.</a> [18] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e6b37-dadb-722a-b521-f17bb48fedb0" target="_blank" class="news-link">RBNZ Governor Breman: The Board considers that inf pressures will intensify in the future, and the cash rate needs to be raised further.</a> [19] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e6b31-6f58-722a-b521-efc8cd84c5fd" target="_blank" class="news-link">Al Jazeera reported Israeli strikes on Gaza City raised the death toll to 7 and the number of wounded to 15.</a> [20] <font color='grey'>- 06时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">2.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e6b8c-1d6b-722a-b522-6bd92b12320a" target="_blank" class="news-link">Wall Street Journal reports a Google (GOOG.O) employee has been indicted on insider-trading charges for trades on prediction market Polymarket.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528062625089800" target="_blank" class="news-link">据华尔街日报：谷歌(GOOG.O)员工因在预测市场Polymarket上进行内幕交易被起诉。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48299220" target="_blank" class="news-link">What Apple and Google are doing to push notifications</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
