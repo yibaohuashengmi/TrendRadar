@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 174</p><p>生成时间: 2026-05-30 04:31:51</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">13.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e754a-b352-7bb7-9966-679b202d1011" target="_blank" class="news-link">The New York Times reports timing for a US-Iran memorandum of understanding remains unclear.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e7547-a596-7bb7-9966-537801959e2d" target="_blank" class="news-link">Sources say OpenAI has held talks with multiple banks, including Citigroup and JP Morgan, about an upcoming IPO.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e7541-99ad-7bb7-9966-3caae874f24d" target="_blank" class="news-link">The CFTC said speculators increased net short positions in U.S. Treasury futures by 20,577 contracts to 199,251 in the week to May 26.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48325306" target="_blank" class="news-link">Liquid AI reveals 8B-A1B MoE trained on 38T</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48327962" target="_blank" class="news-link">Shift will clean homes for free to train future robots</a> [11] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e753e-8f96-7bb7-9966-0e02d98c4cc6" target="_blank" class="news-link">U.S. Treasury Secretary Bessent said if necessary the U.S. has further options to act on Iran.</a> [15] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48321631" target="_blank" class="news-link">Is AI causing a repeat of frontend’s lost decade?</a> [15] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e753e-5c9b-7bb7-9966-02b09e82c9fa" target="_blank" class="news-link">When asked about a blockade on Iran, U.S. Treasury Secretary Bessent said any lifting of measures would be phased. He outlined three scenarios for Iran: reaching an agreement, failing to reach an agreement, or military action.</a> [16] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260530034751105800" target="_blank" class="news-link">据知情人士透露，OpenAI已与包括花旗集团和摩根大通在内的多家银行就其即将进行的首次公开募股事宜进行了沟通。</a> [16] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e753d-9e3a-7bb7-9965-fa76fc73dae2" target="_blank" class="news-link">U.S. Treasury Secretary Bessent, asked how to maintain the U.S. dollar&#x27;s reserve-currency status, said the situation has not changed.</a> [17] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48326659" target="_blank" class="news-link">Robinhood now lets your AI agents trade stocks</a> [17] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e753d-2f2c-7bb7-9965-f631cd12b470" target="_blank" class="news-link">US Treasury Secretary Bessent said he never favored Walsh. Trump has decided to appoint Walsh as Federal Reserve chair.</a> [18] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e753c-b33e-7bb7-9965-e8db2002db91" target="_blank" class="news-link">U.S. Treasury Secretary Bessent said interest rates peaked the day before Fed Chair Kevin Warsh was sworn in.</a> [19] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e753c-5fdc-7bb7-9965-e3eb0b09d4bf" target="_blank" class="news-link">US Treasury Secretary Bessent said there is misunderstanding about what a strong dollar implies, and that a strong dollar means doing the right thing for the economy.</a> [20] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e7532-217b-7bb7-9965-d9ad47b95063" target="_blank" class="news-link">U.S. Treasury Secretary Bessent said he expects real wage growth to resume once the war ends.</a> [21] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e7531-dd4e-7bb7-9965-d49bc09d6369" target="_blank" class="news-link">U.S. Treasury Secretary Bessent said Trump should appear on a $250 bill.</a> [22] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e752e-bdb8-7bb7-9965-cb68d822da45" target="_blank" class="news-link">U.S. Treasury Secretary Bessent said household gasoline expenditures rose by less than $200 a month.</a> [23] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e752b-6db8-7bb7-9965-c321858c512e" target="_blank" class="news-link">US Space Force signed a $4.16 bln contract with SpaceX to develop a space-based moving-target indication capability for airborne platforms.</a> [24] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48322929" target="_blank" class="news-link">Expertise in the age of AI</a> [24] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e7527-124e-7bb7-9965-b3d7cb06b7ec" target="_blank" class="news-link">U.S. Treasury Secretary Bessent says he believes 40% to 50% of Iran&#x27;s military have not been paid.</a> [26] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e7526-96f1-7bb7-9965-aa9300d910c7" target="_blank" class="news-link">US Treasury Secretary Bessent said Iran&#x27;s inflation rate could exceed 200%.</a> [27] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e7526-7462-7bb7-9965-a7eac9650fa4" target="_blank" class="news-link">US Treasury Secretary Bessent said President Trump is explicitly seeking free and open passage through the Strait of Hormuz.</a> [28] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48327222" target="_blank" class="news-link">AI will be used to estimate age of asylum seekers from next year</a> [29] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e7516-ead1-7bb7-9965-908f14a6b116" target="_blank" class="news-link">US Treasury Secretary Bessent said the US has recognized the necessity of increasing production capacity.</a> [30] <font color='grey'>- 04时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.15%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773477" target="_blank" class="news-link">Anthropic七位联创身家均达80亿美元，单日上榜人数创彭博富豪榜纪录</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/889456014272045056" target="_blank" class="news-link">你说你用Claude，你用的是 CLI，还是 Agent、Opus？</a> [17] <font color='grey'>- 04时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.15%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOGL" target="_blank" class="news-link">谷歌A</a> [14] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOG" target="_blank" class="news-link">谷歌C</a> [20] <font color='grey'>- 04时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3111622" target="_blank" class="news-link">纳斯达克金龙中国指数初步大致收平，5月份累跌4.8%。 热门中概股里，美团初步收涨3.9%，百度涨2.4%，拼多多涨1.8%，阿里跌1.4%，小米跌2.4%，理想跌3.3%，日月光半导体跌5.6%。</a> <font color='red'><strong>[6]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
