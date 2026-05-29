@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 366</p><p>生成时间: 2026-05-29 21:47:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">32</td>
+                <td class="percentage">8.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73ed-ef7c-7eef-a0ef-bcdb52d8e39a" target="_blank" class="news-link">U.S. stocks opened slightly higher: Dow Jones +0.18%, S&amp;P 500 +0.09%, Nasdaq +0.16%. Dell (DELL.N) jumped over 30% after first-quarter results topped expectations. AI server-related names rallied: Super Micro Computer (SMCI.O) +7%+, HP Inc (HPQ.N) +6%+.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73eb-ef5f-7eef-a0ef-af3fcba459c8" target="_blank" class="news-link">Israeli Prime Minister Netanyahu said Israel will continue striking Hezbollah until the mission is complete.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73eb-e854-7eef-a0ef-a2a0dff81a07" target="_blank" class="news-link">Federal Reserve&#x27;s Paulson said holding rates unchanged gives the Fed room to assess incoming data.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1216544" target="_blank" class="news-link">AI 图片生成器有什么好玩的组成吗？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48321264" target="_blank" class="news-link">Is This Sustainable?</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73ea-1727-7eef-a0ef-9274c14ab82b" target="_blank" class="news-link">Fed&#x27;s Paulson said current Fed policy is helping to contain high inflation.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73e9-b9ad-7eef-a0ef-8ab5443d3c62" target="_blank" class="news-link">Fed&#x27;s Paulson said long-term inflation expectations remain at a healthy level.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73e9-052f-7eef-a0ef-81410cfa695a" target="_blank" class="news-link">Fed&#x27;s Paulson said the pace of economic activity has no material effect on inflationary pressures.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73e8-c6c1-7eef-a0ef-7bd3520769a1" target="_blank" class="news-link">The US said it has rerouted 115 vessels since Iran began the blockade.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/galilai-group/stable-worldmodel" target="_blank" class="news-link">galilai-group / stable-worldmodel</a> <font color='red'><strong>[9]</strong></font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7644786880849182729/" target="_blank" class="news-link">广东夏季高考用AI批卷系不实传言</a> [11] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E5%B9%BF%E4%B8%9C%E9%AB%98%E8%80%83%E5%B0%86%E7%94%A8AI%E6%89%B9%E5%8D%B7%E2%80%9D%E4%B8%8D%E5%AE%9E" target="_blank" class="news-link">“广东高考将用AI批卷”不实</a> [11] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73e6-1f32-7eef-a0ef-6b9336231acf" target="_blank" class="news-link">Fed&#x27;s Paulson said inflation is too high and is driven by multiple factors.</a> [11] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773447" target="_blank" class="news-link">波动越大越赚钱！华尔街大行二季度靠交易与AI融资赚翻了</a> [11] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73e5-f3ad-7eef-a0ef-61a9777c0cfc" target="_blank" class="news-link">Fed&#x27;s Paulson: baseline scenario is for the U.S. labor market to remain stable.</a> [12] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2385295" target="_blank" class="news-link">AI需求激增！鸿海董事长：内存短缺影响有限 对下半年非常乐观</a> [12] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73e3-f267-7eef-a0ef-53e22f9644e6" target="_blank" class="news-link">A Federal Reserve official said the unemployment rate is close to full employment.</a> [14] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202605/2972909.html" target="_blank" class="news-link">谷歌是如何“逆风翻盘”、开始赢得人工智能竞赛的？</a> [15] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73e3-c9bb-7eef-a0ef-4bf771408a72" target="_blank" class="news-link">Fed&#x27;s Paulson says rising uncertainty has left households and firms cautious about the economic outlook.</a> [15] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73e2-7626-7eef-a0ef-47e8ba9e53f4" target="_blank" class="news-link">Federal Reserve&#x27;s Paulson said consumer spending is rising but growth is slowing.</a> [16] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48321631" target="_blank" class="news-link">Is AI causing a repeat of Front end&#x27;s Lost Decade?</a> [16] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73e2-0fed-7eef-a0ef-3c2952925543" target="_blank" class="news-link">Federal Reserve&#x27;s Paulson said current inflation is too high and was already too high even before the war began.</a> [17] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73e1-c13f-7eef-a0ef-3342dc19cfeb" target="_blank" class="news-link">Fed official Paulson said monetary policy is moderately restrictive and at an appropriate level.</a> [18] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73e1-125f-7eef-a0ef-22fdb0c57b2f" target="_blank" class="news-link">Prime Minister NETANYAHU said Israeli forces crossed the Litani River in Lebanon.</a> [20] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73e0-b365-7eef-a0ef-18e787df217d" target="_blank" class="news-link">Fed&#x27;s Paulson said inf pressures have affected the economy.</a> [21] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73db-76a3-7eef-a0ef-14ac1f89c67e" target="_blank" class="news-link">ECB Governing Council member Radev said the cost of acting too late may exceed the cost of acting early.</a> [22] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73db-750d-7eef-a0ef-0b95f0cc9bae" target="_blank" class="news-link">ECB Governing Council member Radev said monetary policy cannot be merely defensive for the economy.</a> [23] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3111444" target="_blank" class="news-link">中富电路：拟定增募资不超8.5亿元用于AI用PCB产线改扩建项目</a> [23] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/957/343.htm" target="_blank" class="news-link">华擎宣布 Taichi 十周年特别版 X870E / Z890 主板与视觉暂留效应水冷</a> [23] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73d5-efa5-7eef-a0ee-f787267e0c3f" target="_blank" class="news-link">Chevron CEO: Multiple vessels attacked in Strait of Hormuz this week</a> [26] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73d2-7880-7eef-a0ee-e3ec52b7bb0f" target="_blank" class="news-link">European Commission approved up to €9 billion in Spanish state aid to secure electricity supply.</a> [28] <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e73d2-412d-7eef-a0ee-de7a15a9071a" target="_blank" class="news-link">Night session opened: China&#x27;s main domestic futures contracts were mostly lower. SC crude oil, Soybean No.1 and styrene (EB) fell over 1%; glass and Shanghai gold rose nearly 1%.</a> [29] <font color='grey'>- 21时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">0.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1216558" target="_blank" class="news-link">Claude Code Workflow 抓包后原理分析 - Workwith GPT5.5</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时47分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/anthropics/claude-code" target="_blank" class="news-link">anthropics / claude-code</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773446" target="_blank" class="news-link">Claude Opus 4.8实测封神！强到离谱，也贵到肉痛</a> [12] <font color='grey'>- 21时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/957/336.htm" target="_blank" class="news-link">谷歌推出 Coral Board 单板计算机：1 TOPS 算力，本地运行 Gemma 3 模型</a> [30] <font color='grey'>- 21时47分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
