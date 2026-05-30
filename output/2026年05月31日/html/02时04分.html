@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 111</p><p>生成时间: 2026-05-31 02:04:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">7</td>
+                <td class="percentage">6.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48338660" target="_blank" class="news-link">OpenRouter raises $113M Series B</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e79ec-2859-7bb7-996a-bd77671adc15" target="_blank" class="news-link">American Automobile Association said the U.S. national average retail gasoline price on the 30th was $4.35/gal, down $0.04 from the prior day and $0.17 from a week earlier, and still 46% above levels before the Iran conflict.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e79d7-cdd3-7bb7-996a-9df44de731d6" target="_blank" class="news-link">Israel&#x27;s Channel 12 reported that air-raid sirens in northern Israel sounded more than 130 times over the past few hours.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5243123" target="_blank" class="news-link">小鹏集团-W(09868.HK)：汽车业务毛利率稳健；泛AI生态加速进化</a> [11] <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e79b5-9080-7bb7-996a-71ef9b83fa95" target="_blank" class="news-link">Al Jazeera reported Israel&#x27;s interior ministry said rocket alerts sounded across multiple areas of the Galilee Heights.</a> [12] <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e79ab-4712-7bb7-996a-6fb5b52eca62" target="_blank" class="news-link">President Trump said he will not perform at the &quot;Freedom 250&quot; concert but will speak at a campaign rally at the same Washington, D.C. venue.</a> [13] <font color='grey'>- 02时04分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5243119" target="_blank" class="news-link">米奥会展(300795)：数字化会展领航者 AI开启出海新纪元</a> [15] <font color='grey'>- 02时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7644854787437625407" target="_blank" class="news-link">Claude Opus 4.8 来了，我感觉更像 4.7 满血版</a> [29] <font color='grey'>- 02时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2040472846393161206" target="_blank" class="news-link">为什么无论是 chatgpt 还是 deepseek 都会在 24 点游戏上表现的这么差？</a> [16] <font color='grey'>- 02时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
