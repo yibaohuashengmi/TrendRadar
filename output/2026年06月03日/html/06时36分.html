@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 145</p><p>生成时间: 2026-06-03 06:36:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">23</td>
+                <td class="percentage">15.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a71-ce22-733d-881b-55a267e6d80a" target="_blank" class="news-link">IRIB reported Iran&#x27;s strikes targeted the US Ali Al-Salem Air Base in Kuwait and Camp Arifjan.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773650" target="_blank" class="news-link">AI热情力撑美股新高，纳指、标普九连涨，半导体指数大涨近6%，比特币重挫</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1217451" target="_blank" class="news-link">我给 AI 做了个「第二大脑」—— Claude、Cursor、Windsurf 共享记忆，开源免费</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a6c-d686-733d-881b-4dab83f60141" target="_blank" class="news-link">RUSSIA TODAY reported an explosion in the Middle East and said a PENTAGON aircraft made an urgent departure from Israel.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a6c-299a-733d-881b-431ddf4f2095" target="_blank" class="news-link">Fed Chair Kevin Warsh told staff in a memo he will approach Federal Reserve reform talks with a &quot;clear-eyed&quot; view while upholding the Fed&#x27;s best traditions.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a6b-bf0e-733d-881b-38d1d2b2e246" target="_blank" class="news-link">The Tehran Times reported that the Ali Al-Salem military base in Kuwait was attacked.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a6b-74d7-733d-881b-3175d4520174" target="_blank" class="news-link">People familiar with the matter said Broadcom (AVGO.O) committed to underwrite the largest portion of ANTHROPIC&#x27;s record chip financing, helping reduce debt costs on the $36 billion transaction.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a5a-8ed8-733d-881b-1d615e2db9fc" target="_blank" class="news-link">The General Staff of the Kuwait Armed Forces reported it is responding to hostile missile and drone threats.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3773650" target="_blank" class="news-link">AI热情力撑美股新高，纳指、标普九连涨，半导体指数大涨近6%，比特币重挫</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3113311" target="_blank" class="news-link">OpenAI的CEO Altman将于周三会见美国白宫高级官员。（Politico）</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2388968" target="_blank" class="news-link">美股收盘：三大股指小幅收涨 标普首次突破7600点 AI狂热压倒中东忧虑</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a3c-9b4e-733d-881a-ea122fb35fdd" target="_blank" class="news-link">Canada&#x27;s minister responsible for Canada-U.S. trade, Leblanc, said he is confident talks with the United States and Mexico can proceed on automotive rules of origin.</a> [14] <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a38-53b8-733d-881a-dcc12b49eb52" target="_blank" class="news-link">Canada&#x27;s minister for Canada-U.S. trade, Leblanc, said Ottawa is holding bilateral talks with Mexico on the US-Mexico-Canada Agreement (USMCA).</a> [16] <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a38-3b5b-733d-881a-d5fac69f3d2a" target="_blank" class="news-link">Canada&#x27;s minister for Canada-U.S. trade, Leblanc, said Canada has been preparing for a U.S. Section 301 tariff investigation.</a> [17] <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a38-2a01-733d-881a-cd7a3ef127c1" target="_blank" class="news-link">Canada’s minister for Canada-U.S. trade, Leblanc, said U.S. trade talks have been underway for months.</a> [18] <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a2e-b15d-733d-881a-b97cde7dbb70" target="_blank" class="news-link">Canada&#x27;s minister responsible for Canada-U.S. trade, LeBlanc, said discussions covered exemptions from high industry-specific tariffs.</a> [20] <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a2e-0c8e-733d-881a-b682b65c7a4a" target="_blank" class="news-link">Canada&#x27;s minister for Canada-U.S. trade, Leblanc, said he has raised concerns about U.S. tariffs on autos, steel, aluminum and softwood.</a> [21] <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a2c-d178-733d-881a-adc6cdf2094e" target="_blank" class="news-link">Canada&#x27;s minister responsible for Canada-U.S. trade, LeBlanc, said he held a constructive meeting with U.S. Trade Representative Greer.</a> [22] <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a24-f466-733d-881a-8b3212b4323d" target="_blank" class="news-link">Omdia said U.S. May light-vehicle sales totaled 1.50 mln units, with a seasonally adjusted annual rate (SAAR) of 16.08 mln.</a> [26] <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a1e-0251-733d-881a-7d2e5cbef68c" target="_blank" class="news-link">Audio indicates US strikes Iran-affiliated tanker near Strait of Hormuz</a> [28] <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a1c-f4b8-733d-881a-767669d66e1d" target="_blank" class="news-link">CENTCOM said since April 13, when it began enforcing a blockade of maritime traffic to and from Iranian ports, U.S. forces have disabled 6 commercial vessels and forced 122 others to alter course.</a> [29] <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a1b-b912-733d-881a-6e568cdea837" target="_blank" class="news-link">CENTCOM said on June 2 US forces disabled an unladen tanker attempting to sail to an Iranian port in the Arabian Gulf.</a> [30] <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7646633153138393131" target="_blank" class="news-link">🧩 组件库死亡倒计时？—— AI 编码冲击下的前端基础设施重构</a> [30] <font color='grey'>- 06时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">2.07%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260603051034825800" target="_blank" class="news-link">据美国财经媒体Semafor：消息人士透露，Anthropic公司拒绝向正考虑购买其部分债务的贷款方披露财务信息。</a> [21] <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8a2c-a7ee-733d-881a-a524d7be36a5" target="_blank" class="news-link">Semafor, citing sources, reports ANTHROPIC refused to provide financial information to lenders considering buying some of its debt.</a> [23] <font color='grey'>- 06时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3113295" target="_blank" class="news-link">网络安全公司NetSkope美股盘后涨3.8%，该公司宣布加入Anthropic的Project Glasswing。</a> [25] <font color='grey'>- 06时36分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
