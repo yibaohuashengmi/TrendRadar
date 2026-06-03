@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 334</p><p>生成时间: 2026-06-03 09:42:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">7.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3773650" target="_blank" class="news-link">AI热情力撑美股新高，纳指、标普九连涨，半导体指数大涨近6%，比特币重挫，铜上涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/959/075.htm" target="_blank" class="news-link">江苏无锡打造城市智算云平台“词元超市”：汇聚 AI 智算资源超 13000PFLOPS、已服务近五十家客户</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48377854" target="_blank" class="news-link">More than 6 out of 10 people turn to AI for psychological support</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8b1b-ac55-7ee2-b13b-5088225e924f" target="_blank" class="news-link">Maersk suspends Strait of Hormuz transits; says Middle East conflict adds &gt;$500m/month in costs</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773728" target="_blank" class="news-link">想对冲的买金油，想暴涨的买AI，“过气”比特币进入熊市</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2072399-1-1.html" target="_blank" class="news-link">Win11 内置的本地 AI 模型</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48377761" target="_blank" class="news-link">AI outperforms law professors in Stanford Law study</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2072398-1-1.html" target="_blank" class="news-link">MAI (Microsoft AI)</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/959/069.htm" target="_blank" class="news-link">Perplexity Computer 下月将拆分 AI 任务，隐私和算力各走一边</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1217471" target="_blank" class="news-link">当我用 AI 工具分析了一个工具类 app 的核心算法转而自己实现了一个更有创意的 APP，才发现现在很多 APP 所谓的技术壁垒都是不存在的。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5245025" target="_blank" class="news-link">中信建投：机器人是AI应用的重要方向，板块波动聚焦优质环节</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1217470" target="_blank" class="news-link">CodexMeter — 我做了一个手机端的 AI 额度看板（本地化+小组件）</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1217464" target="_blank" class="news-link">最近做 AIOps 的一些经验分享</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8b19-a492-7ee2-b13b-025e691999ed" target="_blank" class="news-link">At the open in China on Wednesday, June 3, the Shanghai Composite Index fell 0.17% to 4,068.34; the Shenzhen Composite Index rose 0.36% to 15,646.68; the CSI 300 Index rose 0.14% to 4,921.34; the ChiNext Index rose 0.82% to 4,089.02; and the China STAR 50 Index rose 0.42% to 1,697.66.</a> [14] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773650" target="_blank" class="news-link">AI热情力撑美股新高，纳指、标普九连涨，半导体指数大涨近6%，比特币重挫，铜上涨</a> [15] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/959/062.htm" target="_blank" class="news-link">256-bit 大位宽 LPDDR，江波龙发布 AIDIMM、AILPBGA 内存方案</a> [15] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8b17-f485-7ee2-b13a-ef37c7d1dcec" target="_blank" class="news-link">The U.S. military said local time tonight another wave of Iranian drones attempted to strike U.S. forces in Kuwait but failed to hit targets.</a> [17] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3113381" target="_blank" class="news-link">SpaceX的IPO募资计划包括扩大AI算力以及拓展卫星网络。（路透）</a> [17] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773717" target="_blank" class="news-link">报道：欧盟200亿欧元AI数据中心计划因延误和资金问题受挫</a> [17] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2045210107105862467" target="_blank" class="news-link">网传一些公司因为 token 太贵开始限额了，会重返「古法编程」吗？AI 全栈可行性如何，只适合大公司吗？</a> [18] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48367223" target="_blank" class="news-link">Different attitudes towards AI in California&#x27;s university system</a> [18] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8b12-cdc7-7ee2-b13a-cc9b28ef5dee" target="_blank" class="news-link">PBOC said, based on primary dealers&#x27; demand in open-market operations, today&#x27;s 7-day reverse repo amount was zero.</a> [21] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/959/054.htm" target="_blank" class="news-link">微软纳德拉对话高通阿蒙：通过 Solara，打造 AI 智能体优先平台</a> [22] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e8b09-b039-7ee2-b13a-8a8d344ffef6" target="_blank" class="news-link">Container shipping index (Europe route) front-month contract down over 4.00% intraday, now 3,631.0 points.</a> [29] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48375673" target="_blank" class="news-link">Now AI agents need what RSS does</a> [30] <font color='grey'>- 09时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773723" target="_blank" class="news-link">一个周末“摇来”伯克希尔100亿美元，高盛帮谷歌敲定“最让人意外”的“天量增发”</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33289350" target="_blank" class="news-link">800亿美元！谷歌启动史上最大规模股权融资，伯克希尔参投100亿美元</a> [15] <font color='grey'>- 09时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1217489" target="_blank" class="news-link">Qwen3.7-Max 现已支持每天免费 200 次请求</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
