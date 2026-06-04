@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 379</p><p>生成时间: 2026-06-04 10:07:02</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">28</td>
+                <td class="percentage">7.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773827" target="_blank" class="news-link">WWDC前瞻：Siri将彻底重做，独立App+Gemini打底，苹果AI的兑现时刻将临</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5245756" target="_blank" class="news-link">A股早评：三大指数集体低开，CPO、AI PC概念股回调</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48392082" target="_blank" class="news-link">The ways we contain Claude across products</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3773780" target="_blank" class="news-link">黄仁勋钦点Marvell：AI投资主线正在从算力转向互连</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e904f-1fa4-7cc0-ba21-4e1b9f9ac1a7" target="_blank" class="news-link">TSMC (TSM.N) CEO said meeting U.S. domestic demand will take a long time.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2390108" target="_blank" class="news-link">达里奥警告：AI热潮已显现典型泡沫特征 最终难逃破裂命运</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e904e-f796-7cc0-ba21-44349ca9e2da" target="_blank" class="news-link">TSMC (TSM.N) CEO said the company has purchased High-NA EUV lithography equipment but declined to disclose the number.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e904e-2ece-7cc0-ba21-35c7b9040dac" target="_blank" class="news-link">Four Shanghai regulators launch pilot for eldercare service trusts to build city model</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3773812" target="_blank" class="news-link">博通上季营收超预期增48%再创新高，AI收入指引逊色，盘后跌超10%| 财报见闻</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1217764" target="_blank" class="news-link">[原创+挖坑] Bonsai --- 使用本地 Agentic AI 来取代 ChatGPT</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e904e-10ed-7cc0-ba21-2a79c242c7ac" target="_blank" class="news-link">TSMC (TSM.N) says it is expanding U.S. fabs but the effort remains far from sufficient; Taiwan remains its largest production base.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3773784" target="_blank" class="news-link">黄仁勋向全球富豪家族力荐AI：回报“疯狂可观”，还在质疑的人才是“疯子”！</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e904d-4f6d-7cc0-ba21-23abfa80dd0a" target="_blank" class="news-link">TSMC&#x27;s CEO said wafer shipments would reach 15 million in 2025; advanced process nodes contributed 74% of wafer revenue.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202606/0473315.html" target="_blank" class="news-link">拉古兰·G·拉詹：给人工智能热潮泼一盆冷水</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5245747" target="_blank" class="news-link">鹏鼎控股(002938.SZ)：公司在AI算力领域客户认证进度符合预期</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e904c-af9c-7cc0-ba21-1093909ad2d7" target="_blank" class="news-link">TSMC (TSM.N) CEO said the company is working to reduce costs and to maximize the benefits of high-NA EUV before deploying it in production.</a> [11] <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/959/615.htm" target="_blank" class="news-link">消息称苹果将调用英伟达 Blackwell B200 处理 iOS 27 部分 Siri AI 请求</a> [11] <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e904b-a3f7-7cc0-ba21-0f24d9190ab1" target="_blank" class="news-link">TSMC CEO said the company has acquired high-numerical-aperture (high-NA) EUV lithography tools for R&amp;D, but their high cost means they are not required for production at present.</a> [12] <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/959/612.htm" target="_blank" class="news-link">欧盟将出台数据中心最低能效标准，应对 AI 浪潮下的能耗激增</a> [14] <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9044-a1b0-7003-8289-b436bff4851e" target="_blank" class="news-link">A-share property sector rose in early trade; Yangguang Shares hit the daily limit, while Nanshan Holdings, Hefei Urban Construction, Qixia Construction, Fuxing Shares and Jintou Urban Development advanced.</a> [15] <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9044-33a1-7003-8289-ae1d79d226fa" target="_blank" class="news-link">TSMC (TSM.N) CEO said the company is working closely with customers to enhance geopolitical resilience.</a> [16] <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/959/610.htm" target="_blank" class="news-link">微软 Surface RTX Spark Dev Box 更详细规格曝光：约 1000 孔铝壳散热驾驭 AI 负载</a> [16] <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9043-e0c5-7003-8289-a72ccdf5ceb9" target="_blank" class="news-link">A-share copper cable and high-speed connector sector rallied; Xinke Materials logged a third consecutive limit-up, with Jinxin Nuo, Taichen Guang, Hangtian Dianqi, Bowei Alloy and Dingtong Technology also higher.</a> [17] <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/959/607.htm" target="_blank" class="news-link">联合国报告警示：AI 驱动下，2030 年数据中心水电消耗将翻倍</a> [18] <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/959/603.htm" target="_blank" class="news-link">微软加速 Arm 生态补缺，用 AI 推进 Win11 原生应用适配</a> [21] <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/959/600.htm" target="_blank" class="news-link">Meta 推出商业智能体，欲借 AI 开拓广告之外的新营收渠道</a> [23] <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/959/598.htm" target="_blank" class="news-link">Uber 人力资源部门裁员 23%，称和人工智能无关</a> [25] <font color='grey'>- 10时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e903e-92bc-7003-8289-494a5201c24c" target="_blank" class="news-link">At the open on Thursday June 4, China&#x27;s Shanghai Composite Index fell 30.3 points (-0.74%) to 4,053.67; Shenzhen Composite fell 164.65 points (-1.05%) to 15,540.06; CSI 300 fell 41.49 points (-0.84%) to 4,897.32; ChiNext fell 50.44 points (-1.22%) to 4,072.55; STAR 50 fell 25.87 points (-1.50%) to 1,700.31.</a> [28] <font color='grey'>- 10时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773814" target="_blank" class="news-link">博通电话会：CEO坦言谷歌正“另寻新欢”，但需求旺盛订单排到2028年，将打造算力融资平台</a> [11] <font color='grey'>- 10时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> [25] <font color='grey'>- 10时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
