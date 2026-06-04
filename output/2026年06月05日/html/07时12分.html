@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 129</p><p>生成时间: 2026-06-05 07:12:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">11.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773843" target="_blank" class="news-link">AI交易降温，纳指走V仍收跌，道指创新高，博通大跌超12%，原油下挫，金银反弹</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1218048" target="_blank" class="news-link">做了个中文 AI 提示词与 Cursor 规则导航站： CursorPool</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3773843" target="_blank" class="news-link">AI交易降温，纳指走V仍收跌，道指创新高，博通大跌超12%，原油下挫，金银反弹</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e94ca-3c56-7cc8-bdef-220c1d2a892c" target="_blank" class="news-link">Pakistan plans 45-day strategic oil reserve; in talks with Saudi, Kuwait, Qatar, UAE, China</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3773906" target="_blank" class="news-link">博通暴跌3000亿美元背后 AI芯片行情还剩多少安全边际？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e94c7-81bc-7cc8-bdef-1c1e58556457" target="_blank" class="news-link">Musk said Starlink V3 satellites will operate at 350 km rather than 550 km, which can halve minimum latency. At the physical layer, round‑trip minimum latency will fall below 5 ms.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773907" target="_blank" class="news-link">Anthropic：高昂的计算成本是推动IPO的主因，呼吁全球暂缓前沿AI研发</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e94c6-bd3f-7cc8-bdef-13389d9c6d6c" target="_blank" class="news-link">Elon Musk said Starlink V3 satellites will offer more than 10x the bandwidth of V2 and will be launched in quantities exceeding 10x, implying overall bandwidth will increase by over 100x.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3114670" target="_blank" class="news-link">OpenAI的CEO Altman与美国总统特朗普谈论政府持股事宜。 美国官员就政府收购AI巨头们的股份开会。 佛蒙特州（vermont）独立议员即将给出的立法草案还建议，对OpenAI、Anthropic、马斯克旗下xAI、以及其他AI公司的股票征税50%。（Notus）</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3114667" target="_blank" class="news-link">聪明钱提前布局AI上游环节，部分基础材料成新宠</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e94a0-042e-7cc8-bdee-eb030f89fa46" target="_blank" class="news-link">U.S. President Trump said he will hold a celebration in Washington, D.C., on June 24 to mark the 250th anniversary of U.S. founding.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3114666" target="_blank" class="news-link">华尔街预计：SpaceX旗下AI业务收入到2030年将飙升100倍</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9499-910c-7cc8-bdee-e720669f38f3" target="_blank" class="news-link">Sources said SpaceX told investment banks its IPO is set at $135 a share and will not change.</a> [11] <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9498-0b2a-7cc8-bdee-defaa2d1cd62" target="_blank" class="news-link">Trump welcomes potential Putin–Zelenskiy meeting, says Russia and Ukraine will &#x27;compromise&#x27;</a> [12] <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48405264" target="_blank" class="news-link">Show HN: Formally verified polygon intersection – Opus 4.8 oneshots, prev failed</a> [23] <font color='grey'>- 07时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e94d0-2550-7cc8-bdef-2f8739e1c96a" target="_blank" class="news-link">Business Insider reports Google (GOOG.O) is quietly cutting staff in its cloud unit.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260605064523592800" target="_blank" class="news-link">据Business Insider：谷歌(GOOG.O)正悄然裁减其云部门员工。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
