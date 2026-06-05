@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 241</p><p>生成时间: 2026-06-06 02:59:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">42</td>
+                <td class="percentage">17.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48413464" target="_blank" class="news-link">Astronauts told to return to ISS after sheltering over air leak repairs</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1218334" target="_blank" class="news-link">做了一个聊天式 AI 个人记录工具，想找早期用户试 7 天</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://sspai.com/post/109850" target="_blank" class="news-link">从插件到 AI 辅助：Obsidian 如何成为我的主力工具</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1218333" target="_blank" class="news-link">分享一个自己 AICoding 做的 Apple 原生 App： eDots —— 用来收集和重新遇见生活里的点点滴滴</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e990d-41d3-7665-830c-01c1f1780780" target="_blank" class="news-link">Shanghai Gold Exchange gold T+D closed down 2.49% at 947.77 yuan/gram in the evening session on June 5 (Friday). Shanghai Gold Exchange silver T+D closed down 6.49% at 16,420 yuan/kg.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773946" target="_blank" class="news-link">非农大超预期，美债收益率全线拉升，纳指重挫3.2%，AI剧烈回调，WTI原油下跌3.3%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4105458_212_1" target="_blank" class="news-link">美国白宫：美国国家安全体系研发及应用人工智能技术时，不得利用其管控言论自由、植入意识形态偏见，或是开展未经授权及非法监视活动。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1218328" target="_blank" class="news-link">ai 每日信息简报，帮你了解每天 AI 领域的最新进展</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e990c-ee27-7665-830b-f366e062cdde" target="_blank" class="news-link">White House: President Trump signed a directive on developing AI capabilities for national security.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3773946" target="_blank" class="news-link">非农大超预期，美债收益率全线拉升，纳指重挫3.2%，AI剧烈回调，WTI原油下跌3.3%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4105456_1_1" target="_blank" class="news-link">美国白宫：在120天内，国防部、国家情报总监办公室（DNI）以及所有包含情报体系（IC）部门的机构负责人，将审查并更新采购流程，以确保从多个供应商引入人工智能模型。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9906-6b90-7665-830b-e6af22504965" target="_blank" class="news-link">Trump says he wants rate cuts but will leave decision to Fed chair Kevin Warsh</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4105451_1_1" target="_blank" class="news-link">美国白宫：美国总统特朗普签署了关于国家安全领域人工智能建设的指令。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606023340196800" target="_blank" class="news-link">美国白宫：在120天内，国防部、国家情报总监办公室（DNI）以及所有包含情报体系（IC）部门的机构负责人，将审查并更新采购流程，以确保从多个供应商引入人工智能模型。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9902-72f6-7665-830b-d5da70ce84c9" target="_blank" class="news-link">Air Canada and WestJet have indefinitely suspended flights to Cuba, Global Mail reports.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3115292" target="_blank" class="news-link">Meta考虑对消费者AI智能体工具收费每个月200美元。（The Information）</a> [11] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9900-d994-7665-830b-bddad27ddc15" target="_blank" class="news-link">Financial Times reports Meta Platforms is considering a large equity raise after reaching a major deal with Google (GOOG.O). Meta may sell several tens of billions of dollars of new shares to fund its AI infrastructure.</a> [12] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606023014587800" target="_blank" class="news-link">美国白宫：美国总统特朗普签署了关于国家安全领域人工智能建设的指令。</a> [13] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e98fc-d95d-7665-830b-ac09e3623de6" target="_blank" class="news-link">Russia&#x27;s finance ministry said the Jan–May budget deficit was 2.6% of GDP, up from 2.5% a month earlier; the deficit amounted to 6 trillion roubles versus 5.9 trillion roubles previously.</a> [14] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3115289" target="_blank" class="news-link">美国总统特朗普：所有大型AI公司都将前来白宫，也许就在下周。 将讨论民众如何从AI获利。</a> [14]</div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48398689" target="_blank" class="news-link">Inside FAISS: Billion-Scale Similarity Search</a> [14] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e98f8-44d6-7665-830b-a1c37117b6b3" target="_blank" class="news-link">Iran&#x27;s oil ministry said cleanup work at two damaged refining facilities at South Pars is about 60% complete.</a> [15] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48415633" target="_blank" class="news-link">Sakana AI&#x27;s Recursive Self-Improvement (RSI) Lab</a> [16] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e98f6-8907-7665-830b-9217e80f3836" target="_blank" class="news-link">Meta Platforms (META.O) is reportedly considering launching a consumer AI agent priced at $200 per month, The Information reports.</a> [17] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e98f4-b967-7665-830b-8397095fd137" target="_blank" class="news-link">U.S. President Trump concluded a speech aboard Air Force One.</a> [19] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e98f4-ab52-7665-830b-7d36384ecbf9" target="_blank" class="news-link">Trump said planned IPOs for Fannie Mae and Freddie Mac are not ruled out, but there is no need to rush to proceed.</a> [20] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606021701992800" target="_blank" class="news-link">据英国金融时报：Meta Platforms(META.O)正在考虑在与谷歌(GOOG.O)达成一项重大交易后，进行大规模股权融资。Meta可能出售数百亿美元的新股，以为其人工智能基础设施融资。</a> [20] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e98f4-aa0f-7665-830b-75864a3b2b21" target="_blank" class="news-link">Rosatom said Ukrainian drones struck engineers carrying out demining and power-line repairs around the Zaporizhzhia nuclear plant, wounding three people, two seriously.</a> [21] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4105409_103_1" target="_blank" class="news-link">美国总统特朗普：所有大型AI公司都将前来白宫，也许就在下周。</a> [22] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e98f0-2244-7665-830b-63104201780d" target="_blank" class="news-link">Trump: With U.S. help, large volumes of oil are being shipped through the Strait of Hormuz.</a> [23] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4105408_212_1" target="_blank" class="news-link">特朗普：正研究美国民众如何从人工智能发展中获益。</a> [23] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e98ee-021f-7665-830b-5c415c3a8fb6" target="_blank" class="news-link">US President Trump said large volumes of oil are entering the United States.</a> [24] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e98ed-9a7a-7665-830b-53f2b4f343ae" target="_blank" class="news-link">President Trump said he will meet with artificial intelligence firms soon; they may visit the White House next week.</a> [25] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606020547795800" target="_blank" class="news-link">据The Information：Meta Platforms(META.O)正考虑推出每月200美元的消费级人工智能代理工具。</a> [25] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4105405_212_1" target="_blank" class="news-link">特朗普：美国政企人工智能合作这一构想颇具参考价值。</a> [25] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-05/ai%E7%A1%AC%E4%BB%B6%E4%B8%BB%E7%BA%BF%E5%A4%A7%E5%B9%85%E5%9B%9E%E8%B0%83-%E5%88%9B%E4%B8%9A%E6%9D%BF%E6%8C%87%E5%8D%95%E6%97%A5%E9%87%8D%E6%8C%AB32-3c4ef5" target="_blank" class="news-link">AI硬件主线大幅回调 创业板指单日重挫3.2%</a> [27] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4105402_212_1" target="_blank" class="news-link">特朗普：近期将安排与人工智能企业举行会谈。</a> [27] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e98eb-bce2-7665-830b-3863c025acb5" target="_blank" class="news-link">President Trump said people had expected oil prices to be higher.</a> [28] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7647424102765051944" target="_blank" class="news-link">用AI两小时开发上架的小程序，单日新增用户173</a> [29] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48413629" target="_blank" class="news-link">Ask HN: What is your (AI) dev tech stack / workflow?</a> [29] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e98ea-753b-7665-830b-2b37d61888f5" target="_blank" class="news-link">U.S. President Trump said on gasoline prices that we have many options.</a> [30] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48406198" target="_blank" class="news-link">South Korean forums will need to scan every images with AI censorship tools</a> [30] <font color='grey'>- 02时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">1.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773994" target="_blank" class="news-link">报道：继谷歌之后，Meta也考虑股权融资，金额数十亿美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606024743263800" target="_blank" class="news-link">美国证券交易委员会（SEC）文件显示，SpaceX已在当地时间2026年6月5日与谷歌签署云服务协议，以获取算力支持。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606024718460800" target="_blank" class="news-link">市场消息：SpaceX与谷歌(GOOG.O)达成云服务协议。合作协议涉及11万块英伟达GPU、CPU以及内存。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/892361184832176128" target="_blank" class="news-link">Claude Code 压缩机制曝光，这波真的有点猛啊！</a> [12] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48411635" target="_blank" class="news-link">Did Claude increase bugs in rsync?</a> [20] <font color='grey'>- 02时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
