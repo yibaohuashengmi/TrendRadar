@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 123</p><p>生成时间: 2026-06-06 07:46:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">8.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e99d3-e074-7665-830e-53fdbd6a1be4" target="_blank" class="news-link">CNN cited a US official saying Iran launched multiple drones toward the Strait of Hormuz; the US military shot down at least three.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2392497" target="_blank" class="news-link">美股收盘：强劲非农引发加息担忧 AI热潮降温纳指重挫逾4%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/766.htm" target="_blank" class="news-link">千帆卫星数量增至 200 颗，AIS 卫星系统组网达成</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48419023" target="_blank" class="news-link">Microsoft wants users to be addicted to Scout, their AI personal assistant</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e99d0-eccf-7665-830e-431ffddd8b3b" target="_blank" class="news-link">Trump said most of Iran&#x27;s drone factories, launch sites and missile-manufacturing facilities have been destroyed.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e99d0-63c9-7665-830e-3c3244820682" target="_blank" class="news-link">Trump said U.S. forces have thoroughly destroyed their military in the conflicts to date, but Iran still retains some missiles and drones.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/763.htm" target="_blank" class="news-link">IT早报 0606：医保个人账户跨省共济来了；追觅创始人俞浩称将心无旁骛做实业；闻泰科技起诉安世荷兰；美国 Anthropic 呼吁全球 AI 刹车...</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3773916" target="_blank" class="news-link">陈果：牛市不仅仅是AI，中国消费股遍地黄金，处于历史大底</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2046178335382843425" target="_blank" class="news-link">腾讯姚顺雨称 AI 实用价值高于「刷榜」价值，如何看待这一观点？国产大模型该告别榜单内卷吗？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33316762" target="_blank" class="news-link">开麦丨AI在电话那头等你，接还是不接？</a> [20] <font color='grey'>- 07时46分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7646581145124782131" target="_blank" class="news-link">iOS AI 编程环境配置：Agent、Skill、Rules、Hook、Command</a> [30]</div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3115375" target="_blank" class="news-link">谷歌关联的预付能源债券引发市政债券交易员抢购潮</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时46分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/764.htm" target="_blank" class="news-link">华为联合发布 460K 离网供电实证成果，实现“用光伏电调光伏”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时46分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
