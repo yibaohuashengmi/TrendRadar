@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 397</p><p>生成时间: 2026-06-05 21:53:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">35</td>
+                <td class="percentage">8.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202606/0573463.html" target="_blank" class="news-link">Anthropic警告前沿AI发展或失控 吁各国业者共设“刹车”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/05/1f642396d5794126ad47dfcc2bb3e30c.html" target="_blank" class="news-link">美政府要求AI模型接受安全测试</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773946" target="_blank" class="news-link">非农大超预期，美债收益率短线拉升，AI降温纳指开盘跌超1.2%，WTI原油跌1%，现货白银跌超2.5%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/723.htm" target="_blank" class="news-link">OpenAI 高管表态：公司将在 AI 模型发布前自愿接受政府审查</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/722.htm" target="_blank" class="news-link">开源鸿蒙 OpenHarmony 具身智能版本 EmbodiedAI 1.0.1 发布</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1218289" target="_blank" class="news-link">分享一个 AI 多 agent 的小项目</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202606/0573458.html" target="_blank" class="news-link">见Faker吃烤肉谈AI 黄仁勋访韩预告“有惊喜”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1218284" target="_blank" class="news-link">手机接管 AI Coding，我试了一圈发现已经有好几条路线了</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3773946" target="_blank" class="news-link">非农大超预期，美债收益率短线拉升，AI降温纳指期货跌超1.2%，WTI原油跌1%，现货白银跌超2.5%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3115172" target="_blank" class="news-link">两家AI大模型纳入！恒生科技指数迎重磅调整，2670亿“子弹”调仓已完成</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/719.htm" target="_blank" class="news-link">1099 → 358 元：小米 G100 智能门锁国补探底，AI 指纹识别 + 九种开锁方式</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1218274" target="_blank" class="news-link">AI 的发展，是不是让大量社区的创意想法讨论也渐渐的下降了</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3773978" target="_blank" class="news-link">AI狂热首现裂缝？韩股遭遇“黑色星期五”，关键支撑位岌岌可危</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/892448840563867648" target="_blank" class="news-link">学AI+测试力竭的感觉谁懂,WDF越学感觉自己越菜!</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1218272" target="_blank" class="news-link">AI Coding 是不是真的降低了软件开发的门槛？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33316001" target="_blank" class="news-link">马上评｜该对AI外呼骚扰电话出手了</a> [11] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/715.htm" target="_blank" class="news-link">谷歌测试新特性：Chrome 浏览器搜索直通 AI 模式，跳过传统结果页面</a> [11] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/openai/plugins" target="_blank" class="news-link">openai / plugins</a> [11]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e97ec-cd33-7fff-a931-a6756bbca46d" target="_blank" class="news-link">Romanian defence minister said the radar system deployed near the port of Constanta can detect high-altitude metallic objects.</a> [12] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/713.htm" target="_blank" class="news-link">发布两年：快手可灵 AI 全球用户突破 1 亿，企业客户近 5 万</a> [13] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e97ec-7784-7fff-a931-9365489efa72" target="_blank" class="news-link">White House National Economic Council director Hassett said the Federal Reserve should not raise rates and there is room to cut; the Fed has fallen behind the curve and substantial scope for rate reductions remains.</a> [14] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-05/anthropic%E5%91%BC%E5%90%81%E5%85%A8%E7%90%83%E6%9A%82%E5%81%9C%E7%A0%94%E5%8F%91%E5%B0%96%E7%AB%AFai%E7%B3%BB%E7%BB%9F-116f9c" target="_blank" class="news-link">Anthropic呼吁全球暂停研发尖端AI系统</a> [15] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/711.htm" target="_blank" class="news-link">行业标杆：华为联合深圳地铁发布全球首个星河 AI 车地 Wi-Fi 7 轨交无线创新成果，将逐步向北上广等更多城市推广</a> [15] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e97ea-36d5-7fff-a931-8387898eb83a" target="_blank" class="news-link">HASSETT, director of the White House National Economic Council, said the Federal Reserve can monitor inflation developments and remain on the sidelines before taking any action.</a> [16] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-05/%E4%B8%AD%E4%B8%9C%E7%B4%A7%E5%BC%A0%E4%B8%8Eai%E8%82%A1%E5%9B%9E%E8%90%BD%E6%8B%96%E7%B4%AF%E5%8F%B0%E8%82%A1%E9%87%8D%E6%8C%AB781%E7%82%B9-e149de" target="_blank" class="news-link">中东紧张与AI股回落拖累台股重挫781点</a> [16] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/mai-image-2-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Microsoft MAI-Voice-2</a> [17] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e97e1-166f-7fff-a931-5764fbc0e4f7" target="_blank" class="news-link">PLA Eastern Theater Command spokesperson comments on Dutch frigate transit through Taiwan Strait</a> [22] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e97e0-2f9f-7fff-a931-4ffd640713cb" target="_blank" class="news-link">Lebanese President Aoun said Hezbollah must understand it has no choice but to enter dialogue, and that Iran using Lebanon as leverage in negotiations is unacceptable.</a> [23] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7647175057976213504" target="_blank" class="news-link">把 PPT 交给 AI 之后，我补上了最难用的最后一公里</a> [23] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3115150" target="_blank" class="news-link">可灵AI两周年：全球用户突破1亿，企业客户近5万家</a> [26] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e97de-f25c-7fff-a931-2a34afeb1966" target="_blank" class="news-link">Huawei Cloud launches Agentic AI product suite, unveils Agentic Infra paradigm</a> [27] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-05/%E6%97%A5%E6%9C%AC%E5%87%BA%E8%B5%845%E4%BA%BF%E7%BE%8E%E5%85%83%E5%8A%A0%E5%85%A5%E7%BE%8E%E5%9B%BDai%E5%9B%BD%E5%AE%B6%E9%A1%B9%E7%9B%AE-e267c4" target="_blank" class="news-link">日本出资5亿美元加入美国AI国家项目</a> [27] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/697.htm" target="_blank" class="news-link">20 周年致敬之作：华硕 ROG CROSSHAIR 2006 复刻版主板今晚开售，5206 元</a> [27] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e97de-dc9a-7fff-a931-2699b1d023f0" target="_blank" class="news-link">At the night session open, China&#x27;s main futures contracts were mostly lower: SHFE tin fell over 3%, SHFE silver nearly 3%; synthetic rubber, rapeseed oil and SHFE gold dropped over 1%; international copper, glass and soda ash fell nearly 1%. On the upside, coking coal rose nearly 2%, while polyester short fiber, bottle-grade PET chips and pulp rose nearly 1%.</a> [28] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/695.htm" target="_blank" class="news-link">高通宣布车端人工智能 Claw 生态计划，将智能体 AI 引入智能座舱</a> [28] <font color='grey'>- 21时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">0.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1218299" target="_blank" class="news-link">Agenton v0.2.0 - [新增] Claude/Codex 实时桌面悬浮窗监控</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48411510" target="_blank" class="news-link">Programmers will document for Claude, but not for each other</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/707.htm" target="_blank" class="news-link">Anthropic 与美国政府关系解冻：双方正磋商合作</a> [19] <font color='grey'>- 21时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/720.htm" target="_blank" class="news-link">华为云联合 20 余家模型厂商发布生态合作计划，将共建系统化商业生态</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/709.htm" target="_blank" class="news-link">华为与国网辽宁联合打造：全球首个电力端到端光通信网样板点揭牌</a> [17] <font color='grey'>- 21时53分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
