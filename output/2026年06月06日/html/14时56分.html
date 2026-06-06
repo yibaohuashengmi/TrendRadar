@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 279</p><p>生成时间: 2026-06-06 14:56:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">8.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/880.htm" target="_blank" class="news-link">fpt. 渲染苹果 iOS 27：升级 Siri、调整通知手势、增强 AI 修图</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9ba0-6594-7665-8310-4c23a3bb571f" target="_blank" class="news-link">Lebanese military said an Israeli strike on a military vehicle in southern Lebanon killed several soldiers, including an officer.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/876.htm" target="_blank" class="news-link">“AI 教父”Hinton 吹哨了：AI 已经有意识</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1218390" target="_blank" class="news-link">大家都收到 OpenAI 补偿了吗</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48421079" target="_blank" class="news-link">The back cover of C++: The Language raises questions not answered by front cover</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3774007" target="_blank" class="news-link">黑色星期五！“人人赚钱”的全球AI大牛市遭遇“当头棒喝”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/852.htm" target="_blank" class="news-link">软银孙正义：OpenAI 正用 AI 设计 AI 模型，比人类聪明 1 万倍的 ASI 未来 2 年到来</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48421442" target="_blank" class="news-link">S&amp;P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9b86-0dea-7665-8310-2d5157377254" target="_blank" class="news-link">Israel Defense Forces said it monitored a drone crash near the area where it was operating in southern Lebanon after issuing an alert over hostile aircraft intrusion into the Zerait region; the drone did not enter Israeli territory and caused no casualties.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/847.htm" target="_blank" class="news-link">消息称美国政府与 OpenAI 谈持股方案，磋商已超 1 年且仍在推进</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/844.htm" target="_blank" class="news-link">黄仁勋谈未来计算：收敛为面向 AI 智能体的统一架构，覆盖云端到机器人</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606140145387800" target="_blank" class="news-link">以色列国防军：针对敌方飞行器侵入泽拉伊特（Zerait）地区发出警报后，监测到一架无人机在以色列国防军于黎巴嫩南部开展行动的区域附近坠落。该飞行器未进入以色列领土，未造成人员伤亡。</a> [11] <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/843.htm" target="_blank" class="news-link">初探微软“龙虾”Scout 应用，主打常驻在线 AI 办公协作</a> [11] <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9b5e-be05-7665-830f-fe79857d6e36" target="_blank" class="news-link">Jamaica hit by nationwide blackout; partial restoration underway</a> [12] <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9b50-9a8a-7665-830f-f550ad858934" target="_blank" class="news-link">Tianbo Intelligent to face Shanghai Stock Exchange listing review on June 12</a> [13] <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/840.htm" target="_blank" class="news-link">2026 世界杯扩大 AI 审核：实时过滤超 3 万个关键词，2 秒隐藏不当评论</a> [13] <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9b3a-3708-7665-830f-eba68f3ccb3d" target="_blank" class="news-link">Aida Modu to launch China’s first domestic cruise-to-nowhere today</a> [14] <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9b35-d506-7665-830f-e1ee91d9c0b2" target="_blank" class="news-link">AI models enter assembly-line mass production in Jinan, China</a> [15] <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/837.htm" target="_blank" class="news-link">微软 MAI 系列 AI 模型训练数据曝光，“仅商业授权”说法存在出入</a> [15] <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/836.htm" target="_blank" class="news-link">OpenAI 为所有 ChatGPT 个人用户开放锁定模式，启用后可降低数据泄露风险</a> [16] <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9b28-ef3e-7665-830f-d359b3c94663" target="_blank" class="news-link">Chinese-built Ro-Ro vessel for aircraft components launched</a> [17] <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9b1d-93bb-7665-830f-c2cab25f7df2" target="_blank" class="news-link">ISS Russian segment leak repaired; crew briefly sheltered in Crew Dragon</a> [19] <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/832.htm" target="_blank" class="news-link">谷歌回应称暂无计划把 AI Mode 设为 Chrome 浏览器默认搜索方式</a> [19] <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606123406700800" target="_blank" class="news-link">AI模型也能流水线批量生产了</a> [22] <font color='grey'>- 14时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606121259130800" target="_blank" class="news-link">AI炒完“传、存、算”，下一张牌桌在哪里？</a> [26] <font color='grey'>- 14时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7647412292435689515" target="_blank" class="news-link">Claude Code 压缩机制曝光，这波真的有点猛啊</a> [30] <font color='grey'>- 14时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606140631909800" target="_blank" class="news-link">用友BIP超级版On华为云专属云解决方案发布</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
