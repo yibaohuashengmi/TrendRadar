@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 306</p><p>生成时间: 2026-06-06 17:28:48</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">39</td>
+                <td class="percentage">12.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1218416" target="_blank" class="news-link">分享我的 macOS 输入法切换工具，专门适配了 AI Coding 场景</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/failure-forecast?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Failure Forecast</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9c23-22bd-7665-8311-871c33c34d2b" target="_blank" class="news-link">Mehr News Agency said Pakistan&#x27;s interior minister will travel to Tehran on Saturday.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=AI%E6%96%87%E9%A3%8E%E5%A4%AA%E5%A5%BD%E8%AE%A4&amp;t=31&amp;band_rank=2&amp;Refer=top" target="_blank" class="news-link">AI文风太好认</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9c1e-2478-7665-8311-7b567a038edd" target="_blank" class="news-link">Iran deputy foreign minister Gharibabadi said the IAEA must avoid turning technical reports into instruments of political pressure if it wants to be part of a diplomatic solution.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/913.htm" target="_blank" class="news-link">AI 指纹识别 + 猫眼动态查看：小米 G300 智能门锁 1999 → 610 元新补货</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9c1e-0189-7665-8311-756c94633053" target="_blank" class="news-link">Iran’s deputy foreign minister said the IAEA is using the aftermath of US and Israeli attacks on Iranian nuclear facilities to manufacture “ambiguity” over Iran’s nuclear program.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/charles-periodised-strength-training?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Charles — Periodised Strength Training</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/jaklens-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">jaklens.ai</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9c1c-9944-7665-8311-6009219e7cf7" target="_blank" class="news-link">Iran deputy foreign minister Gharibabadi said the IAEA lost monitoring of certain nuclear facilities due to military attacks, not because Iran failed to cooperate.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/909.htm" target="_blank" class="news-link">1 度电变成 Token 身价翻 20 倍：中国绿电撑起 AI 发展新未来</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9c11-168d-7665-8311-52d1b61fe345" target="_blank" class="news-link">LAVROV said Russia&#x27;s oil production fell by 1.5 mln b/d during the OPEC+ production-cut period.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3773871" target="_blank" class="news-link">硅片行业的“结构性牛市”：AI芯片“喂饱”硅片巨头，国产硅片迎来黄金窗口</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/nomsai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">NomsAI</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9c0e-8127-7665-8311-4de3104aa23f" target="_blank" class="news-link">Lavrov said Russia will ensure the restoration of rights for Russian speakers in Ukraine and called that a precondition for a long-term settlement.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9c0e-5f24-7665-8311-42272c438935" target="_blank" class="news-link">Ukrainian President Zelenskiy said Ukrainian forces struck an oil depot in Russia&#x27;s Krasnodar region and a military base near St. Petersburg.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/905.htm" target="_blank" class="news-link">Ramp：美国企业 AI 成本飙升，DeepSeek 成为 B2B 市场新宠</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9c1c-bbf9-7665-8311-69eacfb60c34" target="_blank" class="news-link">Rosneft CEO Igor Sechin said Russia cannot be excluded from the global oil supply chain.</a> <font color='red'><strong>[5 - 23]</strong></font> <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9c0b-9872-7665-8311-3aaa1da113a0" target="_blank" class="news-link">Rosneft CEO Sechin said prolonged tensions in the Strait of Hormuz will clearly weaken long-term oil demand.</a> [11 - 24] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9c0a-be6c-7665-8311-3548e3c52879" target="_blank" class="news-link">Rosneft CEO Sechin said sanctions have reduced Russian oil production, while most OPEC+ members increased output under the OPEC+ agreement.</a> [12] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9c07-c288-7665-8311-2d84da8a974d" target="_blank" class="news-link">Iranian border commander Ali Akbar Javidan said an armed terrorist cell attempting to cross into Iran and attack a border base clashed with border troops last night; after heavy fighting, border forces killed six attackers.</a> [13] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9c07-147c-7665-8311-2783e5838c11" target="_blank" class="news-link">China&#x27;s first no-destination sea cruise departs Shanghai</a> [14] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/arbeitszeitbetrug-ai-a-time-theft-tool?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">arbeitszeitbetrug.ai (A time theft tool)</a> [14] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9bff-ed87-7665-8311-116578231fab" target="_blank" class="news-link">Rosneft CEO Igor Sechin said that if additional sanctions are imposed on Russia, the company will monitor gasoline prices at California service stations.</a> [16] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9bff-7041-7665-8311-0a3f638d4b4c" target="_blank" class="news-link">Rosneft CEO Igor Sechin said no one can stop Rosneft from sending Russian oil to its strategic partners.</a> [17] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/897.htm" target="_blank" class="news-link">谷歌公布 Fitbit Air 无屏手环设计蓝图，邀请第三方打造配件生态</a> [17] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9bfb-ec96-7665-8311-003d07bac0aa" target="_blank" class="news-link">Rosneft CEO Igor Sechin said the oil market could return to fundamentals in H2 2027 if the crisis is resolved.</a> [18] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9bf4-c258-7665-8310-fd334e11d513" target="_blank" class="news-link">Local authorities said drone debris sparked a fire at oil and gas facilities in Russia&#x27;s Krasnodar region.</a> [19] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9bf3-c93d-7665-8310-f1f64ac3451f" target="_blank" class="news-link">Rosneft CEO Igor Sechin warned that if the Strait of Hormuz were to be closed, other major shipping chokepoints—including the Malacca Strait, Bab el‑Mandeb and the Strait of Gibraltar—could also face disruption risk.</a> [20] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9bf2-777d-7665-8310-e94767e33280" target="_blank" class="news-link">E Fund chair Liu Xiaoyan named concurrent president of Asset Management Association of China council</a> [21] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/893.htm" target="_blank" class="news-link">OpenAI 前 CTO 回忆萨姆 · 奥尔特曼被罢免：如果他当时没有回归，公司将解体</a> [21] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9bdd-7859-7665-8310-c80adb1f6df2" target="_blank" class="news-link">Rosneft CEO Igor Sechin said Rystad Energy forecasts US oil and gas firms could earn more than $60 bln in additional profits this year.</a> [25] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7648118055435767302/" target="_blank" class="news-link">腾讯AI是不是慢了</a> [26] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9bdd-405b-7665-8310-c4b11004fd7b" target="_blank" class="news-link">Rosneft CEO Igor Sechin said U.S. oil companies are the primary beneficiaries of a war with Iran, selling oil at elevated prices.</a> [26] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9bdc-57d3-7665-8310-bb44b58279f3" target="_blank" class="news-link">Rosneft CEO Sechin said blocking the Strait of Hormuz is an attempt to change the rules of the global energy market to benefit the United States.</a> [27] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7647825202339987465" target="_blank" class="news-link">拆解与 AI 的一次对话</a> [27] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9bdc-337c-7665-8310-b0f49ac2d204" target="_blank" class="news-link">Rosneft CEO Sechin said Russia&#x27;s oil output fell by 1.5 mln bpd during the OPEC+ agreement&#x27;s mandated cut period.</a> [28] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9bdb-56f7-7665-8310-ac60b7c72390" target="_blank" class="news-link">Rosneft CEO Sechin said OPEC+ has lost some of its potential following the UAE’s withdrawal.</a> [29] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019e9bd9-f532-7665-8310-a24879c06dd9" target="_blank" class="news-link">RBNZ official Breman says protectionism remains main risk for New Zealand</a> [30] <font color='grey'>- 17时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606162327329800" target="_blank" class="news-link">伊朗边防指挥官阿里·阿克巴尔·贾维丹：昨晚，一支企图进入伊朗境内并袭击边防基地的恐怖组织小组与边防军发生了激烈交火，经过激烈的火力对抗，边防军成功对恐怖组织造成了重大损失，6名武装恐怖分子已被击毙，</a> [15] <font color='grey'>- 17时28分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7647707869932765203" target="_blank" class="news-link">阿里云多模态图片生成！抛弃SDK手写Fetch请求，我终于搞懂了大模型调用底层</a> [22] <font color='grey'>- 17时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/960/907.htm" target="_blank" class="news-link">Anthropic 被曝雇 1000 名人类工程师训练 Claude Code，每项任务 280 美元</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/negpicker-free-tool-for-google-ads?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">NegPicker — Free Tool for Google Ads</a> [13] <font color='grey'>- 17时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
