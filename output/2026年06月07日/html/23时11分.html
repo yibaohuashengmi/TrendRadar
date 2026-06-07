@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 249</p><p>生成时间: 2026-06-07 23:11:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">28</td>
+                <td class="percentage">11.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea28a-43b3-7ee0-86d0-5f0e5a72b223" target="_blank" class="news-link">OPEC said at a Sunday meeting it decided to keep organization-wide oil production policy unchanged.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea286-6eef-7ee0-86d0-57179a0fdf2d" target="_blank" class="news-link">Iran&#x27;s parliamentary National Security and Foreign Policy Commission said no one should assume the war is over.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea27a-8480-7ee0-86d0-4e465462be3f" target="_blank" class="news-link">Guotai Haitong: US equities may face at least one-to-two months of volatility</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/961/184.htm" target="_blank" class="news-link">英国政府计划采购本土 AI 芯片和半导体设备，防止企业流向美国</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/961/183.htm" target="_blank" class="news-link">AMD AIB 合作伙伴预测：下代独立显卡至少要等一年</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea25f-d6fc-7ee0-86d0-3264fe052f3e" target="_blank" class="news-link">Saudi outlet Alhadath reports parties have agreed on the Gaza peace committee document&#x27;s terms, with the sole remaining dispute over the disarmament clause.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/emailbuilder-in?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">EmailBuilder.in</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea25f-b1c7-7ee0-86d0-2c544ea4e8a1" target="_blank" class="news-link">Saudi outlet Alhadath, citing sources, said disarmament of Hamas remains disputed in Cairo-mediated Gaza talks; mediators have demanded Hamas hand over weapons &quot;from pistols to missiles&quot; to a Gaza administrative committee in return for Israel &quot;seriously&quot; implementing the agreement.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea25b-efc5-7ee0-86d0-23f9df3fc73b" target="_blank" class="news-link">Saudi outlet Alhadath cites sources saying Hamas-Israel talks in Cairo have stalled over Israeli conditions.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48433756" target="_blank" class="news-link">Show HN: Lathe – Use LLMs to learn a new domain, not skip past it</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea253-4fab-7ee0-86d0-17edc85db82a" target="_blank" class="news-link">Han Zheng says China will deepen trade, industry cooperation and rail logistics with Belarus</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/961/175.htm" target="_blank" class="news-link">RYVNTEC 展示通用型机箱贯流风机 Airjet 360，内置 2 个风扇单元</a> [11] <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea24a-4b29-7ee0-86cf-fcf8f27c7dbc" target="_blank" class="news-link">OPEC+ seven nations to raise July production targets by 188,000 bpd</a> [13] <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-07/%E7%BE%8E%E5%9B%BD%E6%94%BF%E5%BA%9C%E8%80%83%E8%99%91%E5%85%A5%E8%82%A1%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BC%81%E4%B8%9A-79486f" target="_blank" class="news-link">美国政府考虑入股人工智能企业</a> [14] <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260607214620913800" target="_blank" class="news-link">AI炒完芯片后，下一轮被抢的会是谁？</a> [15] <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea238-68ec-7ee0-86cf-e3a3c72044ce" target="_blank" class="news-link">Trump said the Fed has no reason to raise interest rates.</a> [16] <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260607214619409800" target="_blank" class="news-link">&lt;a href=&quot;https://cdn.jin10.com/vip_column/index.html#/detail?id=850545&amp;skuID=1671010697886&amp;type=article&amp;courseID=225&amp;from=flash&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://img.jin10.com/misc/26/06/Lk5lb_SlH5TkzfY-AB4dV.jpg/lite&quot; height=&quot;120&quot;/&gt;&lt;/a&gt;</a> [16] <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea235-0fe7-7ee0-86cf-ddfa3d044eff" target="_blank" class="news-link">MSNBC reports Trump said he does not require Lebanon to be included in any short-term deal with Iran and will not agree to early unfreezing of Iranian assets or lifting of sanctions in any agreement.</a> [17] <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea22f-2b4a-7ee0-86cf-d386c9cfcdb0" target="_blank" class="news-link">Israeli military said in a broadcast that a headquarters in southern Beirut may have been empty when struck; it described the strikes on southern Beirut as &quot;deterrent.&quot;</a> [18] <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea22e-6432-7ee0-86cf-c86b3676ac25" target="_blank" class="news-link">IATA cut its 2026 global airline profit forecast to $23 billion from $41 billion, citing disruption from the Iran war and higher fuel costs.</a> [19] <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea22e-1cee-7ee0-86cf-c25045d9c094" target="_blank" class="news-link">IATA says global airline fuel bill will reach $350 billion this year, up from $252 billion in 2025.</a> [20] <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea22d-95c4-7ee0-86cf-b5b83047b26b" target="_blank" class="news-link">IATA projects airline profit per passenger of $4.50 in 2026, down from $9.10 in 2025.</a> [22] <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea22d-2789-7ee0-86cf-ad5080646a99" target="_blank" class="news-link">IATA cut its 2026 global airline industry profit margin forecast to 2% from a prior 3.9%.</a> [23] <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea22d-0992-7ee0-86cf-a323fb8fbaf4" target="_blank" class="news-link">International Air Transport Association (IATA) says Middle Eastern carriers are expected to record a combined net loss of $4.3 billion this year and a combined profit of $7.2 billion in 2025.</a> [24] <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-07/ai%E5%86%B2%E5%87%BB%E5%8D%B0%E5%BA%A6%E8%8F%B2%E5%BE%8B%E5%AE%BE%E6%95%B0%E7%99%BE%E4%B8%87%E5%A4%96%E5%8C%85%E5%B2%97%E4%BD%8D-580368" target="_blank" class="news-link">AI冲击印度菲律宾数百万外包岗位</a> [24] <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea22c-bab0-7ee0-86cf-9f32cf97fac0" target="_blank" class="news-link">IATA forecasts global airline industry revenue will reach $1.165 trillion in 2026, up from $1.065 trillion in 2025.</a> [25] <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea229-9606-7ee0-86cf-823e4fc09824" target="_blank" class="news-link">Iranian media reported the Supreme National Security Council is holding an emergency meeting to discuss an Israeli airstrike in the southern suburbs of Beirut.</a> [28] <font color='grey'>- 23时11分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7647921947465777195" target="_blank" class="news-link">每日一学V017：用 Prompt 做 NLP：解构赋值与 AI 全栈的第一次实战</a> [28] <font color='grey'>- 23时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48434436" target="_blank" class="news-link">Anthropic, please ship an official Claude Desktop for Linux</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2392807" target="_blank" class="news-link">ChatGPT即将迎来大改造：告别单一聊天 变身“超级应用”</a> [13] <font color='grey'>- 23时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/961/185.htm" target="_blank" class="news-link">支持调用 Deepseek、Kimi 等模型，Agentic 华为云入口“智果园”发布</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7648157267778486287" target="_blank" class="news-link">保姆级教程：如何0成本调用千问3.6大模型？讯飞星辰MaaS平台上手指南</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时11分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
