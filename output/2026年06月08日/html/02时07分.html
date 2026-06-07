@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 130</p><p>生成时间: 2026-06-08 02:07:24</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">7.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea32e-96e8-7ee0-86d1-8cf35123ca75" target="_blank" class="news-link">IAEA experts confirmed radiation levels at the Chernobyl site remain within normal ranges, indicating the incident did not cause radioactive contamination.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84509" target="_blank" class="news-link">美国政府考虑在 AI 公司持有股份</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea32d-8f08-7ee0-86d1-7c040fbb9cd1" target="_blank" class="news-link">IAEA said a team is assessing the impact of an early-morning drone strike on the Central Spent Fuel Storage Facility near the Chernobyl nuclear power plant.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea325-90f6-7ee0-86d1-6f4ff88add67" target="_blank" class="news-link">Iran&#x27;s deputy foreign minister said Iran&#x27;s assets are neither spoils for Washington nor a compensation fund for its allies.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea325-8c24-7ee0-86d1-674597674829" target="_blank" class="news-link">Responding to reports that the US would use Iranian assets to pay war reparations to regional allies, Iran&#x27;s deputy foreign minister Gharibabadi said regional governments are not entitled to claim compensation.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea31e-0678-7ee0-86d1-4eb243d849d6" target="_blank" class="news-link">Qatar&#x27;s foreign ministry said the prime minister and foreign minister stated all parties need to respond to mediation efforts to reach a sustainable agreement.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea31d-a021-7ee0-86d1-43e703df25b8" target="_blank" class="news-link">Qatar&#x27;s foreign ministry said its prime minister, who also serves as foreign minister, met with Egypt&#x27;s foreign minister to discuss developments in Lebanon and Palestine.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea302-8c4e-7ee0-86d1-086ccfa452fc" target="_blank" class="news-link">Israeli military said the operation to destroy Hezbollah infrastructure is expected to continue for several days.</a> [17] <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea301-cfd8-7ee0-86d1-018fd912cc86" target="_blank" class="news-link">ISRAELI MILITARY said Hezbollah uses tunnels in the Shakif Heights as its primary operational hub.</a> [18] <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea301-6468-7ee0-86d0-f9a4a8ad072c" target="_blank" class="news-link">Israeli military said Hezbollah fired drones and missiles from Shakif Heights.</a> [19] <font color='grey'>- 02时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
