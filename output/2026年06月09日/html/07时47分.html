@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 160</p><p>生成时间: 2026-06-09 07:47:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">22</td>
+                <td class="percentage">13.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea98c-cd37-733a-9237-16f36828b721" target="_blank" class="news-link">EU divided over push for Russia-Ukraine talks</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5248289" target="_blank" class="news-link">黄河实业(00318.HK)：就Agentic AI金融科技业务的潜在投资进行深入讨论</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/961/727.htm" target="_blank" class="news-link">从“画饼”到实机展示，苹果 WWDC26 改变 AI 功能演示方式</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1218818" target="_blank" class="news-link">帮后端好哥哥 问问 glm5.1 版本 ai 设计的数据流，但是做着做着就记不住了，要过一会提醒下</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/961/726.htm" target="_blank" class="news-link">赛力斯“赛豆科技”全新品牌 AIVA 官宣：车标样式曝光，全系标配豆包大模型智能座舱</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3774156" target="_blank" class="news-link">OpenAI秘密提交IPO申请，或和Anthropic均瞄准今秋上市</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea979-096c-733a-9236-fc9a44ab1997" target="_blank" class="news-link">UK May BRC total retail sales YoY 3.7% (prior -3.0%).</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea978-ca6d-733a-9236-f559533eeff2" target="_blank" class="news-link">BRC Total Retail Sales (YoY) (May)</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea977-ee34-733a-9236-ed51fe12d6a8" target="_blank" class="news-link">UK BRC like-for-like retail sales YoY +3.4% in May; prior -3.4%.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/961/722.htm" target="_blank" class="news-link">苹果 WWDC26 主题演讲一文汇总：iOS 27 等新系统发布、Siri AI 登场，库克迎来生涯“最后一舞”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea977-cc9b-733a-9236-e22441c27926" target="_blank" class="news-link">BRC Like-for-like Retail Sales (YoY) (May)</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/961/721.htm" target="_blank" class="news-link">奥尔特曼宣布 OpenAI 进入第三发展阶段：让 AI 普及、易用且安全</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3116381" target="_blank" class="news-link">苹果：中国大陆暂不提供最新Siri AI</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/961/718.htm" target="_blank" class="news-link">苹果回应“套壳 Gemini”猜测：iOS 27 版 Siri AI AFM 自研打造</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260609064804765800" target="_blank" class="news-link">苹果：中国大陆暂不提供最新Siri AI</a> [11] <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea96c-1485-733a-9236-be805e456e96" target="_blank" class="news-link">Apple says latest Siri AI not available in mainland China</a> [12] <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4109419_212_1" target="_blank" class="news-link">据AXIOS：美国白宫正协商推动联邦法律优先于各州人工智能相关法规实施。</a> [12] <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/961/714.htm" target="_blank" class="news-link">OpenAI 已提交 S-1 草案，释放潜在 IPO 上市信号</a> [14] <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea969-5ba5-733a-9236-a03db31f3638" target="_blank" class="news-link">Israeli airstrikes in southern Lebanon kill at least 17</a> [15] <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%EF%BC%9A%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E6%9A%82%E4%B8%8D%E6%8F%90%E4%BE%9B%E6%9C%80%E6%96%B0Siri+AI" target="_blank" class="news-link">苹果：中国大陆暂不提供最新Siri AI</a> [17] <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ea944-586d-733a-9236-80fa8b53663b" target="_blank" class="news-link">Iranian media, citing airport officials, reported flights have resumed at Tehran&#x27;s Imam Khomeini International Airport.</a> [19] <font color='grey'>- 07时47分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%BA%93%E5%85%8B%E6%9C%80%E5%90%8E%E4%B8%80%E5%9C%BAWWDC%EF%BC%9AAI+Siri%E7%99%BB%E5%9C%BA" target="_blank" class="news-link">库克最后一场WWDC：AI Siri登场</a> [25] <font color='grey'>- 07时47分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
