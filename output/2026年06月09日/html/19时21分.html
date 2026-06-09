@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 458</p><p>生成时间: 2026-06-09 19:21:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">40</td>
+                <td class="percentage">8.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5248913" target="_blank" class="news-link">通用决策大模型第一股！中科闻歌过聆讯，AI决策赛道迎来&quot;国家队&quot;选手</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48457830" target="_blank" class="news-link">Microsoft&#x27;s open source tools were hacked to steal passwords of AI developers</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3116777" target="_blank" class="news-link">苹果宣布新版Siri AI因DMA监管分歧无缘欧盟iOS 27，上线时间表未定</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eac01-143f-7aab-8773-6a021ede7bf9" target="_blank" class="news-link">EU diplomatic sources said the 21st round of sanctions on Russia aims to pressure Russia&#x27;s beleaguered banking sector and economy.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84528" target="_blank" class="news-link">企业批准员工以宗教理由不使用 AI</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabff-6c75-7aab-8773-63e16024dce4" target="_blank" class="news-link">EU diplomatic sources said if the proposal is approved the EU would add more than 100 banks to its list, representing over 50% of Russia&#x27;s 213 internationally connected banks.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/962/068.htm" target="_blank" class="news-link">人工智能企业 Perplexity：无论 Anthropic 与 OpenAI 表现如何，公司计划 2028 年 IPO</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/0389ce1e37fe4e0b95580793a1aca630" target="_blank" class="news-link">高考已考完，走AI岗暑假学这些ok吗？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabfe-b6be-7667-a0c3-787789de7540" target="_blank" class="news-link">EU diplomatic sources said the bloc will propose listing 170 individuals and entities in a 21st round of sanctions on Russia, including 90 Russian banks.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabfe-1f2e-7667-a0c3-6937d2b99879" target="_blank" class="news-link">An Israel Defense Forces airstrike on a residential area in the southern Lebanese city of Tyre on the morning of the 9th killed nine and injured 28.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools" target="_blank" class="news-link">x1xhlol / system-prompts-and-models-of-ai-tools</a> <font color='red'><strong>[9]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959206" target="_blank" class="news-link">苹果憋了两年，终于放出AI Siri！</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/yikart/AiToEarn" target="_blank" class="news-link">yikart / AiToEarn</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2394903" target="_blank" class="news-link">【焦点复盘】沪指缩量反弹收复4000点，全市场超200股涨逾10%，AI软硬件双双大涨</a> [11] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabfb-3cd8-7667-a0c3-5208bc61d5d2" target="_blank" class="news-link">An Indian government official said gold imports have continued to decline since import duties were raised and there are no plans to impose further import restrictions.</a> [12] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1219122" target="_blank" class="news-link">分享团队提升 ai 开发效率的经验，如何达到人均每天数十次的代码提交</a> [12] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/giftshopper-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">GiftShopper.ai</a> [12] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabfa-d696-7667-a0c3-4ef525fe3608" target="_blank" class="news-link">An Indian government official said no additional fiscal spending is expected during the monsoon season.</a> [13] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-09/%E7%BE%8E%E5%9B%BDai%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E6%89%A9%E5%BC%A0%E5%8A%A0%E5%89%A7%E5%B9%B2%E6%97%B1%E5%9C%B0%E5%8C%BA%E6%B0%B4%E5%8D%B1%E6%9C%BA-77f162" target="_blank" class="news-link">美国AI数据中心扩张加剧干旱地区水危机</a> [13] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabf8-f157-7667-a0c3-429c43293da6" target="_blank" class="news-link">An Indian government official said global fertilizer prices are unlikely to fall and the number of suppliers has declined.</a> [14] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabf8-a2eb-7667-a0c3-3d4145b5fe18" target="_blank" class="news-link">An Indian government official said this year&#x27;s capital expenditure estimate is unchanged.</a> [15] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabf8-1716-7aa2-9d5c-887e457198d3" target="_blank" class="news-link">Indian government officials said the government is unlikely to provide additional funding to oil marketing companies to cover further &quot;unrecovered costs&quot;.</a> [16] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabf7-cfe9-7aa2-9d5c-84009072c584" target="_blank" class="news-link">An Indian government official said there are currently no plans to restrict capital outflows.</a> [17] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/962/038.htm" target="_blank" class="news-link">AI 智能体代替部分人工，印度外包软件巨头塔塔咨询服务宣布放缓招聘速度、承诺不打算裁员</a> [17] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/www-wc2026-ai-top?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">www.wc2026-ai.top</a> [17] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabf7-6cbd-7aa2-9d5c-7d847b91549b" target="_blank" class="news-link">An Indian government official said the government provided about 1.2 trillion rupees in subsidies to oil marketing companies in the first 78 days after the outbreak of war in Iran because the companies did not raise retail fuel prices.</a> [18] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3774176" target="_blank" class="news-link">AI风暴暂息，美股盘前芯片股持续反弹、万国数据急涨8%，韩股收涨8.2%，油价走低</a> [18] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1219110" target="_blank" class="news-link">写了一个 Chrome 插件《飞书文档 AI 助手》，欢迎大家试用</a> [18] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabf6-23bf-7aa2-9d5c-612ca0e2c8c1" target="_blank" class="news-link">An Indian government official said Middle East tensions have not had an adverse impact on remittances.</a> [21] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabf5-cf1d-7aa2-9d5c-5d51c56a6294" target="_blank" class="news-link">Indian government will reassess spending priorities in October-November, an official said.</a> [22] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-09/%E5%9B%BD%E5%8F%91%E4%BC%9A%E4%B8%BB%E5%A7%94%E7%A7%B0ai%E4%B8%BA%E5%B0%91%E5%AD%90%E9%AB%98%E9%BD%A1%E5%8C%96%E6%88%98%E7%95%A5%E8%A7%A3%E6%96%B9-f8038a" target="_blank" class="news-link">国发会主委称AI为少子高齡化战略解方</a> [22] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabf5-9c23-7aa2-9d5c-509b9709010a" target="_blank" class="news-link">An Indian government official said the government will take measures to promote net inflows of foreign capital.</a> [23] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabf5-6e59-7aa2-9d5c-4c2bb6c784fc" target="_blank" class="news-link">An Indian government official said Q1 GDP growth is expected to remain stable despite external headwinds.</a> [24] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7648866670523875363" target="_blank" class="news-link">我读了一遍 Babel 编译后的 async/await，终于搞懂了它的原理（附 20 行手写实现）</a> [24] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-09/spacex%E7%A7%B0%E8%BD%A8%E9%81%93ai%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E6%8A%80%E6%9C%AF%E9%97%A8%E6%A7%9B%E4%B8%8D%E9%AB%98-d90a66" target="_blank" class="news-link">SpaceX称轨道AI数据中心技术门槛不高</a> [26] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabf3-376e-7aa2-9d5c-35f315e66809" target="_blank" class="news-link">An Indian government official said economic growth is not under pressure and domestic consumption is supporting activity.</a> [27] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabf3-0e5f-7aa2-9d5c-293bb2bda62f" target="_blank" class="news-link">An Indian government official said the Fertiliser Ministry is seeking to double budgeted subsidies as global fertilizer prices rise.</a> [28] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-09/%E8%81%94%E5%90%88%E5%9B%BD%E4%BC%B02030%E5%B9%B4ai%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E8%80%97%E6%B0%B4%E8%B6%85%E5%85%A8%E7%90%83%E4%BA%BA%E5%8F%A3%E9%A5%AE%E6%B0%B4%E9%9C%80%E6%B1%82-c588ef" target="_blank" class="news-link">联合国估2030年AI数据中心耗水超全球人口饮水需求</a> [28] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7648651980891242547" target="_blank" class="news-link">姚顺雨这次访谈，腾讯终于把 AI 下半场讲明白了</a> [29] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eabf0-0f8d-7aa2-9d5c-18251a0fe985" target="_blank" class="news-link">European Commission spokesman said the Commission has raised concerns with Albanian authorities over a Kushner-linked luxury resort real-estate project.</a> [30] <font color='grey'>- 19时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">7</td>
+                <td class="percentage">1.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2394752" target="_blank" class="news-link">美方将阿里巴巴、比亚迪等列入“涉军”清单，外交部：敦促美方停止无理打压中企</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tojgYoyeXn" target="_blank" class="news-link">美方将阿里巴巴等中企列入“涉军”清单，中方：坚决反对</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2394636" target="_blank" class="news-link">阿里巴巴、百度、药明康德回应“被美国防部列入中国军工企业名单”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E7%99%BE%E5%BA%A6%E8%94%9A%E6%9D%A5%E7%B4%A7%E6%80%A5%E5%85%AC%E5%91%8A%23&amp;t=31&amp;band_rank=6&amp;Refer=top" target="_blank" class="news-link">阿里巴巴百度蔚来紧急公告</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202606/0973746.html" target="_blank" class="news-link">阿里巴巴接洽核电央企 探讨建小型反应堆为数据中心供电</a> [13] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260609/1071765669.html" target="_blank" class="news-link">阿里巴巴称五角大楼将其列入中国军工企业名单毫无依据</a> [17]</div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/962/026.htm" target="_blank" class="news-link">消息称阿里巴巴接洽核电央企，探讨用小型反应堆为数据中心供电</a> [27] <font color='grey'>- 19时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%9B%A0ChatGPT%E4%B8%8E%E6%AF%8D%E4%BA%B2%E4%BA%89%E5%90%B5%E5%90%8E%E6%AD%BB%E4%BA%A1" target="_blank" class="news-link">美大学生因ChatGPT与母亲争吵后死亡</a> [14] <font color='grey'>- 19时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7648030233720012810" target="_blank" class="news-link">折腾了一下午，终于让Codex用上了DeepSeek</a> [25] <font color='grey'>- 19时21分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
