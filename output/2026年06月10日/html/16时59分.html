@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 467</p><p>生成时间: 2026-06-10 16:59:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">42</td>
+                <td class="percentage">8.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb0a9-71b0-7aad-8123-21c315f3c378" target="_blank" class="news-link">China issues revised national standard for post-assembly inspection of urban rail vehicles; effective Nov 1, 2026</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/aiden-brain?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Aiden Brain</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610164119690800" target="_blank" class="news-link">晶泰科技与国际药企达成超4亿美元AI药物发现合作</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb0a7-ee69-7aad-8123-12d09020dc16" target="_blank" class="news-link">German Institute for Economic Research (DIW Berlin) warns an energy-price shock from a war in Iran raises the risk of Germany slipping into a technical recession this year.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3774299" target="_blank" class="news-link">微信AI联手“华米OV荣”搞大动作！颠覆电商App生态，苹果危了？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/962/511.htm" target="_blank" class="news-link">工信部：大力发展 AI 手机和电脑、智慧家庭、智能穿戴设备等产品</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb0a7-e200-7aad-8123-0d89d4934bc4" target="_blank" class="news-link">German Economic Institute (IW) cut its 2026 GDP growth forecast to 0.5% from 1.0%, said the economy may contract in Q2 and Q3, and expects 0.8% growth in 2027.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%A4%8F%E5%A5%87%E6%8B%89%E9%82%80%E8%AF%B7%E4%BD%A0%E6%9D%A5%E8%B7%B3Dai%20Dai" target="_blank" class="news-link">夏奇拉邀请你来跳Dai Dai</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb0a6-fe21-7aad-8123-003f2d79840f" target="_blank" class="news-link">Amitabh Kumar, deputy secretary at India&#x27;s Ministry of Commerce, said India expects the US will review anti-dumping duties on Indian solar products.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-10/anthropic%E5%90%91%E5%85%AC%E4%BC%97%E5%BC%80%E6%94%BE%E6%9C%80%E5%BC%BAai%E6%A8%A1%E5%9E%8Bclaude-fable-5-a04919" target="_blank" class="news-link">Anthropic向公众开放最强AI模型Claude Fable 5</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3117351" target="_blank" class="news-link">微盟宣布接入微信AI生态</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb0a5-d95f-7aad-8122-f409d07e2b8a" target="_blank" class="news-link">Deputy Secretary at India&#x27;s commerce ministry Amitabh Kumar said India is considering imposing anti-dumping duties and other trade remedies to curb steel dumping.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/962/507.htm" target="_blank" class="news-link">韩国首次查获 AI 智能眼镜考试作弊案，两名 TOEIC 考生成绩作废</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb0a5-a7b9-7aad-8122-eae2eba8fc2d" target="_blank" class="news-link">Hapag-Lloyd CEO said the timing of a Strait of Hormuz reopening is unclear; even after reopening, returning to normal shipping operations will take time. The longer the crisis lasts, the longer recovery will take — currently he estimates at least three months.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb0a4-85d5-7aad-8122-e5b472c34b6b" target="_blank" class="news-link">ZELENSKIY said Ukrainian-made Flamingo missiles struck a military factory in Cheboksary and that Ukraine attacked the Novokuibyshevsk oil refinery in Russia.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3774282" target="_blank" class="news-link">AI需求驱动有色、计算机等涨价，中国5月PPI同比涨3.9%创四年新高，CPI同比增1.2%</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3774317" target="_blank" class="news-link">AI算力狂飙催生百亿需求，半导体硅片涨价拐点确认</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb0a3-88e5-7aad-8122-ddd4fc5a6af8" target="_blank" class="news-link">Iranian Foreign Ministry spokesperson Baghaei said the United States continues to violate the ceasefire agreement, undermining the diplomatic process.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb0a3-345d-7aad-8122-d6042a5256f2" target="_blank" class="news-link">Iran&#x27;s SNN news agency reported that Foreign Ministry spokesman BAGHAEI said, when asked about talks with the United States, that following last night&#x27;s clashes Tehran needs to reassess the situation.</a> [11] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2395630" target="_blank" class="news-link">AI热潮催生“芯”需求！三星考虑新建先进芯片封装厂</a> [12] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1219375" target="_blank" class="news-link">做 AI 图片网站一段时间后，我开始用 Agent 帮自己更新提示词库</a> [12] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb09c-9982-7aad-8122-c2f346082eb9" target="_blank" class="news-link">MOFCOM, seven agencies push market-based tourist trains; promote China–Laos, China–Kazakhstan, China–Vietnam and China–Russia cross-border products</a> [13] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb09c-3a3f-7aad-8122-bf82b9071ed0" target="_blank" class="news-link">MOFCOM and seven agencies target 160+ dedicated railway tourist trainsets nationwide by 2030</a> [14] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3774304" target="_blank" class="news-link">美股集中度加剧！AI巨头IPO估值达3.6万亿美元，约占纳指市值10%</a> [14] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb09b-3f80-7aad-8122-b3e4040474e2" target="_blank" class="news-link">MOFCOM and seven other agencies issued a notice titled Several Measures to Promote Integration of Rail and Tourism and Expand Service Consumption.</a> [15] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb099-9e69-7aad-8122-adb19106238f" target="_blank" class="news-link">Ukraine&#x27;s parliament revised the 2026 budget, approving a record $35 billion increase in defense spending.</a> [16] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2047598353421170561" target="_blank" class="news-link">苹果 AI 发布史上最大更新国区却不可用，是何原因导致？</a> [16] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1219367" target="_blank" class="news-link">你的 AI 助手总是&quot;失忆&quot;，原因就这 4 个（以及我们是怎么解决的）</a> [16] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/brainrot-blocks?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Brainrot Blocks</a> [17] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1219355" target="_blank" class="news-link">开源了一个 AI 原生法律工作台，类似法律行业的 VS Code</a> [19] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb095-6136-7aad-8122-8a600aee22d5" target="_blank" class="news-link">An Indian trade official said New Delhi expects the US to re-examine anti-dumping duties on Indian solar products.</a> [20] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-10/%E5%BE%AE%E4%BF%A1ai%E7%94%9F%E6%80%81%E9%A6%96%E6%89%B9%E5%86%85%E6%B5%8B%E5%90%8D%E5%8D%95%E5%85%AC%E5%B8%83-%E7%8C%AB%E7%9C%BC%E5%BE%97%E7%89%A9%E5%84%92%E6%84%8F%E6%8E%A5%E5%85%A5-bbedc9" target="_blank" class="news-link">微信AI生态首批内测名单公布 猫眼得物儒意接入</a> [20] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3774298" target="_blank" class="news-link">SpaceX将建超级卫星工厂：明年量产AI算力卫星，2030年目标直指100吉瓦</a> [20] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3774301" target="_blank" class="news-link">台积电5月营收同比增长30%，AI芯片需求旺盛支撑全年展望</a> [21] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb094-63e6-7aad-8122-7b26ba7526b9" target="_blank" class="news-link">Moore Threads open-sources MusaCoder, first code LLM fully trained on domestic full‑stack GPUs</a> [22] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7649018346516758591" target="_blank" class="news-link">AGENTS.md：你的AI代码助手，需要一份&quot;项目说明书&quot;</a> [22]</div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7648887289629360182" target="_blank" class="news-link">AI Infra 的真相：Go 没输，rust也不是取代</a> [23] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb090-0a63-7aad-8122-6a03c234daf0" target="_blank" class="news-link">Super Micro Computer (SMCI.O) shares fell 7.85% in pre-market trading after the company said it plans to raise $7.0 billion through an equity offering.</a> [24] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb08f-a891-7aad-8122-64bcead98d95" target="_blank" class="news-link">Vietnam National Oil Company said a Vietnamese-Thai corporate consortium will build a $1.95 billion LNG-fired power plant in Vietnam.</a> [25] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7649337767211515910" target="_blank" class="news-link">flutter_agent_lens 用 MCP 服务，将 Flutter DevTools 暴露给 AI</a> [25] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb08f-47e7-7aad-8122-5f60ac1683bc" target="_blank" class="news-link">SFC: Hong Kong licensed firms may continue serving existing mainland clients but cannot provide services inside mainland China</a> [26] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7648441001858007086" target="_blank" class="news-link">从零开始掌握AI应用开发：我的大模型学习路线图（RAG/Agent/MCP/全栈实践）</a> [29] <font color='grey'>- 16时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">0.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84536" target="_blank" class="news-link">Google Chrome 准备移除对 Manifest V2 的支持，杀死 uBlock Origin</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48471970" target="_blank" class="news-link">Google Chrome is killing all uBlock Origin bypasses, Edge, Opera to follow</a> [21] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/962/473.htm" target="_blank" class="news-link">安卓版火狐 Firefox 浏览器接入谷歌验证 API，社区质疑其偏离使命</a> [23] <font color='grey'>- 16时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">3</td>
+                <td class="percentage">0.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2048010218446001940" target="_blank" class="news-link">阿里合伙人委员会内网发帖，称钉钉管理「不是阿里文化该有的样子」，钉钉管理到底出了什么问题？该如何纠偏？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/962/506.htm" target="_blank" class="news-link">阿里千问上线“国内首个全周期高考志愿填报 Agent”，提供免费咨询服务</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%98%BF%E9%87%8C%E5%86%85%E9%83%A8%E5%8F%91%E6%96%87%E5%9B%9E%E5%BA%94%E3%80%8A%E7%BD%AE%E8%BA%AB%E9%92%89%E5%86%85%E3%80%8B" target="_blank" class="news-link">阿里内部发文回应《置身钉内》</a> [13] <font color='grey'>- 16时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">2</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3774291" target="_blank" class="news-link">更懂你的ChatGPT来了！通过做梦整理记忆，事实准确率83%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1219382" target="_blank" class="news-link">电报第一 3 万+会员的合租群居然是骗子群，涵盖所有合租业务 ChatGPT、Netflix、 YouTube、Spotify、Office 365、HBO、Surge 等服务 大家一定要小心！</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.21%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/962/497.htm" target="_blank" class="news-link">深蓝 S07 华为乾崑激光版新车型 6 月 13 日上市，搭载增程动力</a> [15] <font color='grey'>- 16时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
