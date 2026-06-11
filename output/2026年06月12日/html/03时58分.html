@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 275</p><p>生成时间: 2026-06-12 03:58:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">6.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb82e-cb22-7dd8-afca-4648f14a4fb4" target="_blank" class="news-link">President Trump said the US is taking action to lower seafood prices.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb82e-41eb-7dd8-afca-3ac7fd78f5af" target="_blank" class="news-link">US President Trump said he cannot attend the signing ceremony.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb82d-ef3b-7dd8-afca-30a1f4578009" target="_blank" class="news-link">President Trump said the Iran agreement could be signed this weekend; Vice President Pence will attend.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84551" target="_blank" class="news-link">OpenAI 称中国关联账户试图煽动美国反数据中心情绪</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb82d-54fa-7dd8-afca-2aa2aa1342b5" target="_blank" class="news-link">U.S. President Trump said multiple ships were destroyed in the Strait of Hormuz.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb82c-b2a7-7dd8-afca-21544805d4e3" target="_blank" class="news-link">President Trump said he just spoke with the leaders of Qatar, the UAE and Saudi Arabia.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb82c-7b55-7dd8-afca-1c40e8e0547a" target="_blank" class="news-link">U.S. President Trump said the Strait of Hormuz will be open immediately after we sign the agreement.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3774382" target="_blank" class="news-link">华尔街激辩“Token经济学”：AI账单失控了吗？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb82b-5c6e-7dd8-afc9-f5ca23ab136b" target="_blank" class="news-link">US President Trump said the document is nearing its final stage.</a> [12] <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb82b-3ed3-7dd8-afc9-e9bef320e570" target="_blank" class="news-link">President Trump said the signing of an Iran agreement may take place in Europe.</a> [13] <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb82b-0ad2-7dd8-afc9-e1f598f25e07" target="_blank" class="news-link">Trump said a final agreement may be reached within the next few days.</a> [14] <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48447598" target="_blank" class="news-link">Ear Training Practice Exercises</a> [14] <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb82a-edca-7dd8-afc9-dbf6dd738997" target="_blank" class="news-link">Trump said the US had just reached a major reconciliation with Iran.</a> [15] <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb82a-7a06-7dd8-afc9-d0ede6989f0b" target="_blank" class="news-link">Spot gold reclaims $4,200 level</a> [16] <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48446673" target="_blank" class="news-link">How Terry Tao became an evangelist for AI in math</a> [19] <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-11/%E7%B4%A2%E5%B0%BCai%E8%A3%81%E5%88%A4%E6%8A%80%E6%9C%AF%E5%8D%87%E7%BA%A72026%E4%B8%96%E7%95%8C%E6%9D%AF%E5%87%BA%E7%95%8C%E5%88%A4%E5%AE%9A-c3f42e" target="_blank" class="news-link">索尼AI裁判技术升级2026世界杯出界判定</a> [22] <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb81b-5fe0-7dd8-afc9-9065c3ac10d2" target="_blank" class="news-link">CNBC reports allocations for SpaceX&#x27;s IPO are largely finalised; just over 20% of the offering will be allocated to retail investors.</a> [24] <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb818-9b23-7dd8-afc9-6934dad3f2c6" target="_blank" class="news-link">New York Fed said its Open Market Trading Desk plans to conduct roughly $16.5 billion of reinvestment purchases from June 12 through July 13.</a> [29] <font color='grey'>- 03时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1219766" target="_blank" class="news-link">用 Claude Code 撸了个 Claude Code 的 Linux 桌面版（非官方），已开源</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48492210" target="_blank" class="news-link">Claude Fable 5: mid-tier results on coding tasks</a> [17] <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48493786" target="_blank" class="news-link">Show HN: A police department for your Claude Code agents</a> [25] <font color='grey'>- 03时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1219770" target="_blank" class="news-link">gemini 开始封号了？？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时58分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOGL" target="_blank" class="news-link">谷歌A</a> [22] <font color='grey'>- 03时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-11/%E4%BA%94%E8%A7%92%E5%A4%A7%E6%A5%BC%E6%9B%B4%E6%96%B0%E6%B6%89%E5%8D%8E%E5%86%9B%E6%96%B9%E4%BC%81%E4%B8%9A%E6%B8%85%E5%8D%95-%E9%98%BF%E9%87%8C%E7%99%BE%E5%BA%A6%E6%AF%94%E4%BA%9A%E8%BF%AA%E5%9C%A8%E5%88%97-271591" target="_blank" class="news-link">五角大楼更新涉华军方企业清单 阿里百度比亚迪在列</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
