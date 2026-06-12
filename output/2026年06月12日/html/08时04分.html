@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 228</p><p>生成时间: 2026-06-12 08:04:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">8.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb8fe-a94a-7dd8-afcc-8c2d24508d30" target="_blank" class="news-link">Petrobras CEO said drilling will reach an oil-bearing formation in the Amazonas region in one month.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5250716" target="_blank" class="news-link">佑驾创新携手乐动机器人，抢占物理AI+具身智能竞争高地</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3774467" target="_blank" class="news-link">贝索斯AI创业公司Prometheus完成120亿美元融资，估值达410亿美元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3774468" target="_blank" class="news-link">报道：Google疑虑致Crusoe被迫退出，怀俄明州AI数据中心项目并未终止</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb8e2-505f-7dd8-afcc-5dfdea988fd1" target="_blank" class="news-link">Iranian media cited military sources saying the violating vessel was an oil tanker that, after warnings from the IRGC navy, was forced to comply with a &quot;navigation ban&quot; in the Strait of Hormuz.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3774463" target="_blank" class="news-link">OpenAI收购云环境初创公司Ona，强化AI编程助手Codex竞争力</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/963/239.htm" target="_blank" class="news-link">OpenAI 收购初创公司 Ona，强化编程助手 Codex</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb8df-e19a-7dd8-afcc-530d51e72c5e" target="_blank" class="news-link">Iranian media, citing military sources, said explosions off Sirik were linked to confrontations with &#x27;violating vessels&#x27; attempting to transit the Strait of Hormuz.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48447598" target="_blank" class="news-link">Ear Training Practice</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/963/235.htm" target="_blank" class="news-link">世界杯期间苹果营销发力：AirPods Pro 3 具备全球最佳入耳式主动降噪</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-11/%E5%85%89%E4%BC%8F%E4%BC%81%E4%B8%9A%E8%BD%AC%E5%90%91aidc%E4%B8%8E%E5%A4%AA%E7%A9%BA%E8%83%BD%E6%BA%90%E5%AF%BB%E6%B1%82%E5%A2%9E%E9%95%BF-7a205d" target="_blank" class="news-link">光伏企业转向AIDC与太空能源寻求增长</a> [11] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48495575" target="_blank" class="news-link">Shall we play a game? My AI nuclear simulation</a> [11] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-11/ai%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%8E%A8%E9%AB%98%E7%AE%97%E5%8A%9B%E7%94%A8%E7%94%B5%E6%88%90%E6%9C%AC%E5%80%92%E9%80%BC%E4%BE%9B%E7%94%B5%E4%BD%93%E7%B3%BB%E5%8F%98%E9%9D%A9-c4d180" target="_blank" class="news-link">AI大模型推高算力用电成本倒逼供电体系变革</a> [12] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-11/ai%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E5%BB%BA%E8%AE%BE%E5%82%AC%E7%94%9F%E7%94%B5%E5%8A%9B%E6%95%A3%E7%83%AD%E5%B0%81%E8%A3%85%E5%85%A8%E4%BA%A7%E4%B8%9A%E9%93%BE%E6%9C%BA%E9%81%87-a35a1b" target="_blank" class="news-link">AI数据中心建设催生电力散热封装全产业链机遇</a> [13] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/963/232.htm" target="_blank" class="news-link">苹果高管克雷格明确表态：全新 Siri 不会成为你的 AI 女友 / 男友</a> [13] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb8ba-c765-7dd8-afcc-188105c1a040" target="_blank" class="news-link">Sources said NVIDIA (NVDA.O) hired veteran lobbyist Bruce Andrews as its Washington, D.C. head of government affairs. Andrews previously served as Intel&#x27;s head of government affairs and as an Obama administration official.</a> [15] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb8b7-957d-7dd8-afcc-1244f89b11d8" target="_blank" class="news-link">Iran&#x27;s Fars news agency said Iranian forces prevented an uncoordinated &#x27;non-compliant&#x27; tanker from entering the Strait of Hormuz.</a> [16] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eb8a9-3194-7dd8-afcb-f87f41933c6f" target="_blank" class="news-link">TASNIM NEWS said there have been no shell impacts or clashes in the Sirik area as of now. Sounds heard originated at sea and were linked to the Strait of Hormuz.</a> [19] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48497260" target="_blank" class="news-link">OpenAI Prepping for On-Prem Product?</a> [29] <font color='grey'>- 08时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/963/240.htm" target="_blank" class="news-link">2nm 工艺，消息称三星将代工谷歌 TPU v10 的 I/O Die 芯片</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48496396" target="_blank" class="news-link">Why I&#x27;m Forced to Say Farewell: Google Management Has Lost Its Moral Compass</a> [12] <font color='grey'>- 08时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/963/244.htm" target="_blank" class="news-link">消息称 Anthropic 寻求美国数据中心租约，希望获得谷歌母公司财务支持</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
