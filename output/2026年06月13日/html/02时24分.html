@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 240</p><p>生成时间: 2026-06-13 02:24:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">21</td>
+                <td class="percentage">8.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84565" target="_blank" class="news-link">AI 智能体试图扫描 DN42 时把主人搞破产</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1220075" target="_blank" class="news-link">为了用 Deepseek 写小说，我做了一个 AI 小说 IDE</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ebd02-1272-7dd8-afe5-1356c2a28f81" target="_blank" class="news-link">Boeing (BA.N) said after evaluation its T-7A trainer does not meet the US Navy’s undergraduate jet training system requirements and has notified the Navy it will not bid in the current solicitation.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-12/%E4%B8%AD%E5%9B%BDai%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%A2%84%E6%B5%8B%E8%A5%BF%E7%8F%AD%E7%89%99%E5%B0%86%E5%A4%BA%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%A0%E5%86%9B-39899f" target="_blank" class="news-link">中国AI大模型预测西班牙将夺世界杯冠军</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ebced-0bbb-7dd8-afe4-e3a1dab4adec" target="_blank" class="news-link">IRNA reported that an Iranian foreign ministry spokesperson said both sides have reached consensus on most issues under negotiation and are now in the final stage of internal decision-making.</a> [14] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ebcec-710b-7dd8-afe4-dfa460c66672" target="_blank" class="news-link">IMF projects Ukraine&#x27;s GDP growth will slow to 1.0–1.6% in 2026 due to the Russia-Ukraine conflict and spillovers from the Middle East war.</a> [15] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ebcec-3bbb-7dd8-afe4-d5e728f9a62a" target="_blank" class="news-link">IMF said Ukraine had met all quantitative performance criteria and targets as of end-March but failed to complete one structural benchmark. IMF staff and Ukrainian authorities agreed to adjust the reform timetable and adopt corrective measures to address deviations and keep the programme on track.</a> [16] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ebceb-f637-7dd8-afe4-ca8b6846fecd" target="_blank" class="news-link">IMF said it reached a staff-level agreement with Ukraine on an $8.1bln loan program; subject to IMF Executive Board approval, the accord would clear the way for about $690mln in disbursement.</a> [17] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ebcea-edf4-7dd8-afe4-c5067d11e1c1" target="_blank" class="news-link">A senior U.S. government official said Iran&#x27;s civilian nuclear facilities could be acceptable.</a> [18] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ebce8-7e6c-7dd8-afe4-b337a1051057" target="_blank" class="news-link">Iran Foreign Ministry spokesperson said they cannot comment on the timing or location of signing a memorandum of understanding until Iran reaches a final decision.</a> [20] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ebce6-95cc-7dd8-afe4-acf4912386b1" target="_blank" class="news-link">A senior U.S. government official said the U.S. and Iran have established a confidence-building mechanism intended to facilitate reaching an agreement.</a> [21] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48493512" target="_blank" class="news-link">There Is Life Before Main in Rust</a> [21] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ebce4-c09d-7dd8-afe4-a1f1e6468526" target="_blank" class="news-link">Iranian state TV cited the foreign ministry spokesman as saying the ministry cannot confirm any details of a memorandum of understanding reported by media.</a> [22] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ebce4-602e-7dd8-afe4-9a45be91f8f1" target="_blank" class="news-link">A senior U.S. government official said Europe has been discussed as the agreement&#x27;s signing venue but no decision has been made.</a> [23] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ebce2-fd30-7dd8-afe4-96bab137c3f7" target="_blank" class="news-link">U.S. Energy Secretary Wright said U.S. refiners can still absorb more Venezuelan crude.</a> [24] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ebce2-9250-7dd8-afe4-8ad86ec9e77e" target="_blank" class="news-link">A senior US government official said Iran&#x27;s Supreme Leader is satisfied with progress in talks.</a> [25] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ebce2-781e-7dd8-afe4-85ec407ac2c4" target="_blank" class="news-link">A senior U.S. government official said the U.S. will need to study how to ensure implementation of the agreement and envisions a 60-day technical negotiation.</a> [26] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E4%BD%9C%E5%AE%B6%E8%87%AA%E6%9B%9D%E7%94%A8AI%E5%86%99%E4%BD%9C&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">作家自曝用AI写作</a> [26] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ebce0-a871-7dd8-afe4-7591ac9d8225" target="_blank" class="news-link">A senior U.S. government official said Iran pledged never to develop nuclear weapons.</a> [28] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ebcdf-ed2d-7dd8-afe4-68fc2f842b8e" target="_blank" class="news-link">A senior US government official said the agreement with Iran includes a broad regional peace component covering Lebanon, Iran and Gulf states.</a> [29] <font color='grey'>- 02时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ebcde-b5f5-7dd8-afe4-6612d29ca9b3" target="_blank" class="news-link">A senior U.S. government official said the U.S. and Iran have a text that both sides find acceptable.</a> [30] <font color='grey'>- 02时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48507278" target="_blank" class="news-link">&quot;Don&#x27;t You Just Upload It to ChatGPT?&quot;</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2048008553709954058" target="_blank" class="news-link">如何看待阿里合伙人委员会发的内部帖《有情有义有成长，才是阿里文化》回应《置身钉内》？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
