@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 222</p><p>生成时间: 2026-06-13 21:06:48</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">10.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec102-c632-7dd8-afea-faa22df98938" target="_blank" class="news-link">ISRAELI MILITARY said it located and killed two armed militants in a combat zone in southern Lebanon over the past 24 hours.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/963/943.htm" target="_blank" class="news-link">华为发布 DevEco Code 鸿蒙开发 AI Agent 工具，支持代码编写、编译构建、设备运行等能力</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec0d9-3495-7dd8-afea-e6bcde04b305" target="_blank" class="news-link">Hezbollah said it fired rockets at Israeli soldiers and a concentration of vehicles near the town of Majdal Zoun in southern Lebanon.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3774595" target="_blank" class="news-link">亚马逊之后，Meta也限制AI使用量了！当大厂都用不起Token，大模型巨头该“控制利润率”了？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec0d8-f5ef-7dd8-afea-d9b70c759bf5" target="_blank" class="news-link">HEZBOLLAH said it shot down an Israeli Hermes 450 UAV with a missile over Kardali in southern Lebanon.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1220188" target="_blank" class="news-link">用 AI 写了一个 AI Coding Agent，欢迎试用和提意见</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec0d6-1c49-7dd8-afea-cbfbfe163512" target="_blank" class="news-link">Iran says service fees for Strait of Hormuz passage permissible</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48516585" target="_blank" class="news-link">Thoughts on AI and Jobs</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3773951" target="_blank" class="news-link">美国大厂等不及了：SOFC成为AI数据中心自发电的核心</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec0c6-b89e-7dd8-afea-b760a13a094e" target="_blank" class="news-link">Israel Defense Forces (IDF) said earlier air-raid sirens sounded in the Margaliot area of northern Israel after suspected hostile aerial-vehicle infiltration; a suspected aerial target crashed in an IDF operational zone in southern Lebanon. No casualties reported.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3774577" target="_blank" class="news-link">SpaceX上市幕后大戏：抢跑OpenAI、疯狂并购装资产，华尔街全程被牵着鼻子走</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/andrewyng/aisuite" target="_blank" class="news-link">andrewyng / aisuite</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec0b9-edbc-7dd8-afea-a9c841e8b215" target="_blank" class="news-link">Israeli military says air-raid sirens activated in the Margaliot area in northern Israel after suspected hostile aircraft penetration.</a> [11] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec0b7-c935-7dd8-afea-a50c775c6ada" target="_blank" class="news-link">Pakistani Prime Minister Sharif said he believes a historic agreement between Washington and Tehran will lay the groundwork for lasting peace.</a> [12] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools" target="_blank" class="news-link">x1xhlol / system-prompts-and-models-of-ai-tools</a> [14]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec0af-57d0-7dd8-afea-8dc6da86330a" target="_blank" class="news-link">UK Maritime Trade Operations said an oil tanker was struck by an unidentified object in waters near Oman.</a> [15] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7650812029468413450/" target="_blank" class="news-link">太空AI算力泡沫有多大</a> [16] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec0ad-3934-7dd8-afea-72aab172b995" target="_blank" class="news-link">Pakistan Prime Minister Sharif said the U.S. and Iran will hold technical-level talks next week.</a> [18] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec0ab-78f7-7dd8-afea-68f1c35f2ce1" target="_blank" class="news-link">Ukraine&#x27;s Security Service (SBU) said Ukrainian drones struck the Taman oil and gas terminal in Russia&#x27;s Krasnodar region.</a> [19] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/payram?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">PayRam — Payment Gateway for AI Agents</a> [19] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec0a7-b9af-7dd8-afea-61dd89728dee" target="_blank" class="news-link">Pakistan Prime Minister SHARIF said Pakistan is preparing to immediately conduct an electronic signing of a U.S.-Iran peace agreement once the deal is finalized.</a> [20] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec0a7-2e04-7dd8-afea-5d9ddbb23240" target="_blank" class="news-link">Pakistan&#x27;s prime minister Sharif said a peace agreement is closer than ever and could be finalized within 24 hours.</a> [21] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec0a0-3491-7dd8-afea-5062e1f1bfdd" target="_blank" class="news-link">Iranian foreign minister Alaghezi said Iran and Oman will issue a joint statement on the Strait of Hormuz.</a> [22] <font color='grey'>- 21时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec09b-0f99-7dd8-afea-43a2dce34467" target="_blank" class="news-link">China Railway Guangzhou Bureau suspends some services over next two days due to heavy rain</a> [24] <font color='grey'>- 21时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
