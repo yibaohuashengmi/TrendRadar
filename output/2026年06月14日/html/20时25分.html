@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 251</p><p>生成时间: 2026-06-14 20:25:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">20</td>
+                <td class="percentage">7.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec5e8-25f7-7dd8-aff1-532ab5aef0ed" target="_blank" class="news-link">Israeli airstrike on Beirut&#x27;s Dahieh kills one, wounds at least four</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959235" target="_blank" class="news-link">AI牛市怎么办？硬核价投大佬：我不买</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec5db-99de-7dd8-aff1-3cd7189b3e30" target="_blank" class="news-link">Lebanese National News Agency says preliminary figures show an Israeli airstrike on Beirut&#x27;s southern suburbs killed one and wounded four.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3774624" target="_blank" class="news-link">AI债务浪潮悄然成为全球信贷脉冲飙升的最大推手</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec5da-8ecb-7dd8-aff1-308d47bb0fe9" target="_blank" class="news-link">Visual (China) Cultural Development Co., Ltd. has filed a listing application with HKEX; sole sponsor is Huatai International.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3774608" target="_blank" class="news-link">“小巴菲特”：我不投AI！最大遗憾错过早期Palantir少赚数百亿美元，看好被市场“烧伤”的商业地产</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec5da-29a9-7dd8-aff1-2ed01876f826" target="_blank" class="news-link">Israel&#x27;s Channel 12 said the target of an Israeli strike on the southern suburbs of Beirut was a Hezbollah communications-system official.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec5d8-07ac-7dd8-aff1-224ff45fbeee" target="_blank" class="news-link">Guangdong raises flood-control emergency response to Level III</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec5d1-4c64-7dd8-aff1-1d13d8c85278" target="_blank" class="news-link">Israel Defense Forces said it struck a Hezbollah command center in Beirut’s Dahiyeh district in response to the group launching aerial targets toward Israel, and that measures were taken before the strike to limit civilian harm.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3774610" target="_blank" class="news-link">谷歌官宣3万字路线图：1亿人类水平的AI就是ASI！</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec5d0-5df1-7dd8-aff1-14b5ab92d239" target="_blank" class="news-link">Iran negotiator adviser outlines proposed US-Iran memorandum details</a> [11] <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/1click-report?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">1ClickReport — Marketing AI in Claude</a> [13] <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec5b8-dabb-7dd8-aff0-f478cf0d9f1d" target="_blank" class="news-link">The Israel Defense Forces said it carried out precision strikes on Hezbollah infrastructure in Beirut’s Dahiyeh; further details will be released later.</a> [15] <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec5b5-7219-7dd8-aff0-ed051f01c083" target="_blank" class="news-link">Israeli military said it struck Hezbollah targets in the southern suburbs of Beirut, Lebanon, in response to Hezbollah firing into Israeli territory.</a> [16] <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec5ae-bd7c-7dd8-aff0-ddc2c88dd35c" target="_blank" class="news-link">Libya&#x27;s National Oil Corporation said Mabrouk oilfield production has reached 30,000 b/d.</a> [18] <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/141.htm" target="_blank" class="news-link">外媒曝蚂蚁集团正秘密测试 AI 版支付宝</a> [18] <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec59e-ba8a-7dd8-aff0-c58a587c0245" target="_blank" class="news-link">Muscat Securities Market said trading hours will be extended to 4:00pm local time.</a> [21] <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec59e-7a11-7dd8-aff0-bfe9da9ff21e" target="_blank" class="news-link">Oman&#x27;s Muscat Securities Market said a technical issue has been resolved and intraday trading has resumed.</a> [22] <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec592-b058-7dd8-aff0-a2b17f9cf3da" target="_blank" class="news-link">Israeli military said sirens sounded across multiple locations in southern Israel.</a> [25] <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/639948323.html" target="_blank" class="news-link">你永远不知道印度人有多离谱，他们甚至不会用ai</a> [30] <font color='grey'>- 20时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.2%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1220363" target="_blank" class="news-link">用 Claude Code 写小说、拍短片和科幻短篇《存续》</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7650441125600165898" target="_blank" class="news-link">如何评价 Claude Fable 5 全球暂停访问？</a> [25] <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7649936611648667686" target="_blank" class="news-link">Claude Code 的产品哲学：当价值观成为架构</a> [30] <font color='grey'>- 20时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">1.2%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/162.htm" target="_blank" class="news-link">华为朱懂东称鸿蒙平板连续两年在国内绝对领先，最近存储上涨市场份额竟还在提升</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/157.htm" target="_blank" class="news-link">华为朱懂东称鸿蒙 PC 销售表现远超预期，大折叠 MateBook Fold 占 2 万元级轻薄本市场 70% 份额</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/153.htm" target="_blank" class="news-link">华为朱懂东谈 MatePad Edge 被骂性能不行：平板性能当然不如电脑，主要是探索二者交融界限</a> [11] <font color='grey'>- 20时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7649956328409923619" target="_blank" class="news-link">Google Play 发版链路全面重构：合规前置、审核自动化、生态全面收紧</a> [29] <font color='grey'>- 20时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202606/1474147.html" target="_blank" class="news-link">阿里巴巴辟谣合伙人周靖人辞职传言</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
