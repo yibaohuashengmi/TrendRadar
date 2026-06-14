@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 227</p><p>生成时间: 2026-06-14 09:56:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">6.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec3c6-6554-7dd8-afee-95037ad2a421" target="_blank" class="news-link">CENTCOM said U.S. forces have forced 141 vessels to change course and disabled nine during Iranian navy blockade operations; 42 humanitarian aid vessels were allowed to transit.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2073177-1-1.html" target="_blank" class="news-link">Nvidia 位于 AI 产业链中的 Core 位置</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1220069" target="_blank" class="news-link">在 AI 盛行的今天我请教一个关于 ZooKeeper 的技术问题</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec3a5-db20-7dd8-afee-8393c93e5ffa" target="_blank" class="news-link">Recording shows Iran&#x27;s Islamic Revolutionary Guard Corps warned ships not to transit Strait of Hormuz</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec399-9ff0-7dd8-afee-7c5fc1c3c783" target="_blank" class="news-link">Iran says it must be paid for services in the Strait of Hormuz</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec390-99d1-7dd8-afee-705b38a2389d" target="_blank" class="news-link">ISRAELI MILITARY said an alert that just sounded reporting enemy aircraft intrusion over the Eilat area has been confirmed as a false alarm.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2399163" target="_blank" class="news-link">【早报】美将部分中企列入“中国军事企业清单”，商务部回应；OpenAI被查</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3774579" target="_blank" class="news-link">AI版次贷危机的味道？1.8万亿美元表外敞口，正成为这轮狂欢的定时炸弹</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3774574" target="_blank" class="news-link">OpenAI突遭联合调查、Anthropic顶级模型被叫停，美国AI监管风暴升级</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48522310" target="_blank" class="news-link">Ancient genome duplications laid the foundations of complex brains</a> [16] <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48522675" target="_blank" class="news-link">State Attorneys General Are Investigating OpenAI</a> [22] <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202606/1474100.html" target="_blank" class="news-link">美国政府封杀Anthropic最新模型 州检察长联手调查OpenAI</a> [24] <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/963/999.htm" target="_blank" class="news-link">三星欲打造海上浮动 AI 数据中心，以解决电力与冷却难题</a> [25] <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/963/997.htm" target="_blank" class="news-link">IT早报 0614：一季度国内汽车行业利润率降至历史新低 3.2%；JetBrains IDE 适配鸿蒙；张雪机车夺取赛季第 6 冠；华为鸿蒙 NEXT 座舱预计年底商用...</a> [27] <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/963/995.htm" target="_blank" class="news-link">强制抽调员工组建 AI 团队，Meta 内部怨声载道</a> [29] <font color='grey'>- 09时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/003.htm" target="_blank" class="news-link">广汽与华为乾崑联合打造：启境获广州 L3 级自动驾驶道路测试许可</a> [21] <font color='grey'>- 09时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7650929828056534571/" target="_blank" class="news-link">华为鸿蒙OS 7如何重塑手机竞争</a> [27] <font color='grey'>- 09时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3774600" target="_blank" class="news-link">Anthropic全球下架Mythos和Fable模型的“幕后推手”：“主要股东”亚马逊CEO</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/963/998.htm" target="_blank" class="news-link">谷歌推出搜索智能体功能，可主动帮你盯全网信息</a> [26] <font color='grey'>- 09时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
