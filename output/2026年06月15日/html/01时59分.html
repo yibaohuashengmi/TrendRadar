@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 176</p><p>生成时间: 2026-06-15 01:59:07</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">6.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec72d-a308-7dd8-aff5-695ff6bfde58" target="_blank" class="news-link">Channel 12 cited an Israeli assessment that Trump will soon announce he will &quot;give&quot; Iran certain concessions in exchange for Iran refraining from responding to Israel’s strike in Beirut.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4118745_212_1" target="_blank" class="news-link">加拿大总理马克·卡尼表示，美国出台出口禁令，禁止境外各方获取Anthropic公司最新款人工智能产品，这一举措凸显出仅依赖少数几款主流人工智能工具所潜藏的风险。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec71a-0ae4-7dd8-aff5-358db4a2d7f4" target="_blank" class="news-link">A senior Israeli official told Channel 12 that Trump&#x27;s statement was &quot;a loud slap&quot;, saying &quot;constraints have escalated; there is an expectation that we not strike anywhere in Lebanon,&quot; which the official said is inconsistent with the role of a strategic ally.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec710-13bf-7dd8-aff5-2fea90b86264" target="_blank" class="news-link">Iranian state media quoted the Supreme Joint Military Command saying it is waiting for any &#x27;smallest mistake&#x27; by the &#x27;enemy&#x27; so it can &#x27;teach them a lesson they will never forget&#x27;.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec70d-133a-7dd8-aff5-15ec6586d521" target="_blank" class="news-link">Iran&#x27;s Supreme Joint Military Command said it was &#x27;ready to fire at any time, aiming at the enemy&#x27;s heart&#x27;.</a> [13] <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec6f2-b6d9-7dd8-aff4-e9c3b3388be9" target="_blank" class="news-link">USHAKOV said Trump told Putin an Iran agreement is imminent, and Putin said he was pleased the conflict was about to end.</a> [18] <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec6f1-f05f-7dd8-aff4-dcfeb6937cde" target="_blank" class="news-link">Ushakov said Trump informed Putin that U.S. presidential envoy Witkoff and Trump’s son-in-law Kushner will visit Russia soon.</a> [20] <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec6f0-e823-7dd8-aff4-d03b79f5d887" target="_blank" class="news-link">Russian presidential aide USHAKOV said US President Trump told President Putin that ending the war in Ukraine is vital and that Trump was prepared to offer help.</a> [21] <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/639948323.html" target="_blank" class="news-link">你永远不知道印度人有多离谱，他们甚至不会用ai</a> [22] <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec6ec-bd2a-7dd8-aff4-c2269a2a4975" target="_blank" class="news-link">The chair of Iran&#x27;s parliamentary National Security Committee said a &quot;strong response is imminent&quot; following an Israeli strike on Beirut&#x27;s southern suburbs.</a> [23] <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec6e7-36ec-7dd8-aff4-b62b92461669" target="_blank" class="news-link">According to Israel&#x27;s Channel 12, US President Trump said he told Netanyahu on a call, &quot;What are you doing?&quot;</a> [25] <font color='grey'>- 01时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec6e4-297e-7dd8-aff4-a9eec3dc243f" target="_blank" class="news-link">US Vice President Vance said he will decide after the midterm elections whether to run in the 2028 presidential race.</a> [26] <font color='grey'>- 01时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48529190" target="_blank" class="news-link">FTX&#x27;s former Anthropic stake would be worth about $75B at today&#x27;s valuation</a> [28] <font color='grey'>- 01时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
