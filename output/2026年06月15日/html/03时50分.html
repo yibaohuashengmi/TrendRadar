@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 121</p><p>生成时间: 2026-06-15 03:50:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">10.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec78e-0ca0-7dd8-aff6-6d6f0d24c8f0" target="_blank" class="news-link">Putin, Trump hold 55-minute call on Iran and Ukraine</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec789-01d6-7dd8-aff6-5c0077762bab" target="_blank" class="news-link">Iran&#x27;s parliament speaker said Lebanese fighters&#x27; sacrifices and Iran&#x27;s assertive diplomacy have ensured Lebanon&#x27;s sovereignty and territorial integrity.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec781-c77b-7dd8-aff6-46a1a52082fe" target="_blank" class="news-link">Mehr news agency reports the Iran Civil Aviation Organization said it has not issued any new NOTAMs restricting domestic flights.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec75d-ed9d-7dd8-aff6-1008d18df595" target="_blank" class="news-link">Trump: I will oppose the Foreign Intelligence Surveillance Act (FISA) bill if it is not paired with the Save America Act.</a> [12] <font color='grey'>- 03时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec757-65ab-7dd8-aff6-022f3fd1ca0c" target="_blank" class="news-link">Israeli media report an assessment that, despite Trump&#x27;s efforts to restrain Iran&#x27;s response, Iran will still launch an attack.</a> [14] <font color='grey'>- 03时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec744-4210-7dd8-aff5-ef73f7fd0efa" target="_blank" class="news-link">Iraq&#x27;s State Oil Marketing Organization (SOMO) said Iraq has exported 12 mln barrels of crude from its southern ports since early June.</a> [17] <font color='grey'>- 03时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec742-0fc2-7dd8-aff5-e4ed3ea9b983" target="_blank" class="news-link">Iraq&#x27;s state oil sales organization chief said Baghdad has asked Turkey to extend the Kirkuk-Ceyhan pipeline agreement by at least one year to allow more time to negotiate a new deal.</a> [18] <font color='grey'>- 03时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec741-92d1-7dd8-aff5-dff6b31b8e85" target="_blank" class="news-link">Missouri Highway Patrol said troopers have arrived to assist Butler Police and the Bates County Sheriff&#x27;s Office after a plane crashed near Butler Memorial Airport.</a> [19] <font color='grey'>- 03时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec73f-57ee-7dd8-aff5-d76b274e8b2e" target="_blank" class="news-link">Iran&#x27;s Supreme National Security Council secretary said parties have united to form a chain defending regional security after Israel&#x27;s strike in Lebanon, adding Lebanon is Iran&#x27;s soul and violations of Iran&#x27;s red lines will not be tolerated.</a> [20] <font color='grey'>- 03时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec73a-eaa3-7dd8-aff5-bb416cb3df46" target="_blank" class="news-link">Iran&#x27;s Supreme National Security Council secretary said &quot;Islamic fighters&quot; will respond soon to Israel&#x27;s strike in Lebanon.</a> [23] <font color='grey'>- 03时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec737-4ffc-7dd8-aff5-b054b3f09b41" target="_blank" class="news-link">Channel 15 reported Israel will not agree to refrain from responding to Iran, even if that is U.S. President Trump&#x27;s wish.</a> [24] <font color='grey'>- 03时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec735-0ae5-7dd8-aff5-98f5c989cbaf" target="_blank" class="news-link">Japan plans to rename Air Self‑Defense Force as Air and Space Self‑Defense Force</a> [27] <font color='grey'>- 03时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec734-54eb-7dd8-aff5-964e585eeea9" target="_blank" class="news-link">UN Secretary-General GUTERRES strongly condemns Israeli airstrikes on Beirut</a> [28] <font color='grey'>- 03时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">5</td>
+                <td class="percentage">4.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4118789_212_1" target="_blank" class="news-link">Anthropic公司派员工赴华盛顿处理白宫争端。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec75e-d739-7dd8-aff6-1df7d1b67a6b" target="_blank" class="news-link">ANTHROPIC sends senior technical staff to Washington to seek resolution with WHITE HOUSE</a> [11] <font color='grey'>- 03时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260615022208495800" target="_blank" class="news-link">Anthropic派技术人员赴华盛顿 力图化解白宫争端</a> [12] <font color='grey'>- 03时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec75c-7481-7dd8-aff6-08fc8ea9bdfa" target="_blank" class="news-link">Axios reports Anthropic flew employees to Washington to defuse a dispute with the White House.</a> [13] <font color='grey'>- 03时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260615021938092800" target="_blank" class="news-link">据AXIOS网站：Anthropic公司派员工飞往华盛顿，以平息与白宫的争执。</a> [14] <font color='grey'>- 03时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
