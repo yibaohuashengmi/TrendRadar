@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 234</p><p>生成时间: 2026-06-15 08:17:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">26</td>
+                <td class="percentage">11.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/203.htm" target="_blank" class="news-link">美国出口管制致 Anthropic 停供顶尖 AI 模型，欧盟评估影响并强调不应歧视</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/200.htm" target="_blank" class="news-link">科大讯飞 AI 眼镜开启预售：支持 122 种语言翻译，4299 元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec882-f358-7dd8-aff9-081ef3cd6373" target="_blank" class="news-link">LNG tanker heads toward Strait of Hormuz</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/198.htm" target="_blank" class="news-link">IT早报 0615：小米回应 YU7 GT 极速 300km/h 意义；央视曝光违规改装新能源车废旧电池流入市场；曝蚂蚁集团正测试 AI 版支付宝；内存已成手机中最昂贵的组件...</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec882-177e-7dd8-aff9-07fa2917a866" target="_blank" class="news-link">UN Secretary-General spokesman said on the 14th that António Guterres welcomed a US‑Iran agreement on a peace accord.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48533736" target="_blank" class="news-link">The Jqwik Anti-AI Affair</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec873-e62b-7dd8-aff8-f22740d909bb" target="_blank" class="news-link">Trump says Strait of Hormuz to be permanently toll-free; threatens renewed strikes on Iran if no final deal</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec872-26f8-7dd8-aff8-eb284e2d7a95" target="_blank" class="news-link">Polish armed forces say military aviation operations have begun in Polish airspace in response to Russian attacks on Ukraine.</a> [11] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48533756" target="_blank" class="news-link">Stanford grads walk out on Google CEO Sundar Pichai speech</a> [11] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/193.htm" target="_blank" class="news-link">谷歌 CEO 皮查伊斯坦福毕业演讲避谈 AI，鼓励毕业生“选择乐观”</a> [12] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48532178" target="_blank" class="news-link">AI is code – and can&#x27;t be prompted into being smarter</a> [13] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec863-d147-7dd8-aff8-d637725a3165" target="_blank" class="news-link">The Wall Street Journal reported Anthropic met with Trump administration officials this weekend and sent a senior technical team to Washington seeking an agreement to lift U.S. export restrictions on its most capable AI models.</a> [14] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4119012_1_1" target="_blank" class="news-link">据华尔街日报：Anthropic本周末已与特朗普政府官员会面，并派遣顶尖技术团队前往华盛顿，寻求达成协议，以解除对其最强大的人工智能模型的出口限制。</a> [14] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec85a-8402-7dd8-aff8-bd4ffdaa2d42" target="_blank" class="news-link">Iran&#x27;s National Security Council said final-agreement negotiations will begin only after the other party fulfills its commitments under the memorandum of understanding.</a> [17] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3119301" target="_blank" class="news-link">外资巨头下半年展望：AI超级周期未结束，重新审视避险资产</a> [17] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec85a-4b3f-7dd8-aff8-b5a06d30c128" target="_blank" class="news-link">Iran&#x27;s Supreme National Security Council said it will, effective tonight, immediately and permanently cease all combat and military operations, including in Lebanon.</a> [18] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260615070714614800" target="_blank" class="news-link">据华尔街日报：Anthropic本周末已与特朗普政府官员会面，并派遣顶尖技术团队前往华盛顿，寻求达成协议，以解除对其最强大的人工智能模型的出口限制。</a> [18] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec859-d478-7dd8-aff8-ac31da36407b" target="_blank" class="news-link">Iran&#x27;s National Security Council said it will sign a memorandum of understanding on June 19.</a> [19] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec853-8c48-7dd8-aff8-8a2bdba29b87" target="_blank" class="news-link">Leaders of the UK, France, Germany and Italy said in a joint statement they are prepared to cooperate with the US, Iran and the IAEA.</a> [23] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec853-80d2-7dd8-aff8-84e413a7e041" target="_blank" class="news-link">UK, France, Germany and Italy leaders said in a joint statement there is an urgent need to reopen the Strait of Hormuz unconditionally and without restrictions.</a> [24] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec852-7003-7dd8-aff8-7d574dd79f74" target="_blank" class="news-link">Leaders of the UK, France, Germany and Italy said in a joint statement that Iran must never acquire nuclear weapons. They said they are prepared to lift relevant sanctions once Iran implements clear, verifiable measures on its nuclear program.</a> [25] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec852-69bb-7dd8-aff8-71365351b9b7" target="_blank" class="news-link">Kyiv mayor says air strikes knocked out power for about 140,000 residents and damaged transmission lines.</a> [26] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec84f-f079-7dd8-aff8-6d8f83fd81dd" target="_blank" class="news-link">Iranian media published detailed terms of 14-point Iran–US memorandum</a> [27] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec849-6ba3-7dd8-aff8-66285ad9afe1" target="_blank" class="news-link">Iran&#x27;s Mehr News Agency published details of a 14-point memorandum of understanding between Iran and the United States.</a> [28] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7650809417412935716" target="_blank" class="news-link">浅谈我对 AI 发展的看法</a> [29] <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ec847-dbce-7dd8-aff8-52a9ef671f48" target="_blank" class="news-link">Iran’s deputy foreign minister said one condition for Iran to refrain from retaliating for Israel’s strike on the southern suburbs of Beirut is an Israeli withdrawal from southern Lebanon.</a> [30] <font color='grey'>- 08时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/204.htm" target="_blank" class="news-link">谷歌联手高校把废弃 Pixel 手机改造成数据中心，成本仅为传统方案零头</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/194.htm" target="_blank" class="news-link">谷歌地球网页版悄悄上线“飞行模拟器”模式，可使用键鼠控制</a> [11] <font color='grey'>- 08时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48533504" target="_blank" class="news-link">Did Anthropic ask for this?</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 08时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
