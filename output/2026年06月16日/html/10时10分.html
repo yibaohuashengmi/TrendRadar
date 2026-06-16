@@ -1,0 +1,102 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 384</p><p>生成时间: 2026-06-16 10:10:07</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>pcbeta</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">21</td>
+                <td class="percentage">5.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3774657" target="_blank" class="news-link">Anthropic闪电“封禁”背后：全球AI主权化的“核不扩散”时刻到来？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1220711" target="_blank" class="news-link">ai 时代，感觉啥都通货膨胀， GitHub stars、各种 APP： to_do list、记单词、记账、打卡......</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1220706" target="_blank" class="news-link">AI 时代创业焦虑</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-16/%E7%94%B5%E5%AD%90%E5%B8%83%E5%B9%B4%E5%86%85%E7%AC%AC%E4%BA%94%E8%BD%AE%E6%B6%A8%E4%BB%B7%E8%90%BD%E5%9C%B0-ai%E7%AE%97%E5%8A%9B%E9%9C%80%E6%B1%82%E6%8E%A8%E9%AB%98%E7%8E%BB%E7%BA%A4%E6%99%AF%E6%B0%94-ed7456" target="_blank" class="news-link">电子布年内第五轮涨价落地 AI算力需求推高玻纤景气</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48547566" target="_blank" class="news-link">Why I email complete strangers</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202606/1674247.html" target="_blank" class="news-link">张田勘：假如训练AI的数据是虚假的</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202606/1674246.html" target="_blank" class="news-link">林玉文：AI+产业将如何改变各行业结构与竞争？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ece29-c683-7dd8-b01a-d8e5b0eeb9da" target="_blank" class="news-link">China May retail sales of consumer goods MoM -0.38%; April -0.48%.</a> [11] <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2400563" target="_blank" class="news-link">瞄准AI数据中心需求 磷化铟衬底巨头计划将产能扩大至多10倍</a> [11] <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ece29-aa0e-7dd8-b01a-d7fe401ee331" target="_blank" class="news-link">Retail Sales (MoM) (May)</a> [12] <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ece29-88d5-7dd8-b01a-ce5f3b2a4ad9" target="_blank" class="news-link">China National Bureau of Statistics: In May, raw coal output at industrial enterprises above designated size remained high; crude oil production posted steady growth; natural gas production edged down; power generation growth accelerated.</a> [13] <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260616095450153800" target="_blank" class="news-link">理想汽车推出动态数据流AI芯片马赫M100 构建完整具身智能系统</a> [13] <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ece29-0fc2-7dd8-b01a-be40cc49fabc" target="_blank" class="news-link">National Bureau of Statistics: China&#x27;s total retail sales of consumer goods rose 1.4% YoY in Jan-May 2026.</a> [15] <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ece28-d816-7dd8-b01a-a8101b3353b9" target="_blank" class="news-link">China&#x27;s National Bureau of Statistics said Jan-May fixed-asset investment (excluding rural households) totaled 17.85 trillion yuan, down 4.1% YoY; investment in intellectual property products rose 9.3% YoY.</a> [17] <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ece28-abbb-7dd8-b01a-a4d1da826189" target="_blank" class="news-link">China&#x27;s National Bureau of Statistics said the economy in May remained broadly stable and showed a shift toward new drivers and higher-quality growth.</a> [18] <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33377908" target="_blank" class="news-link">澎湃思想周报丨世界杯沦为特朗普的马戏；当马丁·斯科塞斯拥抱AI</a> [19] <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ece28-4c08-7dd8-b01a-8f23d5fc1a09" target="_blank" class="news-link">China May retail sales of consumer goods -0.6% YoY; consensus 0.0%, April +0.2%.</a> [21] <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/964/647.htm" target="_blank" class="news-link">苹果统一隐私邮件域名，Sign in with Apple 及 iCloud+ Hide My Email 同步切换</a> [22] <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-15/%E5%A4%9A%E5%AE%B6%E6%9C%BA%E6%9E%84%E8%AE%A4%E5%AE%9Aai%E8%B5%84%E6%9C%AC%E5%BC%80%E6%94%AF%E8%B6%85%E7%BA%A7%E5%91%A8%E6%9C%9F%E8%BF%9C%E6%9C%AA%E7%BB%93%E6%9D%9F-4088e3" target="_blank" class="news-link">多家机构认定AI资本开支超级周期远未结束</a> [24] <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ece28-2f81-7dd8-b01a-71a8803affd8" target="_blank" class="news-link">Retail Sales (YoY) (May)</a> [25] <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ece23-950b-7dd8-b01a-42c7b22b48be" target="_blank" class="news-link">Li Auto (02015.HK) unveils in-house Mach M100 dynamic data‑stream AI chip; says mass production May 2026</a> [30] <font color='grey'>- 10时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1220708" target="_blank" class="news-link">想请教 claude 如何实战，我自己想从头到尾实现一个 ios 的 app，不知道如何高效的利用 claude？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48544637" target="_blank" class="news-link">Claude Corps</a> [24] <font color='grey'>- 10时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3774743" target="_blank" class="news-link">腾讯投了林俊旸1.4亿！前千问负责人创业，估值135亿</a> [13] <font color='grey'>- 10时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
