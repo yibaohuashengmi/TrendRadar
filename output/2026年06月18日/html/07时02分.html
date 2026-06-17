@@ -1,0 +1,102 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 196</p><p>生成时间: 2026-06-18 07:02:03</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>ifeng</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">12.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3774947" target="_blank" class="news-link">苹果放风涨价，二代iPhone Air或明年春面世，iPhone发布节奏迎重大调整</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/965/694.htm" target="_blank" class="news-link">库克：AI 浪潮引发存储芯片价格暴涨，iPhone 等苹果产品涨价已“不可避免”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/965/693.htm" target="_blank" class="news-link">消息称苹果 iPhone Air 2 明年春季发售：升级双摄、换用 A20 芯片</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed7be-af72-7dd8-b065-ab0160a22f22" target="_blank" class="news-link">Iran&#x27;s foreign ministry spokesman said a meeting between Iran and the United States due to take place in Switzerland on Friday has not yet been confirmed.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed7bb-ddfe-7dd8-b065-a0a8848c6d60" target="_blank" class="news-link">Iran says it has essentially finalized Strait of Hormuz management mechanism with Oman</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed7bb-891c-7dd8-b065-9aa33d458b6c" target="_blank" class="news-link">Iran foreign ministry spokesperson said Iran must be able to sell its oil smoothly, with transport and insurance unimpeded, and must receive the proceeds from oil sales.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3121289" target="_blank" class="news-link">下半年投资亮点纷呈，公募策略会看好AI投资范式生变</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed7bb-0ad8-7dd8-b065-902b9a44a7ca" target="_blank" class="news-link">Iran&#x27;s foreign ministry spokesman said a memorandum of understanding was finalized last Sunday, but its release was delayed until Wednesday due to routine diplomatic procedures and the need to coordinate with all parties.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48577208" target="_blank" class="news-link">Leaked financial docs show OpenAI is losing billions of dollars a year</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed7b6-eac4-7dd8-b065-8f9da67aaa34" target="_blank" class="news-link">Iran&#x27;s foreign ministry spokesman said the negotiating team will still attend meetings in Switzerland. The agreement has been signed electronically and no signing ceremony will be held in Switzerland.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed7aa-d9ea-7dd8-b065-70053656a1f4" target="_blank" class="news-link">U.S. officials said Vice President Vance and Iranian parliament speaker Ghalibaf signed a U.S.-Iran electronic memorandum of understanding on Sunday, witnessed by President Trump.</a> [12] <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed7a6-5621-7dd8-b065-6096bcaae945" target="_blank" class="news-link">Iran’s Foreign Ministry spokesman said the 60-day period under the agreement begins today.</a> [14] <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-17/%E4%BA%9A%E7%BB%86%E5%AE%89%E5%AE%98%E5%91%98%E5%91%BC%E5%90%81%E9%81%BF%E5%85%8Dai%E6%95%B0%E6%8D%AE%E6%94%BF%E7%AD%96%E8%BF%87%E4%B8%A5-86dccb" target="_blank" class="news-link">亚细安官员呼吁避免AI数据政策过严</a> [14] <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed7a0-c1ae-7dd8-b065-5d271e987656" target="_blank" class="news-link">Iran&#x27;s foreign ministry spokesman said Israel&#x27;s continued attacks on Lebanon would be regarded as a breach of commitments.</a> [15] <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed79f-1154-7dd8-b065-5581abcaf438" target="_blank" class="news-link">Iran Foreign Ministry spokesperson said issues in the Strait of Hormuz are the responsibility of Iran and Oman.</a> [16] <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed79e-cda0-7dd8-b065-4bbc52b80772" target="_blank" class="news-link">Iran&#x27;s foreign ministry spokesperson said it will immediately begin talks to establish a mechanism to implement the agreement.</a> [17] <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed79e-5b90-7dd8-b065-430dadbd0bd9" target="_blank" class="news-link">Iran&#x27;s Foreign Ministry spokesman said the US has pledged to remove all obstacles to Iran&#x27;s access to its frozen funds.</a> [18] <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed79a-b2f2-7dd8-b065-3229c13feb06" target="_blank" class="news-link">Brazil central bank said its committee reiterated the need to remain calm and cautious in implementing monetary policy.</a> [20] <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed799-3603-7dd8-b065-18c75b0fb8cb" target="_blank" class="news-link">An Iranian Foreign Ministry spokesman said Iran&#x27;s oil sanctions should be lifted and the country should immediately begin a 60-day period of oil exports.</a> [23] <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed797-91bd-7dd8-b065-0138fdee3e9d" target="_blank" class="news-link">Iran&#x27;s foreign ministry spokesman said the other side should not deploy additional forces to the Middle East or impose new sanctions within 60 days.</a> [26] <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-17/%E9%99%86%E5%AE%B6%E5%98%B4%E9%87%91%E8%9E%8D%E6%B2%99%E9%BE%99%E6%8E%A2%E8%AE%A8%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%B5%8B%E8%83%BD%E6%95%B0%E5%AD%97%E9%87%91%E8%9E%8D%E8%B7%AF%E5%BE%84-03e267" target="_blank" class="news-link">陆家嘴金融沙龙探讨人工智能赋能数字金融路径</a> [27] <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed795-5b96-7dd8-b064-f626840afd6a" target="_blank" class="news-link">Iran&#x27;s foreign ministry spokesman said the Persian-language document is similar to the English version and has been signed by the other party.</a> [28] <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed793-8528-7dd8-b064-ebf42867cd32" target="_blank" class="news-link">Iran&#x27;s foreign ministry spokesman said Tehran can choose to dilute enriched uranium.</a> [29] <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ed792-c0c4-7dd8-b064-e54476beb954" target="_blank" class="news-link">Iran&#x27;s foreign ministry spokesman said Iran will charge service fees for vessels.</a> [30] <font color='grey'>- 07时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">1.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4126627_212_1" target="_blank" class="news-link">俄罗斯副外长阿里莫夫表示，莫斯科和德黑兰正在联合国协调行动，以期彻底解除对伊朗的制裁。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时02分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7651476660258078766" target="_blank" class="news-link">Qoder 提供免费 Qwen3.7-Max，无需订阅</a> [30] <font color='grey'>- 07时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48576824" target="_blank" class="news-link">A robot is sprinting towards you. Do you want it running on Claude or Grok?</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
