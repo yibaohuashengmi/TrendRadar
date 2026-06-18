@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 191</p><p>生成时间: 2026-06-19 06:16:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">23</td>
+                <td class="percentage">12.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48578913" target="_blank" class="news-link">Noam Shazeer Joins OpenAI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edca4-a9ce-7dd8-b088-d7c6a6dcdaf7" target="_blank" class="news-link">Iraq&#x27;s oil minister said crude export recovery will be gradual and contingent on smooth passage through the Strait of Hormuz.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775055" target="_blank" class="news-link">报道：Meta与Crusoe签署AI算力协议，锁定约1.6吉瓦数据中心容量</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edca3-8f4a-7dd8-b088-c5b5f31ef8c2" target="_blank" class="news-link">Iraq&#x27;s oil minister said the country will gradually restore oil production to normal operations until output returns to previous levels.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775053" target="_blank" class="news-link">美参议员桑德斯：对美国大型AI公司一次性征收50%股权税，设立主权财富基金</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edca0-6a15-7dd8-b088-be6ef181337b" target="_blank" class="news-link">Iran says Strait of Hormuz transit free for 60 days</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3775029" target="_blank" class="news-link">“AI教父”最新警告：马斯克的xAI已经“失败了”，AI行业或迎“泡沫大爆炸”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edc98-741a-7dd8-b088-b08e65964f0f" target="_blank" class="news-link">Zelenskiy said Europe’s security depends on financial backing for Ukraine’s armed forces and urged the EU and a “voluntary coalition” to develop financial instruments to provide that support.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3121905" target="_blank" class="news-link">美国采取行动，加快AI数据中心接入电网</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edc97-0f0f-7dd8-b088-aed1d754b766" target="_blank" class="news-link">Ukrainian President Zelenskiy said Europe’s best next step is to accelerate Ukraine’s EU accession process.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3774993" target="_blank" class="news-link">当微软都烧不起Token了，“模型路由”成为企业AI的“核心需求”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edc81-44d5-7dd8-b088-5be63d3430ba" target="_blank" class="news-link">MSCI says Indonesia&#x27;s foreign-exchange market liberalization is limited: the offshore currency market is inefficient and the onshore market remains subject to restrictions.</a> [18] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3121892" target="_blank" class="news-link">Snap因成本问题而拆分人工智能视频（AI Video）团队为新公司Dotmo。（TechCrunch）</a> [19] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edc70-c39f-7dd8-b088-4f7d32b13124" target="_blank" class="news-link">Intel (INTC.O) said it will carve out its advanced packaging business and appoint a dedicated leadership team.</a> [20] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48543872" target="_blank" class="news-link">Dutch Railways offers unlimited off-peak train travel nationwide for €49/month</a> [20] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edc70-18d8-7dd8-b088-43fa1b550c76" target="_blank" class="news-link">Intel (INTC.O) said it appointed a new head of its foundry business to accelerate R&amp;D and manufacturing.</a> [21] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260619042115583800" target="_blank" class="news-link">Meta Platforms(META.O)与数据中心公司Crusoe签署AI算力合作协议，预计将获得约1.6吉瓦的算力。</a> [22] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edc65-5331-7dd8-b088-2c6dfa8f5593" target="_blank" class="news-link">Meta Platforms Inc (META.O) signed an AI compute collaboration agreement with data-center operator Crusoe; Meta is expected to obtain roughly 1.6 GW of computing capacity.</a> [24] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edc60-cf23-7dd8-b088-2348033bc858" target="_blank" class="news-link">MOODY&#x27;S: SpaceX (SPCX.O) maintains a conservative financial policy and, supported by substantial cash balances, has strong liquidity and financial flexibility.</a> [25] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edc59-a2da-7dd8-b088-1a095161031b" target="_blank" class="news-link">U.S. Treasury issued a license permitting certain transactions involving bonds of Venezuela&#x27;s state oil company.</a> [26] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3121883" target="_blank" class="news-link">Meta Platforms与数据中心公司Crusoe敲定AI计算协议。 Meta将根据合同购买对方两个数据中心（美国密苏里+得克萨斯）的算力。 Meta有望获得大约1.6 GW算力。</a> [26]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edc57-82d7-7dd8-b088-0e6517281b27" target="_blank" class="news-link">U.S. Treasury issued a license permitting certain transactions related to telecommunications and postal services with the Venezuelan government.</a> [28] <font color='grey'>- 06时16分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48552767" target="_blank" class="news-link">Notes from tired Egyptian whose job is explaining that humans built the pyramids</a> [30] <font color='grey'>- 06时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3121908" target="_blank" class="news-link">周四（6月18日），美股超大规模云服务商（Hyperscalers）涨1.39%，报95.20点。 成分股中，亚马逊收涨2.90%，Meta涨1.70%，谷歌A涨1.17%，甲骨文涨0.41%，微软涨0.13%。</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4129026_103_1" target="_blank" class="news-link">标普500指数初步收涨1.2%，科技板块涨2.7%，可选消费、电信板块涨超1%，能源板块跌2.1%。纳斯达克100指数初步收涨2.6%，成分股中，闪迪初步收涨11.2%，英特尔涨10%，美光涨9%，谷歌A涨1.4%，Strategy跌3%，特许通讯跌4.3%，CTSH跌10.4%。卡特彼勒涨3.7%，迪士尼、英伟达涨约3%，领跑道指成分股。费城半导体指数涨6.5%。</a> [18] <font color='grey'>- 06时16分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
