@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 445</p><p>生成时间: 2026-06-19 18:44:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">36</td>
+                <td class="percentage">8.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48595511" target="_blank" class="news-link">Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202606/1974539.html" target="_blank" class="news-link">中国据报正加强AI关键金属铟出口审查</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf6a-0b42-7dd8-b093-161255cb838f" target="_blank" class="news-link">Trump said Italian Prime Minister Meloni begged him for a photo at the G7 summit.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260619182004847800" target="_blank" class="news-link">广东省人民政府印发《广东省推进服务业扩能提质实施方案》的通知，其中提到，抢抓人工智能发展机遇，建设具有国际竞争力的软件和信息技术服务业创新中心。培育引进更多具有核心竞争力的软件企业，打造一批全国领先的数字化转型服务商。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf69-3b7e-7dd8-b093-0b26e0f61418" target="_blank" class="news-link">U.S. President Trump said Europeans have performed poorly on energy and migration.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf69-1f75-7dd8-b093-00cab1d0d080" target="_blank" class="news-link">Israel&#x27;s defense minister Katz said the IDF will remain in the security zone in Lebanon to protect northern Israel.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf67-938d-7dd8-b092-fa67602bc69a" target="_blank" class="news-link">Guangdong backs Guangzhou Futures Exchange to expand product suite and complete full futures industry chain</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3122066" target="_blank" class="news-link">广东：抢抓人工智能发展机遇，建设具有国际竞争力的软件和信息技术服务业创新中心</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202606/1974535.html" target="_blank" class="news-link">中国鼓励用好个人贷款贴息支持AI消费</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf65-3836-7dd8-b092-f0a1064add61" target="_blank" class="news-link">Guangdong provincial government issued an implementation plan to expand and upgrade the services sector, aiming to seize AI opportunities to build an internationally competitive software and information technology services innovation center. The plan calls for cultivating and attracting more software firms with core competitiveness and building a cohort of nationally leading digital-transformation service providers.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1221537" target="_blank" class="news-link">分享最近 AI 做的儿童启蒙产品：拍照学拼音（附兑换码）</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3122063" target="_blank" class="news-link">高盛一篮子欧洲国防股指数一度上涨2%，Renk一度上涨4.5%，Exail一度上涨4.0%，莱茵金属上涨2.9%，Leonardo上涨3.4%，Kongsberg上涨3.2%。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3775047" target="_blank" class="news-link">剑指英伟达！报道：亚马逊洽谈向其他公司出售自研AI芯片</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/364.htm" target="_blank" class="news-link">因批评 AI 数据中心迅速扩张，多名亚马逊工程师遭内部调查</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260619/1071952866.html" target="_blank" class="news-link">“618”购物节新貌：中国电商平台如何借助AI实现销售增长</a> [13]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf4d-fcf6-7dd8-b092-bf4010174b0c" target="_blank" class="news-link">UK lawmaker Andy Burnham said the immigration system needs reform.</a> [13] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959266" target="_blank" class="news-link">英特尔CEO陈立武谈AI芯片“三大瓶颈”：电力、氦气和最严重的内存</a> [13] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf4d-697b-7dd8-b092-b5faedd89e41" target="_blank" class="news-link">WHO official: Ebola outbreak remains severe</a> [14] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/360.htm" target="_blank" class="news-link">因用 AI 编造证据材料，英国一警员面临刑事调查</a> [14] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf4c-bb5d-7dd8-b092-ae83d5be9ada" target="_blank" class="news-link">UK lawmaker Andy Burnham said he wants to carry out major change.</a> [15] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf4c-87e8-7dd8-b092-a6a06d1883d3" target="_blank" class="news-link">MP Andy Burnham said he wants to see reindustrialization of northern England.</a> [16] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf4c-686b-7dd8-b092-9b43e842beaf" target="_blank" class="news-link">UK MP Andy Burnham said the economy should serve everyone, not just a few.</a> [17] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/355.htm" target="_blank" class="news-link">全球首个人形机器人通用小脑 GPT 模型：银河通用发布 AstraBrain-WBC 0.5</a> [17] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf4c-3385-7dd8-b092-957fd78cb80c" target="_blank" class="news-link">UK MP Andy Burnham said the UK needs to reduce water charges and energy bills.</a> [18] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4129808_103_1" target="_blank" class="news-link">高盛一篮子欧洲国防股指数一度上涨2%，Renk一度上涨4.5%，Exail一度上涨4.0%，莱茵金属上涨2.9%，Leonardo上涨3.4%，Kongsberg上涨3.2%。</a> [18] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf4b-d7ea-7dd8-b092-8aa31a5b7c39" target="_blank" class="news-link">UK lawmaker Andy Burnham said we must respond now to the challenges before us.</a> [19] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/351.htm" target="_blank" class="news-link">“AI 教父”杨立昆锐评马斯克：xAI“失败”、SpaceX 出色、特斯拉 FSD 有用</a> [20] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7652201148235382803" target="_blank" class="news-link">老板：“请说出一个录用你的理由。”我脱口而出：“每个月 AI 支出都超过我的生活费了！”老板愣了一下，随即哈哈大笑：“好吧，你被录用了。”</a> [21] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7652199464434597926" target="_blank" class="news-link">SpaceX一分现金没花收购Cursor，马斯克吞下AI编程工具第一名</a> [22] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7652548338932924470" target="_blank" class="news-link">都AI时代了，我为何还在学习前端基础知识？</a> [23] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf44-8972-7dd8-b092-633a0e2cb833" target="_blank" class="news-link">Thailand&#x27;s Ministry of Commerce said rice exports from January to May fell 10.75% YoY.</a> [24] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf44-53da-7dd8-b092-59f63eef8ab5" target="_blank" class="news-link">Strait of Hormuz transit count on 18th highest since mid‑April</a> [25] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf41-ebab-7dd8-b092-513742939a4f" target="_blank" class="news-link">Kremlin says Russia will continue air strikes on Ukraine and that Ukraine&#x27;s policy is not aimed at negotiations.</a> [26] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7652160519214612507" target="_blank" class="news-link">双引擎赋能AI编程：OpenSpec+CodeGraph破解落地难题，兼顾规范、效率与成本</a> [26] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf41-e226-7dd8-b092-49c33bce7e47" target="_blank" class="news-link">The Kremlin said Russia is willing to hold talks with Europe but will not accept ultimatums.</a> [27] <font color='grey'>- 18时44分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019edf41-be7e-7dd8-b092-4409d18529ef" target="_blank" class="news-link">The Kremlin said Ukrainian drone attacks remain ongoing and that it is taking steps to mitigate the fallout.</a> [28] <font color='grey'>- 18时44分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1221523" target="_blank" class="news-link">Claude 一天到晚性能降级，一点补偿都没有吗</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时44分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/376.htm" target="_blank" class="news-link">皮查伊回忆谷歌 Chrome 崛起之路：曾被微软前 CEO 鲍尔默轻视，靠快速迭代终成浏览器霸主</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时44分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
