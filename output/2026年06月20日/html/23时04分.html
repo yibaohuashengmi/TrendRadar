@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 238</p><p>生成时间: 2026-06-20 23:04:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">23</td>
+                <td class="percentage">9.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959275" target="_blank" class="news-link">AI根本不像人，它更像一个缝合怪</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/571.htm" target="_blank" class="news-link">《幻兽帕鲁》发行主管：我们没必要使用生成式 AI，因为玩家不想要</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/570.htm" target="_blank" class="news-link">NASA 测试新一代月球 / 火星探测车原型 ERNEST：含主动悬挂与 AI 强化自主系统，最高时速 1km/h 超出毅力号、好奇号一个数量级</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48608255" target="_blank" class="news-link">Bootimus – A Self-Contained PXE and HTTP Boot Server</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=AI%E7%9F%AD%E5%89%A7%E2%80%9C%E4%B9%B0%E8%84%B8%E2%80%9D+%E6%AF%8F%E5%BC%A0%E8%84%B8500%E5%85%83%E4%B8%80%E5%B9%B4" target="_blank" class="news-link">AI短剧“买脸” 每张脸500元一年</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee579-a234-7dd8-b0a0-39692398e7c9" target="_blank" class="news-link">CENTCOM: Commercial vessels transited Strait of Hormuz normally on June 20</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee571-549b-7dd8-b0a0-3206b98b40a9" target="_blank" class="news-link">U.S. military says it will remain present and vigilant to ensure all aspects of the agreement with Iran are complied with, implemented and fully effective.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee570-b6ee-7dd8-b0a0-2cca2470e952" target="_blank" class="news-link">The U.S. military said today more than 17.0 mln barrels of oil transited the Strait of Hormuz.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/565.htm" target="_blank" class="news-link">Take-Two 前 AI 负责人：我担心生成式 AI 会败坏整个 AI 领域的声誉</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee56f-fbea-7dd8-b0a0-22cda4bc1e9e" target="_blank" class="news-link">The U.S. military said commercial traffic through the Strait of Hormuz increased on June 20, with 55 commercial vessels transiting the waterway. U.S. forces continue operations in the area to support freedom of navigation.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/555.htm" target="_blank" class="news-link">纽约大学金融学教授达摩达兰警告：AI 泡沫破裂后果恐比互联网泡沫更严重</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee561-8e4a-7dd8-b0a0-0e9f62a06eed" target="_blank" class="news-link">U.S. military says it has not observed Iran moving to close the Strait of Hormuz</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48608394" target="_blank" class="news-link">Temporary Cloudflare Accounts for AI Agents</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee556-17b4-7dd8-b09f-fc47e4372c84" target="_blank" class="news-link">IRGC navy says Israel&#x27;s operations in Lebanon and US breaches of ceasefire commitments are the reasons for closing the Strait of Hormuz.</a> [12] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee555-d71e-7dd8-b09f-f7703ed183c2" target="_blank" class="news-link">Iran&#x27;s Islamic Revolutionary Guard Corps warned vessels not to approach the Strait of Hormuz, saying their safety would be at risk.</a> [13] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee554-9907-7dd8-b09f-e87ac925c229" target="_blank" class="news-link">Iran&#x27;s Islamic Revolutionary Guard Corps (IRGC) said the Strait of Hormuz is closed to all vessels.</a> [14] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee552-7065-7dd8-b09f-e4a49879f407" target="_blank" class="news-link">Iran&#x27;s Fars News quoted an Iranian naval source saying the Strait of Hormuz was fully closed a few minutes ago.</a> [15] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee551-3d07-7dd8-b09f-dd36cc20f1f2" target="_blank" class="news-link">Iran foreign ministry says U.S. failed to restrain Israel, violated memorandum</a> [16] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee546-ebb2-7dd8-b09f-c8c861765186" target="_blank" class="news-link">Iran&#x27;s foreign ministry spokesman said the negotiating team will depart for Switzerland in a few minutes, according to Mehr News Agency.</a> [18] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee53d-755e-7dd8-b09f-aaa07681d09a" target="_blank" class="news-link">Iran’s Foreign Ministry spokesman told Fars News Agency that Tehran will take necessary measures in response if the other party fails to fulfill its commitments.</a> [22] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee53c-929d-7dd8-b09f-9fb8e979d956" target="_blank" class="news-link">Fars News Agency quoted an Iranian Foreign Ministry spokesman as saying that if other parties fail to fulfill some commitments, the entire memorandum of understanding could be jeopardized.</a> [24] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee538-61a9-7dd8-b09f-8367ac04fb7f" target="_blank" class="news-link">Fars News Agency, citing a foreign ministry spokesman, said an Iranian delegation will travel to Switzerland to follow up and demand the other party fulfil its commitments.</a> [27] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee530-ec56-7dd8-b09f-7687f607355e" target="_blank" class="news-link">Mehr News Agency: Iran&#x27;s Supreme Joint Military Command said the Strait of Hormuz is now closed, citing the U.S.&#x27;s &quot;clear breach of trust and violation of its commitment under Article 1 of the memorandum of understanding&quot; and saying the move is in response to Israel&#x27;s continued violations of the southern Lebanon ceasefire.</a> [29] <font color='grey'>- 23时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
