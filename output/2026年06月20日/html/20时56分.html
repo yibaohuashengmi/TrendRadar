@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 238</p><p>生成时间: 2026-06-20 20:56:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">6.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee4fc-fc0e-7dd8-b09e-fc678663241d" target="_blank" class="news-link">Iran&#x27;s foreign ministry spokesman Bagayi denied media reports that the Strait of Hormuz had been closed, calling the claims unfounded.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959274" target="_blank" class="news-link">当AI赢家被指定，所有人都会成为输家</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/551.htm" target="_blank" class="news-link">谷歌 Gemini 联席负责人沙泽尔转投 OpenAI，奥尔特曼亲自发文欢迎</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee4e6-343e-7dd8-b09e-e9316134f386" target="_blank" class="news-link">IAEA: Repairs to the ZAPORIZHZHIA NUCLEAR PLANT&#x27;s main 750 kV Dniprovska transmission line are under way during a localized ceasefire brokered by the agency and monitored by its teams on both banks of the Dnipro River.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee4e5-109d-7dd8-b09e-db6fb3e5022a" target="_blank" class="news-link">IAEA said its team learned an on-site internal power-line problem had most recently disconnected the Zaporizhzhia nuclear plant&#x27;s only available external power line.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1221667" target="_blank" class="news-link">有 applewatch 调用 ai 的软件吗？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee4e3-d78d-7dd8-b09e-d5a8f3eed174" target="_blank" class="news-link">IAEA said its team at the Zaporizhzhia nuclear plant reported emergency diesel generators have started operating, supplying backup power for reactor core cooling and other essential nuclear safety functions.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee4e2-01e7-7dd8-b09e-c5dda4f03ee0" target="_blank" class="news-link">Trump criticizes Italian PM Meloni, alleges denial of airfield access and opposition to US Iran policy</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee4c9-8674-7dd8-b09e-b4ae2789c884" target="_blank" class="news-link">Switzerland&#x27;s Foreign Ministry said it cannot provide further details on attendees or discussion content for confidentiality reasons.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3775105" target="_blank" class="news-link">学习英伟达“好榜样”，谷歌和博通都开始“有样学样”，开启“AI芯片闭环”</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee4c9-74d6-7dd8-b09e-a923d2f0bc5f" target="_blank" class="news-link">Swiss Foreign Ministry said diplomats present are continuing efforts to maintain dialogue.</a> [11] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee4c9-7131-7dd8-b09e-a2e729c1f0e3" target="_blank" class="news-link">Switzerland&#x27;s foreign ministry said it will continue to provide a discreet, reliable venue at Bürgenstock for talks to implement the US-Iran memorandum of understanding.</a> [12] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/azure-cosmos-db?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Free AI Image Upscaler</a> [12] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/owainlewis/awesome-artificial-intelligence" target="_blank" class="news-link">owainlewis / awesome-artificial-intelligence</a> [15]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee4b3-c980-7dd8-b09e-7afe10362d97" target="_blank" class="news-link">HEZBOLLAH said it targeted Israeli forces that advanced last night toward areas near Nabatieh in southern Lebanon.</a> [17] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33415864" target="_blank" class="news-link">经纬度：让AI走进千家万户，人工智能消费按下加速键</a> [20] <font color='grey'>- 20时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/552.htm" target="_blank" class="news-link">育碧联合创始人 Claude Guillemot 飞机失事，享年 69 岁</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1221669" target="_blank" class="news-link">求助一下， claude 里的 claudevm 占用了那么大空间，如何挂载进去？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1221666" target="_blank" class="news-link">针对同一问题， Claude 和 Gemini 的实践对比。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23DeepSeek%E4%BC%B0%E5%80%BC%E6%8E%A5%E8%BF%914000%E4%BA%BF%E5%85%83%23&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">DeepSeek估值接近4000亿元</a> [28] <font color='grey'>- 20时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
