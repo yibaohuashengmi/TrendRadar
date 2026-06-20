@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 273</p><p>生成时间: 2026-06-20 18:59:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">35</td>
+                <td class="percentage">12.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee48f-f5e3-7dd8-b09e-58a0595dca90" target="_blank" class="news-link">Israeli airstrikes in southern Lebanon&#x27;s Nebetiyeh, Jezzine kill at least 16</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775114" target="_blank" class="news-link">AI Agent时代的云基础设施是怎样的？你需要理解“Agent Runtime完整飞轮”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1221663" target="_blank" class="news-link">AI 德州扑克模拟器，可以练习、复盘</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee467-fda9-7dd8-b09e-4485a4cc24da" target="_blank" class="news-link">Al Arabiya cited sources saying Lebanon is the main sticking point in ongoing negotiations. The Iranian delegation warned it would withdraw from the talks if Israel continued strikes in Lebanon.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3122234" target="_blank" class="news-link">美国电网扛不住AI热潮</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/huie-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Huie AI</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3122233" target="_blank" class="news-link">腾讯：微信正在灰度测试 AI助手“小微”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1221659" target="_blank" class="news-link">分享一些在 AI 解析中常见的问题，以及工具区别</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/nailvana-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Nailvana</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/payhip?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ScriptForge AI</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee43d-c74f-7dd8-b09e-2e0030e2bd26" target="_blank" class="news-link">Syrian state television reports the defense ministry said unidentified gunmen attacked in northeast Aleppo, killing two soldiers.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee43d-9cc4-7dd8-b09e-2265af13bca2" target="_blank" class="news-link">US grids strained by AI-driven data center power surge</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/534.htm" target="_blank" class="news-link">微信 AI 助手“小微”灰度上线，可通过文字或语音对话操作微信原生功能</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee435-dfe4-7dd8-b09e-19da02658e2f" target="_blank" class="news-link">Tencent customer service says WeChat is gray-testing AI assistant Xiaowei</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3775111" target="_blank" class="news-link">相比“开源模型”，“前沿模型”溢价类似“奢侈品包包”！德银：这可能导致市场重估AI</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee42f-8a8e-7dd8-b09e-16d44c569171" target="_blank" class="news-link">Refinitiv: A senior HEZBOLLAH official said Israel will not be allowed to &quot;operate freely&quot; on territory HEZBOLLAH describes as occupied Lebanese territory.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3775113" target="_blank" class="news-link">“AI最紧瓶颈”！存储的影响已扩展至宏观经济，加剧整体通胀</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620165448483800" target="_blank" class="news-link">美国电网扛不住AI热潮</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee422-b4d6-7dd8-b09e-098e6578c1fc" target="_blank" class="news-link">Israeli military said it struck Hezbollah targets in southern Lebanon following an attack.</a> [11] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-20/%E8%B0%B7%E6%AD%8Cai%E4%BA%BA%E6%89%8D%E6%8C%81%E7%BB%AD%E6%B5%81%E5%A4%B1-%E8%AF%BA%E5%A5%96%E5%BE%97%E4%B8%BB%E4%B8%8Etransformer%E5%85%88%E9%A9%B1%E7%9B%B8%E7%BB%A7%E7%A6%BB%E8%81%8C-69c2f0" target="_blank" class="news-link">谷歌AI人才持续流失 诺奖得主与Transformer先驱相继离职</a> [11] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620164622907800" target="_blank" class="news-link">腾讯客服：微信正在灰度测试 AI助手“小微”</a> [11] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee422-6df7-7dd8-b09e-00a8d7604f31" target="_blank" class="news-link">An Israeli military official said Hezbollah fired more than 50 artillery shells from southern Lebanon at Israeli forces.</a> [12] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/529.htm" target="_blank" class="news-link">中国科学家提出“AI 语言”：人类难懂但模型能懂，文本压缩至 27.9% 仍保留 99.5% 语义</a> [12] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee41e-0299-7dd8-b09d-ff4c3f7db928" target="_blank" class="news-link">ISRAELI MILITARY said stability between Lebanon and Israel would be achievable if Hezbollah ceases violating the ceasefire agreement.</a> [13] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee411-e436-7dd8-b09d-e2fb88c03a07" target="_blank" class="news-link">Al Arabiya reported Israel carried out airstrikes in southern Lebanon.</a> [16] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/jetbrains?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Mellum by JetBrains</a> [16] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee40f-bf1c-7dd8-b09d-d1761bcb0864" target="_blank" class="news-link">Ryanair CEO O&#x27;Leary said the company could receive a boost from a US-Iran agreement.</a> [18] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee40f-8c7b-7dd8-b09d-c98b96e7476b" target="_blank" class="news-link">Ryanair CEO O&#x27;Leary said if oil trades at or below about $80 a barrel, the airline will certainly consider hedging beginning summer 2027.</a> [19] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/growthpilot-ai-first-release?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">GrowthPilot AI First Release</a> [19] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee40f-4fa2-7dd8-b09d-c2c9e1c12f53" target="_blank" class="news-link">Ryanair CEO O&#x27;Leary said passenger volumes are healthy, but fares appear to be flat year-on-year.</a> [20] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/897190901032701952" target="_blank" class="news-link">转AI产品经理路线</a> [20] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ee40f-22c4-7dd8-b09d-ba766cc5627c" target="_blank" class="news-link">Norway to ban generative AI for primary school students</a> [21] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620160408389800" target="_blank" class="news-link">挪威将禁止小学生使用生成式人工智能</a> [23] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%231%E5%B9%B4500%E5%85%83%E4%BD%A0%E4%BC%9A%E6%8A%8A%E8%84%B8%E5%8D%96%E7%BB%99AI%E7%9F%AD%E5%89%A7%E5%90%97%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">1年500元你会把脸卖给AI短剧吗</a> [29] <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7652159033488850980" target="_blank" class="news-link">我的神奇同事，AI 用多了居然写了个 Open In Codex</a> [30] <font color='grey'>- 18时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1221660" target="_blank" class="news-link">受到 claude-desktop-buddy 和 codex 宠物的启发，我做了一个将 codex 宠物同步到 iPhone 灵动岛的工具。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1221653" target="_blank" class="news-link">让 ChatGPT review Claude 写的代码，它挑了 35 条，没一条是错的</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1221642" target="_blank" class="news-link">我明明选的是 GLM-4.7，他告诉我他是 Claude。</a> [11] <font color='grey'>- 18时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1221654" target="_blank" class="news-link">最近 gemini 网页版本老是断线</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7652621263220424744" target="_blank" class="news-link">VSCode的Copilot扩展支持接入DeepSeek，Kimi了！</a> [25] <font color='grey'>- 18时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
