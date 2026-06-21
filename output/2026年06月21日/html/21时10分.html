@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 272</p><p>生成时间: 2026-06-21 21:10:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">31</td>
+                <td class="percentage">11.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea4a-0186-7dd8-b0a6-b59732c69c12" target="_blank" class="news-link">Trump warns Iran not to close Strait of Hormuz, threatens military action</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1221795" target="_blank" class="news-link">参考前几天 v 站看到的一个思路，做一个普通人能看懂的 AI 入门书</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea47-873a-7dd8-b0a6-af6a96e7f2bc" target="_blank" class="news-link">Qatar&#x27;s prime minister said he had seen dedication and significant efforts from Fansi, Pakistan&#x27;s prime minister and Iran&#x27;s foreign minister.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/atomic-mail-agentic?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Atomic Mail Agentic</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea44-d86a-7dd8-b0a6-912e1dbee50f" target="_blank" class="news-link">U.S. Vice President Vance said more work remains and he looks forward to working together.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea44-cbe9-7dd8-b0a6-8f3f4a662cef" target="_blank" class="news-link">Vice President Vance said today leaders are attending primarily to establish a framework for technical negotiations and to ensure their teams have full backing and can seek help to overcome any obstacles.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775129" target="_blank" class="news-link">“大空头”查诺斯：当前AI产业链存在巨大“财务不匹配”，“AI云”实际是租赁中介，看空SpaceX</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/ZhuLinsen/daily_stock_analysis" target="_blank" class="news-link">ZhuLinsen / daily_stock_analysis</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea44-3ef8-7dd8-b0a6-80deee4fc380" target="_blank" class="news-link">U.S. Vice President Vance said President Trump envisions the Middle East will be completely different in a decade.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea41-328b-7dd8-b0a6-7be10623a725" target="_blank" class="news-link">U.S. Vice President Vance said technical talks may not resolve all differences, but they will, for the first time in history, enable us to sit together as a team.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3775129" target="_blank" class="news-link">“大空头”查诺斯：当前AI产业链存在巨大“财务不匹配”，“AI云”实际是租赁中介，看空SpaceX</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea40-343c-7dd8-b0a6-727fd317d2c3" target="_blank" class="news-link">U.S. Vice President Vance said President Trump is committed to securing a comprehensive regional ceasefire.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/plansera-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Plansera AI</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea3f-5b1e-7dd8-b0a6-6dd7a6e1d5eb" target="_blank" class="news-link">U.S. Vice President Vance said over the past few days the U.S. has made significant progress in securing a ceasefire in Lebanon.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea3f-2e3d-7dd8-b0a6-613f5cc2d4e6" target="_blank" class="news-link">Qatar&#x27;s prime minister said today&#x27;s meeting is only the beginning of achieving the objectives.</a> [11] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/alsonai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AlsonAI is launching Editor Mode</a> [11] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2404757" target="_blank" class="news-link">微信“小微”来了！数百万个小程序有了AI“总控台”</a> [12] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea3e-970e-7dd8-b0a6-573324942baa" target="_blank" class="news-link">U.S. Vice President Vance said President Trump has asked us to &quot;open a new chapter&quot; to change our relationship with the Iranian people.</a> [13] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea3e-14c1-7dd8-b0a6-4b116aaa3f2c" target="_blank" class="news-link">U.S. Vice President Vance said a shared future is now visible and parties can work together to advance peace and prosperity.</a> [14] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea3d-e29d-7dd8-b0a6-47ddba1c1ffb" target="_blank" class="news-link">U.S. Vice President Vance said Iran should abandon its nuclear ambitions.</a> [15] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea3d-cc6d-7dd8-b0a6-3acce5a10903" target="_blank" class="news-link">US Vice President Vance said he witnessed a historic meeting between the US and Iran.</a> [16] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea3d-aa93-7dd8-b0a6-3063edfcd201" target="_blank" class="news-link">US Vice President Vance said significant progress had been made in the past few hours.</a> [17] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea3d-6697-7dd8-b0a6-2d9fb2258f1b" target="_blank" class="news-link">U.S. Vice President Vance said Iran has long been a driver of regional instability.</a> [18] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea3d-5f56-7dd8-b0a6-26ccf7b653d4" target="_blank" class="news-link">U.S. Vice President Vance said the U.S. is working to transform the situation in the Middle East through diplomatic cooperation.</a> [19] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea3d-39fd-7dd8-b0a6-1c9638746c95" target="_blank" class="news-link">US Vice President Vance said the United States has opened the Strait of Hormuz and expects further measures.</a> [20] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea3b-fda1-7dd8-b0a6-105749e442bd" target="_blank" class="news-link">U.S. Vice President Vance said the key is whether the United States can permanently alter relations in the Middle East.</a> [21] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea3b-dec3-7dd8-b0a6-0e2afb5a26c8" target="_blank" class="news-link">U.S. Vice President Vance said Trump authorized them to seek diplomatic solutions on a range of issues.</a> [22] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea3a-093d-7dd8-b0a6-05e9cf7b3afd" target="_blank" class="news-link">Pakistan&#x27;s prime minister said he expects productive talks and very positive outcomes.</a> [23] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea39-cb87-7dd8-b0a5-f8d45c1e7c53" target="_blank" class="news-link">Saudi outlet Hadas reports Pakistan&#x27;s prime minister said the day will promote regional peace and prosperity.</a> [24] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48618455" target="_blank" class="news-link">Anthropic to Require ID Verification for Certain Capabilities Starting July 8</a> [26] <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eea0e-42b2-7dd8-b0a5-d5a2f9226d41" target="_blank" class="news-link">Pakistan foreign minister says Iran will not levy Strait of Hormuz transit fees within 60 days</a> [29] <font color='grey'>- 21时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/714.htm" target="_blank" class="news-link">消息称华为乾崑智驾 ADS 5 即将推送，鸿蒙智行旗舰车型优先搭载</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/966/712.htm" target="_blank" class="news-link">华为发布乾崑智驾主动避险视频，截至 5 月 31 日已达成 114.7 亿公里真实行车里程</a> [11] <font color='grey'>- 21时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills" target="_blank" class="news-link">mukul975 / Anthropic-Cybersecurity-Skills</a> <font color='red'><strong>[10]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
