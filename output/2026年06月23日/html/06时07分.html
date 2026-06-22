@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 217</p><p>生成时间: 2026-06-23 06:07:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">26</td>
+                <td class="percentage">11.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef12b-dac4-7dd8-b0c6-4eb245057dc3" target="_blank" class="news-link">Federal Reserve&#x27;s Goolsbee said Fed Chair Warsh&#x27;s approach to reduce speculation about interest rates and pare back forward guidance is one he largely supports.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775228" target="_blank" class="news-link">算力不再稀缺？AI服务器租赁成本走低，日本推出前沿级&quot;编排&quot;新模型</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28355325&amp;amp;topic_name=%E7%B1%B3%E6%B8%B8AI%E5%A5%B3%E5%8F%8B%E4%B8%8A%E7%BA%BF%2C%E7%8E%A9%E5%AE%B6%E6%9C%89%E7%A6%8F%E4%BA%86" target="_blank" class="news-link">米游AI女友上线,玩家有福了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef12b-60e0-7dd8-b0c6-4615da7782ac" target="_blank" class="news-link">Oman&#x27;s foreign minister said the country reiterated its commitment to international law and to safe, fee-free passage.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef12a-be2e-7dd8-b0c6-3979ee41fe0a" target="_blank" class="news-link">Oman’s foreign minister said he hosted Iranian parliamentary speaker Ghalibaf and foreign minister Araghchi in Muscat tonight; they held constructive talks on the recent Iran‑US memorandum of understanding, with particular focus on the Strait of Hormuz.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef129-fecb-7dd8-b0c6-377bfbe639be" target="_blank" class="news-link">Fed&#x27;s GOOLSBEE said he needs to assess whether the current inf will be persistent.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef128-fba5-7dd8-b0c6-2d52515fa581" target="_blank" class="news-link">Fed&#x27;s GOOLSBEE said more evidence is needed to show the current bout of inf is temporary; services‑sector inf is mildly concerning.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef128-b417-7dd8-b0c6-21dbc58f0eac" target="_blank" class="news-link">Fed&#x27;s Goolsbee said the US has not yet experienced a stagflation shock and the labor market has remained stable.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3123036" target="_blank" class="news-link">美国FAA选用Air Space Intelligence打造AI空管工具</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775227" target="_blank" class="news-link">AI重塑拍电影！Google DeepMind投资电影制片厂A24</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef128-671d-7dd8-b0c6-1ab8f6bfc981" target="_blank" class="news-link">Romania&#x27;s prime minister-designate failed to win parliamentary approval for the proposed cabinet.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef128-2d2d-7dd8-b0c6-11fc34399d98" target="_blank" class="news-link">GOOLSBEE said markets remain stable; inf is well above target and the trend is unfavorable.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3123034" target="_blank" class="news-link">报道：高通接近收购AI芯片初创公司Modular</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef118-76ba-7dd8-b0c5-fc142caeea6d" target="_blank" class="news-link">Iran&#x27;s central bank governor said remaining frozen funds will not necessarily be restricted to basic goods and that Iran will be able to purchase other non-sanctioned goods.</a> [12] <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4133666_4_1" target="_blank" class="news-link">美国联邦航空管理局近日与一家美国航空航天防务企业达成合作，向其授予了一份总金额达8.75亿美元的长期合同，项目内容主要涵盖软件开发及人工智能技术相关领域。该项目属于多年期合作项目，后续将在航空相关的技术升级、智能化应用落地等方面推进相关研发与落地工作。</a> [14] <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef115-e387-7dd8-b0c5-e16e6929a8b0" target="_blank" class="news-link">TASNIM NEWS: Iran&#x27;s central bank governor said Tehran has no obligation under existing agreements to buy agricultural inputs from the United States.</a> [15] <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef10f-3566-7dd8-b0c5-ba11ec808afe" target="_blank" class="news-link">Ghalibaf says Strait of Hormuz to be managed under Iranian mechanism</a> [20] <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef10e-1a34-7dd8-b0c5-b214d8121187" target="_blank" class="news-link">IBM shares rose 2% in after-hours trading after the company announced a partnership with OpenAI to launch AI products targeting enterprise cybersecurity defense.</a> [21] <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef10d-737f-7dd8-b0c5-aa9bd34e1f36" target="_blank" class="news-link">Federal Reserve chair Kevin Warsh will testify before the House Financial Services Committee on July 14 at 10:00 a.m. ET (14:00 UTC; 22:00 Beijing).</a> [22] <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260623043807971800" target="_blank" class="news-link">IBM(IBM.N)盘后涨2%，此前宣布与OpenAI合作推出与企业网络安全防御相关的人工智能产品。</a> [23] <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef107-ff9b-7dd8-b0c5-8f03efa68423" target="_blank" class="news-link">IBM (IBM.N) launched a new application security service today and said additional integrations will follow.</a> [26] <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48635954" target="_blank" class="news-link">Nearly Half of LG Smart TV Apps Contain Residential Proxy SDKs</a> [26] <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef107-ee4c-7dd8-b0c5-80345fe995df" target="_blank" class="news-link">Oracle (ORCL.N) said it had about 141,000 full-time employees as of May 31.</a> [27] <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef106-d0ae-7dd8-b0c5-7a2dafcef2c4" target="_blank" class="news-link">Business Insider reported Meta has suspended an internal AI training program after a recent sensitive-data leak that was accessible company-wide.</a> [28] <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3123013" target="_blank" class="news-link">谷歌母公司Alphabet收跌5%，此前该公司AI负责人Jumper离职。</a> [28] <font color='grey'>- 06时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef0fb-6595-7dd8-b0c5-69ee04194304" target="_blank" class="news-link">President Trump said he could quickly reimpose lockdowns if necessary.</a> [30] <font color='grey'>- 06时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3123011" target="_blank" class="news-link">纳斯达克金龙中国指数收跌1.35%，报5986.28点，逼近2024年9月23日收盘位5917.72点。 热门中概股里，小马智行初步收跌5.5%，文远知行跌4.6%，小米跌4.1%，比亚迪跌3.5%，阿里跌2.1%，拼多多跌1.8%，再鼎医药涨1.6%，携程涨3%。 ETF中，中概互联网指数ETF（KWEB）收跌0.75%，中国科技指数ETF（CQQQ）收涨0.02%。 MSCI新兴市场ex中国ETF（EMXC）收涨0.70%，XtrackersHarvest中证50（ASHS）收涨2.15%，德银嘉实沪深300指数ETF（ASHR）收涨2.64%。</a> [30]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
