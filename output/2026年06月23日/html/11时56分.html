@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 486</p><p>生成时间: 2026-06-23 11:56:07</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">29</td>
+                <td class="percentage">5.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48638886" target="_blank" class="news-link">In praise of memcached</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2073852-1-1.html" target="_blank" class="news-link">AI写的一款快速程序启动器</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3774507" target="_blank" class="news-link">金刚石散热：超越液冷，它是AI“热力学终极圣杯”？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2073850-1-1.html" target="_blank" class="news-link">微软为什么这么喜欢吹嘘aipc呢?</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959287" target="_blank" class="news-link">AI最大的受益者：铀</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260623/1072005926.html" target="_blank" class="news-link">不到半年股价翻20倍！智谱跻身全球AI前三，万亿港元市值狂欢下的&quot;硬核突围&quot;</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260623/1072005801.html" target="_blank" class="news-link">美国对人工智能的限制促使欧洲企业分散风险</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2406155" target="_blank" class="news-link">OpenAI、Anthropic左右开弓挖人 谷歌遭遇近一年最惨一跌</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260623/1072005628.html" target="_blank" class="news-link">媒体：中国因AI需求增长收紧铟出口审查</a> <font color='red'><strong>[8]</strong></font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2406127" target="_blank" class="news-link">SpaceX据称斩获AI算力大单 合同总价值最高达63亿美元</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/346.htm" target="_blank" class="news-link">AI 内存紧缺新解法：SPHBM4 标准公示，引脚数降至 1/5、速率提高 300%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33431385" target="_blank" class="news-link">AI算力新变局：谁能动英伟达奶酪</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/335.htm" target="_blank" class="news-link">机械革命预告：BW 现场正式发布 2026 款耀世 Air 系列轻薄游戏本</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E6%97%B6%E4%BB%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E8%BF%98%E8%83%BD%E5%AD%A6%E5%90%97" target="_blank" class="news-link">AI时代计算机专业还能学吗</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1222147" target="_blank" class="news-link">除了 chartgpt、claude code，还有其他好用的 AI 推荐吗？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef27e-8879-7dd8-b0cb-4f1a8db1d74c" target="_blank" class="news-link">Thai baht fell to 33.095 per dollar, its weakest level since 20 May 2025.</a> [11] <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef27d-8c98-7dd8-b0cb-4605e72ef167" target="_blank" class="news-link">A-shares extend losses: Shenzhen Component down more than 2%, ChiNext down 2.5%, Shanghai Composite down 0.5%.</a> [12] <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775250" target="_blank" class="news-link">“空头”末日预言：AI“强弩之末”，美股最快Q3见顶、跌幅30-50%，美版YCC和美债大重组，私募信贷危机待引爆</a> [12] <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/331.htm" target="_blank" class="news-link">多家油企遭加州车主集体起诉，被指用 AI 串通抬高油价</a> [13] <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48634585" target="_blank" class="news-link">Canada plans &#x27;nuclear renaissance&#x27; with up to 10 reactors built by 2040</a> [15] <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202606/2374761.html" target="_blank" class="news-link">廖永健石建政：AI时代真正分水岭可能不在实验室</a> [18] <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959286" target="_blank" class="news-link">AI大战--中美风格不同</a> [18] <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3775235" target="_blank" class="news-link">AI 基建融资的三条暗线正在拧成一根绳 它会不会勒死行业取决于……</a> [21] <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3123126" target="_blank" class="news-link">港股人工智能板块走低，智谱跌超13%，曦智科技-P、群核科技跌超7%，MINIMAX-W跌超6%，澜起科技、兆易创新跌超5%。</a> [22] <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef26c-6617-7dd8-b0ca-e66736fe6c1e" target="_blank" class="news-link">Kingsoft Office says task force investigating WPS C‑drive usage; free fixes available</a> [24] <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef263-783d-7dd8-b0ca-c146489871ce" target="_blank" class="news-link">Rain band shifts west and north; northern China records higher heavy-rain frequency and intensity</a> [28] <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef25f-c345-7dd8-b0ca-be51ab1d1880" target="_blank" class="news-link">Hong Kong tech stocks mostly lower: Tencent Music (01698.HK), Bilibili (09626.HK) and JD.com (09618.HK) down more than 4%; Kuaishou (01024.HK) down over 3%; Xiaomi Group (01810.HK), Alibaba Group (09988.HK) and Tencent Holdings (00700.HK) down more than 2%.</a> [29] <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-23/%E8%85%BE%E8%AE%AF%E5%B0%8F%E8%8C%83%E5%9B%B4%E6%B5%8B%E8%AF%95%E5%BE%AE%E4%BF%A1ai%E5%8A%A9%E6%89%8B%E5%B0%8F%E5%BE%AE-567f11" target="_blank" class="news-link">腾讯小范围测试微信AI助手“小微”</a> [29] <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/312.htm" target="_blank" class="news-link">Groq 与英伟达交易后转型 AI 推理 CSP，完成新一轮 6.5 亿美元融资</a> [30] <font color='grey'>- 11时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1222186" target="_blank" class="news-link">两年实盘 +135%，聊聊我用 Claude Code 搭的多 Agent 投研框架</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3775212" target="_blank" class="news-link">报道：美光与Anthropic达成协议，锁定内存长期供应</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1222129" target="_blank" class="news-link">借助 claude code 的帮助写了个 运维 自动化巡检工具</a> [15] <font color='grey'>- 11时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">3</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3123152" target="_blank" class="news-link">MiniMax 解禁在即：阿里、米哈游两大战略投资人表示不减持</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> [14] <font color='grey'>- 11时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260623111012942800" target="_blank" class="news-link">港股阿里巴巴(09988.HK)跌破100港元，创2025年4月以来新低，现跌超3%。</a> [27] <font color='grey'>- 11时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.21%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1222135" target="_blank" class="news-link">谷歌支持修改邮箱前缀</a> [13] <font color='grey'>- 11时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.21%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA%E5%AE%A3%E5%B8%83%E5%AF%B9%E6%99%BA%E9%A9%BE%E5%85%9C%E5%BA%95%23&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">华为宣布对智驾兜底</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
