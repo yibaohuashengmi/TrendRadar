@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 212</p><p>生成时间: 2026-06-25 02:18:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">23</td>
+                <td class="percentage">10.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019efac8-ae60-7dd8-b101-c44804a794f4" target="_blank" class="news-link">UAE state news agency said the project is expected to have production capacity of about 1.5 bln standard cubic feet per day of natural gas.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48663324" target="_blank" class="news-link">OpenAI unveils its first custom chip, built by Broadcom</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1222651" target="_blank" class="news-link">自己写了个电商 AI 换背景工具，求做电商和设计的兄弟们来挑挑刺、提提意见</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260625020749576800" target="_blank" class="news-link">OpenAI：推出新版GPT-5.5 Instant，今日面向付费用户开放，明日面向免费用户开放。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019efabf-0f9c-7dd8-b101-9f39756d4ff6" target="_blank" class="news-link">Iraq&#x27;s state news agency reported the Kurdistan Regional Government said several foreign oil companies have resumed operations in Iraqi Kurdistan.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48661911" target="_blank" class="news-link">CAPTCHAs have failed for 20 years</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019efab8-9ee3-7dd8-b101-9633e537adbb" target="_blank" class="news-link">US energy secretary: ~20 mln barrels transited Strait of Hormuz in past 24 hours</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://sspai.com/post/110972" target="_blank" class="news-link">AI 工作流实践：100% Vibe Coding 完成 Game Jam 游戏开发</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3775422" target="_blank" class="news-link">美光财报今夜揭晓：AI交易临界点逼近，存储龙头能否延续超级周期？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019efab0-6950-7dd8-b101-7280d731b3b5" target="_blank" class="news-link">Bank of Canada meeting minutes showed council members unanimously agreed monetary policy needs to remain flexible.</a> [11] <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2544441" target="_blank" class="news-link">用AI小卡应援世界杯</a> [13] <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3124164" target="_blank" class="news-link">Prosus将在法国AI公司Alan投资4亿欧元。</a> [18] <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2019843435763353551" target="_blank" class="news-link">AI 对制造业的影响预计何时显现？</a> [18] <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019efaaf-133b-7dd8-b101-37700f8ffd31" target="_blank" class="news-link">BOC minutes: policymakers said they did not want to overreact to developments, nor to react too slowly.</a> [19] <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48646165" target="_blank" class="news-link">Show HN: peerd – AI agent harness that runs entirely in your browser</a> [19] <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260625013238997800" target="_blank" class="news-link">韩国轻易带崩华尔街，AI储存线还有多久？</a> [20] <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48637868" target="_blank" class="news-link">Why eval startups fail (2025)</a> [20] <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019efaac-2d65-7dd8-b101-1362af3e1c01" target="_blank" class="news-link">An ECB official said the central bank’s primary objective is price stability.</a> [23] <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019efaac-02ae-7dd8-b101-0f03247c344b" target="_blank" class="news-link">SHFE silver main contract plunged 6.00% intraday, now at 14,001.00 yuan/kg.</a> [24] <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48660839" target="_blank" class="news-link">For Most of the World, Open-Source AI Is the Only Way Forward</a> [24] <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019efaab-a8c6-7dd8-b101-039ac214a788" target="_blank" class="news-link">ECB official Siegmann said falling oil prices will help reduce inflation.</a> [25] <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48661415" target="_blank" class="news-link">Journalism is rearranging the deckchairs. It needs to reinvent itself</a> [27] <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019efaa3-4b08-7dd8-b100-db95c8b2dc6f" target="_blank" class="news-link">U.S. Energy Secretary Wright said EU rules will make imports of U.S. liquefied natural gas (LNG) virtually impossible.</a> [30] <font color='grey'>- 02时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48662999" target="_blank" class="news-link">Computer use in Gemini 3.5 Flash</a> [11] <font color='grey'>- 02时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3124168" target="_blank" class="news-link">STT与塔塔通信德里数据中心起火：客户担忧数十年数据丢失，谷歌云受波及</a> [14] <font color='grey'>- 02时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48658300" target="_blank" class="news-link">NSA lost access to Mythos amid Anthropic dispute</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1222650" target="_blank" class="news-link">有没有人用 openclaw 连 chatgpt pro 会员莫名达到限额？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
