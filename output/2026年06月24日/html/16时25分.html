@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 447</p><p>生成时间: 2026-06-24 16:25:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">45</td>
+                <td class="percentage">10.07%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef8a0-316f-7dd8-b0f1-b5ca6f0c6937" target="_blank" class="news-link">Daiwa: Bank of Japan likely to take neutral view on economic risks</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef89e-fcd2-7dd8-b0f1-acc1404bedb5" target="_blank" class="news-link">BOT said recent baht depreciation has been driven by capital outflows from the equity market.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/992.htm" target="_blank" class="news-link">映泰推出边缘 AI 系统 MS-NAT5000，搭载 NVIDIA Jetson Thor 模组</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/streamr-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Streamr AI</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/lay4cast-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">lay4cast AI</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef89d-db71-7dd8-b0f1-9b694c4aa3a7" target="_blank" class="news-link">SK Hynix said it will use proceeds to build a plant in South Korea and to purchase EUV equipment.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959297" target="_blank" class="news-link">一线厂商：超过一半企业用错了AI，记忆将成各大模型“护城河”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/982.htm" target="_blank" class="news-link">与 AI 同游：2026 ChinaJoy 将于 7 月 31 日举办，外资参展企业达三成</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28355608&amp;amp;topic_name=%E9%9C%93%E8%99%B9AI%E8%B6%85%E7%BE%8E%3F%E5%AE%9E%E5%88%99%E7%BB%84%E9%98%9F%E6%89%93%E5%B7%A5%E4%BB%94" target="_blank" class="news-link">霓虹AI超美?实则组队打工仔</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef89c-6087-7dd8-b0f1-8a8458d65fe3" target="_blank" class="news-link">SK Hynix said its American Depositary Receipts (ADRs) will list in July.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775361" target="_blank" class="news-link">“钠离子电池”=“新石油”！大摩喊出口号：重塑能源和AI发展的关键瓶颈</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef89c-3016-7dd8-b0f1-857313387f26" target="_blank" class="news-link">SK Hynix plans an ADR listing to raise up to 45 trillion won.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2407855" target="_blank" class="news-link">低估了AI全球泡沫，宁泉杨东发声“不敢再参与”，私募圈AI分歧推到前台</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/nuvela-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Nuvela AI</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3775394" target="_blank" class="news-link">汇丰财富洞察：新三大投资引擎，人工智能、能源及国防|汇丰3季度财富洞察（专题一）</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef896-38fc-7dd8-b0f1-6bd87851336f" target="_blank" class="news-link">CCPIT vice chairman Lin Honghong meets Japan International Trade Promotion Association acting president Hashimoto Gaku</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1222518" target="_blank" class="news-link">分享一个好玩的东西， AI 现编 vibeOS。所有应用都是实时生成的</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef894-4f4f-7dd8-b0f1-60f3a66cae42" target="_blank" class="news-link">China Academy of Information and Communications Technology said domestic handset shipments in May totaled 27.639 mln units, up 16.5% YoY; 5G handset shipments were 26.224 mln, up 23.8%, accounting for 94.9% of May shipments.</a> [11] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5256831" target="_blank" class="news-link">佳电股份(000922.SZ)：目前暂未涉及人工智能数据中心（AIDC）方向的产业布局</a> [11] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/makesuperai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">MakeSuperAI</a> [12] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5256829" target="_blank" class="news-link">博通集成(603068.SH)：已有多款融合AI技术的AIoT芯片产品实现量产销售</a> [13] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1222512" target="_blank" class="news-link">🎨 做了一个 AI 图像视频生成工具，调用免费 API，已开源，求个 Star</a> [13] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef891-4c56-7dd8-b0f1-4ddda1bda177" target="_blank" class="news-link">China&#x27;s Shanghai Gold Exchange Gold T+D closed down 1.06% at 894.0 yuan/gram on June 24 (Wednesday); Silver T+D closed down 2.24% at 14906.0 yuan/kg.</a> [14] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef88f-f9e3-7dd8-b0f1-426488dd0c83" target="_blank" class="news-link">Riksbank Deputy Governor Seim said he is closely watching behavioral changes and is carefully monitoring firms&#x27; pricing plans.</a> [15] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959296" target="_blank" class="news-link">封装已经不是配角，它就是AI芯片本身</a> [15] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef88f-e928-7dd8-b0f1-3ebffd15b717" target="_blank" class="news-link">Riksbank Deputy Governor Bunge said they believe Sweden&#x27;s economic recovery is continuing.</a> [16] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-24/spacex%E5%8F%91%E8%A1%8C250%E4%BA%BF%E7%BE%8E%E5%85%83%E5%80%BA%E5%88%B8%E6%8E%A8%E8%BF%9Bai%E8%AE%A1%E5%88%92-c4d925" target="_blank" class="news-link">SpaceX发行250亿美元债券推进AI计划</a> [16] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef88f-c6bf-7dd8-b0f1-3724a169e7d7" target="_blank" class="news-link">Riksbank Governor Thedéen said the bank may have focused too narrowly on details when assessing domestic inf risks and overlooked broader international developments.</a> [17] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef88f-96c4-7dd8-b0f1-29a2e6d0aa97" target="_blank" class="news-link">Iran&#x27;s parliament speaker Ghalibaf said regional security must be ensured by countries in the region.</a> [18] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef88f-8681-7dd8-b0f1-215539e3f23f" target="_blank" class="news-link">Riksbank Governor Thedéen said the economic impact of the Middle East war is already evident in multiple price-pressure indicators in Sweden and among its major trading partners.</a> [19] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef88f-7307-7dd8-b0f1-1e603deea123" target="_blank" class="news-link">Riksbank Deputy Governor Hjelm said monetary policy should, when conditions permit, look through temporary rises in inflation, particularly when those rises are clearly supply-driven.</a> [20] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3774507" target="_blank" class="news-link">金刚石散热：超越液冷，它是AI“热力学终极圣杯”？</a> [20] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/3928bca5f91943f4a76792a06938a567" target="_blank" class="news-link">6.22 小红书 Product Engineer-产品工程师（AI与全栈方向）一面</a> [20] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef88f-10f1-7dd8-b0f1-0a720d5ec705" target="_blank" class="news-link">Riksbank Deputy Governor Hjelm said that, fundamentally, if developments are judged broadly in line with the baseline scenario, the policy-rate path set out in the March forecast remains reasonable.</a> [22] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/917.htm" target="_blank" class="news-link">软银孙正义回应 AI 泡沫论：这是对 AI 的侮辱，人工智能仍处于发展初期</a> [22] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef88e-8bc3-7dd8-b0f1-05f7e5b57e98" target="_blank" class="news-link">Riksbank Deputy Governor Bunge said even if the war were to end immediately, supply shocks would continue to weigh on the inflation outlook.</a> [23] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef88e-75f0-7dd8-b0f0-fb812384ec1c" target="_blank" class="news-link">Riksbank Deputy Governor Sem said if the Strait of Hormuz reopens, cost pressures could ease significantly, lowering the likelihood the bank will need to take action.</a> [24] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef88e-5bed-7dd8-b0f0-f4623761b7c6" target="_blank" class="news-link">Riksbank Deputy Governor Seim said he needs reliable signs that rising global cost pressures are exerting a worrying effect on Swedish inflation before he would support a rate hike at the next meeting.</a> [25] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-24/%E4%B8%8A%E6%B5%B7mwc%E5%BC%80%E5%B9%95-%E8%BF%90%E8%90%A5%E5%95%86%E9%AB%98%E7%AE%A1%E8%81%9A%E7%84%A6ai%E9%87%8D%E6%9E%84%E9%80%9A%E4%BF%A1%E4%B8%9A-d17b55" target="_blank" class="news-link">上海MWC开幕 运营商高管聚焦AI重构通信业</a> [25] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef88e-2d25-7dd8-b0f0-ee8804260a75" target="_blank" class="news-link">Riksbank Deputy Governor said the risk of inflation being too high has increased, regardless of whether a near-term lasting peace agreement is reached.</a> [26] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef88d-0fc9-7dd8-b0f0-e6720d1309c8" target="_blank" class="news-link">Riksbank Deputy Governor Bunge said the bank&#x27;s rate path implies a possible rate hike this autumn, but it will reassess the matter after the end of summer.</a> [27] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/967/900.htm" target="_blank" class="news-link">马斯克官宣 Starmind 太空 AI 算力项目名称，规划 100 万颗计算卫星入轨</a> [27] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef88c-c8a7-7dd8-b0f0-dc072ddcece9" target="_blank" class="news-link">Riksbank Governor Thedéen said the central bank is adjusting its near-term policy path slightly toward tightening, but the shift remains modest.</a> [28] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef88c-76be-7dd8-b0f0-d2142f9b7d35" target="_blank" class="news-link">Riksbank Governor Thedéen said the central bank will continue to closely monitor and assess the intensity of the inflation shock currently spreading through the business sector.</a> [29] <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ef88c-4548-7dd8-b0f0-cc4d79f0ae55" target="_blank" class="news-link">Riksbank Governor Thedéen said the SEK exchange rate will be an important factor going forward.</a> [30] <font color='grey'>- 16时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1222549" target="_blank" class="news-link">和 Claude Code 死磕 3B token 的家庭记账 APP，聊聊 vibe coding 和 spec coding 在长项目上到底差在哪</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775375" target="_blank" class="news-link">Anthropic发布重大更新推出CC进化版Claude Tag，Karpathy：LLM第三次交互革命来了</a> [14] <font color='grey'>- 16时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3123899" target="_blank" class="news-link">打包出售灵犀互娱？阿里巴巴方面暂无回应</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260624160547962800" target="_blank" class="news-link">打包出售灵犀互娱？阿里巴巴方面暂无回应</a> [21] <font color='grey'>- 16时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1222550" target="_blank" class="news-link">为了搞懂 ChatGPT 为什么会推荐某些网站，我整理了一个 GEO 案例库</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
