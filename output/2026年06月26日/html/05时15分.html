@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 163</p><p>生成时间: 2026-06-26 05:15:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">29</td>
+                <td class="percentage">17.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f0097-4595-7dd8-b126-7583e7205d2b" target="_blank" class="news-link">A British official said King Charles will not reside at Buckingham Palace after renovation work completes next year.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3124858" target="_blank" class="news-link">OpenAI倾向于等到2027年再IPO。（纽约时报）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775542" target="_blank" class="news-link">DeepSeek 开启“倍增”式扩招：剑指 AI 搜索与数据壁垒，大模型商业化决战打响</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260626044755013800" target="_blank" class="news-link">SpaceX股价回落敲响警钟 OpenAI或等到明年再IPO</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f008a-5062-7dd8-b126-58ec21addf25" target="_blank" class="news-link">SpaceX slide alarms markets; OpenAI may delay IPO until next year</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f0081-6f7b-7dd8-b126-571892d23d2f" target="_blank" class="news-link">Sources said the JP Morgan (JPM.N) board wants Jamie Dimon to remain CEO for several years and that he would become executive chairman after stepping down.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48678820" target="_blank" class="news-link">The Customer Who Almost Killed Slack, Stripe, and Airbnb</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260626043517228800" target="_blank" class="news-link">据纽约时报：OpenAI倾向于等到明年再进行IPO。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f0080-0f33-7dd8-b126-42084f164c34" target="_blank" class="news-link">Sources say JP Morgan CEO Dimon is expected to remain CEO for three more years.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f007f-1ad3-7dd8-b126-388a94bf4d92" target="_blank" class="news-link">A Colombian carrier said it will resume scheduled flights to Valencia, Venezuela from Thursday afternoon.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f007e-9478-7dd8-b126-376569cbdff4" target="_blank" class="news-link">New York Times reports OpenAI is leaning toward waiting until next year to pursue an IPO.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3124849" target="_blank" class="news-link">根据销售AI账单审计工具的公司Vaudit的数据，由于计费错误，一些客户支付给Anthropic和OpenAI产品的费用可能高于实际应支付的金额。（The Information）</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260626041922109800" target="_blank" class="news-link">据The Information：特朗普政府要求OpenAI出于安全考虑分批发布新模型。</a> [11] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260626040729452800" target="_blank" class="news-link">据The Information：谷歌的人工智能项目推动出版商允许内容用于人工智能模型训练。</a> [13] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f0070-09df-7dd8-b126-0b3a4621707f" target="_blank" class="news-link">The Information reports the Trump administration asked OpenAI to stagger the rollout of new models for safety reasons.</a> [14] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f0065-242b-7dd8-b125-fe39dcaf4b27" target="_blank" class="news-link">The Information reports Google&#x27;s AI project is pressing publishers to allow their content to be used to train AI models.</a> [16] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f0060-c59b-7dd8-b125-e6a2b84b76b4" target="_blank" class="news-link">According to The Information, Vaudit, a vendor of AI billing-audit tools, says its data show billing errors may have led some customers to overpay for ANTHROPIC and OpenAI products.</a> [19] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260626040241840800" target="_blank" class="news-link">据The Information：根据销售AI账单审计工具的公司Vaudit的数据，由于计费错误，一些客户支付给Anthropic和OpenAI产品的费用可能高于实际应支付的金额。</a> [19] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f0053-1c8e-7dd8-b125-c89d46c656ab" target="_blank" class="news-link">Fed&#x27;s Williams expects inflation to edge down over the next few quarters. He cited four factors: tariff effects have largely run their course; his baseline is that supply disruptions tied to the Strait of Hormuz will be resolved relatively quickly; housing-related inflation should continue to slow; and he sees no evidence the labor market is adding inflationary pressure.</a> [22] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260626034529365800" target="_blank" class="news-link">美联储威廉姆斯：通胀水平“无疑处于高位，且远超”目标，这反映了关税、能源价格以及人工智能（AI）相关科技产品需求的影响。</a> [23] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f004d-e24f-7dd8-b125-b96cde6d9671" target="_blank" class="news-link">Fed&#x27;s Williams said monetary policy is at an &quot;appropriate&quot; level for the current economy.</a> [24] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4140769_103_1" target="_blank" class="news-link">美国纽约联储主席威廉姆斯：关税、能源、AI投资驱动通胀。</a> [24] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f004d-b787-7dd8-b125-b1790384b2f6" target="_blank" class="news-link">Williams said the Fed will adjust reserve-management purchase operations as needed.</a> [25] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f004d-7e4e-7dd8-b125-a4bec7b0e79d" target="_blank" class="news-link">Fed&#x27;s Williams said the labor market remains resilient and the Fed must bring inflation back to its 2% target.</a> [27] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f004d-5775-7dd8-b125-9ee0e79793d0" target="_blank" class="news-link">Fed&#x27;s Williams said he has pushed back his projection for when inflation will reach the Fed&#x27;s 2% target from 2027 to 2028.</a> [28] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f004d-19e4-7dd8-b125-9468935b9d3a" target="_blank" class="news-link">Federal Reserve&#x27;s Williams said he expects inflationary pressures to ease.</a> [29] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f004c-e2ce-7dd8-b125-8beb054317d2" target="_blank" class="news-link">WILLIAMS of the Federal Reserve said standing repo operations are a key tool to rein in upward pressure on interest rates.</a> [30] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E6%89%8B%E6%90%93AI%E5%AE%9E%E6%97%B6%E7%94%9F%E6%88%90%E6%B8%B8%E6%88%8F" target="_blank" class="news-link">UP主手搓AI实时生成游戏</a> [30] <font color='grey'>- 05时15分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7654415237039456294" target="_blank" class="news-link">🎁 送你一套超好用超实用的 FE AI-Coding Skills</a> [30] <font color='grey'>- 05时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3124845" target="_blank" class="news-link">纳斯达克金龙中国指数收跌2.70%，报5690.24点，日内整体呈现出长尾L形走势，逼近2024年9月18日收盘位5639.37点、当年8月28日收盘位5399.48点（当年8月5日盘中曾走低至5373.21点）。 热门中概股里，携程初步收跌12.5%，万国数据跌6.3%，金山云跌5.6%，阿里巴巴跌4.8%，拼多多跌3.2%，日月光半导体涨0.8%。 ETF中，中概互联网指数ETF（KWEB）收跌2.76%，中国科技指数ETF（CQQQ）收涨1.24%。 MSCI新兴市场ex中国ETF（EMXC）收涨1.67%，XtrackersHarvest中证50（ASHS）收涨2.01%，德银嘉实沪深300指数ETF（ASHR）收涨2.31%。</a> [13]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
