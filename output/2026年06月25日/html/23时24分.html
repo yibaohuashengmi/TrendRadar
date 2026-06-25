@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 372</p><p>生成时间: 2026-06-25 23:24:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">29</td>
+                <td class="percentage">7.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eff4d-eec4-7dd8-b11f-bc46e3f947dd" target="_blank" class="news-link">IMF says global inf expectations remain stable and financial conditions are accommodative.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775532" target="_blank" class="news-link">科技牛市隐忧浮现：华尔街开始定价“AI反噬”风险</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eff4d-3e43-7dd8-b11f-a5d67f7556bc" target="_blank" class="news-link">IMF said the Fed&#x27;s decision last week to hold interest rates unchanged was appropriate.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BD%A0%E5%AF%B9AI%E8%84%B8%E4%BA%A7%E7%94%9F%E7%94%9F%E7%90%86%E6%80%A7%E5%8E%8C%E6%81%B6%E4%BA%86%E5%90%97" target="_blank" class="news-link">你对AI脸产生生理性厌恶了吗</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1222895" target="_blank" class="news-link">腾讯 Agent Mail 内测体验 + 优化版 Skill 分享</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eff4c-db73-7dd8-b11f-965b64e22e63" target="_blank" class="news-link">IMF said it did not participate in the debt restructuring announced by Venezuela.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48673194" target="_blank" class="news-link">Tell HN: OpenAI has started putting ads on paid programs</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eff4c-ad5c-7dd8-b11f-8c3dc89d84ee" target="_blank" class="news-link">IMF welcomes Federal Reserve Chair Kevin Warsh&#x27;s firm commitment to achieving price stability.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eff4c-a50d-7dd8-b11f-84243205dc4c" target="_blank" class="news-link">IMF says the main concern about the impact of the Iran war is concentrated among net energy‑importing countries with limited fiscal buffers or oil reserves, particularly in Africa.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775526" target="_blank" class="news-link">AI军备竞赛的隐形瓶颈：电力基础设施才是真正的决胜战场</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-25/%E5%B9%BF%E7%94%B5%E6%80%BB%E5%B1%80%E5%8F%91%E5%B8%83ai%E5%BE%AE%E7%9F%AD%E5%89%A7%E5%88%86%E7%B1%BB%E5%88%86%E5%B1%82%E7%AE%A1%E7%90%86%E6%A0%87%E5%87%86-b3a027" target="_blank" class="news-link">广电总局发布AI微短剧分类分层管理标准</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3124752" target="_blank" class="news-link">台积电预计，全球半导体市场将在今年突破1万亿美元，并在2030年达到1.5万亿美元。业内人士认为，台积电本次闭门会再度坚定了业界的AI信仰，其晶圆制造和先进封装扩产，具有产业发展趋势风向标意义。随着晶圆厂和封装厂次第加入到扩产序列，半导体设备和材料商，将率先受益于AI带来的本轮扩产大潮。（上证报）</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/968/696.htm" target="_blank" class="news-link">Adobe 宣布收购 Topaz Labs 强化 AI 视频与图像布局，交易预计 2026 年下半年完成</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33450214" target="_blank" class="news-link">“AI教母”李飞飞：未来的职场将只剩下这两种人</a> [11] <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%AB%98%E8%80%83%E5%BF%97%E6%84%BF%E8%A6%81%E9%80%89AI%E4%B8%93%E4%B8%9A%E5%90%97" target="_blank" class="news-link">高考志愿要选AI专业吗</a> [12] <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eff49-ae73-7dd8-b11f-5ca5a148b9a8" target="_blank" class="news-link">Hungarian Prime Minister Magyar said the government has not yet discussed a phased removal of price caps, but the measure is worth considering.</a> [13] <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2409443" target="_blank" class="news-link">美光业绩提振AI板块 纳指期货涨超2% PCE数据缓解加息担忧 | 今夜看点</a> [13] <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eff47-dd6b-7dd8-b11f-516536105229" target="_blank" class="news-link">Strait of Hormuz transit recovers to about 57% of pre-conflict levels</a> [14] <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eff47-89fc-7dd8-b11f-4ac8e0d5d5de" target="_blank" class="news-link">Iran proposes fees for Strait of Hormuz; potential annual revenue $40 bln</a> [15] <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eff41-2d92-7dd8-b11f-4398cd0623a9" target="_blank" class="news-link">Wall Street Journal reports Iran has proposed charging transit fees with Gulf neighbors for vessels using the Strait of Hormuz, estimating the measure could generate about 40 bln dlr a year.</a> [16] <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eff3e-213b-7dd8-b11f-3e31eec39798" target="_blank" class="news-link">US Energy Secretary Wright said the release of 172 mln barrels from the Strategic Petroleum Reserve remains underway.</a> [17] <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/968/689.htm" target="_blank" class="news-link">广电总局发布 AI 微短剧分类分层标准，7 月 1 日起施行</a> [17] <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eff3d-7c8e-7dd8-b11f-34fcd3275aa1" target="_blank" class="news-link">U.S. Energy Secretary Wright said he expects Iran&#x27;s daily crude exports could reach as high as 2 million barrels per day.</a> [18] <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eff37-8f33-7dd8-b11f-23ede6f4c9b0" target="_blank" class="news-link">Zaporizhzhia nuclear plant says design department building hit by Ukrainian drone attack</a> [20] <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eff2d-adbb-7dd8-b11f-0297ca80a9e0" target="_blank" class="news-link">Market sources say the U.S. is seeking to establish a partnership with the EU on AI regulation and supply-chain cooperation.</a> [24] <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eff2d-684b-7dd8-b11e-f9834e2ed746" target="_blank" class="news-link">Petrobras CEO said the company will resume diesel imports in July after three consecutive months without imports.</a> [25] <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eff2d-18b5-7dd8-b11e-f0b54bad4792" target="_blank" class="news-link">US Supreme Court backs Trump administration plan to terminate deportation protections for Syrian and Haitian migrants.</a> [26] <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7654056632537022514" target="_blank" class="news-link">AI 编程-老项目改造篇</a> [28]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019eff26-0742-7dd8-b11e-d51bb1bb7586" target="_blank" class="news-link">Two sources said Russia&#x27;s Norsky refinery halted operations on Wednesday after a drone attack.</a> [30] <font color='grey'>- 23时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/968/698.htm" target="_blank" class="news-link">2026 上海世界移动通信大会开幕，华为携手运营商发布多项创新成果</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/968/671.htm" target="_blank" class="news-link">江汽董事长项兴初：积极对标华为、站在巨人的肩膀上，产品研发效率提升近四成</a> [30] <font color='grey'>- 23时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48673671" target="_blank" class="news-link">Show HN: I made Google Trends for Hacker News by indexing 18 years of comments</a> [12] <font color='grey'>- 23时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
