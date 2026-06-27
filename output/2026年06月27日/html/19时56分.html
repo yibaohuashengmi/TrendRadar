@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 201</p><p>生成时间: 2026-06-27 19:56:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">7.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f08d6-28ff-7dd8-b142-16cfc2ba2b8c" target="_blank" class="news-link">Iranian state television reports Iran’s transit directive for the Strait of Hormuz remains in effect; all vessels transiting the strait must contact and coordinate with the Islamic Revolutionary Guard Corps Navy (IRGC Navy).</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959316" target="_blank" class="news-link">AI自我回报开始了：季度收入首超基础设施折旧</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/folio-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Folio AI</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%80%89AI%E4%B8%93%E4%B8%9A%E8%BF%98%E6%98%AF%E8%A2%ABAI%E9%80%89" target="_blank" class="news-link">选AI专业还是被AI选</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f08bf-7417-7dd8-b141-fca4fc354310" target="_blank" class="news-link">Iranian state TV said more vessels are seeking Iran&#x27;s permission to transit the Strait of Hormuz after warning shots were fired at unauthorized ships.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f08b5-18e4-7dd8-b141-ef4b84d6836e" target="_blank" class="news-link">Kuwait condemned Iran’s attack on Bahraini territory, saying it seriously undermines efforts to maintain peace and stability and poses a threat to regional security.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f08a2-06fa-7dd8-b141-e1c6d4e6f315" target="_blank" class="news-link">Germany&#x27;s foreign minister said Berlin supports implementing the Israel-Lebanon agreement and that maintaining the Lebanese state&#x27;s monopoly on the use of force is essential.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f08a1-9c26-7dd8-b141-ddff25e39761" target="_blank" class="news-link">Germany&#x27;s foreign minister said an agreement between Israel and Lebanon strengthens both countries&#x27; security and offers an opportunity to resolve a decades-long conflict.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f0898-4dba-7dd8-b141-cea937e76f96" target="_blank" class="news-link">Iran Civil Aviation Organization says Tehran–Dubai flights will resume on July 1.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/Anil-matcha/Open-Generative-AI" target="_blank" class="news-link">Anil-matcha / Open-Generative-AI</a> [12]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f0890-6488-7dd8-b141-b36b2d33e647" target="_blank" class="news-link">Iranian parliament&#x27;s National Security and Foreign Policy Committee spokesman Rezaei said the US violated a memorandum to end hostilities by stoking tensions in the Strait of Hormuz and warned any such violations would be met with a swift, decisive response.</a> [13] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-27/%E4%B8%93%E5%AE%B6%E8%AD%A6%E5%91%8Aai%E6%B3%A1%E6%B2%AB%E7%A0%B4%E8%A3%82%E5%86%B2%E5%87%BB%E6%81%90%E7%94%9A%E4%BA%8E%E5%8E%86%E6%AC%A1%E8%82%A1%E7%81%BE-76d38b" target="_blank" class="news-link">专家警告AI泡沫破裂冲击恐甚于历次股灾</a> [13] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f0885-a484-7dd8-b141-a7a4efdbc75b" target="_blank" class="news-link">Iran&#x27;s Islamic Republic News Agency reported the foreign ministers of Oman and Egypt spoke, discussing bilateral relations, the regional situation and navigation safety in the Strait of Hormuz.</a> [15] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f087b-7ef9-7dd8-b141-98c9d10c44bd" target="_blank" class="news-link">China, Russia conduct 11th joint strategic air patrol</a> [16] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/Fission-AI/OpenSpec" target="_blank" class="news-link">Fission-AI / OpenSpec</a> [17]</div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7654831934091657259" target="_blank" class="news-link">从表单到 Agent：得物社区活动搭建的 AI 实践之路</a> [30] <font color='grey'>- 19时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/luongnv89/claude-howto" target="_blank" class="news-link">luongnv89 / claude-howto</a> [15]</div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7655263874610429993" target="_blank" class="news-link">深入理解Claude Code：CLAUDE.md、Hooks、Skills、Subagents</a> [25] <font color='grey'>- 19时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/969/471.htm" target="_blank" class="news-link">鹏城云脑 Ⅲ 登顶 IO500 双榜：搭载华为 OceanStor A800 存储，总分超前世界纪录 1.8 倍</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
