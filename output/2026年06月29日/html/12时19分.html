@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 490</p><p>生成时间: 2026-06-29 12:19:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">27</td>
+                <td class="percentage">5.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1185-6a44-7aab-8c08-86bd54540d96" target="_blank" class="news-link">Malaysia&#x27;s economy minister said rice supplies are sufficient to last 5-6 months, and supplies of chicken, eggs, fish and fruit are at least adequate for one month.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1184-2bd1-7aab-8c08-7aa029831ccc" target="_blank" class="news-link">Malaysia&#x27;s economic minister said fuel supplies are adequate to last through the end of August.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5259331" target="_blank" class="news-link">AI算力进入液冷时代，联想第七代海神液冷技术体系受关注</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1180-c4a6-7aab-8c08-76559f0c8707" target="_blank" class="news-link">Malaysia&#x27;s economy minister said fertilizer costs are expected to rise 15-20% and livestock feed costs about 8%.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48713051" target="_blank" class="news-link">Better Images of AI</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f117a-a0d1-7aab-8c08-60d7a5e73ab8" target="_blank" class="news-link">Thai Automotive Industry Association said Thailand&#x27;s domestic vehicle sales rose 10.6% YoY in May, versus 2.54% growth in April.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775728" target="_blank" class="news-link">高盛：石油尾部风险消退，AI估值博弈成市场波动新主轴</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260629115639400800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2026-06-29）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1178-f96f-7aab-8c08-5efdf99d46b4" target="_blank" class="news-link">Japan drafts economic blueprint aiming to double real growth to over 1% by 2040</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1171-df64-7aab-8c08-450f78de8e63" target="_blank" class="news-link">Thai Automotive Industry Association: Thailand&#x27;s vehicle production rose 17.94% YoY in May (April: -2.69%).</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/969/829.htm" target="_blank" class="news-link">芬兰计划到 2031 年用 AI 全面改造公共部门，将取代部分员工</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48713697" target="_blank" class="news-link">AI boom risks global financial crash, warn central bankers</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775724" target="_blank" class="news-link">科技还要接着舞！高盛坚守赢家：继续超配北亚与AI，沪深上看5500点</a> [11] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2074295-1-1.html" target="_blank" class="news-link">Windows 11 24H2 / 25H2 26x00.7840 Retail 繁中/简中/英文 纯净珍藏版【度盘+夸盘+123】</a> [12] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f116f-1574-7aab-8c08-1917040ba7a5" target="_blank" class="news-link">June 27-28: PLA Southern Theater conducted routine naval and air patrols in South China Sea</a> [14] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775722" target="_blank" class="news-link">AI军备竞赛走到十字路口！高盛示警&quot;掏钱者&quot;估值透支，&quot;收钱者&quot;仍有空间</a> [14] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1223568" target="_blank" class="news-link">Prompt Pick-为了让 AI 更快速理解需求，我做了个面向研发/产品/设计的 HTML 元素提取并生成增强 Prompt 的插件</a> [16] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f116e-473b-7aab-8c08-004b787e2e41" target="_blank" class="news-link">At the morning session close, China&#x27;s front-month commodity futures were mostly higher: palladium up nearly 4%, live hogs up over 3%, platinum up nearly 3%. Fiberboard, lithium carbonate, coking coal, Shanghai silver, red dates and Shanghai zinc rose more than 2%. Lagging contracts included SC crude oil down over 2%, synthetic rubber down nearly 2%, japonica rice, 20# rubber and PVC down more than 1%, and caustic soda down nearly 1%.</a> [17] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7656050265522913280" target="_blank" class="news-link">AI 乱改代码？试试这套 SDD 规范驱动工作流</a> [17]</div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3775580" target="_blank" class="news-link">AI算力“灌溉”光纤产业，高纯四氯化硅开启“量价齐升”超级周期</a> [19] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f114f-0a41-7aab-8c07-ae83fb0cd7c0" target="_blank" class="news-link">Taliban spokesman says Pakistani airstrikes along the Afghan border have killed and wounded dozens.</a> [28] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-06-28/%E4%B8%AD%E5%9B%BD%E6%B3%95%E6%B2%BB%E5%AE%9E%E6%96%BD%E6%8A%A5%E5%91%8A%E8%AD%A6%E7%A4%BAai%E8%B5%8B%E8%83%BD%E9%A1%BB%E9%98%B2%E8%8C%83%E6%95%B0%E5%AD%97%E9%B8%BF%E6%B2%9F-fd2b77" target="_blank" class="news-link">《中国法治实施报告》警示AI赋能须防范数字鸿沟</a> [28] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7655419232670892082" target="_blank" class="news-link">用AI全自动剪辑，日更 100条爆款视频——HyperFrames、Remotion、Git使用入门</a> [28] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7656384927139102772" target="_blank" class="news-link">我从 0 开发的 AI Agent 智语项目发布了</a> [29] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48673450" target="_blank" class="news-link">Model Training as Code</a> [29] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1144-adb7-7aab-8c07-9acf379629ee" target="_blank" class="news-link">PBOC deputy governor and SAFE head Zhu Hexin meets Citigroup chair and CEO Jane Fraser</a> [30] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7656055019972722731" target="_blank" class="news-link">如何让 AI 快速搭建一套生产 Agent ？全面理解 Agent 架构。</a> [30] <font color='grey'>- 12时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">3</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1223578" target="_blank" class="news-link">DeepSeek 好贵啊</a> [13] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7655691054172700718" target="_blank" class="news-link">DSpark 讲透：DeepSeek 不换模型，硬把 V4 提速 85%，是怎么做到的？</a> [15] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7656300675647373321" target="_blank" class="news-link">DeepSeek这次招得太猛了，36个岗位，80%都要会Agent！</a> [27] <font color='grey'>- 12时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/969/873.htm" target="_blank" class="news-link">华为 Mate 40 Pro 鸿蒙 NEXT 测试机曝光，系统基于 OpenHarmony 4.1 打造</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/969/799.htm" target="_blank" class="news-link">阿维塔 07L 新车官宣搭载华为乾崑 896 线激光雷达</a> [24] <font color='grey'>- 12时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.2%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1223564" target="_blank" class="news-link">天塌了，刚办好 Timon+MTN，尼区 Claude 涨价了</a> [17] <font color='grey'>- 12时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.2%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> [20] <font color='grey'>- 12时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
