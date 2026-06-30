@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 212</p><p>生成时间: 2026-07-01 02:59:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">7.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19cf-f7b0-7aab-8c40-5ea0b4086263" target="_blank" class="news-link">Colombia&#x27;s central bank governor said the technical team&#x27;s forecast shows inflation may reach about 4% by end-2027, with a return to the 3% target expected in 2028.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775880" target="_blank" class="news-link">欧股Q2劲涨10%创2020年来最佳季表现，AI热情与油价回落成推手</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775881" target="_blank" class="news-link">Anthropic出性价比王牌Claude Sonnet 5，提升智能体能力，直指企业AI自动化市场</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19cd-0f3b-7aab-8c40-457ed42d9278" target="_blank" class="news-link">Night-session main contracts close</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19cc-6797-7aab-8c40-380cef39d5b8" target="_blank" class="news-link">Shanghai Gold Exchange gold T+D closed up 1.1% at 880.4 yuan/gram in the evening session on June 30. Silver T+D closed up 3.72% at 14,545 yuan/kg.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19c6-33db-7aab-8c40-36cc99bd5da1" target="_blank" class="news-link">Qatar&#x27;s Foreign Ministry said technical-level contacts between the US and Iran continue, but high-level talks have not resumed.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19c1-83ee-7aab-8c40-1135f369e9aa" target="_blank" class="news-link">Colombia&#x27;s central bank raised its policy rate by 75 bps to 12%.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19bb-8999-7aab-8c3f-f62221e117a3" target="_blank" class="news-link">The US Federal Communications Commission plans to vote next month to close a loophole and ban sales in the US of devices containing components from companies on its sanctions blacklist.</a> [14] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19b7-38b1-7aab-8c3f-da0489645c69" target="_blank" class="news-link">ECB governing council member Dolenc said that based on current data, an ECB pause in rate hikes in July could be appropriate.</a> [17] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19b6-ff43-7aab-8c3f-d04170973900" target="_blank" class="news-link">ECB executive board member dolenc said if energy prices remain subdued there is no urgency to raise interest rates.</a> [18] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19b6-b9a9-7aab-8c3f-cbd062acb231" target="_blank" class="news-link">ECB Governing Council member Dolenc said uncertainty in the Middle East remains elevated.</a> [19] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19b6-9704-7aab-8c3f-c4c1c06bc48e" target="_blank" class="news-link">ECB Governing Council member Dolenc said the situation could change rapidly before the next meeting.</a> [20] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19b5-eb74-7aab-8c3f-bb7023529dfd" target="_blank" class="news-link">Anthropic said the model&#x27;s promotional pricing through Aug 31 is dlr2 per mln input tokens and dlr10 per mln output tokens; thereafter prices will rise to dlr3 per mln input tokens and dlr15 per mln output tokens.</a> [21] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19b0-8fdb-7aab-8c3f-a688279750d9" target="_blank" class="news-link">SemiAnalysis raises forecast: NVIDIA FY2027 H2 data-center revenue may be ~20% above Street</a> [24] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19af-4e94-7aab-8c3f-9a79c7d12bc7" target="_blank" class="news-link">Venezuela National Assembly President Jorge Rodríguez said on the 30th that two recent strong earthquakes in the country have killed 1,943 people.</a> [25] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19ad-34fa-7aab-8c3f-96b62769ed0c" target="_blank" class="news-link">Tanker-tracking agency data show Iran&#x27;s June exports at about 1.66 mln b/d; cumulative exports since sanctions easing total roughly 50 mln barrels. The agency says most regional exporters&#x27; shipments remain below pre-war levels.</a> [26] <font color='grey'>- 02时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">13</td>
+                <td class="percentage">6.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48736605" target="_blank" class="news-link">Claude Sonnet 5</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84723" target="_blank" class="news-link">Claude Code 会悄悄检查用户的系统时区是否是中国</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48734373" target="_blank" class="news-link">Claude Code is steganographically marking requests</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48735770" target="_blank" class="news-link">Claude Science</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3126941" target="_blank" class="news-link">Anthropic推出Claude Sonnet 5。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260701021057270800" target="_blank" class="news-link">Anthropic推出Claude Sonnet 5，代理能力大幅提升</a> [14] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19ba-6712-7aab-8c3f-ee554c414d58" target="_blank" class="news-link">ANTHROPIC launches Claude Sonnet 5; agent capability substantially improved</a> [15] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3126932" target="_blank" class="news-link">Anthropic推出Claude Science，助力科研自动化</a> [17] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260701020609156800" target="_blank" class="news-link">Anthropic：该模型在8月31日前的优惠定价为输入每百万tokens 2美元、输出10美元，之后将上调至3美元和15美元。</a> [20] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260701020523134800" target="_blank" class="news-link">Anthropic：安全测试显示Claude Sonnet 5较Sonnet 4.6有所提升。该模型已在所有Claude套餐上线，并通过Claude Code及Claude平台提供使用。</a> [21] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19b5-46f5-7aab-8c3f-b1cfb0e4b209" target="_blank" class="news-link">ANTHROPIC: safety tests show Claude Sonnet 5 improves on Sonnet 4.6. The model is now live across all Claude tiers and accessible via Claude Code and the Claude platform.</a> [22] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260701020323978800" target="_blank" class="news-link">Anthropic：推出Claude Sonnet 5。</a> [22] <font color='grey'>- 02时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f19b3-84a0-7aab-8c3f-adc952507ee9" target="_blank" class="news-link">ANTHROPIC launches Claude Sonnet 5.</a> [23] <font color='grey'>- 02时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3126939" target="_blank" class="news-link">谷歌公司：现在可以在移动端通过Drive Now向Gemini提问。</a> [11] <font color='grey'>- 02时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
