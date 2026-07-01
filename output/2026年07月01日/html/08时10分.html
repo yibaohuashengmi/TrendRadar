@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 221</p><p>生成时间: 2026-07-01 08:10:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">8.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3775797" target="_blank" class="news-link">AI热情驱动美股收涨，道指续收新高，标普纳指创史上最佳季度之一，美债跌</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1224079" target="_blank" class="news-link">bazi-skill：不是又一个算命工具，而是一个命理 AI harness</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2074460-1-1.html" target="_blank" class="news-link">个人觉得 AI 技术的核心指导思想，其实是数学范畴了(DeepSeek v4 Pro)</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/970/810.htm" target="_blank" class="news-link">苹果 CEO 库克与欧盟科技主管就 Siri AI 展开“建设性”会谈</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775894" target="_blank" class="news-link">冲刺万亿IPO的利润博弈：Anthropic强攻AI制药、向亚马逊“要利润”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/970/809.htm" target="_blank" class="news-link">系列最强智能体 AI 模型：Claude Sonnet 5 登场，部分性能逼近 Opus 4.8</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1aff-28bf-7aab-8c46-1148fe88d042" target="_blank" class="news-link">Huatai Securities: South Korea $1.3tn plan to reshape global semiconductor equipment positioning amid memory cycle</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1afe-d0c6-7aab-8c46-0eced2e0c454" target="_blank" class="news-link">Local media reported an explosion at the Salina Cruz refinery in Oaxaca state, Mexico; three workers sustained burns while conducting maintenance in the alkylation unit.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775797" target="_blank" class="news-link">AI热情驱动美股收涨，道指续收新高，标普纳指创史上最佳季度之一，美债跌</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/970/802.htm" target="_blank" class="news-link">Meta CEO 扎克伯格不认为 AI 必然会带来大规模失业，建议企业发展“个人超级智能”</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1af7-9ccd-7aab-8c45-b0353aa25944" target="_blank" class="news-link">cenc measured a magnitude 5.2 earthquake at 07:44 on July 1 (local time) in Haixi prefecture, Qinghai; hypocenter depth 10 km.</a> [16] <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/970/789.htm" target="_blank" class="news-link">前 20 大药企已有 18 家使用，英伟达 AI 工具集 BioNeMo 接入 Claude Science</a> [17] <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/970/790.htm" target="_blank" class="news-link">苹果升级 Apple 创作坊：扩展 AI 工具，订阅年费 380 元</a> [18] <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1af4-ec99-7aab-8c45-9d18b43daee6" target="_blank" class="news-link">ANTHROPIC said it had been notified that the U.S. Commerce Department has lifted export controls on Claude Fable 5 and MYTHOS 5; the company will restore access tomorrow.</a> [19] <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1af3-c80d-7aab-8c45-8bcc9d90ef8d" target="_blank" class="news-link">Bank of Japan said the large manufacturers&#x27; confidence index has improved for five consecutive quarters, reaching its highest level since March 2018.</a> [21] <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3127010" target="_blank" class="news-link">苹果公司库克、欧盟官员Virkkunen讨论“Siri AI”。（英国金融时报）</a> [22] <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BD%91%E5%8F%8B%E6%9C%AA%E5%A4%87%E6%A1%88AI%E5%8A%A8%E7%94%BB%E8%A2%AB%E4%BC%98%E9%85%B7%E5%A4%87%E6%A1%88%E5%90%8E%E6%94%B6%E8%B4%B9%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">网友未备案AI动画被优酷备案后收费</a> [26] <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3127006" target="_blank" class="news-link">A股已有35家公司预告上半年业绩，预喜比例达74.29%，AI、锂电、化工三大板块领衔高增长</a> [27] <font color='grey'>- 08时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">5</td>
+                <td class="percentage">2.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3127031" target="_blank" class="news-link">据美国商务部长卢特尼克致Anthropic的信函，美国取消对Anthropic公司Fable 5的控制措施。（Wired）</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3127029" target="_blank" class="news-link">卢特尼克：Anthropic的Fable 5已通过分析并获得批准</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3127026" target="_blank" class="news-link">美国商务部长卢特尼克：与Anthropic进行了紧密合作，以批准Fable 5。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260701075439387800" target="_blank" class="news-link">Anthropic：我们已收到通知，美国商务部已解除对Claude Fable 5和Mythos 5的出口管制。我们将于明天开始恢复访问权限。</a> [13] <font color='grey'>- 08时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3127007" target="_blank" class="news-link">报道：Anthropic的Fable模型出口限制将于今晚解除</a> [25] <font color='grey'>- 08时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
