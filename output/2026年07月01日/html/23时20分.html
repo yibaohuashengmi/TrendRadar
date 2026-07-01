@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 387</p><p>生成时间: 2026-07-01 23:20:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">31</td>
+                <td class="percentage">8.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3775982" target="_blank" class="news-link">沃什：通胀近四周降温，AI正重塑经济，前瞻指引失去必要性</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775982" target="_blank" class="news-link">沃什：通胀近四周降温，AI正重塑经济，前瞻指引失去必要性</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/971/383.htm" target="_blank" class="news-link">OpenAI 推出 GeneBench-Pro 基准测试，用于评估 AI 模型生物学计算能力</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84732" target="_blank" class="news-link">Godot 拒绝接受 AI 生成的代码</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1e38-9ec1-7aab-8c61-99fa063256b4" target="_blank" class="news-link">Ivory Coast government spokesman said recent floods have killed 59 people.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/971/382.htm" target="_blank" class="news-link">谷歌 AI 智能体 Gemini Spark 登陆苹果 Mac，可实时追踪资讯动态</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3127515" target="_blank" class="news-link">Guggenheim称AI并非该行业的“丧钟”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5261544" target="_blank" class="news-link">美股异动丨“卖AI算力”新计划曝光！Meta大涨超8%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%86%B2%E5%87%BB%E5%A9%9A%E7%BA%B1%E5%BD%B1%E6%A5%BC&amp;t=31&amp;band_rank=4&amp;Refer=top" target="_blank" class="news-link">人工智能冲击婚纱影楼</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1224330" target="_blank" class="news-link">用 Codex + Antigravity 重构 AI 伴侣项目已上线（Android OPPO + iOS）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5261542" target="_blank" class="news-link">美股异动丨Meta跨界抢食AI算力市场，Nebius跌超16%、CoreWeave跌逾11%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3127510" target="_blank" class="news-link">Uber震动AI数据标注业务，解雇两位高层主管</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48745113" target="_blank" class="news-link">Nintendo has raised its employees base salary by 10%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202607/0175428.html" target="_blank" class="news-link">美中情局长将尖端AI比作核武 称AI正在重塑冲突形态</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775980" target="_blank" class="news-link">盘前涨逾5%！报道：Meta筹划进军云计算市场，以出售富余的AI算力资源</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5261535" target="_blank" class="news-link">弘景光电(301479.SZ)：尚未进入工业富联光模块/AI服务器供应链</a> [13] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48747389" target="_blank" class="news-link">Sony Deletes 551 Movies PlayStation Owners Paid For</a> [13] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775976" target="_blank" class="news-link">甲骨文的AI焦虑：建了数千亿数据中心，但就怕OpenAI付不起账单</a> [14] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775972" target="_blank" class="news-link">当华尔街策略师依赖同一套AI：交易更拥挤、风险更集中、错误传播更快</a> [15] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260701224001331800" target="_blank" class="news-link">Meta Platforms(META.O)盘中涨超10%，公司据悉正在构建一项云业务以出售过剩的AI算力。</a> [16] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1e2a-1807-7aab-8c61-1a2000e152e4" target="_blank" class="news-link">Fitch says a durable US-Iran ceasefire is critical to maintaining resilience in the GCC banking system.</a> [18] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1e28-32c4-7aab-8c61-104a0eb46992" target="_blank" class="news-link">Shanghai crude (SC) 2608 hit a fresh intraday low, down about 3% at 446.5 yuan/barrel; turnover roughly 7.44 bln yuan, intraday open interest rose nearly 1,000 contracts and trading volatility widened.</a> [19] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-01/meta%E8%AE%A1%E5%88%92%E5%87%BA%E5%94%AE%E8%BF%87%E5%89%A9ai%E7%AE%97%E5%8A%9B-anthropic%E8%BF%9B%E5%86%9Bai%E5%88%B6%E8%8D%AF-45d1db" target="_blank" class="news-link">Meta计划出售过剩AI算力 Anthropic进军AI制药</a> [19] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7AI%E5%B7%A8%E5%A4%B4%E4%B9%8B%E9%97%B4%E7%9A%84%E6%B7%B7%E6%88%98" target="_blank" class="news-link">如何评价AI巨头之间的混战</a> [21] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/971/341.htm" target="_blank" class="news-link">色字头上一把刀！央视曝光涉黄小卡片电诈陷阱，团伙用 AI 换脸合成不雅照邮寄敲诈</a> [21] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3127494" target="_blank" class="news-link">Meta涨8%，该公司推动通过云销售过剩的AI算力。</a> [22] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/971/339.htm" target="_blank" class="news-link">消息称 Meta 筹建云服务业务，计划对外售卖闲置 AI 算力与模型</a> [23] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1e20-fda6-7aab-8c60-ce415b5f4c37" target="_blank" class="news-link">An ECB Governing Council member said this autumn may bring more clarity on wages.</a> [28] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1e20-ae4f-7aab-8c60-c0b0ee90263f" target="_blank" class="news-link">ECB Governing Council member Kasik said the war’s impact on oil prices is likely to be longer-lasting and that another rate hike is a reasonable expectation.</a> [29] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-01/%E6%97%A5%E6%9C%AC%E7%BB%8F%E4%BA%A7%E7%9C%81%E6%8B%A8%E6%AC%BE3873%E4%BA%BF%E6%97%A5%E5%85%83%E6%89%B6%E6%8C%81%E8%BD%AF%E9%93%B6%E7%89%B5%E5%A4%B4%E5%BC%80%E5%8F%91%E5%9B%BD%E4%BA%A7ai-30ffa1" target="_blank" class="news-link">日本经产省拨款3873亿日元扶持软银牵头开发国产AI</a> [30] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7657025739334828070" target="_blank" class="news-link">纯 JS + Node，一个下午手搓了能读懂公司代码的 AI 助手，老板以为我转行了</a> [30]</div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/971/370.htm" target="_blank" class="news-link">谷歌称欧盟《数字市场法案》要求公开匿名搜索数据会引发安全风险</a> [13] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOG" target="_blank" class="news-link">谷歌C</a> [24] <font color='grey'>- 23时20分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48745061" target="_blank" class="news-link">Swedish court says Google is to pay $1.5B to Klarna in antitrust damages</a> [24] <font color='grey'>- 23时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2054320593491715458" target="_blank" class="news-link">如何看待 DeepSeek 招聘多处点名要求 Rust？</a> [14] <font color='grey'>- 23时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
