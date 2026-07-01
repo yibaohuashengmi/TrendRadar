@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 188</p><p>生成时间: 2026-07-02 03:21:16</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">28</td>
+                <td class="percentage">14.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776002" target="_blank" class="news-link">马斯克要造手机？报道：SpaceX展示类似手机的AI设备原型，比iPhone还要薄</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1f11-d4b4-7aab-8c65-84e3630f7b33" target="_blank" class="news-link">Lebanon&#x27;s prime minister said the state will not abandon its stance on arms control; it will not confront Hezbollah but will not accept pressure from the group.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1f0d-b734-7aab-8c65-78d3ee8ae3c9" target="_blank" class="news-link">President Trump said U.S.-Iran relations are very cordial.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1f07-4d21-7aab-8c65-706dee0b47ec" target="_blank" class="news-link">Mexico&#x27;s economy minister said reducing reliance on Asian suppliers for computers and electronics is key to the country&#x27;s economic growth outlook.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775997" target="_blank" class="news-link">Meta消息砸盘！AI基础设施股重挫，盘中闪迪、CoreWeave跌超10%，市场开始担心算力过剩？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1f03-914f-7aab-8c65-65390d5edb71" target="_blank" class="news-link">Federal Reserve Chair KEVIN WARSH will appoint Samantha Schwab, an aide to US Treasury Secretary BESSENT, as an adviser.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1f03-5114-7aab-8c65-5c7b3148305e" target="_blank" class="news-link">Zelenskiy says Ukraine has not received full Nord Stream investigation details</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1f03-4077-7aab-8c65-5043c572f7ae" target="_blank" class="news-link">Mexico&#x27;s economy minister said protecting the auto industry has long been a key focus of discussions.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1f03-2701-7aab-8c65-4e5072575fcf" target="_blank" class="news-link">Mexico&#x27;s economy minister said negotiators failed to agree on tariffs for steel and aluminum, and there are disputes over excluding regional content rules for auto parts from consideration and over seasonal provisions for agricultural products.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1f00-9c1c-7aab-8c65-41975fb05e54" target="_blank" class="news-link">Mexico&#x27;s economy minister said discussions on rules-of-origin standards must continue, noting systemic differences remain.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1f00-9b85-7aab-8c65-3e7ec90c759d" target="_blank" class="news-link">Mexico&#x27;s rules of origin for the auto sector are among the world&#x27;s most complex, the economy minister said.</a> [11] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702023511622800" target="_blank" class="news-link">马斯克否认《华尔街日报》报道，该报道称SpaceX(SPCX.O)曾向投资者展示新型人工智能设备的原型。</a> [11] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1f00-893d-7aab-8c65-331d52eea24c" target="_blank" class="news-link">Mexico&#x27;s economy minister said Canada’s participation should be monitored over the coming weeks.</a> [12] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3127573" target="_blank" class="news-link">报道：SpaceX开发出类似手机的AI原型机</a> [12] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1efc-ef72-7aab-8c65-2daba2242b35" target="_blank" class="news-link">Mexico&#x27;s economy minister said there are no substantive differences between Mexico, the US and Canada that cannot be resolved, and urged the US to reduce Section 232 tariffs on steel and aluminum and pursue regional coordination.</a> [13] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48750247" target="_blank" class="news-link">Are readers generating fiction with AI models?</a> [13] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1ef6-d53b-7aab-8c65-24246bcdf885" target="_blank" class="news-link">Elon Musk denied a Wall Street Journal report that SpaceX (SPCX.O) had shown investors a prototype of a new AI device.</a> [14] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1ef5-b303-7aab-8c65-1ad1e7e2487a" target="_blank" class="news-link">Mexico&#x27;s economy minister said the country seeks to address U.S. concerns about Mexico&#x27;s external dependence.</a> [15] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1ef2-7bb7-7aab-8c65-02b2245d231f" target="_blank" class="news-link">Shanghai Gold Exchange gold T+D closed up 1.76% at 886.5 yuan/gram in the July 1 evening session; silver T+D closed up 2.96% at 14,552 yuan/kg.</a> [18] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702020830991800" target="_blank" class="news-link">SpaceX披露手机形态AI设备原型 采用高通芯片并接入xAI</a> [19] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-01/2026waic%E8%81%9A%E7%84%A6%E4%BA%BA%E6%9C%BA%E5%85%B3%E7%B3%BB%E4%BB%8E%E5%B7%A5%E5%85%B7%E5%88%B0%E4%BC%99%E4%BC%B4%E6%BC%94%E8%BF%9B-b15f16" target="_blank" class="news-link">2026WAIC聚焦人机关系从工具到伙伴演进</a> [20] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1ede-60d3-7aab-8c64-ed466394b15a" target="_blank" class="news-link">SpaceX unveils early handheld AI-device prototype using Qualcomm Snapdragon, integrates xAI</a> [21] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702020102144800" target="_blank" class="news-link">据华尔街日报：消息人士透露，该原型机将运行在集成SpaceX(SPCX.O)旗下xAI人工智能技术的专有操作系统上。该原型机设计时尚，比iPhone更纤薄。该设备将采用高通(QCOM.O)骁龙芯片组。</a> [21] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702020034996800" target="_blank" class="news-link">据华尔街日报：消息人士透露，SpaceX(SPCX.O)已开发一款类似手机的设备原型，旨在改变人们与人工智能的交互方式。SpaceX在IPO前夕向部分投资者展示了该原型机。</a> [22] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1eda-235c-7aab-8c64-dc4f0035fb38" target="_blank" class="news-link">Wall Street Journal, citing sources, said the prototype will run a proprietary operating system integrating SpaceX&#x27;s XAI technology (SPCX.O), is designed to be thinner than the iPhone, and will use a Qualcomm Snapdragon chipset (QCOM.O).</a> [23] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1eda-22f0-7aab-8c64-d6cec22ffdcd" target="_blank" class="news-link">The Wall Street Journal reports sources say SpaceX (SPCX.O) has developed a phone-like device prototype aimed at changing how people interact with artificial intelligence. The company reportedly showed the prototype to select investors ahead of an IPO.</a> [24] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f1ed0-0b13-7aab-8c64-c5fa895240cf" target="_blank" class="news-link">The U.S. Department of Justice said a suspected member of the cybercriminal group Scattered Spider was arrested in Finland and extradited to the United States.</a> [26] <font color='grey'>- 03时21分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48744606" target="_blank" class="news-link">Apple &#x27;Hide My Email&#x27; vulnerability reveals peoples&#x27; real email addresses</a> [26] <font color='grey'>- 03时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3127564" target="_blank" class="news-link">继美国司法部官司之后，Yelp在针对谷歌公司的反垄断诉讼中获胜。 联邦法院认定，谷歌网络搜索构成垄断。（彭博法律Blaw）</a> [21]</div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4150741_103_1" target="_blank" class="news-link">继美国司法部官司之后，Yelp在针对谷歌公司的反垄断诉讼中获胜。联邦法院认定，谷歌网络搜索构成垄断。</a> [26] <font color='grey'>- 03时21分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
