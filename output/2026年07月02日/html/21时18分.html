@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 339</p><p>生成时间: 2026-07-02 21:18:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">5.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f22e1-722d-7aab-8c7a-57d250a65234" target="_blank" class="news-link">DOE said it plans to update energy-efficiency standards for household appliances.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1224606" target="_blank" class="news-link">为什么现在的 AI 回复第一句都是 “xxx 不是 xxx，而是 xxx 的对比句”？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1224604" target="_blank" class="news-link">AI 太贵了，有没有价廉物美的中转站推荐一下</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48760598" target="_blank" class="news-link">AI fake news complaining about how AI fake news is the death of real news</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/02/7ad0f7bebfab4d2c9276cb45c89dfcca.html" target="_blank" class="news-link">美国出现“人工智能通胀”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f22df-163a-7aab-8c7a-374641e58733" target="_blank" class="news-link">Deal terms show India&#x27;s Adani Enterprises plans to raise $1.05 bln via a share placement.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3128068" target="_blank" class="news-link">美媒：中国人工智能发展愿景以人为本</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3128067" target="_blank" class="news-link">脉脉发布校招数据：校招岗位量增长3.56%，AI岗位增长47.3%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2415745" target="_blank" class="news-link">超弱美国非农助力黄金拉升 AI牛股止跌转涨 | 今夜看点</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f22dd-b7f1-7aab-8c7a-24e041286ba0" target="_blank" class="news-link">DALY said policymakers should focus on stronger inf and labor-market data, but should not change the Fed&#x27;s target.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2415670" target="_blank" class="news-link">Meta被曝计划出售算力，AI算力过剩了吗？多家机构发声</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f22dd-8b2e-7aab-8c7a-1c6f939203ec" target="_blank" class="news-link">DALY said the Fed should, where possible, seek better inflation data.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f22dd-5917-7aab-8c7a-13c4161dbf6f" target="_blank" class="news-link">Tech and finance drag on US jobs; tech layoffs increasingly attributed to AI</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48760201" target="_blank" class="news-link">Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f22dc-53f7-7aab-8c7a-005ed5f39845" target="_blank" class="news-link">Syrian media reported an explosion at a café in Damascus on the 2nd, causing multiple casualties; the cause remains unclear.</a> [11] <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=AI%E6%BC%94%E5%91%98%E5%B7%B2%E7%BB%8F%E8%83%BD%E6%BC%94%E5%87%BA%E6%83%85%E7%BB%AA%E5%8F%98%E5%8C%96%E4%BA%86" target="_blank" class="news-link">AI演员已经能演出情绪变化了</a> [17] <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-02/ait%E5%A4%84%E9%95%BF%E8%B0%B7%E7%AB%8B%E8%A8%80%E4%BC%9A%E6%99%A4%E6%9E%97%E4%BD%B3%E9%BE%99%E9%87%8D%E7%94%B3%E6%8E%A8%E5%8A%A8%E5%8F%B0%E6%B9%BE%E5%9B%BD%E9%99%85%E5%8F%82%E4%B8%8E-5d1f56" target="_blank" class="news-link">AIT处长谷立言会晤林佳龙重申推动台湾国际参与</a> [17] <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/971/885.htm" target="_blank" class="news-link">英伟达推出全新扶持计划，以收益分成模式助力 AI 初创企业获取算力</a> [18] <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2052018919150450628" target="_blank" class="news-link">好多人为啥根本意识不到，就算 AI 崩盘，消费级 DDR 内存也不会暴跌至远低于 2024 年的低位价格？</a> [19] <font color='grey'>- 21时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">0.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202607/0275516.html" target="_blank" class="news-link">针对欧盟41亿欧元反垄断罚款 谷歌上诉失败</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-02/%E8%B0%B7%E6%AD%8C%E6%AC%A7%E7%9B%9F%E5%8F%8D%E5%9E%84%E6%96%AD%E4%B8%8A%E8%AF%89%E9%81%AD%E9%A9%B3%E5%9B%9E-%E9%9F%A9%E5%9B%BD%E6%8B%9F%E5%86%8D%E5%BC%80%E7%BD%9A-c13dcf" target="_blank" class="news-link">谷歌欧盟反垄断上诉遭驳回 韩国拟再开罚</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48758970" target="_blank" class="news-link">Why I&#x27;m Forced to Say Farewell: Google Management Has Lost Its Moral Compass</a> [13] <font color='grey'>- 21时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1224592" target="_blank" class="news-link">真的没人觉得 codex 比 claude 笨很多吗？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/971/901.htm" target="_blank" class="news-link">消息称华为 Pura X Max 横阔折手机销量突破 45 万台，典藏比普通版卖得好</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
