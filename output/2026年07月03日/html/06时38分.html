@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 192</p><p>生成时间: 2026-07-03 06:38:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">35</td>
+                <td class="percentage">18.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24e8-9d7f-7aab-8c85-8989d6f35665" target="_blank" class="news-link">Trump dodges question on potential US 5% OpenAI stake, highlights US 10% Intel holding</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776098" target="_blank" class="news-link">Meta收跌5%！报道：扎克伯格称Meta AI智能体开发不及预期</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3128253" target="_blank" class="news-link">周四（7月2日），美股人工智能（AI）赢家指数跌5.63%，报405.59点，本周累跌4.17%。 AI软件先驱指数跌0.03%，报109.97点，本周累涨4.70%。</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24da-f3a5-7aab-8c85-795a82e9f18e" target="_blank" class="news-link">Trump says AI bigger than late‑1990s internet; Goldman sees $700bn AI capex by 2026; predicts 40–60% of chip output in U.S.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24d6-7b5e-7aab-8c85-755bc0171dfe" target="_blank" class="news-link">President Trump said he does not want a global depression during his term.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24d6-5fd4-7aab-8c85-6db02aad8dfb" target="_blank" class="news-link">U.S. President Trump also praised Dell Inc (DELL.N).</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776091" target="_blank" class="news-link">Anthropic自研AI芯片计划引发美股半导体大跌！闪迪大跌14%，费城半导体指数两日重挫12%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24d5-b3d0-7aab-8c85-66ed233b71a5" target="_blank" class="news-link">U.S. President Trump said Micron Technology (MU.O) is a &quot;hot company&quot; run by a &quot;great guy&quot;.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260703061710084800" target="_blank" class="news-link">特朗普避谈政府是否入股OpenAI 但强调在英特尔的持股</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24d2-8823-7aab-8c85-51e08f09c1b1" target="_blank" class="news-link">President Trump said he wrote Elon Musk a note congratulating him on becoming a &#x27;trillionaire&#x27;.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24d1-04a9-7aab-8c85-4fa14aca039f" target="_blank" class="news-link">President Trump said he believes Musk will donate SpaceX (SPCX.O) shares to a &quot;Trump account&quot;.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48702874" target="_blank" class="news-link">Reality has a surprising amount of detail</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24cf-e5ea-7aab-8c85-4167f6b67834" target="_blank" class="news-link">US President Trump said the US has completely defeated Iran militarily, that Iran still has some missiles, and that the US could destroy them all.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3776055" target="_blank" class="news-link">美银：Meta卖算力，意在讲好AI投资回报故事</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24ce-5f05-7aab-8c85-3e1ff2791b19" target="_blank" class="news-link">US President Trump said he has a very good relationship with Elon Musk.</a> [11] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260703060215958800" target="_blank" class="news-link">特朗普称AI将超过90年代末的互联网繁荣 预计过半芯片在美生产</a> [11] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48766026" target="_blank" class="news-link">The Short Leash AI Coding Method for Beating Fable</a> [12] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24cc-b0cd-7aab-8c85-2fc69df2a1a9" target="_blank" class="news-link">Trump said he has been the most pro-Israel U.S. president in history.</a> [13] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2415788" target="_blank" class="news-link">Meta有意出售AI算力 分析人士警告：云业务利润率远逊广告</a> [13] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24ca-5ce6-7aab-8c85-1dd6b9d0f4fc" target="_blank" class="news-link">President Trump said Venezuela&#x27;s oil sector is performing &quot;unprecedentedly well&quot; and that his policies helped restore the country&#x27;s energy output.</a> [15] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24ca-20a5-7aab-8c85-0b2da5c032b0" target="_blank" class="news-link">President Trump said the situation with Iran is about denuclearization rather than war, and that US actions remain focused on eliminating Iran&#x27;s nuclear threat.</a> [17] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24c9-579d-7aab-8c85-0391d9ac956b" target="_blank" class="news-link">US President Trump said Iran has no navy and no air force.</a> [18] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3128237" target="_blank" class="news-link">美国总统特朗普被问及入股OpenAI，拿英特尔举例。</a> [18] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24c9-43a1-7aab-8c84-fbb4f37b57c1" target="_blank" class="news-link">US President Trump said he gets along well with Iran&#x27;s new leadership.</a> [19] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3128236" target="_blank" class="news-link">美国总统特朗普：无论好坏，我们都有AI。</a> [19] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24c4-e720-7aab-8c84-f0a8e69b1f57" target="_blank" class="news-link">US President Trump said artificial intelligence is more important than the internet.</a> [20] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24c4-2396-7aab-8c84-ef671cb11f1f" target="_blank" class="news-link">US President Trump said the housing bill contains many Democratic-leaning provisions and he is inclined not to sign it unless a voter ID requirement is added.</a> [21] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24c2-7b86-7aab-8c84-e72ee977eadd" target="_blank" class="news-link">US President Trump said artificial intelligence, whether good or bad, is already being used.</a> [22] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24bf-5ddf-7aab-8c84-c2763f3a59ef" target="_blank" class="news-link">When asked about OpenAI shares, President Trump mentioned Intel (INTC.O) and said the US government holds a stake in Intel.</a> [26] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24bd-d7a2-7aab-8c84-b8ee9a6f2a06" target="_blank" class="news-link">President Trump said the United States must lead in artificial intelligence.</a> [27] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24bd-6b00-7aab-8c84-b5638dcc9218" target="_blank" class="news-link">Trump said he holds a very small amount of NVIDIA (NVDA.O) stock.</a> [28] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260703053823269800" target="_blank" class="news-link">美国总统特朗普：我认为人工智能比互联网更重要。</a> [28] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4153167_212_1" target="_blank" class="news-link">特朗普谈及人工智能监管约束：近期出现过存在安全隐患的相关案例。</a> [29] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f24bb-17bc-7aab-8c84-a620a18e5ff2" target="_blank" class="news-link">President Trump said he was involved in cryptocurrency before taking office.</a> [30] <font color='grey'>- 06时38分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4153166_212_1" target="_blank" class="news-link">特朗普：我认为人工智能的影响力会超过互联网。</a> [30] <font color='grey'>- 06时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48766005" target="_blank" class="news-link">Claude-real-video － any LLM can watch a video</a> [18] <font color='grey'>- 06时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
