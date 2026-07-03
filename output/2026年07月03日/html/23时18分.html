@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 309</p><p>生成时间: 2026-07-03 23:18:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">8.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f287a-b2b2-7aab-8c98-0f9b36eb2b0b" target="_blank" class="news-link">Refinitiv, citing two sources, said Russia&#x27;s Norsi refinery has suspended crude processing after a drone strike on July 2.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776171" target="_blank" class="news-link">升级周期叙事遭遇挫折，瑞银调查显示苹果AI功能未能点燃换机热潮</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/03/a037e42945284cf09afdbdf97d4ca182.html" target="_blank" class="news-link">人工智能深刻改变世界经济秩序</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1224849" target="_blank" class="news-link">我们做了一个基于负荷的耐力训练平台 Trainingload.ai，想请跑步/骑行朋友试试</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1224846" target="_blank" class="news-link">终于把小游戏站后端管理系统做出来了，全程没写一行代码，都是 AI 写的...</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f2875-55b6-7aab-8c97-f4e053c4a1ed" target="_blank" class="news-link">Bank of England Governor Bailey will speak in ten minutes on coordination between fiscal and monetary policy.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1224844" target="_blank" class="news-link">请教下 AI 中转站模型真伪测试跑分标准</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f2874-1d5a-7aab-8c97-edcc2707f719" target="_blank" class="news-link">Customs-system failure could delay DRC cobalt exports; up to 20,000 tonnes at risk</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3128769" target="_blank" class="news-link">行业最直观的风向标闪烁红灯，词元经济学动摇AI热潮叙事</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776167" target="_blank" class="news-link">Claude Code 80%的提示词说删就删，Anthropic用Fable 5打了个样：AI行业的“降本”才刚刚开始</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f286e-e920-7aab-8c97-d811d4a9cb09" target="_blank" class="news-link">Sources and correspondence indicate an administrative failure at the Democratic Republic of Congo&#x27;s customs platform may prevent major Congolese cobalt producers from fulfilling 1H export quotas, risking loss of part of those quotas. The disruption could hit global battery-grade cobalt shipments; at current prices up to about 20,000 tonnes of cobalt — roughly $1.1 billion — may be unable to be exported.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3776091" target="_blank" class="news-link">Anthropic自研AI芯片计划引发美股半导体大跌！闪迪大跌14%，费城半导体指数两日重挫12%</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776157" target="_blank" class="news-link">AI Token支出指数跌近20%，用户边际付费意愿或现降温迹象</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/972/445.htm" target="_blank" class="news-link">桥水基金最新研究：前沿 AI 模型金融判断准确率未达 80% 可信门槛，GPT 和 Claude 仅有 50~70%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f2865-219b-7aab-8c97-a1f3c4bdc284" target="_blank" class="news-link">Ukraine&#x27;s foreign minister proposed a package of crisis-response measures to advance normalization of relations between the two sides.</a> [14] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3128759" target="_blank" class="news-link">安联集团首席经济学家Ludovic Subran：美国6月非农就业数据确实疲软，但我仍然认为通胀峰值将高于3.7%，而且美国经济仍有AI、财政支出和能源因素的支撑。 美联储可能不得不在9月份加息。所以我认为这才是欧洲和美国之间的真正分歧。（彭博电视）</a> [14]</div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=4%E5%90%8D%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%87%BA%E9%A2%98+AI%E8%80%83%E4%BA%860%E5%88%86" target="_blank" class="news-link">4名大学生出题 AI考了0分</a> [15] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f2864-c770-7aab-8c97-9e0577f75315" target="_blank" class="news-link">Ukraine&#x27;s foreign minister, after meeting Poland&#x27;s foreign minister, said Ukraine is willing to engage in equal and honest dialogue.</a> [15] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f2854-e496-7aab-8c97-69339a16430e" target="_blank" class="news-link">Guizhou launches three-year export push for baijiu</a> [21] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f284d-4286-7aab-8c97-5934956650ce" target="_blank" class="news-link">GFL Environmental transaction may face obstacles; talks remain at an early stage.</a> [23] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-03/%E5%8F%AF%E7%81%B5ai%E5%AE%8C%E6%88%90%E8%BF%9128%E4%BA%BF%E7%BE%8E%E5%85%83%E8%9E%8D%E8%B5%84-d966c9" target="_blank" class="news-link">可灵AI完成近28亿美元融资</a> [24] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48774414" target="_blank" class="news-link">Please stop the AI confidence theater</a> [27] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f2846-9321-7aab-8c97-30a2ac9852bc" target="_blank" class="news-link">NATO to reaffirm Article 5 &#x27;firm commitment&#x27;, pledge €70 bln ($80 bln) military aid to Ukraine by 2026</a> [28] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f2841-8080-7aab-8c97-2ffe35d2e1d3" target="_blank" class="news-link">Spain&#x27;s IBEX 35 rose 1.00% intraday.</a> [29] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f283f-c6d5-7aab-8c97-268230e1b9f4" target="_blank" class="news-link">CMA CGM&#x27;s CEO said vessels struck by missiles in the Persian Gulf could be written off and that imposing surcharges on transits through the Strait of Hormuz would be catastrophic.</a> [30] <font color='grey'>- 23时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776170" target="_blank" class="news-link">DeepSeek高峰涨价意味着什么?高盛：国内大模型竞争正回归理性</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/972/437.htm" target="_blank" class="news-link">DeepSeek-V4 原厂直供模型 7 月中旬登陆腾讯云，同步引入峰谷定价机制</a> [17] <font color='grey'>- 23时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7658254613019102783/" target="_blank" class="news-link">曝阿里7月10日起全面禁用Claude</a> [16] <font color='grey'>- 23时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48774429" target="_blank" class="news-link">Gemini Code Assist will be shut down on July 17</a> [18] <font color='grey'>- 23时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/972/441.htm" target="_blank" class="news-link">华境 S 大六座 SUV 交付破万台：标配华为乾崑智驾 ADS Pro 增强版，15.98 万元起</a> [13] <font color='grey'>- 23时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
