@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 173</p><p>生成时间: 2026-07-04 21:42:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">8.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776203" target="_blank" class="news-link">苹果AI功能未能引爆换机潮，瑞银调查显示用户升级意愿持续下滑</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1224969" target="_blank" class="news-link">多亏 AI 现在遇上棘手问题完全不慌</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3128944" target="_blank" class="news-link">特斯拉限制员工AI使用开销 美国多家科技企业收紧AI支出</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48746327" target="_blank" class="news-link">The Vespa at 80: Why the Italian scooter remains the coolest thing on 2 wheels</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260704205119305800" target="_blank" class="news-link">特斯拉限制员工AI使用开销 美国多家科技企业收紧AI支出</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202607/0475665.html" target="_blank" class="news-link">金融监管赶不上AI发展 欧洲决策者促建防线控风险</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f2d31-12da-7aab-8c9d-0d0c0e11ce8a" target="_blank" class="news-link">DTEK said Russian forces struck a coal mine in eastern Ukraine, killing one miner and injuring five.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f2d2f-3646-7aab-8c9d-05dddeeb5258" target="_blank" class="news-link">Tesla caps employee AI-tool spending at $200/week; US tech firms tighten AI budgets</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3776200" target="_blank" class="news-link">高盛：美股AI上涨力竭，下半年布局防御板块，看好医疗、欧洲防务</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f2d09-54d8-7aab-8c9c-ef44b8ca4028" target="_blank" class="news-link">An Egyptian minister said Egypt expects to receive €1.5 bln under the EU aid package within days.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f2cee-264c-7aab-8c9c-dfee4e47e12e" target="_blank" class="news-link">Mali&#x27;s military said the situation was &#x27;fully under control&#x27; after insurgent attacks on five cities and towns.</a> [11] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48739644" target="_blank" class="news-link">Ship traces journey Spanish Armada sailors made in 1588</a> [19] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2056439444681515610" target="_blank" class="news-link">如何看待传统导演扎堆入局 AI 影视，是行业风口还是影视行业再也离不开 AI 了？</a> [20] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7657487853656899594" target="_blank" class="news-link">AI UITester：AI Native 的 UI 自动化测试新范式｜得物技术</a> [29] <font color='grey'>- 21时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">4</td>
+                <td class="percentage">2.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3128945" target="_blank" class="news-link">阿里·阿兹马伊被任命为伊朗伊斯兰革命卫队海军司令</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260704211410750800" target="_blank" class="news-link">阿里·阿兹马伊被任命为伊朗伊斯兰革命卫队海军司令</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4155063_103_1" target="_blank" class="news-link">阿里·阿兹马伊被任命为伊朗伊斯兰革命卫队海军司令。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%B1%86%E5%8C%85%E5%8D%83%E9%97%AE%E5%BB%BA%E8%AE%AE%E6%8F%90%E5%89%8D%E5%A4%87%E4%BB%BD%E9%87%8D%E8%A6%81%E5%86%85%E5%AE%B9%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">豆包千问建议提前备份重要内容</a> [18] <font color='grey'>- 21时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.58%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1224964" target="_blank" class="news-link">双开 Claude Code + Codex 好几个月,受不了人肉传话,写了个桥让它俩自己聊</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
