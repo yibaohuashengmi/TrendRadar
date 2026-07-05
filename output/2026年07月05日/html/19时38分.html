@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 202</p><p>生成时间: 2026-07-05 19:38:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">9.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f31de-295c-7aab-8ca2-84bae7d684fa" target="_blank" class="news-link">Iran&#x27;s maritime authority said maritime trade between Qatar&#x27;s Ruwais port and Iranian ports has resumed.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1225097" target="_blank" class="news-link">矩媒 v0.9.9： 8 平台全覆盖， AI Agent 终于能自己发视频了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f31dd-e916-7aab-8ca2-793db399b630" target="_blank" class="news-link">Iraq&#x27;s oil minister said crude output at the Sinbad oilfield will reach 80,000–100,000 bpd and associated gas production will rise by about 260 million standard cubic feet per day.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776224" target="_blank" class="news-link">AI风暴席卷全球市场，印度股市意外成为资金&quot;避风港&quot;</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f31da-9192-7aab-8ca2-7483988d073a" target="_blank" class="news-link">Germany plans to raise 2027 net new borrowing to €118 billion, about 7% higher than the April projection.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5263086" target="_blank" class="news-link">迅策(03317.HK)：拟与格创东智共同探索工业智能制造领域AI数据基础设施Token工厂模式</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f31d8-c397-7aab-8ca2-6d2b10670d9f" target="_blank" class="news-link">Iraq&#x27;s oil minister said a five-year deal with Halliburton will raise Bin Umar oilfield crude output to 150,000 barrels per day and associated gas to 300 million standard cubic feet per day.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f31d4-9693-7aab-8ca2-625f1d3f258a" target="_blank" class="news-link">Iraq signed an agreement and a statement with Halliburton to manage two oilfields, market sources said.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776223" target="_blank" class="news-link">中信证券：加息叙事扭转叠加流动性变化，重视部分非AI板块的修复</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f31c7-d094-7aab-8ca2-488ee6a6db23" target="_blank" class="news-link">OPEC+: Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria and Oman adjusted production and reiterated commitment to market stability.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f31c6-1511-7aab-8ca2-41b795a996cd" target="_blank" class="news-link">OPEC+ to raise August oil production quotas by 188,000 bpd, the statement said.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/notientai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">NotientAI</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f31c1-c193-7aab-8ca2-3cfd82973cc0" target="_blank" class="news-link">Industrial Securities: Relative sector momentum and relative earnings revisions remain core allocation cues</a> [11] <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/coreyhaines31/marketingskills" target="_blank" class="news-link">coreyhaines31 / marketingskills</a> [12]</div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-05/%E7%BE%8E%E5%9B%BD%E5%B9%B4%E8%BD%BB%E4%BA%BA%E8%BD%AC%E5%90%91%E6%8A%80%E6%9C%AF%E5%B7%A5%E7%A7%8D%E5%BA%94%E5%AF%B9ai%E5%86%B2%E5%87%BB-8a7840" target="_blank" class="news-link">美国年轻人转向技术工种应对AI冲击</a> [16] <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/voicepad-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">VoicePad AI</a> [18] <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=AI%E7%A7%B0%E9%87%8E%E8%98%91%E8%8F%87%E6%97%A0%E6%AF%92+9%E5%B2%81%E5%A8%83%E5%90%83%E5%AE%8C%E6%8A%A2%E6%95%918%E5%A4%A9" target="_blank" class="news-link">AI称野蘑菇无毒 9岁娃吃完抢救8天</a> [23] <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7657863114352754726" target="_blank" class="news-link">Vercel 推出 Agent 框架 Eve：让 AI Agent 像写 Web 应用一样简单</a> [24] <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7657798020757798962" target="_blank" class="news-link">你的 AI Skill 越多越蠢？Token 上下文爆炸的求生指南</a> [29] <font color='grey'>- 19时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/hesreallyhim/awesome-claude-code" target="_blank" class="news-link">hesreallyhim / awesome-claude-code</a> [11]</div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/anthropics/claude-code" target="_blank" class="news-link">anthropics / claude-code</a> [22]</div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7657858317909884928" target="_blank" class="news-link">Claude Code rules 要怎么用，团队协作时如何统一代码规范呢？</a> [28]</div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1225096" target="_blank" class="news-link">chatgpt team，自动进 k12 工作空间，这两天蹬爽了，无限额度</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/972/821.htm" target="_blank" class="news-link">升级配华为海思芯片：美的酷省电 2 代大 1.5 匹空调 1599 元直降</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
