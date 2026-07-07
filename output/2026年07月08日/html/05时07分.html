@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 165</p><p>生成时间: 2026-07-08 05:07:48</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">8.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f3e5b-af1e-7aab-8cd6-dc7c01ce9d91" target="_blank" class="news-link">According to The Information, SpaceXAI plans to release as early as Wednesday a new AI model developed in partnership with Cursor.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776406" target="_blank" class="news-link">EIA猛砍今明年油价预期，料霍尔木兹到年底基本恢复正常、AI热潮推动美国用电量连年新高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/MadsLorentzen/ai-job-search" target="_blank" class="news-link">MadsLorentzen / ai-job-search</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48823557" target="_blank" class="news-link">All Cars Sold in the EU Now Require a Camera Aimed at Your Face</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f3e4f-eb44-7aab-8cd6-c6825b4b70d7" target="_blank" class="news-link">The U.S. Securities and Exchange Commission said the &quot;Trump account&quot; is now open for applications and encouraged households to open accounts to claim an eligible $1,000 initial funding.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48821848" target="_blank" class="news-link">Show HN: Davit, a Apple Containers UI</a> [11] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3130159" target="_blank" class="news-link">美国参议院民主党成员Warren声明：就五角大楼AI合同质询英伟达、甲骨文。 Alphabet旗下谷歌公司、微软、马斯克旗下太空探索公司SpaceX、亚马逊旗下AWS也被质询。</a> [12]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f3e4a-e7f6-7aab-8cd6-3b6c563fe34f" target="_blank" class="news-link">U.S. Chief of Naval Operations said Iran aims to force commercial vessels to transit the Strait of Hormuz close to Iran&#x27;s coast.</a> [21] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f3e4a-e154-7aab-8cd6-3620b9c168d2" target="_blank" class="news-link">U.S. Navy operations chief said the U.S. has accounted for the number of sea mines deployed in the Strait of Hormuz; the figure is classified intelligence and he will not disclose how it was obtained.</a> [22] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f3e41-1539-7aab-8cd6-2c80f2b614a7" target="_blank" class="news-link">Fox News reported U.S. Trade Representative GREER said Canada and Mexico have not fully fulfilled their commitments under the USMCA.</a> [23] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f3e3b-978b-7aab-8cd6-1152c327ea12" target="_blank" class="news-link">Syrian presidential adviser said an agreement with France covers political, military and economic areas.</a> [26] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f3e36-a5a4-7aab-8cd6-096ca05e7e42" target="_blank" class="news-link">Syrian presidential adviser said today&#x27;s incident in Damascus was not unexpected. The explosion did not affect the security perimeter around Macron&#x27;s motorcade.</a> [27] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4159354_1_1" target="_blank" class="news-link">伊朗外交部发言人：部分商船未经协调航行，并关闭或篡改AIS信号，此举增加航运安全和环境风险，妨碍霍尔木兹海峡安全通航。</a> [27] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48818098" target="_blank" class="news-link">Show HN: Halo – open-source, tamper-evident runtime evidence for AI agents</a> [30] <font color='grey'>- 05时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1225714" target="_blank" class="news-link">[分享] emoToken — 自己做的 Claude API 服务,注册送 $3</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3130172" target="_blank" class="news-link">Anthropic计划在美国曼哈顿扩张，纽约市员工规模将翻倍至1000人。 计划在Hudson Square租赁16层楼高的建筑物。（纽约时报）</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48819808" target="_blank" class="news-link">Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop</a> [13] <font color='grey'>- 05时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3130156" target="_blank" class="news-link">纳斯达克金龙中国指数收跌0.58%，报5978.44点。 热门中概股里，日月光半导体初步收跌8.9%，蔚来、百度、拼多多、新东方、京东、百胜中国之多跌2.6%，阿里巴巴涨0.1%，腾讯涨1.9%，金山云涨3.2%，美团涨6%。 ETF中，MSCI新兴市场ex中国ETF（EMXC）收跌3.38%，XtrackersHarvest中证50（ASHS）收跌1.47%，德银嘉实沪深300指数ETF（ASHR）收跌1.27%。 中国科技指数ETF（CQQQ）收跌0.92%，中概互联网指数ETF（KWEB）收跌0.31%。</a> [14]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
