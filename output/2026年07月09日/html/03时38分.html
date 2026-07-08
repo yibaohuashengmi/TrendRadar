@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 192</p><p>生成时间: 2026-07-09 03:38:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">23</td>
+                <td class="percentage">11.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776499" target="_blank" class="news-link">SpaceX发力大模型竞争！联手Cursor发布Grok 4.5，进军金融、法律等企业级AI市场</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776498" target="_blank" class="news-link">押注语音即AI入口！OpenAI发布新模型GPT-Live，ChatGPT迈入实时对话时代</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260709032855855800" target="_blank" class="news-link">据CNBC：贝莱德全球固定收益首席投资官里德表示，已降低并重新调整对与人工智能直接相关公司的投资敞口。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48834924" target="_blank" class="news-link">Show HN: Microsoft releases Flint, a visualization language for AI agents</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4317-ced6-7aab-8cfc-e5daebbb626b" target="_blank" class="news-link">Jerusalem Post, citing sources, reports Saudi Arabia is pressing to reroute the India–Middle East–Europe Economic Corridor to bypass Israel and instead link via Syria, aiming to reduce Israel&#x27;s participation in the project.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4311-0883-7aab-8cfc-cb0cc9ba971d" target="_blank" class="news-link">U.S. Vice President Vance said the U.S. Labor Department has opened dozens of investigations into foreign individuals and entities suspected of abusing the H-1B visa program, and that U.S. job opportunities should be prioritized for American workers rather than exploited by foreign fraudsters.</a> [11] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f430f-472f-7aab-8cfc-c6cb59082303" target="_blank" class="news-link">U.S. Vice President Vance said Iran must fulfill relevant commitments or face consequences similar to those of last night. U.S. military action will continue unless Iran stops firing on vessels.</a> [12] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f430c-214e-7aab-8cfc-b86ea1ad3526" target="_blank" class="news-link">U.S. Vice President Vance said Trump has made clear the Strait of Hormuz will remain open.</a> [13] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f430b-a596-7aab-8cfc-b2db7b6f617a" target="_blank" class="news-link">U.S. Vice President Vance said Iran complied with commitments and improved its behavior for about a week, but then resumed attacks on vessels.</a> [14] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f430b-a440-7aab-8cfc-ad58f4e1e2bd" target="_blank" class="news-link">U.S. Vice President Vance said the U.S.-Iran agreement makes clear that, should Iran attack vessels, the U.S. will undertake strong countermeasures and will escalate its response.</a> [15] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4309-0b6a-7aab-8cfc-a2e457ddb4f7" target="_blank" class="news-link">U.S. Vice President Vance said he will not disclose specific plans for tonight.</a> [16] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4308-5141-7aab-8cfc-9857f99ed254" target="_blank" class="news-link">U.S. Vice President Vance said Trump still retains multiple options to respond to Iran.</a> [17] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4307-a869-7aab-8cfc-96ae5f266986" target="_blank" class="news-link">XAI said Grok 4.5 is not yet live in the EU, has not been integrated into any SpaceX XAI products and is not available via the API console; the company expects to launch service in the EU in mid‑July.</a> [18] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3130843" target="_blank" class="news-link">SpaceXAI与Cursor联合发布Grok AI模型，主打法律与金融任务</a> [19] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4162189_214_1" target="_blank" class="news-link">美联储会议纪要：AI持续推动数据中心、高科技设备和软件的实际投资支出。</a> [20] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4300-47f9-7aab-8cfc-78b12ba2d4bd" target="_blank" class="news-link">Night session main contracts close</a> [21] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f42ff-2a58-7aab-8cfc-63a97b6e135d" target="_blank" class="news-link">Shanghai Gold Exchange gold T+D fell 1.25% to 891.59 yuan/gram in the July 8 (Wednesday) evening session; silver T+D fell 3.36% to 14,258.0 yuan/kg.</a> [24] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3130838" target="_blank" class="news-link">OpenAI推出GPT-Live语音模型</a> [24] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f42fe-7cc2-7aab-8cfc-5c1eb0c150d8" target="_blank" class="news-link">Iran&#x27;s foreign ministry said Iran and Qatar held a phone call on the Strait of Hormuz incident and emphasized the need for continued communication and coordination to prevent escalation of regional tensions.</a> [25] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f42fd-eec5-7aab-8cfc-553f170ef265" target="_blank" class="news-link">Fed minutes: AI continues to drive real investment in data centers, high‑tech equipment and software</a> [26] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4162179_212_1" target="_blank" class="news-link">美国、Airlink与亚马逊宣布搭建委内瑞拉人道主义空中运输通道。</a> [26] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f42f5-6522-7aab-8cfc-459ad9ebef88" target="_blank" class="news-link">U.S. Secretary of State Rubio said lifting sanctions on Syria would open the door to international trade and investment and provide Syria with reconstruction opportunities.</a> [28] <font color='grey'>- 03时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f42f3-a72e-7aab-8cfc-3a03046f4bdc" target="_blank" class="news-link">U.S. Secretary of State Rubio said the U.S. will begin removing Syria from the list of state sponsors of terrorism.</a> [29] <font color='grey'>- 03时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-08/%E4%B8%AD%E5%9B%BD%E5%B7%A5%E4%BF%A1%E9%83%A8%E6%8C%87anthropic%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7%E5%AD%98%E5%9C%A8%E5%AE%89%E5%85%A8%E5%90%8E%E9%97%A8-fcdd96" target="_blank" class="news-link">中国工信部指Anthropic编程工具存在安全后门</a> [11] <font color='grey'>- 03时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOGL" target="_blank" class="news-link">谷歌A</a> [23] <font color='grey'>- 03时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
