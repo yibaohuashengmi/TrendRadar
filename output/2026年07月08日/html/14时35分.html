@@ -1,0 +1,118 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 148</p><p>生成时间: 2026-07-08 14:35:50</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>toutiao</li><li>baidu</li><li>thepaper</li><li>ifeng</li><li>cankaoxiaoxi</li><li>sputniknewscn</li><li>zaobao</li><li>gelonghui</li><li>xueqiu</li><li>jin10</li><li>fastbull</li><li>weibo</li><li>douyin</li><li>bilibili-hot-search</li><li>tieba</li><li>zhihu</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">34</td>
+                <td class="percentage">22.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4056-f23e-7aab-8ce2-af9a0da8fd80" target="_blank" class="news-link">Hungarian Prime Minister Magyar said he held talks with Ukrainian President Zelenskiy and they agreed to hold a bilateral meeting in the near future.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776425" target="_blank" class="news-link">AI情绪逆转叠加中东地缘冲击，韩股跌至熊市边缘再度熔断，三星电子再度跌超7%，油价急涨超3%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/904288697707753472" target="_blank" class="news-link">AI Agent 面试 Top50 必刷题解析——ReAct篇</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776428" target="_blank" class="news-link">恒科指大反攻涨4%，阿里涨超10%，创业板回落，科创50涨近3%，芯片、AI服务器爆发</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f404c-0260-7aab-8ce2-92e24ba98a6a" target="_blank" class="news-link">MIIT issues risk alert on backdoor in AI coding tool Claude Code</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3130423" target="_blank" class="news-link">马斯克：SpaceX AI将于明日向公众开放Grok4.5。它是一款 Opus级别的模型，但速度更快、token效率更高、成本更低。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/974/021.htm" target="_blank" class="news-link">OpenAI 更新 2.1 系列 GPT Realtime AI 模型，p95 延迟至少降低 25%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4049-0514-7aab-8ce2-87c8deca6dd6" target="_blank" class="news-link">Poland&#x27;s president said maintaining dialogue with Ukraine is natural because the two countries share a common enemy.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3776357" target="_blank" class="news-link">腾讯AI新船票：WorkBuddy登顶生产力工具，从“慢半拍”到“产品之王”蜕变</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4048-e4d8-7aab-8ce2-7e10c01184ff" target="_blank" class="news-link">Poland&#x27;s president said he spoke briefly with U.S. President Trump yesterday; as usual, the discussion centered on a permanent U.S. military presence in Poland.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776415" target="_blank" class="news-link">错失AI狂欢与万亿ETF撤退：宁泉资产坚守“反共识”策略的代价与逻辑</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4046-3a93-7aab-8ce2-6ca9eea5f7e9" target="_blank" class="news-link">Poland&#x27;s president said he will work to ensure NATO&#x27;s pipeline extends to the eastern defensive line.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776416" target="_blank" class="news-link">SpaceX与Cursor最快本周三发布联合AI模型，剑指Opus 4.8及GPT-5.5</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4041-331b-7aab-8ce2-557efedb7e2c" target="_blank" class="news-link">Danish prime minister said she could not guarantee her country&#x27;s security without NATO and believes the same is true for the United States.</a> [12] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3776269" target="_blank" class="news-link">AI景气见顶了吗？6组交叉数据，理解市场焦虑点</a> [13] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/973/997.htm" target="_blank" class="news-link">三星电子联席 CEO 卢泰文：最好的 AI 体验，将来自最了解用户的设备</a> [13] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f403e-62a7-7aab-8ce2-4040d2b7586b" target="_blank" class="news-link">Denmark&#x27;s prime minister said Greenland is not for sale, urged allies to respect Greenlanders&#x27; right to self-determination, and reaffirmed Denmark&#x27;s sovereignty and territorial integrity.</a> [14] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f403c-ff02-7aab-8ce2-395d0f636e30" target="_blank" class="news-link">Denmark&#x27;s prime minister said the country is prepared to defend every inch of NATO territory, including Danish soil.</a> [15] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f403a-04fc-7aab-8ce2-32f711d13092" target="_blank" class="news-link">Germany&#x27;s defense minister said Berlin will step up efforts to supply air-defense interceptors to Ukraine, but other countries must also contribute.</a> [16] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3130409" target="_blank" class="news-link">工信部：防范AI编程工具Claude Code安全后门隐患</a> [16] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4039-2c84-7aab-8ce2-29d655617aee" target="_blank" class="news-link">Taiwan Weighted Index (TAIEX) closed up 255.3 points (+0.56%) at 45,734.41 on Wednesday, July 8.</a> [17] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776431" target="_blank" class="news-link">靠芯片与AI交易完成逆转，对冲基金创2021年以来最佳半年表现</a> [17] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4037-fe37-7aab-8ce2-21773ddaa8c9" target="_blank" class="news-link">Germany&#x27;s defense minister, on purchasing &quot;Tomahawk&quot; missiles from the US, said consultations are productive and he is optimistic about reaching an agreement.</a> [18] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4036-ce7c-7aab-8ce2-196cad74df4e" target="_blank" class="news-link">Dutch prime minister said it is important to make clear to Iran that violations of the ceasefire agreement are unacceptable.</a> [19] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4034-7858-7aab-8ce2-04a08e91196e" target="_blank" class="news-link">Local officials said a Russian nighttime strike on Ukraine&#x27;s capital Kyiv killed one person.</a> [22] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4034-4c21-7aab-8ce1-f9940d981988" target="_blank" class="news-link">The UAE said the attack on ships indicates Iran cannot end the war.</a> [23] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4033-96e7-7aab-8ce1-f3ee1f553e38" target="_blank" class="news-link">Daiwa Capital Markets: Oil drop reduces urgency of ECB policy debate</a> [24] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4031-cbda-7aab-8ce1-e7895256c5c0" target="_blank" class="news-link">Canada&#x27;s Prime Minister Carney said defense spending currently equals 4% of GDP.</a> [26] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/973/978.htm" target="_blank" class="news-link">物理 AI 第一股，自动驾驶公司 Momenta 正式挂牌港交所</a> [26] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4031-6775-7aab-8ce1-daf656bb89d4" target="_blank" class="news-link">Canada&#x27;s Prime Minister Carney said Trump wants a shift in NATO burden-sharing and that the shift is underway.</a> [27] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4030-9803-7aab-8ce1-d210c0ae192e" target="_blank" class="news-link">Canada&#x27;s prime minister Carney said the pattern of burden-sharing is shifting.</a> [28] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/973/976.htm" target="_blank" class="news-link">闪极 2026 款「苹显」磁吸充电宝发售：首创 AI 彩屏秒认 iPhone，售 199 元</a> [28] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f402d-c21d-7aab-8ce1-c2e23f8a6a7c" target="_blank" class="news-link">At least four oil and gas carriers turn back from Strait of Hormuz after attacks</a> [30] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/973/973.htm" target="_blank" class="news-link">深圳理工大学开实验班逐步取消大学英语：改为跨文化交流课程，AI 模仿不来人文思维</a> [30] <font color='grey'>- 14时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">2.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959366" target="_blank" class="news-link">Anthropic第一次打开Claude的大脑，发现它没说出口的话</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3130420" target="_blank" class="news-link">【SemiAnalysis：Anthropic三季度利润将突破10亿美元】研究机构SemiAnalysis发文称，Anthropic在当今B2B市场竞争中明显领先，预计Anthropic将利用其优越的商业模式和利润率，进一步投资于新模型的开发，以扩大其在闭源和开源竞争对手中的领先地位和变现能力。如果Anthropic持续良好执行，其成为第一家6万亿美元市值的公司是一个基础情景下的可能性。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/974/001.htm" target="_blank" class="news-link">工信部发布风险提示：Claude Code 存在安全后门，可能泄露用户敏感信息</a> [12] <font color='grey'>- 14时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">3</td>
+                <td class="percentage">2.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3130406" target="_blank" class="news-link">恒生科技指数涨幅扩大至5%，恒生指数涨超3%，智谱涨超16%，阿里巴巴涨超12%。</a> [17] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3130391" target="_blank" class="news-link">港股科网股午后持续走高，阿里巴巴股价涨幅扩大至10%，为2025年9月以来最大。快手涨近7%，小米集团涨超6%，百度集团涨超5%。</a> [24] <font color='grey'>- 14时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/973/977.htm" target="_blank" class="news-link">阿里巴巴副总裁戚肖宁：美中印欧等全球各大公司正合作打造 RISC-V 开放标准芯片架构</a> [27] <font color='grey'>- 14时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1225799" target="_blank" class="news-link">写了个 Google Trends 热搜的 CLI/SDK/skill</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3130398" target="_blank" class="news-link">A股华为算力概念持续走强，广电运通午后涨停，荣联科技、恒为科技此前封板，并行科技、神州数码、拓维信息、先进数通、常山北明跟涨。</a> [21] <font color='grey'>- 14时35分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
