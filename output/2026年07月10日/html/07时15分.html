@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 143</p><p>生成时间: 2026-07-10 07:15:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">9.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260710070918440800" target="_blank" class="news-link">OpenAI高管Fidji Simo将卸任</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/974/788.htm" target="_blank" class="news-link">OpenAI 旗下桌面浏览器 ChatGPT Atlas 即将被砍，部分功能会整合进其他产品</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时15分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260710/1072268319.html" target="_blank" class="news-link">俄罗斯对联合国人工智能治理全球对话启动表示欢迎</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f490f-9128-7aab-8d22-196711df7d50" target="_blank" class="news-link">Israel&#x27;s energy minister said the Israel-Cyprus pipeline will be built. He added Israel knows how to defend itself, will not take orders from others, and those who threaten Israel will not fare well.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/974/787.htm" target="_blank" class="news-link">OpenAI 最强 AI 模型：GPT-5.6 系列正式上线，纳德拉称微软 Copilot 同步接入</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f490d-dc03-7aab-8d22-15a6ba349f01" target="_blank" class="news-link">Israel&#x27;s energy minister said Israel must work with the U.S. to prevent Turkey from acquiring advanced weapons and press Washington to preserve Israel&#x27;s qualitative military edge.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260710070247898800" target="_blank" class="news-link">据华尔街日报：OpenAI高管Fidji Simo将辞职，未来将成为该公司兼职顾问。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f490d-515c-7aab-8d22-0e4583bc4e17" target="_blank" class="news-link">Israel&#x27;s energy minister said Israel must prevent Turkey from establishing a military presence in Syria, and that if Turkey establishes military bases there, Israel will take similar measures.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时15分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48792383" target="_blank" class="news-link">Train sim created by just one person is being called the best ever made</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f48e2-b178-7aab-8d21-dbc4e297faaa" target="_blank" class="news-link">BERNSTEIN raises H2 2026 gold target to $4,375/oz</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f48cb-5582-7aab-8d21-c0727b3d802f" target="_blank" class="news-link">NewsNation reported US officials say technical-level talks with Iran are continuing; Washington remains committed to seeking a solution and reiterated that Iran must never possess nuclear weapons.</a> [13] <font color='grey'>- 07时15分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2422268" target="_blank" class="news-link">美股收盘：“AI的光”再度闪耀 纳指涨超1% 存储、光通信概念领涨</a> [13] <font color='grey'>- 07时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f48c1-0ad1-7aab-8d21-adca15c569c3" target="_blank" class="news-link">Syrian interim government says suspects behind Damascus bombings detained</a> [16] <font color='grey'>- 07时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">2</td>
+                <td class="percentage">1.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776605" target="_blank" class="news-link">GPT-5.6全面发布！同步发布新ChatGPT智能体，奥特曼称和美政府沟通后做出“许多调整”</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1226220" target="_blank" class="news-link">ChatGPT Codex 重置了， GPT-5.6 Sol 也推送了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
