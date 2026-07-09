@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 185</p><p>生成时间: 2026-07-10 03:59:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">12.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776605" target="_blank" class="news-link">OpenAI发布GPT-5.6系列模型：性能全面超越Claude，价格最低仅为竞品十六分之一</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1226213" target="_blank" class="news-link">做了一个 xAgent：面向团队自部署的 AI 工作门户，想找人试用反馈</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f486c-82cd-7aab-8d20-cf4c74ec0bd5" target="_blank" class="news-link">Reports of attacks on Iran false; explosions caused by air-defence activation</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776606" target="_blank" class="news-link">美联储官宣五大改革工作组领导阵容，前央行行长、硅谷AI大佬、诺奖经济学家加盟</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4861-3b7c-7aab-8d20-a985faadc8b2" target="_blank" class="news-link">Strait of Hormuz transits plunge, near standstill</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4857-3efc-7aab-8d20-a7c802bcecc0" target="_blank" class="news-link">IRNA reported Bushehr province deputy governor for political and security affairs said explosions heard earlier in Bushehr city were caused by the local air-defence system activating in response. He said a military facility on the city&#x27;s outskirts had been struck by what he described as &quot;US-Israeli enemy-launched projectiles&quot;.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f484c-bb1b-7aab-8d20-8b03e077445c" target="_blank" class="news-link">According to Fox News, U.S. Commerce Secretary Howard Lutnick said Trump believes oil prices will remain low going forward.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f484b-bbd7-7aab-8d20-849ff60134a1" target="_blank" class="news-link">Iranian state TV said reports of an explosion at Bandar Abbas port were false.</a> [11] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4849-d291-7aab-8d20-7e6a6fdc2bc5" target="_blank" class="news-link">Fed chair KEVIN WARSH forms five external working groups to review monetary policy framework</a> [12] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4847-cea5-7aab-8d20-75ef0ae559a1" target="_blank" class="news-link">Saudi Arabia and Canada jointly condemned Iran&#x27;s attack on a merchant vessel in the Strait of Hormuz.</a> [13] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3131509" target="_blank" class="news-link">Meta：探索AI云业务是合理的，考虑出租算力</a> [16] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4842-cece-7aab-8d20-4f8d5df4bc09" target="_blank" class="news-link">The Federal Reserve said all five working groups will be co‑led by three external experts and supported by Fed staff. Each group will operate independently, base conclusions on facts and evidence, and submit research findings to the FOMC.</a> [18] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4842-017a-7aab-8d20-42d9440c756f" target="_blank" class="news-link">Fed Chair Kevin Warsh said the Fed&#x27;s commitment to price stability and maximum employment is &#x27;unwavering&#x27;.</a> [19] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4841-cf49-7aab-8d20-3dc7ceeab120" target="_blank" class="news-link">Fed says working-group chairs include several former global central bank governors, including Kim, Rajan, Fraga, and former Fed governor Stein.</a> [20] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/knowyourcompany-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">KnowYourCompany.ai</a> [20] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f483c-7561-7aab-8d20-25a8d43fbb05" target="_blank" class="news-link">Al Jazeera reports Bushehr provincial governor says authorities are investigating explosions in Bushehr and Jaghadehk to determine whether they were caused by air-defence systems or hostile projectiles.</a> [23] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3131501" target="_blank" class="news-link">马斯克点评Anthropic：该公司目前是AI领域的领跑者。</a> [24] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4835-0ce5-7aab-8d20-08ea75a92ca1" target="_blank" class="news-link">Bank of England chief economist Pill said policymakers will need to raise interest rates over the next year.</a> [26] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f482f-952d-7aab-8d20-0683ea6c7100" target="_blank" class="news-link">New York Fed Perli: reserve-management purchases to remain flexible</a> [27] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3131498" target="_blank" class="news-link">富兰克林·邓普顿：AI基础设施看涨逻辑将延续至2027年</a> [27] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f482e-a63b-7aab-8d1f-ff7032bcd83e" target="_blank" class="news-link">ECB President Lagarde said she is willing to discuss Spain’s proposal for EU joint borrowing and that talks are ongoing. She stressed the digital euro will not replace cash.</a> [28] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f482d-f7f2-7aab-8d1f-f6421d39c277" target="_blank" class="news-link">ECB President Christine Lagarde said she will not run for the French presidency.</a> [29] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2564959" target="_blank" class="news-link">一条AI短片演绎杨戬劈山</a> [29] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f482c-b81a-7aab-8d1f-e979ada53a3b" target="_blank" class="news-link">Mehr News Agency reported multiple explosions were heard at the port of Abadan in southern Iran on the evening of the 9th (local time), Xinhua said.</a> [30] <font color='grey'>- 03时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
