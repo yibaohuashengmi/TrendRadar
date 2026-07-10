@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 351</p><p>生成时间: 2026-07-10 23:15:24</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">41</td>
+                <td class="percentage">11.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c85-b297-7aab-8d35-9870151ebc7e" target="_blank" class="news-link">Bahrain&#x27;s UN representative said trust cannot be discussed while Iran is violating regional states.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c85-5e3c-7aab-8d35-96401776b7d0" target="_blank" class="news-link">Bahrain&#x27;s UN representative said any diplomatic progress must be contingent on Iran&#x27;s cooperation with the IAEA.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48859701" target="_blank" class="news-link">Write code like a human will maintain it</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c85-34af-7aab-8d35-8cd6ff46d432" target="_blank" class="news-link">SK chairman Chey Tae-won said memory demand will not normalize until artificial general intelligence (AGI) is achieved.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260710225339392800" target="_blank" class="news-link">SK董事长崔泰源：在人工智能达到通用人工智能之前，内存需求不会恢复正常。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202607/1076114.html" target="_blank" class="news-link">分析：中俄等国试图通过官媒 煽动美国AI数据中心争议</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c84-6d35-7aab-8d35-80a9d20eccca" target="_blank" class="news-link">Bahrain&#x27;s UN envoy said Iran resumed attacks immediately after signing a memorandum of understanding.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776670" target="_blank" class="news-link">东方汇理资管姚远：股市最核心逻辑在“中观”，AI上半场助推涨价，下半场助推跌价</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c84-48fc-7aab-8d35-7c5aad62fd14" target="_blank" class="news-link">Bahrain&#x27;s UN envoy said Iran has not fulfilled its international obligations or its commitments under the memorandum of understanding.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776668" target="_blank" class="news-link">马斯克曝光SpaceX最新蓝图：明年发射首批AI卫星、五年登陆火星、十年送上万人上月球</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c84-109d-7aab-8d35-71eb9ef14870" target="_blank" class="news-link">Bahrain&#x27;s UN envoy said Iran&#x27;s attacks on regional states have swiftly undermined the terms of the memorandum of understanding.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/975/354.htm" target="_blank" class="news-link">国际 / 美国唱片业协会拟与 Spotify、Apple Music 等流媒体平台合作，推进 AI 音乐标识落地</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c81-501e-7aab-8d35-604ae4666cb3" target="_blank" class="news-link">Ukraine&#x27;s military said it also struck an oil refinery in Russia&#x27;s Leningrad region.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776665" target="_blank" class="news-link">高盛深度报告：谁将成为中国AI大模型行业的长期赢家？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c7f-c15c-7aab-8d35-5f51460d014e" target="_blank" class="news-link">Ukrainian military says it struck an oil depot in Russia&#x27;s Rostov region.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c7e-ded9-7aab-8d35-539441a78a40" target="_blank" class="news-link">The Ukrainian military said it struck 18 Russian vessels and hit the Ilsky refinery and an oil berth at Taganrog.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3776629" target="_blank" class="news-link">午后齐跌，创业板跌超4%，商业航天掀涨停潮，芯片半导体下挫，港股AI模型“双雄”暴跌</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3132144" target="_blank" class="news-link">SK主席Chey Tae Won：我们已经在美国IPO问题上等待了十五年。 如果回报不错，我们希望能扩大（SK海力士的）ADR规模。 人工智能（AI）扩张，意味着“这是我们的时机”。 AI agents繁荣，意味着人们需要大量的存储芯片。 （我们）既定的扩张计划是不够的。 需求将会增长，我对此有一些信心。（彭博电视）</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c7c-df87-7aab-8d35-4b6df7c82a22" target="_blank" class="news-link">SK chairman Choi Tae-won said he is confident in demand growth.</a> [11] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3132143" target="_blank" class="news-link">“网智融合，开源向善”边会呼吁AI普惠向善发展</a> [11] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c7b-1d85-7aab-8d35-3b97c0ab2857" target="_blank" class="news-link">SK Chairman Choi Tae-won said the boom in AI agents implies a need for substantially more memory.</a> [13] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776663" target="_blank" class="news-link">SemiAnalysis：Meta AI有望半年内超越谷歌，与OpenAI、Anthropic形成三足鼎立</a> [13] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c78-29b8-7aab-8d35-2f174d3df2b1" target="_blank" class="news-link">SK chairman Chey Tae-won said the group currently has sufficient funds to support SK Hynix.</a> [15] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260710224237209800" target="_blank" class="news-link">SK董事长崔泰源：人工智能代理的繁荣意味着人们需要大量内存。</a> [15] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c78-0509-7aab-8d35-2732b52b2d8c" target="_blank" class="news-link">The UK&#x27;s permanent representative to the UN said the memorandum of understanding between the US and Iran means Iran will not acquire nuclear weapons.</a> [16] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c77-e271-7aab-8d35-1c1282bfdafc" target="_blank" class="news-link">SK Group chairman Choi Tae-won said he hopes to expand the firm&#x27;s ADR issuance after achieving good returns.</a> [17] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c72-e562-7aab-8d35-09482426dcea" target="_blank" class="news-link">U.S. President Trump said Iran has asked to continue &quot;talks&quot; and Washington agreed, but told Iran the ceasefire is over.</a> [19] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2058472497230648834" target="_blank" class="news-link">SpaceXAI 发布 Grok 4.5，和 Cursor 一起联合开发的 AI 模型有什么特别的？</a> [19]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c6f-7c70-7aab-8d35-0774a7ea78d9" target="_blank" class="news-link">Turkey&#x27;s foreign minister said he plans to visit Ukraine in the near term.</a> [20] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48858171" target="_blank" class="news-link">Unified Memory, Explained: Why Mini PCs Can Run 70B Models a Big GPU Can&#x27;t</a> [20] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c6d-67a6-7aab-8d34-fff47fba3a8c" target="_blank" class="news-link">France&#x27;s UN Security Council representative said Iran must, under the law of the sea, immediately and unconditionally open the Strait of Hormuz.</a> [21] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c6d-3084-7aab-8d34-f341d1855955" target="_blank" class="news-link">France&#x27;s UN Security Council representative said Iran must fully halt all uranium enrichment activities.</a> [22] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c6c-8c8a-7aab-8d34-eff66ca088e3" target="_blank" class="news-link">France&#x27;s UN Security Council representative said Iran should allow the International Atomic Energy Agency access to its nuclear facilities.</a> [23] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c6c-70be-7aab-8d34-e21e54e47e80" target="_blank" class="news-link">France&#x27;s UN Security Council envoy said securing an agreement to prevent Iran from obtaining nuclear weapons is urgent.</a> [24] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260710222757539800" target="_blank" class="news-link">唱片公司推动AI音乐“打标签”，流媒体平台或迎来新规则</a> [24] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48858997" target="_blank" class="news-link">Ryanair Passenger Sucked Toward Broken Window After Midair Engine Failure</a> [25] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c6b-564d-7aab-8d34-d66382f3664e" target="_blank" class="news-link">France&#x27;s UN Security Council representative said Iran violated commitments under a memorandum of understanding on conduct in the Strait of Hormuz.</a> [26] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c69-93ac-7aab-8d34-c9471ec3f762" target="_blank" class="news-link">International Maritime Organization (IMO) urged parties not to recognize Iran&#x27;s sovereignty claims over the Strait of Hormuz.</a> [27] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c69-649c-7aab-8d34-c08c93e72dc1" target="_blank" class="news-link">International Maritime Organization says attempts by Iran to control the Strait of Hormuz should be rejected.</a> [28] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c68-38cf-7aab-8d34-bd7d37c72387" target="_blank" class="news-link">Turkey&#x27;s foreign minister said Turkey hopes to secure positive results soon on lifting US sanctions.</a> [29] <font color='grey'>- 23时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4c66-2e90-7aab-8d34-b4f32f43628b" target="_blank" class="news-link">UNCTAD official: China to remain major two-way investor in 2025</a> [30] <font color='grey'>- 23时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/975/333.htm" target="_blank" class="news-link">华为 SVC 再获 GlobalData 全满分评价，蝉联 IMS 话音核心网独家领导者</a> [20] <font color='grey'>- 23时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
