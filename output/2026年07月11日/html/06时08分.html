@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 110</p><p>生成时间: 2026-07-11 06:08:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">17.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4e05-db15-7aab-8d3a-a45be1e1152e" target="_blank" class="news-link">US demands Iran publicly pledge by Saturday to stop firing on commercial vessels in Strait of Hormuz</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3776623" target="_blank" class="news-link">AI叙事助美股三连阳，SK海力士ADR首日大涨13%，布油冲高转跌，黄金走V仍收跌</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776623" target="_blank" class="news-link">AI叙事助美股三连阳，SK海力士ADR首日大涨13%，布油冲高转跌，黄金走V仍收跌</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776680" target="_blank" class="news-link">AI狂欢持续！SK海力士创海外赴美最大IPO，美股首秀收涨13%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4de9-488f-7aab-8d3a-7dfcaaaa6a9b" target="_blank" class="news-link">Axios reports the U.S. has demanded Iran publicly state by Saturday at the latest that it will not attack the Strait of Hormuz.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4de2-79ef-7aab-8d3a-712c9e01eb8a" target="_blank" class="news-link">US media: Iran says Strait of Hormuz attack on commercial ship was &quot;internal mistake&quot;</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4de0-b1b3-7aab-8d3a-699255c0d0e4" target="_blank" class="news-link">A senior US official said they expect Iran to announce it will waive transit fees for passage through the Strait of Hormuz and pledge not to fire on vessels.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3776680" target="_blank" class="news-link">AI狂欢持续！SK海力士创海外赴美最大IPO，美股首秀收涨13%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3132249" target="_blank" class="news-link">苹果起诉OpenAI窃取其顶级商业机密，引发重磅诉讼</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4dd9-6c05-7aab-8d3a-51749f6847f2" target="_blank" class="news-link">A senior U.S. official said Iran attributed recent attacks on vessels to a malfunction in its internal systems.</a> [11] <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4dd7-121e-7aab-8d3a-3bbf8ae5ec37" target="_blank" class="news-link">A senior U.S. official said U.S.-Iran talks have made progress but will ultimately either result in an agreement or fail to do so.</a> [14] <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4dd6-447e-7aab-8d3a-3635c7de7a86" target="_blank" class="news-link">Senior U.S. official: Washington has demanded Iran publicly commit to stop firing on vessels in the Strait of Hormuz and to confirm all shipping lanes remain open.</a> [15] <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4dcf-46e0-7aab-8d3a-2f048a7038a9" target="_blank" class="news-link">Cuba&#x27;s National Electric Union said the country&#x27;s national power grid has collapsed.</a> [16] <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4dc9-c87c-7aab-8d3a-254347b675a1" target="_blank" class="news-link">Apple sues OpenAI alleging theft of trade secrets</a> [17] <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260711044802586800" target="_blank" class="news-link">苹果起诉OpenAI涉嫌窃取商业机密</a> [17] <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4dc7-c14a-7aab-8d3a-1b9562efa2cf" target="_blank" class="news-link">U.S. State Department said Secretary of State Rubio spoke with Saudi foreign minister Faisal.</a> [18] <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/904411601791373312" target="_blank" class="news-link">AI测开和传统测开有什么区别？</a> [18] <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4db9-7ef0-7aab-8d3a-09de9922c440" target="_blank" class="news-link">Iranian foreign ministry spokesman Baghaei said Iran will not permit inspections of facilities damaged in US and Israeli strikes, and that UN Security Council Resolution 2231 has effectively lost its legal force.</a> [20] <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260711042558788800" target="_blank" class="news-link">市场消息：法院文件显示，苹果(AAPL.O)起诉OpenAI，指控其挪用商业机密。</a> [21] <font color='grey'>- 06时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48865093" target="_blank" class="news-link">GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
