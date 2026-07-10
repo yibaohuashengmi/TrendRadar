@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 164</p><p>生成时间: 2026-07-11 04:51:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">20</td>
+                <td class="percentage">12.2%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4db5-6a82-7aab-8d3a-04420b61267d" target="_blank" class="news-link">Court filings show Apple (AAPL.O) has sued OpenAI, alleging misappropriation of trade secrets.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4db3-20af-7aab-8d39-ff581da87a67" target="_blank" class="news-link">Iran&#x27;s foreign ministry spokesman said Tehran, on a responsible basis, has not rejected a regional mediator&#x27;s request to visit and hold talks on recent developments.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776686" target="_blank" class="news-link">大摩泼冷水：芯片制造商定价权承压、AI资本开支开始放缓、美股半导体“明显超买”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48862252" target="_blank" class="news-link">Snails&#x27; teeth beats spider silk as nature&#x27;s strongest material (2015)</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1226514" target="_blank" class="news-link">Muse Image AI</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4db2-a942-7aab-8d39-f15cff9b547e" target="_blank" class="news-link">Iran&#x27;s Foreign Ministry spokesman Baqaei said Iran is determined to ensure maritime traffic safety in the Strait of Hormuz and will continue cooperating with Oman.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1226513" target="_blank" class="news-link">用了 ai 之后工作很碎片化，完全无法进入心流</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4db2-0317-7aab-8d39-ea0800af8939" target="_blank" class="news-link">Iran foreign ministry spokesman Baghaei said a Qatari delegation visited Mashhad and Iran conveyed its views and positions to the visitors.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4dad-f243-7aab-8d39-e12b51aa494f" target="_blank" class="news-link">Iranian foreign ministry spokesman Baghaei said Araghchi will visit Oman to discuss and exchange views on establishing an appropriate mechanism to ensure safe passage of vessels through the Strait of Hormuz.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4da6-c457-7aab-8d39-dd95d19f65db" target="_blank" class="news-link">Iran foreign minister to visit Oman to discuss Strait of Hormuz</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4da4-aebe-7aab-8d39-d1ada757ec1c" target="_blank" class="news-link">Iranian foreign ministry spokesman Bagheri said the US has repeatedly violated commitments in relevant memoranda of understanding. Iran’s policy remains based on the &quot;commitment for commitment&quot; principle, and any breach by Washington will be met with a reciprocal response from Tehran.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48863707" target="_blank" class="news-link">How the terrorist group Boko Haram uses frontier AI</a> [15] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4d96-3561-7aab-8d39-8fa8df546744" target="_blank" class="news-link">Iran&#x27;s Lorestan Industrial Park Company said a fire at a small refinery in the province has been contained. The blaze affected only barrels of waste engine oil and did not spread to refinery units or storage tanks.</a> [16] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4d89-84d3-7aab-8d39-87ceadaf53d5" target="_blank" class="news-link">CENTCOM said the USS George H.W. Bush is sailing in regional waters and its sailors are conducting night air-combat training onboard.</a> [17] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4d85-e1cd-7aab-8d39-7c7d1a09c108" target="_blank" class="news-link">CFTC: For the week to July 7, speculators increased net short positions in CBOT U.S. Treasury futures by 52,811 contracts to 143,591. Speculators raised net shorts in CBOT 5‑year Treasury futures by 38,606 contracts to 1,359,116, and in CBOT ultra‑long Treasury futures by 21,150 contracts to 307,819.</a> [18] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4d75-e4f1-7aab-8d39-465fb2f9b3e6" target="_blank" class="news-link">Qatar emir&#x27;s office said the Qatar emir and Pakistan&#x27;s prime minister confirmed they will continue cooperating to support regional security and safeguard shipping and sea lanes.</a> [25] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4d74-37ea-7aab-8d39-3cf38e8ef272" target="_blank" class="news-link">Qatar&#x27;s emir&#x27;s office said the emir and Pakistan&#x27;s prime minister emphasised that efforts should continue to ease tensions and resolve differences by peaceful means.</a> [26] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4d73-efce-7aab-8d39-36e5b99af13c" target="_blank" class="news-link">The office of Qatar&#x27;s emir said the emir and Pakistan&#x27;s prime minister discussed regional developments, focusing on US-Iran diplomatic talks.</a> [27] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4d6e-c574-7aab-8d39-22ae6ae3c24d" target="_blank" class="news-link">US sanctions Dubai-based banker Ali Ansari, targets Iranian forex exchange houses</a> [29] <font color='grey'>- 04时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f4d6a-7f0e-7aab-8d39-1d26f8f9dd99" target="_blank" class="news-link">Despite high valuation, NVIDIA remains Morgan Stanley&#x27;s top semiconductor pick</a> [30] <font color='grey'>- 04时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48864507" target="_blank" class="news-link">Don&#x27;t discontinue Gemini 2.5 Flash</a> [25] <font color='grey'>- 04时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.61%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3132240" target="_blank" class="news-link">纳斯达克金龙中国指数收跌0.23%，报6120.74点，本周累计上涨3.53%。 热门中概股里，网易初步收跌4.5%，日月光半导体跌1.2%，腾讯跌1.1%，拼多多跌0.8%，阿里涨1%，比亚迪涨2.9%，小米集团涨3.4%。 ETF中，中国科技指数ETF（CQQQ）收跌2.68%，本周反弹3.06%； 德银嘉实沪深300指数ETF（ASHR）收跌1.39%，本周反弹0.63%； XtrackersHarvest中证50（ASHS）收跌1.33%，本周跌0.89%； 中概互联网指数ETF（KWEB）收跌0.38%，本周累涨5.56%、延续上周反弹4.39%的表现； MSCI新兴市场ex中国ETF（EMXC）收涨0.33%，本周反弹1.37%。</a> <font color='red'><strong>[7]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
