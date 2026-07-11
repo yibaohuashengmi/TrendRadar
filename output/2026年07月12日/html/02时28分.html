@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 66</p><p>生成时间: 2026-07-12 02:28:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">16.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f523c-bd14-7aab-8d3f-3da9ef5b2baf" target="_blank" class="news-link">OpenAI releases GPT-5.6 as Musk and Altman trade public barbs</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48873424" target="_blank" class="news-link">Modern Decor May Be Straining People&#x27;s Brains</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84806" target="_blank" class="news-link">布朗大学经济学教授怀疑班级里多数学生使用 AI 作弊</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f522b-2f77-7aab-8d3f-354ec90eeb48" target="_blank" class="news-link">China origin-based student credit loans total 620.7 bln yuan; 68.21 mln student person-times aided</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84805" target="_blank" class="news-link">苹果起诉 OpenAI，指控前华裔员工窃取商业机密</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f521d-ed4c-7aab-8d3f-2d1eb5441dd9" target="_blank" class="news-link">US pushes to reopen Iraq‑Syria oil pipeline to bypass Strait of Hormuz</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48865903" target="_blank" class="news-link">AI Can&#x27;t Recreate the Thrust Game (But It Can Help You Understand It)</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48873692" target="_blank" class="news-link">Female US rower completes historic solo journey from California to Hawaii</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/market-genie-2-0-ai-marketing-system?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Market Genie 2.0 AI Marketing System</a> [15]</div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48873855" target="_blank" class="news-link">Reverse centaurs are the answer to the AI paradox</a> [27] <font color='grey'>- 02时28分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48873978" target="_blank" class="news-link">Alex Karp Is Saying What Every Angry CEO Is Thinking About AI</a> [28] <font color='grey'>- 02时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">1.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2055029429290771542" target="_blank" class="news-link">DeepSeek V4 正式版将于 7 月中旬上线，你有什么期待？</a> [13] <font color='grey'>- 02时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
