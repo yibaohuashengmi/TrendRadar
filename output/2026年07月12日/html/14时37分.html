@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 236</p><p>生成时间: 2026-07-12 14:37:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">22</td>
+                <td class="percentage">9.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f5509-34dc-7aab-8d42-bc4d0adba805" target="_blank" class="news-link">Ukrainian military says it struck an oil refinery in Russia&#x27;s Samara region.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1226702" target="_blank" class="news-link">[分享] AI 编程把网站搭出来以后，我又做了个让 Logo 动起来的工具</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f5507-8e2b-7aab-8d42-b1337ee84a0b" target="_blank" class="news-link">Oman says parts of Musandam on southern side of Strait of Hormuz hit by drone attack</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f54fb-7045-7aab-8d42-94fea1c17a86" target="_blank" class="news-link">Saudi state news agency reported Jordan&#x27;s military said three missiles launched from Iran fell inside Jordanian territory, causing no casualties.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f54fb-53b4-7aab-8d42-8a0b985f40f3" target="_blank" class="news-link">Saudi state news agency said multiple sites in Oman&#x27;s Musandam region were hit by drone strikes.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f54fb-2f75-7aab-8d42-835f773f6d17" target="_blank" class="news-link">Office of U.S. Senator Lindsey Graham said the senator died after a sudden illness.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f54f8-c157-7aab-8d42-741b54fbb7fc" target="_blank" class="news-link">Cheap South Korean stocks aren’t necessarily a buy; AI boom masks cyclicality</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f54ec-1cbe-7aab-8d42-654ca7d34d9e" target="_blank" class="news-link">Qatar&#x27;s Interior Ministry said three people, including a child, were injured by falling shrapnel following an Iranian attack.</a> [12] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f54e2-db43-7aab-8d42-5c1396469124" target="_blank" class="news-link">Iran says future Strait of Hormuz navigation arrangements to be negotiated with Oman</a> [13] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f54d9-f7db-7aab-8d42-5477387e329b" target="_blank" class="news-link">Analyst: US, Iran unwilling to yield; Strait of Hormuz may become &quot;long-term powder keg&quot;</a> [14] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f54d0-86b5-7aab-8d42-4fc56779ce21" target="_blank" class="news-link">Iran&#x27;s foreign ministry spokesperson said a Qatari delegation attended parts of the talks.</a> [15] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f54cf-53aa-7aab-8d42-405c207750e1" target="_blank" class="news-link">Iran&#x27;s foreign ministry spokesman said Iran and Oman held talks on Saturday that focused on traffic and shipping management arrangements in the Strait of Hormuz.</a> [16] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f54c7-bd78-7aab-8d42-3516f2ae619a" target="_blank" class="news-link">Japan to push giant pension fund to raise alternative asset allocation</a> [18] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f54ba-6da4-7aab-8d42-2da49b2c9aac" target="_blank" class="news-link">Qatar&#x27;s Ministry of Defence said Qatar was hit by multiple ballistic missiles.</a> [19] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f54b8-2da7-7aab-8d42-27624ab0aaa1" target="_blank" class="news-link">Iranian outlet Fars News reports loud explosions heard in Kuwait and Bahrain.</a> [20] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48876619" target="_blank" class="news-link">Fixed three bugs that made Qwen3.5-122B a daily driver on Mac Studio</a> [20] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f54a4-45e7-7aab-8d42-0882cc3bce9a" target="_blank" class="news-link">Beijing Capital, Daxing airports lift large-scale flight-delay yellow responses</a> [23] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f54a0-1748-7aab-8d41-f68f56b785f9" target="_blank" class="news-link">Bahrain&#x27;s Interior Ministry said an alarm had sounded and urged citizens and residents to remain calm and proceed to the nearest safe location.</a> [26] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f5497-2072-7aab-8d41-ec979b39d02f" target="_blank" class="news-link">Iran&#x27;s chief negotiator Ghalibaf said the era of unilateral agreements is over, warned parties must honor commitments or face consequences, and said reality is issuing a warning.</a> [27] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7660415930171490356" target="_blank" class="news-link">22道AI Agent 工程师必会的面试题，别啥都不会就出去找工作</a> [28] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7659986983721271334" target="_blank" class="news-link">成了！不会前端，花一天时间给公司 BI 系统装上了 AI 智能体！</a> [29] <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f5489-6c56-7aab-8d41-d03bf06a0fa6" target="_blank" class="news-link">Iran&#x27;s Islamic Revolutionary Guard Corps said it destroyed a U.S. Navy aircraft carrier logistical support center and a refueling platform at Duqm Port, Oman.</a> [30] <font color='grey'>- 14时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/975/712.htm" target="_blank" class="news-link">猛士汽车详解 X700 定位：全面对标主流城市 SUV 标准，延续与华为深度合作的智能化优势</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/975/703.htm" target="_blank" class="news-link">别墅可用：华为靳玉志实测启境 GT7，首曝 ADS 5 能自定义收藏没划线的「野生车位」</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7660395288364302382" target="_blank" class="news-link">Bun 重写为 Rust：11天、64个Claude、16.5万美元，一次改变行业认知的激进实验</a> [30] <font color='grey'>- 14时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1226687" target="_blank" class="news-link">PriceRadar - 跨区域比价神器， App Store &amp; Google Play 订阅价格全球对比</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
