@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 200</p><p>生成时间: 2026-07-12 22:05:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f5689-6e89-7aab-8d45-3b13a1da1ede" target="_blank" class="news-link">Russian Defence Ministry says forces carried out large-scale strikes on Ukrainian facilities</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f5681-c2cc-7aab-8d45-377e61b277f4" target="_blank" class="news-link">U.S. military rebuts Iranian claim of control over Strait of Hormuz, says strait is international waterway</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f5677-b5fe-7aab-8d45-2d24ce15ad54" target="_blank" class="news-link">MSNBC cited President Trump saying the Strait of Hormuz is open.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1226765" target="_blank" class="news-link">各位大佬每月在 AI 工具上的支出都是多少？多少是因为工作支出？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3776632" target="_blank" class="news-link">下周重磅日程：中国GDP与美国CPI、沃什听证会、WAIC大会、长鑫科技打新与台积电财报</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776735" target="_blank" class="news-link">穿越算力恐慌：2026下半年AI科技的五大主线</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f5643-0a9b-7aab-8d45-016ac5699127" target="_blank" class="news-link">The U.S. military says the Strait of Hormuz is open to all vessels seeking lawful transit of international waterways. U.S. forces are deployed and ready to ensure freedom of navigation.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/975/816.htm" target="_blank" class="news-link">微软研究院推出开源可视化中间语言 Flint，让 AI 智能体“一句话生成专业图表”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1226717" target="_blank" class="news-link">人在外面，怎么继续家里电脑上的 Cursor / Codex？我做了一个本地 AI Agent Gateway-PocketPilot</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f562c-080b-7aab-8d44-ebf5a14c8633" target="_blank" class="news-link">Oman Foreign Ministry said it summoned Iran&#x27;s ambassador to Oman to protest an Iranian attack on Omani territory.</a> [11] <font color='grey'>- 22时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1226772" target="_blank" class="news-link">兄弟们的 codex 和 claude code 用中转吗</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
