@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 325</p><p>生成时间: 2026-07-14 22:56:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">35</td>
+                <td class="percentage">10.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f611c-53af-7aab-8d82-019bf589511c" target="_blank" class="news-link">Federal Reserve Chair Kevin Warsh said more effort is needed to address inf.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84829" target="_blank" class="news-link">AI 公司高管以及经济学家呼吁就 AI 对经济的影响采取行动</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f611b-92a5-7aab-8d81-feb4a91da751" target="_blank" class="news-link">Federal Reserve Chair Kevin Warsh said the central bank still has work to do on inflation.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-14/%E9%9F%A9%E5%9B%BD%E6%80%BB%E7%BB%9F%E6%9D%8E%E5%9C%A8%E6%98%8E%E5%AE%A3%E5%B8%83%E8%AE%BE%E7%AB%8B%E6%9C%AA%E6%9D%A5%E5%BA%94%E5%AF%B9%E5%9F%BA%E9%87%91%E5%B9%B6%E8%A7%84%E5%88%922027%E8%B4%A2%E5%B9%B4%E9%A2%84%E7%AE%97%E5%88%9B%E6%96%B0%E9%AB%98-c1e5fb" target="_blank" class="news-link">韩国设立未来应对基金投资AI超额税收</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f611b-1220-7aab-8d81-f0efdc98eec9" target="_blank" class="news-link">Federal Reserve Chair Kevin Warsh said the Fed&#x27;s dual mandate is not in conflict.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f611a-ba8e-7aab-8d81-ead0d778d6a1" target="_blank" class="news-link">Fed Chair Kevin Warsh said the labor market appears to be in a relatively good balance.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48907214" target="_blank" class="news-link">OpenAI mandates hardware-backed passkeys for Trusted Access Cyber members</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f611a-3305-7aab-8d81-d3a0e8a2f8c4" target="_blank" class="news-link">Federal Reserve Chair Kevin Warsh said nominal wage growth remains robust.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48905919" target="_blank" class="news-link">Show HN: I RL-trained an agent that trains models with RL (for –$1.3k)</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6119-ee79-7aab-8d81-cb636e9b8a45" target="_blank" class="news-link">Federal Reserve Chair Kevin Warsh said the labor market has shown marked resilience.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48904095" target="_blank" class="news-link">Demis Hassabis has a plan to harness AI safely</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6119-d7ca-7aab-8d81-c5c7cbc6133c" target="_blank" class="news-link">Fed Chair Kevin Warsh said the Fed is not afraid of productivity-driven economic growth.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6118-a656-7aab-8d81-bfbc8b7fc759" target="_blank" class="news-link">Timiraos: June CPI helps Fed chair Walsh ahead of congressional testimony</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-14/%E9%80%BE200%E5%90%8D%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%AE%B6%E5%92%8Cai%E4%B8%93%E5%AE%B6%E8%81%94%E7%BD%B2%E8%AD%A6%E5%91%8Aai%E7%BB%8F%E6%B5%8E%E5%86%B2%E5%87%BB-08ac31" target="_blank" class="news-link">逾200名经济学家和AI专家联署警告AI就业冲击</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6118-63a2-7aab-8d81-b335c076767e" target="_blank" class="news-link">Federal Reserve Chair Kevin Warsh: Price stability is consistent with lower long-term yields.</a> [11] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48907290" target="_blank" class="news-link">A Philosopher&#x27;s One-Word Theory to Explain Why the World Feels So Weird</a> [11] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6117-af50-7aab-8d81-aeda5d424a36" target="_blank" class="news-link">Federal Reserve Chair Kevin Warsh said 30-year mortgage rates remain elevated due to inflation.</a> [12] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3133724" target="_blank" class="news-link">印度接近接受Fairfax对IDBI银行的加价收购要约</a> [12] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6116-3a7a-7aab-8d81-a2fbabdec07c" target="_blank" class="news-link">Federal Reserve Chairman Kevin Warsh said he does not believe any change in communication would be intended to conceal the truth.</a> [13] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6115-ac9e-7aab-8d81-9a31b845d02f" target="_blank" class="news-link">KEVIN WARSH said high inflation underscores the need for communication reform.</a> [14] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33574020" target="_blank" class="news-link">经纬度：中国人工智能发展的战略定力</a> [17] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6112-e9f5-7aab-8d81-78cdbe83adc3" target="_blank" class="news-link">Federal Reserve Chair Kevin Warsh said his goal within the Fed is to prevent political interference.</a> [18] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6112-8ee6-7aab-8d81-733aa538e6fa" target="_blank" class="news-link">Federal Reserve chair Kevin Warsh said the Supreme Court has already answered the question about the Fed’s independence.</a> [19] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6112-5e63-7aab-8d81-6984ba1c240d" target="_blank" class="news-link">Federal Reserve chair Kevin Warsh said he understands that central banks need to intervene in markets during crises.</a> [20] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/976/724.htm" target="_blank" class="news-link">英伟达与三菱重工拟在 AI 数据中心领域展开合作，将冷却与能源管理技术融入下一代 AI 数据中心</a> [20] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6112-01d4-7aab-8d81-65040d20e372" target="_blank" class="news-link">Federal Reserve Chairman Kevin Warsh said the Fed is honored to be an independent central bank.</a> [21] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/976/722.htm" target="_blank" class="news-link">IBM 预警 AI 基建热潮抢占企业软件支出预算，引发软件板块下挫</a> [22] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6110-7a8f-7aab-8d81-56b8964aae3b" target="_blank" class="news-link">Federal Reserve Chairman Kevin Warsh said the Fed&#x27;s balance-sheet framework has changed materially.</a> [23] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6110-1ca2-7aab-8d81-4d32a8989298" target="_blank" class="news-link">Federal Reserve Chair Kevin Warsh said the Fed must do its job to avoid interference from fiscal policy.</a> [24] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f610f-df76-7aab-8d81-46ee40fb4a1a" target="_blank" class="news-link">Federal Reserve Chair Kevin Warsh said any changes to balance-sheet policy will be given advance notice.</a> [25] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f610f-a746-7aab-8d81-3ee527652462" target="_blank" class="news-link">Fed chair Kevin Warsh said the balance sheet is part of monetary policy.</a> [26] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f610f-09de-7aab-8d81-3101f9d9b5ae" target="_blank" class="news-link">Federal Reserve Chair Kevin Warsh said he has tasked working groups with returning to first principles.</a> [27] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f610e-c276-7aab-8d81-2b369304fe96" target="_blank" class="news-link">Federal Reserve Chairman Kevin Warsh said the boundaries of some working groups will overlap.</a> [28] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f610e-9641-7aab-8d81-254490a16fd9" target="_blank" class="news-link">Fed Chair Kevin Warsh said he will hold public discussions and is willing to regularly share results and his thinking.</a> [29] <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f610e-0ee5-7aab-8d81-19e633300392" target="_blank" class="news-link">Fed Chair Kevin Warsh said an external working group will first share its findings with policymakers.</a> [30] <font color='grey'>- 22时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/976/745.htm" target="_blank" class="news-link">华为智选车产品总监彭磊科普国家 L3 准入要求，称享界 G9 设计之初就瞄准 L3 级自动驾驶开发</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/976/732.htm" target="_blank" class="news-link">华为官宣奕境 X9 汽车全系搭载鸿蒙座舱 HarmonySpace 6，首发 17.2 英寸蝶羽双联屏</a> [14] <font color='grey'>- 22时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202607/1476435.html" target="_blank" class="news-link">英媒：DeepSeek完成首轮融资后拟再次募资</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
