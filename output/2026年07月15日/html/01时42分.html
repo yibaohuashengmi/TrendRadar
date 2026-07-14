@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 201</p><p>生成时间: 2026-07-15 01:42:18</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">30</td>
+                <td class="percentage">14.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f61a0-25bf-7aab-8d86-b5261fc91038" target="_blank" class="news-link">Iranian President PEZESHKIAN said Tehran will respond with concrete action to Trump&#x27;s provocations and will defend every inch of Iranian territory.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f619e-18fa-7aab-8d86-ad20ffb53198" target="_blank" class="news-link">Bahrain&#x27;s Interior Ministry said the country had sounded an air defense alert.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f619b-f27a-7aab-8d86-a7805d858fdb" target="_blank" class="news-link">U.S. Commerce official says chip and AI rules imminent; Trump team won&#x27;t replace Biden-era AI chip export curbs</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715011025049800" target="_blank" class="news-link">美商务部官员：芯片和AI监管措施即将出台</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6199-6152-7aab-8d86-93b9baee1949" target="_blank" class="news-link">CNBC reports Apple (AAPL.O) is in talks with PrismML to compress AI models for on-device deployment on iPhone.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715010740944800" target="_blank" class="news-link">据CNBC：苹果(AAPL.O)正在与PrismML洽谈，旨在缩小人工智能模型以便在iPhone上运行。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48908950" target="_blank" class="news-link">Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6195-f05d-7aab-8d86-8335a2c9a1af" target="_blank" class="news-link">Key takeaways from Fed Chair Kevin Warsh&#x27;s House testimony</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6195-caa6-7aab-8d86-7ca9af9421b1" target="_blank" class="news-link">Iranian state media said the explosion in Andimeshk was a controlled demolition and not the result of an enemy attack.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3133806" target="_blank" class="news-link">苹果正与一家能将AI模型压缩至在iPhone上运行的初创公司洽谈</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6194-76c4-7aab-8d86-74f4ea567701" target="_blank" class="news-link">Federal Reserve Chair Kevin Warsh&#x27;s hearing has concluded.</a> [11] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6193-d9da-7aab-8d86-6cb3e8c86e23" target="_blank" class="news-link">Federal Reserve Chair Kevin Warsh said he is willing to explore reform options for the large balance sheet he inherited.</a> [12] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6192-fa3d-7aab-8d86-585577f787e3" target="_blank" class="news-link">Kevin Warsh, Federal Reserve chair, said he supports more aggressive use of the Fed&#x27;s balance sheet in times of crisis.</a> [14] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6191-a45d-7aab-8d86-489f7d720a85" target="_blank" class="news-link">Fed Chair Kevin Warsh said he will ensure the Federal Reserve remains independent during his tenure.</a> [16] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4173115_212_1" target="_blank" class="news-link">美联储巴尔：绝大多数企业及其员工若难以获取持续迭代升级的人工智能资源，其生产率增长速度将会放缓。</a> [17] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6190-df6a-7aab-8d86-3a014a43a279" target="_blank" class="news-link">Federal Reserve chair KEVIN WARSH said if he already had a preferred inf metric, he would not have asked the working group to return to first principles to re-examine it.</a> [18] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3133798" target="_blank" class="news-link">摩根大通敦促员工慎用高价AI处理简单任务，企业高管开始忧心成本</a> [18] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6190-6b00-7aab-8d86-312ab04ef913" target="_blank" class="news-link">Fed chair Kevin Warsh said he has no preference among regional Fed inflation measures.</a> [19] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4173110_212_1" target="_blank" class="news-link">美联储巴尔：目前几乎没有证据表明人工智能已大规模造成岗位流失。</a> [19] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f618f-94e3-7aab-8d86-2cf4948fcc2f" target="_blank" class="news-link">Fed chair Kevin Warsh said quantitative easing does not necessarily cause inflation, particularly during crisis periods.</a> [20] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4173106_1_1" target="_blank" class="news-link">美联储理事巴尔：AI有潜力显著提升生产率，尤其将惠及低技能和经验不足的劳动者。</a> [20] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f618e-d2c0-7aab-8d86-2743a283c407" target="_blank" class="news-link">Federal Reserve Chairman Kevin Warsh: inflation reflects the policy preferences of the Fed and fiscal policymakers.</a> [21] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4173104_1_1" target="_blank" class="news-link">美联储理事巴尔：AI将从多个方面影响劳动力市场和整体经济，目前尚无法判断其会缩小还是加剧收入和财富不平等。</a> [21] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f618e-cf21-7aab-8d86-1e8b16d62c75" target="_blank" class="news-link">Fed chair Kevin Warsh said the Fed has greater control over price levels than over the unemployment rate.</a> [22] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f618e-371b-7aab-8d86-14898519873b" target="_blank" class="news-link">Fed chair Kevin Warsh said new indicators are needed to gauge underlying inflation.</a> [23] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f618e-23ef-7aab-8d86-0d58d3bd0d5c" target="_blank" class="news-link">Kevin Warsh said it is inaccurate to characterize him as favoring the Dallas Fed&#x27;s trimmed-mean inflation gauge.</a> [24] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f618c-5c6d-7aab-8d86-06b809d4b550" target="_blank" class="news-link">Incoming UK prime minister faces immediate tests as economy strains and Iran risk rises</a> [25] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f618a-caa1-7aab-8d85-f5fdf38e0428" target="_blank" class="news-link">Fed Chair Kevin Warsh said the Fed should be responsible and held accountable.</a> [27] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6189-16ab-7aab-8d85-e138989df9a8" target="_blank" class="news-link">Fed Governor Barr said there is little evidence so far that artificial intelligence has broadly caused job losses.</a> [29] <font color='grey'>- 01时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6188-b28d-7aab-8d85-da80703ff1af" target="_blank" class="news-link">Fed Governor BARR said if most firms and their workers cannot adequately access ongoing AI resources, productivity growth will slow.</a> [30] <font color='grey'>- 01时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/976/761.htm" target="_blank" class="news-link">消息称 DeepSeek 筹备 IPO，最快今年内提交上市申请</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
