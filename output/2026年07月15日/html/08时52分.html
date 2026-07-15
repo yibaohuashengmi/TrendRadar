@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 224</p><p>生成时间: 2026-07-15 08:52:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">7.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202607/1576455.html" target="_blank" class="news-link">白士泮、石建政：新加坡在AI竞赛三种路径中的最优解</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715082523709800" target="_blank" class="news-link">华泰证券：业绩期关注AI、涨价、制造三大线索</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时52分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1227339" target="_blank" class="news-link">AI 出现后， XXX 语言真的垃 -&gt; XXX 模型真的垃</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/976/792.htm" target="_blank" class="news-link">多名用户示警：OpenAI 最新模型 GPT-5.6 Sol 会擅自删除用户文件</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 08时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3133955" target="_blank" class="news-link">据媒体报道，人工智能云计算公司 CoreWeave正在探索使用金融衍生品，作为防范未来内存和存储芯片价格下跌的潜在对冲手段。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6323-982d-7aab-8d8c-46276dcf52b8" target="_blank" class="news-link">Kuwait&#x27;s military said its air defence forces are currently responding to hostile drones originating from Iran.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 08时52分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202607/1576448.html" target="_blank" class="news-link">中国上半年贸易创新高 AI相关产业是主推手</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 08时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3776536" target="_blank" class="news-link">从DRAM到HBM：为什么说存储测试机是AI存储扩产的“产能阀门”？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 08时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3776951" target="_blank" class="news-link">苹果评估AI模型压缩技术：270亿参数大模型可直接运行于iPhone，为Siri升级铺路</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 08时52分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5269283" target="_blank" class="news-link">英矽智能(03696.HK)与保瑞药业宣布一项战略联盟，推进人工智能驱动的药物研发</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 08时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6319-5dfa-7aab-8d8c-20b59cc4d44f" target="_blank" class="news-link">Korea Economic Daily says Samsung plans DRAM fab in Giheung, South Korea</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 08时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6318-a48a-7aab-8d8c-190961f2ffd8" target="_blank" class="news-link">EASA reinstates, widens Middle East airspace warnings after US‑Iran escalation</a> [11] <font color='grey'>- 08时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6312-559d-7aab-8d8b-f9ebb1c59cb1" target="_blank" class="news-link">Bahrain&#x27;s Interior Ministry said an alarm had sounded.</a> [15] <font color='grey'>- 08时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/976/780.htm" target="_blank" class="news-link">华为 MatePad 11.5 S 灵动款、MatePad Air 12 英寸鸿蒙焕新版上市，2999 元起</a> [16] <font color='grey'>- 08时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f630d-6635-7aab-8d8b-ead9c8c4baaf" target="_blank" class="news-link">Al Jazeera reported Iranian officials said a U.S. artillery strike of three shells hit a bottled-water plant, damaging equipment but causing no reported casualties.</a> [17] <font color='grey'>- 08时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/976/779.htm" target="_blank" class="news-link">IT早报 0715：市盈率 308.92 倍长鑫确定发行价 8.66 元 / 股；DeepSeek 梁文锋成全球 AI 公司新首富；IBM 创 40 年来最大单日跌幅；华为 5G 手机全球回归...</a> [17] <font color='grey'>- 08时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/976/791.htm" target="_blank" class="news-link">Anthropic 宣布将免费向美国中小学教师提供 Claude 高级功能</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/976/783.htm" target="_blank" class="news-link">《苏丹的游戏》手游繁中版 7 月 24 日上线：无删减移植支持多平台，华为鸿蒙系统正在适配中</a> [12] <font color='grey'>- 08时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
