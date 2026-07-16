@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 357</p><p>生成时间: 2026-07-16 17:36:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">23</td>
+                <td class="percentage">6.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6a2b-f0e5-7aab-8dc3-fc15d38ace32" target="_blank" class="news-link">Israel Defense Forces said overnight it struck and destroyed four Hamas weapons storage facilities.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1227804" target="_blank" class="news-link">换皮肤的玩儿法 还是吹到了 OpenAI 什么优雅 和辣眼睛的背景图都来了 😂</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/605.htm" target="_blank" class="news-link">亚马逊仓库自动化遇阻：管理层无视 AI 排班建议，内部矛盾凸显</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777105" target="_blank" class="news-link">AI时代的新60/40：不是股债，而是AI与非AI</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84843" target="_blank" class="news-link">AI 公司高管加强个人安保</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1227797" target="_blank" class="news-link">迫切需要给大脑开个接口让 AI 往进来灌</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777102" target="_blank" class="news-link">黄仁勋日本行：见30年前“救命恩人”，签约机器人三巨头，英伟达笼络日本AI供应链</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1227792" target="_blank" class="news-link">用 AI 搓了个真正在浏览器中通过 Linux 访问博客的方式</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777106" target="_blank" class="news-link">报道：日本斥资24亿美元购入英伟达Rubin芯片，用于建设机器人AI系统</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2427879" target="_blank" class="news-link">纽约州叫停建设AI数据中心？特朗普怒喷：你们在白白丢掉“摇钱树”！</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1227786" target="_blank" class="news-link">送码， 做了一个代码 Review 工具，专门用来 Review AI 写的代码</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/582.htm" target="_blank" class="news-link">AI 指纹识别 + 9 种开锁方式：小米智能门锁 E30 星辰黑 999 → 492 元新低</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6a23-f28c-7aab-8dc3-8d6af88cdea5" target="_blank" class="news-link">POLISH CENTRAL BANK Governor GLAPINSKI: Baseline is for policy rates to remain unchanged until early 2026/27.</a> [15] <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2573340" target="_blank" class="news-link">披着AI外衣的现实短片</a> [15] <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/552.htm" target="_blank" class="news-link">NVIDIA 联手日本政经界发布全球首个国家级人工智能基础设施</a> [18] <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3134963" target="_blank" class="news-link">外交部：愿同各方提升全球人工智能创新发展水平</a> [19] <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7662691781214470180" target="_blank" class="news-link">停更的这一年，All In AI、陪媳妇生娃、还考了个研</a> [19] <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33590679" target="_blank" class="news-link">WAIC前夕看全球AI治理变局：拒绝“富国游戏”，规则之争加快</a> [20] <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/558.htm" target="_blank" class="news-link">消息称阿里千问首款 AI 智能体耳机将在 WAIC 亮相</a> [20] <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3134956" target="_blank" class="news-link">上海市新增4款已完成登记的生成式人工智能服务</a> [23] <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/550.htm" target="_blank" class="news-link">Pocketpair：如果有可行方案，《幻兽帕鲁》想与《方舟》《雾锁王国》《无人深空》联动</a> [24] <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6a14-05d3-7aab-8dc3-3c867e0f8c77" target="_blank" class="news-link">An official at South Korea&#x27;s Financial Supervisory Service said Thursday&#x27;s policy measures are not targeted at foreign broker-dealers.</a> [25] <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6a10-8070-7aab-8dc3-1477b04c140d" target="_blank" class="news-link">U.S. Commerce Department said the Trump administration secured an additional $100 billion in semiconductor manufacturing investment allocation for TSMC, bringing the total to $265 billion.</a> [30] <font color='grey'>- 17时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">5</td>
+                <td class="percentage">1.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/608.htm" target="_blank" class="news-link">靳玉志梳理华为乾崑合作模式，主分全栈和部件两大路线</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/584.htm" target="_blank" class="news-link">华为靳玉志：L3 与 L4 规模商用预计 2027 年、2028 年实现</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/578.htm" target="_blank" class="news-link">华为撤回“世界”商标申请，此前该商标使用范围包括汽车等</a> [13] <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/567.htm" target="_blank" class="news-link">鸿蒙智行智界 V9 旗舰 MPV 累计订单超 2 万台，定档 7 月 23 日推送华为乾崑智驾 ADS 5</a> [17] <font color='grey'>- 17时36分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/557.htm" target="_blank" class="news-link">华为乾崑 2026 上半年安全出行报告发布，辅助驾驶活跃用户数占比 97.5%</a> [21] <font color='grey'>- 17时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1227798" target="_blank" class="news-link">Wandesk 一句命令让你的 claude code、codex 变成一个操作系统</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1227758" target="_blank" class="news-link">我们已向与此电子邮箱关联的 ChatGPT 账户添加 US$100.00 的额度（2,500 额度）</a> [16] <font color='grey'>- 17时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84846" target="_blank" class="news-link">图书出版商指控 Google 在训练 Gemini 过程中大规模侵犯版权</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84845" target="_blank" class="news-link">DeepSeek 计划年内申请 IPO</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5270298" target="_blank" class="news-link">三江购物(601116.SH)：阿里泽泰合计减持2.00%股份</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时36分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
