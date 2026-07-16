@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2026-07-16 23:57:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">27</td>
+                <td class="percentage">10.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%90%88%E4%BD%9C%E7%BB%84%E7%BB%87%E5%8D%8F%E5%AE%9A%E7%AD%BE%E7%BD%B2" target="_blank" class="news-link">世界人工智能合作组织协定签署</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1227870" target="_blank" class="news-link">被 AI 当前的智能程度“震惊”了，还发现为什么即梦和 ChatGPT 生成的图片居然惊人的相似</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6b8f-94b1-7aab-8dcc-aba46f8881e0" target="_blank" class="news-link">The U.S. government said it supports Venezuela&#x27;s efforts toward an electoral transition.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777129" target="_blank" class="news-link">摩根士丹利警示&quot;内存之墙&quot;：GPU决定AI跑多快，内存决定AI走多远</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5270601" target="_blank" class="news-link">新时达(002527.SZ)：目前公司暂未报名参展2026世界人工智能大会(WAIC)</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4178088_214_1" target="_blank" class="news-link">解读29国在华签署人工智能相关协定。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/797.htm" target="_blank" class="news-link">美光与高通、哈曼等签署长期合作协议，保障 AI 汽车内存供应</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5270597" target="_blank" class="news-link">大行评级｜Benchmark：看好AI驱动EDA前景，首予新思科技和Cadence“买入”评级</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/793.htm" target="_blank" class="news-link">世界人工智能合作组织协定签署仪式举行，总部设中国上海</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-16/%E8%8B%B1%E4%BC%9F%E8%BE%BE%E4%B8%8E%E6%97%A5%E4%BC%81%E5%90%88%E4%BD%9C%E5%BB%BA%E8%AE%BE%E5%9B%BD%E5%AE%B6%E7%BA%A7%E5%AE%9E%E4%BD%93ai%E7%AE%97%E5%8A%9B%E5%B7%A5%E5%8E%82-d788b7" target="_blank" class="news-link">英伟达携日企启动国家级实体AI基础设施</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777132" target="_blank" class="news-link">头部量化灵均资本最新发声：AI正在重构资管行业发展逻辑，应用上限由投资思想决定</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/791.htm" target="_blank" class="news-link">中国联通与华为发布全球最大规模 5G-A 百兆大上行网络，AI 眼镜毫秒级回传</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135167" target="_blank" class="news-link">泰国总理阿努廷抵达上海，出席2026世界人工智能大会暨人工智能全球治理高级别会议</a> [11] <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/783.htm" target="_blank" class="news-link">古尔曼：苹果最快今秋推出 OLED 版 iPad mini，明年更新入门版 iPad 及 iPad Air</a> [16] <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6b7e-b0c7-7aab-8dcc-3b19a2e7ef39" target="_blank" class="news-link">Iran&#x27;s foreign ministry said all consequences and responsibility for this breach rest with the arrogant U.S. regime. It warned all countries, especially southern Persian Gulf neighbors, that they must prevent the U.S. from using their territory and facilities to prepare or carry out aggressive attacks on Iran.</a> [17] <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33583299" target="_blank" class="news-link">经纬度：在上海，WAIC见证人工智能改变未来</a> [18] <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6b7e-b032-7aab-8dcc-325390e9a8ce" target="_blank" class="news-link">Iran&#x27;s foreign ministry said lasting regional security can only be achieved through understanding and cooperation among regional states and without a U.S. military presence or its destructive, malicious interference.</a> [18] <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6b7d-80b8-7aab-8dcc-2eadce16c58a" target="_blank" class="news-link">Iran&#x27;s foreign ministry said the global public can clearly see the United States has, for the third time in a year, openly reneged in negotiations; in this instance it failed to honor its signature on a memorandum of understanding and violated multiple clauses just 20 days after signing, citing absurd pretexts.</a> [19] <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6b7c-cdd0-7aab-8dcc-275d1e73eeb8" target="_blank" class="news-link">Iran&#x27;s Foreign Ministry said it will use all capabilities to defend Iran&#x27;s sovereignty and territorial integrity, resist military invasion and hybrid warfare by the US and Israel, and will tolerate no such actions.</a> [20] <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6b7c-9b19-7aab-8dcc-1ea03bf776dc" target="_blank" class="news-link">Iran&#x27;s foreign ministry said repeated threats to attack bridges and power plants, alongside attacks on certain critical infrastructure, clearly demonstrate the criminal intent of the US ruling establishment, and warned that direct perpetrators and executors cannot evade legal responsibility or the moral and conscience burden of war crimes by claiming they were following orders.</a> [21] <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6b7b-e313-7aab-8dcc-0c74b68daedf" target="_blank" class="news-link">Iran&#x27;s foreign ministry accused the United States of, over the past few days, striking grain silos in Khoyzeh; a bottled-water plant in Tehran&#x27;s Musian district; and an offshore surveillance tower at Chabahar, saying the strikes aimed to disrupt fishermen rescues and undermine maritime trade security. The ministry called those and other similar attacks war crimes committed by US aggressors within the past week.</a> [23] <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6b7b-2d08-7aab-8dcc-04f624b0ce43" target="_blank" class="news-link">Iran&#x27;s Foreign Ministry said in recent days the United States has escalated aggressive attacks and committed multiple war crimes, notably striking civilian facilities and equipment.</a> [24] <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6b7a-6520-7aab-8dcb-fb9a7c4063b4" target="_blank" class="news-link">29 countries sign founding agreement for World Artificial Intelligence Cooperation Organization in Shanghai</a> [25] <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6b77-9deb-7aab-8dcb-ebdba30ebdd7" target="_blank" class="news-link">Thai Premier Anutin arrives in Shanghai to attend 2026 World AI Conference and high-level AI governance meeting</a> [27] <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135148" target="_blank" class="news-link">玉渊谭天丨中国AI的发展逻辑</a> [27] <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6b75-3eb4-7aab-8dcb-da94c6c48716" target="_blank" class="news-link">Shanghai Stock Exchange website shows the review status for Oriental Jingyuan Microelectronics Technology (Beijing) Co., Ltd. has changed to &#x27;inquiry issued&#x27;.</a> [29] <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6b72-a0f8-7aab-8dcb-d5e60619a587" target="_blank" class="news-link">Federal Communications Commission (FCC) says New York state&#x27;s ban on AI factories would reduce revenue.</a> [30] <font color='grey'>- 23时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/790.htm" target="_blank" class="news-link">华为 Mate 80、Pura X 等系列手机适配支持 HUAWEI Tag 防丢精灵精准查找功能</a> [11] <font color='grey'>- 23时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135152" target="_blank" class="news-link">中国联通携华为发布全球最大规模5G-A百兆大上行网络</a> [23] <font color='grey'>- 23时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3777116" target="_blank" class="news-link">梁文锋重仓打新，万亿长鑫被抢疯了</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
