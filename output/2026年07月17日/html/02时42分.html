@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 160</p><p>生成时间: 2026-07-17 02:42:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">22</td>
+                <td class="percentage">13.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260717022344954800" target="_blank" class="news-link">OpenAI董事长称对其他公司的商业机密“没有兴趣”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6c32-d230-7aab-8dcf-bb2bbacf4e66" target="_blank" class="news-link">Night session main contracts close</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6c31-ea5a-7aab-8dcf-b1d615a45ac3" target="_blank" class="news-link">Shanghai Gold Exchange gold T+D closed down 1.09% at 870.1 yuan/gram in the July 16 (Thursday) evening session; Shanghai Gold Exchange silver T+D closed down 2.29% at 13,592.0 yuan/kg.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6c2b-bf06-7aab-8dcf-90e82257a08e" target="_blank" class="news-link">OpenAI chairman denies interest in other firms&#x27; trade secrets amid Apple lawsuit</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48937020" target="_blank" class="news-link">Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps</a> [12] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6c1b-e872-7aab-8dcf-763d29182e37" target="_blank" class="news-link">Logan said the banking regulatory liquidity framework could be further optimized, potentially allowing the Fed’s balance sheet to be smaller.</a> [13] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48937007" target="_blank" class="news-link">Someone Used AI to Write an Unauthorized Biography of Me</a> [13] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6c19-b379-7aab-8dcf-6b9a0ffb8a1f" target="_blank" class="news-link">Ukrainian parliament approves new cabinet list</a> [14] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135215" target="_blank" class="news-link">美国达拉斯联储主席Lorie Logan（2026年FOMC票委）：即使油价维持高位，天然气输送能力等限制因素也可能阻碍生产商提高产量。 石油出口的增加主要来自库存的释放，而非新增产量。 即使采用最保守的估算，数据中心需求带来的电价上涨也很可能成为另一个温和通胀压力的来源。 对人工智能带来的长期生产力提升持非常乐观的态度。 目前对人工智能的投资需求是巨大且真实的，并已在短期内产生了通胀效应。</a> [14]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260717015506006800" target="_blank" class="news-link">美联储洛根：人工智能生产率提升的规模和时间仍存在不确定性。</a> [14] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6c19-b14b-7aab-8dcf-63d0073c8c45" target="_blank" class="news-link">Federal Reserve&#x27;s Logan said the goal should be to build an efficient, effective balance sheet, not to pursue balance-sheet size for its own sake.</a> [15] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6c19-a0af-7aab-8dcf-5a25c2ee0d8b" target="_blank" class="news-link">Fed&#x27;s LOGAN said current wage levels are not creating inf pressure.</a> [16] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6c13-5965-7aab-8dcf-49dc5f475bb7" target="_blank" class="news-link">The Fed&#x27;s Logan said Fed chair Kevin Warsh, like former chair Powell, has shown deep dedication to the Federal Reserve.</a> [18] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135211" target="_blank" class="news-link">欧盟要求谷歌开放安卓AI功能并共享搜索数据</a> [18] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6c12-a4d1-7aab-8dcf-45397675e488" target="_blank" class="news-link">Iranian Fars News reported Jordan’s foreign minister said the United States has no military bases in Jordan but does have US personnel stationed there as part of Jordan‑Washington military cooperation.</a> [19] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260717014855807800" target="_blank" class="news-link">美联储洛根：长期来看对人工智能带来的生产率提升非常乐观。但目前AI投资需求强劲且真实存在，短期内会带来通胀压力。</a> [19] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2573340" target="_blank" class="news-link">披着AI外衣的现实短片</a> [22] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6c0f-8037-7aab-8dcf-1e6116fd1267" target="_blank" class="news-link">Federal Reserve official Logan said immigration restrictions are putting the Texas labor market under pressure and are a cause for concern.</a> [24] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6c0e-4594-7aab-8dcf-1543db6aa3b8" target="_blank" class="news-link">White House says 20 warships and two aircraft carriers are participating in a blockade.</a> [25] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6c0c-c73c-7aab-8dcf-0ff71faeb6c6" target="_blank" class="news-link">White House says the blockade of the Strait of Hormuz is fully in effect.</a> [26] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6c0a-c7b2-7aab-8dce-f51431db7a3d" target="_blank" class="news-link">White House says President Trump remains willing to engage in diplomatic talks.</a> [29] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7661888962445803570" target="_blank" class="news-link">别再用AI debug了——这5种bug越修越烂</a> [30] <font color='grey'>- 02时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">6</td>
+                <td class="percentage">3.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135230" target="_blank" class="news-link">谷歌A跌幅扩大至2.7%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260717021710042800" target="_blank" class="news-link">谷歌Gemini 3.5 Pro交付进度落后计划数月，因技术能力未达预期目标</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6c31-5515-7aab-8dcf-ad517d1e2d46" target="_blank" class="news-link">Google (GOOG.O) shares fell nearly 3% intraday after reports the company delayed the launch of Gemini 3.5 Pro.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135223" target="_blank" class="news-link">报道：谷歌Gemini旗舰模型发布推迟，技术能力未达预期目标</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6c25-c11a-7aab-8dcf-86ebfc15fc20" target="_blank" class="news-link">Google delays GEMINI 3.5 Pro release as model lags months behind schedule</a> [11] <font color='grey'>- 02时42分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOGL" target="_blank" class="news-link">谷歌A</a> [21] <font color='grey'>- 02时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
