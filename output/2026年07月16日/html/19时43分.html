@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 364</p><p>生成时间: 2026-07-16 19:43:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">30</td>
+                <td class="percentage">8.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6ab7-f3d5-7aab-8dc6-8717c4e72ed9" target="_blank" class="news-link">IEA Executive Director Birol said oil inventories have fallen, but the global economy has not yet overcome risks.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135046" target="_blank" class="news-link">MiniMax将携M3、H3等全模态模型及产品亮相世界人工智能大会</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6ab7-6cb2-7aab-8dc6-7bdfea8b3554" target="_blank" class="news-link">General Electric says it has not seen higher oil prices accelerate retirements of older aircraft.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6ab7-3b60-7aab-8dc6-74c3cf142198" target="_blank" class="news-link">General Electric said deliveries of widebody engines rose 30% YoY in the second quarter.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135043" target="_blank" class="news-link">Meta：将利用Meta AI在青少年讨论自残话题时向家长发出警报。 警报功能现已在美、英、澳、加上线。 年底前将向全球推出该警报功能。 就青少年安全功能向超过75位心理健康临床医生征求了反馈意见。 正在构建联系紧急服务的能力。</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48931588" target="_blank" class="news-link">Where are YC founders now? OpenAI and Anthropic, mostly</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/albato?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Albato AI</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202607/1676585.html" target="_blank" class="news-link">东莞书法作品被曝用AI生成 官方称已从获奖名单中撤除</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260716190855900800" target="_blank" class="news-link">MiniMax将携M3、H3等全模态模型及产品亮相世界人工智能大会</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/PrismML-Eng/Bonsai-demo" target="_blank" class="news-link">PrismML-Eng / Bonsai-demo</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/manta-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Manta AI</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135034" target="_blank" class="news-link">习近平和彭丽媛为出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式的国际贵宾举行欢迎宴会。（央视）</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6ab1-8734-7aab-8dc6-41a53e56b3c7" target="_blank" class="news-link">UK to provide €300 million and, in partnership with Sweden, supply 16 advanced aircraft to Ukraine to bolster its defence, Prime Minister Starmer announced.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6ab0-0458-7aab-8dc6-3573bd002fa2" target="_blank" class="news-link">A Russian security official said U.S. actions targeting Iran and Venezuela are aimed at controlling the energy market.</a> [11] <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135027" target="_blank" class="news-link">礼来将以每股6.75美元现金加CVR收购AtaiBeckley</a> [11] <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5270473" target="_blank" class="news-link">美图秀秀、Airbrush稳居Sensor Tower出海收入Top 20</a> [11] <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/907280244183232512" target="_blank" class="news-link">AI岗面试，真别上来就背八股</a> [12] <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4177575_103_1" target="_blank" class="news-link">中国国家主席习近平和夫人彭丽媛在上海世界会客厅举行宴会，欢迎来华出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式的国际贵宾。</a> [14] <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260716185501354800" target="_blank" class="news-link">习近平和彭丽媛为出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式的国际贵宾举行欢迎宴会</a> [15] <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/907317813856038912" target="_blank" class="news-link">AI岗位高频面试题整理：Agent基础知识面</a> [18] <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6a9f-71c8-7aab-8dc5-f74bf139afe8" target="_blank" class="news-link">Turkey&#x27;s foreign minister said Turkey is willing to assume the naval component of Ukraine&#x27;s security guarantees as part of a potential peace agreement.</a> [19] <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6a9b-234b-7aab-8dc5-e030c0b7fa83" target="_blank" class="news-link">IRGC says Iran will continue to resist U.S. interference in the region and maintain control of the Strait of Hormuz despite ongoing U.S. aggression.</a> [21] <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135007" target="_blank" class="news-link">月之暗面将在未来几天推出人工智能模型Kimi K3。（英国金融时报）</a> [21] <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6a99-653c-7aab-8dc5-d825257f11fb" target="_blank" class="news-link">Kuwait military says its air-defence system is currently responding to enemy drone attacks it attributes to Iranian aggression. Any explosion sounds are from the air-defence system intercepting those attacks.</a> [22] <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6a93-895b-7aab-8dc5-ce0bc4372f2b" target="_blank" class="news-link">Moldova plans to raise natural gas prices, prompting the opposition to prepare protests.</a> [24] <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6a93-0776-7aab-8dc5-c2d516cc964f" target="_blank" class="news-link">Kuwait Foreign Ministry said it holds Iran responsible for attacks on Kuwait and other Gulf Cooperation Council states and that continued provocations are escalating tensions.</a> [25] <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6a90-f9ee-7aab-8dc5-bcc15aa19465" target="_blank" class="news-link">CHINA hosts dinner for international guests at 2026 World Artificial Intelligence Conference in Shanghai</a> [26] <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/627.htm" target="_blank" class="news-link">因谷歌与美国防部达成 AI 合作，DeepMind 一研究员选择辞职</a> [28] <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6a85-b8b7-7aab-8dc5-9c8b746a1733" target="_blank" class="news-link">An Iranian army spokesman said Iran would take unexpected countermeasures if the US president continues to pursue adventurous, malicious policies that violate unilateral agreements.</a> [30] <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7661888962445803570" target="_blank" class="news-link">别再用AI debug了——这5种bug越修越烂</a> [30] <font color='grey'>- 19时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777116" target="_blank" class="news-link">梁文锋重仓打新，万亿长鑫被抢疯了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时43分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7663049647610400299/" target="_blank" class="news-link">梁文锋打新长鑫科技</a> [11] <font color='grey'>- 19时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1227821" target="_blank" class="news-link">Claude Code 用了几个月， 14 个仓库攒下 317 个它留下的 markdown，我写了个工具帮我</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/977/691.htm" target="_blank" class="news-link">被罚 75 万欧元上诉失败，欧盟法院判定谷歌需为 YouTube 赌博广告担责</a> [21] <font color='grey'>- 19时43分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
