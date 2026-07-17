@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 295</p><p>生成时间: 2026-07-17 22:13:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">20</td>
+                <td class="percentage">6.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33604314" target="_blank" class="news-link">详讯丨习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/978/308.htm" target="_blank" class="news-link">GDDR7 显存太贵：RTX 50 SUPER 被曝已交付 AIB，但英伟达要求暂缓发售</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/978/307.htm" target="_blank" class="news-link">国家超算互联网招募科学智能体开发者，可享受全国首个十万卡 AI 超集群算力</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-17/%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%B0%86%E9%A6%96%E6%AC%A1%E5%87%BA%E5%B8%AD2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%BC%80%E5%B9%95%E5%BC%8F-9ccbe5" target="_blank" class="news-link">习近平出席世界人工智能大会宣布成立全球AI合作组织</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2575352" target="_blank" class="news-link">2026世界人工智能大会亮点速览</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1228106" target="_blank" class="news-link">AI + garlic 自动化逆向 Android App</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2429875" target="_blank" class="news-link">纳指期货盘前跌近2% AI支出担忧重创市场情绪 | 今夜看点</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48946303" target="_blank" class="news-link">Apple targets dozens of OpenAI employees with legal letters</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f704d-24c0-7aab-8de6-4925c177506a" target="_blank" class="news-link">Ukrainian military said it struck a refinery in Russia&#x27;s Yaroslavl region and hit two Russian oil tankers in the Black Sea.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48946692" target="_blank" class="news-link">VulnHunter: Capital One&#x27;s agentic AI code security tool</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-17/2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%9C%A8%E4%B8%8A%E6%B5%B7%E5%BC%80%E5%B9%95-0f1d96" target="_blank" class="news-link">2026世界人工智能大会上海开幕展示超300款首发产品</a> [11] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/978/292.htm" target="_blank" class="news-link">类似 Anthropic Mythos 模型：消息称微软正开发 AI 漏洞检测工具，最快 7 月发布</a> [13] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135731" target="_blank" class="news-link">周鸿祎：AI竞争进入拼落地、拼安全阶段</a> [14] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/978/291.htm" target="_blank" class="news-link">抖音严打 AI 虚假灾害画面，发布防汛期涉灾信息治理公告</a> [14] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/978/290.htm" target="_blank" class="news-link">OpenAI 奥尔特曼调侃 Anthropic 最新广告：我还以为这是讽刺短片</a> [15] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f7045-df6b-7aab-8de6-0782297a5499" target="_blank" class="news-link">Alumina 2701 futures briefly hit the daily upper limit intraday before reversing; they are now down 0.29% at 2,765 yuan/ton.</a> [17] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33593577" target="_blank" class="news-link">AI，刻在Shanghai的名字里</a> [19] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f7042-399e-7aab-8de5-f77f89f1f679" target="_blank" class="news-link">Kweichow Moutai said it will raise the iMoutai platform retail price for Feitian 53% vol 500ml Kweichow Moutai (2026) to 1,639 yuan per bottle from 1,539 yuan, and the sales contract price to 1,369 yuan from 1,269 yuan, effective 00:00 on July 18, 2026.</a> [19] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f703f-36dd-7aab-8de5-eff38008d813" target="_blank" class="news-link">Sources: Pakistan in talks with Kuwait to expand defense pact</a> [20] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f703b-27e6-7aab-8de5-e4fb30905bb9" target="_blank" class="news-link">Sources say Pakistan is negotiating with Kuwait on an expanded defence agreement in exchange for energy cooperation. Talks are at a preliminary stage and have not been finalised.</a> [21] <font color='grey'>- 22时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.34%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1228104" target="_blank" class="news-link">Kimi k3， gpt5.6， gemini3.1 生成的单页面哪个好看</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.34%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777230" target="_blank" class="news-link">Kimi K3再掀“DeepSeek时刻”？高盛警告：&quot;算力扩张时代&quot;或已走到尽头</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.34%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2429746" target="_blank" class="news-link">南向资金追踪｜本周累计净买入约370亿港元 加仓阿里巴巴及网易抛售建滔积层板</a> [11] <font color='grey'>- 22时13分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
