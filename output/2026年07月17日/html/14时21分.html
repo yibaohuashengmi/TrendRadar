@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 318</p><p>生成时间: 2026-07-17 14:21:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">43</td>
+                <td class="percentage">13.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135505" target="_blank" class="news-link">2026世界人工智能大会暨人工智能全球治理高级别会议主席声明（全文）发布</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8upHX3E0KP3" target="_blank" class="news-link">高志凯：要对美国“人工智能霸凌”说“不”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/978/030.htm" target="_blank" class="news-link">《人工智能合作发展行动计划》《国际人工智能伦理治理行动计划》在上海发布</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6eb2-eea8-7aab-8ddb-db71dabaa9f4" target="_blank" class="news-link">KATAYAMA, Japan&#x27;s finance minister, said the government will seek to avoid creating market misunderstandings about the stance of fiscal and monetary policy.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-17/%E8%8B%B1%E4%BC%9F%E8%BE%BE%E4%B8%8E%E6%97%A5%E4%BC%81%E5%90%88%E4%BD%9C%E5%BB%BA%E8%AE%BE%E5%9B%BD%E5%AE%B6%E7%BA%A7%E5%AE%9E%E4%BD%93ai%E7%AE%97%E5%8A%9B%E5%B7%A5%E5%8E%82-d788b7" target="_blank" class="news-link">黄仁勋宣布英伟达与44家日企共建国家级AI算力工厂</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777165" target="_blank" class="news-link">沪指跌破3800点，电力银行逆势拉升，医药芯片深度回调，恒科指跌近5%，AI大模型双雄齐跌、智谱跌近30%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2429309" target="_blank" class="news-link">习近平宣布中国支持全球人工智能发展重大举措</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/978/028.htm" target="_blank" class="news-link">AMD 酝酿 Ryzen AI MAX PRO 400 系列处理器，支持 ROCm 7.14</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/17/1fb5e9edcef448b6b079b1b2e44ba752.html" target="_blank" class="news-link">谷歌AI模型被控侵犯图书版权</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6eb2-5673-7aab-8ddb-d02c232b6616" target="_blank" class="news-link">KATAYAMA, Japan&#x27;s finance minister, said the government is closely monitoring daily market moves and economic data and will work to steadily reduce Japan&#x27;s debt-to-GDP ratio.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6eb2-3b00-7aab-8ddb-ce6893fb66bf" target="_blank" class="news-link">China&#x27;s three major A-share indexes briefly recovered; the Shanghai Composite&#x27;s decline narrowed to below 2%, the Shenzhen Composite&#x27;s to about 4%, and the ChiNext Index was down 4.76%.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1227980" target="_blank" class="news-link">给 AI 研究人员提个醒，做高度兴趣内容推荐，可能一开始方式就错了！</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6eb2-3028-7aab-8ddb-c2c0ed2e4f48" target="_blank" class="news-link">Japan&#x27;s finance minister Katayama said she will not comment on the exact wording of the forthcoming economic blueprint, which is currently being finalized with the ruling coalition.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777176" target="_blank" class="news-link">国家发改委发布《人工智能合作发展行动计划》，推动智能算力普惠、开源生态共享</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2429332" target="_blank" class="news-link">国家发改委发布《人工智能合作发展行动计划》</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6eb0-b87e-7aab-8ddb-bc9b69fb52aa" target="_blank" class="news-link">Japan&#x27;s finance minister Katayama said monetary policy is decided by the Bank of Japan.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-17/%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%B0%86%E9%A6%96%E6%AC%A1%E5%87%BA%E5%B8%AD2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%BC%80%E5%B9%95%E5%BC%8F-9ccbe5" target="_blank" class="news-link">习近平出席世界人工智能大会宣布全球AI合作举措</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1227975" target="_blank" class="news-link">ai 时代移植代码就是块</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6eaf-d76c-7aab-8ddb-b4026c089ace" target="_blank" class="news-link">Japan&#x27;s finance minister Katayama said interest-rate movements should be decided by the market.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777174" target="_blank" class="news-link">习近平宣布中国支持全球人工智能发展重大举措</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5270693" target="_blank" class="news-link">浙商证券：恒科下半年转向盈利兑现，联想AI服务器打开第二增长曲线</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/978/022.htm" target="_blank" class="news-link">谷歌 Google Vids 新增数字分身功能：你也可以自导自演“AI 大片”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3776634" target="_blank" class="news-link">CDU液冷泵:一场由AI机柜功率推动的产业升级，能否演绎“量价齐升”的成长叙事？</a> [11] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/parker/campaign/2058682220576035800?zh_hide_nav_bar=true" target="_blank" class="news-link">知乎 2026 年 Tech Club 大会与 WAIC 世界人工智能大会同期落地，有什么新看点？</a> [15] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48942721" target="_blank" class="news-link">UIUC AI Teaching Assistant</a> [15] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135478" target="_blank" class="news-link">世界人工智能大会期间国家发展改革委发布2项重要成果</a> [18] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260717134134844800" target="_blank" class="news-link">《国际人工智能伦理治理行动计划》发布</a> [18] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6e9b-3056-7aab-8ddb-5992afb19d24" target="_blank" class="news-link">Ukraine&#x27;s drone force commander said Ukrainian drones have struck 12 Russian vessels in the Black Sea.</a> [19] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33601397" target="_blank" class="news-link">玉渊谭天丨中国AI的发展逻辑</a> [20] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135476" target="_blank" class="news-link">国家发改委发布《人工智能合作发展行动计划》。</a> [20] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/978/008.htm" target="_blank" class="news-link">AI 新路径：全球最大纳米级磁振荡器同步网络验证，45 纳秒同步 10.5 万个振荡器</a> [20] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/978/007.htm" target="_blank" class="news-link">新研究警告：欧盟 AI“护栏”机制过于僵化，难以适应技术变革</a> [21] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6e98-e4fe-7aab-8ddb-4786d0eb9d49" target="_blank" class="news-link">Iranian state media reported the Islamic Revolutionary Guard Corps (IRGC) said a U.S. maritime surveillance radar in Oman has become a target for strikes.</a> [22] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6e98-6f7d-7aab-8ddb-380428ac4287" target="_blank" class="news-link">China issues International AI Ethics Governance Action Plan</a> [23] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6e96-9e4f-7aab-8ddb-3026963dbd8b" target="_blank" class="news-link">China&#x27;s ChiNext Index fell 7.48% intraday, the Shenzhen Composite Index dropped 5.65%, and the Shanghai Composite Index declined 3%.</a> [24] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7662627075258990618" target="_blank" class="news-link">前端必知必会：AI 流式输出（Streaming）原理与 Vue 3 实战 🚀</a> [24] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E8%B6%85%E5%85%A8%E6%94%BB%E7%95%A5" target="_blank" class="news-link">世界人工智能大会超全攻略</a> [25] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6e96-494e-7aab-8ddb-21161b06022c" target="_blank" class="news-link">Japan ruling party proposes tighter shareholder rights, raises threshold for extraordinary meetings</a> [26] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2574489" target="_blank" class="news-link">世界人工智能大会今日开幕</a> [27] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7662325201880023074" target="_blank" class="news-link">玩Android×AI Coding：从产品到代码，完整跑通一套 AI 软件研发工作流</a> [27] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4179136_1_1" target="_blank" class="news-link">印度央行行长：人工智能带来了与网络安全和数据隐私相关的风险。</a> [28] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7662277847504568370" target="_blank" class="news-link">别再自己拼凑了！这款 Vue 3.5+ 严肃产品级组件库，把 AI 对话、工作流和复杂数据全包了！</a> [28] <font color='grey'>- 14时21分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6e93-2d67-7aab-8ddb-0c9f58e028fa" target="_blank" class="news-link">Taiwan Stock Exchange Weighted Index (TAIEX) closed down 2,953.71 points, or 6.47%, at 42,671.27 on Friday, July 17. TSMC fell 7.29%.</a> [29] <font color='grey'>- 14时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1227984" target="_blank" class="news-link">美国大豆包的 google one 白嫖的正式挂了</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/978/019.htm" target="_blank" class="news-link">华为昇腾 950 超节点真机首次公开亮相，昇腾 384 超节点已商用落地 750 多套</a> [11] <font color='grey'>- 14时21分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
