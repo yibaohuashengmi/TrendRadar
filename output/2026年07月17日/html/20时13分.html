@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 262</p><p>生成时间: 2026-07-17 20:13:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">30</td>
+                <td class="percentage">11.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6fe4-2e07-7aab-8de3-577e92c6e109" target="_blank" class="news-link">CSRC holds cross-department training on comprehensive anti-fraud enforcement</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48946010" target="_blank" class="news-link">Blatant AI slop just won a 25k USD DeepMind Kaggle Grand Prize</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6fdb-b613-7aab-8de3-4aedcfcf2a91" target="_blank" class="news-link">Borsa Istanbul said it will apply an up-tick rule to short sales for the remainder of the trading day.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/pebbles-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Pebbles Ai</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-17/2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%9C%A8%E4%B8%8A%E6%B5%B7%E5%BC%80%E5%B9%95-0f1d96" target="_blank" class="news-link">2026世界人工智能大会上海开幕聚焦具身智能与国产算力</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/HenryNdubuaku/maths-cs-ai-compendium" target="_blank" class="news-link">HenryNdubuaku / maths-cs-ai-compendium</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6fd7-95cb-7aab-8de3-2f09fcc6375a" target="_blank" class="news-link">Reserve Bank of India said foreign exchange reserves were $675.16 bln as of July 10, up from $674.19 bln a week earlier.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6fd7-5f88-7aab-8de3-23e8d77b774a" target="_blank" class="news-link">UK Labour leader Burnham said if there is not sufficient public control over the cost of essential goods, it will be impossible to control inflation.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/978/277.htm" target="_blank" class="news-link">苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6fd1-af7d-7aab-8de3-1a16c2de8463" target="_blank" class="news-link">UK Labour leader Burnham said he has not yet decided on his cabinet appointments.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/978/276.htm" target="_blank" class="news-link">人工智能终端智能化分级首批测试结果公布，涉及手机、电脑、眼镜、电视、汽车座舱等</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2059240244864611894" target="_blank" class="news-link">今年的世界人工智能大会（WAIC）有哪些看点？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33604737" target="_blank" class="news-link">大瓦特·让每一度电都有AI</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202607/1776651.html" target="_blank" class="news-link">华为首度展出最强AI晶片集群 算力是英伟达同级别系统6.7倍</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33603374" target="_blank" class="news-link">一图世界｜外媒渲染“陷阱”，开源和闭源AI究竟有什么区别？</a> [11] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/978/270.htm" target="_blank" class="news-link">零刻发布 ME Pro 370 两盘位 / 四盘位 NAS 型迷你主机：AI 9 HX 370 处理器，3999 元起</a> [12] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/RyanCodrai/turbovec" target="_blank" class="news-link">RyanCodrai / turbovec</a> [12]</div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/isvisible-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">isvisible.ai?</a> [13] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ph-daily-top-50?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">PH Daily Top 50</a> [14] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6fc7-946d-7aab-8de2-e12351d105a1" target="_blank" class="news-link">CPIA seeks experts for space photovoltaic research</a> [15] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6fc4-1f0b-7aab-8de2-d3079c4f3f15" target="_blank" class="news-link">BMO raises ALPHABET (GOOG.O) target price to $455 from $435.</a> [17] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6fc0-b635-7aab-8de2-cabfd377c427" target="_blank" class="news-link">Kuwait&#x27;s foreign ministry said Iran&#x27;s attack on a power plant violated sovereignty and warned continued such aggressive actions would be a serious escalation.</a> [18] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6fc0-7ed1-7aab-8de2-c205ccb6e84c" target="_blank" class="news-link">Iran&#x27;s Islamic Revolutionary Guard Corps (IRGC) said attacks on civilians and non-civilian infrastructure would incur an extremely heavy and devastating price.</a> [19] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33598809" target="_blank" class="news-link">疑似AI篡改照片参加摄影赛被撤销入围奖，主办方：永久取消作者参赛资格</a> [20] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6fbf-a360-7aab-8de2-be952f66a6a4" target="_blank" class="news-link">Kuwait&#x27;s foreign ministry condemned Iran&#x27;s aggression targeting a power plant, saying it damaged generation units.</a> [20] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/engine-mail?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Engine Mail</a> [20] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6fbd-2f51-7aab-8de2-b578188441e8" target="_blank" class="news-link">Xiaomi Corporation (01810.HK) said its board will meet on 18 August 2026 to consider and approve unaudited consolidated interim results for the six months ended 30 June 2026 and to consider an interim dividend, if any.</a> [21] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6fbc-ccdb-7aab-8de2-9a0de1441f73" target="_blank" class="news-link">CITIGROUP: TSMC gross-margin outlook remains resilient</a> [24] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6fb5-f1b4-7aab-8de2-7a63bffed739" target="_blank" class="news-link">Mayor of Shaher, Iran, says repairs to damage from a U.S. strike are underway.</a> [28] <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f6fb5-c5de-7aab-8de2-75f416c62595" target="_blank" class="news-link">Ukrainian President Zelenskiy said Ukraine destroyed a Russian Tu-95 military aircraft at Engels airbase.</a> [29] <font color='grey'>- 20时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/unabyss?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Unabyss for Claude</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/anthropics/cwc-workshops" target="_blank" class="news-link">anthropics / cwc-workshops</a> <font color='red'><strong>[6]</strong></font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/978/284.htm" target="_blank" class="news-link">阿维塔 07L 大五座 SUV 预售 24.99 万元起：华为乾崑智驾 + 鸿蒙座舱，张凌赫代言</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260717193320296800" target="_blank" class="news-link">华为最新披露：昇腾超节点已商用落地逾750套</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时13分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
