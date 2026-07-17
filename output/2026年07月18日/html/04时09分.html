@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 145</p><p>生成时间: 2026-07-18 04:09:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">12.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f719f-571b-7aab-8deb-37e0999978df" target="_blank" class="news-link">IRNA reported Iran said it fired cruise missiles in the northern Indian Ocean at US naval vessels, launching the 13th phase of &quot;Operation Lightning&quot;.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f7195-cdbb-7aab-8deb-27eb8a82da83" target="_blank" class="news-link">US President Trump said June inflation data is &quot;major good news&quot; and that the United States is entering a &quot;golden age&quot;.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48947825" target="_blank" class="news-link">The state of open source AI</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f718c-bc85-7aab-8dea-ea29be127bb7" target="_blank" class="news-link">Trump said Canada has refused to carry out basic forest management and cleanup, and that the cost of the resulting pollution will be added to tariffs Canada currently pays.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f718c-4d40-7aab-8dea-e56bc5867ae3" target="_blank" class="news-link">President Trump said he will call ministers and Canadian Prime Minister Carney during the day to find out how they will respond to the wildfires.</a> [11] <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f718a-fbe7-7aab-8dea-da9302c55318" target="_blank" class="news-link">President Trump demanded that Canada be held accountable for inadequate forest maintenance.</a> [12] <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f7183-8eb4-7aab-8dea-c9aabf10348c" target="_blank" class="news-link">President Trump said he has invited Darline Graham to participate in the Republican special Senate primary on Aug. 11.</a> [14] <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718030935465800" target="_blank" class="news-link">据悉SpaceX正洽谈为美国防部的AI项目提供数十亿美元算力</a> [16] <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f717c-2957-7aab-8dea-b08891044252" target="_blank" class="news-link">SpaceX in talks to provide Pentagon with tens of billions of dollars of AI compute</a> [17] <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f717b-e5ec-7aab-8dea-a96774614988" target="_blank" class="news-link">An adviser to Iran&#x27;s supreme leader, Rezaei, said if U.S. attacks continue for several days Iran will move into a full-scale offensive operations phase.</a> [18] <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718030514730800" target="_blank" class="news-link">据华尔街日报：SpaceX(SPCX.O)正在洽谈为五角大楼的人工智能推进计划提供计算能力。</a> [19] <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f7178-0f1c-7aab-8dea-9ca39598c68a" target="_blank" class="news-link">Wall Street Journal reports SpaceX (SPCX.O) is in talks to provide computing capacity to the Pentagon&#x27;s AI acceleration program.</a> [20] <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f7177-abcf-7aab-8dea-92bf32965a1a" target="_blank" class="news-link">Iraq and Syria signed a memorandum of understanding to repair the Haditha-Baniyas oil pipeline, with Chevron (CVX.N) set to implement the project.</a> [21] <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f7176-b288-7aab-8dea-8f774710daa1" target="_blank" class="news-link">Advisor to Iran&#x27;s Supreme Leader Rezaei said if US forces occupy any location inside Iran, Tehran may enter an offensive phase of warfare rather than remain solely defensive.</a> [22] <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f7174-0a11-7aab-8dea-7ebeac0eeea9" target="_blank" class="news-link">Apple (AAPL.O) has raised subscription prices for Apple Music and Apple One.</a> [24] <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f7162-ea36-7aab-8dea-6e36325ee82f" target="_blank" class="news-link">US oil rigs rise for 12th straight week</a> [26] <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B3%95%E5%9B%BD%E5%8D%9A%E4%B8%BB%E5%9C%A8%E4%B8%8A%E6%B5%B7%E8%A2%ABAI%E9%9C%87%E6%92%BC" target="_blank" class="news-link">法国博主在上海被AI震撼</a> [27] <font color='grey'>- 04时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f715d-382b-7aab-8dea-602be7498181" target="_blank" class="news-link">Airstrike hits Iranian Kurdish opposition camp in Iraq&#x27;s Kurdistan Region</a> [27] <font color='grey'>- 04时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3135881" target="_blank" class="news-link">马斯克旗下太空探索公司SpaceX洽谈向美国五角大楼提供算力。 协议规模将小于与Anthropic和谷歌公司签署的协议。（华尔街日报）</a> <font color='red'><strong>[8]</strong></font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/c28b51b18cd3432e84c44c9152f6dbea" target="_blank" class="news-link">千问社招一面</a> [12] <font color='grey'>- 04时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
