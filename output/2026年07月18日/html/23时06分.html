@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 101</p><p>生成时间: 2026-07-18 23:06:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">10.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3136059" target="_blank" class="news-link">曦智科技全栈光电算力技术亮相WAIC 2026</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5271564" target="_blank" class="news-link">滴普科技2026用户大会｜达成多项战略合作签约，共同加速产业AI落地</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/978/592.htm" target="_blank" class="news-link">反对 AI 数据中心“不受控”快速扩张，全美至少 125 个地点将举行抗议活动</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f75a6-66ed-7aab-8df1-5c4b602f40b3" target="_blank" class="news-link">An Iranian security official warned, according to Fars News, that if the United States attacks Iranian infrastructure, Dubai and Abu Dhabi airports and the ports of Fujairah and Jebel Ali should prepare for evacuations.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f75a3-9112-7aab-8df1-52e72a1171fc" target="_blank" class="news-link">Pakistan&#x27;s foreign minister said parties must adhere to the memorandum of understanding and avoid escalating tensions.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-18/2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%9C%A8%E4%B8%8A%E6%B5%B7%E5%BC%80%E5%B9%95-0f1d96" target="_blank" class="news-link">2026世界人工智能大会聚焦具身智能与国产算力</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f759a-2676-7aab-8df1-408b78602a95" target="_blank" class="news-link">Yangtze Optical Fibre CEO says polarization‑maintaining fiber demand could rise 10x–20x in 1–2 years</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3136055" target="_blank" class="news-link">聚焦极端天气与城市灾害预警，“华雨GeoAI”大模型在WAIC首发</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f758f-f3ed-7aab-8df1-3cb5f3779a1a" target="_blank" class="news-link">According to the Wall Street Journal, Turkey plans to sell Russian air-defense systems and is seeking to procure U.S. F-35 fighters.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3136051" target="_blank" class="news-link">上海“星枢计划”首发星座在WAIC正式发布</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7663844768077581834/" target="_blank" class="news-link">世界人工智能大会：我们被机器人包围</a> [25] <font color='grey'>- 23时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1228271" target="_blank" class="news-link">[开源] 让人人用上 Claude Fable 5，基于多模型 MoA 编排</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718223420925800" target="_blank" class="news-link">据伊朗媒体Fars News：一名伊朗安全官员警告称，若美国对伊朗基础设施发动袭击，迪拜和阿布扎比的机场以及富查伊拉和杰贝阿里港应做好疏散准备。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
