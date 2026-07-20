@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 99</p><p>生成时间: 2026-07-21 06:03:47</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">12.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777498" target="_blank" class="news-link">比Rubin贵四成却拿下微软全栈订单？AMD产品周前用“定价权”重新定义AI芯片竞争</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时03分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48979269" target="_blank" class="news-link">China’s open-weights AI strategy is winning</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f816b-8b5d-7aab-8e15-4278236aa675" target="_blank" class="news-link">Kuwait&#x27;s military said its air-defense systems are currently intercepting Iranian missiles and drones.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8162-5485-7aab-8e15-318ccf6ff041" target="_blank" class="news-link">Trump said Canada imposes specific tariffs and quota limits on cars imported from the U.S., but has not applied similar measures to other countries.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777491" target="_blank" class="news-link">AI动量交易面临挑战，高盛：对冲基金过去两个月创纪录抛售美国科技股</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8157-adb9-7aab-8e15-27df49f1f2b3" target="_blank" class="news-link">White House says the United States will impose an additional 50% tariff on certain Canadian products, effective 19 August 2026 Eastern Time.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时03分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48977128" target="_blank" class="news-link">Who&#x27;s Afraid of Chinese Models?</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8153-c2c6-7aab-8e15-09042b587226" target="_blank" class="news-link">Market sources: ANTHROPIC has reached a $1.5 billion copyright settlement with a group of authors to end a class-action lawsuit alleging it trained its AI on millions of pirated books.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 06时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8141-a001-7aab-8e14-ec836608274a" target="_blank" class="news-link">IRNA reported Bushehr provincial governor said local air-defence systems have been activated to counter threats from hostile aircraft. No strikes or impacts have been reported in the Bushehr area so far.</a> [13] <font color='grey'>- 06时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260721045929468800" target="_blank" class="news-link">市场消息：Anthropic与作者团体达成15亿美元版权和解，以终结其因下载数百万本盗版书籍训练AI引发的集体诉讼。</a> [15] <font color='grey'>- 06时03分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48980238" target="_blank" class="news-link">Mythologizing AI makes it more likely that we’ll fail to operate it well (2023)</a> [27] <font color='grey'>- 06时03分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48978835" target="_blank" class="news-link">Firefox 153 available with support for Vulkan video decoding, JPEG-XL</a> [29] <font color='grey'>- 06时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3137091" target="_blank" class="news-link">法院批准1.22亿美元的律师费及成本，将支付给作家。 该交易是美国历史上最大的版权集体诉讼和解案。 Anthropic与作家15亿美元的版权和解协议获得批准。（彭博法律Blaw）</a> [12]</div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2061868472049652679" target="_blank" class="news-link">如何看待追光总裁称《三国第一部：争洛阳》以曹操为主角，是参考了 DeepSeek 的建议?</a> [15] <font color='grey'>- 06时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">1.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260721053811429800" target="_blank" class="news-link">据伊朗迈赫尔通讯社：位于科威特、驻有美军的阿里·萨利姆（Ali Salem）空军基地遭到了袭击。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
