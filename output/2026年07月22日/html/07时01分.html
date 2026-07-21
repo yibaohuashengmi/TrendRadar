@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 113</p><p>生成时间: 2026-07-22 07:01:56</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">15.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f86d6-be4b-7aab-8e33-26a7ad62262f" target="_blank" class="news-link">The Information reports Meta Platforms (META.O) is developing an OpenRouter rival through its AI incubator aimed at cutting encoding costs.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777600" target="_blank" class="news-link">OpenAI奥特曼将向美国官员介绍下一代AI模型，美国AI审查框架预计几周内完成</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/979/815.htm" target="_blank" class="news-link">破解人类限制：OpenAI 自曝 AI 模型“越狱”始末，突破沙盒环境入侵 Hugging Face</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f86d5-90e0-7aab-8e33-1a2dcc1112d3" target="_blank" class="news-link">US President Trump plans to visit Michigan next week for a campaign rally.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f86c6-38ad-7aab-8e33-09c0821941c5" target="_blank" class="news-link">White House plans to shift federal R&amp;D funding toward AI and individual scientists</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f86c4-4435-7aab-8e33-04da9e5e7ad2" target="_blank" class="news-link">U.S. lawmakers have asked the SEC to investigate Trump Media &amp; Technology Group (DJT.O) over plans to commercialize data access on Truth Social, Axios reported. Earlier reports said the company plans to launch a Truth API on Aug. 1 that would sell real-time access to public posts from the platform’s top-10 accounts.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722064209185800" target="_blank" class="news-link">据日经新闻：英伟达与纬创（Wistron）将在美国得克萨斯州生产Blackwell AI服务器。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722064010298800" target="_blank" class="news-link">据The Information：Meta Platforms(META.O)的AI孵化器正在开发OpenRouter的竞品，旨在降低编码成本。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4186057_1_1" target="_blank" class="news-link">据华尔街日报：官员透露，特朗普政府计划在联邦科学研究中降低对高校的侧重，转而强调人工智能。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f86a8-8f3f-7aab-8e32-e49aa47a89b6" target="_blank" class="news-link">Zelenskiy names Mykhailo Drapat as commander of Ukraine&#x27;s armed forces</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f86a5-9622-7aab-8e32-dea612a1c1ff" target="_blank" class="news-link">Brazilian miner Vale said Q2 iron-ore production was 84.30 mln t, versus Visible Alpha estimate 82.20 mln t. Q2 iron-ore shipments were 79.70 mln t, versus Visible Alpha 78.20 mln t.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722062234546800" target="_blank" class="news-link">白宫拟将数千亿美元科研资金向AI和个人科学家倾斜</a> [11] <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f86a0-1554-7aab-8e32-cc9bc8c048f6" target="_blank" class="news-link">Kuwait&#x27;s military says its air-defence system is currently intercepting Iranian drones.</a> [12] <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3137778" target="_blank" class="news-link">AI算力需求驱动+产品涨价，半导体产业链上半年业绩大面积预增</a> [12] <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f868d-6814-7aab-8e32-b0e026212019" target="_blank" class="news-link">Carney says Ottawa will consider full response if U.S. 50% tariffs on certain Canadian goods are enacted</a> [15] <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722060138158800" target="_blank" class="news-link">据华尔街日报：白宫将把数十亿美元的研究资金从高校转向人工智能领域，减少对高校的支持。</a> [15] <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722060041607800" target="_blank" class="news-link">据华尔街日报：官员透露，特朗普政府计划在联邦科学研究中降低对高校的侧重，转而强调人工智能。</a> [16] <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/909031504833961984" target="_blank" class="news-link">AI岗八股清单，自己整理的重点，仅供参考</a> [20] <font color='grey'>- 07时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">2.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48998404" target="_blank" class="news-link">&quot;Drawing&quot; the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777594" target="_blank" class="news-link">谷歌平价Gemini三箭齐发，网安模型对标Anthropic Mythos，旗舰3.5 Pro仍难产</a> [14] <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2061356466783642903" target="_blank" class="news-link">Kimi 新模型 K3 跑分力压 ClaudeFable5 登顶，这将对大模型市场格局产生哪些影响？</a> [14] <font color='grey'>- 07时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
