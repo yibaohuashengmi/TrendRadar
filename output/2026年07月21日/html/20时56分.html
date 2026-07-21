@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 280</p><p>生成时间: 2026-07-21 20:56:02</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">28</td>
+                <td class="percentage">10.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f84aa-3d66-7aab-8e29-33f73b8599b2" target="_blank" class="news-link">Samsung is launching an AI health assistant, entering the smart health market. The product will roll out as a beta in August.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260721203251115800" target="_blank" class="news-link">三星推出AI健康助手，进军智能健康市场。该产品将于8月以测试版形式上线。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84885" target="_blank" class="news-link">流行野生动物数据库发现 AI 生成的假图</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260721203030465800" target="_blank" class="news-link">微软(MSFT.O)同意在Mistral的欧洲计算基础设施上投资数十亿美元，以扩展欧洲的人工智能基础设施。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7664544012321426987/" target="_blank" class="news-link">世界人工智能大会达成丰硕成果</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3137592" target="_blank" class="news-link">微软与Mistral扩大AI合作，签署数十亿美元欧洲AI基础设施协议</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f84a2-f0e4-7aab-8e29-1693ac383d5d" target="_blank" class="news-link">Lebanese army said Israeli forces fired near its troops.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777570" target="_blank" class="news-link">AI硬件的下一个核心瓶颈在哪里?</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202607/2176955.html" target="_blank" class="news-link">【东谈西论】中美AI大比拼：拳击赛还是田径赛？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f84a0-6c14-7aab-8e28-fda822c4718e" target="_blank" class="news-link">U.S. Treasury Secretary Bessent said he believes the Senate is close to reaching consensus on the Clarity Act.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f849f-f17c-7aab-8e28-f03901197386" target="_blank" class="news-link">U.S. Treasury Secretary Bessent said he hopes the Clear Act will pass before Congress adjourns.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f849f-5fd0-7aab-8e28-e9ca3c1f13c3" target="_blank" class="news-link">U.S. Treasury Secretary Bessent, on government funding, said the U.S. does not need another shutdown.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-21/2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%9C%A8%E4%B8%8A%E6%B5%B7%E5%BC%80%E5%B9%95-0f1d96" target="_blank" class="news-link">2026世界人工智能大会在上海开幕展示超300款全球首发产品</a> [11] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f849e-90c8-7aab-8e28-df8644aae5ff" target="_blank" class="news-link">U.S. Treasury Secretary Bessent said the COVID-19 pandemic was a supply-chain stress test for great-power conflict.</a> [12] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f849e-37a1-7aab-8e28-d2c798ba518d" target="_blank" class="news-link">U.S. Treasury Secretary Bessent said Canada has severely discriminatory policies in dairy, alcohol and beverages.</a> [13] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3137575" target="_blank" class="news-link">美国财长贝森特：认为今年可通过支付系统改革节省3.5亿美元。 正在追踪阿亚图拉的财产，希望能显示地址。 已听闻关于开源AI模型威胁美国的讨论。 美国支持开源AI模型，但反对侵犯知识产权。</a> [13]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f849d-e05f-7aab-8e28-c9c3a724d3fd" target="_blank" class="news-link">U.S. Treasury Secretary Bessent on Canada trade said it is just reciprocity.</a> [14] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f849d-4b4b-7aab-8e28-c163a6433013" target="_blank" class="news-link">REUTERS SURVEY: 78 of 104 economists expect the Fed to hold the federal funds rate at 3.50%-3.75% through 2026; last month 78 of 102 said the same.</a> [15] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/langchain-ai/open_deep_research" target="_blank" class="news-link">langchain-ai / open_deep_research</a> [15]</div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4185211_212_1" target="_blank" class="news-link">贝森特：已有言论称开源人工智能模型对美国构成威胁。</a> [17] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f849c-87e5-7aab-8e28-a8183da31e80" target="_blank" class="news-link">U.S. Treasury Secretary Bessent said the U.S. government seeks to create market signals by holding equity stakes in companies.</a> [18] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f849b-bebc-7aab-8e28-a09c1c71bea5" target="_blank" class="news-link">Shanghai Stock Exchange website shows Nanjing Shihe Gene Biotechnology Co., Ltd.&#x27;s STAR Market IPO review status changed to &#x27;inquired&#x27;.</a> [19] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/dottxt-ai/outlines" target="_blank" class="news-link">dottxt-ai / outlines</a> [20]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f849a-f969-7aab-8e28-8bab8a5b0270" target="_blank" class="news-link">US Treasury Secretary Bessent said 3% growth for the US economy would not be unreasonable.</a> [22] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f849a-7b16-7aab-8e28-849e547303ce" target="_blank" class="news-link">US Treasury Secretary Bessent said US economic fundamentals are very strong and core inflation is stable.</a> [23] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8498-7fad-7aab-8e28-69110ffa837f" target="_blank" class="news-link">U.S. Treasury Secretary BESSENT said he is beginning to see the emergence of U.S. open-source models.</a> [26] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8497-c0a6-7aab-8e28-61dff2137767" target="_blank" class="news-link">GM &lt;GM.N&gt; CFO said higher gasoline prices have not affected sales.</a> [27] <font color='grey'>- 20时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8494-95bc-7aab-8e28-58b9173a62e3" target="_blank" class="news-link">U.S. Treasury Secretary Bessent said the U.S. supports open-source AI models but opposes intellectual property theft.</a> [28] <font color='grey'>- 20时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/979/761.htm" target="_blank" class="news-link">岚图泰山 X8 EV 车型到店：搭载华为乾崑全新四激光雷达，33.99 万元起</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/979/756.htm" target="_blank" class="news-link">阿里千问 Qwen3.8-Max-Preview 最新版本已上线，前端表现获提升</a> [13] <font color='grey'>- 20时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
