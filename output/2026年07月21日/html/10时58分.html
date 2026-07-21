@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 420</p><p>生成时间: 2026-07-21 10:58:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">44</td>
+                <td class="percentage">10.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/bojieli/ai-agent-book" target="_blank" class="news-link">bojieli / ai-agent-book</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48977128" target="_blank" class="news-link">Who&#x27;s afraid of Chinese models?</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1228744" target="_blank" class="news-link">我用 Vibe Coding 搓了个 AI 学习教练，专门拿来背八股文</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202607/2176895.html" target="_blank" class="news-link">中国智谱AI据报建成仅配备国产晶片大型数据中心</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8285-54e7-7aab-8e19-d978cc7f80c6" target="_blank" class="news-link">China&#x27;s CSI 500 index futures main contract (IC) rose 3.00% intraday to 7,429.2 points.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-21/%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%B0%86%E9%A6%96%E6%AC%A1%E5%87%BA%E5%B8%AD2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%BC%80%E5%B9%95%E5%BC%8F-9ccbe5" target="_blank" class="news-link">习近平出席世界人工智能大会宣布成立全球AI合作组织</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8284-1955-7aab-8e19-d1d8f507fb03" target="_blank" class="news-link">Prime Minister Takaichi said she will, based on fiscal sustainability, appropriately guide economic and fiscal policy to preserve market confidence.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2432010" target="_blank" class="news-link">超节点、超集群、TPU方案涌现 算力“拼系统”时代产业最关心Token性价比|WAIC观察</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=OpenAI%E9%AB%98%E7%AE%A1%E7%82%AE%E8%BD%B0Kimi" target="_blank" class="news-link">OpenAI高管炮轰Kimi</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f827e-0463-7aab-8e19-c41c93a0c516" target="_blank" class="news-link">Shenzhen Composite Index turned positive; component stocks Shenzhou Information and Jiu&#x27;an Medical both hit the daily price limit.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2431896" target="_blank" class="news-link">谷歌被曝正打造新型AI服务器芯片 目标大幅提升Gemini运行效率</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5272476" target="_blank" class="news-link">全球资金继续布局AI 联想集团受益于算力需求增长</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8275-4b9c-7aab-8e19-b10baab41b79" target="_blank" class="news-link">Shanghai 1H foreign trade 2.55 tln yuan, +18.6% YoY</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2062575282591209175" target="_blank" class="news-link">OpenAI 负责人称 Kimi 开源是减速主义，他的说法有道理吗？开源对 AI 的发展能带来什么？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/908845403330609152" target="_blank" class="news-link">27届秋招：大厂想要招什么样的AI人才</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777512" target="_blank" class="news-link">Iren、Hut、Nebius全线大涨，英伟达带头砸钱，科技巨头大单涌向“AI云”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5272474" target="_blank" class="news-link">摩根士丹利：AI需求向整机扩散，联想集团迎服务器升级机遇</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1228729" target="_blank" class="news-link">让 AI 玩 2048，会一直玩下去么？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8273-6c27-7aab-8e19-a6dd56429e0e" target="_blank" class="news-link">China aims to raise main framework completion of national comprehensive multi‑modal transport network to 95% in 15th Five‑Year Plan period</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8273-202d-7aab-8e19-9da9eb2ca169" target="_blank" class="news-link">A-share power stocks bounced; Lixin New Energy hit the daily limit, Huayin Power rose over 6%, and Huadian Liaoning, Shenergy, Jinkai New Energy, Datang Power and Huadian Energy also advanced. The State Council executive meeting called to systematically advance planning and construction of the &quot;six networks&quot;, accelerate implementation by locality and industry, and strengthen funding and factor support to ensure major infrastructure networks are built.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-07-20/2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E5%9C%A8%E4%B8%8A%E6%B5%B7%E5%BC%80%E5%B9%95-0f1d96" target="_blank" class="news-link">2026世界人工智能大会上海开幕 意向采购额超200亿元</a> [11] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8271-39e4-7aab-8e19-8b0164a100b2" target="_blank" class="news-link">China&#x27;s ChiNext Index fell more than 2% and the STAR 50 Index slid over 3% as semiconductor names plunged on the A-share market. Component moves: Yuanjie Technology fell over 14%; Shengyi Electronics and Baiwei Storage each dropped more than 9%.</a> [12] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5272470" target="_blank" class="news-link">美股异动｜AI云端服务商Nebius夜盘涨4.6%，英伟达披露持有9.3%股权</a> [12] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8270-ffd3-7aab-8e19-87f2452e6177" target="_blank" class="news-link">China CSI 1000 index futures (IM) main contract down 2.00% intraday, trading at 6,643.4 points.</a> [13] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/cac001dda34b4b14baa64388a93d85e3" target="_blank" class="news-link">#AI薪资#谁在说学历没用？？？？</a> [16] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202607/2176880.html" target="_blank" class="news-link">加芙列拉·拉莫斯、埃米利娅·杜赫：在为时已晚前落实人工智能护栏</a> [17] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f826e-eb8b-7aab-8e19-61f0e2e57bd3" target="_blank" class="news-link">A-share aviation and airport sector firmed; Juneyao Airlines rose over 3%. Baiyun Airport, Shanghai Airport, Spring Airlines, China Eastern Airlines, Air China and China Southern Airlines also advanced.</a> [17] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/979/318.htm" target="_blank" class="news-link">小米 REDMI 儿童手表 Pro 开售：支持无网络定位、AI 楼层识别，国补价 888.25 元起</a> [17] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1228700" target="_blank" class="news-link">Code is cheap. Show me the prompt.｜探索 AI 时代的新协作方式， Startwork 开放内测</a> [17] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33622414" target="_blank" class="news-link">专访UCL教授：AI正抽走职业梯子的最底层，大学必须补上这一环</a> [18] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202607/2176879.html" target="_blank" class="news-link">陈柏珲：关注AI虚拟伴侣侵入未成年领域</a> [18] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f826d-f77f-7aab-8e19-5fddde7fa9dd" target="_blank" class="news-link">Iran says it struck US HIMARS at Kuwait Arifjan base</a> [18] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/908776945456775168" target="_blank" class="news-link">实战版-后端转AI应用开发学习路线</a> [19] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f826b-5354-7aab-8e19-4653852f16cf" target="_blank" class="news-link">Goldman Sachs said Brent crude could exceed $120/bbl in Q4 2026 if disruption in the Strait of Hormuz persists.</a> [21] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f826a-ffa1-7aab-8e19-387dd1566cc6" target="_blank" class="news-link">Goldman Sachs says the risk of renewed escalation in the Middle East raises upside risk to its Q4 2026 Brent and WTI forecasts of $80/bl and $75/bl, respectively.</a> [22] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f826a-4fe3-7aab-8e19-37ef45bc2a23" target="_blank" class="news-link">India&#x27;s Prime Minister Modi congratulated Andy Burnham on becoming UK prime minister and said the India-UK Comprehensive Economic and Trade Agreement, which takes effect this month, will further strengthen bilateral ties.</a> [23] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/979/311.htm" target="_blank" class="news-link">导演陆川称 AI 生成像预制菜，自己正利用 AI 同时推进五部电影筹备</a> [23] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8269-a737-7aab-8e19-2d0f760e641d" target="_blank" class="news-link">China A‑share liquid‑cooled server stocks extended losses. Jinfu Technology hit its fourth consecutive limit down; Cambridge Technology, Feilong Co. and Guangxun Technology recorded three straight limit‑down sessions. Daoming Optics, Far East Co., Xiaosong Co., Fenghua High‑Tech, Dayuan Pump, Xingrui Technology and Aihua Group also touched limit down; Hongfuhan plunged more than 10%, while Zhen&#x27;an Technology, Bojie Co., Haorsai, Dongyangguang and Chuanrun Co. followed lower.</a> [24] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7663705597687873590" target="_blank" class="news-link">企业 AI 真正的分水岭：不是人人都在用，而是工作方式被重新设计</a> [25] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8267-fe05-7aab-8e19-1fe947345a00" target="_blank" class="news-link">Caitong Fuxin periodic-open hybrid fund hit its daily limit-down.</a> [26] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8264-dcab-7aab-8e19-0f0467501a08" target="_blank" class="news-link">Mainland A-share financials rallied; Cuiwei Co. hit the daily trading limit, Hualin Securities rose over 5%, and Great Wall Securities, Huaxi Securities, Ping An, China Pacific Insurance and Changsha Bank also advanced.</a> [28] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7663505563164606464" target="_blank" class="news-link">OpenSpec + Superpowers + gstack 三器合一：你的 AI 编程终于可以从&quot;拍脑袋&quot;进化到&quot;流水线&quot;了</a> [28] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8262-45d6-7aab-8e19-06777ac6209d" target="_blank" class="news-link">NewsNation reports the dignified transfer at Dover Air Force Base in Delaware for U.S. service members killed in the recent Iran conflict has been postponed from tomorrow to Wednesday. Four service members&#x27; remains are due to be flown to the U.S. from the Middle East; family members and senior officials, including Trump, are expected to attend.</a> [29] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7664423309602979891" target="_blank" class="news-link">AI不会淘汰所有人，但会淘汰这6种人</a> [29] <font color='grey'>- 10时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">0.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/979/324.htm" target="_blank" class="news-link">美国版权案件最高金额：Anthropic 与作家群体 15 亿美元和解获批</a> [13] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1228718" target="_blank" class="news-link">领完 Claude100 刀，继续申请 GPT 官方福利</a> [13] <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48973869" target="_blank" class="news-link">Claude Fable produced a counterexample to the Jacobian Conjecture</a> [28] <font color='grey'>- 10时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777510" target="_blank" class="news-link">复刻“DeepSeek时刻”？华尔街齐称：Kimi K3反而强化算力需求</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时58分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=Kimi+K3%E5%88%9B%E9%80%A0%E5%8F%A6%E4%B8%80%E4%B8%AA%E2%80%9CDeepSeek%E6%97%B6%E5%88%BB%E2%80%9D" target="_blank" class="news-link">Kimi K3创造另一个“DeepSeek时刻”</a> [25] <font color='grey'>- 10时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3777467" target="_blank" class="news-link">报道：谷歌正在开发新款芯片，Gemini架构直接写入硅片，效率最高提升10倍</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
