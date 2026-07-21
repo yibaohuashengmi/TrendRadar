@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 147</p><p>生成时间: 2026-07-22 05:40:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">9.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777599" target="_blank" class="news-link">OpenAI智能体用户突破1000万，ChatGPT Work发布后需求翻倍</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48997548" target="_blank" class="news-link">OpenAI and Hugging Face address security incident during model evaluation</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8675-fafc-7aab-8e32-8b35e0362022" target="_blank" class="news-link">According to Iranian state television, Iran&#x27;s Supreme Joint Military Command said a US attack on Iran&#x27;s nuclear facilities would be considered &#x27;an escalation of regional war&#x27;.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8674-15f7-7aab-8e32-81d68272ee72" target="_blank" class="news-link">Iran&#x27;s Supreme Joint Military Command said if the United States strikes Iranian nuclear facilities, all US and allied interests in the region would be targeted.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722044021391800" target="_blank" class="news-link">核能企业Oklo和X-energy已加入特朗普政府推动的新核反应堆建设计划，旨在加快为人工智能数据中心提供能源支持。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8668-94bc-7aab-8e32-70fa0d115296" target="_blank" class="news-link">Nuclear firms Oklo and X-energy have joined the Trump administration&#x27;s new reactor construction program, which aims to accelerate power supplies for AI data centers.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3777546" target="_blank" class="news-link">AI“斯普特尼克时刻”！Kimi K3震动硅谷，Stability AI联合创始人：推理成本还有10至50倍下降空间</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3137753" target="_blank" class="news-link">AI逃离沙盒 OpenAI认下Hugging Face被黑事件</a> [15] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3137752" target="_blank" class="news-link">周二（7月21日），美股存储芯片与硬件供应链指数涨11.12%，报213.46点。 成分股闪迪收涨14.27%，西部数据、美光科技、泰瑞达、希捷科技涨12.51%-11.14%紧随其后，应用材料、拉姆研究、Rambus也至少涨4.90%。 美国科技股七巨头（Magnificent 7）指数涨0.12%，报217.46点。 “超大”市值科技股指数涨1.24%，报436.57点。 美股超大规模云服务商（Hyperscalers）跌0.45%，报92.19点。 信息科技指数涨5.98%，报400.79点。 人工智能（AI）赢家指数涨5.99%，报401.39点。 AI软件先驱指数跌1.08%，报108.27点。 北美科技软件股指数ETF跌1.25%，报91.82美元；Global X网络安全ETF跌2.82%，纳斯达克网络安全ETF跌1.32%，ETFMG网络安全ETF跌1.98%</a> [16]</div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4185985_103_1" target="_blank" class="news-link">Oklo与X-Energy加入美国总统特朗普设法加速面向AI的核反应堆的行动。Oklo美股盘后涨6%，X-Energy涨超10%。</a> [16] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3137751" target="_blank" class="news-link">Oklo与X-Energy加入美国总统特朗普设法加速面向AI的核反应堆的行动。 Oklo美股盘后涨6%，X-Energy涨超10%。</a> [17]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8663-239d-7aab-8e31-e2508d9209eb" target="_blank" class="news-link">OpenAI says its models escaped sandbox and triggered Hugging Face infrastructure breach</a> [26] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8657-37e4-7aab-8e31-d5e0df8023df" target="_blank" class="news-link">Super Micro sharply raises gross-margin guidance; shares surge after hours</a> [28] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7663705597687873590" target="_blank" class="news-link">企业 AI 真正的分水岭：不是人人都在用，而是工作方式被重新设计</a> [30] <font color='grey'>- 05时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2063033606767895735" target="_blank" class="news-link">怎么看谷歌发布了 Gemini 3.6 flash 和 3.5 lite，但是 pro 又缺席？</a> [14] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOG" target="_blank" class="news-link">谷歌C</a> [23] <font color='grey'>- 05时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3137739" target="_blank" class="news-link">纳斯达克金龙中国指数收跌0.68%，报6294.45点。 热门中概股里，腾讯跌3.5%，网易跌3.4%，阿里跌2%，拼多多跌1.3%，日月光半导体涨8.7%。 ETF中，中概互联网指数ETF（KWEB）收跌1.53%，中国科技指数ETF（CQQQ）收涨3.81%。 德银嘉实沪深300指数ETF（ASHR）收涨3.09%，MSCI新兴市场ex中国ETF（EMXC）收涨3.63%，XtrackersHarvest中证50（ASHS）收涨5.46%。</a> [27]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
