@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 334</p><p>生成时间: 2026-07-21 19:24:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">7.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1228894" target="_blank" class="news-link">🧠 如何让你的所有 AI Agent 共享同一个记忆？—— 一个开源方案</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/cartai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">CartAI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202607/2176950.html" target="_blank" class="news-link">路透：中美拟9月举行AI会谈</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8459-b1cf-7aab-8e27-00757cf1612e" target="_blank" class="news-link">Kuwait&#x27;s Ministry of Electricity said multiple generating units at power plants are offline.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1228888" target="_blank" class="news-link">一个 AI 写作工具从 Next.js 迁移到 TanStack Start，并改用 Gemini Batch API 的记录</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/3e22dc2df03d4227ab70ea9c2d896086" target="_blank" class="news-link">字节AI应用开发一面面经</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202607/2176946.html" target="_blank" class="news-link">受人工智能提振 台湾6月外销订单创历年单月新高</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1228874" target="_blank" class="news-link">I Tested 10 AI Music Generators — Here Is How Their UX Actually Compares</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/routine?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Routine AI</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3137545" target="_blank" class="news-link">美团客服辟谣“骑手配送费本科8元、硕士15元、博士88元”：网传截图不属实，系AI生成</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777561" target="_blank" class="news-link">刘煜辉最新谈AI：我们可能在冲击一个顶部，时间还很长，记住两句话管用5年</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8456-23e2-7aab-8e26-c0c152bc65d1" target="_blank" class="news-link">Wall Street Journal reports U.S. lawmakers are seeking details on private equity&#x27;s past acquisitions of fire truck manufacturers.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/979/736.htm" target="_blank" class="news-link">靠 AI 两个月自研 CRM 系统，Curative 创始人认同“SaaS 末日”论</a> [11] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8454-19f2-7aab-8e26-a83780fe3057" target="_blank" class="news-link">Kuwait Electricity Ministry said an Iranian attack on Kuwait’s power and desalination plants sparked fires; repair work is underway.</a> [13] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8453-f97a-7aab-8e26-9b7527ba4708" target="_blank" class="news-link">Kuwait&#x27;s Ministry of Electricity said multiple power and desalination plants were hit in an Iranian attack on Monday.</a> [15] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8450-4e43-7aab-8e26-6958c66e2e80" target="_blank" class="news-link">The International Energy Agency said threats to the Bab el-Mandeb Strait are escalating; the channel has become a key bypass for the Strait of Hormuz, heightening oil supply-risk concerns.</a> [21] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/979/701.htm" target="_blank" class="news-link">OpenAI 发力广告业务追赶谷歌、Meta，高营收目标遭分析师看空</a> [22] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=AI%E7%9A%84%E7%8C%B4%E5%AD%90%E4%B8%BA%E4%BB%80%E4%B9%88%E8%83%BD%E8%AE%A9%E8%8F%B2%E5%BE%8B%E5%AE%BE%E2%80%9C%E7%A0%B4%E9%98%B2%E2%80%9D" target="_blank" class="news-link">AI的猴子为什么能让菲律宾“破防”</a> [24] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8449-8427-7aab-8e26-551b58339bc4" target="_blank" class="news-link">Yemeni Houthi forces emailed shipping companies warning them to avoid loading or unloading cargo at Saudi ports, saying any vessel bound for or departing Saudi ports &quot;may be targeted anywhere&quot;.</a> [24] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/979/690.htm" target="_blank" class="news-link">中国银行将推长城 BOC-AI 信用卡，每月消费达标有机会领取智谱、MiniMax 等 Token 权益</a> [24] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7663762583838064666" target="_blank" class="news-link">我受够了每天问“今天吃什么”，于是做了个 AI 菜单工具</a> [25] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8446-752d-7aab-8e26-467ebe8ba41f" target="_blank" class="news-link">IEA says oil market remains supported by multiple factors.</a> [26] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3137523" target="_blank" class="news-link">AI耗电激增与高温炙烤下 美国电网迎极限考验</a> [28] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8442-168b-7aab-8e26-24ed644eea63" target="_blank" class="news-link">Asia-Pacific Pharmaceutical: chairman proposed a share buyback of 10–20 mln yuan; buyback price cap set at no more than 150% of the company’s average trading price over the 30 trading days before the board’s buyback resolution.</a> [30] <font color='grey'>- 19时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777555" target="_blank" class="news-link">谷歌财报前夜，德银力挺：别光盯着Capex，真正的惊喜可能来自谷歌云</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4184907_212_1" target="_blank" class="news-link">贝莱德、卡哈特、福特与谷歌发起新联盟，拓展技能型劳动力培训。</a> [25] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/979/679.htm" target="_blank" class="news-link">谷歌年底调整安卓 Nearby Connections API，不再替 App 自动开启 Wi-Fi / 蓝牙功能</a> [29] <font color='grey'>- 19时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3137557" target="_blank" class="news-link">阿里千问Qwen3.8-Max-Preview最新版本上线</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84883" target="_blank" class="news-link">欧盟对阿里巴巴罚款 5.5 亿欧元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/979/723.htm" target="_blank" class="news-link">消息称第三款支持星闪音频的华为平板将至，WKI 系列 Pad 通过星闪测试列名</a> [16] <font color='grey'>- 19时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
