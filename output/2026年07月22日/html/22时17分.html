@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 301</p><p>生成时间: 2026-07-22 22:17:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">37</td>
+                <td class="percentage">12.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777614" target="_blank" class="news-link">AI交易热情回落，美股盘初走低，存储芯片、光通信股普跌，SK海力士跌5%，布油涨近3%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49004663" target="_blank" class="news-link">OverpAId – Fire your CEO. Hire the future</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1229157" target="_blank" class="news-link">AI 视频生成也太好使了，一个入口体验多个图生视频模型</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8a25-0b7b-7aab-8e49-d439c8d38309" target="_blank" class="news-link">OpenAI will provide up to 1,000 MW of flexible demand response to the state of Georgia as part of a Georgia data-center project.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3777614" target="_blank" class="news-link">AI交易热情回落，美股盘初走低，存储芯片、光通信股普跌，SK海力士跌5%，布油涨近3%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3138256" target="_blank" class="news-link">OpenAI将向美国佐治亚州提供至多1000 MW灵活需求，这是当地数据中心项目协议的一部分。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777700" target="_blank" class="news-link">马斯克继续加码！SpaceX AI在德克萨斯州布局大数据中心，规模或超孟菲斯设施</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202607/2277048.html" target="_blank" class="news-link">OpenAI先进模型自主“越狱” 入侵外部平台</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777699" target="_blank" class="news-link">云支出目标狂飙至7500亿美元！OpenAI豪掷超300亿美元建数据中心，推出Presence平台进军企业软件市场</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49005973" target="_blank" class="news-link">Businesses with ugly AI menu redesigns</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722214222157800" target="_blank" class="news-link">谷歌(GOOG.O)：谷歌将投入价值4000万美元的AI词元和云计算信用额度，以支持“创世使命”计划。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777694" target="_blank" class="news-link">AI巨头现金流告急：超大规模云计算商的&quot;代际转移&quot;时刻已悄然来临</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777695" target="_blank" class="news-link">特斯拉FSD新能力曝光：自动驾驶开始拥有「用户模型」，AI司机千人千面</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722213522630800" target="_blank" class="news-link">一边从加拿大买电，一边暂停数据中心：纽约开始重新审视AI时代的能源承载力</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/311.htm" target="_blank" class="news-link">全球首款 AI 智能体手机努比亚 NaviX Ultra 配置曝光：6.78 英寸 144Hz 屏、7100mAh 电池</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8a1a-b723-7aab-8e49-89036d1e05ed" target="_blank" class="news-link">US President Trump spoke to reporters before departing for Dover Air Force Base; his remarks have concluded.</a> [11] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8a19-b7d2-7aab-8e49-8293edafa028" target="_blank" class="news-link">President Trump said Americans do not want high gasoline prices.</a> [12] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8a17-d563-7aab-8e49-636e5a4e5c76" target="_blank" class="news-link">Italy&#x27;s economy minister said the government&#x27;s April growth outlook is expected to remain unchanged.</a> [16] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3138240" target="_blank" class="news-link">SpaceX AI正在探索在得州扩建数据中心。（The Information）</a> [16] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3138239" target="_blank" class="news-link">OpenAI推出工作流程AI智能体部署产品 面向企业客户</a> [17] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/301.htm" target="_blank" class="news-link">OPPO Find X10 系列 EVT 工程机曝光，消息称将配备独立自定义 AI 键</a> [17] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3138238" target="_blank" class="news-link">OpenAI将云支出预期上调至7500亿美元。OpenAI聘请xAI资深人士Brent Mayo。（华尔街日报）</a> [18] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722213039037800" target="_blank" class="news-link">美股开盘，道指跌0.07%，标普500指数跌0.19%，纳指跌0.54%。存储、AI芯片板块普跌，SK海力士(SKHY.O)跌超5%，西部数据(WDC.O)、希捷科技(STX.O)跌约4%，闪迪(SNDK.O)、美光科技(MU.O)跌超3%；英特尔(INTC.O)跌超3%，台积电(TSM.N)跌超2%，AMD(AMD.O)跌1.6%。</a> [18] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/300.htm" target="_blank" class="news-link">OpenAI 推出 OpenAI Presence，布局企业软件赛道</a> [18] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8a10-5183-7aab-8e49-4dc4c4b1df78" target="_blank" class="news-link">Google (GOOG.O) will provide $40 million of AI tokens and cloud credits to support the &quot;Genesis Mission&quot; program.</a> [19] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3138236" target="_blank" class="news-link">报道：OpenAI计划在佐治亚州数据中心投入超300亿美元</a> [19] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8a0e-7b53-7aab-8e49-38c5c6a9755a" target="_blank" class="news-link">Italy&#x27;s economy minister said Italy will impose additional taxes and fees on small parcels on top of similar EU charges.</a> [21] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3138230" target="_blank" class="news-link">浙江：有计划有步骤推进人工智能重大项目谋划储备实施加快打造人工智能创新发展高地</a> [22] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E8%AF%B4%E5%B0%BD%E9%87%8F%E5%B0%91%E8%B7%9FAI%E5%80%BE%E8%AF%89%E8%81%8A%E5%A4%A9&amp;t=31&amp;band_rank=23&amp;Refer=top" target="_blank" class="news-link">为什么要说尽量少跟AI倾诉聊天</a> [23] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722211946100800" target="_blank" class="news-link">美媒：SpaceXAI正在探索在得州扩建数据中心</a> [24] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/294.htm" target="_blank" class="news-link">英伟达黄仁勋：美国无需害怕中国开源 AI 模型，应警惕国内“封禁”呼声</a> [24] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8a06-b871-7aab-8e49-1d7bc7161b5d" target="_blank" class="news-link">Super Micro Computer (SMCI.O) opened up about 15% after the company said it had received $60 billion of orders for the fourth quarter.</a> [25] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f8a04-13cc-7aab-8e49-0fb9a1b668ec" target="_blank" class="news-link">Wells Fargo CEO said the bank is very bullish on the U.S. market.</a> [27] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f89fe-31ae-7aab-8e49-0387d50fff41" target="_blank" class="news-link">An EU official said the bloc must fully safeguard strategic autonomy; the measure is intended to prevent foreign investors from acquiring full control of EU airlines.</a> [28] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f89fe-1a4a-7aab-8e48-fa04a426251c" target="_blank" class="news-link">An EU official said the bloc will publish the results of its review of airline ownership rules in autumn.</a> [29] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4187748_212_1" target="_blank" class="news-link">美股核电股Oklo与X-Energy加入特朗普政府为人工智能增建核反应堆的计划。</a> [29] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7664151348536492047" target="_blank" class="news-link">AI 来了之后，我的心流状态去哪了</a> [29] <font color='grey'>- 22时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">5</td>
+                <td class="percentage">1.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777697" target="_blank" class="news-link">AMD拿下Anthropic数百亿美元芯片大单，另将投资50亿美元获股权</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1229144" target="_blank" class="news-link">Claude Code 的 Prompt Cache 到底怎么工作？ 5 个让缓存失效的坑</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777693" target="_blank" class="news-link">Claude重磅上新：录屏+语音，一键蒸馏Skill替自己干活</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/309.htm" target="_blank" class="news-link">消息称 AMD 与 Anthropic 签署数百亿美元芯片采购协议，并最高向 Anthropic 投资 50 亿美元</a> [12] <font color='grey'>- 22时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3138224" target="_blank" class="news-link">报道：AMD将向Anthropic投资高达50亿美元</a> [26] <font color='grey'>- 22时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3777680" target="_blank" class="news-link">谷歌重磅财报夜，Capex指引有望上调？资深分析师：2026年或冲击2000亿美元</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/319.htm" target="_blank" class="news-link">华为 MatePad Edge 鸿蒙二合一平板电脑适配音悦家 App，需升级 HarmonyOS 6.1.0.135 版本</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
