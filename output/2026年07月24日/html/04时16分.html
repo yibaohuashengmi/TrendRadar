@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 137</p><p>生成时间: 2026-07-24 04:16:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">29</td>
+                <td class="percentage">21.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9087-b22e-7aab-8e72-a48f5659bc40" target="_blank" class="news-link">Iranian media Fars News reported the US Ali Al Salem Air Base in Kuwait was struck by missiles and drones, and that Kuwaiti air-defence systems were intercepting drones and missiles launched from Iran.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9082-d22c-7aab-8e72-9a6c9fa5b551" target="_blank" class="news-link">OpenAI says ChatGPT voice capability is now available in the desktop app.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f907d-9c43-7aab-8e72-8f7d61439024" target="_blank" class="news-link">Sources: OPEC+ likely to raise production quota by 188,000 bpd</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/867.htm" target="_blank" class="news-link">AMD 苏姿丰称 AI 改变每个行业，发布 MI455x 加速器和 EPYC Venice CPU</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9077-76c9-7aab-8e72-809c5a2d60ea" target="_blank" class="news-link">Kuwait&#x27;s military says its air-defence systems are currently intercepting &quot;hostile&quot; Iranian drones.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9077-5525-7aab-8e72-7e18294a620c" target="_blank" class="news-link">Kuwaiti official media reported sirens sounded across Kuwait.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777812" target="_blank" class="news-link">AMD密集“上新”押注2万亿AI计算市场，Helios全面生产、Venice性能领先英伟达20%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9076-7df6-7aab-8e72-728b4b6da4ed" target="_blank" class="news-link">Iran&#x27;s foreign minister Araghchi said some inside the U.S. government are ignoring reality and focusing only on the 2028 election, and that their push for reckless aggression will only force the U.S. president to pay a higher price to secure any agreement.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9074-0e64-7aab-8e72-6fd447eab08c" target="_blank" class="news-link">Canada&#x27;s Prime Minister Carney said parts of negotiations on a potential US-Mexico-Canada agreement will extend through year-end.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724034515352800" target="_blank" class="news-link">OpenAI：ChatGPT语音功能现在已在桌面应用中上线。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49022911" target="_blank" class="news-link">Show HN: Palmier Pro – Open-source macOS video editor built for AI</a> [11] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9071-9a2c-7aab-8e72-5167c74d597e" target="_blank" class="news-link">CARNEY, on USMCA negotiations, said Canada and Mexico have a very good and steadily deepening relationship.</a> [12] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9071-3787-7aab-8e72-4d3d5298ec69" target="_blank" class="news-link">Canada&#x27;s prime minister Carney said the provisional USMCA trade agreement referenced by U.S. Trade Representative Greer is consistent with the USMCA framework.</a> [13] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49021597" target="_blank" class="news-link">DARPA, U.S. Air Force fly AI-controlled F-16</a> [13] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f906a-1900-7aab-8e72-47205a828325" target="_blank" class="news-link">Iran&#x27;s Mehr news agency said reports that Iran attacked a Kuwaiti power plant are Israeli propaganda.</a> [14] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9069-b79c-7aab-8e72-3f8a282b1825" target="_blank" class="news-link">NVIDIA CEO Jensen Huang backs Chinese open-source AI models</a> [15] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9066-4f89-7aab-8e72-33d21ae0dfea" target="_blank" class="news-link">U.S. prosecutors will withdraw a subpoena for a New York Times reporter in the probe of classified leaks from Trump’s aircraft.</a> [16] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9065-257d-7aab-8e72-2fbe201ccdf0" target="_blank" class="news-link">AMD (AMD.O) CEO Lisa Su said ANTHROPIC will deploy AMD CPUs and GPUs with cloud providers, on next-generation cloud platforms and potentially in its own data centers.</a> [17] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9060-86cb-7aab-8e72-1a13a630de79" target="_blank" class="news-link">AMD (AMD.O) CEO Lisa Su said OpenAI has &quot;placed a big bet&quot; on AMD.</a> [19] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f905e-3f5a-7aab-8e72-1207277b5e78" target="_blank" class="news-link">Canadian Prime Minister Carney said if an agreement cannot be reached on the latest US tariff threat, Canada will consider all options.</a> [20] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49026059" target="_blank" class="news-link">From Evaluation to Guardrails: What We Brought to ACM FAccT 2026</a> [20] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f905e-0ff4-7aab-8e72-0b96a36248c9" target="_blank" class="news-link">Canadian Prime Minister Carney said contacts with the US this week demonstrated the level and breadth of interaction, underscoring the importance of bilateral trade ties.</a> [21] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724031745754800" target="_blank" class="news-link">黄仁勋力挺中国AI模型</a> [22] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f905a-fb90-7aab-8e71-f967df7bbede" target="_blank" class="news-link">TASNIM NEWS: Iran&#x27;s parliamentary National Security Committee chair, citing the Revolutionary Guards&#x27; naval missile commander, said Iran&#x27;s missile and drone stockpiles are several times what would be needed to confront the US.</a> [23] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4190824_212_1" target="_blank" class="news-link">特朗普总统表示，新建人工智能数据中心将自建发电厂，他称此举是重大举措，既能扩充美国人工智能基础设施规模，还有助于降低民众用电成本。</a> [23] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9055-8b33-7aab-8e71-f47c350c3b64" target="_blank" class="news-link">U.S. President Trump said 159 Iranian warships have been sunk.</a> [24] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9051-0b1c-7aab-8e71-d3ad350fe5cb" target="_blank" class="news-link">US President Trump said progress in dealing with Iran has been very smooth and outcomes very good.</a> [28] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9050-cb27-7aab-8e71-c803fef0ae38" target="_blank" class="news-link">President Trump said Iranians want talks but are not ready.</a> [29] <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9050-0bb6-7aab-8e71-c494160e2e98" target="_blank" class="news-link">President Trump said the United States cannot allow Iran to possess nuclear weapons.</a> [30] <font color='grey'>- 04时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">2.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777816" target="_blank" class="news-link">一周末打通AMD全套适配：Anthropic用Claude自举而非英伟达硬件，打破CUDA“人力壁垒”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724035948893800" target="_blank" class="news-link">市场消息：Alphabet(GOOG.O)持有的Anthropic股份价值飙升至约1240亿美元。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 04时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724031248368800" target="_blank" class="news-link">AMD(AMD.O)CEO 苏姿丰：Anthropic将在云服务商、新型云计算平台以及潜在的自有数据中心中使用AMD的CPU和GPU。</a> [24] <font color='grey'>- 04时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724035032089800" target="_blank" class="news-link">据伊朗媒体Fars News：美国驻科威特阿里·萨利姆空军基地遭到导弹和无人机袭击，科威特防空系统正在拦截来自伊朗的无人机和导弹。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 04时16分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
