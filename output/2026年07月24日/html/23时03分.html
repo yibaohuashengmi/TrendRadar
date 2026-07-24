@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 289</p><p>生成时间: 2026-07-24 23:03:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">37</td>
+                <td class="percentage">12.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f94a3-a4fb-7aab-8e8a-fe679f8174b9" target="_blank" class="news-link">Latvia&#x27;s foreign minister summoned the Russian embassy&#x27;s chargé d&#x27;affaires over Russia&#x27;s attack on the Ukrainian city of Sloviansk and the destruction of Latvia&#x27;s consulate.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f949f-fc8c-7aab-8e8a-f6f714957154" target="_blank" class="news-link">APEC High-Level AI Forum statement on promoting AI development in the Asia-Pacific</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f949e-0421-7aab-8e8a-ec310b38a454" target="_blank" class="news-link">Google (GOOG.O) said the European Union&#x27;s transparency rules for AI-generated content are a continuation of the general-purpose AI (GPAI) code of conduct signed in 2025.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777879" target="_blank" class="news-link">苏姿丰坚定“看多”AI算力</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f949c-d2e4-7aab-8e8a-e0b7cbff69bb" target="_blank" class="news-link">Google (GOOG.O) signed the EU AI Act transparency code of conduct.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3139538" target="_blank" class="news-link">APEC人工智能高级别论坛关于促进亚太地区人工智能发展的声明</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777833" target="_blank" class="news-link">AI烧钱担忧叠加中东局势，美股盘初涨跌互现，存储芯片股普跌，SK海力士跌4%，油价跌超2%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/981/386.htm" target="_blank" class="news-link">微星发布 4L 紧凑型台式机 PRO MAX EDGE AI+，基于 AMD 锐龙 AI Max+ 300</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3139536" target="_blank" class="news-link">谷歌公司签署《欧盟人工智能法案》透明度行为准则。 谷歌说：该欧盟准则涉及人工智能（AI）生成内容的透明度。</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/981/384.htm" target="_blank" class="news-link">微软、英伟达、Meta 等 25 家公司签署公开信，呼吁美国政府支持 AI 开源模型发展</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9497-b5d9-7aab-8e8a-c7f2cd4ac3a7" target="_blank" class="news-link">Market sources: the UK will take more active measures if markets and regulators fail to meet expectations.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3776830" target="_blank" class="news-link">正在老去的美国 已经进入全面梭哈AI状态</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724222659975800" target="_blank" class="news-link">25家科技巨头联名签署公开信：力挺开放权重AI模型（全文翻译）</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7666058970050183209/" target="_blank" class="news-link">AI重现狼牙山五壮士英雄壮举</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9497-5f81-7aab-8e8a-baa290ec2d8a" target="_blank" class="news-link">IRNA reports an Omani diplomatic delegation traveled to Tehran to discuss mechanisms related to the Strait of Hormuz.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9493-ac56-7aab-8e8a-b648382511b4" target="_blank" class="news-link">Schlumberger (SLB.N) said if the conflict escalates sharply, third-quarter Middle East revenue would be about $150 million below its base case.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3777833" target="_blank" class="news-link">AI烧钱担忧叠加中东局势，纳斯达克100指数跌幅扩大至1.2%，存储芯片板块重挫逾6%，SK海力士跌7%，油价跌超2%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/981/379.htm" target="_blank" class="news-link">印度科技企业 HCLTech 将参与奥里萨邦 1425.7 亿卢比 AI 数据中心建设</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9492-6360-7aab-8e8a-abe3bdf57d78" target="_blank" class="news-link">Jingtai Holdings (02228.HK) expects swing to loss in 1H2026</a> [11] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777887" target="_blank" class="news-link">债券市场是否已看穿AI泡沫的真相？</a> [11] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9486-b20e-7aab-8e8a-9f5a669c85cf" target="_blank" class="news-link">Shanghai crude futures (SC) front-month contract weakened intraday, extending losses to 3.02% at 574.9 yuan/barrel; turnover about 23.92 bln yuan. Open interest eased by nearly 600 lots intraday.</a> [13] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202607/2477208.html" target="_blank" class="news-link">中国公安部：上半年AI生成网络谣言案170余起</a> [14] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9486-4e55-7aab-8e8a-91c52ff8a2a4" target="_blank" class="news-link">Mexico’s president sheinbaum said the US focus in the USMCA revision is rules of origin.</a> [14] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9486-26a1-7aab-8e8a-8db1803119ab" target="_blank" class="news-link">Schlumberger (SLB.N) said it is winning more contracts and additional work in Venezuela than over the past two years.</a> [15] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/981/373.htm" target="_blank" class="news-link">吉利银河战舰 700 亮相：定位“AI 全地形硬核 SUV”，830kW 三电机四驱</a> [15] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49035751" target="_blank" class="news-link">Open Weights and American AI Leadership [pdf]</a> [15] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9485-73a9-7aab-8e8a-83bb42bac6d3" target="_blank" class="news-link">Mexico President sheinbaum said U.S. new tariffs will not have further impact.</a> [16] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9483-9e91-7aab-8e8a-70258d1e1e49" target="_blank" class="news-link">Kuwait&#x27;s defense ministry said its air-defence systems are currently intercepting hostile targets launched from Iran.</a> [18] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49035550" target="_blank" class="news-link">Kaizen #4: Overhauled Homelab</a> [18] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49035314" target="_blank" class="news-link">Oracle fires 21,000 employees to fund AI spending</a> [19] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7666074698865708594/" target="_blank" class="news-link">马光远：AI伟大不代表AI股票永远上涨</a> [20] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9482-d4c1-7aab-8e8a-67b404102788" target="_blank" class="news-link">Iran&#x27;s foreign minister Araghchi said Tehran will not yield to U.S. bullying and will not respond to threats, pressure or intimidation.</a> [20] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9482-a94f-7aab-8e8a-5c9c4709810a" target="_blank" class="news-link">Iranian foreign minister Alaghezi said he has discussed Pakistan&#x27;s mediation initiatives and proposals, and that the problem is not a lack of mediators between the US and Iran but how the Americans handle the issue.</a> [21] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f947e-a325-7aab-8e8a-3d148b7eab0b" target="_blank" class="news-link">NATO said allied fighter jets shot down a drone in Romanian airspace.</a> [25] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f947c-1f17-7aab-8e8a-292df7e6f282" target="_blank" class="news-link">U.S. Treasury: Certain transactions involving Lukoil International LLC will be permitted until 12:01 a.m. on Aug. 22.</a> [27] <font color='grey'>- 23时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3139514" target="_blank" class="news-link">7月24日，微软联合IBM、Meta、等20余家美国科技公司发表名为《开放权重与美国人工智能领导力》的公开信，呼吁开放权重AI模型。 公开信认为，1. 开放权重扩大了对 AI 经济的参与途径。 开放权重强化了市场竞争。 开放权重赋予客户更大的控制权。 开放与 AI 安全及保障。</a> [27]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f947b-223d-7aab-8e8a-1e89840885bf" target="_blank" class="news-link">Israel&#x27;s prime minister&#x27;s office said Prime Minister Netanyahu will visit Washington on Monday at the invitation of U.S. President Trump.</a> [29] <font color='grey'>- 23时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1229644" target="_blank" class="news-link">Claude 中国用户检测工具，封号风险预估</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84917" target="_blank" class="news-link">Google 账号支持自拍人脸登录</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/981/378.htm" target="_blank" class="news-link">小米新机入网：备案小米 MiMo、文心一言、DeepSeek、通义千问等多款大模型</a> [11] <font color='grey'>- 23时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4192800_212_1" target="_blank" class="news-link">哥斯达黎加当局表示，该国已抓获被美国以毒品罪名通缉、绰号为“恶魔”的在逃人员亚历杭德罗·阿里亚斯·德尔加多。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
