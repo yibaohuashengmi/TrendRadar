@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 100</p><p>生成时间: 2026-07-25 06:09:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">10.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777910" target="_blank" class="news-link">大摩：若SpaceX跌至100美元，意味对其AI业务估值为零</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f960b-acef-7aab-8e90-a48928b9db19" target="_blank" class="news-link">The Saudi-led coalition said it carried out a &#x27;reciprocal&#x27; military response in Yemen&#x27;s Hodeidah, striking military targets linked to the Houthi movement. The coalition warned it would respond &#x27;uncompromisingly&#x27; if the Houthis continue &#x27;hostile&#x27; actions.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777898" target="_blank" class="news-link">黄仁勋首推支持开源AI模型，奥特曼意外呼应，马斯克称所有涉及X系统的代码将开源</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f95fb-7232-7aab-8e90-9e2cbf6ac63d" target="_blank" class="news-link">Tasnim News reports the U.S. Fifth Fleet base in Bahrain was struck by missiles and drones.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f95f3-fc7c-7aab-8e90-93dbf10ea228" target="_blank" class="news-link">Bahrain Interior Ministry says the country has issued an alert.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f95ee-f5f0-7aab-8e90-8153fcbd918b" target="_blank" class="news-link">Saudi state television reported the Saudi-led coalition said targets destroyed inside Yemen were linked to activity threatening commercial shipping in the Red Sea.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 06时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f95ed-44d4-7aab-8e90-7fac5992be28" target="_blank" class="news-link">Saudi-led coalition struck Houthi military targets in Yemen&#x27;s Hudaydah governorate, Saudi state TV reported. The coalition said the action did not target Hudaydah port and that all governorate ports remain open to shipping.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777901" target="_blank" class="news-link">中国模型加速AI明星“内卷”，Anthropic上新Opus 5，性能逼近Fable 5价格打对折，刷新ARC-AGI-3纪录</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时09分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49020545" target="_blank" class="news-link">Show HN: I simulated closing the Strait of Hormuz on real oil trade data</a> [14] <font color='grey'>- 06时09分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=48995409" target="_blank" class="news-link">Firefox Containers Preview</a> [19] <font color='grey'>- 06时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">1.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> [27] <font color='grey'>- 06时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
