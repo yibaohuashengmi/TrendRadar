@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 314</p><p>生成时间: 2026-07-24 14:29:28</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">37</td>
+                <td class="percentage">11.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f92cd-7281-7aab-8e7c-bbb39e7aa033" target="_blank" class="news-link">RBC raises Thermo Fisher Scientific (TMO.N) price target to $580 from $490.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777849" target="_blank" class="news-link">大摩警告：AI存储狂欢接近拐点，内存价格或于四季度见顶</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3777669" target="_blank" class="news-link">中美AI模式竞赛：全球AI生态的两条演化路径，2027年是决胜拐点？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/981/117.htm" target="_blank" class="news-link">消息称台积电版特斯拉 AI5 芯片采用 3nm 工艺制程</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202607/2477174.html" target="_blank" class="news-link">皮尤调查：更多美国人认为中国领导世界AI发展</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1229536" target="_blank" class="news-link">莉风音乐（极简本地播放器 + AI 智能管理）</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%96%B0%E6%99%8B%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96%E5%BE%97%E4%B8%BB%E5%BD%93%E5%A4%A9%E5%AE%A3%E5%B8%83%E5%8A%A0%E5%85%A5OpenAI" target="_blank" class="news-link">新晋菲尔兹奖得主当天宣布加入OpenAI</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f92c9-61f3-7aab-8e7c-a59351721f0c" target="_blank" class="news-link">ZDNet reports SK Hynix is accelerating development of 3D-stacked DRAM, regarded as next-generation DRAM for edge/on-device AI. The company has begun recruiting talent and is co-designing the technology with a US customer.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777833" target="_blank" class="news-link">AI烧钱担忧叠加中东局势，韩股一度跌超6%、SK海力士跌超7％，油价上破100美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777848" target="_blank" class="news-link">AI进入采购支付闭环：Visa与连连完成大中华区首笔B2B智能体真实交易</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/981/112.htm" target="_blank" class="news-link">AMD 携手 Cerebras 押注低时延 AI 推理：每瓦每秒 Token 吞吐提升 5 倍</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1229530" target="_blank" class="news-link">做了一个 AI 视频工作流：从选题、配音到发布，一次跑完</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7665608122941050431/" target="_blank" class="news-link">中国AI大反超 美国还能挡多久</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f92c4-e567-7aab-8e7c-8128bb7e813c" target="_blank" class="news-link">UK June retail sales unexpectedly rise 1.0% MoM; YoY up 4.2%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777845" target="_blank" class="news-link">新加坡主权基金GIC：中国AI将拉低全球AI成本，加速企业普及</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1229523" target="_blank" class="news-link">AI 短视频火，到底是视频平台的故意导流导致的？还是大家真喜欢看？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5274568" target="_blank" class="news-link">大行评级｜里昂：超微业绩印证强劲AI服务器需求，重申联想集团“跑赢大市”评级</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724142131130800" target="_blank" class="news-link">据商业技术新闻网站ZDNet：SK海力士正在加速研发3D堆叠式DRAM，该技术被认为是面向终端AI的下一代DRAM。该公司最近开始招募人才，与一家美国客户合作共同设计相关技术。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/981/107.htm" target="_blank" class="news-link">美国网友报修宽带故障陷 AI 死循环：对话超 1 小时未登记 / 转人工</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/981/106.htm" target="_blank" class="news-link">消息称英伟达已向 AIC 下发涨价通知，各显卡厂商全面封仓、暂停出货</a> [11] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f92be-b72c-7aab-8e7c-60a8adf221db" target="_blank" class="news-link">China Resources Group chairman change</a> [12] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f92bd-7a90-7aab-8e7c-59054ab7c87e" target="_blank" class="news-link">War uncertainty weighs on German consumer confidence</a> [13] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f92b6-5afd-7aab-8e7c-43eb466177c6" target="_blank" class="news-link">Sources said on Thursday that German Chancellor MERZ may announce a cabinet reshuffle on Friday.</a> [16] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f92b5-bf10-7aab-8e7c-3ec1a396bdbe" target="_blank" class="news-link">UK June seasonally adjusted retail sales YoY 4.2% (expected 2.3%); May revised to 3.5% from 3.2%.</a> [17] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/909219538619666432" target="_blank" class="news-link">面试官问我 AI 会不会替代程序员，我重新思考了 AI Coding</a> [17] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f92b5-bcb8-7aab-8e7c-30bab4397d96" target="_blank" class="news-link">UK June seasonally adjusted core retail sales YoY 5.4% (consensus 3.2%); May revised to 4.9% from 4.6%.</a> [18] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f92b5-b86f-7aab-8e7c-2d57303fc937" target="_blank" class="news-link">UK seasonally adjusted core retail sales MoM +1.1% in June (est -0.4%); prior +1.20%.</a> [19] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f92b5-b6de-7aab-8e7c-23cdfe493548" target="_blank" class="news-link">UK June seasonally adjusted retail sales MoM +1.0% (consensus -0.3%); May +1.2%.</a> [20] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3139243" target="_blank" class="news-link">小马智行、中国外运成立物流科技公司 含多项AI业务</a> [20] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E8%A7%81%E7%A8%8B%E5%BA%8F%E5%91%98%E5%AE%B3%E6%80%95%E5%A4%B1%E4%B8%9A%E6%8A%B5%E5%88%B6AI&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">为什么不见程序员害怕失业抵制AI</a> [20] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f92b5-9566-7aab-8e7c-10861c34a5c5" target="_blank" class="news-link">Core Retail Sales (YoY) (Jun)</a> [22] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f92b5-9561-7aab-8e7c-0c4d4e24af81" target="_blank" class="news-link">Core Retail Sales (MoM) (Jun)</a> [23] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f92b5-9557-7aab-8e7c-0697d05ee1ee" target="_blank" class="news-link">Retail Sales (YoY) (Jun)</a> [24] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f92b5-9509-7aab-8e7b-f9768e4a7f68" target="_blank" class="news-link">Retail Sales (MoM) (Jun)</a> [25] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f92b0-453c-7aab-8e7b-e2a5999dfd25" target="_blank" class="news-link">European Central Bank Governing Council member Moulin said President Trump’s tariffs have added further uncertainty to the global economy and growth.</a> [28] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f92ae-abbe-7aab-8e7b-dc900962f327" target="_blank" class="news-link">ECB Governing Council member Moulin said she will monitor the size and persistence of the oil shock.</a> [29] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7664864449153400832" target="_blank" class="news-link">拿捏大模型输出随机性：Temperature、Top-K 原理 + LangChain 工程落地实战</a> [29] <font color='grey'>- 14时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/981/115.htm" target="_blank" class="news-link">Claude Code 已整合 Rust 重构版 Bun，在 Linux 平台启动速度快 10%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/981/102.htm" target="_blank" class="news-link">华为乾崑智驾 ADS Max V5.0 首版本即将推送，安全相比 ADS 4 提升 50%</a> [15] <font color='grey'>- 14时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777840" target="_blank" class="news-link">A股三大股指跌超1%，长鑫存储概念股、半导体设备逆势拉升，有色金属齐跌，恒科指跌超1%，阿里跌5%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
