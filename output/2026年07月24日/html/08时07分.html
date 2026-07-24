@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 159</p><p>生成时间: 2026-07-24 08:07:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">6.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777824" target="_blank" class="news-link">SAP电话会：AI投资压低利润指引，“按成果计费”重塑定价逻辑，研发生产力飙升30%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/890.htm" target="_blank" class="news-link">佛州一男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/888.htm" target="_blank" class="news-link">谷歌逆势扩招：过去一年净增近 1.2 万员工，加码 AI 基础设施投资</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/882.htm" target="_blank" class="news-link">英伟达与 Amkor 达成 15 亿美元芯片封装协议，共拓美国先进 AI 封装产能</a> [11] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f915c-622f-7aab-8e75-169a29853408" target="_blank" class="news-link">IBM (IBM.N) CEO said roughly 70% of daily financial transaction activity by value runs on mainframes. Clients typically spend $3–4 across IBM for every $1 invested in a mainframe. The AI boom will boost revenue because most clients require hands-on guidance.</a> [12] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724074249462800" target="_blank" class="news-link">IBM(IBM.N)首席执行官：按价值计算，每日70%的金融交易活动经由大型机进行。客户在大型机上每投入1美元，通常会在IBM整体投入3到4美元。人工智能热潮将提振营收，因为大多数客户需要“手把手”的指导。</a> [13] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f914a-ff98-7aab-8e74-ba09ba7617a4" target="_blank" class="news-link">OpenAI president Brockman said the company&#x27;s goal is to provide the lowest-cost model that can perform any task users require.</a> [23] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9148-e425-7aab-8e74-b3d8e9bf71ad" target="_blank" class="news-link">Iran&#x27;s state broadcaster IRIB said explosions were heard west of Bandar Abbas port.</a> [24] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9142-fe05-7aab-8e74-99dbe791760e" target="_blank" class="news-link">CENTCOM says US struck Iranian military targets for 13th straight night</a> [27] <font color='grey'>- 08时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f913c-9ab8-7aab-8e74-83e155fd6672" target="_blank" class="news-link">NVIDIA (NVDA.O) is committed to advancing a lab to develop agent-based AI models and agent systems tailored to South Korea’s industries, language and future needs.</a> [30] <font color='grey'>- 08时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49024882" target="_blank" class="news-link">Show HN: Claude-thermos keeps your Claude session warm for you</a> [25] <font color='grey'>- 08时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3777753" target="_blank" class="news-link">训练Gemini 4太烧钱！巴克莱测算：谷歌将连续两年自由现金流为负</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 08时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/980/889.htm" target="_blank" class="news-link">IT早报 0724：中国籍数学家首次获得菲尔兹奖；任正非称 τ 定律是华为唯一一条突围道路；极氪回应“车主跨境自驾被锁车机”；荣耀官宣更换 Logo...</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
