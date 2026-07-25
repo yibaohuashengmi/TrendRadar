@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 190</p><p>生成时间: 2026-07-25 18:09:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">21</td>
+                <td class="percentage">11.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f98b3-9e55-7aab-8e94-b1fb5aebff1a" target="_blank" class="news-link">Zhuhai issues orange thunderstorm/gale warnings as Typhoon Hongxia affects region</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777928" target="_blank" class="news-link">花旗AI追踪：模型越来越强，但芯片和电力快跟不上了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/981/552.htm" target="_blank" class="news-link">OpenAI 突发服务器故障，ChatGPT、Codex 出现宕机</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f98a7-5d47-7aab-8e94-ae296e91475c" target="_blank" class="news-link">Report: Bahrain, Kuwait allegedly carried out covert strikes inside Iran; Kuwait denies</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3139736" target="_blank" class="news-link">消息称，OpenAI的ChatGPT与Codex出现大范围无法使用故障。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/maison-vero-made-to-outlive-trends?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Maison Vero — Made to Outlive Trends</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/981/549.htm" target="_blank" class="news-link">华硕灵耀 14 Air 2026 笔记本新品预约：锐龙 AI 7 H 445 处理器，9999 元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f98a1-83c4-7aab-8e94-99c67dbed5f3" target="_blank" class="news-link">Navigation warning: military operations in Bohai Strait, northern Yellow Sea</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f989b-b0e9-7aab-8e94-948d19730d35" target="_blank" class="news-link">German business groups say US tariff shifts increase trade uncertainty</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1229741" target="_blank" class="news-link">用 AI 做了一个音视频转换、人声提取 APP，并成功上架应用市场</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9893-6692-7aab-8e94-83bc01f02d1a" target="_blank" class="news-link">Social media reported widespread outages rendering OpenAI&#x27;s ChatGPT and Codex unavailable.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260725172016965800" target="_blank" class="news-link">据社交媒体信息：OpenAI的ChatGPT与Codex出现大范围无法使用故障。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9886-4d2e-7aab-8e94-70e1fb38532c" target="_blank" class="news-link">Zelenskiy says Russia launched large-scale airstrikes across multiple locations in Ukraine</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9875-9176-7aab-8e94-6897150ab4c2" target="_blank" class="news-link">UKMTO said on Friday it received a report of an incident in the Gulf of Oman involving an oil tanker and military forces.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/spoon-youtube-jump-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Spoon - YouTube Jump AI</a> [11] <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f986b-cf29-7aab-8e94-582729e3f303" target="_blank" class="news-link">Russian-appointed governor said a tourist camp in Russian-held Zaporizhzhia region was attacked, killing eight.</a> [12] <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/clipstudios?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ClipStudios.AI</a> [13] <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9859-cad5-7aab-8e94-4c2facfc4c85" target="_blank" class="news-link">Local governor said drones sparked a fire at an oil refinery in Russia&#x27;s Tyumen region.</a> [14] <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019f9855-6bcd-7aab-8e94-44d456196712" target="_blank" class="news-link">National Flood Control and Drought Relief Headquarters raises Guangdong flood/typhoon emergency response to Level 3</a> [15] <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33654798" target="_blank" class="news-link">中东断供叠加AI算力爆发，电子布涨超100%，龙头急扩产</a> [20] <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2584747" target="_blank" class="news-link">AI已经摸不透柯洁了</a> [22] <font color='grey'>- 18时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1229748" target="_blank" class="news-link">公司 免费提供了一大堆模型, 最新的是 glm4.7 和 Qwen3-Coder-30B-A3B-Instruct-AWQ</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/981/548.htm" target="_blank" class="news-link">阿里：Qoder Mobile 移动端 App 安卓、iOS、鸿蒙三大版本同步上线，功能层面完全一致</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=ChatGPT%E5%B4%A9%E4%BA%86&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">ChatGPT崩了</a> [29] <font color='grey'>- 18时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/25/dc3bf596a50e4cd89fe77d046d04b4e4.html" target="_blank" class="news-link">针对谷歌被罚款，特朗普威胁对欧盟加征“高额关税”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
