@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 101</p><p>生成时间: 2026-07-28 05:41:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">21</td>
+                <td class="percentage">20.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fa564-997a-7aab-8eb7-65cb696129f5" target="_blank" class="news-link">A Senate aide said the Senate is expected to begin voting as early as Tuesday U.S. time, during Ukrainian President Zelenskiy&#x27;s U.S. visit, on a Russia sanctions bill.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778066" target="_blank" class="news-link">英伟达大跌5%！巨额AI循环交易引发信用风险担忧，苹果市值反超重夺全球第一</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3140521" target="_blank" class="news-link">OpenAI的CEO Altman预计本周将在美国华盛顿特区会见财长贝森特与商务部长卢特尼克。（Politico）</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3777993" target="_blank" class="news-link">AI忧虑盖过油价下跌，美股高开低走，阿斯麦一度跌8%，中概股逆市收涨，原油重挫</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3777993" target="_blank" class="news-link">AI忧虑盖过油价下跌，美股高开低走，阿斯麦一度跌8%，中概股逆市收涨，原油重挫</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fa55e-0169-7aab-8eb7-4977879858ea" target="_blank" class="news-link">Ukrainian President Zelenskiy will meet with the full U.S. Senate on Tuesday evening local time, two Senate aides said.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3778065" target="_blank" class="news-link">7月28日会员早报：特朗普称谈判向好 英伟达联手数十家巨头组建“安全AI联盟”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fa55b-ab6a-7aab-8eb7-41b401294d54" target="_blank" class="news-link">Nvidia CEO Jensen Huang to visit Capitol Hill to discuss US AI leadership and open-source</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260728045414356800" target="_blank" class="news-link">黄仁勋将赴美国国会山，讨论AI领导地位与开源问题</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fa557-57ba-7aab-8eb7-3c2d8e3bd24b" target="_blank" class="news-link">Iran&#x27;s IRIB reported Iraq&#x27;s national security adviser said a Ukrainian intelligence group is carrying out attacks inside Iraq and blaming resistance groups.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778068" target="_blank" class="news-link">奥特曼赴华盛顿游说：将展示OpenAI模型能力，回应开放模型与安全争议</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fa552-fa6f-7aab-8eb7-31c06dec69a1" target="_blank" class="news-link">Sources said Venezuela&#x27;s state oil company PDVSA will halt operations at the El Palito refinery for a major maintenance outage lasting three to four weeks.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3778067" target="_blank" class="news-link">美国出现AI创业潮：找不到工作就只能“自己当老板”了</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778062" target="_blank" class="news-link">申万宏源推翻通胀“单峰回落”共识：石化链出清制造价格粘性，AI暗中贡献PPI近2.3个百分点</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260728042311728800" target="_blank" class="news-link">美媒：特朗普政府接近敲定AI自愿审查框架</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260728041608521800" target="_blank" class="news-link">据The Information：美国总统特朗普政府正在最终确定人工智能模型提交框架。</a> [12] <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4196284_212_1" target="_blank" class="news-link">特朗普政府即将敲定自愿性人工智能监管框架。</a> [12] <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2437876" target="_blank" class="news-link">奥尔特曼宣称人类已处于&quot;奇点&quot;之中 AI将带来巨大积极影响</a> [13]</div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3140508" target="_blank" class="news-link">报道：特朗普政府即将敲定AI自愿监管框架</a> [14] <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49021024" target="_blank" class="news-link">Securing Services with Rootless Containers</a> [16] <font color='grey'>- 05时41分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49074680" target="_blank" class="news-link">Professor&#x27;s invisible prompt trap catches 32/35 students cheating with AI</a> [19] <font color='grey'>- 05时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3140498" target="_blank" class="news-link">中概指数收涨2.5%，KWEB涨2.7%，小米涨约9%，金山云涨超4.8%，网易、阿里、腾讯、阿里至少涨超2%</a> [23] <font color='grey'>- 05时41分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
