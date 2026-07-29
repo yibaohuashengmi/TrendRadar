@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 277</p><p>生成时间: 2026-07-29 08:59:02</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">38</td>
+                <td class="percentage">13.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab5a-d4c9-7aab-8ed8-16fd9cc051ef" target="_blank" class="news-link">SK Hynix rebuts AI investment slowdown fears, says infrastructure spending to stay robust beyond next year</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab57-697a-7aab-8ed8-062e7f15ed58" target="_blank" class="news-link">SK Hynix (SKHY.O) said negotiations with customers on 2027 HBM pricing are underway.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/817.htm" target="_blank" class="news-link">古尔曼爆料苹果今秋推 2026 款 Apple TV 和 HomePod mini，主打 Siri AI</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/816.htm" target="_blank" class="news-link">上千名员工呼吁美国政府控制 AI 发展，OpenAI CEO 奥尔特曼表态</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7667714133717945882/" target="_blank" class="news-link">美股收盘：AI概念延续“血色一夜”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202607/2977526.html" target="_blank" class="news-link">观点：美中会在人工智能领域筑起高墙吗？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab53-fd19-7aab-8ed7-f3429b3e8b68" target="_blank" class="news-link">SK Hynix (SKHY.O) aims to begin producing HBM4E memory products by 2027.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab4d-4f2e-7aab-8ed7-efd737eb6439" target="_blank" class="news-link">Saudi Arabia&#x27;s defense ministry said the airstrike was in response to drone attacks on Saudi oil facilities, adding Riyadh does not seek escalation but will respond to any &quot;aggression&quot;.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3141277" target="_blank" class="news-link">OpenAI：发布开源的代码安全命令行工具。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202607/2977523.html" target="_blank" class="news-link">林玉文：高认知穷人：AI时代最危险的社会新阶层</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab4c-f1e9-7aab-8ed7-d88cff4a7534" target="_blank" class="news-link">SK Hynix (SKHY.O) said it expects bit shipment growth in H2 to be significantly higher than in H1.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/812.htm" target="_blank" class="news-link">AI 推动软件漏洞发现速度大幅加快，今年数量较去年预计翻番</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202607/2977522.html" target="_blank" class="news-link">江莉莉：AI时代，大学不能只服务人生第一阶段</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab4a-e435-7aab-8ed7-cd6cc0fc7543" target="_blank" class="news-link">Saudi Arabia&#x27;s Ministry of Defense said it successfully intercepted drone attacks targeting Riyadh and energy facilities in the Eastern Province.</a> [11] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3141272" target="_blank" class="news-link">SK海力士：人工智能基础设施投资在2027年以后仍将保持稳健。 预计长期协议不会导致供应过剩。 长期协议条款各不相同，但通常为5年。</a> [11]</div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778165" target="_blank" class="news-link">闪迪单月暴跌超50%！市值蒸发2000亿美元：AI资本开支持续性存疑与中国厂商竞争力提升</a> [11] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/810.htm" target="_blank" class="news-link">开源 PC 系统 Haiku 已获授权使用 Firefox 浏览器名称</a> [11] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab4a-8d85-7aab-8ed7-c16fb058edd7" target="_blank" class="news-link">Saudi defense ministry says airstrike was coordinated with CENTCOM.</a> [12] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202607/2977519.html" target="_blank" class="news-link">杨丹旭：黄仁勋点燃硅谷AI大激辩</a> [13] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab4a-3fd4-7aab-8ed7-bebec8c64633" target="_blank" class="news-link">Saudi Arabia&#x27;s Ministry of Defense said it struck targets of Iran-backed groups inside Iraq.</a> [13] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab49-8ed5-7aab-8ed7-b300b0ddcc21" target="_blank" class="news-link">1,132 frontier AI employees urge US to lead international effort to slow frontier AI development</a> [14] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3141267" target="_blank" class="news-link">SK海力士：目前没有看到人工智能投资放缓的迹象。</a> [14] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab44-f913-7aab-8ed7-a83b3c931acd" target="_blank" class="news-link">SK Hynix (SKHY.O) said long-term customer contracts typically run about five years.</a> [15] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202607/2977516.html" target="_blank" class="news-link">财经人语：中国晶片公司上市首日暴涨466% AI赢家重新洗牌？</a> [16] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab44-ead5-7aab-8ed7-a61386505076" target="_blank" class="news-link">SK Hynix (SKHY.O) said it expects the risk of memory oversupply to be limited amid capacity expansion.</a> [16] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729082133827800" target="_blank" class="news-link">SK海力士(SKHY.O)：预计云服务提供商（CSP）的人工智能相关投资将持续到明年之后。</a> [16] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/804.htm" target="_blank" class="news-link">OpenAI 奥尔特曼：人们并不想要 AI CEO，且更珍视人性联结</a> [17] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab3f-96e5-7aab-8ed7-960e463b18fc" target="_blank" class="news-link">SK Hynix (SKHY.O) said it expects AI-related investment by cloud service providers (CSPs) to continue beyond next year.</a> [18] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab3f-0230-7aab-8ed7-885f146bef9f" target="_blank" class="news-link">C919 high-altitude variant makes maiden flight</a> [19] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729081851098800" target="_blank" class="news-link">SK海力士(SKHY.O)：预计人工智能基础设施投资将保持稳健。</a> [19] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab3e-73cb-7aab-8ed7-87d01ec649f0" target="_blank" class="news-link">Iran&#x27;s Press TV reports multiple explosions in the Al-Dair area of Basra province in southern Iraq.</a> [20] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2588435" target="_blank" class="news-link">抖火杯AI番外大电影</a> [20] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/801.htm" target="_blank" class="news-link">OpenAI 引入两种转录模型：低延迟、更好理解上下文</a> [20] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab3d-1f00-7aab-8ed7-7deee9033ed7" target="_blank" class="news-link">SK Hynix (SKHY.O) expects investment in AI infrastructure to remain robust.</a> [21] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/800.htm" target="_blank" class="news-link">OpenAI 模型失控受害者不仅只有 Hugging Face，Modal Labs 确认一名客户被黑</a> [21] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab36-b3ae-7aab-8ed7-5b8c3f25c0a2" target="_blank" class="news-link">Bank Indonesia said it will continue to strengthen measures to stabilize the rupiah to meet its inf target and support economic activity.</a> [25] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fab34-c48e-7aab-8ed7-49481631662f" target="_blank" class="news-link">SK Hynix (SKHY.O) said memory supply tightness will persist for a prolonged period.</a> [27] <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3141243" target="_blank" class="news-link">AI短剧半年规模超220亿元，产业爆发重塑内容生产逻辑</a> [30] <font color='grey'>- 08时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/815.htm" target="_blank" class="news-link">谷歌 Pixel 11 Pro XL 手机曝光：256GB 起步，电池降幅 1.6%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 08时59分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7667097178154319912" target="_blank" class="news-link">谷歌的一个优化建议，让我重新学了一遍Android里面如何正确处理位图</a> [27] <font color='grey'>- 08时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/802.htm" target="_blank" class="news-link">数百条 Claude 聊天记录被谷歌索引，Anthropic 回应称用户主动分享所致</a> [19] <font color='grey'>- 08时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/982/805.htm" target="_blank" class="news-link">IT早报 0729：苹果市值首破 5 万亿美元；苹果推租赁计划 iPhone 月租 17.99 美元起；亚马逊终结沃尔玛《财富》世界 500 强 12 年连冠；华为鸿蒙 7Beta 版推送...</a> [16] <font color='grey'>- 08时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
