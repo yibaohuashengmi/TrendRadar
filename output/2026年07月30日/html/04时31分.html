@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 149</p><p>生成时间: 2026-07-30 04:31:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">7.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019faf87-728b-7aab-8ef9-158ffc93e0c7" target="_blank" class="news-link">Microsoft (MSFT.O): OpenAI investment reduced fiscal fourth-quarter EPS by $0.07.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019faf86-5db1-7aab-8ef9-064b111aca09" target="_blank" class="news-link">Microsoft (MSFT.O) said Microsoft 365 Copilot has surpassed 30 mln paid users.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019faf7e-fafc-7aab-8ef8-d4819a5d86fe" target="_blank" class="news-link">Microsoft (MSFT.O) said Azure and other cloud services revenue rose 43% YoY in its fourth fiscal quarter, excluding currency effects, beating estimates.</a> [11] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49101529" target="_blank" class="news-link">Commodification of Intelligence: Good, Bad, and Ugly Circular AI Deals</a> [12] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019faf7d-79d7-7aab-8ef8-c4c5079394da" target="_blank" class="news-link">Qualcomm (QCOM.O) said fiscal 2026&#x27;s unprecedented memory-price increases and supply shortages posed cyclical headwinds for the global smartphone industry.</a> [13] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3141881" target="_blank" class="news-link">美国总统特朗普：（谈论人工智能）正在研究管控AI的措施。</a> [14] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4201218_212_1" target="_blank" class="news-link">特朗普：正研究人工智能管控措施。</a> [19] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019faf73-c274-7aab-8ef8-4fb43edd6d02" target="_blank" class="news-link">Saudi Arabia is seeking to form an international coalition to protect Red Sea shipping from Houthi militant attacks, two people with knowledge said. The coalition&#x27;s membership remains undecided as Riyadh holds talks with dozens of countries.</a> [28] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019faf73-1e4d-7aab-8ef8-41db5070a165" target="_blank" class="news-link">CNBC cited Gundlach saying the Fed could hike rates in September, particularly if the yield curve remains steep.</a> [29] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019faf70-b736-7aab-8ef8-3bb86014802e" target="_blank" class="news-link">Ukrainian Air Force F-16 crashes on frontline</a> [30] <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/641352880.html" target="_blank" class="news-link">感觉南京在ai时代有点跟不上了啊，合肥有了长鑫已经起飞了</a> [30] <font color='grey'>- 04时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.34%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3141894" target="_blank" class="news-link">微软：Azure收入突破1000亿美元，对Anthropic的投资带来超30亿美元季度收入</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49102150" target="_blank" class="news-link">Claude Is Down</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3141870" target="_blank" class="news-link">谷歌公司在Google Flow Music推出Lyria 3.5。</a> [25] <font color='grey'>- 04时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
