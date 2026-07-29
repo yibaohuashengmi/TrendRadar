@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 143</p><p>生成时间: 2026-07-30 06:04:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">33</td>
+                <td class="percentage">23.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafe2-1225-7aab-8efa-2cbfea5a9811" target="_blank" class="news-link">Microsoft (MSFT.O) CFO said fourth-quarter contract backlog excluding OpenAI increased 25%.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778265" target="_blank" class="news-link">扎克伯格在电话会上说，开源AI模型并没有前沿模型那么强大。Meta目前跌9.8%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49103285" target="_blank" class="news-link">AI&#x27;s top startups are barely publishing their research</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafdb-7137-7aab-8efa-1d9ffe7425e3" target="_blank" class="news-link">Microsoft (MSFT.O) CEO said GitHub Copilot now has 50 million users.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778263" target="_blank" class="news-link">Meta大跌！营收超预期却难掩AI投入焦虑，Q3指引逊色、自由现金流创四年新低｜财报见闻</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafd8-dbeb-7aab-8efa-14a8bb8945c4" target="_blank" class="news-link">Microsoft (MSFT.O) CEO said Copilot revenue rose more than 60% sequentially.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3141925" target="_blank" class="news-link">扎克伯格在电话会上说，开源AI模型并没有前沿模型那么强大。Meta目前跌9.8%。 （但）开源模型在全世界有着“重要的地位”。 开放权重模型的成功并不会削弱API的机会，因为拥有运行模型推理的计算能力是商业优势的来源。</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafd7-d407-7aab-8efa-0a3afc9e44d1" target="_blank" class="news-link">Microsoft (MSFT.O) CEO said the number of enterprise customers deploying Copilot to most of their information workers rose nearly 75% sequentially.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778258" target="_blank" class="news-link">沃什：2%通胀目标不动摇，保持独立性，关注AI变革（附全文）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafcd-0931-7aab-8efa-0073a71e0667" target="_blank" class="news-link">Meta Platforms (META.O) CEO said the success of open-weight models will not diminish API opportunities, because owning the compute capacity to run model inference is the source of commercial advantage.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778264" target="_blank" class="news-link">微软上季业绩全面超预期，云收入增超40%，AI资本支出翻倍｜财报见闻</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafc0-c655-7aab-8ef9-ffb9e260bedf" target="_blank" class="news-link">Meta Platforms (META.O) CEO said current computing power falls far short of meeting demand.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafc0-b72d-7aab-8ef9-f25c540743e4" target="_blank" class="news-link">Meta Platforms (META.O) CEO said selling all compute capacity for short-term profit would be stupid.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafbc-2cbd-7aab-8ef9-e742607ca753" target="_blank" class="news-link">US State Department reiterated the US will not provide government funding to the World Health Organization through Gavi, the Vaccine Alliance. It said the US expects to resume its seat on Gavi&#x27;s board.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafba-4a74-7aab-8ef9-dc91cc70bd4c" target="_blank" class="news-link">Meta Platforms (META.O) CEO said consumer personal agents will become an extremely important and large market.</a> [11] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafb5-8c6b-7aab-8ef9-cd7bf33006b5" target="_blank" class="news-link">Meta Platforms (META.O) CFO said the company views short-term infrastructure capability as more valuable than long-term capability.</a> [13] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafb5-78e1-7aab-8ef9-c592b9ebe29b" target="_blank" class="news-link">Meta Platforms (META.O) CFO said industry-wide compute capacity will remain tight for the foreseeable future.</a> [14] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafb4-fb64-7aab-8ef9-bd44ec5082f6" target="_blank" class="news-link">Meta Platforms (META.O) CFO said the company’s long-term capacity strategy is intended to support sustained compute growth from 2028 onward.</a> [15] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafb1-f9ba-7aab-8ef9-aa0922deb331" target="_blank" class="news-link">Meta Platforms (META.O) CFO said long-term forecasting of the capacity-utilization-versus-scale curve is becoming more difficult, but the company believes it retains allocation advantages regardless of whether its models are at the frontier.</a> [17] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafa8-6ccb-7aab-8ef9-9d8393128d24" target="_blank" class="news-link">Qualcomm (QCOM.O) CEO said tape-out of first-generation HBC has been completed.</a> [19] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafa8-1803-7aab-8ef9-95e4689ebd88" target="_blank" class="news-link">Qualcomm (QCOM.O) CEO said custom chips have entered wafer production.</a> [20] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3141906" target="_blank" class="news-link">卡特彼勒因AI退潮及Baird对数据中心的警告而暴跌</a> [21] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafa7-c29b-7aab-8ef9-857f2dd398d1" target="_blank" class="news-link">Qualcomm (QCOM.O) CEO said two recently won custom-chip contracts will generate revenue in the December quarter.</a> [22] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafa1-5efb-7aab-8ef9-7abffbecdeda" target="_blank" class="news-link">Meta Platforms (META.O) CEO said the company plans to offer multiple tiers and pricing options for its Meta One subscription service.</a> [23] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730044230836800" target="_blank" class="news-link">Meta Platforms(META.O)首席执行官：对新型人工智能创意工具的需求强劲。</a> [23] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafa1-2f36-7aab-8ef9-71f6cd8c7ac0" target="_blank" class="news-link">Meta Platforms (META.O) CEO said agency products could evolve into a business model similar to advertising.</a> [24] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fafa0-e198-7aab-8ef9-6a28ba5892bb" target="_blank" class="news-link">Meta Platforms (META.O) CEO said most of the company&#x27;s compute capacity will be used for its own operations, but it expects to build a sizable business serving large customers.</a> [25] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019faf9d-63bb-7aab-8ef9-604b453ce05d" target="_blank" class="news-link">Meta Platforms (META.O) CEO says demand for new AI creative tools is strong.</a> [26] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260730044136462800" target="_blank" class="news-link">Meta营收创纪录，但AI成本拖累股价下跌</a> [26] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019faf9c-c5f0-7aab-8ef9-5e467c408504" target="_blank" class="news-link">Meta posts record Q2 revenue; AI spending update drags shares</a> [27] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019faf9c-abfd-7aab-8ef9-52d9f094e600" target="_blank" class="news-link">Meta Platforms (META.O) CEO said the company is developing a new personal assistant that will serve as the foundation for its next wave of products.</a> [28] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019faf9c-9d29-7aab-8ef9-4dab62e9aad5" target="_blank" class="news-link">Meta Platforms (META.O) CEO said there is a huge opportunity to sell APIs and AI agents to enterprise customers.</a> [29] <font color='grey'>- 06时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019faf9a-5183-7aab-8ef9-44db8485d34d" target="_blank" class="news-link">Meta Platforms (META.O) CEO said AI is enabling new user experiences and accelerating product delivery.</a> [30] <font color='grey'>- 06时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49102150" target="_blank" class="news-link">Claude: Elevated errors across all models</a> [13] <font color='grey'>- 06时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
