@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 353</p><p>生成时间: 2026-07-29 20:32:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">32</td>
+                <td class="percentage">9.07%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fadd6-ea76-7aab-8eea-40e086473f2e" target="_blank" class="news-link">South Korea&#x27;s Finance Ministry said it will immediately introduce additional measures targeting single-stock leveraged ETFs.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/983/298.htm" target="_blank" class="news-link">马斯克旗下 SpaceXAI 起诉明尼苏达州，反对“AI 脱衣”应用禁令</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fadd6-aa10-7aab-8eea-393c74bb46b0" target="_blank" class="news-link">South Korea&#x27;s Finance Ministry said it is considering raising transaction costs to curb speculative trading in ETFs.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778229" target="_blank" class="news-link">OpenAI 硬件路线图曝光：第一台硬件没有屏幕，手机2027上半年量产</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49096188" target="_blank" class="news-link">Document-borne AI worms can self-propagate through Copilot for Word</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fadd6-42a3-7aab-8eea-37268be1cb23" target="_blank" class="news-link">U.S. President Trump said yesterday&#x27;s Iranian attack was unexpected and U.S. forces had only minutes to intercept Iranian missiles.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1230819" target="_blank" class="news-link">用 Rust 做了个 AI 时代用的数据库客户端 RaisDB（40+ 引擎 / AI Agent / MCP Server）</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fadd5-ed54-7aab-8eea-2e0c43b76e0b" target="_blank" class="news-link">ENI CEO said the company is in very good talks with Venezuela&#x27;s state oil company PDVSA and potential U.S. partners.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5277075" target="_blank" class="news-link">中国国家文化产业(00745.HK)与比高集团成立合资公司 共建AI知识产权管理平台</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/983/293.htm" target="_blank" class="news-link">AI 竞赛背后，从业者健康成为新代价</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fadd5-af7e-7aab-8eea-21dbf6bae301" target="_blank" class="news-link">South Korea&#x27;s finance minister says the government will maintain a 24-hour stock market monitoring system.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fadd5-4c05-7aab-8eea-1e82546bb99c" target="_blank" class="news-link">South Korea&#x27;s finance ministry said it will cap retail investors&#x27; exposure to leveraged ETFs.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28356617&amp;amp;topic_name=KT%E5%AE%AB%E6%96%97%E5%AE%9E%E9%94%A4%2CAiming%E8%A2%AB%E6%8A%AC%E8%B5%B0" target="_blank" class="news-link">KT宫斗实锤,Aiming被抬走</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fadd4-1e3a-7aab-8eea-13ce2e76170d" target="_blank" class="news-link">South Korea&#x27;s finance ministry said it will take additional measures to stabilize the stock market and will impose restrictions on trading of leveraged ETFs.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778227" target="_blank" class="news-link">扎克伯格：美国不应为了在竞赛中占据优势，而封禁中国AI模型</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/bo-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Bo AI</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fadd0-a54a-7aab-8eea-04a0355b7070" target="_blank" class="news-link">Trump said the U.S. and Saudi strikes were conducted in coordination with the Iraqi government.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/different-ai/openwork" target="_blank" class="news-link">different-ai / openwork</a> <font color='red'><strong>[9]</strong></font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/MoonshotAI/FlashKDA" target="_blank" class="news-link">MoonshotAI / FlashKDA</a> [11]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fadcf-0b34-7aab-8ee9-ed6d50b20349" target="_blank" class="news-link">President Trump said the U.S. will strike Iran in response to attacks on U.S. targets in Jordan.</a> [12] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959481" target="_blank" class="news-link">AI将变成阿拉丁神灯，但别让少数人替你许愿</a> [12] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fadce-9e68-7aab-8ee9-e7d64b8dcabe" target="_blank" class="news-link">Fox News reported US President Trump said he would let them continue talks on Iran.</a> [13] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fadcb-7fd9-7aab-8ee9-d339789d3815" target="_blank" class="news-link">Shenzhen to boost R&amp;D and deployment of foundation, vertical, edge, physical AI models and high-performance agents</a> [15] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49095143" target="_blank" class="news-link">Show HN: Vimgolf.ai – Learn Vim by playing through a map of levels</a> [15] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fadca-ba24-7aab-8ee9-cdc1d8628138" target="_blank" class="news-link">Israel&#x27;s Channel 12 cited US officials saying no strike occurred after Iran claimed the US launched a missile strike on Iran&#x27;s West Azerbaijan province. The report has not been confirmed by major media.</a> [16] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fadc8-7cbe-7aab-8ee9-c7f798a7d886" target="_blank" class="news-link">GigaDevice said controlling shareholder and actual controller Zhu Yiming plans to increase his stake using personal and/or externally raised funds, committing at least RMB 1 bln.</a> [17] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2065710393360479149" target="_blank" class="news-link">有说法称印度成首个被 AI 做空的国家，真的是这样吗？会对印度经济产生哪些影响？</a> [18] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/resumizeai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ResumizeAI</a> [18] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fadc2-1601-7aab-8ee9-b59964ffc4be" target="_blank" class="news-link">Lebanon&#x27;s president said the war can end only through negotiation or if one side defeats the other.</a> [19] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fadc0-bce3-7aab-8ee9-afb9244da3e7" target="_blank" class="news-link">Shanghai Gold Exchange gold T+D opened the evening session on July 29 down 0.01% at 879.0 yuan/gram; silver T+D opened up 0.07% at 14,095.0 yuan/kilogram.</a> [20] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/983/263.htm" target="_blank" class="news-link">零刻推出 SEi13 AI / SEi14 AI 迷你主机：搭载最高 160TOPS 算力独立 NPU，11895 元起</a> [24] <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fadbb-3f49-7aab-8ee9-7dc69abe353c" target="_blank" class="news-link">India July economic report: Escalating geopolitical tensions and commodity-price volatility remain the main risks to the growth outlook.</a> [26] <font color='grey'>- 20时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/spine-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">/mission for Claude Code</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1230809" target="_blank" class="news-link">跨 Agent、跨设备的一个记忆外挂（当 Claude 被封之后的记忆迁移工具，你值得拥有</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84953" target="_blank" class="news-link">DeepMind 解散 AlphaFold 项目团队</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时32分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49012754" target="_blank" class="news-link">Ancient Rome&#x27;s version of Google Maps: how long to reach the beach</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/983/271.htm" target="_blank" class="news-link">华为 WATCH ULTIMATE DESIGN 非凡大师尊界定制款智能腕表上市，24999 元</a> [17] <font color='grey'>- 20时32分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
