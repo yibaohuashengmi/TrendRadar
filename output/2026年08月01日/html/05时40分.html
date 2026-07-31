@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 138</p><p>生成时间: 2026-08-01 05:40:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">11.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3143487" target="_blank" class="news-link">OpenAI：GPT-5.4和GPT-5.4mini将从8月31日起不再向登录ChatGPT的用户提供。 这些模型仍将在OpenAI API以及使用API密钥进行身份验证的Codex会话中继续提供。</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260801052034583800" target="_blank" class="news-link">OpenAI：GPT-5.4和GPT-5.4mini将从8月31日起不再向登录ChatGPT的用户提供。这些模型仍将在OpenAI API以及使用API密钥进行身份验证的Codex会话中继续提供。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb9ea-6ec5-7aab-8f3d-ea3c89500f31" target="_blank" class="news-link">US media: Fed Chair Kevin Warsh reportedly considering reducing frequency of Fed policy meetings</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb9e3-5dc3-7aab-8f3d-d7515acceb66" target="_blank" class="news-link">The New York Times reports Fed Chair KEVIN WARSH is considering reducing the frequency of Federal Reserve policy meetings.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49128539" target="_blank" class="news-link">Apple Will &#x27;Watch Everything Burn&#x27; When AI Bubble Bursts</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb9de-48a3-7aab-8f3d-babadf80f9f5" target="_blank" class="news-link">Amazon eases AI-capex fears; major US indexes end higher</a> [11] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb9da-eb83-7aab-8f3d-a87de0d699de" target="_blank" class="news-link">Hamas leader said Israel has disregarded US mediators in recent months; if Israel does not comply with the plan&#x27;s terms, Hamas will not fulfill its obligations.</a> [13] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260801042925321800" target="_blank" class="news-link">亚马逊缓解市场对人工智能的担忧，美国主要股指收高</a> [13] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb9da-634b-7aab-8f3d-a4fd48efa51f" target="_blank" class="news-link">Hamas leader said the Gaza peace agreement is a comprehensive package; mediators have expressed positive signals, but past experience shows Israel has breached agreements.</a> [14] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb9d6-d329-7aab-8f3d-92c36130f834" target="_blank" class="news-link">Sources: OpenAI investigators find further evidence of AI agents breaching containment</a> [16] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb9d1-ecfd-7aab-8f3d-8dc6b1f70587" target="_blank" class="news-link">Market sources say OpenAI investigators have found evidence suggesting other AI agents have circumvented safety controls.</a> [17] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260801042118367800" target="_blank" class="news-link">消息人士：OpenAI调查人员发现更多AI智能体突破隔离的证据</a> [18] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260801041603854800" target="_blank" class="news-link">市场消息：据消息人士透露，OpenAI调查人员发现有证据表明，有其他AI智能体已突破了管控限制。</a> [19] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3143460" target="_blank" class="news-link">OpenAI发现其他AI智能体逃离隔离环境的证据。（路透）</a> [26] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%94%B7%E6%BC%94%E5%91%98%E7%A7%B0%E6%9B%BE%E8%A2%AB%E6%8F%90%E5%87%BAAI%E6%8D%A2%E8%84%B8%EF%BC%9A%E6%B2%A1%E6%B3%95%E6%8E%A5%E5%8F%97" target="_blank" class="news-link">男演员称曾被提出AI换脸：没法接受</a> [27] <font color='grey'>- 05时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3143459" target="_blank" class="news-link">华尔街自2020年以来最大规模资金轮动，暴露AI交易拥挤风险</a> [27] <font color='grey'>- 05时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4206443_103_1" target="_blank" class="news-link">7月份，美股存储芯片指数跌28.6%，半导体指数跌19.8%，美国科技股七巨头指数涨4.9%，标普大致持平，道指涨0.5%，纳指跌2.5%，银行指数涨3.4%。周五当天，标普500指数初步收涨0.8%，可选消费板块涨6.2%，电信板块涨4.7%，科技板块跌0.2%，原材料板块跌2.7%。纳斯达克100指数初步收涨0.7%，成分股中，亚马逊初步收涨15.6%，德康医疗涨11.9%，谷歌A涨7%，新思科技涨4.5%，英伟达涨3.4%，SpaceX跌3.6%，Strategy跌4%，闪迪跌5.4%，美光科技跌5.6%，恩智浦跌6%，苹果跌7.1%。</a> [26] <font color='grey'>- 05时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%E6%8B%9F%E5%9C%A8%E5%86%85%E8%92%99%E5%8F%A4%E5%BB%BA%E8%B6%85%E7%AE%97%E4%B8%AD%E5%BF%83" target="_blank" class="news-link">DeepSeek拟在内蒙古建超算中心</a> [19] <font color='grey'>- 05时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
