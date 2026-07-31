@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 432</p><p>生成时间: 2026-07-31 12:02:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">55</td>
+                <td class="percentage">12.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/984/044.htm" target="_blank" class="news-link">阿里发布 Qwen-Audio-3.0-ASR-Flash 语音识别大模型，让 AI 更好听懂专业词汇</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5278005" target="_blank" class="news-link">阅文盘中涨超6%，AI深度赋能IP产业链多元变现</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb63b-3e7c-7aab-8f26-9a00e8a32f89" target="_blank" class="news-link">Japan&#x27;s Nikkei index eased slightly after the Bank of Japan decision, remaining up 4.1%.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5278004" target="_blank" class="news-link">ETF午评 | A股全线反攻，双创指数涨超5%，AI硬件领涨，创业板人工智能ETF涨10%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778386" target="_blank" class="news-link">创业板大涨逾4%，算力硬件、芯片半导体爆发，长鑫市值破4万亿，恒科指涨1%，AI大模型股暴涨、智谱涨20%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5278003" target="_blank" class="news-link">A股午评：创业板指大涨超5%，超4500股上涨！AI产业链强势反弹</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1231168" target="_blank" class="news-link">Shumai: 类似阅流和分秒帧的开源创意协作平台，自带 Agent</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778390" target="_blank" class="news-link">韩国拟向主权财富基金注资140亿美元，押注AI与数据中心</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2442063" target="_blank" class="news-link">日本、韩国据传于昨夜干预汇市 美国再现“AI暴走”事件 | 环球市场</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4204722_212_1" target="_blank" class="news-link">日本央行：受人工智能相关需求强劲支撑，企业利润料将保持高位。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28356666&amp;amp;topic_name=Aiming%E5%9B%9E%E5%BA%94%E5%AE%AB%E6%96%97%3A%E5%AF%B9%E6%96%B9%E5%85%88%E9%AA%82%E4%BA%BA" target="_blank" class="news-link">Aiming回应宫斗:对方先骂人</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/984/018.htm" target="_blank" class="news-link">韩国最大人工智能基础模型：LG AI 研究院发布 750B 参数 K-EXAONE 2.0</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3778376" target="_blank" class="news-link">“AI股神”崩了，“带血的筹码”出了，华尔街押注：AI见底了！</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778389" target="_blank" class="news-link">不建数据中心的苹果，正在为AI数据中心买单</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2442077" target="_blank" class="news-link">降幅高达80%！OpenAI大砍两款AI模型价格 “Token价格战”升温</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4204721_212_1" target="_blank" class="news-link">日本央行：将考虑加息的时机和步伐，同时评估实现基准情景的可能性和风险，并密切关注中东局势发展、人工智能需求扩张以及外汇市场变化的影响。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3778379" target="_blank" class="news-link">AI暴力反弹！三星、SK海力士飙升25%，韩股暴涨超14%，软银跳升15%，日股大涨</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731114226607800" target="_blank" class="news-link">A股午评：创业板指涨超5% AI硬件板块集体反弹</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1231155" target="_blank" class="news-link">[开源] 市场研究驾驶舱 —— A 股/港股/美股 + 商品 + 美债 + AI 大模型榜单，一屏实时行情大屏</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2442218" target="_blank" class="news-link">一图看懂丨AI算力军备持续升温：美股四巨头开支指引再度上调</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/983/988.htm" target="_blank" class="news-link">微星尊爵 14 Flip AI+ 梵高限定版 2026 轻薄本开启预约：融入名画元素</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731113832426800" target="_blank" class="news-link">日本央行不认为增长风险偏向下行，AI需求抵御地缘拖累</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1231154" target="_blank" class="news-link">[实践向交流] 如何提升 AI 编码交付质量</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb630-6b84-7aab-8f26-587cc2199d4d" target="_blank" class="news-link">Bank of Japan holds policy rate at 1% in 8-1 vote; says may raise rates as needed</a> [11] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1231150" target="_blank" class="news-link">手机号码管理 app [ai 搓的]</a> [11] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/912439439069044736" target="_blank" class="news-link">AICoding复盘</a> [11] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3142897" target="_blank" class="news-link">日本央行：需要关注外汇对经济和通胀的影响。 经济展望面临的风险包括中东局势及其对外汇和日本经济的影响。 需要特别关注中东局势发展。 全球AI需求有助于提振日本经济。 价格趋势正在接近2%的物价目标，将价格趋势稳定在2%附近至关重要。 将密切关注中东局势、AI及外汇以决定下一次加息时点。 中短期内实质利率一直处于负值状态。 日元贬值可能会推高物价，近期日元下跌是导致物价上涨的因素之一。</a> [12]</div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778381" target="_blank" class="news-link">本轮牛市“最大神话”落幕！短短数周，“AI股神”被击溃，Citatdel出手收购全部仓位</a> [12] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2442116" target="_blank" class="news-link">AI助力虚拟电厂规模化加速 头部企业订单大增 交易收入占比已近60%|传真</a> [12] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778383" target="_blank" class="news-link">OpenAI突然杀疯！GPT 5.6系列价格最高暴降80%，AI竟开始自己改代码实现原地飞升</a> [13] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1231146" target="_blank" class="news-link">让 AI 输出的文档简洁、说人话更新第二版，重大提升！</a> [13] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb62d-b813-7aab-8f26-3fa6b63e988c" target="_blank" class="news-link">The Bank of Japan said rising import prices warrant close attention, as they are expected to push up prices of a range of goods, including durables.</a> [15] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778379" target="_blank" class="news-link">AI暴力反弹！三星、SK海力士飙升25%，韩股暴涨超14%，软银跳升15%，日股大涨</a> [16] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202607/3177694.html" target="_blank" class="news-link">消息：DeepSeek拟在内蒙古设巨型AI数据中心</a> [17] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb62d-3538-7aab-8f26-2dca7e739aeb" target="_blank" class="news-link">The Bank of Japan said the year-on-year rise in import prices has increased sharply recently, driven by yen depreciation and higher commodity prices, notably persistently elevated crude oil.</a> [17] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/983/976.htm" target="_blank" class="news-link">AI 挤压作家收入：14419 本小说洞察，约 20% 书籍 AI 含量超 25%</a> [17] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3142887" target="_blank" class="news-link">国家发展改革委：上半年人工智能相关行业保持30%以上高增长</a> [18] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778378" target="_blank" class="news-link">市场不相信“神话”：“AI股神”死于杠杆？</a> [18] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1231121" target="_blank" class="news-link">别再买 AI 课了，我做了个免费网站比任何课程都值</a> [18] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb62c-ce35-7aab-8f26-1bc5fa195aaf" target="_blank" class="news-link">Bank of Japan said if domestic and foreign demand for aluminum-related materials and components exceeds expectations, upward pressure on prices could increase further.</a> [19] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2066333638568972760" target="_blank" class="news-link">如何看待 OpenAI 将 GPT-5.6Luna 和 Terra 价格大幅度下调？大模型会进入价格战时代吗？</a> [19] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/983/974.htm" target="_blank" class="news-link">国家发改委：将加快《人工智能法》立法进程</a> [19] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3778374" target="_blank" class="news-link">等不及的预言家：AI神童爆仓记</a> [20] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb62c-2e4b-7aab-8f26-0fa72c723770" target="_blank" class="news-link">Bank of Japan raises GDP growth forecasts for FY2026-27; FY2028 unchanged</a> [21] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778376" target="_blank" class="news-link">“AI股神”崩了，“带血的筹码”出了，华尔街押注：AI见底了！</a> [21]</div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/983/972.htm" target="_blank" class="news-link">119 元：酷态科 6 号氮化镓电能卡片 Air 单体版开售，单口最高输出功率升级 90W</a> [21] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4204688_1_1" target="_blank" class="news-link">日本央行：必须关注全球人工智能需求、未来外汇发展对经济和价格的影响。</a> [22] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/983/971.htm" target="_blank" class="news-link">微信公众号推出 AI 智能“一键排版”功能</a> [22] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731113018378800" target="_blank" class="news-link">24岁“AI股神”翻车：450亿美元基金遭遇爆仓危机，华尔街开始接盘</a> [24] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb62a-4a2c-7aab-8f25-e1a3001e3655" target="_blank" class="news-link">Bank of Japan says it must monitor how global demand for AI and future foreign-exchange developments will affect economic activity and prices.</a> [26] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3142870" target="_blank" class="news-link">AI应用方向持续走高，中文在线、蓝色光标20cm涨停，普联软件、福昕软件、易点天下、欢瑞世纪、用友网络等多股封板，昆仑万维、天龙集团、值得买等涨超15%。</a> [27] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23ai%E4%BB%A3%E6%9B%BF%E8%B0%81%E9%83%BD%E4%BB%A3%E6%9B%BF%E4%B8%8D%E4%BA%86%E5%90%B4%E8%B0%A8%E8%A8%80%23&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">ai代替谁都代替不了吴谨言</a> [27] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb62a-048c-7aab-8f25-d466053c5f38" target="_blank" class="news-link">Bank of Japan says it must remain vigilant to prevent upside inf risks from materializing and adversely affecting the economy.</a> [28] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb629-acda-7aab-8f25-cb8bab1d9e60" target="_blank" class="news-link">The Bank of Japan said firms are more inclined to raise wages and prices.</a> [29] <font color='grey'>- 12时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fb629-9c41-7aab-8f25-c546add0f28c" target="_blank" class="news-link">Bank of Japan said it will implement monetary policy in a timely manner to achieve its inflation target sustainably and stably.</a> [30] <font color='grey'>- 12时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1231158" target="_blank" class="news-link">大家怎么管理 AGENTS.md、CLAUDE.md，以及不同 Agent 之间的记忆？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/983/966.htm" target="_blank" class="news-link">余承东说到做到，华为盘古 openPangu-2.0-Pro 模型及技术报告开源上线</a> [25] <font color='grey'>- 12时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> [11] <font color='grey'>- 12时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
