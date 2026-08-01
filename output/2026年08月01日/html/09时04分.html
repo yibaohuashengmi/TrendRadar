@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 194</p><p>生成时间: 2026-08-01 09:04:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">7.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fbaa7-f2a8-7aab-8f3e-89167a9287a0" target="_blank" class="news-link">RIA reported Russian air defense forces shot down more than 21,000 Ukrainian military drones over Russian territory in July.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时04分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%80%8E%E4%B9%88%E7%9C%8BLeopold%20AI%E5%9F%BA%E9%87%91%E9%A3%8E%E6%B3%A2" target="_blank" class="news-link">怎么看Leopold AI基金风波</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fbaa7-73ca-7aab-8f3e-87fae6e54b75" target="_blank" class="news-link">Financial Times reports Fed governor Musalem said they lean toward raising interest rates.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778472" target="_blank" class="news-link">Hugging Face并非个案？OpenAI扩大调查、据称发现更多AI智能体“失控”迹象</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/984/421.htm" target="_blank" class="news-link">OpenAI 奥尔特曼推介 Astra 模型：协同 AI 智能体工作，主打长周期任务能力</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fbaa7-333a-7aab-8f3e-7d4f1bde799a" target="_blank" class="news-link">The Financial Times reports Federal Reserve official Musalem said the recent bond sell-off is a warning to the Fed&#x27;s credibility.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/984/420.htm" target="_blank" class="news-link">“华尔街 AI 股神”的对冲基金高杠杆爆仓出局，规模从 450 亿美元缩水至 100 亿美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/984/417.htm" target="_blank" class="news-link">DeepSeek-V4-Flash 正式版跑分报告：约 98% 缓存命中打造 AI 极致性价比</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3778448" target="_blank" class="news-link">OpenAI：我们黑了不止一家公司，Anthropic：我也是</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/984/415.htm" target="_blank" class="news-link">能无限制生成“灾难”图片，谷歌地球 AI 生图功能上线不到一天就下架</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3778389" target="_blank" class="news-link">不建数据中心的苹果，正在为AI数据中心买单</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时04分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202608/0177761.html" target="_blank" class="news-link">先进AI擅“越狱”完成网络袭击 专家：应对窗口仅剩数小时</a> [12] <font color='grey'>- 09时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/984/407.htm" target="_blank" class="news-link">蒲得宇预估苹果 2027Q1 发布 iPhone Air 2：新增 4800 万超广角、A20 Pro 芯片</a> [16] <font color='grey'>- 09时04分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=00%E5%90%8EAI%E8%82%A1%E7%A5%9E%E6%B8%85%E4%BB%93+%E8%A1%80%E4%BA%8F1400%E4%BA%BF" target="_blank" class="news-link">00后AI股神清仓 血亏1400亿</a> [18] <font color='grey'>- 09时04分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49096319" target="_blank" class="news-link">The First Transatlantic Telegraph Cable Was a Bold, Beautiful Failure</a> [22] <font color='grey'>- 09时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/984/411.htm" target="_blank" class="news-link">谷歌 Pixel 11 标准版手机渲染图曝光：4 种颜色，支持 30x 数码变焦</a> [12] <font color='grey'>- 09时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/984/409.htm" target="_blank" class="news-link">曝谷歌即将推出 Pixel Tag 追踪器：椭圆设计，有望本月随 Pixel 11 发布</a> [14] <font color='grey'>- 09时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2066465758503252393" target="_blank" class="news-link">如何看待 Anthropic 公布 Claude 也发生了沙箱逃逸，真实入侵了三家机构？</a> [14] <font color='grey'>- 09时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2066567142019786000" target="_blank" class="news-link">如何评价华为盘古 5050 亿参数的 openPangu-2.0-Pro 模型及技术报告正式开源上线？</a> [11] <font color='grey'>- 09时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
