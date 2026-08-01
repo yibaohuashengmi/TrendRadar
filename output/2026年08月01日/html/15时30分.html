@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 261</p><p>生成时间: 2026-08-01 15:30:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">9.58%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fbc1e-f55f-7aab-8f40-b3e8a97eabbd" target="_blank" class="news-link">A top executive at Indian Oil said refining capacity expansion will lift the company&#x27;s crude throughput to 85 mln tonnes in FY2027/28.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fbc1c-921d-7aab-8f40-a52961e76992" target="_blank" class="news-link">A top executive at Indian Oil said the company expects its LPG retail business to incur a loss of about 250 rupees per 14.2-kg cylinder sold in Jul-Sep.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260801151758117800" target="_blank" class="news-link">超聚变AI Lab平台上线DeepSeek-V4-Flash正式版</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fbc1b-d50b-7aab-8f40-992b1dda9ca8" target="_blank" class="news-link">ZELENSKIY says Ukraine lacks air-defense supplies and has shot down only one Russian ballistic missile.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fbc1a-cc9b-7aab-8f40-931c2dd60785" target="_blank" class="news-link">A top executive at an Indian oil company said the firm will invest about INR 1 tln over the next 5-6 years to expand petrochemical capacity.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fbc1a-a575-7aab-8f40-8de2b5012e8d" target="_blank" class="news-link">Ukrainian President Zelenskiy said Russia launched 35 missiles and 185 drones at Ukraine.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778482" target="_blank" class="news-link">500亿美元投资都完成，亚马逊持股OpenAI 5%，此前已投Anthropic</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/984/505.htm" target="_blank" class="news-link">爱奇艺宣布 10 部 AIGC 电影进入成片制作阶段，奥斯卡最佳摄影得主鲍德熹负责指导</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49131860" target="_blank" class="news-link">A migrant surge tests Spain&#x27;s open policies</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/koalawriter?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Koala AI</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fbc1a-8672-7aab-8f40-87e54aaf0b10" target="_blank" class="news-link">Kazakhstan&#x27;s Energy Ministry said a proposal to fully halt the Caspian Pipeline Consortium (CPC) is not under consideration.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fbc17-da77-7aab-8f40-7b1038b8af21" target="_blank" class="news-link">EU Naval Force vessel Aspides said a merchant ship completed a safe transit of the Red Sea under escort by an Italian frigate.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fbc16-b681-7aab-8f40-755855ffc008" target="_blank" class="news-link">Moscow source says Russia remains open to talks with Ukraine</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3778476" target="_blank" class="news-link">“AI股神”致信投资者：遭遇“银行挤兑”，再也不加杠杆了，今年仍涨80%，我们能东山再起</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fbc01-c370-7aab-8f40-5eb4497c121f" target="_blank" class="news-link">Kuwait&#x27;s military said its air defenses are currently intercepting hostile missiles from Iran.</a> [13] <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/984/494.htm" target="_blank" class="news-link">可维修模块化手机 Fairphone 6+ 曝光：12GB 内存、3 种颜色</a> [16] <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%B4%E9%83%A8AI%E5%86%8D%E5%A4%B1%E6%8E%A7+Claude%E9%BB%91%E8%BF%9B%E4%B8%89%E5%AE%B6%E5%85%AC%E5%8F%B8" target="_blank" class="news-link">头部AI再失控 Claude黑进三家公司</a> [17] <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33692011" target="_blank" class="news-link">摩根士丹利邢自强：AI投资“半场休息”，下半场逻辑已变</a> [17] <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=AI%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%9A%B4%E5%88%A9%E6%97%B6%E4%BB%A3%E5%BD%BB%E5%BA%95%E7%BB%88%E7%BB%93&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">AI大模型暴利时代彻底终结</a> [19] <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/udesk-ai-call-center-system?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Udesk AI Call Center System</a> [19] <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fbbd0-75bc-7aab-8f40-16a60c442195" target="_blank" class="news-link">Iranian government spokesperson Fatemeh Mohajerani told IRNA that attacks on refineries, fuel depots, pipelines and gas facilities are intended not merely to destroy assets but to disrupt daily life—creating fuel queues, spreading anxiety and undermining social stability—and that energy security is a cornerstone of national security and national resilience.</a> [22] <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fbbca-36c6-7aab-8f40-09aaceaf88ad" target="_blank" class="news-link">Lebanon&#x27;s president said the Lebanese army&#x27;s responsibilities have doubled and that the next phase requires deployment along the southern border. He said Lebanon will continue coordinating with friendly countries to secure support and training for the military.</a> [23] <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fbbba-4cca-7aab-8f40-00606c722ae7" target="_blank" class="news-link">SAIC-GM-Wuling reported July global sales of 120,050 vehicles; July new-energy vehicle (NEV) sales were 72,695 units.</a> [24] <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7668341210563870720" target="_blank" class="news-link">公司取消前端岗后，做了 10 年 Java 的我，第一次认真拥抱 AI</a> [28] <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/641439334.html" target="_blank" class="news-link">辩论大赛之校园篇：随着AI翻译越来越准确，未来还有必要开设外语课程吗？</a> [30] <font color='grey'>- 15时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">3</td>
+                <td class="percentage">1.15%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2066223484309434997" target="_blank" class="news-link">DeepSeek 居然会对用户说「我去吃饭了」「我去睡了」，为啥会出现这样的现象？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%20V4%20Flash" target="_blank" class="news-link">DeepSeek V4 Flash模型权重发布</a> [18] <font color='grey'>- 15时30分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23DeepSeekV4Flash%E6%AD%A3%E5%BC%8F%E7%89%88%E8%B7%91%E5%88%86%E5%87%BA%E7%82%89%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">DeepSeekV4Flash正式版跑分出炉</a> [29] <font color='grey'>- 15时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2066817957267600688" target="_blank" class="news-link">阿里巴巴集团主席蔡崇信与妻子吴明华宣布离婚，怎样看待他们的婚姻？会对两人身后的商业帝国产生影响吗？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时30分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
