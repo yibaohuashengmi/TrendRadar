@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 444</p><p>生成时间: 2026-08-03 18:46:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">48</td>
+                <td class="percentage">10.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/maidfinder-hire-the-right-maid-in-uae?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">MaidFinder — Hire the Right Maid in UAE</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ozak-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Ozak AI</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc727-ce22-7aab-8f55-aa4bcdd73b39" target="_blank" class="news-link">President Zelenskiy will appoint Ukraine&#x27;s chief negotiator Umerov as head of Ukraine&#x27;s Foreign Intelligence Service.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49152842" target="_blank" class="news-link">Bonsai: Janestreet&#x27;s UI Library</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=84988" target="_blank" class="news-link">AI 通过错误的推理得到正确的结果？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/913848724952997888" target="_blank" class="news-link">字节AI全栈开发一面面经(已过)</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28356750&amp;amp;topic_name=OpenAI%E9%99%8D%E4%BB%B7%2C%E8%80%81%E6%97%A5%E9%AB%98%E5%96%8A%E4%B8%AD%E5%9B%BD%E4%B8%87%E5%B2%81" target="_blank" class="news-link">OpenAI降价,老日高喊中国万岁</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc726-ca12-7aab-8f55-9eeef631ae5c" target="_blank" class="news-link">Spanish auto industry association: Jan–Jul Tesla (TSLA.O) new-car registrations in Spain rose 19.8% YoY; overall electric vehicle registrations climbed 34.9% YoY.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5279416" target="_blank" class="news-link">极光旗下 GPTBots.ai 上新 LoopAgent：复杂任务，交给 AI 一口气跑完</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc725-c0b9-7aab-8f55-9211473ae760" target="_blank" class="news-link">Spanish Association of Automobile Manufacturers: Tesla (TSLA.O) new-car registrations in Spain fell 81.3% YoY in July to 131 units.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3144096" target="_blank" class="news-link">小米：2人使用AI生成虚假车祸视频抹黑公司被处罚。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1231790" target="_blank" class="news-link">大家有在开发 coding agent 吗？ 这会成为 AI 时代的程序员&quot;三件套&quot;吗？</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc724-49fb-7aab-8f55-8833e50afadc" target="_blank" class="news-link">Barclays raises Chevron (CVX.N) PT to $216 from $213.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc724-4513-7aab-8f55-85f9b9ff8bdf" target="_blank" class="news-link">Fed&#x27;s Williams: Policy won&#x27;t be dictated by market levels; optimistic on AI</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3778538" target="_blank" class="news-link">中金：AI之外还有什么值得买</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3144091" target="_blank" class="news-link">调查：八成以上美国金融业高管认为 AI技能比MBA更有价值</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778569" target="_blank" class="news-link">美国13州推进取消数据中心税收优惠，每千兆瓦AI算力成本或增加30亿美元</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23AI%E7%9F%AD%E5%89%A7%E5%A5%B3%E4%B8%BB60%E7%A7%92%E5%B9%BF%E5%91%8A%E6%8A%A5%E4%BB%B725%E4%B8%878%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">AI短剧女主60秒广告报价25万8</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49152222" target="_blank" class="news-link">The AI Productivity Gap</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc720-f0dd-7aab-8f55-724a594220b3" target="_blank" class="news-link">Goldman Sachs adds Applied Materials (AMAT.O), Delta Air Lines (DAL.N), Microsoft (MSFT.O) and United Parcel Service (UPS.N) to its U.S. Conviction Buy List, and removes Broadcom (AVGO.O), Dick&#x27;s Sporting Goods (DKS.N), Johnson &amp; Johnson (JNJ.N) and ServiceNow.</a> [11] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49153029" target="_blank" class="news-link">PISIGuard: Protect your personal and sensitive info when you chat with AI</a> [11] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc71e-6804-7aab-8f55-6b8d5dc46067" target="_blank" class="news-link">European Commission President Von der Leyen said more measures must be taken to strengthen EU borders.</a> [12] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc71e-5c13-7aab-8f55-6486a73e77fd" target="_blank" class="news-link">European Commission President Von der Leyen said she cannot accept migration issues imposing pressure on EU member states.</a> [13] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260803180436783800" target="_blank" class="news-link">美联储威廉姆斯：人工智能投资不会带来金融稳定风险。对人工智能行业的波动并不感到惊讶。</a> [13] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4208440_1_1" target="_blank" class="news-link">美国纽约联储主席威廉姆斯：人工智能投资不会带来金融稳定风险。对人工智能行业的波动并不感到惊讶。</a> [13] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc71e-1c8f-7aab-8f55-59de6f160005" target="_blank" class="news-link">VON DER LEYEN said the EU may step up cooperation with Morocco on border management and financial support.</a> [14] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc71c-0a16-7aab-8f55-51c746b7fabf" target="_blank" class="news-link">Williams says inflation likely to ease; Fed will raise rates if it doesn&#x27;t</a> [15] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959507" target="_blank" class="news-link">美股AI相关企业Q2盈利超预期71%，创数十年最强季度纪录</a> [15] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E8%87%AA%E5%88%B6AI%E7%9F%AD%E7%89%87%20%E6%B4%AA%E6%B5%81%E4%B9%8B%E4%B8%8A" target="_blank" class="news-link">UP主自制AI短片 洪流之上</a> [15] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33698195" target="_blank" class="news-link">澎湃思想周报｜当菲尔兹奖得主加入OpenAI；“云霸权”兴起</a> [17] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc71a-2c04-7aab-8f55-43a4dabc9d57" target="_blank" class="news-link">A spokesman for Germany&#x27;s Interior Ministry said it is in contact with Liechtenstein authorities over a data leak and there is no evidence to date that it involves German citizens.</a> [17] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc719-2a26-7aab-8f55-39e287473dc2" target="_blank" class="news-link">GameStop (GME.N) fell 3.1% in pre-market trading after the company said it would conduct a private share swap via $1.4 billion of convertible notes.</a> [18] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/fitcoach-ai-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">FitCoach-AI</a> [18] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778565" target="_blank" class="news-link">“InP短缺将比内存更严峻”！Lumentum、SemiAnalysis警告：光互联成AI新瓶颈</a> [19] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2067512422555029717" target="_blank" class="news-link">如何看待 7 月末至 8 月初有多家韩国公司发布 AI 称性能强于 DeepSeek？</a> [19] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/985/131.htm" target="_blank" class="news-link">讯飞 AI 眼镜体验：翻译成熟完善，AI 助理近在眼前</a> [20] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc715-5003-7aab-8f55-23c7c16c2a93" target="_blank" class="news-link">Fed&#x27;s Williams said investment in AI will not pose financial stability risks and that he is not surprised by volatility in the AI sector.</a> [21] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778567" target="_blank" class="news-link">从故事到估值：AI是价值创造还是价值毁灭</a> [21] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7669126369356398592" target="_blank" class="news-link">像这种问题千万别自己动手，否则你可太看不起 AI 了</a> [21] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc715-01d3-7aab-8f55-1d45cfd66512" target="_blank" class="news-link">Williams said market pricing provides the Federal Reserve with valuable information.</a> [22] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/985/129.htm" target="_blank" class="news-link">讯飞 AI 眼镜图赏：轻盈舒适，凝练商务风</a> [22] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1231737" target="_blank" class="news-link">用 AI 做了个全平台视频下载器，优点暂时无广告？</a> [22] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc714-ec96-7aab-8f55-12945c1f1dfe" target="_blank" class="news-link">Fed&#x27;s Williams said he has noted market pricing, but the Fed does not need to endorse market levels.</a> [23] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc714-9187-7aab-8f55-09ce6d2ca430" target="_blank" class="news-link">Fed Governor Williams said he is optimistic that inflationary pressures will gradually ease.</a> [24] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778561" target="_blank" class="news-link">AI牛市最糟糕的时候过去了吗？华尔街：真正的考验才刚开始</a> [24] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc714-8575-7aab-8f55-00f074fd3c90" target="_blank" class="news-link">Fed&#x27;s WILLIAMS acknowledged uncertainty over the impact of the Middle East war.</a> [25] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/985/114.htm" target="_blank" class="news-link">自 2023 年，谷歌、亚马逊、微软等美国科技巨头已在 AI 领域砸下 1 万亿美元</a> [26] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fc713-d988-7aab-8f54-e46b0e965b1c" target="_blank" class="news-link">Federal Reserve&#x27;s Williams said he strongly supports the FOMC&#x27;s recent decision.</a> [29] <font color='grey'>- 18时46分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">6</td>
+                <td class="percentage">1.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1231810" target="_blank" class="news-link">claude 开 5x 或者 20x 没有外国公司怎么搞?</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3778546" target="_blank" class="news-link">性能与Anthropic Fable 5相当！阿里巴巴发布千问3.8-MAX，2.4万亿个参数，长程自动编程表现出色</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778574" target="_blank" class="news-link">机构Artificial Analysis：DeepSeek V4-Flash运行成本全球最低，仅为Claude Fable 5的1/105</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1231768" target="_blank" class="news-link">[分享] ClaudeCode 糊的快速文字润色&amp;翻译&amp;替换小工具(MacOS)</a> [11] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33708536" target="_blank" class="news-link">阿里Qwen3.8正式发布：总参数量2.4万亿，第三方榜单仅次于Claude</a> [14] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7669335296040894490" target="_blank" class="news-link">Claude Code 是怎么自己改代码的？答案藏在这 4 个工具里</a> [29] <font color='grey'>- 18时46分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">6</td>
+                <td class="percentage">1.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778577" target="_blank" class="news-link">DeepSeek 给大模型划出的「斩杀线」，斩的到底是什么</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1231802" target="_blank" class="news-link">关于我用 deepseek -v4-flash 画了几张图...</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202608/0377935.html" target="_blank" class="news-link">美研究机构：DeepSeek最新模型成本远低于其他模型</a> [12] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/913482312753418240" target="_blank" class="news-link">DeepSeek大模型算法岗笔试面经分享</a> [18] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7669679149316836902/" target="_blank" class="news-link">DeepSeek模型单日吞下8万亿Token</a> [19] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=DeepSeek%E6%A8%A1%E5%9E%8B%E5%8D%95%E6%97%A5%E5%90%9E%E4%B8%8B8%E4%B8%87%E4%BA%BFToken" target="_blank" class="news-link">DeepSeek模型单日吞下8万亿Token</a> [26] <font color='grey'>- 18时46分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">5</td>
+                <td class="percentage">1.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3778543" target="_blank" class="news-link">科创50跌超5%，半导体再跌、兆易创新跌停，核电掀涨停潮，恒科指涨1%，阿里大涨超7%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778526" target="_blank" class="news-link">美伊谈判乐观情绪升温，美股期指走高，阿里巴巴盘前涨超5%，WTI油价跌超5%，日元冲高回落</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3778526" target="_blank" class="news-link">美伊谈判乐观情绪升温，美股期指走高，阿里巴巴盘前涨超5%，WTI油价跌超5%，日元冲高回落</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778543" target="_blank" class="news-link">科创50跌超5%，半导体再跌、兆易创新跌停，核电掀涨停潮，恒科指涨1%，阿里大涨超7%</a> [14] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1231757" target="_blank" class="news-link">阿里的 tokenplan 真是一言难尽</a> [15] <font color='grey'>- 18时46分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/985/152.htm" target="_blank" class="news-link">把学习笔记变为游戏，谷歌 Gemini Notebook 新功能曝光</a> [11] <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778558" target="_blank" class="news-link">谷歌表外担保规模9个月涨6倍至438亿美元，用“财务兜底”换TPU芯片订单</a> [13] <font color='grey'>- 18时46分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/985/189.htm" target="_blank" class="news-link">车机端也要集齐“爱优腾”？鸿蒙智行官宣华为视频车机端 App 上线腾讯视频专区内容</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时46分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/985/112.htm" target="_blank" class="news-link">消息称某厂年度旗舰手机搭载 6.9 英寸 1.5K LTPO 直屏，预计是华为 Mate 90 Pro Max / RS</a> [28] <font color='grey'>- 18时46分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/985/191.htm" target="_blank" class="news-link">ChatGPT Atlas 浏览器将于 8 月 9 日停止服务，用户需抓紧导出书签数据</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时46分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
