@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 178</p><p>生成时间: 2026-08-05 03:09:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">14.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778684" target="_blank" class="news-link">苹果诉OpenAI升级：苹果申请禁令，要求OpenAI停止使用并归还机密信息</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fce22-ac8a-7aab-8f76-077847436be3" target="_blank" class="news-link">The Daily Telegraph reports Europe may bear costs under a new plan to reopen the Strait of Hormuz.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3778672" target="_blank" class="news-link">美伊间歇非缓和风险持续累积，中国7月出口或放缓，美国AI美元难接替石油美元---0804宏观脱水</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fce0e-c01a-7aab-8f75-e2447732a9fb" target="_blank" class="news-link">Iranian Fars news agency cites a source close to the negotiating team saying that even if talks yield a bilateral Iran-Oman agreement, that deal alone would not provide all the conditions required to secure the Strait of Hormuz.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fce0b-fa0c-7aab-8f75-deadd33d67fd" target="_blank" class="news-link">Axios: White House will not publicly release advanced AI model evaluation framework details</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fce0b-f8b5-7aab-8f75-d65ddf9c4068" target="_blank" class="news-link">Night session main contracts close</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fce0a-9f08-7aab-8f75-cefe099ea5cd" target="_blank" class="news-link">Al Jazeera cites US officials saying the Strait of Hormuz is an international waterway and no party can control its shipping lanes or right of transit.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fce0a-9ea3-7aab-8f75-c329877cbc8e" target="_blank" class="news-link">Shanghai Gold Exchange Gold T+D closed up 0.64% at 887.48 yuan/gram in the Aug. 4 evening session (Tue); Shanghai Gold Exchange Silver T+D closed up 2.56% at 14528.0 yuan/kg.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fce08-d1d2-7aab-8f75-bfdea5ab633f" target="_blank" class="news-link">According to Axios, the White House does not intend to publicly release its new framework for assessing advanced AI models.</a> [11] <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fce06-ac06-7aab-8f75-b470395b58cb" target="_blank" class="news-link">White House to extend Jones Act waiver to ease gasoline prices - Refinitiv</a> [12] <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260805023142240800" target="_blank" class="news-link">美媒：白宫不计划公开先进AI模型评估框架细节</a> [12] <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fce03-f33f-7aab-8f75-aea91d1b9ba0" target="_blank" class="news-link">Iran&#x27;s Fars News Agency said it remains concerned that obstruction by the US or certain regional parties could prolong or disrupt the negotiation process.</a> [13] <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fce01-261d-7aab-8f75-99f698c0ef15" target="_blank" class="news-link">Refinitiv: sources say the WHITE HOUSE expects to extend the Jones Act waiver period in the coming days.</a> [15] <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260805022825767800" target="_blank" class="news-link">据Axios：白宫不打算公开发布其用于评估先进人工智能模型的新框架。</a> [15] <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49170859" target="_blank" class="news-link">Most countries provide between 20 and 40 paid days off</a> [16] <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcdf7-3b86-7aab-8f75-8e0c5d375979" target="_blank" class="news-link">Qatar&#x27;s Emir said his call with Trump addressed recent regional developments, notably efforts to ease US-Iran tensions and bridge positions to bolster prospects for a sustainable diplomatic resolution of the crisis.</a> [17] <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcdf5-b873-7aab-8f75-83577ecfebe3" target="_blank" class="news-link">Qatar&#x27;s emir said he received a call from U.S. President Trump.</a> [18] <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49172597" target="_blank" class="news-link">Blackmail Fail (2013)</a> [18] <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49172545" target="_blank" class="news-link">Show HN: cMCP, deny an AI agent&#x27;s tool call and get a signed receipt</a> [19] <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcddb-3ba8-7aab-8f75-5cb9a19751dd" target="_blank" class="news-link">Turkey warns Russia-Ukraine spillover threatens Black Sea civilian shipping</a> [23] <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcdd2-9561-7aab-8f75-51e0727bf471" target="_blank" class="news-link">Iran says &quot;positive progress&quot; in talks with Oman on Strait of Hormuz</a> [24] <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49172433" target="_blank" class="news-link">AI Data Centers Are Driving Up Power Bills – This Map Shows Where</a> [24] <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcdcb-369e-7aab-8f75-3bfdf9c2ec64" target="_blank" class="news-link">American Petroleum Institute (API) CEO said roughly 7 mln barrels per day of oil transit the Strait of Hormuz.</a> [27] <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49169227" target="_blank" class="news-link">It&#x27;s not a fear of &quot;AI communism&quot;; it&#x27;s a fear of competitive market capitalism</a> [28] <font color='grey'>- 03时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcdc6-4223-7aab-8f75-215d19bf85b4" target="_blank" class="news-link">CENTCOM said as of Aug. 4 US forces had diverted 45 merchant vessels, rendered two merchant vessels inoperable, and boarded and inspected two merchant vessels to ensure compliance with applicable rules.</a> [30] <font color='grey'>- 03时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOGL" target="_blank" class="news-link">谷歌A</a> [29] <font color='grey'>- 03时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
