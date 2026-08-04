@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 312</p><p>生成时间: 2026-08-04 23:04:04</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">7.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcd42-a141-7aab-8f72-ce010a3d3401" target="_blank" class="news-link">Russian Defence Ministry said Russian armed forces continue to attack Ukrainian ports, vessels and port infrastructure used by the Ukrainian military.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5280275" target="_blank" class="news-link">中国上城(02330.HK)：独立非执行董事Aika Ouji获调任为董事会主席及执行董事</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcd41-f872-7aab-8f72-c1bbccf8fd52" target="_blank" class="news-link">President Trump said he asked Senator Darlene Graham to enter the Republican special primary on Aug. 11; she has accepted.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcd3b-e29a-7aab-8f72-ba4251303125" target="_blank" class="news-link">Iraq&#x27;s Oil Ministry said crude is sold ex‑port and buyers are responsible for transportation; once tankers leave Iraqi ports the ministry accepts no responsibility for voyages via the Strait of Hormuz.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3144830" target="_blank" class="news-link">韩国总统李在明：AI重塑全球产业格局，呼吁大胆投资</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/985/708.htm" target="_blank" class="news-link">小红书：大量 AI 毒动画、未成年人软色情陪聊、教唆自残等典型账号被永久封禁</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49166874" target="_blank" class="news-link">Keyv and friends compromised in active Shai-Hulud supply chain attack</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcd34-4c0d-7aab-8f72-a68780f19584" target="_blank" class="news-link">Zelenskiy said Ukraine must urgently complete preparations to domestically produce air-defense systems, missiles and other weapons.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1232103" target="_blank" class="news-link">我的 Tailscale 与代理软件共存 策略 (macOS &amp; Android)</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcd31-7895-7aab-8f72-9a4818ca32a7" target="_blank" class="news-link">Far Eastern Shipping Company (FESCO) said it has suspended accepting new bookings for shipments routed via the Black Sea.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3144824" target="_blank" class="news-link">AI初创公司Listen Labs按15亿美元估值融资1.25亿美元。（The Information）</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcd2a-2135-7aab-8f72-8d90d7efd47f" target="_blank" class="news-link">Reports said an Indian vessel sank 13 miles off the coast of Hodeidah after an attack by an unmanned surface vessel.</a> [11] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49167113" target="_blank" class="news-link">AI-Generated Images Discourage Me from Reading Your Blog</a> [12] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcd24-2836-7aab-8f72-7cd6adf39546" target="_blank" class="news-link">Duke Energy (DUK.N) said it has signed power service agreements with data-center customers totaling 7.8 GW, up 0.2 GW quarter-on-quarter.</a> [13] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcd22-f3b6-7aab-8f72-766a813ace3f" target="_blank" class="news-link">Russian Defence Ministry said it struck another ship near Odesa, Ukraine.</a> [14] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3144820" target="_blank" class="news-link">一位首席投资官说：AI投资已进入“靠陌生人施舍”阶段</a> [14] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcd22-13d0-7aab-8f72-6b07f80922d4" target="_blank" class="news-link">Interfax reports Russia attacked three dry-bulk vessels at a Ukrainian port.</a> [15] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcd20-b335-7aab-8f72-60df3da5221e" target="_blank" class="news-link">U.S. June job openings dip slightly; labor demand remains stable</a> [16] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260804221014356800" target="_blank" class="news-link">营收近翻倍、业绩超预期，Palantir靠“AI主权”讲出新增长故事</a> [17] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcd1e-e768-7aab-8f72-493900a19b4e" target="_blank" class="news-link">Former Israeli prime minister Bennett said Netanyahu has abandoned the goal of defeating Hamas and handed Gaza&#x27;s keys to Qatar.</a> [19] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3144815" target="_blank" class="news-link">报道：美国AI电力需求激增，开发商动用数十亿美元银行担保</a> [19] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fcd16-959a-7aab-8f72-43b5c40c00c3" target="_blank" class="news-link">U.S. Secretary of State Rubio said there is no final outcome yet on the Strait of Hormuz issue, but he hopes an agreement will be reached soon.</a> [20] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/985/693.htm" target="_blank" class="news-link">Linux 暂存区不欢迎 AI 生成补丁，安全修复需通过实际硬件测试验证</a> [20] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/985/684.htm" target="_blank" class="news-link">手写公式实时生成曲线、手绘草图秒变 3D 模型，中国 AI 黑板让海外网友惊叹</a> [26] <font color='grey'>- 23时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">0.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3144828" target="_blank" class="news-link">黑石集团为Anthropic芯片交易推销巨额债务融资方案</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778669" target="_blank" class="news-link">Anthropic再豪掷100亿美元锁定算力，英伟达支持的新贵接单</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4211074_103_1" target="_blank" class="news-link">黑石集团为Anthropic芯片交易推销巨额债务融资方案。</a> [11] <font color='grey'>- 23时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">0.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202608/0478040.html" target="_blank" class="news-link">下午察：遥遥领先的华为败给小小“竹知了”？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/985/701.htm" target="_blank" class="news-link">华为首款 RGB-MiniLED 电视 Vision 智慧屏 6 SE RGB 开售：55 英寸 3499 元，75 英寸 5799 元</a> [14] <font color='grey'>- 23时04分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/985/681.htm" target="_blank" class="news-link">“未来已来”：华为智选车产品总监彭磊晒享界 G9 汽车 L3 自动驾驶功能按键，可亮蓝光</a> [28] <font color='grey'>- 23时04分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%96%91%E4%BC%BC%E6%A2%81%E6%96%87%E9%94%8B%E6%97%A9%E6%9C%9F%E5%BE%AE%E5%8D%9A%E8%A2%AB%E6%89%92" target="_blank" class="news-link">疑似梁文锋早期微博被扒</a> [16] <font color='grey'>- 23时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
