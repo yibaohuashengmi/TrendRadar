@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 387</p><p>生成时间: 2026-08-05 16:41:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">38</td>
+                <td class="percentage">9.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778732" target="_blank" class="news-link">AI行情还能走多远？淡水泉最新表态：7月的回调更多是情绪</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1232269" target="_blank" class="news-link">组装到复刻-AI 技能 recomp 让 React 组件在 Vue 中也用得上</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fd113-f71f-7aab-8f87-0aee79d86c2f" target="_blank" class="news-link">EU Commission President VON DER LEYEN said Russia must pay for the damage it caused and the EU will allocate an additional EUR 1.4 bln to Ukraine from returns on frozen Russian assets.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fd111-69d9-7aab-8f87-006a7f1261b6" target="_blank" class="news-link">Siemens Energy&#x27;s CEO said he expects margins in the gas-turbine business to continue improving.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1232251" target="_blank" class="news-link">突然觉得薅 AI 中转站没意思了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fd110-5b36-7aab-8f86-f0e3ae208fd5" target="_blank" class="news-link">Spain&#x27;s national oil reserve company said June crude imports rose 4.7% YoY to 4.3 mln tonnes.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/986/042.htm" target="_blank" class="news-link">国际 AI 安全榜单 CyberGym 今日放榜：中国方案 DoGNAVY 全球第三、开源第一</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778734" target="_blank" class="news-link">AI产品需求强劲，鸿海7月销售额同比大增54％，预计Q3 AI机架出货续增</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2446218" target="_blank" class="news-link">闪迪和西部数据即将发布财报 业绩能否重新点燃AI存储牛市信心？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/10315979917" target="_blank" class="news-link">梁文峰会不会成为中国 AI 里程碑人物？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7670011027535921202" target="_blank" class="news-link">公司不给你配 AI，你会自己掏钱吗？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959521" target="_blank" class="news-link">AI时代的“权力游戏”：谁得罪内存厂商，谁就可能出局</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260805162028507800" target="_blank" class="news-link">SpaceX(SPCX.O)盘前跌超10%，其AI支出激增引发担忧。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/08/05/ef3c5a157dac41f98944113d6fb997b5.html" target="_blank" class="news-link">美国“抱抱脸”公司CEO：中国AI模型“大概率会成为王者”</a> [11] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/piklum-ai-photo-seo?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Piklum — AI Photo + SEO</a> [11] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778729" target="_blank" class="news-link">台积电扩大AI芯片CoW封装外包，产能瓶颈有望缓解</a> [12] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778730" target="_blank" class="news-link">中信证券：AI驱动光模块升级，测试设备高速成长</a> [13] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fd10a-17ba-7aab-8f86-af73b809a7f6" target="_blank" class="news-link">Interfax: Russian Defence Ministry said Russian forces hit three vessels in the Black Sea carrying Ukrainian military cargo.</a> [14] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fd109-f168-7aab-8f86-a0943c195723" target="_blank" class="news-link">Japan&#x27;s finance minister Katayama said a decision on the framework for tax credits and tax cuts will be made in September.</a> [15] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23AI%E5%81%9A%E7%9A%84%E5%8A%A8%E7%89%A9%E5%B0%BA%E5%BA%A6%E5%A4%AA%E5%A4%A7%E4%BA%86%23&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">AI做的动物尺度太大了</a> [15] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/adant-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AdAnt AI</a> [15] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fd109-2982-7aab-8f86-9ff8c1db8939" target="_blank" class="news-link">Japan&#x27;s finance minister Satsuki Katayama said the Cabinet approved a two-year reduction or waiver of the food sales tax.</a> [16] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/train-my-player2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Train My Player2</a> [16] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fd107-5519-7aab-8f86-958e7be92dbb" target="_blank" class="news-link">Japan&#x27;s finance minister Katayama said U.S. Treasury Secretary Bessent is confident in Japan&#x27;s policy stance.</a> [17] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778725" target="_blank" class="news-link">SpaceX业绩炸裂、股价却暴跌！高盛力挺：AI业务颠覆估值逻辑，花旗长期看到900美元</a> [17] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fd105-e050-7aab-8f86-895a7a206d19" target="_blank" class="news-link">Japan&#x27;s finance minister Katayama said U.S. Treasury Secretary Bessent acknowledged Japan&#x27;s efforts on fiscal discipline.</a> [18] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fd105-0275-7aab-8f86-848b00d4aca3" target="_blank" class="news-link">KATAYAMA said the surplus in the special foreign-exchange account has been used.</a> [19] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/985/990.htm" target="_blank" class="news-link">唯卓仕推出雾月银配色富士 X 卡口 AF 9/15/25mm Air 相机镜头，899 元起</a> [19] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fd104-d1f4-7aab-8f86-7b3746fc3e3f" target="_blank" class="news-link">Japan&#x27;s finance minister KATAYAMA said she will fully explain the government&#x27;s fiscal policy to markets.</a> [20] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fd104-b602-7aab-8f86-74d17bdaa529" target="_blank" class="news-link">JP Morgan raised its target price for SpaceX (SPCX.O) to $240 from $225.</a> [21] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fd103-754d-7aab-8f86-693a8045ce25" target="_blank" class="news-link">Japan&#x27;s finance minister KATAYAMA said he will review budget expenditures and revenues to ensure funds are available to plug tax revenue shortfalls.</a> [22] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/985/972.htm" target="_blank" class="news-link">世界银行：新兴经济体应尽快拥抱 AI，但没必要与富裕国家比拼数据中心、大模型</a> [22] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fd102-950a-7aab-8f86-65218b413bf8" target="_blank" class="news-link">SpaceX (SPCX.O) fell more than 10% in pre-market trading after a surge in its AI spending raised investor concern.</a> [23] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fd102-4825-7aab-8f86-58e41bf8894a" target="_blank" class="news-link">Taiwan&#x27;s foreign exchange reserves fell to US$594.27 billion in July from US$597.15 billion the previous month.</a> [24] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fd102-3104-7aab-8f86-4fccd2350b4b" target="_blank" class="news-link">Japan&#x27;s finance minister KATAYAMA said she will not rely on new debt issuance to cover tax-revenue shortfalls.</a> [26] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/985/953.htm" target="_blank" class="news-link">报告称 2026 普利策奖 5 个获奖和 3 个入围项目披露使用 AI 创新高</a> [27] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3145241" target="_blank" class="news-link">鸿海：7月销售额9,465.1亿元台币，首次突破9,000亿新台币，同比增长54.2％。 展望第三季度，AI机架出货量预计将保持增长。 整体运营前景预计将实现环比和同比双增长。 仍有必要监测全球政经局势动荡所带来的影响。</a> [29]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fd0fb-f83e-7aab-8f86-28b1bb4bd63b" target="_blank" class="news-link">Mizuho reiterated an outperform rating on SpaceX (SPCX.O) and maintained a $200 price target.</a> [30] <font color='grey'>- 16时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">8</td>
+                <td class="percentage">2.07%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202608/0578093.html" target="_blank" class="news-link">浙江官方谈华为“竹知了”风波：听得进嘈杂是一种自信</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/986/049.htm" target="_blank" class="news-link">华为鸿蒙电脑 HarmonyOS 7 花粉 Beta 版计划 8 月中旬开启</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/986/043.htm" target="_blank" class="news-link">华为发布新款鸿蒙折叠电脑，支持手写笔，售价 24999 元起</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E5%8F%91%E5%B8%83%E4%BC%9A&amp;t=31&amp;band_rank=5&amp;Refer=top" target="_blank" class="news-link">华为发布会</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B0%8A%E7%95%8CMPV%E5%8F%8A%E5%8D%8E%E4%B8%BA%E6%96%B0%E5%93%81%E5%8F%91%E5%B8%83%E4%BC%9A" target="_blank" class="news-link">尊界MPV及华为新品发布会</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3145272" target="_blank" class="news-link">华为发布新款鸿蒙折叠电脑，售价24999元起</a> [11] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/986/024.htm" target="_blank" class="news-link">鸿蒙智行豪华硬派 SUV 享界 G9 预售：首发华为全地形途灵平台，43.98 万元起</a> [11] <font color='grey'>- 16时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/985/954.htm" target="_blank" class="news-link">华为余承东：尊界 V800 搭载行业首款智能电动鞋盒，独创杀菌净味系统</a> [26] <font color='grey'>- 16时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=DeepSeek%E4%BB%B7%E6%A0%BC%E6%98%AF%E6%9C%89%E7%82%B9%E8%BF%87%E5%88%86%E4%BA%86&amp;t=31&amp;band_rank=22&amp;Refer=top" target="_blank" class="news-link">DeepSeek价格是有点过分了</a> [22] <font color='grey'>- 16时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/986/008.htm" target="_blank" class="news-link">阿里云上线 One Key MCP 服务：兼容 Qoder、Codex 等，可一键调用多家 MCP 服务</a> [15] <font color='grey'>- 16时41分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
