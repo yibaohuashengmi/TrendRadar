@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 202</p><p>生成时间: 2026-08-07 19:50:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">8.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdbf2-cc33-7aab-8fb8-1b0a29b5880e" target="_blank" class="news-link">Stifel raises PT on Cloudflare (NET.N) to $370 from $260.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdbf0-ae24-7aab-8fb8-17ed8c0830c7" target="_blank" class="news-link">WEDBUSH upgraded Airbnb (ABNB.O) to Outperform from Neutral and raised its PT to $200 from $152.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdbef-7719-7aab-8fb8-0f3e27d74746" target="_blank" class="news-link">BlackRock: U.S. euro sales to support yen raise long-bond risk</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdbee-227e-7aab-8fb8-06462b3ac433" target="_blank" class="news-link">Shenzhen, Shanghai exchanges propose LOF delisting rules to curb high‑premium speculation</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/progress-ai-observability?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Progress AI Observability</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/troopr?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Troopr AI Scrum Master</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdbe5-ea46-7aab-8fb7-db30889fda64" target="_blank" class="news-link">Nasdaq ETF: The fund will be suspended from market open on Aug 10, 2026 until 10:30. If the secondary-market trading premium does not narrow, the fund reserves the right to apply to the Shanghai Stock Exchange for intraday temporary halts or extended suspensions to warn the market of risk.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3778904" target="_blank" class="news-link">美光管理层传递强势信号：存储的系统价值超过50%，CPU端AI代理需求处于“季前热身”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdbe5-5fed-7aab-8fb7-d260930942e4" target="_blank" class="news-link">ChinaAMC: Short-term A-share tech volatility doesn&#x27;t alter long-term AI thesis; bonds retain core allocation value</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdbe3-d777-7aab-8fb7-cc1353fda3a9" target="_blank" class="news-link">CBS News reports Trump plans to announce on Friday more than $180 mln in funding to bolster mining education and trade programs, part of efforts to raise critical minerals output.</a> [11] <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdbe3-1cbe-7aab-8fb7-c0c3a240f684" target="_blank" class="news-link">Zhongliang Holdings said contracted sales for Jan-Jul 2026 totaled RMB 3.98 bln, covering about 401,000 sqm, with an average contracted price of RMB 9,900/sqm. In July alone contracted sales were RMB 380 mln on roughly 36,000 sqm, average price RMB 10,400/sqm.</a> [12] <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdbe0-3d55-7aab-8fb7-a839c910b955" target="_blank" class="news-link">JBS Group said its joint venture with Indonesian sovereign wealth fund Danantara will pursue transactions in the protein sector across Asia and Australia.</a> [15] <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdbde-b49b-7aab-8fb7-90677fd847c8" target="_blank" class="news-link">Saudi Arabia, Turkey and Pakistan said they would treat an armed attack on any of the three countries as an attack on all three.</a> [18] <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdbda-edb1-7aab-8fb7-8ff833800161" target="_blank" class="news-link">Mizuho raised its PT on Cloudflare (NET.N) to $375 from $310.</a> [19] <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdbda-a067-7aab-8fb7-817ef9b9821d" target="_blank" class="news-link">MIZUHO raises its PT on Airbnb (ABNB.O) to $200 from $175.</a> [20] <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdbd4-f65c-7aab-8fb7-74a87f30a499" target="_blank" class="news-link">Shenzhen Stock Exchange said it will place Chuanzhi Education and Gaozheng Minbao under heightened monitoring for recent severe abnormal price volatility from Aug. 3 to Aug. 7, 2026.</a> [22] <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7671214313847131702/" target="_blank" class="news-link">非洲开发者更愿用中国AI模型说明啥</a> [27] <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdbcd-96c8-7aab-8fb7-37a3095e7f3f" target="_blank" class="news-link">A Turkish official said the agreement will not annul or replace any bilateral or multilateral agreements.</a> [30] <font color='grey'>- 19时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/173.htm" target="_blank" class="news-link">华为何刚官宣 FreeClip 2 耳夹耳机配饰上新，和法国珠宝品牌 Les Néréides 达成合作</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/163.htm" target="_blank" class="news-link">华为智选车产品总监彭磊：享界 G9 户外套件精品可提车后在用户中心换装</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.99%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3146694" target="_blank" class="news-link">王兴兴回应DeepSeek参与宇树科技IPO战略配售</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778956" target="_blank" class="news-link">涨价30倍仍是最便宜的模型，DeepSeek可能有这个底气</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
