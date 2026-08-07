@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 146</p><p>生成时间: 2026-08-08 03:31:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">13.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd99-4f01-7aab-8fc0-aaa94a186241" target="_blank" class="news-link">U.S. officials say Oman and Iran have made progress in talks over the Strait of Hormuz and are expected to reach an agreement soon.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd98-99d9-7aab-8fc0-8d6fcb7df616" target="_blank" class="news-link">U.S. Democratic Senator Warren said she will oppose Trump&#x27;s attempt to remove Federal Reserve governor Cook.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd97-6013-7aab-8fc0-853913ea7821" target="_blank" class="news-link">IDF spokesman said the military will release information to the public based on objective assessments and will not disclose information that, in its view, could endanger forces operating in the theater.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260808032042397800" target="_blank" class="news-link">据The Information：SpaceX(SPCX.O)最早可能在下周末完成对编程初创公司Cursor的600亿美元收购。Cursor将与SpaceX AI团队进行整合。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd93-0b1e-7aab-8fc0-786d8d6ccbeb" target="_blank" class="news-link">Mehr news agency reported Iranian President PEZESHKIAN said the United States and Israel, through plots and recent wars, have sought to drive a wedge between Iran and Persian Gulf littoral states, but Iran has settled many issues with numerous neighbors.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49214468" target="_blank" class="news-link">Databricks drove down AI coding spend 70%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd91-75fa-7aab-8fc0-76718060ad3a" target="_blank" class="news-link">Mehr News Agency: Iranian President PEZESHKIAN said Iran will not yield to coercion but does not seek war or aggression.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd8c-0877-7aab-8fc0-6434717eb5fd" target="_blank" class="news-link">Musk said the company is working to make Grok Build very easy to use for non-technical users.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd89-5d5c-7aab-8fc0-5b446ed234d1" target="_blank" class="news-link">A senior executive at Brazil&#x27;s state oil company Petrobras said the firm&#x27;s 2027–31 investment plan aims to make Brazil self-sufficient in diesel production.</a> [11] <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd86-9220-7aab-8fc0-48e9aa5c2686" target="_blank" class="news-link">Musk said recovery of the Starship from its 13th flight is not optimistic, but teams obtained close-up images of the heat shield and critical engine areas to guide future upgrades.</a> [13] <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd7f-3eb1-7aab-8fc0-3d77e52c2e4d" target="_blank" class="news-link">Night session main contracts close</a> [15] <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd7f-35dd-7aab-8fc0-3433a8046ee6" target="_blank" class="news-link">Shanghai Gold Exchange Gold T+D rose 1.33% to 938.8 yuan/gram at the close of the Aug. 7 night session. Shanghai Gold Exchange Silver T+D rose 1.1% to 15,400 yuan/kg at the same close.</a> [16] <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd74-45d5-7aab-8fc0-02dfbdd97a9d" target="_blank" class="news-link">US Treasury Secretary Bessent said Iran’s shadow-banking networks are being squeezed by the &#x27;Economic Fury&#x27; operation and the regime’s channels for moving funds are running out. The US Treasury will continue to expose these networks and sever their links to the US financial system.</a> [22] <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd6f-7066-7aab-8fbf-e8b6c5c67ecc" target="_blank" class="news-link">The U.S. Senate voted to confirm David Cummins as administrator of the Transportation Security Administration and Phelan as chair of the Council of Economic Advisers.</a> [25] <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd6e-f4e4-7aab-8fbf-e56a25dd015c" target="_blank" class="news-link">Iran&#x27;s foreign minister Araghchi said Iran&#x27;s armed forces have demonstrated their readiness, capability and strength when facing the world&#x27;s most expensive military force.</a> [26] <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd6c-a0be-7aab-8fbf-d9ea841c5086" target="_blank" class="news-link">Marathon Oil (MRO.N) said a compressor leak was discovered during an equipment inspection at its Galveston Bay, Texas refinery, with emissions reported from unit RHU‑FUGIT F‑480. The company is carrying out repairs to isolate the equipment and stop the leak.</a> [27] <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd69-6a5e-7aab-8fbf-d43f242d90c8" target="_blank" class="news-link">Refinitiv sources said Canada expects it will have to accept partial US tariffs on steel and aluminum. Canada prefers any tariff exemptions be implemented via side letters rather than incorporated into the updated USMCA text.</a> [28] <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd69-2674-7aab-8fbf-c85d4a9827ff" target="_blank" class="news-link">Refinitiv sources said the U.S. has agreed to daily negotiations through Aug. 19. Canada is prepared to address U.S. concerns on alcohol sales, dairy and the auto sector, but seeks exemptions from U.S. Section 232 tariffs under the Trade Expansion Act in return.</a> [29] <font color='grey'>- 03时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd68-a4d5-7aab-8fbf-c7808a9622bf" target="_blank" class="news-link">According to Reuters sources, Canada is in intensive talks with the US to avert additional US tariffs scheduled to take effect on Aug 19. Ottawa has told US negotiators that if the sides cannot agree to delay the tariffs by Aug 19, Canada’s ability to continue negotiating afterwards will be constrained.</a> [30] <font color='grey'>- 03时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd7b-966c-7aab-8fc0-29c0f6881a66" target="_blank" class="news-link">Claude will change Claude Code&#x27;s default permission mode to automatic for Pro, Max and Team users from Aug. 14. The automatic mode uses a separate classifier to review shell commands and operations. In tests the classifier detected 89% of dangerous commands versus 14% detected under manual approval mode.</a> [17] <font color='grey'>- 03时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOGL" target="_blank" class="news-link">谷歌A</a> [28] <font color='grey'>- 03时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/641617264.html" target="_blank" class="news-link">诋毁华为对你们有什么好处？</a> [26] <font color='grey'>- 03时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49214008" target="_blank" class="news-link">DeepSeek V4 Flash 0731</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
