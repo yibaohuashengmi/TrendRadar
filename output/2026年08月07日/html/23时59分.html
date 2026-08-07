@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 216</p><p>生成时间: 2026-08-07 23:59:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">11.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdcd2-bc78-7aab-8fbd-8320e999f67e" target="_blank" class="news-link">Petrobras CEO said Q2 oil production exceeded targets by 200,000 bpd.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/218.htm" target="_blank" class="news-link">Anthropic 为自研 AI 芯片开出高薪，模型训练岗位薪资高于实际造芯工程师</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202608/0778274.html" target="_blank" class="news-link">全球AI热潮拉动 中国7月出口继续保持高速增长</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdcd0-e68b-7aab-8fbd-791bb7bd1008" target="_blank" class="news-link">TASS reported that a Ukrainian attack on Crimea killed two people.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/217.htm" target="_blank" class="news-link">AI 需求挤爆云计算，消息称 AWS 要求工程师关闭闲置服务器减少资源浪费</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1232825" target="_blank" class="news-link">写了个不到 10MB 的开源数据库客户端，把 AI、图表、工作流都塞进去了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdcce-733d-7aab-8fbd-69744f1bbbe6" target="_blank" class="news-link">China AI foundation models shift to time-based, dynamic pricing</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdcc4-c4da-7aab-8fbd-5f7688fd6abc" target="_blank" class="news-link">Russian Defence Ministry said Russian forces struck two cargo ships in the Black Sea.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3146821" target="_blank" class="news-link">AI大模型迈向分时定价</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5282420" target="_blank" class="news-link">深圳华强(000062.SZ)：在AI发展的驱动下，电子元器件行业景气度预计将持续高企</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5282418" target="_blank" class="news-link">顺络电子(002138.SZ)：TLVR拓扑结构产品主要用于AI服务器的xPU芯片方面</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8vP4WV73BTc" target="_blank" class="news-link">国民党推出AI发言人“郑小文”迎战民进党</a> [11] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdcb9-4107-7aab-8fbd-31f55754d289" target="_blank" class="news-link">Typhoon White Dolphin forces temporary suspension of some Yangtze River Delta rail services</a> [11] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33729568" target="_blank" class="news-link">释疑｜建多少数据中心才够？美国AI基建热潮撞上“社区保卫战”</a> [14] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdcb1-f0c6-7aab-8fbd-1d782b08bf92" target="_blank" class="news-link">Fed&#x27;s Barkin said it is currently unclear how large an impact artificial intelligence will have on overall productivity.</a> [14] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdcaf-61d4-7aab-8fbd-17ec0e778816" target="_blank" class="news-link">Fed&#x27;s Barkin said he continues to hear from contacts about inflation and cost pressures.</a> [15] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260807231850535800" target="_blank" class="news-link">AI大模型迈向分时定价</a> [17] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdca7-ebc5-7aab-8fbc-f9f16255fd16" target="_blank" class="news-link">Federal Reserve&#x27;s Barkin said the unemployment rate is the best gauge of labor-market health.</a> [18] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdca6-bfb6-7aab-8fbc-f4e6ad5ea19d" target="_blank" class="news-link">U.S. Secretary of the Army said the Army will open new doors to companies.</a> [19] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3146803" target="_blank" class="news-link">美团王莆中：在AI助力下将建设“15分钟医疗圈</a> [19] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdca5-0cf8-7aab-8fbc-e39ce3219ef1" target="_blank" class="news-link">Fed&#x27;s Barkin said he does not currently see wage-driven inflation.</a> [21] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdca3-3ee9-7aab-8fbc-dd4df83012ce" target="_blank" class="news-link">Fed&#x27;s BARKIN said he sees pricing power among firms, but their ability to pass higher prices through to consumers is limited.</a> [22] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260807230423204800" target="_blank" class="news-link">&lt;a href=&quot;https://cdn.jin10.com/vip_column/index.html#/detail?id=850591&amp;skuID=1671010697886&amp;type=article&amp;courseID=225&amp;from=flash&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://img.jin10.com/misc/26/08/jwXasxMKTX0anRNXTKMOK.jpg/lite&quot; height=&quot;120&quot;/&gt;&lt;/a&gt;</a> [22] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4217122_1_1" target="_blank" class="news-link">美国里士满联储主席巴尔金：目前尚不清楚人工智能对整体生产力水平的影响有多大。</a> [24] <font color='grey'>- 23时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260807231253787800" target="_blank" class="news-link">奥士康：与AMD合作尚处送样阶段，未与英伟达、谷歌开展订单合作</a> [18] <font color='grey'>- 23时59分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5282423" target="_blank" class="news-link">国脉文化(600640.SH)：公司与华为未开展深度合作</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
