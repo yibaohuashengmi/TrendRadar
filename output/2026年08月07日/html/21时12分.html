@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 257</p><p>生成时间: 2026-08-07 21:12:32</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">3.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [GitHub] <a href="https://github.com/PrimeIntellect-ai/prime-agent" target="_blank" class="news-link">PrimeIntellect-ai / prime-agent</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdc4f-4ee4-7aab-8fba-f66a563b7055" target="_blank" class="news-link">Hungarian Prime Minister Magyar said the expansion cost of the Paks II nuclear power plant is now twice the original estimate.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/190.htm" target="_blank" class="news-link">Suno 平台将为 AI 生成音乐添加隐水印，防止滥用现象发生</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1232815" target="_blank" class="news-link">分享一下给 AI Agent 挑解析工具的经验</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdc49-1cdb-7aab-8fba-cb3194311090" target="_blank" class="news-link">Hungary&#x27;s prime minister magyar said the government will launch a tender for 700 MW of wind power capacity before Aug. 31.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdc44-d497-7aab-8fba-c3ec7d5b8b20" target="_blank" class="news-link">Indeed economist Sneha Puri: World Cup hiring surge failed to materialize</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdc38-fa22-7aab-8fba-67269611a7e6" target="_blank" class="news-link">Timiraos said the US unemployment rate fell to 4.09% in July as both jobseekers and those counted as unemployed declined, marking a two-year low; February 4.44%, last November 4.54%.</a> [20] <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdc38-e1d6-7aab-8fba-5cf37c30c982" target="_blank" class="news-link">Healthcare remains a sustained positive contributor</a> [21] <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdc38-47de-7aab-8fba-499eb8bd8e55" target="_blank" class="news-link">Japan&#x27;s finance minister KATAYAMA said Tokyo and Washington have been in close contact and both will not hesitate to take intervention measures if necessary.</a> [23] <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdc37-26d2-7aab-8fba-2c427554649f" target="_blank" class="news-link">Japan&#x27;s finance minister Katayama said he and U.S. Treasury Secretary Bessent agreed FX markets have been influenced by moves driven by non-fundamental demand.</a> [27] <font color='grey'>- 21时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5282350" target="_blank" class="news-link">奥士康(002913.SZ)：未与英伟达、谷歌开展订单合作</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/google/skills" target="_blank" class="news-link">google / skills</a> [17]</div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1232816" target="_blank" class="news-link">为了用上梁圣的 deepseek，开发了一个双语翻译，然后发现这行护城河还挺深</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时12分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%A2%81%E6%96%87%E9%94%8B+%E5%8F%AA%E6%83%B3%E7%94%A8%E5%BA%A7%E6%9C%BA" target="_blank" class="news-link">梁文锋 只想用座机</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1232811" target="_blank" class="news-link">[安卓内测招募] Redock - 为 ClaudeCode/Codex 等 Agent 开发流适配的手机终端</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
