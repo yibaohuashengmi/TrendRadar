@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 273</p><p>生成时间: 2026-08-07 17:33:47</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">8.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdb8d-c1d4-7aab-8fb5-b2e7938a8131" target="_blank" class="news-link">U.S. President TRUMP said artificial intelligence is many times larger than the internet.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdb8d-7ad9-7aab-8fb5-ad8100425793" target="_blank" class="news-link">Trump said Republican voters are angry with Republicans but not with him, and he expects the GOP to win the midterm elections.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778909" target="_blank" class="news-link">A股三大股指齐涨超1%，CRO、PCB掀涨停潮，中际旭创午后跳水，港股AI大模型双雄再爆发</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdb8c-4dde-7aab-8fb5-a70a05e65772" target="_blank" class="news-link">Fujian raises typhoon emergency response to Level 3 ahead of Typhoon No.13 &quot;White Dolphin&quot;</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202608/0778249.html" target="_blank" class="news-link">国民党公布AI发言人郑小文 备战九合一选举</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3146603" target="_blank" class="news-link">美股光通信股AAOI盘前涨超15%，公司管理层在业绩电话会上释放积极信号，表示AI基础设施需求强劲，客户需求较其当前供应能力高出约20%至40%。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdb8a-f45f-7aab-8fb5-902aa3c49c73" target="_blank" class="news-link">Russian Defence Ministry said Russian forces struck 34 vessels used by the Ukrainian military over the past week.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdb87-acfb-7aab-8fb5-8a6b117a6c37" target="_blank" class="news-link">U.S. President Trump said he may be the last Republican president.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/057.htm" target="_blank" class="news-link">Alphabet 再度举债 200~250 亿美元，软银以 OpenAI 股份担保借款 100 亿美元</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdb87-484c-7aab-8fb5-839ed4200cf6" target="_blank" class="news-link">U.S. President Trump said a single deal could erase the U.S. trade deficit with Switzerland.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdb85-ed98-7aab-8fb5-7b672ea7df7c" target="_blank" class="news-link">US President Trump said artificial intelligence could be more important than oil and that whoever wins AI will win everything.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1232768" target="_blank" class="news-link">36 岁被裁后开始玩路亚，两年后我用 AI 给钓场写了个 SaaS</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/catchthemail?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">CatchTheMail</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1232767" target="_blank" class="news-link">发现一个有趣的现象， AI 开发代码的自查陷阱</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdb84-88f5-7aab-8fb5-67a8b28088c8" target="_blank" class="news-link">A top executive at State Bank of India said the bank has raised $6.0 bln of subsidized foreign‑currency deposits to date and, based on take-up, expects to raise about $10.0 bln in total.</a> [11] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260807172007161800" target="_blank" class="news-link">美国总统特朗普：（关于人工智能）这可能比石油还要重要。谁赢得人工智能，谁就赢得一切。就是如此重要。</a> [12] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdb7c-f777-7aab-8fb5-4133c9264b5a" target="_blank" class="news-link">JP Morgan raises stake in Zhongji Xuchuang H shares to 15.02%</a> [15] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/e07702037462474596f83b57f0d0ce72" target="_blank" class="news-link">小红书 - AI后端开发 一面（约二面</a> [16] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdb77-9d28-7aab-8fb5-12a27f21f373" target="_blank" class="news-link">JP Morgan raises ConocoPhillips (COP.N) PT to $134 from $124.</a> [21] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdb75-be91-7aab-8fb5-0ecf475b3609" target="_blank" class="news-link">According to the Shanghai Stock Exchange website, Yunshenchu Technology Co., Ltd.&#x27;s STAR Market IPO review status has changed to &#x27;inquiry&#x27;.</a> [22] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3146580" target="_blank" class="news-link">谷歌将人工智能管理重心迁至加州 全力迎战Anthropic与OpenAI</a> [24] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdb72-25be-7aab-8fb4-ee6a6bbf61b4" target="_blank" class="news-link">Saudi state TV said Turkish President Erdogan arrived in Saudi Arabia.</a> [26] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdb71-600c-7aab-8fb4-e7b3d613b562" target="_blank" class="news-link">As of July 31, Thailand&#x27;s foreign exchange reserves stood at $275.45 bln, up from $272.59 bln on July 24.</a> [27] <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdb6e-1c0d-7aab-8fb4-cadadefe899c" target="_blank" class="news-link">SERES (09927.HK) said its board will meet on Aug. 19, 2026 to review and approve publication of interim results for the six months ended June 30, 2026 and to consider other matters.</a> [30] <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/098.htm" target="_blank" class="news-link">王兴兴回应 DeepSeek 投资宇树：将在三方面开展重点合作</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时33分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1232772" target="_blank" class="news-link">Opencode Go 套餐的 DeepSeek V4 Flash 涨价了，注意用量</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202608/0778252.html" target="_blank" class="news-link">华为小米粉丝掐架 小米高管疑影射华为“孩go”言论上热搜</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5282029" target="_blank" class="news-link">阿里巴巴－Ｗ(09988.HK)：将于8月20日公布季度业绩</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
