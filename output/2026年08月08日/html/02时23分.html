@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 157</p><p>生成时间: 2026-08-08 02:23:04</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">9.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49213754" target="_blank" class="news-link">Oracle bans AI-generated code from OpenJDK</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd5e-9386-7aab-8fbf-92330892005b" target="_blank" class="news-link">SpaceX (SPCX.O) recovery team remains in the Indian Ocean conducting recovery operations for Starship&#x27;s 13th flight.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd56-e2d3-7aab-8fbf-79a9f731ec86" target="_blank" class="news-link">US Treasury Secretary Bessent said the US economy is likely to accelerate.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778967" target="_blank" class="news-link">AI债务狂潮遭遇“消化不良”，华尔街开始重新审视科技巨头发债热潮</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd56-ae2f-7aab-8fbf-75c52c7246d4" target="_blank" class="news-link">U.S. Treasury Secretary Bessent said today&#x27;s jobs report underestimated the U.S. economy&#x27;s underlying strength.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd4b-f8be-7aab-8fbf-5bb0f4bc6cc0" target="_blank" class="news-link">Axios reports a diplomat from the mediation country said Iranian negotiators are awaiting final approval from Iran&#x27;s Supreme National Security Council for an agreement with Oman and the United States; &quot;we expect to receive this approval soon.&quot;</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3146852" target="_blank" class="news-link">法务AI公司Harvey洽谈按155亿美元估值融资至少5亿美元，该公司当前年化收入超过3.5亿美元。（The Information）</a> [11] <font color='grey'>- 02时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd3c-271d-7aab-8fbf-3fc51a8f95d2" target="_blank" class="news-link">U.S. FAA issues airworthiness directive requiring inspections on certain Boeing jets</a> [13] <font color='grey'>- 02时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd3a-56aa-7aab-8fbf-226e0758a755" target="_blank" class="news-link">Hassett says Trump and Fed chair Kevin Warsh regularly discuss the economy</a> [16] <font color='grey'>- 02时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd34-3649-7aab-8fbf-14c22bf94da3" target="_blank" class="news-link">Cook&#x27;s lawyer said they will challenge the latest pretext and defend Cook&#x27;s position and duties at the Federal Reserve.</a> [18] <font color='grey'>- 02时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd33-fd7f-7aab-8fbf-0b4a7e37a7f9" target="_blank" class="news-link">The lawyer for Fed Governor Cook said there is no valid basis to remove him from office.</a> [19] <font color='grey'>- 02时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd2e-555d-7aab-8fbf-001d290ef609" target="_blank" class="news-link">Houthi armed group said its forces will respond to any escalation with escalation and vowed to strike any Saudi forces mobilized to continue the blockade.</a> [20] <font color='grey'>- 02时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3146841" target="_blank" class="news-link">OpenAI：Astra是一款尚未发布的模型，无法排除Astra模型具备关键网络攻击能力</a> [20] <font color='grey'>- 02时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd2d-f9c3-7aab-8fbe-f8d919aae499" target="_blank" class="news-link">Houthi movement said Yemen’s armed forces struck Saudi forces massing and hit ammunition depots, vehicles and military equipment at the Saḥn al-Jinn camp.</a> [21] <font color='grey'>- 02时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fdd27-16e4-7aab-8fbe-b9aa7cccbae9" target="_blank" class="news-link">The Information reports legal-AI startup Harvey is in talks to raise financing at a $15.5 billion valuation.</a> [29] <font color='grey'>- 02时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">1.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/641628275.html" target="_blank" class="news-link">华为竹知了的奇怪节奏，是哪个省份在玩这个东西？</a> [18] <font color='grey'>- 02时23分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/641664717.html" target="_blank" class="news-link">反华媒体“联合早报”大肆借“竹知了”攻击华为</a> [20] <font color='grey'>- 02时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
