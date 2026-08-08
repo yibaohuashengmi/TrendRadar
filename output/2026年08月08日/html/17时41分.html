@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 128</p><p>生成时间: 2026-08-08 17:41:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">7.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fe0a1-b9c8-7aab-8fc3-5f2b2ebe7f10" target="_blank" class="news-link">RIA reports the Russian Defence Ministry says it captured Ivanivka in Ukraine&#x27;s Kharkiv region.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fe09d-66f0-7aab-8fc3-557bf6fb0df0" target="_blank" class="news-link">Indian food regulator has issued a notice to Diageo, the world&#x27;s largest spirits company, warning that its claim a local whisky brand was &quot;matured in American oak barrels&quot; is misleading.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时41分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1232924" target="_blank" class="news-link">Apple AI 国行真的来了！</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时41分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fe08b-f824-7aab-8fc3-4dd889cf8718" target="_blank" class="news-link">Local authorities said the fire at the Ilsky oil refinery in Russia&#x27;s Krasnodar region has been extinguished.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/374.htm" target="_blank" class="news-link">专为 AI 智能体打造的云端浏览器，Cloudflare 发布 Kitesurf</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/367.htm" target="_blank" class="news-link">微信 AI 助手“小微”再扩容，灰度测试朋友圈“帮写”及“点评”功能</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时41分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/freeman-protocol-build-ai-survive?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Freeman Protocol — Build AI &amp; survive</a> [11] <font color='grey'>- 17时41分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2042649810709239000" target="_blank" class="news-link">为什么体制内至今仍不鼓励用人工智能？</a> [18] <font color='grey'>- 17时41分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/fairflow-pay-for-minutes-dictation-app?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">FairFlow – pay for minutes dictation app</a> [19] <font color='grey'>- 17时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">5</td>
+                <td class="percentage">3.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778992" target="_blank" class="news-link">苹果终于把千问接进Siri：中国版Apple Intelligence来了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3146987" target="_blank" class="news-link">苹果官网显示，Apple智能可配合阿里巴巴千问模型工作。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时41分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4217623_103_1" target="_blank" class="news-link">苹果官网显示，Apple智能可配合阿里巴巴千问模型工作。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时41分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/366.htm" target="_blank" class="news-link">苹果 Mac 简体中文支持文档更新，“Apple 智能”阿里千问扩展现身了</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时41分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2069009991709857177" target="_blank" class="news-link">字节讨论训练国内最大模型，参数规模将超过阿里 Qwen 3.8-Max 和 Kimi K3，如何看待此事？</a> [20] <font color='grey'>- 17时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/371.htm" target="_blank" class="news-link">谷歌否认 Gemini 使用私人文档训练，此前有开发者称未公开内容遭泄露</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/373.htm" target="_blank" class="news-link">华为乾崑 ADS 代客充电功能展望：让车自己去充电，机械臂自动插拔枪</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时41分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
