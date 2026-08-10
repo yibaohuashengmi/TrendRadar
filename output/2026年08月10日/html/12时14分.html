@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 319</p><p>生成时间: 2026-08-10 12:14:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">20</td>
+                <td class="percentage">6.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/799.htm" target="_blank" class="news-link">小米 2027 届全球校园招聘启动：AI 相关岗位需求增长 50%，产研类占比 70%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fe9c9-1ed5-7aab-8fd0-924c7096fec8" target="_blank" class="news-link">ADNOC Gas said increased UAE oil output has bolstered supply confidence.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/781.htm" target="_blank" class="news-link">iGame X870E VULCAN OC V14 火神主板体验：BIOS 重磅升级，X3D AI 超频突破性能上限</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1233186" target="_blank" class="news-link">https://gauge.cloudad.click 写了一个 AI 看金融指标的小工具，求反馈</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959545" target="_blank" class="news-link">14岁的“AI股神”</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5282566" target="_blank" class="news-link">ETF午评 | 创业板指跌2.18%，算力硬件板块调整，通信ETF、科创创业人工智能ETF跌4%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5282565" target="_blank" class="news-link">A股午评：创业板指跌2.18%，医疗服务、养殖业板块领涨，AI硬件板块调整</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3779038" target="_blank" class="news-link">OpenAI曝光GPT-6！传10万亿参数，8月强行发布</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2069770698055050765" target="_blank" class="news-link">67 岁农户听信 AI 喷农药致 150 亩地一夜枯萎，老人听 AI 翻车的事层出不穷，有啥办法能帮助他们辨别吗？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fe9b7-7d68-7aab-8fd0-316c48f61c57" target="_blank" class="news-link">NYSE president said he is optimistic about the pipeline of Asian and global listings and expects the global IPO boom to continue through 2027.</a> [14] <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fe9ac-42ab-7aab-8fd0-115f77768f25" target="_blank" class="news-link">YONHAP: A South Korean government think tank said on Monday that while Middle East uncertainty could add upward pressure to inf, the South Korean economy has shown signs of a broader improvement led by strong performance in chip-related industries.</a> [18] <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%BB%BA%E8%AE%AE%E6%AF%8F%E4%B8%AA%E4%BA%BA%E9%83%BD%E7%94%A8AI%E5%81%9A%E7%9A%84%E4%B8%89%E4%BB%B6%E4%BA%8B&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">建议每个人都用AI做的三件事</a> [20] <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fe99f-23a2-7aab-8fcf-ee7b21ecd3e3" target="_blank" class="news-link">Guangdong holds training on 2026 policy financing tools for private firms in Guangzhou</a> [22] <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fe99b-1ffe-7aab-8fcf-d8738c0a4991" target="_blank" class="news-link">Academy Securities: AI capex creates equity–credit divergence; AI infrastructure bonds attractive</a> [24] <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fe99a-8d9b-7aab-8fcf-d0addbc6cf58" target="_blank" class="news-link">Bohai oilfield posts record 1H output as 100 bcm-class gas field Phase I starts full production</a> [25] <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fe991-d4c3-7aab-8fcf-c365d27aff2f" target="_blank" class="news-link">Fast-fashion giant awaits recovery; Shein profit expected to resume in 2027</a> [27] <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fe990-bfe4-7aab-8fcf-b9ebd2e7f15b" target="_blank" class="news-link">Several high-premium LOFs on China’s A-share market plunged; Global Chip LOF (501225) hit the daily limit-down and currently trades at an 18.02% premium to NAV. Guotou Silver LOF (161226) is down 5.9% and currently trades at a 19.55% premium to NAV.</a> [28] <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7671566723838115878" target="_blank" class="news-link">一行代码没写，我用AI做了一个可以收费产品</a> [29] <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fe98c-21b8-7aab-8fcf-a95358a1617c" target="_blank" class="news-link">RNC chair expects Republicans to retain control of both US chambers after midterms</a> [30] <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/721.htm" target="_blank" class="news-link">飞傲流媒体功放 AIR AMP 发售：搭 Ti TPA3255 功放芯片、ES9020Q 独立 DAC，1799 元</a> [30] <font color='grey'>- 12时14分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/769.htm" target="_blank" class="news-link">阿维塔副总裁雍军不认为和华为的合作模式是“必要项”，当下最优解不代表永远绑定</a> [13] <font color='grey'>- 12时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3147250" target="_blank" class="news-link">阿维塔高管：不认为和华为的合作模式是“必要项”</a> [15] <font color='grey'>- 12时14分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1233152" target="_blank" class="news-link">chatgpt 额度快重置了没地方用，翻译了两个文档站</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时14分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/987/775.htm" target="_blank" class="news-link">曝诺奖得主哈萨比斯曾有意离开谷歌母公司 Alphabet</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时14分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779051" target="_blank" class="news-link">Sonnet 5.5大泄露！对标DeepSeek，新一代性价比之王</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时14分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1233208" target="_blank" class="news-link">阿里百炼个人版 token plan，玩不起就不要搞 token plan</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时14分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
