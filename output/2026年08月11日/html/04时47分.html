@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 119</p><p>生成时间: 2026-08-11 04:47:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">21</td>
+                <td class="percentage">17.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3147686" target="_blank" class="news-link">大摩：计划未来十年促成最高1.5万亿美元资金，用于美国创新基建计划，涵盖AI、半导体等战略领域</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779115" target="_blank" class="news-link">英伟达联手华尔街六大巨头，筹5000亿美元押注AI基础设施，信用违约互换创两周最大涨幅</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260811041811135800" target="_blank" class="news-link">英伟达宣布联手六大金融巨头，布局5000亿美元AI基建融资体系</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fed5c-fee5-7aab-8fe0-e0d9ede066b5" target="_blank" class="news-link">Trump says he has spoken only once briefly with Fed chair Warsh since Warsh took office, denies frequent contact</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fed5b-76a8-7aab-8fe0-dc10915e4458" target="_blank" class="news-link">NVIDIA CEO Jensen Huang said transactions tied to a proposed $500 billion AI infrastructure financing plan will support broad adoption of AI, and that all funding will come from third-party capital.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fed58-2eb6-7aab-8fe0-cdf3c4952aa5" target="_blank" class="news-link">Sources say Ukraine and Moldova are considering shipping Ukrainian grain via Moldova&#x27;s rail network.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260811040810116800" target="_blank" class="news-link">英伟达(NVDA.O)：全新融资平台将英伟达计算和全栈人工智能基础设施转变为全球资本可投资的资产类别。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fed53-9ed3-7aab-8fe0-c45537c3ea6d" target="_blank" class="news-link">NVIDIA partners with six financial firms to mobilize over $500bn for AI infrastructure financing</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3147680" target="_blank" class="news-link">英伟达：联手高盛等华尔街巨头，建立AI算力基础设施融资平台，来撬动超过5000亿美元的第三方资本</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260811040700664800" target="_blank" class="news-link">英伟达(NVDA.O)：本公司及合作伙伴将为人工智能基础设施客户创建专用资金池。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fed50-93a9-7aab-8fe0-b9f230856be7" target="_blank" class="news-link">Morgan Stanley launched a US Innovation Infrastructure Program aiming to facilitate about $1.5 trillion of capital raising, financing, advisory and related investment activities over the next 10 years.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fed4e-725a-7aab-8fe0-b417794d39db" target="_blank" class="news-link">German foreign minister Wadephul told Iranian foreign minister Araghchi in a call he urged Iran to enter constructive talks with regional neighbors and the US to end the conflict. He said the Strait of Hormuz must be unconditionally open to ensure all vessels can navigate freely and safely.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fed4a-58f6-7aab-8fe0-a0dae48cc845" target="_blank" class="news-link">NVIDIA (NVDA.O): new financing platform aims to convert the company’s compute and full‑stack AI infrastructure into an asset class investable by global capital.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fed49-6f5d-7aab-8fe0-9de6a792ea19" target="_blank" class="news-link">NVIDIA (NVDA.O): The company and partners will establish dedicated capital pools to finance AI infrastructure customers.</a> [11] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fed44-126d-7aab-8fe0-871336e9a156" target="_blank" class="news-link">Interim Venezuelan President Rodriguez said the earthquake death toll has risen to 6,301.</a> [14] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fed34-0b16-7aab-8fe0-7ddee8f45787" target="_blank" class="news-link">President Trump said he has a very good relationship with Netanyahu.</a> [15] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fed2e-d7ba-7aab-8fe0-5b4c5acea1a4" target="_blank" class="news-link">Trump said he has spoken with Walsh only once since his appointment, denying Wall Street Journal reports they have been in frequent contact.</a> [19] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fed2d-93ad-7aab-8fe0-55a90d696c78" target="_blank" class="news-link">U.S. President Trump said he spoke with Federal Reserve Chair Kevin Warsh a few days ago.</a> [20] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fed2b-da2d-7aab-8fe0-4af3ce21d54c" target="_blank" class="news-link">U.S. President Trump said only the United States can control the Strait of Hormuz.</a> [21] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fed2b-c586-7aab-8fe0-46f17247d3f3" target="_blank" class="news-link">President Trump said the US has cleared mines across the entire Strait of Hormuz.</a> [22] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fed2b-0630-7aab-8fe0-3e1388ea9af3" target="_blank" class="news-link">U.S. President Trump: The Strait of Hormuz is now open, we control it.</a> [23] <font color='grey'>- 04时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOGL" target="_blank" class="news-link">谷歌A</a> [27] <font color='grey'>- 04时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3147676" target="_blank" class="news-link">纳斯达克金龙中国指数收涨1.65%，报6730.14点。 热门中概股里，陆控初步收涨14.3%，BOSS直聘涨5.4%，小马智行涨4.2%，阿里巴巴涨2.9%，新东方涨2.6%，世纪互联涨2.5%，比亚迪涨2%，携程涨1.9%，拼多多涨1.1%，日月光半导体、B站、百胜中国、中通快递、再鼎医药、亚朵至少涨0.7%，腾讯跌0.7%，理想跌0.9%，小鹏跌1.2%。 ETF中，中概互联网指数ETF（KWEB）收涨1.61%，中国科技指数ETF（CQQQ）收跌0.40%。 XtrackersHarvest中证50（ASHS）收跌0.19%，德银嘉实沪深300指数ETF（ASHR）收跌0.46%，MSCI新兴市场ex中国ETF（EMXC）收跌1.01%。</a> <font color='red'><strong>[8]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
