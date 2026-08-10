@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 176</p><p>生成时间: 2026-08-11 01:27:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">28</td>
+                <td class="percentage">15.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fec97-a6cb-7aab-8fde-222df297555e" target="_blank" class="news-link">Plant operator said Hungary&#x27;s Paks nuclear power plant has begun increasing output from Unit 2; Unit 2 is expected to reach full power at 20:00 GMT.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260811012108617800" target="_blank" class="news-link">OpenAI：我们正在扩展网络安全计划Daybreak，并推出新模型GPT-5.6-Cyber，用于开展先进且经过授权的网络安全工作。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1233385" target="_blank" class="news-link">OpenAI 的新图片模型 mona-lisa-1 已经在 Arena 里了，有人测过吗？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fec96-f59c-7aab-8fde-1e036a29eb4f" target="_blank" class="news-link">OpenAI said its new Premium Seat offers a usage allowance five times that of the standard tier, removes the 5-hour usage cap and introduces a predictable weekly usage-quota reset.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fec96-e6c2-7aab-8fde-100c8d9f2885" target="_blank" class="news-link">OpenAI is offering a limited-time promotion: eligible workspace administrators will receive a $100 account credit for each additional Premium Seat added, capped at five seats (maximum $500).</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3147632" target="_blank" class="news-link">美国得州州长Abbott：OpenAI承诺将遵守本地数据中心标准。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49244569" target="_blank" class="news-link">Kinney Drugs pulls back AI phone assistant after hundreds of customer complaints</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fec96-431d-7aab-8fde-0d65bad95e4f" target="_blank" class="news-link">OpenAI prices Premium Seats at $125 per user per month billed monthly, or $100 per user per month billed annually.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fec96-10a4-7aab-8fde-015c47eba1d4" target="_blank" class="news-link">OpenAI launches Premium Seats for ChatGPT Business.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fec95-9550-7aab-8fdd-f8be8896a9de" target="_blank" class="news-link">Sources said BP will sell a 20% stake in the Cocuina gas field in Venezuela to the National Gas Company of Trinidad and Tobago. Around 70% of the gas is planned for LNG production, with the remainder for petrochemicals. A final investment decision could be taken before year-end.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fec94-0d4b-7aab-8fdd-eee8fe272820" target="_blank" class="news-link">Israel Defense Forces chief of staff said the military is well prepared for defense and remains ready to resume high-intensity combat at any time.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3147627" target="_blank" class="news-link">OpenAI：推出ChatGPT企业版高级席位，月租至少100美元</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260811005217914800" target="_blank" class="news-link">OpenAI：新的高级席位（Premium Seat）使用额度相比标准版提升5倍，无5小时使用限制，并提供可预测的每周使用额度重置。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49246057" target="_blank" class="news-link">Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fec86-adcf-7aab-8fdd-da5eaae68248" target="_blank" class="news-link">US President Trump said Iran is demanding compensation for losses from military clashes over the past five months; he said he likewise demands Iran compensate and has instructed his representatives to press that point in any future negotiations.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260811005211685800" target="_blank" class="news-link">OpenAI：限时期间，符合条件的工作区管理员每增加一个高级席位（Premium Seat），将获得价值100美元的额度奖励，最多可为5个席位获得总计500美元的额度。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260811005131000800" target="_blank" class="news-link">OpenAI：高级席位（Premium Seats）价格为每位用户每月125美元，按年付费则为每位用户每月100美元。</a> [11] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260811005120672800" target="_blank" class="news-link">OpenAI：为ChatGPT Business推出高级席位（Premium Seats）。</a> [12] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fec80-4588-7aab-8fdd-c5daeb96bc8c" target="_blank" class="news-link">Financial Times reports multiple Wall Street firms are partnering with NVIDIA (NVDA.O) on a $500 billion AI financing initiative.</a> [13] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fec78-8e89-7aab-8fdd-ba01770023be" target="_blank" class="news-link">Iran&#x27;s Islamic Revolutionary Guard Corps (IRGC) navy commander said any foreign vessel transiting the Strait of Hormuz will be identified, tracked and monitored by Iranian forces.</a> [14] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fec72-e58f-7aab-8fdd-aabbe3f1d655" target="_blank" class="news-link">Colombia&#x27;s foreign minister said the country recognizes Israel&#x27;s sovereignty over the Golan Heights.</a> [16] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3147615" target="_blank" class="news-link">报道：英伟达与多家公司围绕5000亿美元AI融资协议合作</a> [19] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2066610730116421630" target="_blank" class="news-link">JeffDean 称「AI agent 编写代码，品味成稀缺技能」，你如何理解「品味」？</a> [19] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49244085" target="_blank" class="news-link">Exploring Claude/GPT Knowledge Cutoffs and Pre-Training Timelines</a> [23] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260811002725586800" target="_blank" class="news-link">据悉英伟达联手华尔街巨头筹划5000亿美元AI基建融资</a> [24] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7671084235286986803" target="_blank" class="news-link">2026 年 8 月，我的最新 AI 装机单</a> [24] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7671855098491043866" target="_blank" class="news-link">不用LangChain：用 200 行代码手搓 Agent 对话记忆与上下文压缩</a> [26] <font color='grey'>- 01时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3147602" target="_blank" class="news-link">Meta发布可单卡运行轻量AI模型，扎克伯格描绘“个人赋能新时代”</a> [29] <font color='grey'>- 01时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3147629" target="_blank" class="news-link">谷歌公司：相信我们遵守美国得州数据中心标准。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 01时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
