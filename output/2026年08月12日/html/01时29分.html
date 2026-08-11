@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 160</p><p>生成时间: 2026-08-12 01:29:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">15.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3148181" target="_blank" class="news-link">SpaceXAI：Grok聊天机器人已处于测试阶段，今日起向订阅SuperGrok Heavy、Cursor Ultra与Cursor Teams Premium套餐的桌面端及iOS用户开放使用。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=85065" target="_blank" class="news-link">科技公司高管称 AI 将会减少工作时间，实际上 AI 增加了工作时间</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779208" target="_blank" class="news-link">IPO前再套现：OpenAI完成70亿美元员工股权交易</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3148176" target="_blank" class="news-link">OpenAI：ChatGPT在英国、日本、墨西哥、巴西、韩国新增广告内容。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff1c6-32e9-7aab-8ff8-00361edd1ce2" target="_blank" class="news-link">Romanian defence minister said Romanian forces destroyed two &quot;Gerbera&quot;-type drones in Romania&#x27;s Black Sea exclusive economic zone near the Neptun Deep offshore gas project.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff1c5-1ec2-7aab-8ff7-fa020f37beb1" target="_blank" class="news-link">Libya&#x27;s National Oil Corporation said the Zawiya refinery was struck by a drone attack after resuming operations; the assault targeted fuel storage tanks.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260812005839889800" target="_blank" class="news-link">SpaceXAI：Grok Bot聊天机器人目前处于测试阶段，今日向SuperGrok Heavy、Cursor Ultra和Cursor Teams Premium订阅用户开放，支持桌面端和iOS端使用。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260812005621568800" target="_blank" class="news-link">SpaceXAI：推出Grok Bot聊天机器人。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff1c4-1a9d-7aab-8ff7-e8ebebb33166" target="_blank" class="news-link">The EIA expects U.S. crude net imports to remain below average through 2027, driven by strong global demand for U.S. crude exports and persistently low U.S. import levels.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff1c3-2ac0-7aab-8ff7-e38db43177a9" target="_blank" class="news-link">SpaceXAI said its Grok Bot chatbot is in testing and is being rolled out today to SuperGrok Heavy, Cursor Ultra and Cursor Teams Premium subscribers on desktop and iOS.</a> [11] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff1c1-16ae-7aab-8ff7-df999fe3797f" target="_blank" class="news-link">SPACEXAI launched Grok bot.</a> [12] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3148170" target="_blank" class="news-link">OpenAI高管Brad Lightcap将离职，开启“新项目”</a> [12] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff1bf-c94b-7aab-8ff7-c9c6e23ffb62" target="_blank" class="news-link">The EIA currently assesses that recent threats to vessels carrying Saudi oil through the Bab al-Mandeb Strait have not disrupted oil production.</a> [14] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff1b5-0121-7aab-8ff7-c5fb36e9cd45" target="_blank" class="news-link">EIA cuts 2026 global oil production forecast, raises 2027 demand</a> [15] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260812003202953800" target="_blank" class="news-link">据The Information：OpenAI特别项目负责人、前首席运营官Brad Lightcap即将离职。</a> [15] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff1af-dff2-7aab-8ff7-bdf2e34fa264" target="_blank" class="news-link">Peru&#x27;s Ministry of Energy and Mines said June copper production fell 4.7% YoY to 218,232 tonnes.</a> [16] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff1aa-c976-7aab-8ff7-b63e6256cd30" target="_blank" class="news-link">The Information reports OpenAI special projects head and former chief operating officer Brad Lightcap is set to depart the company.</a> [17] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff1a4-8cac-7aab-8ff7-ae70f3691092" target="_blank" class="news-link">Fed&#x27;s GOOLSBEE said the biggest problem facing the economy is inflation.</a> [18] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff1a4-56e3-7aab-8ff7-a6888caee9af" target="_blank" class="news-link">Federal Reserve&#x27;s GOOLSBEE said the economy will remain healthy so long as consumption remains resilient.</a> [19] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff1a3-70d5-7aab-8ff7-980952e2d63f" target="_blank" class="news-link">Federal Reserve&#x27;s GOOLSBEE said prices and affordability are the biggest problem the Fed currently faces.</a> [20] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff1a1-61f8-7aab-8ff7-7b8e9001dc42" target="_blank" class="news-link">UK Prime Minister Burnham said fiscal space for government support is limited. He faces a severe fiscal outlook and will not propose any measures he cannot fund.</a> [24] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff19e-614b-7aab-8ff7-60f08996974d" target="_blank" class="news-link">The EIA expects a sustained disruption to Middle East crude output of about 600,000 barrels per day to persist through the end of 2027.</a> [27] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff19e-2239-7aab-8ff7-5a3a616ac4e0" target="_blank" class="news-link">EIA says Strait of Hormuz shipments remain severely constrained and now expects Middle East oil supply disruptions to be larger than its July forecast. It projects most Middle East crude output will recover to near pre-conflict levels by early 2027, but estimates disruptions will persist through end-2027 at about 600,000 bpd.</a> [28] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7671865305111691302" target="_blank" class="news-link">我做了一个多 Agent 智能协作软件：让 AI 不再单打独斗</a> [29] <font color='grey'>- 01时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOGL" target="_blank" class="news-link">谷歌A</a> [28] <font color='grey'>- 01时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2070437867311174069" target="_blank" class="news-link">怎么看 DeepSeek 注册 Harness 公众号并选用黑鲸鱼 logo ？</a> [19] <font color='grey'>- 01时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
