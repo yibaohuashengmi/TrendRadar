@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 230</p><p>生成时间: 2026-08-11 14:29:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">30</td>
+                <td class="percentage">13.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959560" target="_blank" class="news-link">数学家花了37年，AI一次就做到了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%80%8E%E4%B9%88%E7%9C%8BAI%E7%AA%81%E7%A0%B4%E9%BB%8E%E6%9B%BC%E7%8C%9C%E6%83%B3%E4%B8%8B%E7%95%8C" target="_blank" class="news-link">怎么看AI突破黎曼猜想下界</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fef65-05f0-7aab-8fe8-dca256d01df8" target="_blank" class="news-link">Reserve Bank of Australia Governor Bullock said the weak housing market does not pose a material risk to financial stability.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49253738" target="_blank" class="news-link">DeepSeek: Reverse Engineering an AI Assistant by Interviewing Itself</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fef63-3e4a-7aab-8fe8-c9f997e01c50" target="_blank" class="news-link">Coke main contract up &gt;2.0% intraday, trading at 1,910 yuan/ton.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2605459" target="_blank" class="news-link">给AI时代一点手搓实拍的小震撼</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/266.htm" target="_blank" class="news-link">Gartner 预估 2026 年 AI 推理支出首次超越模型训练</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fef60-9206-7aab-8fe8-ad0a4e412076" target="_blank" class="news-link">Reserve Bank of Australia Governor Bullock said the economy needs to slow and labour-market tightness must ease.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3147884" target="_blank" class="news-link">澳洲联储主席Bullock：不希望失业率升至非加速通胀失业率（NAIRU）水平之上。 我们需要经济增长放缓，劳动市场的紧俏程度也需要降低。 我们很有可能还需要再次升息。 房市下滑不会对金融稳定构成重大风险。 委员会所有成员至少都对通胀有些担忧。</a> <font color='red'><strong>[9]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3779130" target="_blank" class="news-link">回应“5000亿美元融资质疑”！黄仁勋：英伟达“AI工厂”正成为“投资级资产”，需求真实存在，绝非“循环融资”</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2605425" target="_blank" class="news-link">AI打开了我童年记忆的百宝箱</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/263.htm" target="_blank" class="news-link">799 元起 AYANEO 攻氪 KONKR Pocket Advance 掌机新增“冰透黑限定版”，官方同步预热“全球首款 AI 掌机”Pocket Block</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fef5e-8c60-7aab-8fe8-96838f909102" target="_blank" class="news-link">Reserve Bank of Australia governor Bullock said the board has decided to wait for further information; a rate hike remains the primary consideration.</a> [12] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33753718" target="_blank" class="news-link">干湿之困：AI制药如何打通“最后一公里”</a> [13] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fef5d-36c2-7aab-8fe8-8964c42e8213" target="_blank" class="news-link">Reserve Bank of Australia Governor Bullock said reasons for raising rates include inf remaining too high and upside risks from the Middle East.</a> [13] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fef5c-29fd-7aab-8fe8-8080a5321606" target="_blank" class="news-link">RBA Governor Bullock said the housing market will not constrain rate hikes.</a> [14] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fef5b-56a9-7aab-8fe8-7b7ca4a84871" target="_blank" class="news-link">Reserve Bank of Australia Governor Bullock said the housing market is not a reason for the bank to stand pat.</a> [15] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4220541_1_1" target="_blank" class="news-link">印度央行行长：敦促各银行对所有人工智能模型进行盘点，并制定经董事会批准的人工智能治理政策。</a> [15] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fef5a-a237-7aab-8fe8-72df90f84efe" target="_blank" class="news-link">Reserve Bank of India governor urged banks to inventory all AI models and implement board‑approved AI governance policies.</a> [16] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4220540_212_1" target="_blank" class="news-link">印度央行：银行必须保存完整的人工智能模型清单。</a> [16] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fef56-fe6b-7aab-8fe8-668e619f8672" target="_blank" class="news-link">Hong Kong-listed tech shares weakened in choppy trading; JD.com (09618.HK) and Xiaomi Group (01810.HK) fell more than 3%, while Kuaishou (01024.HK) and Baidu (09888.HK) also slipped.</a> [18] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260811134517603800" target="_blank" class="news-link">印度央行行长：敦促各银行对所有人工智能模型进行盘点，并制定经董事会批准的人工智能治理政策。</a> [18] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fef56-11d1-7aab-8fe8-59e950c50ad1" target="_blank" class="news-link">Reserve Bank of Australia Governor Bullock said the board is carefully weighing the timing of a rate increase.</a> [19] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fef53-9265-7aab-8fe8-442d88a2b807" target="_blank" class="news-link">Reserve Bank of Australia Governor Bullock said the meeting did not discuss rate cuts and only considered either rate hikes or leaving the cash rate unchanged.</a> [22] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fef53-3faa-7aab-8fe8-3f8782b36edc" target="_blank" class="news-link">RBA Governor Bullock said the Reserve Bank of Australia board discussed the prospect of raising interest rates.</a> [23] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fef52-9d1c-7aab-8fe8-316f13388782" target="_blank" class="news-link">Reserve Bank of Australia Governor Bullock said house prices have eased but are not the bank&#x27;s primary focus.</a> [24] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fef51-7706-7aab-8fe8-2e039277946c" target="_blank" class="news-link">Taiwan Weighted Index closed up 191.96 points, or 0.43%, at 45,120.72 on Tuesday, Aug. 11.</a> [25] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fef51-61ca-7aab-8fe8-23b7a3f5b629" target="_blank" class="news-link">Reserve Bank of Australia Governor Bullock said the policy committee has not ruled out further rate hikes and that it needs more information.</a> [26] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019fef4e-21b6-7aab-8fe8-0c4f57fd8a30" target="_blank" class="news-link">Reserve Bank of Australia governor Bullock said the board wants to slow economic growth and sees upside risk to inflation.</a> [29] <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49253785" target="_blank" class="news-link">OpenAI wraps $7B share sale ahead of potential IPO</a> [29] <font color='grey'>- 14时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/273.htm" target="_blank" class="news-link">过去 1 年全球亿万富翁身价报告：马斯克日增 8.75 亿美元居首，DeepSeek 梁文锋飙升 3850% 最快</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时29分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=DeepSeek%E4%BC%9A%E5%81%B7%E5%81%B7%E7%BB%99%E4%BA%BA%E5%8F%96%E5%A4%96%E5%8F%B7" target="_blank" class="news-link">DeepSeek会偷偷给人取外号</a> [13] <font color='grey'>- 14时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779160" target="_blank" class="news-link">Anthropic宣布Claude生成内容将嵌入隐形水印，复制粘贴后仍可追踪</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E9%98%BF%E7%BB%B4%E5%A1%94%20%E5%8D%8E%E4%B8%BA&amp;t=31&amp;band_rank=7&amp;Refer=top" target="_blank" class="news-link">阿维塔 华为</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
