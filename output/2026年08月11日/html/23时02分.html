@@ -1,0 +1,110 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 208</p><p>生成时间: 2026-08-11 23:02:43</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>toutiao</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">24</td>
+                <td class="percentage">11.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff138-3aa4-7aab-8ff4-cd3351176fbd" target="_blank" class="news-link">The Russian Defence Ministry said Russian forces sank a patrol boat in waters south of Odesa. The vessel had been escorting a freighter transporting weapons to Ukrainian ports for the Ukrainian armed forces.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1233676" target="_blank" class="news-link">纯 AI 工具写出来的个人导航站，欢迎大家意见，随便测试</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779198" target="_blank" class="news-link">但斌回应投资人质疑：长江东方港湾2号重仓AI，目前依旧保持满仓状态</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff131-dc14-7aab-8ff4-b7d2db6b26b8" target="_blank" class="news-link">Iran expects daily gas capacity to rebound by about 95 mln cubic meters by end-September</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260811222213183800" target="_blank" class="news-link">巴基斯坦称美伊“接近达成某种安排”，SK海力士在华扩产，工业富联AI算力利润翻倍 | Plus日报</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff128-af6e-7aab-8ff4-9b4fa42a3715" target="_blank" class="news-link">Eleven French nationals detained in Thailand on suspicion of drug trafficking.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff128-572b-7aab-8ff4-928268b87fc1" target="_blank" class="news-link">Trump said the United States does not lack missiles or munitions.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49258581" target="_blank" class="news-link">Why Did OpenAI&#x27;s Head of Ethics Chloé Bakalar Leave?</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff128-1b46-7aab-8ff4-8fad59a36aa4" target="_blank" class="news-link">President Trump said the U.S. controls Iran’s funds and has full control over them.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff127-7d31-7aab-8ff4-864bbf950761" target="_blank" class="news-link">President Trump said the US could use &quot;powerful force&quot; to strike Iran.</a> [11] <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2451601" target="_blank" class="news-link">中东局势峰回路转 AI撑起美股罕见业绩增速 | 今夜看点</a> [11] <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff126-c6e5-7aab-8ff4-7c9f6ff5b6ef" target="_blank" class="news-link">U.S. President Trump said Iran&#x27;s inflation is as high as 300% and its currency is effectively worthless.</a> [12] <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5283787" target="_blank" class="news-link">美股异动｜Meta涨2.4%，官宣开源最新AI模型Muse Spark 1.2</a> [12] <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff126-6925-7aab-8ff4-7048ee76a7ad" target="_blank" class="news-link">US President Trump said Iranians do not pay soldiers&#x27; salaries.</a> [13] <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff124-fc40-7aab-8ff4-62251ef6e65d" target="_blank" class="news-link">U.S. officials said Russia released former Marine Robert Gilman.</a> [15] <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff124-d1d6-7aab-8ff4-58e23b0d0740" target="_blank" class="news-link">U.S. President Trump said Iranians are very shrewd negotiators.</a> [16] <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff123-afd1-7aab-8ff4-55c16b809427" target="_blank" class="news-link">Market note: Trump said the U.S. ammunition shortage is caused by Biden sending $300 billion in aid to Ukraine.</a> [17] <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff121-194a-7aab-8ff4-441b03b08320" target="_blank" class="news-link">President Trump said of Iran, &quot;If I hadn&#x27;t done that, they&#x27;d already have nuclear weapons and you&#x27;d be calling them &#x27;Mr.&#x27; now.&quot;</a> [19] <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff120-0ba4-7aab-8ff4-3e62f3bb9691" target="_blank" class="news-link">A U.S. State Department official said Lebanon and Israel are expected to resume negotiations in Rome in early September.</a> [20] <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260811220512628800" target="_blank" class="news-link">四家科技巨头CapEx已达美国国防预算87%，AI进入“国家级”投资周期？</a> [20] <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff11c-9ef2-7aab-8ff4-0372f0c62dd4" target="_blank" class="news-link">Market sources: U.S. President Trump said Iranians agreed with the U.S. in talks but later denied it in the media, calling it &quot;playing us&quot;.</a> [27] <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff11c-3161-7aab-8ff3-f85a904fc212" target="_blank" class="news-link">Market sources: US President TRUMP said Iran&#x27;s economy is in chaos.</a> [28] <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff11b-f87b-7aab-8ff3-f65bb11fd235" target="_blank" class="news-link">US President Trump said he is frustrated with Iran&#x27;s negotiating style.</a> [29] <font color='grey'>- 23时02分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff11b-5cd4-7aab-8ff3-ea7083aaf9e2" target="_blank" class="news-link">U.S. President Trump said the war is intended to prevent Iran from acquiring nuclear weapons.</a> [30] <font color='grey'>- 23时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=85063" target="_blank" class="news-link">Claude 生成的文本添加看不见的水印</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=85062" target="_blank" class="news-link">Google Play Store 美区上架了第一个替代应用商店</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时02分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/516.htm" target="_blank" class="news-link">奕境 X9 大六座 SUV 首秀华为鸿蒙座舱 6，多屏流转玩法公开</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
