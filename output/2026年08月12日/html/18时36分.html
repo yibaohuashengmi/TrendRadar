@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 288</p><p>生成时间: 2026-08-12 18:36:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">36</td>
+                <td class="percentage">12.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49269789" target="_blank" class="news-link">Beef and dairy drive 41% of biodiversity damage linked to global farmland</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/rebyte-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Rebyte.ai</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959575" target="_blank" class="news-link">高盛CEO：市场上有的是钱，但AI投资注定有人输</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff572-0372-7aab-9007-1d303393f6c5" target="_blank" class="news-link">CITIGROUP raised its PT for Super Micro Computer (SMCI.O) to $39 from $33.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/fonix-ai-by-antengage?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Fonix.AI by AntEngage</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49269641" target="_blank" class="news-link">Dutch Train Map Simulator</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260812180140130800" target="_blank" class="news-link">宁德时代成立控股新公司 含AI软件开发业务</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/b406c87436a54864bfc0cf4a20299f62" target="_blank" class="news-link">影石创新AI Agent一面凉经😭</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff56b-d8f9-7aab-9006-ff3d1e838fb8" target="_blank" class="news-link">Pakistani officials said the broader peace process has stalled but they hope it will resume soon.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3148567" target="_blank" class="news-link">【但斌美股持仓“大换血”】具体操作上，东方港湾海外基金清仓了苹果、三倍做多纳斯达克100ETF、特斯拉、CIRCLE INTERNET GROUP INC等6只标的。同时，其新买入英特尔、闪迪、超威半导体、迈威尔科技、Arm Holdings plc ADR、博通、Lumentum等7只标的，上述标的均为AI硬件相关公司。从整体的持仓情况来看，东方港湾美股第一大重仓股仍为谷歌-C，持仓占其组合的比重约为23%，相比一季度有所减仓。同时，东方港湾还清仓了谷歌-A及二倍做多谷歌ETF。（上证报）</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779282" target="_blank" class="news-link">滴普科技牵手华为云，企业AI开始算规模化这笔账</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49269090" target="_blank" class="news-link">Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff567-701c-7aab-9006-eb4bd5dc2b53" target="_blank" class="news-link">Japanese Prime Minister Takaichi said Iranian President Pezeshkian set out Iran&#x27;s position, noting current progress and prospects in Iran-Oman communications over the Strait of Hormuz. On the Bab al-Mandeb issue, Pezeshkian said Iran is in dialogue with Saudi Arabia and is working to advance a resolution.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff566-fe8a-7aab-9006-e117228894bd" target="_blank" class="news-link">Japanese Prime Minister Takaichi said she was concerned about the current situation in the Bab el-Mandeb from an energy-security perspective and urged Iran to exert greater pressure on Houthi forces to ensure they exercise restraint.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ai-connections-solver?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AI Connections Solver</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff566-5ae5-7aab-9006-d9dd64156e21" target="_blank" class="news-link">Japanese Prime Minister Takaichi said on the Strait of Hormuz that ensuring &quot;free and secure navigation without incurring additional costs&quot; is important.</a> [11] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff566-36c2-7aab-9006-d07ab109fd99" target="_blank" class="news-link">Japan PM Takaichi holds fourth call with Iran&#x27;s Pezeshkian, urges de‑escalation around Strait of Hormuz</a> [12] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49269818" target="_blank" class="news-link">Facebook is paying controversial creators to produce rage-bait content</a> [12] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff566-055d-7aab-9006-cabbca03a5ce" target="_blank" class="news-link">Prime Minister Takaichi said the US and Iran need to hold consultations under the memorandum of understanding and reach a final agreement as soon as possible on related issues, including nuclear matters, and that Japan strongly hopes the Middle East situation will be defused promptly through diplomatic means.</a> [13] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/887.htm" target="_blank" class="news-link">芝加哥商品交易所计划推出 NVIDIA AI GPU 租赁价格指数期货</a> [13] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ai-wizard-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AI Wizard</a> [13] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff565-1acb-7aab-9006-c2d3a02d16a6" target="_blank" class="news-link">Japanese Prime Minister TAKAICHI said that as the Strait of Hormuz enters a critical phase and Iran continues talks with relevant countries on reopening the waterway, de-escalation of military tensions and prompt stabilization are essential.</a> [14] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/884.htm" target="_blank" class="news-link">专家警示医学生过度依赖 AI：或从一开始就无法形成诊疗推理能力</a> [14] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/srnd-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">SRND AI</a> [14] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ytshorts-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">YTShorts.ai</a> [15] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff565-021d-7aab-9006-b4b9cfa90f05" target="_blank" class="news-link">Japanese Prime Minister Takaichi held a fourth phone call with Iranian President Pezeshkian amid the latest developments in the Middle East.</a> [16] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779257" target="_blank" class="news-link">AI交易热情重燃，美股盘前CoreWeave涨约16%，油价延续升势，焦点转向美国CPI</a> [17] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/066865138d224529ba82ee70fe87aefb" target="_blank" class="news-link">Shopee AI产品经理一面面经</a> [18] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff55e-5e0c-7aab-9006-8c01dbc41789" target="_blank" class="news-link">Ukraine urges EU to target minerals feeding Russian arms industry</a> [21] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff55c-dea3-7aab-9006-84c48a2ae890" target="_blank" class="news-link">Drone strikes damage three grain terminals at Novorossiysk, raising wheat supply concerns</a> [22] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff55b-84cc-7aab-9006-7a5b5809574f" target="_blank" class="news-link">The Shanghai Stock Exchange issued a regulatory work letter to Shanghai Bide Pharmaceutical Technology Co., Ltd. regarding related matters.</a> [23] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff556-48f0-7aab-9006-684b24742717" target="_blank" class="news-link">JP Morgan raises PT for Super Micro Computer (SMCI.O) to $45 from $32.</a> [25] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff555-7775-7aab-9006-5a2b341cf1c0" target="_blank" class="news-link">Two sources said Russia&#x27;s Orsk Oil Company refinery suspended production after a drone attack on Aug. 11.</a> [27] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff551-f953-7aab-9006-4c4e3e07f2d0" target="_blank" class="news-link">Iranian Students&#x27; News Agency reports the Hormozgan provincial airport authority has notified that Bandar Abbas International Airport will resume flight operations on Aug. 15.</a> [29] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff551-c6e1-7aab-9006-44f2268ad8a0" target="_blank" class="news-link">Iran&#x27;s Hormozgan Airport Authority said Bandar Abbas International Airport will resume flight operations on August 15.</a> [30] <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7672288735179014153" target="_blank" class="news-link">用 AI 做内容变收入</a> [30] <font color='grey'>- 18时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/900.htm" target="_blank" class="news-link">华为鸿蒙 HarmonyOS 6 / 7 系统七夕限时相机水印上线</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时36分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/889.htm" target="_blank" class="news-link">腾讯《王者营地》鸿蒙版 App 正式上架华为应用市场，支持《王者荣耀》战绩查询、隐身登录等功能</a> [12] <font color='grey'>- 18时36分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779285" target="_blank" class="news-link">但斌美股持仓“大换血”：清仓苹果、特斯拉，减仓谷歌，新进英特尔成第二大持仓、闪迪第四大持仓......</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时36分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
