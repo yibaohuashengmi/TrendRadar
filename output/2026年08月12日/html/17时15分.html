@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 301</p><p>生成时间: 2026-08-12 17:15:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">26</td>
+                <td class="percentage">8.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3148546" target="_blank" class="news-link">天普股份：截至目前公司及天普欣才均无开展人工智能相关业务的计划</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/cutplate-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">CutPlate AI</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff534-1d62-7aab-9005-b18b46423c22" target="_blank" class="news-link">PBOC will conduct overnight reverse repos on Aug. 14 and Aug. 17–19 to better meet short-term banking-system liquidity needs; operations will be fixed-rate, quantity-based tenders with daily allotments capped at 600 billion yuan.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff533-bb88-7aab-9005-ab8317b28206" target="_blank" class="news-link">BofA said its investment targets include data centers, semiconductors, energy and critical minerals.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff533-8dd3-7aab-9005-a79d811b0983" target="_blank" class="news-link">BofA said it will commit $250 billion to infrastructure projects.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1233863" target="_blank" class="news-link">支付宝的 AI 产品“阿宝”存在的意义是什么？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ai-signal-bot?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AI Signal Bot</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff530-4c3b-7aab-9005-8d7d4a65cd61" target="_blank" class="news-link">Microsoft reportedly raises Windows 11 licensing fees; Asus and Acer plan price hikes</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff52f-e2a3-7aab-9005-8692c2431d7b" target="_blank" class="news-link">UN shipping agency (IMO) said part of the crude from tanker Caroline Bezenji has reached Oman&#x27;s shore. Seasonal monsoon conditions are limiting salvage and response operations. The tanker is currently about 22 nautical miles off the Al Sharbait coast of Oman.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff52e-6ef3-7aab-9005-7fcf87212250" target="_blank" class="news-link">UN shipping agency said the tanker Caroline Bezengi has leaked crude oil and is drifting northeast toward waters off Kiblia Island, Oman.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/metir-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Metir AI</a> [11] <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff528-5bd8-7aab-9005-6efbe7e41e59" target="_blank" class="news-link">Cambridge Technology (06166.HK) said its board will meet on 24 August 2026 to consider and approve the interim results of the company and its subsidiaries for the six months ended 30 June 2026, and to consider recommending an interim dividend, if any.</a> [12] <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2451842" target="_blank" class="news-link">事关AI支出激增影响！高盛：多头和空头都判断错了</a> [12] <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff528-05f4-7aab-9005-65e14be4e139" target="_blank" class="news-link">Yemeni military source said Houthi militants struck Mocha port with two ballistic missiles.</a> [13] <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff527-b4bd-7aab-9005-5827795603a9" target="_blank" class="news-link">AWE2027 to be held in Shanghai mid‑March; launches inaugural startup zone</a> [14] <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3148525" target="_blank" class="news-link">阿里巴巴前AI架构师创办新公司 获腾讯和红杉投资</a> [16] <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff522-ab0b-7aab-9005-46a463eb1396" target="_blank" class="news-link">Ukraine&#x27;s agriculture ministry said grain exports fell to 280,000 tonnes in Aug. 1–12, compared with 1.15 million tonnes in Aug. 1–15, 2025.</a> [17] <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260812163528219800" target="_blank" class="news-link">腾讯控股(00700.HK)：最近数周启动了微信内AI智能体小微的小范围灰度测试；小微由专注于用户隐私、微信场景和推理效率的定制化模型WeLM驱动。</a> [18] <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff51d-81cb-7aab-9005-29420e5965a1" target="_blank" class="news-link">Tencent Holdings said Q2 2026 marketing services revenue rose 22% YoY to RMB 43.6 billion.</a> [20] <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260812163445071800" target="_blank" class="news-link">AI板块过热叠加能源通胀风险，押注能源股或是完美对冲选择 | 每日市场观察08.12</a> [20] <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff51c-d8af-7aab-9005-235269f0b33d" target="_blank" class="news-link">Tencent Holdings (00700.HK) said it began a limited pilot in recent weeks of a WeChat AI agent, Xiaowei, powered by a custom WeLM model optimized for user privacy, WeChat scenarios and inference efficiency.</a> [21] <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff51c-1448-7aab-9005-1a04d37b2434" target="_blank" class="news-link">Indonesia&#x27;s finance minister said the government will reclaim part of dividends from state-owned enterprises to provide contingency funding for the national budget.</a> [22] <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3148509" target="_blank" class="news-link">“千问AI Arena”上线 首个任务聚焦跨境电商</a> [26] <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/804.htm" target="_blank" class="news-link">华为启动 AIPL 基线合作伙伴计划，联合打造可复制、可规模化推广的 AI 实践教学方案</a> [26] <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff511-74d1-7aab-9004-f714ee9353f6" target="_blank" class="news-link">The CEO of Norway&#x27;s sovereign wealth fund said the fund&#x27;s investment in SpaceX (SPCX.O) is roughly in line with its index weight.</a> [27] <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7671500221185556543" target="_blank" class="news-link">AI 写代码越来越快，为什么项目却越来越难维护？</a> [28] <font color='grey'>- 17时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/823.htm" target="_blank" class="news-link">Counterpoint：今年前 30 周中国智能手机销量同比下降 8.6%，华为继续领跑市场</a> [15] <font color='grey'>- 17时15分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/806.htm" target="_blank" class="news-link">华为之外第一：深开鸿贡献 OpenHarmony 主干代码突破 1000 万行</a> [24] <font color='grey'>- 17时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7671932707510173738" target="_blank" class="news-link">Claude Opus 5 的系统提示词被扒出来了</a> [30] <font color='grey'>- 17时15分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202608/1278599.html" target="_blank" class="news-link">梁文锋财富一年激增3850% 跻身全球富豪榜前50</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
