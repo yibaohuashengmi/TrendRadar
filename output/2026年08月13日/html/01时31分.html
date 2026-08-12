@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 175</p><p>生成时间: 2026-08-13 01:31:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">9.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff6f5-c87c-7aab-9011-cb3884dfbe50" target="_blank" class="news-link">Musk said Grok 4.6 ranks first overall for intelligence, runtime speed and usage cost.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779305" target="_blank" class="news-link">算力需求火爆，Nebius Q2营收同比暴增454%，AI云销售额飙升514%｜财报见闻</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5284477" target="_blank" class="news-link">药石科技(300725.SZ)：公司AI布局覆盖药物发现、智能研发、智能制造和智能运营</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff6f3-87d7-7aab-9011-c73060a306ef" target="_blank" class="news-link">SBU said Ukrainian forces struck three warships and other facilities in an attack on Russia&#x27;s Novorossiysk port.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/999.htm" target="_blank" class="news-link">剑指 GPT-5.6 Sol，SpaceXAI 发布 Grok 4.6 模型</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3779299" target="_blank" class="news-link">腾讯电话会：AI投入回报空间已现，WorkBuddy毛利率已显著改善，算力出租为“安全垫”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49275385" target="_blank" class="news-link">SpaceXAI&#x27;s Grok 4.6 Scores 61 on the Artificial Analysis Intelligence Index</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff6ec-0fc0-7aab-9011-7da3d98e2393" target="_blank" class="news-link">Apple appoints Nate Gatten as VP, global government affairs</a> [11] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff6e6-5c0a-7aab-9011-690305963a6c" target="_blank" class="news-link">Etna eruption continues; Catania airport suspends flights</a> [13] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff6e0-afc9-7aab-9011-56ee2f9bae97" target="_blank" class="news-link">TASS: Russian authorities said they are working to redirect cargo flows to alternative routes.</a> [16] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff6d6-81eb-7aab-9011-4f09aee2e982" target="_blank" class="news-link">Apple (AAPL.O) appointed a senior U.S. airline executive as head of government affairs.</a> [17] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3148703" target="_blank" class="news-link">SpaceXAI宣布推出Grok 4.6</a> [21] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff6b8-83d6-7aab-9011-25ca543f49dd" target="_blank" class="news-link">USDA left Argentina&#x27;s 2025/26 corn production forecast unchanged at 63 mln tonnes and raised Brazil&#x27;s 2025/26 corn forecast to 140 mln tonnes from 138 mln tonnes.</a> [22] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff6b8-81d9-7aab-9011-1caf2e98a7ed" target="_blank" class="news-link">USDA cut Argentina&#x27;s 2025/26 soybean production forecast to 49.5 mln t from 50.0 mln t and raised Brazil&#x27;s to 180.5 mln t from 180.0 mln t.</a> [23] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff6b4-e571-7aab-9011-049d474cac56" target="_blank" class="news-link">Rosstat said Russia&#x27;s consumer price index rose 0.54% month-on-month in July.</a> [26] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2AI%E5%A4%8F%E6%97%A5%E6%99%9A%E4%BC%9A" target="_blank" class="news-link">三角洲AI夏日晚会</a> [30] <font color='grey'>- 01时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">9</td>
+                <td class="percentage">5.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/000.htm" target="_blank" class="news-link">深夜放大招！DeepSeek V4 Pro 正式版 API 更新上线，多项测试性能接近 Fable 5</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49274600" target="_blank" class="news-link">DeepSeek V4 Pro 0813</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779306" target="_blank" class="news-link">DeepSeek官网API文档新增“DeepSeek-V4-Pro-0813”模型</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2071014727606703118" target="_blank" class="news-link">DeepSeek Pro 正式版已经发布，如何评价该模型？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/998.htm" target="_blank" class="news-link">深夜放大招？DeepSeek 官网 API 文档新增“DeepSeek-V4-Pro-0813”模型</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%20V4%20Pro%E6%AD%A3%E5%BC%8F%E7%89%88%E4%B8%8A%E7%BA%BF" target="_blank" class="news-link">DeepSeek V4 Pro正式版上线</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49275114" target="_blank" class="news-link">DeepSeek V4 Pro 0813 quietly released</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23DeepSeek%E5%8F%91%E5%B8%83V4Pro%E6%AD%A3%E5%BC%8F%E7%89%88%23&amp;t=31&amp;band_rank=13&amp;Refer=top" target="_blank" class="news-link">DeepSeek发布V4Pro正式版</a> [13] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3148708" target="_blank" class="news-link">DeepSeek官网API文档新增“DeepSeek-V4-Pro-0813”模型</a> [17] <font color='grey'>- 01时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">6</td>
+                <td class="percentage">3.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=85078" target="_blank" class="news-link">Google 宣布 Pixel 11 系列，价格上涨 100 美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3148713" target="_blank" class="news-link">谷歌：Pixel 11 Pro Fold今日开启预购，将于8月20日上市开售。</a> [13] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49273330" target="_blank" class="news-link">Google launches Pixel 11 Pro Fold</a> [13] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff6c0-e6c8-7aab-9011-35cee00219d7" target="_blank" class="news-link">Google (GOOG.O) launches Pixel 11 Pro Fold.</a> [20] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260813001419372800" target="_blank" class="news-link">谷歌(GOOG.O)：推出Pixel 11 Pro Fold。</a> [21] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff6a9-0eff-7aab-9010-f2fb7f4e9dee" target="_blank" class="news-link">Google launches Pixel Tag.</a> [28] <font color='grey'>- 01时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/001.htm" target="_blank" class="news-link">阿里开放 Qwen3.8-2.4T-A95B 模型权重：2.4T MoE、激活 95B、原生 256K 上下文</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
