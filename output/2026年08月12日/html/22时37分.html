@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 240</p><p>生成时间: 2026-08-12 22:37:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">10.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff64e-09a4-7aab-900e-44271adbbd84" target="_blank" class="news-link">Google will add an insulin-trend tracking feature to Watch5 and Fitbit Air.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1233945" target="_blank" class="news-link">一边减肥，一边学习 AI：我尝试想做一款更关注个人习惯、喜好，不反人性的减重 App</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff64a-13d4-7aab-900e-34831662619a" target="_blank" class="news-link">Tencent says new AI products cut non‑GAAP operating profit by CNY10.5bn in 2026 Q2, president says</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49271994" target="_blank" class="news-link">AI is removing the middle class of software engineering</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff649-a28c-7aab-900e-28a4deed84c1" target="_blank" class="news-link">Alphabet (GOOG.O) shares hit an intraday low, down 0.5%, after Google raised prices on its new phones.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779299" target="_blank" class="news-link">腾讯电话会：算力投入已见明显的回报上行空间，Work Buddy做“AI协调方”，混元持续冲刺SOTA</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff647-1b46-7aab-900e-09aa50566a15" target="_blank" class="news-link">Google (GOOG.O) raised prices on its new phones citing a severe memory shortage. The new smartphone starts at $899 and the foldable is priced at $1,899, $100 above the prior generation.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff63f-ce6d-7aab-900d-ea2c0cf2c85f" target="_blank" class="news-link">World&#x27;s largest single-unit AI compute center commissioned at Ulanqab Xinghe; 1 kWh of green power equals ~30s of AI text-to-video</a> [12] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/977.htm" target="_blank" class="news-link">腾讯总裁刘炽平：微信将成为以 AI 为先的生态系统，未来能转化为巨大价值</a> [12] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3148676" target="_blank" class="news-link">二季度新AI产品拖累105亿利润，腾讯总裁刘炽平回应</a> [13] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/975.htm" target="_blank" class="news-link">马斯克：大概再过四五年，AI 将占到 SpaceX 价值的 99%</a> [14] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff63b-26bc-7aab-900d-cb2310097585" target="_blank" class="news-link">Cambricon outlines AI-chip roadmap, says intelligent-computing demand rising after 1H results</a> [16] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49272569" target="_blank" class="news-link">Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot</a> [18] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/966.htm" target="_blank" class="news-link">富士康对苹果业务营收依赖下降：智能消费电子占比降至 29%，AI 服务器首次突破 50%</a> [19] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3148666" target="_blank" class="news-link">中国算电协同航母来了 一度绿电可生成30秒AI文生视频</a> [22] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff635-4ddc-7aab-900d-929d87748c43" target="_blank" class="news-link">Zhenro Properties proposes 6.614 bln yuan onshore bond restructure; options include 8.5-year extension or buyback at 8% of remaining face value</a> [23] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff633-22af-7aab-900d-805174170b21" target="_blank" class="news-link">Tencent says WorkBuddy paid-user gross margins healthy; AI token costs well below market estimates</a> [25] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49272620" target="_blank" class="news-link">German advocacy group lodges criminal complaint over Meta AI glasses</a> [25] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff632-3dd5-7aab-900d-7f8b8df21576" target="_blank" class="news-link">Analyst: Fed has more time to wait</a> [26] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff62f-f248-7aab-900d-736a147b7f3a" target="_blank" class="news-link">A Russian governor said a Ukrainian strike on Novorossiysk port killed three people and wounded 24.</a> [27] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3148661" target="_blank" class="news-link">腾讯高管谈AI业务利润：WorkBuddy付费用户毛利率相当不错</a> [27] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff62f-c3f5-7aab-900d-6ce925cae78c" target="_blank" class="news-link">Ukrainian President Zelenskiy said Ukraine has liberated 745 sq km of territory since January.</a> [28] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3148658" target="_blank" class="news-link">腾讯总裁刘炽平再谈微信AI：微信会成为以AI为先的生态系统，有望转化成巨大的价值</a> [29] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff62f-5a83-7aab-900d-598a459f19e4" target="_blank" class="news-link">Baltic Dry Index falls for third straight session</a> [30] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49271050" target="_blank" class="news-link">Electricity Pricing in the Age of AI</a> [30] <font color='grey'>- 22时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">7</td>
+                <td class="percentage">2.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779303" target="_blank" class="news-link">谷歌提高新款手机价格，因内存“严重”短缺</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/988.htm" target="_blank" class="news-link">谷歌首款追踪器 Pixel Tag 发布：UWB 超宽带 + 防尘防水 + 可更换电池</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/988/985.htm" target="_blank" class="news-link">谷歌 Pixel 11 系列正式发布：全系 256GB 起步 899 美元起，8 月 20 日开售</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff647-4297-7aab-900e-1910ecf3479d" target="_blank" class="news-link">Google launches Pixel 11, Pixel 11 Pro, Pixel 11 Pro XL and Pixel 11 Pro Fold smartphones.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ff647-1c0f-7aab-900e-1740b221c364" target="_blank" class="news-link">Google announced an upgraded Pixel Watch 5 with a starting price of $399.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3148673" target="_blank" class="news-link">谷歌提高新款手机价格，因内存“严重”短缺</a> [15] <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3148672" target="_blank" class="news-link">谷歌发布PIXEL 11、11 PRO、11 PRO XL和11 PRO折叠屏手机</a> [16] <font color='grey'>- 22时37分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1233937" target="_blank" class="news-link">OpenCode 没办法白嫖 Deepseek 了吗？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时37分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2070810807168980648" target="_blank" class="news-link">梁文锋财富一年暴涨 3850% ，跻身全球亿万富豪榜，他是如何做到的？</a> [15] <font color='grey'>- 22时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
