@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 102</p><p>生成时间: 2026-08-14 05:51:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">13.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffd08-320f-7aab-902e-933e7c2daae6" target="_blank" class="news-link">White House said President Trump has directed the Secretary of Defense to replace the advanced electromagnetic aircraft launch system (EMALS) and advanced weapons elevators with conventional steam and hydraulic systems during construction of the CVN-81 aircraft carrier.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffd07-eccb-7aab-902e-88401a78df55" target="_blank" class="news-link">White House said President Trump signed a memorandum directing the Pentagon to increase direct investment in the U.S. shipbuilding industrial base under a &#x27;Finnish model&#x27;.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3149336" target="_blank" class="news-link">OpenAI 上市前年化营收突破 400 亿美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffd07-82d1-7aab-902e-811148fe3065" target="_blank" class="news-link">White House: President Trump has signed a national security presidential memorandum to address long-standing critical issues in U.S. Navy shipbuilding and maintenance programs.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260814053819730800" target="_blank" class="news-link">市场消息：OpenAI年化营收在IPO前已突破400亿美元。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffd05-13e8-7aab-902e-6b060cdfdb49" target="_blank" class="news-link">White House announces President Trump will impose 100% ad valorem tariffs on drones of certain sizes or with sensitive capabilities.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffd04-8dee-7aab-902e-626e5c054add" target="_blank" class="news-link">White House: President Trump will impose a 25% ad valorem tariff on certain small unmanned aerial vehicles lacking specified capabilities, citing national security concerns.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffcf6-2bd5-7aab-902e-3d02c586b35b" target="_blank" class="news-link">Saudi state news agency SPA said the Saudi crown prince and the CENTCOM commander held talks on deepening defense cooperation and measures to de‑escalate regional tensions.</a> [12] <font color='grey'>- 05时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffcf4-1b93-7aab-902e-328ad0b6bb3b" target="_blank" class="news-link">Saudi state news agency said the Saudi Crown Prince met the CENTCOM commander.</a> [13] <font color='grey'>- 05时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffce3-1d74-7aab-902e-072548e48bca" target="_blank" class="news-link">Iran set its September Asian selling price for Iranian Light crude at a $4.70/bbl discount to the Oman/Dubai benchmark.</a> [19] <font color='grey'>- 05时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffcdd-4e6f-7aab-902d-fa855c434ded" target="_blank" class="news-link">UAE Foreign Ministry said the UAE condemns Iran&#x27;s attack on Abu Dhabi National Oil Company vessels in the Strait of Hormuz.</a> [20] <font color='grey'>- 05时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffcdc-e83a-7aab-902d-f715f8f56d9f" target="_blank" class="news-link">FITCH: Tariffs have raised core goods inflation, but pass-through has been milder than expected.</a> [21] <font color='grey'>- 05时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffcda-f10d-7aab-902d-dea7ec367b60" target="_blank" class="news-link">Fitch: high fiscal deficits, a large interest burden and elevated, rising government debt levels constrain the US sovereign credit rating.</a> [24] <font color='grey'>- 05时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffcda-70df-7aab-902d-c4ee76a1de11" target="_blank" class="news-link">Wall Street Journal: President Trump has ordered the US Navy to remove electromagnetic aircraft launch systems (EMALS) from aircraft carriers and revert to steam catapults; the change is expected to add tens of billions of dollars to retrofit costs.</a> [27] <font color='grey'>- 05时51分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
