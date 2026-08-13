@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 282</p><p>生成时间: 2026-08-13 18:38:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">23</td>
+                <td class="percentage">8.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5285067" target="_blank" class="news-link">鹏鼎控股(002938.SZ)：今年为公司 AI 算力业务规模化起步元年，明后年将迎来算力产能集中落地、持续放量阶段</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffaa6-0a16-7aab-9022-4cfa1ba30dc1" target="_blank" class="news-link">Barclays raises Cisco (CSCO.O) PT to $123 from $121.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffaa5-bfff-7aab-9022-46442f7e3044" target="_blank" class="news-link">Barclays raised its PT on CoreWeave to $105 from $90.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959586" target="_blank" class="news-link">会用AI和不会用AI的人，差距正从10%拉大到10倍</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234179" target="_blank" class="news-link">用 AI 做了一个边学英语边学 AI 的工具</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3149109" target="_blank" class="news-link">IBM与OpenAI就企业AI部署达成合作</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffaa2-c644-7aab-9022-2eb4f257c220" target="_blank" class="news-link">US and Israeli senior officials denied a Reuters report that said Israel and Lebanon had agreed on which countries could join a proposed international mechanism in Lebanon to oversee Hezbollah&#x27;s disarmament and verify Lebanese army activity, the Jerusalem Post reported.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5285062" target="_blank" class="news-link">一博科技(301366.SZ)：外机器人领域收入放量趋势明显，AI 相关的服务器、光模块业务也保持较高的增长</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234172" target="_blank" class="news-link">投资人都不投 AI 应用了，但我觉得他们都是错的</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffaa1-9c6b-7aab-9022-24f776a869bb" target="_blank" class="news-link">German police are evacuating buildings near a Bavarian train station after discovering a suspected explosive device.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffaa0-67f8-7aab-9022-1352f0708458" target="_blank" class="news-link">Houthi militants warned that if Saudi Arabia launches a full-scale assault on Yemen, they will target Saudi oilfields, airports and power and water infrastructure.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5285056" target="_blank" class="news-link">盛弘股份(300693.SZ)：2026年成立AIDC关键电源部</a> [12] <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2453081" target="_blank" class="news-link">股价飙升34%！算力租赁商Nebius Q2云收入暴增514% 点燃AI基建板块</a> [13] <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7672957997422346303" target="_blank" class="news-link">使用飞书机器人让 Codex 24 小时在线：随时随地给你的 AI 工程师派活</a> [13] <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/operativo-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Operativo-AI</a> [13] <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/366.htm" target="_blank" class="news-link">Y Combinator CEO 陈嘉兴：善用 AI 智能体的创业者将提前活在 2028 年</a> [14] <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%BE%AE%E4%BF%A1%E8%A6%81%E7%94%A8AI%E6%9D%80%E6%AD%BB%E7%A4%BE%E4%BA%A4%E5%90%97" target="_blank" class="news-link">微信要用AI杀死社交吗</a> [15] <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffa9a-e0b4-7aab-9021-d8c58636ee5a" target="_blank" class="news-link">IBM shares rose 1.6% in pre-market trading after the company announced a partnership with OpenAI.</a> [16] <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3149091" target="_blank" class="news-link">腾讯启动顶尖AI产品人才招聘专项</a> [16] <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ai-project-health-check?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AI Project Health Check</a> [16] <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/scrimba?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Scrimba Explain</a> [17] <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffa90-c54a-7aab-9021-97fc65d27897" target="_blank" class="news-link">People familiar with the matter said Vantage Data Centers plans an IPO or sale as early as 2027.</a> [25] <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffa8d-6556-7aab-9021-813994e43fc4" target="_blank" class="news-link">Iran&#x27;s Ministry of Intelligence said it dismantled two operational cells of &#x27;terrorist extremist groups&#x27; in southeastern Iran, arresting four terrorists and killing two.</a> [27] <font color='grey'>- 18时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">4</td>
+                <td class="percentage">1.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234160" target="_blank" class="news-link">配了个迷你主机, 然后跑 ERP 跑不起来,claude 一查竟然是工程 CPU</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2453351" target="_blank" class="news-link">史上最大IPO要易主了？据称Anthropic将于10月IPO，估值或突破2万亿美元</a> [11] <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234158" target="_blank" class="news-link">分享一个让 Codex 和 Claude 相互调用的小工具</a> [11] <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7672315735167238198" target="_blank" class="news-link">天天用 Claude Code/Codex，你知道它实际发给模型什么吗？被这开源工具扒光了...</a> [27] <font color='grey'>- 18时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234184" target="_blank" class="news-link">deepseek 系里是否 deepseek 公司，小米，硅基流动这 3 家价格差不多？还有性价比高，稳定的 deepseek 系大供应商吗？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时38分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%A2%81%E6%96%87%E9%94%8B%E3%80%81%E9%A9%AC%E6%96%AF%E5%85%8B%E5%90%8C%E6%97%A5%E4%B8%8A%E6%96%B0" target="_blank" class="news-link">梁文锋、马斯克同日上新</a> [19] <font color='grey'>- 18时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/384.htm" target="_blank" class="news-link">谷歌 DeepMind 换帅内情：Gemini 延期两月后编程能力仍落后友商，布林亲自督战并要求“全力投入”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7672680238062452755" target="_blank" class="news-link">从“即兴创作”到“规格先行”，华为云码道（CodeArts）代码智能体持续深耕企业级规范驱动开发能力</a> [29] <font color='grey'>- 18时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
