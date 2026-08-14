@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 231</p><p>生成时间: 2026-08-14 23:56:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">10.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a000ef-b41f-7aab-9042-51faed2b8839" target="_blank" class="news-link">Suspect in UnitedHealth CEO shooting, Luigi Mangione, said he shot former UnitedHealth CEO Brian Thompson and traveled to New York to kill Thompson.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49299282" target="_blank" class="news-link">When Genius Fails: The Intellectual Arrogance of the AI Labs</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a000e2-cc8b-7aab-9042-2fa1a7570428" target="_blank" class="news-link">Peru&#x27;s president said fuel subsidies will remain in place for three months.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a000e1-ebb8-7aab-9042-259876c557c1" target="_blank" class="news-link">Peru&#x27;s economy minister said fuel subsidies will begin on Saturday, applying to drivers in designated regions and to specified vehicle types.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/955.htm" target="_blank" class="news-link">苹果 AirPods Pro 4 耳机最新消息汇总：摄像头与手势识别成焦点</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a000e1-65cc-7aab-9042-1b08c3219662" target="_blank" class="news-link">US Department of Justice says Amazon has agreed to pay $2.25 mln and accept injunctive relief to resolve alleged violations of the Fair Credit Reporting Act.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3149812" target="_blank" class="news-link">OpenAI首席财务官Friar将于今日举行投资者会议。（CNBC）</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2068917345393940011" target="_blank" class="news-link">围棋与境界、修养之类的东西毫无关系，能赢是因为计算力强，这么明显的道理在 AI 以前人们怎么不懂？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/951.htm" target="_blank" class="news-link">新研究证实，AI 生成书籍已挤压人类作者作品市场空间</a> [11] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a000d9-8a95-7aab-9041-f89bdf22d11b" target="_blank" class="news-link">SK Group chairman Chey Tae-won appeals 944 bln won divorce settlement ruling</a> [12] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a000d5-fa2d-7aab-9041-f00b32216bbc" target="_blank" class="news-link">U.S. Trade Representative Greer said Canada&#x27;s ban on U.S. alcoholic beverages must be resolved.</a> [13] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a000d4-d2d0-7aab-9041-e8473b2b069d" target="_blank" class="news-link">U.S. Trade Representative Greer said Canada seeks a more conciliatory approach.</a> [14] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a000d3-e9f3-7aab-9041-dae6744e3ca8" target="_blank" class="news-link">Suzhou Water Affairs Bureau at 22:00 on the 14th upgraded and issued a red flood warning for the Suzhou section of the Beijing-Hangzhou Grand Canal.</a> [16] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49299000" target="_blank" class="news-link">Show HN: APIMart: Discounted AI API Aggregator for GPT-5, Sora 2</a> [17] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a000cd-cda2-7aab-9041-ce14e44936f1" target="_blank" class="news-link">Brazilian President Lula said he wants to maintain good relations with the US and does not want conflict.</a> [18] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/944.htm" target="_blank" class="news-link">科技行业史上最大收购之一，SpaceX 豪掷 600 亿美元拿下 AI 编程公司 Cursor</a> [18] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49299102" target="_blank" class="news-link">AI Model Atlas – visualizing populations of ML models as interconnected 3D graph</a> [19] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33737938" target="_blank" class="news-link">对话卡内基梅隆大学教授鲁斯兰（下）：AI时代，我们站在怎样的分岔口？</a> [20] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a000ca-eba9-7aab-9041-bbeb8238afad" target="_blank" class="news-link">LULA said he wants to maintain good relations with the U.S. but accused the U.S. of spreading rumors about Brazil.</a> [20] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4226998_103_1" target="_blank" class="news-link">OpenAI首席财务官Friar将于今日举行投资者会议。</a> [22] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a000c9-6fd1-7aab-9041-a6359eef997e" target="_blank" class="news-link">Brazilian President Lula said a date has not yet been set but will be arranged.</a> [23] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a000c8-90e5-7aab-9041-99ae191d5d7e" target="_blank" class="news-link">Brazilian President Lula said Trump has always treated him well and shown him respect.</a> [24] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a000c8-6561-7aab-9041-966d554641b7" target="_blank" class="news-link">Brazilian President Lula said he is working to establish dialogue with Trump and hopes to maintain contact for a one-on-one meeting.</a> [25] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a000c2-ffdd-7aab-9041-846fa474ce28" target="_blank" class="news-link">OpenAI&#x27;s CFO will hold an investor meeting today.</a> [27] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260814225245934800" target="_blank" class="news-link">OpenAI首席财务官弗莱尔今日将召开投资者会议。</a> [27] <font color='grey'>- 23时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">6</td>
+                <td class="percentage">2.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a000ed-0961-7aab-9042-4c4d1798fd1b" target="_blank" class="news-link">Alibaba open-sources Qwen3.8 series</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3149817" target="_blank" class="news-link">阿里开源Qwen3.8，千问大模型全球下载超30亿次</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49299684" target="_blank" class="news-link">Qwen3.8-27B</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/953.htm" target="_blank" class="news-link">阿里开源 Qwen3.8-27B 模型，编程、办公场景表现超越 Qwen3.7-Plus</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49299605" target="_blank" class="news-link">Qwen 3.8 27B is out: open weights, best local dense model yet</a> [11] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49299688" target="_blank" class="news-link">Unsloth Qwen3.8-27B GGUF files</a> [27] <font color='grey'>- 23时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%20Codex%20Kimi" target="_blank" class="news-link">DeepSeek Codex Kimi实测对比</a> [11] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%20Harness%E5%AE%9E%E6%B5%8B" target="_blank" class="news-link">DeepSeek Harness实测</a> [14] <font color='grey'>- 23时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/950.htm" target="_blank" class="news-link">谷歌升级 Freeplay 服务，提供超 1 万部免费电影、电视剧</a> [12] <font color='grey'>- 23时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
