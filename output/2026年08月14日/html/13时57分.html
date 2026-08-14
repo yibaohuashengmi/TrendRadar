@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 243</p><p>生成时间: 2026-08-14 13:57:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">22</td>
+                <td class="percentage">9.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffec4-7af2-7aab-9036-095d20240f32" target="_blank" class="news-link">Taiwan Weighted Index closed down 210.47 points, or 0.46%, at 45,811.01 on Friday, Aug. 14.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959590" target="_blank" class="news-link">海力士董事长：AI Agent五年将增长77倍，全球内存产能十年要扩到五倍</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffec0-46a7-7aab-9035-fa4042e8d21d" target="_blank" class="news-link">China coking coal main futures contract rose over 3% to 1,361.5 yuan/ton.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffebe-c9a0-7aab-9035-f3c778c5a83f" target="_blank" class="news-link">China A-share banking sector rallied in the afternoon session; Shanghai Rural Commercial Bank rose over 3%, with Shanghai Bank, Suzhou Bank and Chongqing Rural Commercial Bank also higher.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/683.htm" target="_blank" class="news-link">贾樟柯编剧新电影《敦煌妈妈》备案立项：独居母亲喜欢上使用 AI，实现横穿中国</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffeb6-b3eb-7aab-9035-e84f59bfd81f" target="_blank" class="news-link">Local officials said &quot;all situations&quot; at Russia&#x27;s Ust-Luga port in the Leningrad region following a drone attack have been handled.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234340" target="_blank" class="news-link">AI 成了背黑锅的，跟当年 CSDN/stackoverflow 一模一样</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffeaf-78bb-7aab-9035-c809d269bb17" target="_blank" class="news-link">China A-share semiconductor sector reversed in the afternoon; Huahong Hongli fell nearly 10%, while Zhongke Feice, Huafeng Cekong, Chipsea Technology, Jinhaitong, Taiji Industrial, China’s CPU maker Haiguang and Cambricon also slid.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/676.htm" target="_blank" class="news-link">消息称苹果专门针对中国市场训练了一款 AI 模型，由阿里提供支持</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffea8-d173-7aab-9035-be2a438e902e" target="_blank" class="news-link">Interfax reported that online retailer Wildberries&#x27; warehouse in Russia&#x27;s Tver region was damaged in a drone attack.</a> [11] <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffea5-f6c8-7aab-9035-a936486e3614" target="_blank" class="news-link">The Philippine president said it is difficult to make a decision now and it is too early to say whether he will back any candidate.</a> [13] <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/08/14/a3429f188ede436e9029c3f96460591e.html" target="_blank" class="news-link">港媒：中国开源人工智能给欧洲新选择</a> [14] <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5285398" target="_blank" class="news-link">CAI控股(00080.HK)：7月末每股净资产值为0.13港元</a> [14] <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffe9b-bcc2-7aab-9035-80bfb7cd8489" target="_blank" class="news-link">Philippine President MARCOS said the country&#x27;s economic growth rate was disappointing.</a> [18] <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffe97-2f6f-7aab-9035-7530954c4cdb" target="_blank" class="news-link">The Philippine president said the government is working to restore stability to the economic system to allow households and businesses to plan.</a> [20] <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffe93-f4d7-7aab-9035-69cd95bb1187" target="_blank" class="news-link">Apple trains China-specific LLM with Alibaba, shifts from third‑party reliance</a> [21] <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3149477" target="_blank" class="news-link">苹果未来几个月将在中国发布一套AI工具，该AI模型的训练得到阿里巴巴的支持。（路透）</a> [21] <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffe92-c8fb-7aab-9035-5dff1a477610" target="_blank" class="news-link">China&#x27;s National Commission for Disaster Reduction and the Ministry of Emergency Management have activated a national level-4 disaster emergency response, allocated central relief supplies and are guiding and supporting Henan&#x27;s heavy-rain and flood relief operations.</a> [23] <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffe8f-fcd8-7aab-9035-4a803b431179" target="_blank" class="news-link">KAZTRANSOIL said Kazakhstan&#x27;s July oil exports via Russia&#x27;s Ust‑Luga port were 286,000 tonnes and via Novorossiysk were 360,000 tonnes.</a> [25] <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffe8f-4080-7aab-9035-426fb18411fa" target="_blank" class="news-link">KAZTRANSOIL said Kazakhstan&#x27;s oil exports via the Baku-Tbilisi-Ceyhan pipeline were 155,000 tonnes in July.</a> [26] <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffe8e-ec77-7aab-9035-3894ad11375a" target="_blank" class="news-link">KAZTRANSOIL said Kazakhstan&#x27;s oil exports via the CPC pipeline reached 271,000 tonnes in July.</a> [27] <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffe8e-e7ab-7aab-9035-3228745a4cbe" target="_blank" class="news-link">Dingdong Maicai to enter Hefei; plans 100+ new front warehouses in Yangtze River Delta by 2026</a> [28] <font color='grey'>- 13时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">4</td>
+                <td class="percentage">1.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234352" target="_blank" class="news-link">咋一晚上就出现了这么多 DeepSeek Harness 的插件</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%20Harness%E6%98%AF%E4%BB%80%E4%B9%88" target="_blank" class="news-link">DeepSeek Harness是什么</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2071361705183899939" target="_blank" class="news-link">DeepSeek V4 大幅涨价后，现在谁才是你心中的大模型性价比之选？</a> [11] <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%20Harness" target="_blank" class="news-link">一个视频看懂DeepSeek Harness</a> [23] <font color='grey'>- 13时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234344" target="_blank" class="news-link">云服务器部署 claude self-host 的最佳方案是什么</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234341" target="_blank" class="news-link">`[DeepSeek Harness] 中文速查 + 踩坑：刚发布的开源 Claude Code 替代品，官方文档还是空的`</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234336" target="_blank" class="news-link">google 是改了什么检测策略了吗， gemini 和 youtube 都有点问题</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
