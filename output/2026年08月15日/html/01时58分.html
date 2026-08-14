@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 140</p><p>生成时间: 2026-08-15 01:58:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">10.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0015c-fe78-7aab-9043-e6469adbe31b" target="_blank" class="news-link">SpaceXAI said it launched its Grok 4.6 model in GitHub Copilot.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00158-78af-7aab-9043-d58b824efd6a" target="_blank" class="news-link">X product head said the platform posted its highest-ever downloads last week, iOS monthly active users exceeded any prior year, and X is the fastest-growing social network at its current scale.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00150-57de-7aab-9043-c2c5f8b99339" target="_blank" class="news-link">US President Trump said the economy is performing incredibly well.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0014c-3f7e-7aab-9043-b0136734dc38" target="_blank" class="news-link">Russian Defence Ministry said its air-defence systems shot down 221 Ukrainian fixed-wing drones in the past 12 hours over several oblasts and in the Black Sea and Sea of Azov.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49300314" target="_blank" class="news-link">Google is making private AI practical with homomorphic encryption</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49300568" target="_blank" class="news-link">AI by Hand</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00144-617d-7aab-9043-9c7b30494b1a" target="_blank" class="news-link">Saba news agency, controlled by Yemen&#x27;s Houthi movement, said the Houthis used drones to strike an ARAMCO facility in Najran province in southern Saudi Arabia.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0013c-6b97-7aab-9043-8a318e265f9b" target="_blank" class="news-link">Baker Hughes said the U.S. oil and gas rig count rose to its highest level since March 2025.</a> [12] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0013a-afe1-7aab-9043-81e9a19d39e5" target="_blank" class="news-link">Baker Hughes said U.S. energy companies added drilling rigs for the second time in three weeks.</a> [13] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3149829" target="_blank" class="news-link">美联储古尔斯比表示，支持7月维持利率不变的决定。他指出，近期两次生产率数据表现不理想，若生产率继续走低，美联储可能需要重新审视市场对人工智能（AI）的预期。 古尔斯比表示，最新CPI数据令人鼓舞，但仍需观察更多数据才能作出判断；持续的消费疲软令人担忧，不过零售销售疲弱目前仅是单月表现。与此同时，美国GDP和劳动力市场整体保持基本稳定。</a> [15]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260815005338193800" target="_blank" class="news-link">马斯克：由于电力供应不足以及地面设施审批困难，到2029年左右，轨道计算（即太空计算平台）可能是大规模扩展AI的唯一出路。</a> [18] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00131-ae0b-7aab-9043-3b2c6a10b799" target="_blank" class="news-link">Musk said inadequate power supply and difficulty obtaining approvals for ground infrastructure mean orbital computing (space-based computing platforms) may be the only viable path to scale AI by around 2029.</a> [22] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260815003802424800" target="_blank" class="news-link">美联储古尔斯比：若生产率继续走低，将需要重新审视关于AI的预期。</a> [23] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0012e-6a9f-7aab-9043-2bb18748451b" target="_blank" class="news-link">Global Affairs Canada announced additional sanctions on Iranian individuals for obstructing freedom of navigation in the Strait of Hormuz and adjacent waters.</a> [24] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0012d-2c36-7aab-9043-203af09f8728" target="_blank" class="news-link">Global Mail reports Canada and the United States held talks on critical minerals and defense issues.</a> [25] <font color='grey'>- 01时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49299605" target="_blank" class="news-link">Qwen 3.8 27B</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779482" target="_blank" class="news-link">阿里开源Qwen3.8，千问大模型全球下载超30亿次</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时58分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49300800" target="_blank" class="news-link">Maximizing the value of your Claude Code sessions</a> [17] <font color='grey'>- 01时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
