@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 231</p><p>生成时间: 2026-08-14 22:33:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">5.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779476" target="_blank" class="news-link">SpaceX完成对AI软件Cursor的并购，交易规模达600亿美元！</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234486" target="_blank" class="news-link">请问在云端部署 AI Agent，是选择国内服务器还是国外服务器？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202608/1478753.html" target="_blank" class="news-link">Meta发布开放权重AI模型Muse Glimmer</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49297801" target="_blank" class="news-link">Dear people who work at the airport</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260814221200163800" target="_blank" class="news-link">SK海力士上半年设备投资增逾70% 加码AI存储产能</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202608/1478748.html" target="_blank" class="news-link">陈光炎：美中AI双雄争霸 “数字铁幕”或将落下</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779469" target="_blank" class="news-link">AI需求爆发，生益科技上半年净利润同比增130%，营收规模创历史新高 | 财报见闻</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49298088" target="_blank" class="news-link">HashAgent – Share an AI agent as a URL, runs locally via WebGPU</a> [12] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0008e-fbcd-7aab-9040-21da43a84efc" target="_blank" class="news-link">The US Consumer Financial Protection Bureau (CFPB) will stop publishing unverified consumer complaint narratives.</a> [18] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0008e-bd62-7aab-9040-1c0e35e4884e" target="_blank" class="news-link">Gates in talks with SK and HD Hyundai on SMRs, targeting AI power demand</a> [19] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00080-de7f-7aab-9040-0159eb3fe0b5" target="_blank" class="news-link">OMB Director Vought said US naval shipyards are operating at full capacity and face a significant backlog.</a> [22] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00080-c7e9-7aab-903f-fd892b8390ae" target="_blank" class="news-link">OMB Director Vought said US Ford-class aircraft carriers are too costly and take too long to build.</a> [23] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00072-0aaf-7aab-903f-c2d0024aa5f8" target="_blank" class="news-link">Canada Pension Plan Investment Board said its portfolio remains well positioned to benefit from strong public equity performance and that its global, diversified holdings have contributed meaningfully across multiple areas.</a> [30] <font color='grey'>- 22时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">4</td>
+                <td class="percentage">1.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234499" target="_blank" class="news-link">整理了一份 DeepSeek Harness (dsh) 插件精选列表，目前收录 270 个插件</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234483" target="_blank" class="news-link">10 分钟打造自己的专属豆包和 deepseek，基于 Go+React 开发了一款 Agent 编排器 Ollmo</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234484" target="_blank" class="news-link">苦于 DeepSeek Harness 没有可视化文本搜索， Vibe 了一个插件</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B7%B1%E5%BA%A6%E4%BD%93%E9%AA%8CDeepSeek+Harness+%E5%8E%9F%E8%B0%85%E6%B6%A8%E4%BB%B7" target="_blank" class="news-link">深度体验DeepSeek Harness 原谅涨价</a> [23] <font color='grey'>- 22时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/933.htm" target="_blank" class="news-link">谷歌 Chrome 浏览器新功能曝光：Gemini 帮你修改弱密码和重复密码</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/932.htm" target="_blank" class="news-link">谷歌、Meta 等喊话澳大利亚政府：现在判断 16 岁以下社媒禁令成效为时尚早</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
