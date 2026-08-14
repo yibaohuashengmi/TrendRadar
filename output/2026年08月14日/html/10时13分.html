@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 345</p><p>生成时间: 2026-08-14 10:13:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">33</td>
+                <td class="percentage">9.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffe03-2f59-7aab-9032-f36fbab3bfac" target="_blank" class="news-link">China A-share defense sector jumped; Chengfei Integration surged to the daily limit, Yaxing Anchor Chain earlier hit its limit, and Chenxi Aviation, Jianglong Shipbuilding, Guoke Military and AVIC Chengfei also advanced.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260814095652362800" target="_blank" class="news-link">铜铝需求逻辑正在从地产转向AI、电网和电气化</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffe02-8c3a-7aab-9032-efcd3c579e69" target="_blank" class="news-link">PHILIPPINE C.BANK governor said he was disappointed by the latest growth data but judged it was not that bad.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3779367" target="_blank" class="news-link">从328MW到5GW：SOFC为何突然站上AI数据中心的主电源牌桌？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/532.htm" target="_blank" class="news-link">杨元庆：联想曾凭借在 PC 普及阶段的贡献成为“PC 之王”，相信在 AI 时代历史将重演</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffe01-3c43-7aab-9032-dba97b2e9728" target="_blank" class="news-link">PHILIPPINE C.BANK governor said inf expectations remain stable.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3149415" target="_blank" class="news-link">A股AI应用方向开盘拉升，理工能科2连板，石基信息、久其软件直线涨停，大恒科技、合合信息、达梦数据跟涨。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffdfc-a4fa-7aab-9032-d2e750195ab5" target="_blank" class="news-link">Copper and aluminium demand shifting from property to AI, grids and electrification</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779417" target="_blank" class="news-link">“AI云两强”CoreWeave和Nebius业绩强劲！算力租赁价格大涨，短期合同溢价显著</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffdfc-10a2-7aab-9032-cea4da10a0b8" target="_blank" class="news-link">A-share battery stocks spiked briefly; Boliwei rose over 10%, while Huasheng Lithium, Shangtai Technology, Fangyuan Co, Haike Xinyuan and Wanli Co also advanced.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5285361" target="_blank" class="news-link">A股早评：三大指数集体高开，AI PC、存储芯片板块盘初活跃</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffdf8-ff07-7aab-9032-c4a53166eef9" target="_blank" class="news-link">New Taiwan dollar fell to NT$32.036 per US$, its weakest level since July 8.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffdf8-f34f-7aab-9032-bf9d2d3ba4f0" target="_blank" class="news-link">A-share rare-earth permanent-magnet sector strengthened in the morning session; China Rare Earth approached its daily limit-up, with Zhongxi Nonferrous, Jiuling Technology, Zhongke Magnetic and Northern Rare Earth also rising.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779413" target="_blank" class="news-link">冲刺IPO，OpenAI年化收入已达400亿美元</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffdf6-4c1d-7aab-9032-b01d55d20e0f" target="_blank" class="news-link">Popular high-flyers in the A-share market weakened broadly in early trade. Qin&#x27;an, Tongli Tianqi, Huangshi Group, Baoying and Delong Huineng hit the daily down limit; Fengfan, Huadong CNC, Yiming Food and Jingtou Development also slid.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffdf2-eb55-7aab-9032-a17aba4b1a63" target="_blank" class="news-link">Latvian National Armed Forces said on X that Latvia has lifted an air-threat alert after allied fighter jets shot down a drone in Latvian airspace.</a> [11] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffdf1-f737-7aab-9032-9640db6688df" target="_blank" class="news-link">China A-share innovative drug sector showed pockets of strength: Boji Pharma, Huasen Pharmaceutical and Zhongyuan Xiehe hit their daily trading limits; Xuantai Pharmaceutical, Guanhao Biotech, Zhongqi Co., Tigermed and Baiaotai also rose.</a> [13] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/518.htm" target="_blank" class="news-link">不再依赖截图记录活动：Mac 版 ChatGPT 新增 Computer History AI 功能</a> [13] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffdef-91d4-7aab-9032-8fdf4a6dd78f" target="_blank" class="news-link">China A-share property sector opened lower; Jingtou Development fell over 7%, while Rongfeng Holdings, Huafa and Shoukai shares also slipped at the open.</a> [14] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3149402" target="_blank" class="news-link">中芯国际赵海军：下半年人工智能产生的产业推动与溢出效应还将持续</a> [14] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffdef-062b-7aab-9032-84448a463e89" target="_blank" class="news-link">China A-share components sector surged; Huazheng New Materials and Aihua Group hit daily trading limits, while Zhongying Technology, Weiergao, Nanya New Materials, Zecheng Electronics and Zhongfu Circuit also advanced.</a> [15] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/515.htm" target="_blank" class="news-link">开发者反馈苹果 App Store 存在部分欺诈应用：AI 包装成好口碑，假截图 / 评论误导用户</a> [16] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffdeb-b08c-7aab-9032-635ea085fbec" target="_blank" class="news-link">A-shares liquid-cooled server names rallied: Kangsheng hit the daily trading limit, Alade rose over 15%, and Jiebang Technology, Jintian, Jingyan Technology and Siquan New Materials also advanced.</a> [19] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/09c161adbf1f459f8e2799d908321420" target="_blank" class="news-link">百度AI Infra提前批一面面经</a> [19] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/bbd8f778c65e4401a53de3d7417e6f77" target="_blank" class="news-link">大疆创新AI Agent开发面经</a> [20] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffde9-1a2a-7aab-9032-4fb47bfce173" target="_blank" class="news-link">China A-share dairy sector slid intraday; Huangshi Group and Yiming Food hit limit-down, Pinwo Food, Huanlejia and Panda Dairy also declined.</a> [22] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49292932" target="_blank" class="news-link">How AI text watermarking works</a> [23] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffde7-1150-7aab-9032-3c6b16aefefe" target="_blank" class="news-link">China A-share pharmaceutical distribution sector slipped intraday; Yaoyigou fell more than 7%, with Ruikang Pharmaceutical, Kaikai Industrial, Shuyu Pingmin and Huaren Health also down.</a> [24] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffde6-5549-7aab-9032-324effb54dab" target="_blank" class="news-link">China A-share supercapacitor sector spiked intraday; Kangsheng hit its daily up-limit. Jinshi Technology, Yifei Laser, Kangpeng Technology, Shangluo Electronics and Dongyangguang also advanced.</a> [25] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3149386" target="_blank" class="news-link">中芯国际高管：下半年，人工智能产生的产业推动与溢出效应还将继续为集成电路制造带来广泛需求。</a> [25] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23AI%E4%BC%81%E4%B8%9A%E6%89%8E%E5%A0%86%E5%86%85%E8%92%99%E5%8F%A4%E6%8A%A2%E9%A3%8E%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">AI企业扎堆内蒙古抢风</a> [26] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7672358738310578176" target="_blank" class="news-link">为什么程序员大多都拥抱 AI，而音乐人却抗拒并隔离 AI 音乐池?</a> [28] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=019ffde2-0b4a-7aab-9032-0ee2d40368e4" target="_blank" class="news-link">SMIC co-CEO Zhao Haijun: Chinese internet firms’ hardware spending exceeds expectations; compute and supporting chips in short supply</a> [30] <font color='grey'>- 10时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">10</td>
+                <td class="percentage">2.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779418" target="_blank" class="news-link">网友热议DeepSeek Harness：“自进化软件”的雏形</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234267" target="_blank" class="news-link">deepseek-v4-pro-0813 现已开源</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234266" target="_blank" class="news-link">[开源] Ramify：给 DeepSeek Harness 做了一个创意分支画布插件</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%80%E6%AC%A1%E7%9C%8B%E6%87%82DeepSeek%E6%96%B0%E6%A8%A1%E5%9E%8B" target="_blank" class="news-link">一次看懂DeepSeek新模型</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234264" target="_blank" class="news-link">deepseek-harness 初体验，讨论下呢</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7673637537293798953/" target="_blank" class="news-link">为什么DeepSeek越涨价越是价格屠夫</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7673390412729614390" target="_blank" class="news-link">DeepSeek 昨晚刚开源了 Harness：附万少的2 万字保姆级教程</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3779390" target="_blank" class="news-link">DeepSeek Harness 来了，它不想做下一个Codex</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7673348268143132710" target="_blank" class="news-link">Deepseek涨价了，前后对比，竟然差这么多</a> [12] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2071225352072999482" target="_blank" class="news-link">如何看待 DeepSeek 撤回 v4Pro 正式版的公告？</a> [14] <font color='grey'>- 10时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">6</td>
+                <td class="percentage">1.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E2%80%9C%E5%A4%A9%E6%89%8D%E5%B0%91%E5%B9%B4%E2%80%9D%E5%AE%81%E5%8D%9A%E5%AE%87%E5%9B%9E%E5%BA%94%E7%A6%BB%E8%81%8C" target="_blank" class="news-link">华为“天才少年”宁博宇回应离职</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/522.htm" target="_blank" class="news-link">华为鸿蒙电脑全新 MateBook Pro 首销：升级麒麟 X90 Plus 处理器，9999 元起</a> [11] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/519.htm" target="_blank" class="news-link">华为鸿蒙折叠电脑 MateBook Fold 非凡大师麒麟 X90 Plus 版首销，24999 元起</a> [12] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/517.htm" target="_blank" class="news-link">华为 WATCH GT 7 智能手表首销：41mm/46mm 可选，1588 元起</a> [14] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/514.htm" target="_blank" class="news-link">798g 华为最轻鸿蒙电脑 MateBook Pro S 首销：麒麟 XE90，售价 7999 元起</a> [17] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/513.htm" target="_blank" class="news-link">华为续航最长平板 MatePad Pro 2026 首销：麒麟 T93 芯片，5999 元起</a> [18] <font color='grey'>- 10时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.58%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3149398" target="_blank" class="news-link">Anthropic已解决Claude Code服务性能下降问题</a> [17] <font color='grey'>- 10时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/989/505.htm" target="_blank" class="news-link">有望超 SpaceX 成全球最大 IPO：曝 Anthropic 计划 10 月上市，估值 2 万亿美元</a> [25] <font color='grey'>- 10时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3149391" target="_blank" class="news-link">国科投资领投ChatGPT核心贡献者，亮源新创获数亿元Pre-A轮融资</a> [23] <font color='grey'>- 10时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234260" target="_blank" class="news-link">昨天把 clash verge rev 虚拟网卡模式从 GVisor 改为 Mixed，发现访问 Gemini 稳定性好很多</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时13分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
