@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 40</p><p>生成时间: 2026-08-16 03:24:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">22.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a006bd-ef37-7aab-904a-c1fd1c5ab7c2" target="_blank" class="news-link">Qatar&#x27;s foreign ministry said it was surprised by the emergence of such misleading remarks during this sensitive period.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a006bd-b12a-7aab-904a-bab446259c07" target="_blank" class="news-link">Qatar&#x27;s foreign ministry said it invited an Iranian delegation in April to visit Qatar to be briefed on details of a search-and-rescue operation, but Iran has not yet responded.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49312845" target="_blank" class="news-link">AI Isn&#x27;t Outthinking Mathematicians. It&#x27;s Out-Remembering Them</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a006bb-b895-7aab-904a-b6626f5cde27" target="_blank" class="news-link">Qatar&#x27;s foreign ministry said search-and-rescue teams found the remains of an Iranian pilot and has contacted Iranian authorities to discuss repatriation.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a006bb-65e7-7aab-904a-a8b3d08a1aa7" target="_blank" class="news-link">Qatar&#x27;s Foreign Ministry said it took necessary measures to defend its territory after an Iranian pilot violated Qatari airspace.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a006ba-eebf-7aab-904a-a6f53eeb8f98" target="_blank" class="news-link">Qatar&#x27;s foreign ministry said an Iranian pilot&#x27;s aircraft violated Qatari airspace and failed to respond to Doha&#x27;s attempts to make contact.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a006b9-8e44-7aab-904a-999b049ce593" target="_blank" class="news-link">Qatar&#x27;s foreign ministry denies detaining an Iranian pilot.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a006af-434c-7aab-904a-962c1b689f79" target="_blank" class="news-link">Iran&#x27;s foreign ministry said it reiterated calls to halt Israeli aggression in southern Lebanon and for Israeli forces to withdraw from occupied territories.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49313047" target="_blank" class="news-link">Voltair (YC W26) Is Hiring a Test Flight Engineer</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
