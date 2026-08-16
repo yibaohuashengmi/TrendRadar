@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 102</p><p>生成时间: 2026-08-16 21:34:27</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">12.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00ac4-55e6-7aab-904e-39658f106aaf" target="_blank" class="news-link">Weekly preview: China July economic &#x27;report card&#x27;; Alibaba, Baidu earnings; Fed minutes; US warned of &#x27;unprecedented&#x27; economic strike on Iran</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/386.htm" target="_blank" class="news-link">荣耀MagicOS 11 系统支持自动整理通知，使用端侧 AI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00ab4-6b5c-7aab-904e-35caa336a913" target="_blank" class="news-link">Hamas said a delegation arrived in Egypt at midday local time on Sunday and held talks with the head of the Egyptian General Intelligence Directorate, IRNA reported.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3150072" target="_blank" class="news-link">全球开源AI大洗牌 中国开源模型加速崛起</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00aac-abba-7aab-904e-262f6c3bad1f" target="_blank" class="news-link">Saudi state news agency said air-raid sirens were activated in the Jazan region. Earlier, TASNIM NEWS reported explosions near the Jazan refinery in Saudi Arabia.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/381.htm" target="_blank" class="news-link">莫言：AI 只能在前人作品上拼凑，再好也写不出《岳阳楼记》《滕王阁序》</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时34分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234790" target="_blank" class="news-link">独立开发了一个「图片转 AI 绘画 Prompt」的小工具，欢迎体验</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00a9a-3443-7aab-904e-0f762d436b48" target="_blank" class="news-link">Iran says US forces expelled, barred from Persian Gulf, Gulf of Oman and Strait of Hormuz</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时34分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2455353" target="_blank" class="news-link">周末要闻汇总：英伟达缩减对OpenAI数据中心项目担保计划；全国首个算力“Token贷”落地</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时34分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49319389" target="_blank" class="news-link">Research papers using &quot;kidney disappointment&quot; instead of &quot;kidney failure&quot;</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时34分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E5%A6%82%E4%BD%95%E8%83%BD%E8%BE%85%E5%8A%A9%E5%8A%9E%E5%85%AC" target="_blank" class="news-link">AI如何能辅助办公</a> [16] <font color='grey'>- 21时34分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33792037" target="_blank" class="news-link">明查｜南极冰川现“神秘生物”？AI又整活了</a> [17] <font color='grey'>- 21时34分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%BC%A0%E6%9C%9D%E9%98%B3%EF%BC%9A%E6%88%91%E4%BB%8E%E6%9D%A5%E4%B8%8D%E7%9C%8BAI%E6%BC%AB%E5%89%A7" target="_blank" class="news-link">张朝阳：我从来不看AI漫剧</a> [26] <font color='grey'>- 21时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234793" target="_blank" class="news-link">黑洞测试效果 deepseek v4 pro + max 推理强度</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%8B%B9%E6%9E%9C%E9%98%BF%E9%87%8C%E5%90%88%E4%BD%9C%E6%96%B0%E8%BF%9B%E5%B1%95%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">苹果阿里合作新进展</a> [29] <font color='grey'>- 21时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
