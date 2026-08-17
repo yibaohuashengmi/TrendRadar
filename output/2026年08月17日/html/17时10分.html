@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 268</p><p>生成时间: 2026-08-17 17:10:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">23</td>
+                <td class="percentage">8.58%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00ee3-dc54-7aab-905c-4d3b8fc34422" target="_blank" class="news-link">GUOTAI JUNAN INTERNATIONAL (01788.HK) reported for the six months ended June 30, 2026 revenue of HK$3.871bn, up 37% YoY, and profit attributable to ordinary shareholders of HK$675m, up 23% YoY.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00ee1-6c63-7aab-905c-390e7bb7a3fd" target="_blank" class="news-link">Geely Automobile: Li Shufu becomes lifetime honorary chairman; An Conghui named board chairman</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260817164011187800" target="_blank" class="news-link">百度财报前瞻：二季度营收净利或双降，AI云业务逆势增长</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00ee1-0928-7aab-905c-32286a20bebe" target="_blank" class="news-link">Baidu Q2 preview: revenue and net profit likely down; AI cloud shows strong growth</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235040" target="_blank" class="news-link">开发了一套 AI 记忆系统： OwnMem，服帖的治理了百万行代码的项目，彦祖们可以一键三连吗？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202608/1778953.html" target="_blank" class="news-link">阿里巴巴或以15亿美元出售游戏业务 加速向人工智能转型</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959606" target="_blank" class="news-link">马斯克想把AI搬上太空，星舰每15分钟就得飞一次</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/681.htm" target="_blank" class="news-link">AI 大模型周榜：Anthropic 多款新模型密集入榜，国产 kimi-k3-max 稳定头部</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00ece-f20a-7aab-905c-014a9e20e55c" target="_blank" class="news-link">Iran&#x27;s foreign ministry spokesman BAGHAEI said the problem with the US is not mediation but Washington&#x27;s mindset and misjudgments, and its insistence on methods repeatedly proven to fail; the current US administration is repeating past mistakes and the outcome will be unchanged.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3779562" target="_blank" class="news-link">资本关键时刻来临？AI叙事从技术转向融资，巨头现金流告急、债市已拉响警报</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779603" target="_blank" class="news-link">美联储加息预期降温，AI情绪回暖，纳指期货走高，存储芯片股普涨，黄金再站上4400美元</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/679.htm" target="_blank" class="news-link">识别、合成、实时交互全球第一，Qwen-Audio-3.0 系列语音模型上线阿里千问 AI 平台</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00ece-907e-7aab-905b-fca2d13351f9" target="_blank" class="news-link">Iranian foreign ministry spokesman Baghaei said admitting mistakes can be a precondition for making correct decisions, but he questioned whether U.S. decision-makers have that courage.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00ed0-b075-7aab-905c-0b8ae1217a94" target="_blank" class="news-link">Iran denies US media claim of any contacts with Washington</a> [13] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00ec9-9c86-7aab-905b-e5ddbfa76270" target="_blank" class="news-link">Japan imposes provisional anti-dumping duties on cold-rolled stainless steel coils from mainland China and Taiwan</a> [14] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/xcelerate-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">XCelerate AI</a> [14] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49327490" target="_blank" class="news-link">HackEurope 2026: A short rant on AI and hackathons</a> [16] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00ec4-806a-7aab-905b-acd76882d6f2" target="_blank" class="news-link">Iran will host a meeting of Caspian littoral states, Iranian foreign ministry spokesman Baghaei said.</a> [21] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00ec2-35d7-7aab-905b-8bb53e89b0a8" target="_blank" class="news-link">BAGHAEI, Iran&#x27;s foreign ministry spokesman, said with regret that the United States has repeatedly reneged on its commitments and, as in the earlier Oman matter, has undermined Pakistan&#x27;s role as mediator.</a> [25] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00ec1-b994-7aab-905b-7e6bbf4662da" target="_blank" class="news-link">Iran&#x27;s Foreign Ministry spokesman BAGHAEI said Iran and Pakistan, as neighboring countries, continue bilateral contacts. He said Pakistan is seeking to use its capabilities to mediate between Iran and the US.</a> [27] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00ec1-8277-7aab-905b-7343c861775a" target="_blank" class="news-link">NDRC, NEA issue 15th Five‑Year oil and gas plan; maintain capex intensity to back new capacity</a> [28] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00ec1-676f-7aab-905b-6bd27ee94bec" target="_blank" class="news-link">Iran Foreign Ministry spokesman Baghaei said Iran will expand economic and commercial ties with Afghanistan.</a> [29] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00ec1-37d9-7aab-905b-67b0316f4181" target="_blank" class="news-link">Iran Foreign Ministry spokesman BAGHAEI said Iran will not forget the crimes committed by the aggressors in Minab, Lamerd and Qeshm Island.</a> [30] <font color='grey'>- 17时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235048" target="_blank" class="news-link">Pi 是一个 coding Agent 吗?写代码比起 codex 和 claude code 有什么优势么?</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49324087" target="_blank" class="news-link">Anthropic&#x27;s &#x27;watermark&#x27; text adulteration in Claude is a perversion of writing</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/claudepet-a-pet-for-claude-code?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ClaudePet — a pet for Claude Code</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235037" target="_blank" class="news-link">亲测 deepseek-v4-pro 大约涨到之前的 3 倍</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235034" target="_blank" class="news-link">我写了个 Deepseek Harness 的插件，请大家锐评一下</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=Gemini%E6%8C%91%E7%93%9C%20%E6%97%A0%E4%B8%AD%E7%94%9F%E7%93%9C&amp;t=31&amp;band_rank=22&amp;Refer=top" target="_blank" class="news-link">Gemini挑瓜 无中生瓜</a> [22] <font color='grey'>- 17时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/667.htm" target="_blank" class="news-link">消息称华为小艺、vivo 蓝心小 V、荣耀 YOYO 将接入支付宝阿宝</a> [12] <font color='grey'>- 17时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> [20] <font color='grey'>- 17时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
