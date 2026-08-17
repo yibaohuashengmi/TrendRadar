@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 223</p><p>生成时间: 2026-08-17 11:53:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">6.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00dc9-f4ec-7aab-9055-952994b87bde" target="_blank" class="news-link">China midday: STAR 50 +3% as grain and chip names lead</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00dc7-faa6-7aab-9055-89a2ec5854ad" target="_blank" class="news-link">Traders said the Reserve Bank of India may be selling U.S. dollars to support the rupee.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779571" target="_blank" class="news-link">摩根大通：GLM-5.3升级+DeepSeek提价重塑中国AI，上调智谱与MiniMax目标价</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234920" target="_blank" class="news-link">Motrix 时隔三年终于更新了？作者刚开了 openai 的会员？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00dc2-dde3-7aab-9055-50f7ad725830" target="_blank" class="news-link">Zhuhai to implement cross‑border clearance facilitation at multiple ports from Aug 18</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2455546" target="_blank" class="news-link">狂欢与危机同在：AI算力盛宴 成了全球资本的“高利率毒药”？</a> [11] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2455347" target="_blank" class="news-link">储能竞争逻辑重塑：Q3电芯价格回升 AIDC与海外市场成增量方向 |行业观察</a> [12] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00db9-a027-7aab-9055-35be47590fb5" target="_blank" class="news-link">Thai state agencies expect Q3 GDP to improve.</a> [13] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2455402" target="_blank" class="news-link">一块玻璃的进阶之路 蓝思科技向AI全域智能终端延伸 |活力中国调研行</a> [13] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00db9-6d7e-7aab-9055-2cc39cf1033f" target="_blank" class="news-link">Japan&#x27;s minister for economic and fiscal affairs Kiuchi said Tokyo needs to closely monitor the impact of developments in the Middle East.</a> [14] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2061136311206073648" target="_blank" class="news-link">为什么才短短两三年，AI 就已经泛滥成灾，到了人人喊打、人嫌狗厌的境地？</a> [14] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00dad-f71b-7aab-9055-0181de5f7b69" target="_blank" class="news-link">Jan–Jul China railway fixed-asset investment 440.6 bln yuan</a> [19] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00da5-da8d-7aab-9054-c99624e96822" target="_blank" class="news-link">CLSA raises SMIC target to HK$97.5; Q3 guidance beats market expectations</a> [26] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00da3-379c-7aab-9054-bf339027c3ba" target="_blank" class="news-link">Energy costs offset stimulus, Thailand Q2 GDP slows to 1.9%</a> [28] <font color='grey'>- 11时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">4</td>
+                <td class="percentage">1.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%E6%AD%A3%E5%BC%8F%E6%B6%A8%E4%BB%B7" target="_blank" class="news-link">DeepSeek正式涨价</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234926" target="_blank" class="news-link">opencode go 的 deepseek 涨价并缩减了用量</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234909" target="_blank" class="news-link">中国古建测试效果 deepseek v4 pro + max 推理强度</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234907" target="_blank" class="news-link">有谁不想在 deepseek hermes 打上一局魂斗罗呢？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234919" target="_blank" class="news-link">如何最大化 Claude Code Session 的价值</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234902" target="_blank" class="news-link">目前的 codex、claude code 还有必要加类似 codegraph 的代码索引的软件吗?</a> [11] <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1234901" target="_blank" class="news-link">ClaudeCode 切到 Codex，用不明白</a> [12] <font color='grey'>- 11时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3150188" target="_blank" class="news-link">中信资本收购阿里旗下灵犀互娱已正式生效</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时53分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/506.htm" target="_blank" class="news-link">阿里正式出售游戏业务：曝价格至少 15 亿美元，灵犀互娱 CEO 周炳枢发布内部信</a> [13] <font color='grey'>- 11时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/554.htm" target="_blank" class="news-link">谷歌 Pixel 11 广告曝光未发布可穿戴设备，采用椭圆形屏幕</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时53分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
