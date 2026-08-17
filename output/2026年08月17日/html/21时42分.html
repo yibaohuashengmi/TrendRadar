@@ -1,0 +1,110 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 175</p><p>生成时间: 2026-08-17 21:42:11</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>toutiao</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">26</td>
+                <td class="percentage">14.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00fd9-2781-7aab-9062-f4104a14a6ea" target="_blank" class="news-link">JP Morgan raised its end-2026 target for Japan&#x27;s TOPIX to 4,600 from 4,400.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49329575" target="_blank" class="news-link">GPT 5.6 Sol is the best &quot;vision&quot; model OpenAI ever released</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00fd7-b2f5-7aab-9062-e8a08eb94807" target="_blank" class="news-link">OpenAI said the Ports-Pike project is expected to create 35,000 construction jobs during a six-year build ending in 2032 and 2,500 long-term operations jobs.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260817213122179800" target="_blank" class="news-link">英伟达(NVDA.O)上涨0.8%，OpenAI承诺将在2030年前大规模部署英伟达AI基础设施。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49330215" target="_blank" class="news-link">Show HN: Sokoban AI Solver</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779603" target="_blank" class="news-link">美联储加息预期降温，AI情绪回暖，纳指期货走高，铠侠ADR盘前涨超17%，金油齐涨</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235110" target="_blank" class="news-link">为 AI coding 准备的 React 组件库</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779627" target="_blank" class="news-link">欧洲央行：美股AI行情回调可能给欧元区带来严重后果</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235107" target="_blank" class="news-link">local.ai 先接了，再告诉你是干嘛的</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00fd4-828b-7aab-9062-d0f696407b50" target="_blank" class="news-link">UK Maritime Trade Operations said armed personnel have taken control of a vessel off the coast of Somalia.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260817212730193800" target="_blank" class="news-link">AI算力CPI</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00fd3-c95c-7aab-9062-c8670799b7e2" target="_blank" class="news-link">UK Maritime Trade Operations said eight unauthorised armed individuals boarded a cargo ship.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00fd3-97e7-7aab-9062-c5f8b8eaf873" target="_blank" class="news-link">UK Maritime Trade Operations said it received a report of an incident 4 nm south of Mareyo, Somalia.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00fd2-5847-7aab-9062-be2cbbb30b97" target="_blank" class="news-link">Ukraine&#x27;s military said it struck a factory in Russia&#x27;s Rostov Oblast linked to missile fuel production.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00fd0-d9a4-7aab-9062-a801122561ee" target="_blank" class="news-link">US Department of Defense (DoD) awards $100 million contract to NODA AI to expand mission-command capabilities for autonomous joint-force systems.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00fcf-676c-7aab-9062-a591bf179059" target="_blank" class="news-link">Paramount (PSKY.O) said it has extended the deadline for its previously announced exchange offer and tender offer.</a> [11] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3150525" target="_blank" class="news-link">英伟达：OpenAI承诺2030年前部署约12吉瓦英伟达AI算力</a> [12] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00fcd-4eb3-7aab-9062-8ff526b2a3e9" target="_blank" class="news-link">OpenAI signs 10 GW Ohio data‑center deal with SB Energy; NVIDIA to back financing</a> [14] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00fca-5b17-7aab-9062-80441c02c9f9" target="_blank" class="news-link">Iran&#x27;s Islamic Revolutionary Guard Corps (IRGC) spokesman said Trump&#x27;s claim that the US held secret backchannel talks with IRGC officials about war is &quot;a delusion born of failure&quot;.</a> [15] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5287376" target="_blank" class="news-link">理工光科(300557.SZ)：公司FiberXense光纤AI平台可适配测温、振动数据实时分析</a> [15] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4229417_212_1" target="_blank" class="news-link">市场消息：美国陆军部授予Node.AI公司1亿美元合同，为联合部队自主作战力量扩编任务指挥能力。</a> [15] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00fc7-25f0-7aab-9062-7a2fcb352961" target="_blank" class="news-link">Saudi Arabia TV reported Iran&#x27;s foreign ministry said the Islamabad agreement has not collapsed and could still be restored.</a> [16] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260817210940922800" target="_blank" class="news-link">OpenAI：Ports-Pike项目预计将在截至2032年的六年建设期内创造3.5万个建筑业就业岗位，并长期创造2500个运营岗位。</a> [17] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a00fc5-3225-7aab-9062-684860fa50a2" target="_blank" class="news-link">Groq raised $350 mln at a $3.5 bln valuation.</a> [18] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23AI%E5%81%9A%E7%9A%84%E6%97%A5%E5%89%A7%E5%A4%AA%E9%80%BC%E7%9C%9F%E4%BA%86%23&amp;t=31&amp;band_rank=21&amp;Refer=top" target="_blank" class="news-link">AI做的日剧太逼真了</a> [21] <font color='grey'>- 21时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260817210213960800" target="_blank" class="news-link">美国战争部（即国防部）：向NODA AI授予1亿美元合同，用于扩大联合部队自主力量的任务指挥能力。</a> [27] <font color='grey'>- 21时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779618" target="_blank" class="news-link">Anthropic估值有多激进？华尔街押注：2028年收入狂飙至2000亿美元</a> [17] <font color='grey'>- 21时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779632" target="_blank" class="news-link">上线三天再生变？千问办公撤回智谱、DeepSeek两款外部模型接入</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260817213040526800" target="_blank" class="news-link">美股开盘，道指跌0.3%，标普500指数接近平开，纳指涨0.2%。存储概念股上涨，美光科技(MU.O)涨3.6%，闪迪(SNDK.O)涨4.5%。Alphabet(GOOG.O)涨0.2%，伯克希尔二季度继续加仓Alphabet。阿里巴巴(BABA.N)上涨1.6%，公司以15亿美元的价格出售游戏业务。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
