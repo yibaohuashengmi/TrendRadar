@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 225</p><p>生成时间: 2026-08-18 18:32:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">28</td>
+                <td class="percentage">12.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01468-2e6b-7aab-9077-60b15794e908" target="_blank" class="news-link">Qatar foreign ministry spokesman said Iran&#x27;s request for the International Committee of the Red Cross (ICRC) to intervene in an incident involving an Iranian pilot amounted to &quot;media hype&quot;.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235391" target="_blank" class="news-link">2026 年 8 月，目前使用 AI 进行 3D 建模最好的方式是什么？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01467-a8ea-7aab-9077-5fa6fdbd8804" target="_blank" class="news-link">Qatar&#x27;s foreign ministry spokesman said Iran and Qatar are maintaining direct contact over an Iranian pilot.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01467-0bd5-7aab-9077-5786cd1ef431" target="_blank" class="news-link">Qatar foreign ministry spokesman said an invitation for an Iranian delegation to visit to discuss the pilot issue remains valid, but Iran has not yet responded.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3151037" target="_blank" class="news-link">小米AIoT平台连接设备同比增长17.4%，智能生态粘性持续增强</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01465-8d60-7aab-9077-3a448827e467" target="_blank" class="news-link">Qatar&#x27;s foreign ministry spokesman said the country has handed over the body of a pilot who violated Qatari airspace to Iran.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01465-35bc-7aab-9077-2b4aaf23b1a0" target="_blank" class="news-link">Qatar foreign ministry spokesman said efforts are focused on easing the current crisis and restoring the memorandum of understanding (MoU).</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3779668" target="_blank" class="news-link">创业板跌近1%，农业股逆势爆发，年内最贵新股上市首日暴涨超500%，港股阿里午后拉升涨近4%，AI大模型双雄齐跌</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/991/250.htm" target="_blank" class="news-link">腾讯云将在马来西亚设立首个云区域，同步推进本地 AI 人才培养计划</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/aimey-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Aimey.ai</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01462-314c-7aab-9077-1a6627502b3a" target="_blank" class="news-link">Qatar&#x27;s foreign ministry spokesperson said mediators are awaiting a bilateral agreement between Oman and Iran on the Strait of Hormuz before resuming broader U.S.-Iran negotiations.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28358398&amp;amp;topic_name=%E9%9B%86%E4%B8%AD%E6%92%A4%E6%A6%9C%2C%E8%B5%B7%E7%82%B9%E6%96%A9%E6%9D%80AI%E6%96%87" target="_blank" class="news-link">集中撤榜,起点斩杀AI文</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01461-5096-7aab-9077-13bbe6775d06" target="_blank" class="news-link">Egypt&#x27;s foreign minister and Oman&#x27;s foreign minister discussed plans for Iran and Oman to issue a joint statement on opening the Strait of Hormuz and cited Oman&#x27;s efforts; they called for continued diplomacy to ease tensions, safeguard freedom of navigation and avoid actions that could escalate regional tensions.</a> [11] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/miniai-chat-sdk?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">MiniAI Chat SDK</a> [12]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0145c-1c78-7aab-9076-f49d150e2a01" target="_blank" class="news-link">CITIGROUP raised its PT on Salesforce (CRM.N) to $204 from $187.</a> [15] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0145a-cd9c-7aab-9076-e88adcbbbcf0" target="_blank" class="news-link">Syrian military says Israeli jets struck Abu al‑Duhur airbase in Idlib, damaging runway</a> [16] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/airtight?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AirTight</a> [16] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01452-489a-7aab-9076-e588bb396bfe" target="_blank" class="news-link">Azerbaijan&#x27;s finance ministry maintained its 2026 GDP growth forecast at 1.7%.</a> [17] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01451-778a-7aab-9076-d760ae1f71fa" target="_blank" class="news-link">HKEX welcomes NFRA support for mainland insurers to buy Hong Kong ETFs via Stock Connect</a> [19] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3151006" target="_blank" class="news-link">小米集团 第二季度营收1,089.2亿元人民币，同比下降6.1%，预估1,083.3亿元人民币。 第二季度营业利润108.7亿元人民币，同比下降19%，预估58.5亿元人民币。 第二季度净利润94.6亿元人民币，同比增加21%，预估57.6亿元人民币。 第二季度资本支出36.2亿元人民币，预估23.9亿元人民币。 第二季度智能电动汽车及AI等创新业务收入249.0亿元人民币，同比增长17%，预估249亿元人民币。 上半年营收2,080.6亿元人民币；净利润141.9亿元人民币。</a> [19]</div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%99%BE%E5%BA%A6Q2+AI%E4%B8%9A%E5%8A%A1%E6%94%B6%E5%85%A5%E5%8D%A0%E6%AF%94%E8%BF%9E%E7%BB%AD%E8%BF%87%E5%8D%8A" target="_blank" class="news-link">百度Q2 AI业务收入占比连续过半</a> [20] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01451-5f0b-7aab-9076-c9b8ce438cba" target="_blank" class="news-link">Azerbaijan&#x27;s Ministry of Finance raised its 2026 average annual inf forecast to 5.7% from 4.8%.</a> [20] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49343559" target="_blank" class="news-link">Google buys crashed airline Spirit&#x27;s data at auction, because AI</a> [22] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01441-dcf9-7aab-9076-af186f3aee07" target="_blank" class="news-link">MOODY&#x27;S: Australia&#x27;s economy is expected to remain resilient, supported by a flexible economy, effective institutions and proactive policymaking.</a> [24] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0143c-bfcf-7aab-9076-979056d8bdcd" target="_blank" class="news-link">MOODY&#x27;S affirmed Australia&#x27;s issuer rating at Aaa and maintained a stable outlook.</a> [27] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0143c-7c77-7aab-9076-8fbcbe5865a3" target="_blank" class="news-link">MOODY&#x27;S says Australia’s economy remains resilient despite higher oil prices driven by global tariffs and the Middle East conflict.</a> [28] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0143c-26b3-7aab-9076-85800182b03e" target="_blank" class="news-link">Axios reports the FDA is considering a &quot;capability-based&quot; evaluation, modeled on physician assessments, for medical devices that incorporate generative AI.</a> [29] <font color='grey'>- 18时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0143b-0925-7aab-9076-7f85fd0426e0" target="_blank" class="news-link">Three NATO reconnaissance aircraft were detected in the past two hours approaching the Kaliningrad region from Poland and Lithuania.</a> [30] <font color='grey'>- 18时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/991/266.htm" target="_blank" class="news-link">十万级唯一搭载华为乾崑智驾 ADS 5 SE 车型，星海 V6 首台量产车顺利下线</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时32分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
