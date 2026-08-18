@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 127</p><p>生成时间: 2026-08-19 01:31:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">9</td>
+                <td class="percentage">7.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a015e9-26e7-7aab-907f-c65853b5d272" target="_blank" class="news-link">UK Maritime Trade Operations said it has received a report of an incident 40 nautical miles southeast of Mokha port, Yemen.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a015e8-6403-7aab-907f-bdb9955d8095" target="_blank" class="news-link">UK Maritime Trade Operations said an unmanned cargo vessel was struck by multiple rounds of unknown ordnance and sustained damage.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a015e6-3e46-7aab-907f-b78e131d7382" target="_blank" class="news-link">Canadian Oil Sands Alliance chair says Canadian oil sands companies plan to take a final investment decision on the Pathways carbon-capture project by the end of next year.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a015dc-6043-7aab-907f-9bd6adb4b59a" target="_blank" class="news-link">An adviser to Turkish President ERDOGAN said, regarding the attack in Syria, that Turkey will continue to support Syrian sovereignty.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3779682" target="_blank" class="news-link">“新债王”Gundlach警告：芯片变“新资产类别”是AI牛市见顶信号</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a015d2-be66-7aab-907f-75c382a59d84" target="_blank" class="news-link">Ghalibaf said Americans believe increased pressure on Iran will force concessions, but those concessions were never part of the agreement; he said US Treasury Secretary BESSENT and Defense Secretary Hegseth are powerless.</a> [13] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a015cf-bfd4-7aab-907f-6a7f04dc252d" target="_blank" class="news-link">Ukrainian forces launched an airstrike in Russia&#x27;s Belgorod region, killing one and wounding three.</a> [14] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a015c8-cd9f-7aab-907f-52a5c8854459" target="_blank" class="news-link">Israel strikes Abu Zuhur airbase in NW Syria; Turkey denies troop presence, US expresses concern</a> [17] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a015c0-48bc-7aab-907f-271f7d368fc1" target="_blank" class="news-link">Interfax reported Russian Foreign Minister Lavrov said Russia has the right to treat UK missile forces directly involved in strikes on Russia as participants in the conflict.</a> [23] <font color='grey'>- 01时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">7</td>
+                <td class="percentage">5.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3151254" target="_blank" class="news-link">报道：Anthropic IPO前信贷安排规模有望突破100亿美元目标</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260819005726032800" target="_blank" class="news-link">Anthropic获银行追捧，上市前信贷额度或突破100亿美元</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260819004657850800" target="_blank" class="news-link">市场消息：Anthropic正要求牵头银行各提供约12.5亿美元贷款，其他主要参与银行则预计各提供约10亿美元。</a> [14] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a015ce-c218-7aab-907f-6695416e0a49" target="_blank" class="news-link">Anthropic draws bank demand; pre-IPO revolving credit may top $10bn</a> [15] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260819004354498800" target="_blank" class="news-link">市场消息：Anthropic上市前信贷额度规模或超100亿美元目标。</a> [15] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a015c5-0122-7aab-907f-423b94da642f" target="_blank" class="news-link">Market sources: ANTHROPIC has asked lead banks to provide about $1.25 bln each in loans; other major participating banks are expected to provide about $1.0 bln each.</a> [19] <font color='grey'>- 01时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a015c2-27ae-7aab-907f-3fc78564818c" target="_blank" class="news-link">Market sources say ANTHROPIC&#x27;s pre-IPO credit facility could exceed its $10 bln target.</a> [20] <font color='grey'>- 01时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
