@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 146</p><p>生成时间: 2026-08-18 13:33:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">8.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260818131139267800" target="_blank" class="news-link">必和必拓业绩证明铜价飙升逻辑：AI基建与供应短缺推动铜成为最大利润引擎</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779668" target="_blank" class="news-link">创业板跌超1%，农业股逆势爆发，频准激光上市首日暴涨超500%，恒科指跌2%，AI大模型双雄重挫</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260818130646485800" target="_blank" class="news-link">中国信通院人工智能研究所联合海光及产业组织发布企业算力底座建设研究报告</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/991/058.htm" target="_blank" class="news-link">一边造 AI 一边清垃圾，硅谷开始为失控内容买单</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01344-00de-7aab-906f-7f477e24b888" target="_blank" class="news-link">China Academy of Information and Communications Technology AI Research Institute and CHINA&#x27;S CPU MAKER HAIGUANG, industry groups publish study on enterprise compute-base construction</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%87%AA%E5%88%B6AI%E7%94%B5%E5%BD%B1%E5%87%BA%E9%A9%AC%E4%BB%99%E9%95%87%E4%B8%9C%E5%8C%97" target="_blank" class="news-link">自制AI电影出马仙镇东北</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01340-6087-7aab-906f-5e3345599a0a" target="_blank" class="news-link">JASDF F-15 suspected malfunction at Naha Airport; runway closed</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3150847" target="_blank" class="news-link">英国评估无法获取前沿人工智能所带来的经济冲击</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0133a-fdb2-7aab-906f-531e1a0a7f50" target="_blank" class="news-link">Iran&#x27;s deputy minister of agriculture said that despite wartime price increases, supplies of basic commodities have not faced shortages.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01326-9ea6-7aab-906f-2654265cf4bb" target="_blank" class="news-link">Situational Awareness sells Taiyo Yuden stake to Citadel, Jane Street, JP Morgan, Barclays</a> [16] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01324-99f9-7aab-906f-1ed7a792e38b" target="_blank" class="news-link">Iranian foreign minister Araghchi said the war was unforgettable and that the enemy had failed to achieve any objectives.</a> [17] <font color='grey'>- 13时33分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01322-5951-7aab-906f-13b09ecf974b" target="_blank" class="news-link">Iranian Foreign Minister Araghchi said Iran has achieved success and victory both diplomatically and on the battlefield.</a> [18] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7674826322239258662" target="_blank" class="news-link">开源两天 9.5 万 Star！DeepSeek Harness 到底是个啥？小白安装到实战一篇讲透</a> [26] <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235259" target="_blank" class="news-link">今日份的阿里不带云笑话。。踩坑进行时。。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
