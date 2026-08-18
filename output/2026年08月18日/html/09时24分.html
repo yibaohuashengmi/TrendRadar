@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 275</p><p>生成时间: 2026-08-18 09:24:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">9.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2456585" target="_blank" class="news-link">【早报】美股AI板块逆势走强；原油、黄金双双上行；一线城市二手房价格连续5个月上涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/910.htm" target="_blank" class="news-link">OpenAI 前高管：相信 AI 能治愈所有疾病，但光靠大模型远远不够</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779658" target="_blank" class="news-link">API开放还是封锁？Anthropic与OpenAI的战略抉择令企业客户忧虑</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202608/1879005.html" target="_blank" class="news-link">人工智能军备竞赛：中国快速进步，美国政策摇摆</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779652" target="_blank" class="news-link">AI大战转折点？与管理层会面后，华尔街的感受：腾讯在打“中途岛战役”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/906.htm" target="_blank" class="news-link">谷歌 1000 万美元入手破产廉航精神航空数据，用于产品与 AI 改进</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01270-f434-7aab-906b-f1a0c55bb13f" target="_blank" class="news-link">South Korea&#x27;s Lee said maintaining peace is paramount, but the country must prepare for the worst.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0126d-2fc8-7aab-906b-e68e969b8de8" target="_blank" class="news-link">China is continuing its push to boost consumption in lower-tier markets, MOFCOM said, noting third- and fourth-tier cities plus counties account for over 70% of the population and about 60% of GDP and retail sales. In the first five months, county- and township-level retail sales of consumer goods made up 39.3% of national retail sales; key beneficiaries include county commercial renovations, chain retail, elderly-care and childcare services, cultural tourism and rural services, and the policy may help local governments convert inefficient state assets from sunk costs into operating assets.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3779645" target="_blank" class="news-link">AI资本开支疑虑缓解，美光、闪迪等存储股迎来重估，带动芯片指数重返牛市</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E9%BB%84%E4%BB%81%E5%8B%8B%E7%A7%B0%E5%A4%B1%E5%8E%BB%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%9C%BA%E7%BE%8E%E5%9B%BDAI%E5%BF%85%E8%B4%A5&amp;t=31&amp;band_rank=9&amp;Refer=top" target="_blank" class="news-link">黄仁勋称失去中国市场美国AI必败</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01269-9e5b-7aab-906b-d12ef0557f1b" target="_blank" class="news-link">South Korea&#x27;s Lee said the U.S.-South Korea alliance and an independent defense capability are complementary.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01267-e3b9-7aab-906b-cf9f613dd47e" target="_blank" class="news-link">South Korea&#x27;s Lee said a strong national defense is the cornerstone of building an irreplaceable Korea.</a> [11] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01265-d67f-7aab-906b-bc727dbc077c" target="_blank" class="news-link">ProFarmer, part of U.S. Farm Futures magazine, said its crop tour forecasts Ohio soybeans to average 1,197.25 pods in 2026, down from 1,287.28 pods in its 2025 tour.</a> [13] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/896.htm" target="_blank" class="news-link">Mac 版 AirBuddy 3 发布：增强苹果 AirPods 管理，带来 150+ 项改动</a> [13] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/895.htm" target="_blank" class="news-link">编造智驾事故、AI 生成假车祸视频，多人因编造涉企谣言被罚</a> [14] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7675142828237786670/" target="_blank" class="news-link">美股收盘：3大利好推动AI板块逆势走强</a> [15] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01262-fec5-7aab-906b-9819c1332faa" target="_blank" class="news-link">On Tuesday Aug 18 early trade, Shanghai Gold Exchange&#x27;s Gold T+D rose 0.94% to 960.5 yuan/gram; Silver T+D rose 1.18% to 16,190 yuan/kg.</a> [17] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260818084752556800" target="_blank" class="news-link">英伟达绑定OpenAI未来20年算力需求：1050亿美元担保支持8吉瓦AI数据中心</a> [17] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01262-f612-7aab-906b-9084a5186632" target="_blank" class="news-link">Taiwan&#x27;s TAIEX opened 172.37 points higher at 46,029.64 on Tuesday, up 0.38%.</a> [18] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01262-4cc1-7aab-906b-83288219d604" target="_blank" class="news-link">Navigation warning: military exercise in northern Bohai Sea</a> [20] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/890.htm" target="_blank" class="news-link">英伟达将为 OpenAI 俄亥俄州数据中心提供最高 1050 亿美元担保</a> [20] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01262-3680-7aab-906b-79d86b228d36" target="_blank" class="news-link">At the morning open, China’s main futures contracts were mostly higher: Shanghai crude (SC) up about 5%; fuel oil and ethylene glycol (EG) up nearly 4%; Europe-route container freight futures rose over 3%; synthetic rubber and liquefied petroleum gas (LPG) up around 3%; asphalt and low‑sulfur fuel oil (LU) climbed over 2%. Lagging were Shanghai tin and starch, down more than 1%; international copper, eggs and Shanghai copper fell about 1%.</a> [21] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01252-0285-7aab-906b-5707daa4290c" target="_blank" class="news-link">Nine departments including MOFCOM back bond issuance and listings for eligible wholesale, retail and service firms</a> [26] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0124b-cfbf-7aab-906b-309471a640a2" target="_blank" class="news-link">MOFCOM and eight ministries urge local development of VR, immersive experiences and AI+consumption</a> [30] <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49339097" target="_blank" class="news-link">Repair Cafe – Fix Your Broken Items</a> [30] <font color='grey'>- 09时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235176" target="_blank" class="news-link">请问 vscode+claude code 插件，配置哪个免费的模型效果比较好？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2456549" target="_blank" class="news-link">半年翻7倍！Anthropic“年化营收”据传已突破650亿美元</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/887.htm" target="_blank" class="news-link">消息称 Anthropic“年化营收”飙升，7 月底已突破 650 亿美元</a> [22] <font color='grey'>- 09时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/904.htm" target="_blank" class="news-link">阿维塔向华为员工已累计交付超 5000 台新车</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时24分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7674624290600976411" target="_blank" class="news-link">又一个华为天才少年，离职了！</a> [22] <font color='grey'>- 09时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3779644" target="_blank" class="news-link">谷歌跑去澳洲借钱 是因为美国不够借了！？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235155" target="_blank" class="news-link">opencode go 的 deepseek flash 额度涨到 30 美刀</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/990/891.htm" target="_blank" class="news-link">IT早报 0818：阿里出售游戏业务灵犀互娱；李书福辞任吉利汽车董事会主席；小米 SU7 系列 28.5 个月交付突破 50 万台；岚图邵明峰回应追光 S 撞脸小米 YU7...</a> [18] <font color='grey'>- 09时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
