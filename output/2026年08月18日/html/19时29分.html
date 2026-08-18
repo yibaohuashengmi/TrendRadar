@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 234</p><p>生成时间: 2026-08-18 19:29:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">38</td>
+                <td class="percentage">16.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779705" target="_blank" class="news-link">从“AI颠覆”到“AI催化”，网安股的逻辑变了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/991/297.htm" target="_blank" class="news-link">OpenAI 宣布与 CodeAI 合作：ChatGPT for Teens 正式上线，内置学习模式与家长控制</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/taku-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Taku AI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779707" target="_blank" class="news-link">AI浪潮驱动，天孚通信上半年净利润同比增长33.92%，无源光器件业务增逾77% | 财报见闻</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/991/296.htm" target="_blank" class="news-link">全球首张 AI 原生信用卡：农业银行 Kimi 联名信用卡开启申请</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/chaitanyagiri/munder-difflin" target="_blank" class="news-link">chaitanyagiri / munder-difflin</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/superflow-webflow-plugin-for-revisions?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Superflow AI</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01498-001e-7aab-9078-8f93cae75eaa" target="_blank" class="news-link">Chinese company Shengxiang Bio said its dengue virus and chikungunya virus nucleic acid test kits (PCR-fluorescent probe method) have received a Medical Device Registration Certificate from the National Medical Products Administration.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5288251" target="_blank" class="news-link">百度(09888.HK/BIDU.US)转型AI为先，双重主要上市打开估值空间</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/991/292.htm" target="_blank" class="news-link">AI 时代的沃尔玛零售员工有了新职责：帮智能体“纠错”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01497-5c70-7aab-9078-83f1ec9f6f95" target="_blank" class="news-link">India said the India-Singapore ministerial roundtable will be held on Aug 20.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01495-ee0c-7aab-9078-7b359b87d4aa" target="_blank" class="news-link">UK Prime Minister Burnham, responding to Russia&#x27;s warning, said the UK is 100% behind Ukraine and opposes this illegal war.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01495-ece8-7aab-9078-703634e7654e" target="_blank" class="news-link">BofA August survey: AI bubble seen as top tail risk</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779704" target="_blank" class="news-link">微盟上半年收入重回增长，AI应用收入同比增长近九成</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/airbuddy-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AirBuddy 3</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260818191559071800" target="_blank" class="news-link">美国银行调查：人工智能泡沫被视为市场最大的尾部风险</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01490-e725-7aab-9078-66dbfb8ce5c5" target="_blank" class="news-link">OpenAI said it will add prompts and control measures to reduce risks in user environments and guide minors toward beneficial tools and safeguards.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0148f-dd96-7aab-9078-59840cc34959" target="_blank" class="news-link">ARAMCO said the joint venture expects to focus exploration activities in Block 4.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0148f-68ea-7aab-9078-5004cecaa50d" target="_blank" class="news-link">OpenAI said users estimated to be under 18, or who report their age as 13-17, will be automatically placed into the teen version of ChatGPT.</a> [11] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/bojieli/ai-agent-book" target="_blank" class="news-link">bojieli / ai-agent-book</a> [11]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0148f-46c8-7aab-9078-4ebeeda60066" target="_blank" class="news-link">ARAMCO said the joint venture is expected to be 51% owned by the Saudi Arabian Mining Company and 49% by ARAMCO. The JV will also explore energy-transition minerals including zinc, lead and rare earth elements.</a> [12] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260818191028098800" target="_blank" class="news-link">OpenAI：还将增加相关提示和控制措施，旨在降低使用环境中的风险，并引导青少年使用有益工具和保护措施。</a> [12] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0148e-c7dd-7aab-9078-4631aa7b58bd" target="_blank" class="news-link">ARAMCO said the joint venture aims to accelerate discovery and strengthen Saudi Arabia&#x27;s role in the global energy-transition value chain. ARAMCO will focus primarily on copper exploration and also target other energy-transition minerals.</a> [13] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0148e-8ab9-7aab-9078-390af7dc7246" target="_blank" class="news-link">Aramco said it signed a shareholders&#x27; agreement with a Saudi mining company to form a joint venture to develop mineral exploration and hard‑rock mining in Saudi Arabia.</a> [14] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260818190848292800" target="_blank" class="news-link">OpenAI：如果系统估计某人未满18岁，或他们声明年龄在13至17岁之间，他们将自动被放入青少年版ChatGPT。</a> [14] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3151064" target="_blank" class="news-link">网易传媒发布“蜜蜂AI”</a> [15] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0148c-104b-7aab-9078-2c0decd8bcf1" target="_blank" class="news-link">OpenAI partners with CodeAI to prepare for the first generation of artificial intelligence.</a> [16] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260818190508770800" target="_blank" class="news-link">OpenAI：与CodeAI合作，为首批人工智能一代做准备。</a> [20] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0147f-2364-7aab-9077-fc17ad15d4b1" target="_blank" class="news-link">Hindustan Zinc says it will raise the share of renewable energy in its electricity consumption to 22%.</a> [22] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0147e-1380-7aab-9077-f05f1c4cfe46" target="_blank" class="news-link">U.S. special envoy for Syria Barak said air strikes would constitute an unnecessary escalation.</a> [23] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0147d-9da9-7aab-9077-eef64eed1514" target="_blank" class="news-link">U.S. special envoy for Syria Barak said Washington will encourage diplomatic engagement between Syria and Israel.</a> [24] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0147d-3963-7aab-9077-e0c254ec92a7" target="_blank" class="news-link">US special envoy for Syria Barak voiced deep concern over an Israeli airstrike on Abu Duhur in Syria.</a> [25] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0147c-720a-7aab-9077-dfc9aa461b2c" target="_blank" class="news-link">U.S. Ambassador Barak said Israel&#x27;s strike on an air base was unnecessary.</a> [26] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7674574367976046655" target="_blank" class="news-link">AI 编程工程化：实战——从 0 到 1 搭建 AI 编程工作流</a> [26] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01477-a70f-7aab-9077-d36fdf1685d1" target="_blank" class="news-link">Market sources: Azerbaijan&#x27;s foreign ministry summoned the Russian ambassador.</a> [27] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3151043" target="_blank" class="news-link">实习生反成“带教老师” AI改变银行入门级工作体验 唯加班风气依旧</a> [27] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01471-fc5a-7aab-9077-bcab4828ac4c" target="_blank" class="news-link">Xiaomi says memory price rise may ease in H2; storage costs remain elevated; flagship phone and Pengcheng car series due</a> [30] <font color='grey'>- 19时29分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7674101873055399976" target="_blank" class="news-link">一个 Bug 修了 12 轮，根因只有一句话：AI 编程时代，日志才是唯一的真相</a> [30] <font color='grey'>- 19时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/elevenlabs-mcp-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ElevenLabs MCP in Claude</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/991/285.htm" target="_blank" class="news-link">功能对标安卓无阉割：飞牛 fnOS 鸿蒙原生客户端正式版登陆华为应用商店</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7674828652658425896" target="_blank" class="news-link">DeepSeek Harness 发布后，我没急着跑 Demo，先把 `.agents/` 翻了一遍</a> [29] <font color='grey'>- 19时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
