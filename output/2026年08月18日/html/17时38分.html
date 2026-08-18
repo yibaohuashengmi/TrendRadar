@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 250</p><p>生成时间: 2026-08-18 17:38:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">36</td>
+                <td class="percentage">14.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01430-73bb-7aab-9076-06aebced6eb5" target="_blank" class="news-link">Bingshan Cold &amp; Heat is advancing R&amp;D on magnetic‑levitation chiller units; development risks remain and timing for commercial deployment is uncertain.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/premium/articles/3779686?layout=wscn-layout" target="_blank" class="news-link">对话付鹏：AI生产力叙事进入证伪空档期？市场正迎来关键窗口期！</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260818170807087800" target="_blank" class="news-link">百度：二季度AI原生营销服务收入26亿元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235367" target="_blank" class="news-link">现在招聘基本上都是 AI 相关的了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3150992" target="_blank" class="news-link">【百度集团：二季度百度AI云基础设施收入73亿元，同比增长50%】百度集团：二季度百度AI云基础设施收入73亿元，同比增长50%，其中GPU云同比增长283%，已连续四个季度实现三位数增长；AI应用收入25亿元，同比增长3%；AI原生营销服务收入26亿元。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779697" target="_blank" class="news-link">百度Q2营收313亿元微逊预期，AI业务占比过半，GPU云强劲增长283%｜财报见闻</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260818170806668800" target="_blank" class="news-link">谷歌(GOOG.O)：与英国政府及航空业领导者合作，利用人工智能帮助航空公司避免在北大西洋上空产生凝结尾迹。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0142e-3bdd-7aab-9075-f1b627da5354" target="_blank" class="news-link">SFC welcomes NFRA support for mainland insurers to invest in HKEX-listed ETFs via Stock Connect</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ai-resume-builder-5?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Ai resume builder</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0142d-27a9-7aab-9075-ef4ebe96d3d3" target="_blank" class="news-link">Singapore&#x27;s FTSE Straits Times Index closed down 1.2% at 5,701.40 points.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779694" target="_blank" class="news-link">美银全球基金经理调查：债市失控已升至第二大尾部风险，仅次于AI泡沫</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/919156621815578624" target="_blank" class="news-link">简历上的AI项目可以迭代了，Ragent新版本发布</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01429-4c50-7aab-9075-e5683f6a4919" target="_blank" class="news-link">Invesco Nasdaq Technology ETF said it will suspend trading from market open on Aug 19, 2026 and resume trading at 10:30 on Aug 19, 2026; redemption requests will be processed normally during the suspension.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2457030" target="_blank" class="news-link">功率半导体又酝酿涨价？AI用电拉动需求 部分企业或10月行动</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01427-af73-7aab-9075-db1ed80623be" target="_blank" class="news-link">Hyundai Motor&#x27;s South Korea union said it will stage partial strikes on Aug. 19, 20, 24 and 25.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3150985" target="_blank" class="news-link">百度集团第二季度营收313.3亿元人民币，预估315.9亿元人民币。 第二季度经调整每ADS利润 7.22元人民币，预估9.75元人民币。 第二季度爱奇艺收入62.9亿元人民币，预估64亿元人民币 第二季度百度核心AI新业务收入125亿元人民币。 第二季度调整后营业利润37.9亿元人民币，预估36.1亿元人民币。 第二季度调整后息税折旧及摊销前利润61.5亿元人民币，预估58.1亿元人民币。 第二季度月活跃用户6.4亿。 第二季度现金及投资总额2,831亿元人民币。 第二季度经调整百度一般性业务经营利润38.2亿元人民币。 百度美股盘前跌超2%。</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959616" target="_blank" class="news-link">美国政府和AI开始抢钱，美银：现在该买黄金了</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260818170514047800" target="_blank" class="news-link">百度Q2财报：总营收313亿元 AI业务收入占比连续过半</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235351" target="_blank" class="news-link">[纪念碑] 想听听大家在 AI 时代降临之前只靠自己做到的有趣的事情</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01423-d41e-7aab-9075-c87f37491687" target="_blank" class="news-link">Iran parliament speaker: Strait of Hormuz will not open until US lifts asset freezes, oil sanctions</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3779652" target="_blank" class="news-link">AI大战转折点？与管理层会面后，华尔街的感受：腾讯在打“中途岛战役”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235350" target="_blank" class="news-link">写了个本地 CLI：一条命令看 Codex / Cursor / Grok / OpenCode / Z.ai 剩余额度</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01423-a914-7aab-9075-c30fcd292dee" target="_blank" class="news-link">NFRA backs mainland insurers investing in Hong Kong-listed ETFs via Stock Connect</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01423-5008-7aab-9075-ba2d59f1ade4" target="_blank" class="news-link">Pony.ai (PONY.O) shares rose 5% in US pre-market trading after reporting Q2 total revenue up 68.8% YoY.</a> [11] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/alchemistai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AlchemistAI</a> [11] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01421-25a3-7aab-9075-ae988eb8c38c" target="_blank" class="news-link">WHO official, asked whether the Ebola outbreak can be turned around within three months, said it would be possible if resources are available.</a> [13] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01420-efa0-7aab-9075-a48a3d9ac6c5" target="_blank" class="news-link">Baidu: Q2 AI-native marketing services revenue 2.6 bln yuan</a> [14] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/aivory-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Aivory AI</a> [14]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01420-d636-7aab-9075-9e69e04a2b48" target="_blank" class="news-link">Google (GOOG.O) is working with the UK government and aviation leaders to deploy AI to help airlines avoid contrail formation over the North Atlantic.</a> [15] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49313360" target="_blank" class="news-link">IBM Simon (1994): the original smartphone, explained in its own ad [video]</a> [15] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/aiboard-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Aiboard</a> [15] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3150975" target="_blank" class="news-link">香港交易所优化科技100指数编制方案。港交所科技100指数将扩大对AI产业链的覆盖。优化后的指数编制方案及相关成份股调整将于2026年9月11日收市后实施。</a> [16] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0141e-7077-7aab-9075-8af2ddecb8a0" target="_blank" class="news-link">Baidu Q2 revenue 31.3 bln yuan; AI &gt;50% of general business for second straight quarter</a> [17] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0141c-3c91-7aab-9075-57c6844a4049" target="_blank" class="news-link">Pony.ai (02026.HK) Q2 2026 total revenue rose 68.8% YoY to $36.2 mln; autonomous ride-hailing services revenue rose 691.2% YoY to $12.1 mln.</a> [24] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0141c-1a50-7aab-9075-40f80688576c" target="_blank" class="news-link">German think tank ZEW said the positive trend in expectations in August has further consolidated, possibly linked to solid quarterly earnings and recently elevated export levels.</a> [26] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0141b-d7e1-7aab-9075-3ed23e954aa5" target="_blank" class="news-link">Baidu (BIDU.O) Q2 2026 revenue 31.3 billion yuan, down from 32.713 billion yuan a year earlier.</a> [27] <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260818170637784800" target="_blank" class="news-link">谷歌(GOOG.O)：启动“蓝天行动”（Operation Blue Skies），开展首个由政府支持的海洋航线尾迹规避试验。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0141f-8b2e-7aab-9075-922851585abc" target="_blank" class="news-link">Google (GOOG.O) launches Operation Blue Skies to run the first government-backed wake-avoidance trial on ocean shipping routes.</a> [16] <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/991/177.htm" target="_blank" class="news-link">全新深蓝 G318 上市定档 8 月 21 日：华为乾崑 ADS 5 Pro、鸿蒙座舱“双智”加持</a> [13] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7674918271395266586/" target="_blank" class="news-link">华为“天才少年”辞职获妈妈支持</a> [26] <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=DeepSeek%E6%8B%9B%E8%81%98%E5%9C%9F%E6%9C%A8%E4%BA%BA%E6%89%8D%E9%87%8A%E6%94%BE%E4%B8%80%E4%B8%AA%E4%BF%A1%E5%8F%B7" target="_blank" class="news-link">DeepSeek招聘土木人才释放一个信号</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/991/222.htm" target="_blank" class="news-link">阿里云韩国第三数据中心上线，全球基础设施将达 104 个可用区</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
