@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 246</p><p>生成时间: 2026-08-19 14:50:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">7.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/991/599.htm" target="_blank" class="news-link">图灵奖得主萨顿警告：AI 行业过度依赖合成数据是一个大错误</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a018b4-1faf-7aab-908c-a3d735a5e7c9" target="_blank" class="news-link">China&#x27;s STAR 50 Index fell nearly 7%; the ChiNext Index dropped 6%, the Shenzhen Composite Index fell 4.8% and the Shanghai Composite Index declined 2.4%. More than 5,100 A-share stocks declined.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779687" target="_blank" class="news-link">用AI Coding管理10000+只羊</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a018b2-829e-7aab-908c-9bb2999a42ec" target="_blank" class="news-link">Saudi outlet Hadaath reported Pakistan said the foreign ministers of Saudi Arabia, Egypt, Turkey and Pakistan will hold a four-party meeting in Istanbul later this month.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a018b1-d77c-7aab-908c-920bfa407028" target="_blank" class="news-link">Ghalibaf, speaker of Iran&#x27;s parliament, said U.S. forces are seeking a face-saving withdrawal from the region and that the Israeli regime has no future there; its ambitions will never be realized.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a018b1-04c1-7aab-908c-8ea68ca91743" target="_blank" class="news-link">Iran parliament speaker Ghalibaf said the Israeli regime&#x27;s dirty actions have been exposed to people worldwide and that Israel is now regarded as an enemy of all humanity.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/991/585.htm" target="_blank" class="news-link">日本公布 AI 草案，敦促开发者披露训练数据</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a018b0-7a20-7aab-908c-7951ccc3c6b1" target="_blank" class="news-link">Iran&#x27;s parliament speaker Ghalibaf said regional developments make clear who is winning.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/991/583.htm" target="_blank" class="news-link">“神奇小子”创立的公司推出 chestnut eGPU 扩展坞，车载 AI 浮点运算提高约 100 倍</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a018ac-de65-7aab-908c-5fbd7bedc80b" target="_blank" class="news-link">TrendForce: Q3 2026 DRAM spot volumes expected to remain weak; DDR4 spot prices +0.67% this week</a> [13] <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a018ab-be42-7aab-908c-535e44aae72c" target="_blank" class="news-link">UBS: Baidu (09888.HK) Q2 AI cloud growth slows; demand healthy, PT cut to HK$155</a> [14] <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2073007368435151461" target="_blank" class="news-link">如何评价网传消息「3700 均订起点作者因使用 AI 不再给推荐」？</a> [15] <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a018a5-bf46-7aab-908c-28aae001fb97" target="_blank" class="news-link">Ghalibaf said his visit to Iraq today aims to strengthen a new regional order and accelerate cooperation among regional states without external interference.</a> [19] <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a018a4-cfe1-7aab-908c-1aec3e02b66c" target="_blank" class="news-link">UK inflation rises to 2.9% in July as Ofgem raises energy price cap</a> [21] <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a018a4-b58f-7aab-908c-16b4ff0af57e" target="_blank" class="news-link">Speaker of Iran&#x27;s parliament Ghalibaf said Iran&#x27;s resistance forces have been vindicated and have become a global phenomenon.</a> [22] <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260819141814024800" target="_blank" class="news-link">瑞银：百度次季AI云增速放缓但需求健康 目标价降至155港元</a> [22] <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a018a3-5879-7aab-908c-0a3e996a7360" target="_blank" class="news-link">Local governor said oil refinery infrastructure in Russia&#x27;s Bashkortostan region was damaged in a Ukrainian drone attack.</a> [23] <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0189e-192b-7aab-908b-e5ee83b67b06" target="_blank" class="news-link">Iranian parliament speaker Ghalibaf said Iran and Iraq are taking significant steps toward self-reliant security and shared prosperity.</a> [28] <font color='grey'>- 14时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0189d-9e34-7aab-908b-dad527cd2ad6" target="_blank" class="news-link">SEBI chairman said the regulator is reviewing delisting regulations and rules for small-company IPOs.</a> [29] <font color='grey'>- 14时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/14194805205" target="_blank" class="news-link">免费的 deepseek 能比得上 200 美元 / 月的 ChatGPT 吗？</a> [20] <font color='grey'>- 14时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/991/586.htm" target="_blank" class="news-link">奕境 X9 预售 12 小时订单突破 16000 台，满配华为乾崑全栈智能</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3779762" target="_blank" class="news-link">梁文锋打新宇树科技浮盈11亿，雷军赚152亿，美团系浮盈333亿，大疆痛失超250亿</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
