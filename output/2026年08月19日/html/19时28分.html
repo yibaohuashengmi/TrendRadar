@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 233</p><p>生成时间: 2026-08-19 19:28:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">21</td>
+                <td class="percentage">9.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a019ae-e63f-7aab-9094-cd432981529e" target="_blank" class="news-link">Israeli military says it has opened a criminal investigation into a 2025 incident in southern Gaza that killed 15 aid workers.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235696" target="_blank" class="news-link">用 AI 做了像素艺术和动画编辑器,可以和 AI agents 共同创作和编辑</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49359425" target="_blank" class="news-link">Air Theremin – a browser theremin you play by waving at your webcam</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202608/1979125.html" target="_blank" class="news-link">中方称坚决反对在AI问题上搞选边站队、阵营对抗</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779799" target="_blank" class="news-link">金山云Q2营收同比增长30.8%创历史新高，AI驱动盈利能力显著改善 | 财报见闻</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260819190837993800" target="_blank" class="news-link">金卡智能：拟3093万元参投人工智能领域创业投资基金</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a019a9-c111-7aab-9094-7651e5213f74" target="_blank" class="news-link">Market sources: National Bank of Ukraine Governor Pyshnyi has been summoned to parliament and will report to lawmakers on allegations that transactions routed through Sense Bank involved money laundering.</a> [12] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a019a6-b129-7aab-9094-66eb6d91ee50" target="_blank" class="news-link">Moderna shares rose about 20% in pre-market trade after Moderna and Merck said their melanoma vaccine met the primary endpoint in a large trial.</a> [14] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a019a5-c7d4-7aab-9094-5e355fc656c6" target="_blank" class="news-link">{&quot;title&quot;:&quot;Verkhovna Rada approves Yevhen Hemara as defence minister&quot;,&quot;content&quot;:&quot;The Verkhovna Rada on the 19th approved Yevhen Hemara as Ukraine&#x27;s defence minister with 312 votes in favor. Hemara joined the SBU’s &quot;A&quot; special operations centre in 2011, was appointed head of the centre in August 2025, and served as acting defence minister from July 2026.&quot;}</a> [15] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/ae9645e54bb54a4daa51f1db6d08e96a" target="_blank" class="news-link">搞AI的都很忙吗？</a> [15] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a019a4-c203-7aab-9094-5212f8d25e18" target="_blank" class="news-link">Iran says it would raise Strait of Hormuz tariffs to retaliate if its interests are harmed</a> [16] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/8e5fb9efdc154b9e913a2c8bde2a2a0b" target="_blank" class="news-link">淘天Ai一面</a> [16] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a019a4-7b71-7aab-9094-4f96f89dccc1" target="_blank" class="news-link">Kuaishou to hold earnings conference call in 10 minutes.</a> [17] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a019a1-6375-7aab-9094-40792406dc20" target="_blank" class="news-link">Wan Gang: 10‑minute/1,500km solid‑state EV claim unrealistic; solid‑state commercialization around 2030; favors sodium‑ion for commercial/cold use</a> [18] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0199e-b726-7aab-9094-3ebc296a7e55" target="_blank" class="news-link">Polish Prime Minister Tusk said the tax-free allowance cannot be increased for now.</a> [19] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3151726" target="_blank" class="news-link">韶音发布首款AI耳机，接入千问大模型切入商务赛道</a> [19] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0199d-800f-7aab-9094-303ecefad1dd" target="_blank" class="news-link">A magnitude-4.8 earthquake struck near Lima at 05:28 local time on Aug. 19, the Peruvian Seismological Institute said. The epicenter was 42 km southwest of Lurín in the Lima region, at a depth of 42 km.</a> [20] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01999-5c31-7aab-9094-1b73b5f121b3" target="_blank" class="news-link">MIZUHO raises Snowflake (SNOW.N) price target to $355 from $295.</a> [23] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01997-9b3e-7aab-9094-015bd4f6b60b" target="_blank" class="news-link">Semiconductor Manufacturing International Corp (00981.HK) said its board approved the release of interim results on Aug 27, 2026.</a> [26] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01995-755d-7aab-9093-f727d5b16204" target="_blank" class="news-link">Ukraine&#x27;s parliament approved Yevhenii Khmara as the new defense minister.</a> [28] <font color='grey'>- 19时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01994-e543-7aab-9093-e7f6205b2de3" target="_blank" class="news-link">Foreign media, citing insiders, report Microsoft (MSFT.O) AI chief marketing officer Andrea Mallard will depart the company.</a> [30] <font color='grey'>- 19时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/claude-watermark?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Claude Watermark</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779802" target="_blank" class="news-link">奕境X9杀入30万，华为大六座打开新价格带</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E4%BB%B7%E6%A0%BC%E5%B1%A0%E5%A4%AB%E2%80%9D%E6%A2%81%E6%96%87%E9%94%8B%E2%80%9C%E6%94%B6%E5%88%80%E2%80%9D" target="_blank" class="news-link">“价格屠夫”梁文锋“收刀”</a> [17] <font color='grey'>- 19时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/42ba29ab006d4bb793112eb263d18f6a" target="_blank" class="news-link">阿里云-agent开发-8.18一面（面完秒挂-秋招第五次面试挂）</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
