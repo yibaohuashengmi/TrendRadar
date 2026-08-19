@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 145</p><p>生成时间: 2026-08-19 13:34:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">12.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0187f-625c-7aab-908a-4246c8572837" target="_blank" class="news-link">cenc reported a magnitude 3.7 earthquake at 13:22 on Aug 19 (local time) in Haixi Prefecture, Qinghai (37.84N, 95.62E); hypocenter depth 10 km.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5288671" target="_blank" class="news-link">SHANGHAI GROWTH(00770.HK)8月31日举行董事会会议审议及通过中期业绩</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235565" target="_blank" class="news-link">新写的 AI 提交文案插件，支持 Jetbrains/VSCode 可用免费模型</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959622" target="_blank" class="news-link">AI最大的瓶颈，是全世界没钱了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/991/577.htm" target="_blank" class="news-link">AI 数据中心遭遇反对潮，硅谷巨头开始砸钱“灭火”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01872-b6cb-7aab-908a-2ef6f96a9311" target="_blank" class="news-link">China A-share humanoid-robot sector slid further in the afternoon; more than 10 stocks hit daily limit-down, including Julun Intelligent, Wuzhou Xinchun, Qinchuan Machine Tool and Meihu Co. Lvde Xiebo, Jiangsu Beiren, Fengguang Precision and Shangwei New Materials fell more than 15%.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01871-cfba-7aab-908a-274cc18f7e08" target="_blank" class="news-link">Shanghai Composite fell below 3,900 points, down more than 2.3% intraday.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260819131219226800" target="_blank" class="news-link">江苏出台“人工智能+”工业软件行动方案</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0186f-64a9-7aab-908a-04c386dd1c2d" target="_blank" class="news-link">Jiangsu issues &#x27;AI+&#x27; industrial software action plan (2026–28)</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0186e-8c8f-7aab-9089-fd1e98208254" target="_blank" class="news-link">China&#x27;s CSI 1000 index futures (IM) main contract fell below 7,500, down 3.87% intraday.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260819130720644800" target="_blank" class="news-link">OpenAI：下周起，ChatGPT广告将拓展至31个欧洲国家。</a> [11] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0186a-ca96-7aab-9089-eaef04b00d8d" target="_blank" class="news-link">OpenAI said starting next week ChatGPT ads will expand to 31 European countries.</a> [12] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01868-2190-7aab-9089-dbb08adbf4bf" target="_blank" class="news-link">Morgan Stanley downgrades Baidu to Reduce, cuts target to $80</a> [14] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01866-bfb7-7aab-9089-c55eb26063a8" target="_blank" class="news-link">China A-share semiconductor sector widened losses; Tongfu Microelectronics and Yake Technology hit limit-down. Chaochun Yingcai plunged more than 15%. Goke Microelectronics, Shengong Co., Chipone Microelectronics, Xinyuan, Shengmei (Shanghai), Changguang Huaxin, Zhongke Lanxun, Liandong Technology, Yongxi Electronics, Jiehuate, Qizhong Technology, Hua Hong Hongli, Shengke Communications, Jingyi Equipment, Dapu Micro and Torrens each slid over 10%.</a> [17] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01865-10fe-7aab-9089-b33fc397c00e" target="_blank" class="news-link">Shanghai Composite fell more than 2% in afternoon trade; Shenzhen Composite Index fell 4.1% and the ChiNext Index fell 5.18%, with more than 4,900 A-share stocks declining.</a> [19] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01864-bbed-7aab-9089-a57ddc22010e" target="_blank" class="news-link">MAS says measures aim to encourage asset managers to anchor operations and talent in Singapore.</a> [21] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01858-e579-7aab-9089-8383a6be27e1" target="_blank" class="news-link">Russian officials said authorities are working to extinguish a small fire after a drone crashed in an industrial area in Ufa.</a> [25] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01856-e328-7aab-9089-76e6a2aead3d" target="_blank" class="news-link">Ufa authorities in Russia said drones attacked an industrial facility.</a> [27] <font color='grey'>- 13时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
