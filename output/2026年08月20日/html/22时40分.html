@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 185</p><p>生成时间: 2026-08-20 22:40:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">7.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01f80-f9b5-7aab-90b9-8749ec9d7ab7" target="_blank" class="news-link">TASNIM NEWS reported Houthi forces used attack drones to strike Najran airport and ARAMCO oil facilities.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01f80-add0-7aab-90b9-7e8ad74f5aca" target="_blank" class="news-link">Houthi movement says it struck Najran airport and Aramco facilities</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01f80-309b-7aab-90b9-73449106c761" target="_blank" class="news-link">The Israeli Air Force has completed relocating a helicopter squadron from Ramon Airbase in the south to Ramat David Airbase in the north, saying the move is intended to strengthen northern border defenses and to apply lessons from the Oct. 7, 2023 attack.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01f7c-3bbc-7aab-90b9-595f87c7bd87" target="_blank" class="news-link">Houthi forces said they struck &quot;sensitive&quot; targets at Najran airport and an ARAMCO facility in Najran; Saudi authorities did not immediately confirm.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2459905" target="_blank" class="news-link">Meta被曝每周消耗数万亿Token 悄然成为微软AI大客户</a> [11] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49321515" target="_blank" class="news-link">An American Mosaic (interactive map of ancestry census data)</a> [17] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01f75-bab6-7aab-90b8-e8e88949c280" target="_blank" class="news-link">Sysco shares rose 2.4% after the company announced board changes to drive an AI-led transformation.</a> [20] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/TEM" target="_blank" class="news-link">Tempus AI</a> [20] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01f72-4563-7aab-90b8-e58c18ee9da3" target="_blank" class="news-link">President Trump said White House director of legislative affairs James Breed will leave in September.</a> [21] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820220621754800" target="_blank" class="news-link">美国谘商会商业周期指标高级经理 Justyna Zabinska-La Monica：经济应会继续扩张，但增长预计将主要由人工智能领域的企业投资驱动，而生活成本上升可能会降低消费者支出，尤其是中低收入家庭的支出。谘商会继续预测2026年和2027年美国实际GDP增长率均为1.9%。</a> [21] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49371857" target="_blank" class="news-link">Don&#x27;t paste the AI, please</a> [23] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01f6d-3d7e-7aab-90b8-cb112f96fcbb" target="_blank" class="news-link">Bulgaria&#x27;s Energy Ministry said it will cut output at the Danube nuclear power plant by 120 MW on Aug. 21.</a> [24] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E7%94%A8AI%E8%87%AA%E5%88%B6%E5%AE%B6%E5%BA%AD%E5%8F%B2%E4%B9%A6APP" target="_blank" class="news-link">UP主用AI自制家庭史书APP</a> [30] <font color='grey'>- 22时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">5</td>
+                <td class="percentage">2.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4235366_1_1" target="_blank" class="news-link">谷歌：目前追踪两个独立的疑似俄罗斯集群UNC7005和UNC5976，这两个集群实施网络钓鱼、滥用OAuth流程，并向受害者部署恶意软件。</a> [14] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4235364_1_1" target="_blank" class="news-link">谷歌：谷歌威胁情报小组正在追踪三个不同的疑似俄罗斯网络间谍威胁集群。</a> [15] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01f78-a40f-7aab-90b8-f9b29232a901" target="_blank" class="news-link">Google is tracking two separate suspected Russian clusters, UNC7005 and UNC5976, which conduct phishing, abuse OAuth flows and deploy malware to victims.</a> [18] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3152437" target="_blank" class="news-link">谷歌旗下Waymo为其无人出租车自研定制芯片，已经量产</a> [18] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01f77-c0b2-7aab-90b8-f7d202df572c" target="_blank" class="news-link">Google&#x27;s threat-intelligence team is tracking three separate suspected Russian cyber-espionage clusters.</a> [19] <font color='grey'>- 22时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">1.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7675229191144652841/" target="_blank" class="news-link">华为系最便宜大六座SUV成黑马</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3152448" target="_blank" class="news-link">华为中国政企业务副总裁郭振兴到云鼎科技座谈交流</a> [11] <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2617436" target="_blank" class="news-link">华为阔直板手机首发开箱</a> [23] <font color='grey'>- 22时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">1.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/380.htm" target="_blank" class="news-link">阿里 CEO 吴泳铭：平头哥二代芯片预计今年下半年流片、产出</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时40分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4235328_1_1" target="_blank" class="news-link">美股开盘，道指跌0.6%，标普500指数跌0.3%，纳指跌0.5%。美光科技上涨0.4%，公司加码美国内存研发，计划十年投资100亿美元。沃尔玛下跌7%，Q2同店销售增速创六年新低，全年盈利指引低于预期。SK海力士上涨4%，劳资达成初步薪资协议。阿里巴巴绩后跌4.7%，网易绩后跌0.5%。</a> [20] <font color='grey'>- 22时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49374772" target="_blank" class="news-link">Hacking with Claude on a $27 Smart Watch</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
