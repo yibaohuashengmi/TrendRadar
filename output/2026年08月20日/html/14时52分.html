@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 231</p><p>生成时间: 2026-08-20 14:52:38</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">7.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01de6-10f7-7aab-90ab-524514eff980" target="_blank" class="news-link">Baidu&#x27;s Apollo Go launches on Uber in Dubai</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49370440" target="_blank" class="news-link">Why Microsoft Entertainment Pack had a sticker announcing that it had Tetris?</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01de6-052b-7aab-90ab-4e2d647e1d2c" target="_blank" class="news-link">JP Morgan cuts China Resources Beer PT to HKD28, maintains Overweight</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01de3-eee6-7aab-90ab-2bfd093b7063" target="_blank" class="news-link">Iran&#x27;s Supreme National Security Council secretary Rezaei said Iran should withdraw from the Nuclear Non-Proliferation Treaty (NPT) in response to Trump&#x27;s economic pressure.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779873" target="_blank" class="news-link">AI债务洪峰来袭，9月才是美债的考验期</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01de3-3253-7aab-90ab-193f53ab8091" target="_blank" class="news-link">HarmonyOS Zhixing said cumulative deliveries across its full lineup exceeded 1.5 million vehicles after 53 months.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235853" target="_blank" class="news-link">[开源] ProxyPin MCP Workbench：让 AI 直接分析抓包、整理 API、管理 Mock 和数据归档，支持移动端</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01de1-e32c-7aab-90ab-173b0046dee2" target="_blank" class="news-link">Iran&#x27;s Islamic Revolutionary Guard Corps said if another war erupts its weapons will differ from before, potentially in warhead type, strike precision, missile range or other capabilities.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5289730" target="_blank" class="news-link">阳光电源(300274.SZ)：产品支持灵活组合，适配AIDC多元建设场景</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01de1-a850-7aab-90ab-04312066aca8" target="_blank" class="news-link">Iran&#x27;s Islamic Revolutionary Guard Corps (IRGC) said Yemen&#x27;s Houthi forces are increasingly capable and that, should a new war erupt, they would employ more destructive weapons.</a> [11] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01de1-8b8a-7aab-90aa-fdd0e500e2f7" target="_blank" class="news-link">Ukraine&#x27;s air force said Russia fired dozens of ballistic, cruise and hypersonic missiles and launched 168 drones in overnight attacks.</a> [12] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5289728" target="_blank" class="news-link">中光防雷(300414.SZ)：现阶段公司配套AI服务器领域、工业电源领域的相关磁性器件业务均已实现批量供货</a> [12] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01ddd-448c-7aab-90aa-c8d9f6662a25" target="_blank" class="news-link">Uber (UBER.N) launched Baidu&#x27;s fully driverless Apollo Go service in Dubai, creating the world&#x27;s first multi-party collaborative autonomous-driving network.</a> [18] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/076.htm" target="_blank" class="news-link">Opus 4.8 级性能：Ornith-1.5 系列开源 AI 模型发布，量化版可在 iPhone 17 等手机上运行</a> [19] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01dd8-e7da-7aab-90aa-bd6a3ce543fe" target="_blank" class="news-link">A South Korean container vessel will sail on Saturday via the Arctic to Europe to test the commercial viability of a route opened by sea-ice retreat.</a> [20] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01dd4-7d22-7aab-90aa-afc71cf75d85" target="_blank" class="news-link">Zelenskiy said Russia carried out large-scale nighttime strikes in the Chernihiv region that hit gas infrastructure.</a> [22] <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01dcc-7968-7aab-90aa-73977936024d" target="_blank" class="news-link">Iranian foreign minister Araqchi said Trump&#x27;s remarks will only provoke hostility among Iranians.</a> [29] <font color='grey'>- 14时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">1.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/094.htm" target="_blank" class="news-link">华为余承东：鸿蒙智行全系累计交付突破 150 万台，成为最快达成该规模的中国新势力品牌</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3152143" target="_blank" class="news-link">华为余承东：截至8月16日，鸿蒙智行全系累计交付已经突破150万台，用时53个月，位居新势力品牌交付速度首位。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/082.htm" target="_blank" class="news-link">极佳视界通用双足人形机器人 Maker L01 发布，曾获华为哈勃投资</a> [13] <font color='grey'>- 14时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3779877" target="_blank" class="news-link">谷歌与海力士双双加码，光学为何再次引爆全场？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时52分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49364745" target="_blank" class="news-link">Google has stopped pushing Git tags for some Android source code</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 14时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235873" target="_blank" class="news-link">ChatGPT&amp;Codex 用了多少 Token、积分 再也不需要估算了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
