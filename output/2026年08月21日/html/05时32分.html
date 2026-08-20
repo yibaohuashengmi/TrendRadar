@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 100</p><p>生成时间: 2026-08-21 05:32:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">13</td>
+                <td class="percentage">13.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02106-a567-7aab-90c1-d006bde71ed7" target="_blank" class="news-link">U.S. Treasury Secretary Bessent said the G20 should return to its core mission: discuss what individual countries and economies can do and how to cooperate to deliver stronger global growth. He said the message to allies and trading partners is that stronger global growth is the way to address mounting debt burdens.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02105-47ad-7aab-90c1-cb043c7c18fa" target="_blank" class="news-link">Elon Musk said Optimus and Grok will someday provide extraordinary medical services to everyone on Earth.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02104-7e1a-7aab-90c1-c4b890bdb1cd" target="_blank" class="news-link">Iran&#x27;s Fars News reported Israeli warplanes entered Lebanese airspace and carried out an airstrike on the Aritahel heights in southern Lebanon.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260821050630557800" target="_blank" class="news-link">据美国证交会文件披露，人工智能公司Cerebras(CBRS.O)高管Sean Lie拟出售价值1.5319亿美元的公司股票。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3779910" target="_blank" class="news-link">阿里电话会：AI相关产品ARR突破495亿，平头哥芯片下半年将持续放量，Capex投入预计三年内回本</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3152582" target="_blank" class="news-link">报道：博通在最新AI债务交易中寻求超600亿美元融资</a> [14] <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a020e6-b6ad-7aab-90c1-5e8e79b1983c" target="_blank" class="news-link">Fed chair KEVIN WARSH will speak at Jackson Hole on Aug 28 at 10:00 a.m. EDT (10:00 p.m. Beijing time).</a> [16] <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a020df-97b0-7aab-90c1-5789f905989b" target="_blank" class="news-link">Sources: Broadcom in talks to raise over $60bn debt for AI-chip deal</a> [17] <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260821043145118800" target="_blank" class="news-link">据悉博通正洽谈超600亿美元AI芯片融资</a> [17] <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E7%9C%8B%E8%B5%B7%E7%82%B9%E4%B8%AD%E6%96%87%E7%BD%91%E6%B2%BB%E7%90%86AI%E6%96%87" target="_blank" class="news-link">如何看起点中文网治理AI文</a> [18] <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a020dc-669f-7aab-90c1-38e26fbcc139" target="_blank" class="news-link">Chinese container ship makes inaugural call at Russia&#x27;s Murmansk port</a> [20] <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a020d8-20d0-7aab-90c1-1e189a8b1cd1" target="_blank" class="news-link">Panama Canal said the planned Sept. 2, 2026 adjustment to the New Panamax locks&#x27; maximum permitted draft to 14.63 m (48.0 ft TFW) has been postponed due to weather and water-resource conditions.</a> [24] <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a020d7-2784-7aab-90c1-121fb6b85cf4" target="_blank" class="news-link">Panama Canal will suspend offering conditional reservation windows for new Panamax vessels because available transit slots in the second booking period have been reduced.</a> [25] <font color='grey'>- 05时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49375996" target="_blank" class="news-link">Vomit: Clean up Claude 5&#x27;s token output with a separate LLM</a> [16] <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49374772" target="_blank" class="news-link">Hacking with Claude on a $27 smart watch</a> [21] <font color='grey'>- 05时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260821051208562800" target="_blank" class="news-link">据伊朗媒体Fars News：以色列战斗机进入黎巴嫩空域，以色列对黎巴嫩南部阿里塔赫尔高地发动了空袭。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3152575" target="_blank" class="news-link">纳斯达克金龙中国指数收跌1.15%，报6278.48点，整体呈现出V形走势。 热门中概股里，网易初步收跌5.7%，新东方跌3.3%，腾讯跌0.8%，拼多多跌0.8%，阿里巴巴涨0.9%，日月光半导体涨2.3%。 ETF中，中概互联网指数ETF（KWEB）收跌1.95%，中国科技指数ETF（CQQQ）收跌1.17%。 德银嘉实沪深300指数ETF（ASHR）收跌0.06%，XtrackersHarvest中证50（ASHS）收涨0.50%，MSCI新兴市场ex中国ETF（EMXC）收涨0.87%。</a> [19]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
