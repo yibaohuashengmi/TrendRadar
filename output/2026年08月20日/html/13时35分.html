@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 146</p><p>生成时间: 2026-08-20 13:35:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">11.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01d8f-a6a1-7aab-90a8-fe93c3d88d7a" target="_blank" class="news-link">Russian Defence Ministry said late Wednesday Russia also struck warehouses in the Black Sea port of Chornomorsk and in Pivdenne.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01d8c-a4c7-7aab-90a8-e9f0d98fc8e9" target="_blank" class="news-link">The Russian Defence Ministry said Russia struck an ammunition depot in Kyiv.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01d8b-46c0-7aab-90a8-e42d0c1e224e" target="_blank" class="news-link">RUSSIAN DEFENCE MINISTRY said Russian forces struck a drone component production facility in Kyiv.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01d88-9b21-7aab-90a8-d90910bcba8d" target="_blank" class="news-link">Russian Defence Ministry said Russian forces carried out overnight strikes on Kyiv and surrounding areas of Ukraine.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01d82-6d51-7aab-90a8-d0110fa6d9ff" target="_blank" class="news-link">Nanjing Bank says 1H credit impairment losses rose YoY mainly due to stepped-up risk clean-up</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01d81-519f-7aab-90a8-c78cf6c5340c" target="_blank" class="news-link">Shanghai to speed purchase of second‑hand homes for affordable rental housing</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01d81-285d-7aab-90a8-b8a82898184a" target="_blank" class="news-link">Shanghai to further expand use of housing vouchers</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01d80-ebb3-7aab-90a8-b7d3fc1c6c2c" target="_blank" class="news-link">Shanghai relaxes housing provident fund withdrawal frequency and limits for home purchases</a> [11] <font color='grey'>- 13时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01d80-c094-7aab-90a8-acd64a267e8b" target="_blank" class="news-link">Shanghai expands housing provident fund withdrawals for down payments; preserves &quot;withdraw-and-loan&quot; support</a> [12] <font color='grey'>- 13时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01d80-4a6d-7aab-90a8-a2d3e59c1ef7" target="_blank" class="news-link">Shanghai to implement &#x27;trade-in&#x27; mortgage subsidy</a> [13] <font color='grey'>- 13时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01d7f-adb8-7aab-90a8-9a2b19be77b5" target="_blank" class="news-link">Shanghai eases second‑home down‑payment to 15% outside Outer Ring Road</a> [14] <font color='grey'>- 13时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01d7f-4a52-7aab-90a8-91a381476b6d" target="_blank" class="news-link">Polish military says it has ended military aviation operations and did not violate airspace.</a> [15] <font color='grey'>- 13时35分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5289702" target="_blank" class="news-link">伟仕佳杰(00856.HK)上半年纯利9.15亿港元同比增长49.9% AI热潮带动消费电子及云计算需求全面增长</a> [15]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01d7a-5228-7aab-90a8-8c0399ae659f" target="_blank" class="news-link">Kyiv mayor says a Russian airstrike killed 8 and injured 33 in Kyiv, Ukraine.</a> [16] <font color='grey'>- 13时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01d6c-9816-7aab-90a8-7cab316d7619" target="_blank" class="news-link">Caitong Fuxin periodic-open mixed fund will be suspended from the start of afternoon trading on Aug 20, 2026 until market close that day.</a> [18] <font color='grey'>- 13时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01d66-9b33-7aab-90a8-754728889712" target="_blank" class="news-link">Governor of Tehran province said nationwide solar power plant capacity construction has accelerated significantly in recent years, and further advancing this build-out is a government priority to help alleviate energy imbalances.</a> [19] <font color='grey'>- 13时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01d66-7ae3-7aab-90a8-6fdc0f2aab2e" target="_blank" class="news-link">Iran&#x27;s Tehran governor said the province views renewable energy development as a key measure to address energy imbalances, and urged faster solar project deployment and removal of various obstacles hindering projects.</a> [20] <font color='grey'>- 13时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">1.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235848" target="_blank" class="news-link">开公司卖公司数据是不是一个好注意，观破产航司卖内部数据给谷歌“回血” 有感？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/069.htm" target="_blank" class="news-link">谷歌 Pixel 11 系列手机上线自定义振动功能，可给联系人设置专属振动</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235849" target="_blank" class="news-link">claude 的边境感太强烈了, 有没有更好的办法破解</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> [25] <font color='grey'>- 13时35分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
