@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 245</p><p>生成时间: 2026-08-20 17:38:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">17</td>
+                <td class="percentage">6.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01e72-78e9-7aab-90af-85724ad5fb18" target="_blank" class="news-link">Russian Defence Ministry said Russian forces struck fuel, energy and transport infrastructure used by Ukrainian armed forces. Russian air-defence systems intercepted 11 guided air-dropped bombs and 1,504 UAVs.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235939" target="_blank" class="news-link">AI 工作台，纯血的 GPT5.5、5.6、Claude， V 站注册用户已过百，留贴即送 20 刀积分</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01e70-bb75-7aab-90af-76a94b3f8665" target="_blank" class="news-link">RIA reports the Russian Defence Ministry says its forces have captured two settlements in Ukraine&#x27;s Donetsk region.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01e70-9ea8-7aab-90af-6a08b9dd801c" target="_blank" class="news-link">Capital Economics: Swiss franc could strengthen if AI bubble bursts</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/trailo-ai-trip-planner?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Trailo - AI Trip Planner &amp; Organizer</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01e6c-8968-7aab-90af-5963fc26fc9e" target="_blank" class="news-link">Riksbank Governor Thedéen said the Riksbank is somewhat concerned about recent inflation outcomes.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/addus-technologies?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Polygon Blockchain Development Company</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820172100412800" target="_blank" class="news-link">美国经济恐“随时坍塌”？三大指标亮红灯，AI泡沫成最后稻草</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01e6a-05f0-7aab-90af-4949f9240aab" target="_blank" class="news-link">Iran gasoline daily capacity restored to about 130 million liters</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4234672_214_1" target="_blank" class="news-link">凯投宏观：瑞士法郎或将在AI泡沫破裂时走强。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1235920" target="_blank" class="news-link">「听记」v1.3.0 版本更新，新增“速记”功能 - 好看好用的 AI 录音软件</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01e67-b509-7aab-90af-1a315eac8b8b" target="_blank" class="news-link">Turkey&#x27;s Defense Ministry said it will continue to support Syria&#x27;s efforts to develop its military capabilities and infrastructure.</a> [14] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01e67-8958-7aab-90af-1153e8f8d821" target="_blank" class="news-link">Turkey&#x27;s defense ministry said a Turkish military delegation was not present at the Syrian air force base before or after Israeli airstrikes.</a> [15] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01e67-782b-7aab-90af-0c89789f8911" target="_blank" class="news-link">Turkey&#x27;s Defense Ministry said it will steadfastly continue efforts to protect Syria&#x27;s sovereignty and territorial integrity and to build a framework for stability and security.</a> [16] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01e61-74d4-7aab-90ae-d22978b95690" target="_blank" class="news-link">Pop Mart (09992.HK) said its board does not recommend payment of an interim dividend for the six months ended June 30, 2026.</a> [23] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a01e5d-cd38-7aab-90ae-be53849ae59b" target="_blank" class="news-link">HarmonyOS 6 installed base surpasses 80 million devices, the HarmonyOS WeChat account said.</a> [26] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820171054112800" target="_blank" class="news-link">凯投宏观：瑞士法郎或将在AI泡沫破裂时走强</a> [27] <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">7</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA%E9%98%94%E7%9B%B4%E6%9D%BF%E6%89%8B%E6%9C%BA%E4%BA%AE%E7%9B%B8%23&amp;t=31&amp;band_rank=1&amp;Refer=top" target="_blank" class="news-link">华为阔直板手机亮相</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BAPuraXView&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">华为PuraXView</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/212.htm" target="_blank" class="news-link">华为余承东：鸿蒙智行智界 RX 搭载面向未来的 L3 级自动驾驶架构设计</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/207.htm" target="_blank" class="news-link">华为余承东：Pura X View 全新阔直板手机首发 HarmonyOS 7</a> [12] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/206.htm" target="_blank" class="news-link">华为余承东：HarmonyOS 6 终端设备数突破 8000 万</a> [14] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/204.htm" target="_blank" class="news-link">阔屏开拓者：余承东首秀华为 Pura X View 全新阔直板手机，96.1% 业界最高屏占比</a> [15] <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/195.htm" target="_blank" class="news-link">全球首款阔直板手机华为 Pura X View 亮相，定位“为内容而生”</a> [22] <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3152256" target="_blank" class="news-link">阿里巴巴美股盘前跌约3%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3152253" target="_blank" class="news-link">阿里巴巴 第一季度营收2,689.5亿元人民币，预估2,685.2亿元人民币；第一季度调整后EBITDA 391.4亿元人民币。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/200.htm" target="_blank" class="news-link">谷歌确认 Android 17“防沉迷”功能为 Pixel 11 系列独占，帮助用户减少分心</a> [19] <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
