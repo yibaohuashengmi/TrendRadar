@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 134</p><p>生成时间: 2026-08-21 19:56:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">8.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02428-dd12-7aab-90d2-b733c5f31233" target="_blank" class="news-link">BofA: European stocks vulnerable to AI monetization uncertainty</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02426-1b88-7aab-90d2-a9ded80916c4" target="_blank" class="news-link">US sources: Ukraine reportedly planned AI-guided drone swarm attacks on Moscow airports</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02424-dbe5-7aab-90d2-a451d38c78f7" target="_blank" class="news-link">Tibo, CODEX product lead at OpenAI, said the company will grant a one-time quota reset to all CODEX and ChatGPT Work users.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780004" target="_blank" class="news-link">Gen1.5 模型带来重要进展：物理 AI 正在接近 GPT3 时刻</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02423-3d53-7aab-90d2-9b506f4408f1" target="_blank" class="news-link">OpenAI Codex product lead Tibo said that while no anomalies have been detected so far in reports of unusually rapid quota consumption, the issue is being treated very seriously and an investigation is underway.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02423-0e14-7aab-90d2-97b9b37093f7" target="_blank" class="news-link">OpenAI&#x27;s CODEX product head Tibo said active users exceeded 20 million at some point this week.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0241d-d495-7aab-90d2-795aabbdf9c8" target="_blank" class="news-link">Brazil&#x27;s finance minister said the government&#x27;s priorities over the next few years are ending the six-day workweek and cutting interest rates.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0241d-5685-7aab-90d2-6898a5686639" target="_blank" class="news-link">Guomin Trust approved to raise registered capital by 3 bln yuan to 4 bln yuan</a> [11] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0241c-e457-7aab-90d2-6651b3c1ef9b" target="_blank" class="news-link">Liao Min meets Macau Monetary Authority chairman Huang Shanwen</a> [12] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0241a-a910-7aab-90d2-4c872fc27f19" target="_blank" class="news-link">India said foreign direct investment stood at 49 billion Indian rupees as of Aug. 20.</a> [15] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02416-35e7-7aab-90d2-2556774f4c87" target="_blank" class="news-link">Finland&#x27;s foreign ministry summoned Russia&#x27;s ambassador, demanding an explanation for an alleged airspace violation.</a> [20] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02413-3ba1-7aab-90d2-1fd56c75095f" target="_blank" class="news-link">Shanghai Stock Exchange said it will place stocks showing severe abnormal volatility, including Aili Home, and high-premium funds such as the Caitong Fuxin LOF, under heightened surveillance this week.</a> [21] <font color='grey'>- 19时56分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8B%E6%9D%A5%E4%BA%86" target="_blank" class="news-link">DeepSeek多模态模型来了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
