@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 231</p><p>生成时间: 2026-08-21 15:01:51</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">12</td>
+                <td class="percentage">5.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02312-aee7-7aab-90ca-456cdf7c66c7" target="_blank" class="news-link">Iranian parliament speaker Ghalibaf said security and the economy are mutually reinforcing and indispensable; a precise roadmap to develop Iran-Iraq bilateral ties could affect the region and Islamic countries, particularly Arab states.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02312-6b18-7aab-90ca-38c66d7fb26c" target="_blank" class="news-link">Iran&#x27;s parliament speaker Ghalibaf said Iran and Iraq need to establish a roadmap for economic relations.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959652" target="_blank" class="news-link">首批英伟达Vera Rubin机架已在OpenAI运行</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5290848" target="_blank" class="news-link">中报大幅扭亏！三六零的AI商业化，终于走到兑现时刻</a> [12] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a022fa-0b6b-7aab-90c9-b4e308d9943d" target="_blank" class="news-link">South Korea&#x27;s presidential office said President Lee Jae-myung appointed Park Jung-sung as trade minister.</a> [20] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a022f9-fd8e-7aab-90c9-ad3811c21fe0" target="_blank" class="news-link">BofA Securities cuts AIA PT to HK$95; 1H results in line</a> [21] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a022f6-48b5-7aab-90c9-9a91b4d7c309" target="_blank" class="news-link">UK July retail sales fall as early-summer consumer heat fades</a> [23] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a022f2-41ad-7aab-90c9-94e7d7b0ac5b" target="_blank" class="news-link">Uruguayan deputy foreign minister said if Israeli Prime Minister Netanyahu visits Uruguay, authorities would be obliged to arrest him and will abide by international obligations, there is no doubt.</a> [24] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260821141605022800" target="_blank" class="news-link">AI前沿日报-8月21日</a> [24] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a022f0-fb94-7aab-90c9-8b99594c368f" target="_blank" class="news-link">Iraq and Switzerland&#x27;s foreign ministers said in a phone call that launching an international initiative to help end the conflict and bring Iran and the US back to the negotiating table is important.</a> [25] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a022ee-6cf7-7aab-90c9-8418c1a13a60" target="_blank" class="news-link">Nomura cuts Kuaishou PT to HK$40; maintains Neutral rating</a> [26] <font color='grey'>- 15时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a022e8-475c-7aab-90c9-6856e019aa69" target="_blank" class="news-link">Shanghai FTZ Lingang New Area targets 7.5% annual GDP growth in 15th Five-Year Plan</a> [29] <font color='grey'>- 15时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/630.htm" target="_blank" class="news-link">启境 GX7 实车首秀：前排华为双 15.6 英寸车载智慧双联屏、后排可一键成床，预埋 L3 级高阶架构</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236167" target="_blank" class="news-link">给 DeepSeek Harness 写了个游戏插件</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
