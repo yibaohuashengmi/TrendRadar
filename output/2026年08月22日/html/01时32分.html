@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 160</p><p>生成时间: 2026-08-22 01:32:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">8.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02559-f74c-7aab-90d9-7ddd357f56d5" target="_blank" class="news-link">SpaceXAI expands availability of its Grok chatbot, adding support for SuperGrok Plus, Cursor Pro+ and Cursor Teams subscription tiers.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时32分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236321" target="_blank" class="news-link">花几个小时用 AI + Cloudflare 折腾了个自己的 Perp DEX (v2ex.fyi)</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时32分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://sspai.com/post/113593" target="_blank" class="news-link">社区速递 154 | AI 代码助手大乱斗、租房电钻组合与神奇实体卡片故事机</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0254b-c9f6-7aab-90d9-518703b9f52e" target="_blank" class="news-link">Baker Hughes said U.S. energy firms reduced the number of active drilling rigs, the first decline in four weeks.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 01时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02547-36fe-7aab-90d9-43a20255ec27" target="_blank" class="news-link">Ukrainian state media reported the death toll from a Russian airstrike on Kryvyi Rih has risen to 14.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3153154" target="_blank" class="news-link">据知情人士透露，AI云公司Nscale寻求通过美国IPO融资至多30亿美元。（彭博）</a> [13] <font color='grey'>- 01时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260822004214452800" target="_blank" class="news-link">消息人士：人工智能云公司Nscale计划在美国IPO中寻求至多30亿美元的融资。</a> [17] <font color='grey'>- 01时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0253f-c09f-7aab-90d8-ef2839fa9b1c" target="_blank" class="news-link">Ukraine says Russian drone strike on Kryvyi Rih shopping centre kills 6, wounds 96</a> [19] <font color='grey'>- 01时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260822003653694800" target="_blank" class="news-link">美国国务院批准向韩国出售AIM-9X响尾蛇Block II战术导弹及相关设备，预计价值1.25亿美元。</a> [19] <font color='grey'>- 01时32分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49390463" target="_blank" class="news-link">A self hosted AI software factory</a> [19] <font color='grey'>- 01时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02533-b43a-7aab-90d8-cb2150a786fd" target="_blank" class="news-link">Sources say AI cloud company Nscale plans to seek up to $3 bln in a U.S. IPO.</a> [23] <font color='grey'>- 01时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0252e-c8c8-7aab-90d8-be3f81e35dd2" target="_blank" class="news-link">U.S. State Department approved sale to South Korea of AIM-9X Sidewinder Block II tactical missiles and related equipment, estimated value $125 million.</a> [25] <font color='grey'>- 01时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0252c-0796-7aab-90d8-acffac338891" target="_blank" class="news-link">Iran and Oman foreign ministers discuss resuming Strait of Hormuz talks</a> [27] <font color='grey'>- 01时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02526-a20d-7aab-90d8-9d9dc81a99ca" target="_blank" class="news-link">The US approved a sale to Italy of the guidance section and related equipment for the Air-to-Air Advanced Precision Kill Weapon System II, valued at $364 million.</a> [29] <font color='grey'>- 01时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260822011038670800" target="_blank" class="news-link">Anthropic发起3500万美元开源网络防御基金。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3153166" target="_blank" class="news-link">Anthropic：Claude Mythos现在投放到Claude Security。 Claude Security Scans现在可以在Claude Mythos 5上运行。 公司围绕开源网络防护问题启动3500万美元资金。</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0254d-b6d3-7aab-90d9-5918d73eb056" target="_blank" class="news-link">Anthropic launches $35 million open-source cyber defense fund.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">1.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236317" target="_blank" class="news-link">给 DeepSeek Harness 做了个桌面版：能调 Codex 干活，也能用微信远程派任务</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时32分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8B%E6%9D%A5%E4%BA%86" target="_blank" class="news-link">DeepSeek多模态模型来了</a> [18] <font color='grey'>- 01时32分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
