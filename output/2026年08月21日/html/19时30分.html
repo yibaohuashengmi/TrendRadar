@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 237</p><p>生成时间: 2026-08-21 19:30:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">10.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/832.htm" target="_blank" class="news-link">青少年开发者借助 Claude Code AI 编程工具，成功为惠普打印机冷门机型开发出苹果 macOS 原生驱动</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236272" target="_blank" class="news-link">用翻译看懂，在阅读中学语言｜来听听 Airlingo 的故事</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0240f-aab3-7aab-90d1-fb85b7efd281" target="_blank" class="news-link">Iranian Students&#x27; News Agency reported President Pezeshkian said that, given Iran&#x27;s current strong position and the international community&#x27;s recognition of its victory, Iran should immediately end the war.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780005" target="_blank" class="news-link">AI算力红利持续释放，中际旭创上半年净利暴增241.7%，章建平新进成为第九大股东｜财报见闻</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780002" target="_blank" class="news-link">东山精密上半年净利润同比增长290.09%，AI硬件景气周期驱动业绩跃升 | 财报见闻</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02409-ed8b-7aab-90d1-eaf4df4f17a7" target="_blank" class="news-link">State Council: push optimization of industrial, energy and transport structures, persistently improve air quality</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02409-52d9-7aab-90d1-e00d1f9fa343" target="_blank" class="news-link">NVIDIA (NVDA.O) will pay $6 billion to AI model startup Poolside under a licensing and talent-recruitment agreement.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02408-6bb7-7aab-90d1-dce0a74998bc" target="_blank" class="news-link">Chance Strait of Hormuz normalizes before year-end falls to about 30%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/plow-latch?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Plow Latch - Local AI Desktop Manager</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a02403-b600-7aab-90d1-d5fd785fbff2" target="_blank" class="news-link">A State Council executive meeting chaired by Li Qiang said Beijing will seize the opportunity from a new technological revolution and industrial transformation to accelerate construction of new-generation communication networks. The meeting urged an application-led, moderately preemptive rollout and coordinated advancement of basic networks, space-based networks, international links and integrated networks to consolidate and enhance the competitiveness of China’s information and communications industry.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/992/821.htm" target="_blank" class="news-link">代码显示三星正准备为 Galaxy Z Flip8/Fold8 手机引入 AI 小组件功能，基于谷歌“Create My Widget”技术</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a023fc-fa91-7aab-90d1-aa50106adcad" target="_blank" class="news-link">FedEx (FDX.N) said it will adjust the demand surcharge for FedEx International Packages and Freight on shipments to and from the Middle East, East Africa, India and Sub‑Saharan Africa.</a> [13] <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a023fc-5596-7aab-90d1-a1e47422a3f2" target="_blank" class="news-link">Yangtze Optical Fibre and Cable said 1H 2026 net profit was 2.924 bln yuan, up 888.88% YoY.</a> [14] <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a023fb-ef14-7aab-90d1-9bbc4409d03a" target="_blank" class="news-link">Huatai-PineBridge China-Korea Semiconductor ETF to suspend trading from market open on Aug 24, 2026 until 10:30 local time.</a> [15] <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a023fb-3970-7aab-90d1-96f116e66cf7" target="_blank" class="news-link">Brazil&#x27;s Supreme Federal Court rejected an application to suspend activities at the Autazes project, the Brazilian potash company said.</a> [16] <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/shogunai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ShogunAI</a> [16] <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a023fa-c4b0-7aab-90d1-89f22724fc4a" target="_blank" class="news-link">FedEx (FDX.N) said its demand surcharge will remain in effect through Feb. 7, 2027.</a> [17] <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/920331550061826048" target="_blank" class="news-link">28届实习/27届秋招:传统测试与AI测试的区别?</a> [19] <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/pixelread-ai-ocr?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">PixelRead AI OCR</a> [19] <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2072768812114338323" target="_blank" class="news-link">为什么在 AI 触手可及的时代，我们仍然需要不遗余力地去学习？</a> [20] <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a023f5-7ded-7aab-90d1-6247c6242180" target="_blank" class="news-link">U.S. President Trump said the United States will allow imports of up to 300,000 tonnes of product for ground beef production duty-free over the next 90 days, and pledged the beef will be sold at 25% below current market prices.</a> [22] <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a023f4-cd0e-7aab-90d1-5f778146cd6e" target="_blank" class="news-link">U.S. President Trump said an agreement has been reached and beef prices have fallen sharply.</a> [23] <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a023f3-d7fc-7aab-90d1-52670af08e88" target="_blank" class="news-link">BofA: Risk assets vulnerable if US plan to cap long-term Treasury yields fails</a> [24] <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a023ef-e4e2-7aab-90d1-4054c6875aeb" target="_blank" class="news-link">Guanghetong, Haier COSMOPlat to build two smart manufacturing bases</a> [26] <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7676301268526530560" target="_blank" class="news-link">在这个独属于ai的时代，我终究是被裁员了</a> [28] <font color='grey'>- 19时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49386163" target="_blank" class="news-link">DeepSeek-v4-flash-vision-exp</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时30分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2074181821978376015" target="_blank" class="news-link">怎么评价 DeepSeek-V4-Flash-Vision-Exp 发布，多模态能力表现如何？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/outlook-google-calendar-sync-for-mac?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Outlook Google Calendar Sync for Mac</a> [17] <font color='grey'>- 19时30分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3779985" target="_blank" class="news-link">把 677 亿押进算力、回购按下暂停键，阿里赌一场三年回本</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时30分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
