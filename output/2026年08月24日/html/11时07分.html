@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 254</p><p>生成时间: 2026-08-24 11:07:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">4.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236726" target="_blank" class="news-link">AI 到底是好还是坏</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824105957795800" target="_blank" class="news-link">中国AI大模型调用量连续十七周领跑：神秘“牛来”大模型上线四天冲至全球第二，DeepSeek-V4-Flash正式版连续三周第一</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780118" target="_blank" class="news-link">高盛：AI动能衰退，欧日银行股与黄金股等硬资产成下一轮交易主线</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=OpenAI%E4%BF%AE%E5%A4%8D%E6%B6%88%E8%80%97%E8%BF%87%E5%BF%AB%E9%97%AE%E9%A2%98" target="_blank" class="news-link">OpenAI修复消耗过快问题</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780119" target="_blank" class="news-link">AI开发者平台Hugging Face寻求出售，估值或超130亿美元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959661" target="_blank" class="news-link">Altman“认错”：AI发展时间表没有那么快，经济惯性太大了</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236705" target="_blank" class="news-link">AI 原生的 Kubernetes 云操作环境：体验一句话部署 Grafana</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/376.htm" target="_blank" class="news-link">联想来酷 Air 16 酷睿 5 315 开启预约：12GB + 512GB，国补后 3739.15 元</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5292430" target="_blank" class="news-link">瑞声科技CFO郭丹：2026年营收预计双位数增长，AI新业务明年有望超80亿</a> [12] <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2073353873687671056" target="_blank" class="news-link">Anthropic 的 ARR 不及预期，OpenAI 比 A 社还差，AI 热潮要阶段性见顶了吗？</a> [14] <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33836226" target="_blank" class="news-link">800亿港元！阿里港股上市以来首次配售新股，全部用于AI投资</a> [20] <font color='grey'>- 11时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">7</td>
+                <td class="percentage">2.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202608/2479467.html" target="_blank" class="news-link">阿里巴巴股价今开盘大跌超8%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780116" target="_blank" class="news-link">AH股齐跌：创业板跌2%，新能源电池爆发，算力硬件下挫，恒科指跌逾3%，阿里大跌10%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3153591" target="_blank" class="news-link">香港恒生指数跌幅扩大至2%，阿里巴巴跌10%。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3779983" target="_blank" class="news-link">阿里再投800亿港元，中国CSP的黄金周期才刚开始，还是泡沫前夜？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236695" target="_blank" class="news-link">大家有没有发现最近新出的多模态模型识图能力越来越差了。比如 qwen3.8 max， kimi-k3</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3153586" target="_blank" class="news-link">创业板指跌超2%，沪指跌0.42%，深成指跌1.23%，算力硬件、油气、存储芯片等方向跌幅居前，沪深京三市下跌个股超3200只。 恒生科技指数跌近3%，阿里巴巴跌超9%，智谱、MINIMAX跌超7%。</a> [12]</div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B8%AF%E8%82%A1%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E7%9B%98%E4%B8%AD%E8%B7%8C%E8%B6%8510%25" target="_blank" class="news-link">港股阿里巴巴盘中跌超10%</a> [14] <font color='grey'>- 11时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236716" target="_blank" class="news-link">DeepSeek Harness Remote：可能是社区里面「最完备」的 Remote 插件了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236700" target="_blank" class="news-link">做了个 dsh-dispatch：手机给 DeepSeek Harness 派任务、锁屏批审批，不是又一个网页套壳</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7676330290206244870" target="_blank" class="news-link">期待已久的DeepSeek多模态视觉模型终于上线了</a> [27] <font color='grey'>- 11时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/362.htm" target="_blank" class="news-link">全新华为 FreeBuds 7 悦彰耳机官宣今日开启预售：半入耳主动降噪、4 色可选</a> [21] <font color='grey'>- 11时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
