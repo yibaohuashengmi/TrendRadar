@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 275</p><p>生成时间: 2026-08-24 20:57:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">31</td>
+                <td class="percentage">11.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033c1-5020-7aab-90f7-8049c66f9a2b" target="_blank" class="news-link">U.S. Trade Representative Greer said Mexico is constructive on trade.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E7%BB%AD%E4%BD%9C%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E4%B9%8B%E5%85%A8%E9%9D%A2%E6%88%98%E4%BA%89" target="_blank" class="news-link">AI续作数码宝贝之全面战争</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/08/24/3be70dbc190546b59ae5e07aed8c25ee.html" target="_blank" class="news-link">日报：中国为何能成为“AI与机器人强国”？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033bf-e2e9-7aab-90f7-7cb78d73f5eb" target="_blank" class="news-link">US Chicago Fed National Activity Index (CFNAI) -0.08 in July; June revised from -0.02 to 0.06.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/08/24/3141244445ab40d48438d71a49b32417.html" target="_blank" class="news-link">港媒：美国搞错人工智能发展的真正阻碍</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033ba-ee84-7aab-90f7-64668e51a7f3" target="_blank" class="news-link">U.S. Trade Representative Greer said he speaks daily with U.S. Commerce Secretary Lutnick.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780144" target="_blank" class="news-link">英伟达拟投资AI初创公司Perplexity，估值或超300亿美元</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033ba-70e4-7aab-90f7-5992ec3d88ee" target="_blank" class="news-link">U.S. Trade Representative Greer said heavy-duty trucks are among several items Canada is seeking.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033b9-5282-7aab-90f7-5706dd09d688" target="_blank" class="news-link">Deutsche Bank: NVIDIA results increasingly an &#x27;AI inflation test&#x27;</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033b9-28cd-7aab-90f7-41d7f1150899" target="_blank" class="news-link">Avinor, the Norwegian state-owned airport operator under the Ministry of Transport and Communications, confirmed the strike has ended.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033b8-3d2b-7aab-90f7-3b22da9b8ff9" target="_blank" class="news-link">U.S. Trade Representative Greer said trade policy will proceed as planned.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3780117" target="_blank" class="news-link">美银：如果共和党中选输掉参议院，美股将跌超10%，德州选战决定“AI政策”</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033b6-bfec-7aab-90f7-31115794a793" target="_blank" class="news-link">U.S. Trade Representative Greer said Canada once had the most favorable access to the U.S., and that political considerations remain a significant factor for Canada.</a> [11] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033b5-fbb5-7aab-90f7-2c7e73475b21" target="_blank" class="news-link">U.S. Trade Representative Greer said U.S.-Canada talks failed because Canada sought more.</a> [12] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033b4-799c-7aab-90f7-244b5bb2fad6" target="_blank" class="news-link">Guggenheim Partners CIO Annie Walsh said financial conditions will &quot;naturally&quot; tighten.</a> [13] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33838730" target="_blank" class="news-link">24家文学刊物联合声明：AI滋生大量伪作者，一经查实永不采用</a> [14] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033b3-73b6-7aab-90f7-1fb68ada92df" target="_blank" class="news-link">Pinduoduo (PDD.O) said cross-border orders in affected markets will face lower fulfillment efficiency and higher costs in the short term.</a> [14] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033b3-04c5-7aab-90f7-179a8f43ae81" target="_blank" class="news-link">Pinduoduo (PDD.O) said it plans to expand local merchandise supply and broaden local fulfillment coverage over the medium to long term.</a> [15] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780142" target="_blank" class="news-link">企业不买最贵AI：Anthropic Fable 5遇冷滞销，OpenAI趁势反攻</a> [15] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824202248850800" target="_blank" class="news-link">德银：英伟达业绩越来越像一次“AI通胀测试”</a> [15] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033b2-b747-7aab-90f7-0ef9641dda2d" target="_blank" class="news-link">Market sources: Guggenheim is selectively investing in shorter-dated AI-related debt.</a> [16] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033b1-93f9-7aab-90f7-0495cd1c9821" target="_blank" class="news-link">Pinduoduo (PDD.O) said it expects changes to EU tariffs to materially affect its cross-border business in the near term.</a> [17] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4240484_212_1" target="_blank" class="news-link">外交部：愿推动人工智能开放、包容、普惠、向善发展。</a> [17] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033ae-c187-7aab-90f6-fa827797931d" target="_blank" class="news-link">MORGAN STANLEY raises Dell (DELL.N) PT to $434.00 from $430.00.</a> [18] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780150" target="_blank" class="news-link">TRAE、扣子并入豆包，字节AI工作入口加速成型</a> [18] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3153969" target="_blank" class="news-link">北京亦庄发布全国首个AI4Chip专项政策</a> [20] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033aa-9d71-7aab-90f6-e7348ea06e4a" target="_blank" class="news-link">Houthi forces said they expect Yemen&#x27;s armed forces to issue a statement announcing a series of military operations.</a> [21] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033a9-8538-7aab-90f6-d96ad0171719" target="_blank" class="news-link">Wells Fargo rates MARVELL overweight, raises PT to $310 from $240</a> [22] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033a8-e396-7aab-90f6-d32a12e78d25" target="_blank" class="news-link">A Russian presidential decree says owners of critical infrastructure who fail to secure facilities when faced with external threats may have those assets placed under temporary management.</a> [23] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824201540209800" target="_blank" class="news-link">市场消息：古根海姆“选择性”投资期限更短的人工智能债务。</a> [24] <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7677170455305879562" target="_blank" class="news-link">图解 AI Agent ①：大模型接上 API，为什么还不算 Agent？</a> [28] <font color='grey'>- 20时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236890" target="_blank" class="news-link">DSH Codex Desktop 全网最像 Codex 的 DeepSeek Harness Desktop</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时57分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236889" target="_blank" class="news-link">DeepSeek 翻译替换上架 Chrome web store 了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 20时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49418449" target="_blank" class="news-link">Anthropic candidates face blunt money question</a> [19] <font color='grey'>- 20时57分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2462565" target="_blank" class="news-link">南向资金追踪｜净买入超115亿港元 加仓阿里及腾讯抛售中芯国际</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
