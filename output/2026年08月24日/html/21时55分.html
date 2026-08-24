@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 203</p><p>生成时间: 2026-08-24 21:55:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">20</td>
+                <td class="percentage">9.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236894" target="_blank" class="news-link">以前看论坛都是各种软件行业分享，现在都是 AI 了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824213330231800" target="_blank" class="news-link">国家能源局建立“一带一路”能源合作伙伴关系合作网络“人工智能+能源”工作组</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3154020" target="_blank" class="news-link">国家能源局建立“一带一路”能源合作伙伴关系合作网络“人工智能+能源”工作组</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959669" target="_blank" class="news-link">AI Agent不会点广告，互联网商业模式怎么办？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780170" target="_blank" class="news-link">值得买科技上半年营收增速回升，AI布局成为新变量</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E6%89%8B%E6%90%93%E9%BE%99%E9%A4%90%E9%A6%86%E5%A4%A7%E5%9B%A2%E5%9C%86%E7%BB%93%E5%B1%80" target="_blank" class="news-link">AI手搓龙餐馆大团圆结局</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033dc-1087-7aab-90f8-24ef2b10d6e2" target="_blank" class="news-link">Google Cloud and Verizon (VZ.N) signed an enterprise AI framework agreement.</a> [11] <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033da-7374-7aab-90f8-0c087980439f" target="_blank" class="news-link">Xpeng aims for driverless Robotaxi passenger operations next year; forms BD team to accelerate physical-AI commercialisation</a> [14] <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4240648_214_1" target="_blank" class="news-link">国家能源局建立“一带一路”能源合作伙伴关系合作网络“人工智能+能源”工作组。</a> [14] <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033d8-2f47-7aab-90f7-f8d27692087e" target="_blank" class="news-link">Xiaomi Group chairman Lei Jun said the company will launch the 18 Fold and 18 Pro series in September.</a> [16] <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033d4-1f94-7aab-90f7-f18a82b6d8f5" target="_blank" class="news-link">Hungary&#x27;s Finance Ministry said the government plans to begin reducing government debt from 2027.</a> [17] <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033d2-9fe2-7aab-90f7-e18919e5adee" target="_blank" class="news-link">CGTN reports the U.S. Department of Homeland Security has proposed raising H-1B visa fees to $100,000.</a> [19] <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3154000" target="_blank" class="news-link">何小鹏：目标在明年实现Robotaxi无安全员载客运营，组建BD团队加速物理AI商业化</a> [20] <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033d0-d916-7aab-90f7-d52871840b4a" target="_blank" class="news-link">U.S.-Canada tariff talks fail; Greer says Canada raised demands at 11th hour</a> [21] <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033cd-2fba-7aab-90f7-c56226d39b6b" target="_blank" class="news-link">Libya&#x27;s National Oil Corporation signed a production-sharing agreement with Chevron as part of a bidding round, the statement said.</a> [23] <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49418675" target="_blank" class="news-link">Ask HN: Why do corporate failures always seem to punish the wrong people?</a> [23] <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033cb-723c-7aab-90f7-bb7d4a67957b" target="_blank" class="news-link">Trump said Iran is in full collapse.</a> [24] <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033c6-7c53-7aab-90f7-b1aa45931b90" target="_blank" class="news-link">U.S. Trade Representative Greer said he will meet with a Mexican delegation this week to discuss trade issues.</a> [25] <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824210050868800" target="_blank" class="news-link">谷歌云与Verizon(VZ.N)签署企业人工智能框架协议。</a> [27] <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033c3-08fa-7aab-90f7-8e70963374c4" target="_blank" class="news-link">NIO to invest in embodied-AI startup founded by autonomous-driving chief; Ren to remain unit head</a> [30] <font color='grey'>- 21时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">1.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a033dd-386e-7aab-90f8-289e19ad2afe" target="_blank" class="news-link">Verizon (VZ.N) will use GEMINI to manage customer calls and improve customer-service agent efficiency.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3154004" target="_blank" class="news-link">谷歌云宣布与Verizon达成战略合作协议</a> [17] <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824210205229800" target="_blank" class="news-link">Verizon(VZ.N)将使用Gemini来管理客户通话，提高客服人员效率。</a> [25] <font color='grey'>- 21时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">3</td>
+                <td class="percentage">1.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824213354447800" target="_blank" class="news-link">阿里巴巴(BABA.N)跌超1%，此前公司在香港完成100亿美元的股份配售。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3154014" target="_blank" class="news-link">美股三大股指开盘涨跌不一，道指涨0.13%，标普500指数跌0.19%，纳指跌0.4%。存储芯片股集体走低，闪迪跌约6%，美光科技跌约3%；光通信概念下挫，Lumentum跌超5%；拼多多涨超2%，Q2营收1123.6亿，交易服务收入增长13%；小鹏集团跌超3%，阿里巴巴跌2%。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时55分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2074157917750518597" target="_blank" class="news-link">Qwen3.8-27B 被称为新的「模型斩杀线」，为什么？如何看待这一变化？</a> [18] <font color='grey'>- 21时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=85181" target="_blank" class="news-link">Anthropic 最强模型难以吸引用户</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
