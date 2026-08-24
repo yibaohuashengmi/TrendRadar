@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 212</p><p>生成时间: 2026-08-24 12:22:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">5.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824115853128800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2026-08-24）</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3153637" target="_blank" class="news-link">香港财政司司长陈茂波：必须加速应对AI带来的就业挑战</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/426.htm" target="_blank" class="news-link">Anthropic 最强大模型 Fable 5 遇冷，企业用户转向更便宜 AI 产品</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/418.htm" target="_blank" class="news-link">消息称 NVIDIA 考虑向 Perplexity AI 投资“数十亿美元”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3153634" target="_blank" class="news-link">英伟达正讨论参与Perplexity的一轮股权融资，对这家AI初创公司的估值超过300亿美元。这笔融资总额将达数十亿美元，并将使Perplexity的估值比一年前上一轮融资后高出超过50%。（The Information）</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5292460" target="_blank" class="news-link">ETF午评|双创指数均跌逾3%，算力硬件产业链回调，创业板人工智能ETF、科创芯片设计ETF跌5%，红利价值ETF涨2.17%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780131" target="_blank" class="news-link">企业AI最后一公里：三路人马在此交锋</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5292459" target="_blank" class="news-link">银诺医药探索药企内化 AI 路径，依托高质量私有数据搭建药物研发闭环</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3153624" target="_blank" class="news-link">OpenAI前员工Luke Metz已加入Meta Platforms的超级智能实验室。（Axios）</a> [13] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49413561" target="_blank" class="news-link">I built a low-latency AI companion that plays Skyrim with me</a> [15] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/premium/articles/3779686?layout=wscn-layout" target="_blank" class="news-link">对话付鹏：Coding爆发不等于AI应用落地？市场正迎来关键窗口期！</a> [21] <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">4</td>
+                <td class="percentage">1.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780116" target="_blank" class="news-link">AH股齐跌：创业板跌超3%，煤炭爆发，算力硬件下挫，恒科指跌逾3%，阿里大跌近10%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/396.htm" target="_blank" class="news-link">阿里云视频生成模型 Wan3.0 正式上线，支持单次生成 30 秒视频、文档输入</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3153617" target="_blank" class="news-link">阿里视频大模型Wan3.0正式上线，单段30秒，文档、ppt也能变视频</a> [18] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4239270_212_1" target="_blank" class="news-link">市场消息：以色列军车驶入叙利亚南部的马阿里亚村。</a> [24] <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236739" target="_blank" class="news-link">多台设备使用 claude code, codex, 有什么好的数据同步方案吗?</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236733" target="_blank" class="news-link">开源一个小工具，公司/手机通过浏览器操控家里的 TUI（Claude code/Grok Build）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%9B%9D%E5%8D%8E%E4%B8%BA%E6%96%B0%E6%AC%BE%E8%80%B3%E6%9C%BA%E9%99%8D%E5%99%AA%E7%AA%81%E7%A0%B4%E5%BC%8F%E6%8F%90%E5%8D%87%23&amp;t=31&amp;band_rank=25&amp;Refer=top" target="_blank" class="news-link">曝华为新款耳机降噪突破式提升</a> [25] <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
