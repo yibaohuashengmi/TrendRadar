@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 234</p><p>生成时间: 2026-08-24 19:32:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">10.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03389-9b97-7aab-90f6-22b72453ee16" target="_blank" class="news-link">IEA Executive Director Birol said there is currently no discussion of a second release of strategic petroleum reserves.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/MadsLorentzen/ai-job-search" target="_blank" class="news-link">MadsLorentzen / ai-job-search</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03387-142c-7aab-90f6-0987e7c6ae9b" target="_blank" class="news-link">Israel launches air strikes in southern Lebanon</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/multica-ai/andrej-karpathy-skills" target="_blank" class="news-link">multica-ai / andrej-karpathy-skills</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824185420593800" target="_blank" class="news-link">腾讯与中国太保聚焦AI领域全面深化战略合作</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03381-2c24-7aab-90f5-e2c5c8ffe3ef" target="_blank" class="news-link">Ukraine President ZELENSKIY said 10 fighters were returned via Belarus today as part of a special prisoner-exchange phase.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23AI%E7%9C%BC%E9%95%9C%E6%88%90%E4%B8%BA%E9%9A%90%E7%A7%81%E9%87%8D%E7%81%BE%E5%8C%BA%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">AI眼镜成为隐私重灾区</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank" class="news-link">rohitg00 / ai-engineering-from-scratch</a> [13]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824184237128800" target="_blank" class="news-link">北京亦庄发布全国首个AI4Chip专项政策</a> [14] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/lucid-train?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Lucid Train</a> [14] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03375-cd71-7aab-90f5-b4366466ff03" target="_blank" class="news-link">Moody&#x27;s affirms the Philippines&#x27; Baa2 sovereign rating; outlook remains stable.</a> [15] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03375-6bf3-7aab-90f5-acee7ea011d4" target="_blank" class="news-link">Strait of Hormuz flow disputed as U.S. claims outpace ship-tracker estimates</a> [16] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03374-2872-7aab-90f5-a4b42ad00d14" target="_blank" class="news-link">CNBC reports United Parcel Service will invest US$2 bln in its international, healthcare and supply-chain businesses.</a> [17] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03373-5155-7aab-90f5-9f2b51051eaf" target="_blank" class="news-link">UK PM STARMER&#x27;S SPOKESPERSON said the UK seeks to build an ambitious, close relationship with the EU.</a> [18] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824184051424800" target="_blank" class="news-link">上海：新增1款已完成备案的生成式人工智能服务</a> [18] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03372-7444-7aab-90f5-92f4520dcbcb" target="_blank" class="news-link">Israeli Defense Forces (IDF) said it has killed two Hamas members involved in the Oct. 7 attack.</a> [19] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/vorssaint/vorssaint-utils" target="_blank" class="news-link">vorssaint / vorssaint-utils</a> [19]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03368-59e9-7aab-90f5-7bae5ca3ec5c" target="_blank" class="news-link">Tencent and China Pacific Insurance deepen AI-focused strategic cooperation</a> [22] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03363-40ec-7aab-90f5-77cc434e6d12" target="_blank" class="news-link">Al Arabiya TV (Saudi Arabia) reports Iraq&#x27;s national security adviser said Iraq will continue to implement its weapons control program.</a> [23] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824183809720800" target="_blank" class="news-link">北京：新增17款已完成备案的生成式人工智能服务</a> [23] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7676809743765241862" target="_blank" class="news-link">腾讯正式上线AI应用生成平台：一句话生成 App，还能直接上架商店</a> [23] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7677041436535455787" target="_blank" class="news-link">AI Skills 已经封神，但新的问题却越来越严重！</a> [24] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0335d-96a6-7aab-90f5-62bdd7f980cc" target="_blank" class="news-link">Beijing Yizhuang unveils China’s first AI4Chip integrated-circuit action plan (2026–2028)</a> [25] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824183547074800" target="_blank" class="news-link">小鹏集团：上半年研发开支同比增长39% 系新车型及AI相关技术开发相关的开支增加所致</a> [28] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7676685155130687497" target="_blank" class="news-link">规范驱动开发：让AI生成符合预期的KMP代码</a> [28] <font color='grey'>- 19时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236880" target="_blank" class="news-link">Grokbot 源码泄露了，前有 claude code 后有 grokbot，硅谷大厂果然是草台班子</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/AgriciDaniel/claude-obsidian" target="_blank" class="news-link">AgriciDaniel / claude-obsidian</a> [12]</div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202608/2479498.html" target="_blank" class="news-link">阿里巴巴推出视频生成模型Wan3.0</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%94%A1%E5%B4%87%E4%BF%A1%E5%90%B4%E6%B3%B3%E9%93%AD1.2%E4%BA%BF%E5%A2%9E%E6%8C%81%E9%98%BF%E9%87%8C%E8%82%A1%E7%A5%A8%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">蔡崇信吴泳铭1.2亿增持阿里股票</a> [20] <font color='grey'>- 19时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E5%AF%B9%E8%AF%9DGoogle%E6%80%BB%E8%A3%81" target="_blank" class="news-link">UP主对话Google总裁</a> [26] <font color='grey'>- 19时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7676350945481457714" target="_blank" class="news-link">DeepSeek Harness 插件开发实战：从最小插件到自动化日报</a> [30] <font color='grey'>- 19时32分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
