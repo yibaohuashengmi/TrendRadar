@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 105</p><p>生成时间: 2026-08-25 04:34:32</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">14.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780179" target="_blank" class="news-link">阿里官宣800亿配售全押AI次日，蔡崇信、吴泳铭增持1.2亿港元“护盘”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825041631129800" target="_blank" class="news-link">据纽约时报：美国证券交易委员会已向华尔街主要银行发出传票，要求提供有关人工智能对冲基金Situational Awareness交易的信息。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0356a-f55d-7aab-90ff-4194f4c82e36" target="_blank" class="news-link">The New York Times reports the U.S. Securities and Exchange Commission has subpoenaed major Wall Street banks seeking information on trading by AI hedge fund Situational Awareness.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03564-4c91-7aab-90ff-306b64e94fa9" target="_blank" class="news-link">Saudi state TV reported the U.S. ambassador to Turkey and special envoy for Syria, Barak, said removing Syria from the U.S. State Sponsors of Terrorism list would be a key step for reconstruction.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 04时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0355f-0ca3-7aab-90ff-20f96218396f" target="_blank" class="news-link">NVIDIA (NVDA.O) shares fell for a seventh straight day, marking their longest losing streak since 2022.</a> [11] <font color='grey'>- 04时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03545-5252-7aab-90fe-f41fb46e9dd3" target="_blank" class="news-link">US Defense Secretary Hegseth said the USS Abraham Lincoln aircraft carrier is departing the Middle East to return to the United States.</a> [17] <font color='grey'>- 04时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03544-f010-7aab-90fe-eae52e6162be" target="_blank" class="news-link">U.S. Defense Secretary Hegseth said Iran&#x27;s kinetic strikes have not paused and that the U.S. will take decisive action if necessary.</a> [18] <font color='grey'>- 04时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03544-da84-7aab-90fe-e78d3d3aacae" target="_blank" class="news-link">US defense secretary Hegseth said Iran still retains some capability but its only option is to return to the negotiating table.</a> [19] <font color='grey'>- 04时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03544-d28f-7aab-90fe-dc91b018a93a" target="_blank" class="news-link">U.S. Defense Secretary Hegseth said oil shipments through the Strait of Hormuz are unimpeded.</a> [20] <font color='grey'>- 04时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03544-c0db-7aab-90fe-c9b55285d62d" target="_blank" class="news-link">U.S. Defense Secretary Hegseth said he does not rule out using military force in the Strait of Hormuz or elsewhere.</a> [22] <font color='grey'>- 04时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0353d-3d3e-7aab-90fe-c243ab7242da" target="_blank" class="news-link">Pakistan Army chief of staff Munir said diplomatic progress must undergo careful discussion and review to advance shared interests and ultimately reach a comprehensive agreement.</a> [23] <font color='grey'>- 04时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0353c-4e38-7aab-90fe-bec43ccd9487" target="_blank" class="news-link">Pakistan&#x27;s army chief General Munir said Pakistan will steadfastly continue to act as a facilitator; ending the current crisis could open a new chapter of reconstruction, regional development and cooperative security.</a> [24] <font color='grey'>- 04时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0353a-9bd8-7aab-90fe-aa0af82a720d" target="_blank" class="news-link">According to Iran&#x27;s Press TV, Iran&#x27;s president said unity among Islamic states is the strongest deterrent to Israeli plots and enemies of Islam and will prevent them from achieving their objectives.</a> [26] <font color='grey'>- 04时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03538-3675-7aab-90fe-987a2d1852aa" target="_blank" class="news-link">Fars News: Iran&#x27;s president said the US should change its tone and approach in dealings with Iran, warning reliance on hard pressure and bullying will only complicate implementation.</a> [28] <font color='grey'>- 04时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03534-5cb1-7aab-90fe-8a97e8d6a808" target="_blank" class="news-link">SpaceX (SPCX.O): NASA&#x27;s Roman Space Telescope was loaded into a Falcon Heavy fairing last week and is scheduled to launch Sunday, Aug. 30, from pad 39A in Florida.</a> [30] <font color='grey'>- 04时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49424758" target="_blank" class="news-link">A Claude Code skill that recovers export-blocked Kindle highlights</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
