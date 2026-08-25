@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 224</p><p>生成时间: 2026-08-25 21:53:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">6.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03924-831a-7aab-9113-deb3d137d9eb" target="_blank" class="news-link">Bulgaria defense minister: U.S. tanker aircraft will not return to Bezmer airbase</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49433292" target="_blank" class="news-link">Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1237170" target="_blank" class="news-link">Vibe Coding 做了个无限免费 AI 抠图工具</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/08/25/e555d14ef45a40ac80c32c157597a879.html" target="_blank" class="news-link">人工智能模型失控，OpenAI遭调查</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03921-1bc2-7aab-9113-cb1b765ba4c4" target="_blank" class="news-link">NEBIUS (NBIS.O) shares rose 3.5% after Goldman Sachs raised its price target.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/08/25/877692be217b4ba5b95501a1dd0110ed.html" target="_blank" class="news-link">美限制使用中国AI举措注定失败</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0391d-4b84-7aab-9113-a1058b388b59" target="_blank" class="news-link">Wuxi holds tech and industry matchmaking event in Shanghai</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49432879" target="_blank" class="news-link">OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03911-dad2-7aab-9113-90692d486560" target="_blank" class="news-link">CCPIT vice‑chair Liu Jiannan meets Budweiser APAC CEO Cheng Yanjun on foreign investment, supply‑chain cooperation</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3154693" target="_blank" class="news-link">前程无忧：近三成企业校招布局AI人才，能力评价务实化，名校硕博要求相对靠后</a> [13] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825211735606800" target="_blank" class="news-link">苹果发布新款Mac Mini和Mac Studio，加码AI计算能力</a> [13] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0390d-9bc0-7aab-9113-75f5ff0090d7" target="_blank" class="news-link">TASNIM NEWS: sources close to negotiators say Iran&#x27;s conditions include restoring a memorandum of understanding on the Strait of Hormuz.</a> [14] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0390c-9d42-7aab-9113-6fac0d954e37" target="_blank" class="news-link">China crude-complex front-month futures extended losses: SC crude main contract down 4.04% at 567.9 yuan/barrel; low-sulfur fuel oil (LU) down 6.00% at 4,793 yuan/ton; fuel oil down 6.02% at 3,698 yuan/ton; bitumen down 1.93% at 4,519 yuan/ton.</a> [15] <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03903-3af2-7aab-9113-03d467b7b274" target="_blank" class="news-link">Apple (AAPL.O): new Mac mini equipped with M6 and M5 Pro chips; AI performance markedly improved, further strengthening the desktop&#x27;s sustained AI-compute capability.</a> [28] <font color='grey'>- 21时53分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780265" target="_blank" class="news-link">马云出手增持阿里巴巴，连日买入超6亿港元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时53分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49432317" target="_blank" class="news-link">Qwen 3.8-Flash-Next releasing tomorrow (125B a6B)</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时53分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
