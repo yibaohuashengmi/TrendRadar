@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 240</p><p>生成时间: 2026-08-25 11:52:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">10.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a036fb-5704-7aab-9105-7fc6792cbc24" target="_blank" class="news-link">Federation of Thai Industries said July vehicle production rose 6.12% YoY, following a 7.55% YoY decline in June.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a036f8-e201-7aab-9105-6f8c7bff1322" target="_blank" class="news-link">Morning session close: China&#x27;s main commodity futures were mostly lower. Lithium carbonate fell more than 5%; PVC down nearly 3%. Container shipping (Europe route), coking coal, red dates, soda ash, Shanghai silver and eggs dropped over 2%. On the upside, fuel oil, ethylene glycol (EG), p-xylene, benzene, styrene (EB) and PET flake rose over 2%; methanol and asphalt were up about 2%.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780212" target="_blank" class="news-link">Citadel：算力稀缺仍是AI最大瓶颈，超大规模云厂商或成最终赢家</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/905.htm" target="_blank" class="news-link">古尔曼：苹果 AirPods 5 耳机下月发布，提供普通版和主动降噪版</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236999" target="_blank" class="news-link">Shumai 新增看板功能</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a036f1-decb-7aab-9105-45c6a70d32ed" target="_blank" class="news-link">Canaccord Genuity raised its PT on Workday (WDAY.O) to $225 from $200.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2463140" target="_blank" class="news-link">马斯克预告：首批搭载英伟达芯片的AI卫星明年Q4发射！</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a036ed-ff04-7aab-9105-39bbed15e580" target="_blank" class="news-link">Porsche signs €1.25bn five-year AI deployment deal with Tata Consultancy Services; transfers IT consulting unit for €320m</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1236985" target="_blank" class="news-link">AI 时代，大家现在都是怎么重构老项目的？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a036ec-c2ae-7aab-9105-309f3402937d" target="_blank" class="news-link">Pakistan army chief holds talks with Iran on preventing escalation, reopening Strait of Hormuz</a> [11] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/873.htm" target="_blank" class="news-link">LinkedIn“看起来像是 AI 垃圾”按钮收效显著，相关内容浏览量下降四成</a> [11] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a036eb-c543-7aab-9105-290bcb5e3c62" target="_blank" class="news-link">Mainland A-share lithium-mining stocks tumbled; Guocheng Mining neared its daily limit-down, while Tianhua Xinneng, Jin Yinhe, Shengxin Lithium Energy, Dazhong Mining, Yongxing Materials and Rongjie Co. each fell more than 6%.</a> [12] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5293786" target="_blank" class="news-link">大行评级丨花旗：中兴通讯次季收入受惠AI算力需求，目标价微升至25.9港元</a> [12] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5293785" target="_blank" class="news-link">港股异动丨英矽智能大幅拉升涨近10%，从AI概念走向商业变现，AI制药商业化风口已至</a> [13] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a036e5-b200-7aab-9105-10472edc7e0e" target="_blank" class="news-link">Pakistan&#x27;s interior minister said Pakistan and Iran are discussing restoring the Islamabad memorandum of understanding to resolve conflict, with talks focused on easing Middle East tensions and a path to peace.</a> [15] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825111907286800" target="_blank" class="news-link">保时捷与印度最大IT服务公司达成15亿美元的AI部署合作协议</a> [15] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a036e4-dca9-7aab-9105-0c274a581071" target="_blank" class="news-link">The governor of Russia&#x27;s Krasnodar Krai said a refinery fire was caused by a drone attack.</a> [16] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/866.htm" target="_blank" class="news-link">英特尔介绍 Crescent Island 加速卡：面向 AI 推理，额定 350W、最高 480GB 内存</a> [16] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a036e4-9b34-7aab-9105-03bc62bb4a0c" target="_blank" class="news-link">Krasnodar Krai governor says Afipsky refinery has caught fire.</a> [17] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/993/856.htm" target="_blank" class="news-link">中消协发布消费提示：使用人工智能服务需谨防误导</a> [18] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a036e1-774c-7aab-9104-e47a5067a381" target="_blank" class="news-link">Only one commodity vessel transited Strait of Hormuz on Monday, lowest since May 7</a> [21] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a036e1-0395-7aab-9104-c1bfc02de77d" target="_blank" class="news-link">China&#x27;s National Energy Administration said total installed power generation capacity stood at 4.08 billion kilowatts (4,080 GW) at end-July, up 11.0% YoY.</a> [25] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a036e0-ce99-7aab-9104-b9ed0bc5f2b5" target="_blank" class="news-link">Pakistan military said Army Chief Munir held comprehensive talks with Iran aimed at preventing further escalation.</a> [26] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a036e0-cb67-7aab-9104-b196584c2c97" target="_blank" class="news-link">China A-share pharmaceutical distribution sector jumped briefly; Renmin Tongtai hit the daily limit, with Hefu China, Kaikai Industrial, Luyan Pharma and Yaoyigou also rising.</a> [27] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7677418026090233882" target="_blank" class="news-link">2026 年值得关注的 8 款 AI 智能体工具</a> [30] <font color='grey'>- 11时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1237005" target="_blank" class="news-link">做了个 Claude Code / Codex 月付 Seat 的小平台，聊聊我为什么选这个方向</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA%E6%96%B0%E5%93%81%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A39%E6%9C%887%E6%97%A5%23&amp;t=31&amp;band_rank=9&amp;Refer=top" target="_blank" class="news-link">华为新品发布会定档9月7日</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3780194" target="_blank" class="news-link">英伟达震撼首测Vera Rubin，DeepSeek吞吐暴涨30倍！</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
