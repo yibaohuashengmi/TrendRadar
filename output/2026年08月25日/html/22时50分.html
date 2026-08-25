@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 210</p><p>生成时间: 2026-08-25 22:50:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">33</td>
+                <td class="percentage">15.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0395b-eae3-7aab-9115-8b665632db0d" target="_blank" class="news-link">US asked Ukraine to pause strikes on Russia; US C-17 lands in Moscow</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780270" target="_blank" class="news-link">速度更快、功耗更低，OpenAI JALAPENO芯片强势叫板英伟达GB300</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/250.htm" target="_blank" class="news-link">华为 MatePad Pro 13.2 英寸 2023 款等平板推送 HarmonyOS 6.1.0.135 升级，AI 修图沾色功能增强</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03959-09c9-7aab-9115-78dfc03df0fd" target="_blank" class="news-link">Trump threatens Iran: mine‑laying vessels will be destroyed; Space Force monitoring Strait and nuclear sites</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1237179" target="_blank" class="news-link">AI 时代，如何学习 C 语言？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03957-1e4f-7aab-9115-70b5112b7fce" target="_blank" class="news-link">Trump said the US, using the Space Force, is monitoring every inch of the Strait of Hormuz, as it does other strategic sites, and warned the US will enforce a &#x27;zero tolerance&#x27; policy on the deployment of sea mines.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03956-3969-7aab-9115-6b1a8f77984b" target="_blank" class="news-link">On Iran, President Trump said he is closely monitoring every inch of territory in the Strait of Hormuz and Gaoshan.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03955-f7e3-7aab-9115-606273f81cff" target="_blank" class="news-link">President Trump said the US Navy has informed him that all sea mines in international waters of the Strait of Hormuz have been removed or detonated. He said Iran has been warned that any vessel or small boat laying new mines will be immediately and systematically destroyed.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4242911_1_1" target="_blank" class="news-link">美国波士顿联储主席柯林斯：还存在一些不太乐观的情景，包括由于人工智能建设导致的通胀上升和供应冲击。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825222104490800" target="_blank" class="news-link">OpenAI：自研Jalapeno芯片测试中击败英伟达GB300</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0394c-12de-7aab-9115-53546435c287" target="_blank" class="news-link">OpenAI says in-house Jalapeno chip outperformed NVIDIA GB300 in tests</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3154730" target="_blank" class="news-link">OpenAI芯片负责人：新款自研芯片测试的对标对象是英伟达的GB300，700瓦即可实现强劲性能</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/229.htm" target="_blank" class="news-link">腾讯相关人士回应“IEG 重组 AI 游戏部门”：报道内容存在大量失实，所谓“成立新部门”系误读</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03945-64a2-7aab-9115-3a0b77bcbfaf" target="_blank" class="news-link">White House official: No US-Iran talks; Strait of Hormuz open</a> [11] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03944-be9d-7aab-9115-351149fe20a5" target="_blank" class="news-link">Federal Reserve Governor Collins said it would be appropriate to raise rates &quot;as soon as possible&quot; in the absence of evidence of sustained disinflation.</a> [12] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03943-c8ce-7aab-9115-291624664586" target="_blank" class="news-link">Federal Reserve&#x27;s COLLINS said maintaining the current policy rate requires persistent evidence that inf is declining.</a> [13] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3154723" target="_blank" class="news-link">OpenAI：自研芯片Jalapeno在测试中击败英伟达GB300，并未与Vera Rubin进行对比测试</a> [13] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03942-e6fc-7aab-9115-26c368fe4217" target="_blank" class="news-link">Collins said she will monitor whether productivity can help offset changes in inf, oil prices and inf expectations.</a> [14] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825220947692800" target="_blank" class="news-link">美联储柯林斯：还存在一些不太乐观的情景，包括由于人工智能建设导致的通胀上升和供应冲击。</a> [14] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03941-a9ca-7aab-9115-1b7b4aa6b334" target="_blank" class="news-link">Federal Reserve&#x27;s Collins said some less optimistic scenarios remain, including a rise in inf and supply shocks stemming from AI build-out.</a> [15] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%AE%8B%E5%A8%81%E9%BE%99%E8%B5%B5%E4%B8%BD%E9%A2%96%E8%A2%ABAI%E6%BC%AB%E5%89%A7%E8%9E%8D%E8%84%B8&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">宋威龙赵丽颖被AI漫剧融脸</a> [16] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03940-8ea6-7aab-9115-081c4df22b56" target="_blank" class="news-link">Fed&#x27;s Collins said rising long-term yields should curb any reacceleration in demand.</a> [17] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%2313%E5%B2%81%E4%B8%8A%E6%B5%B7%E5%A5%B3%E5%AD%A9%E9%9D%A0AI%E4%B8%89%E5%A4%A9%E8%B5%9A1.8%E4%B8%87%E5%85%83%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">13岁上海女孩靠AI三天赚1.8万元</a> [18] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0393f-495a-7aab-9114-feef1f0407fa" target="_blank" class="news-link">White House officials said the naval blockade is being strictly and effectively enforced, the Strait of Hormuz is open and sea mines have been cleared.</a> [19] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2019691318507517372" target="_blank" class="news-link">26 年 AI 逐渐改变程序员开发模式的情况下，是否需要学习 vim 模式？</a> [19] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0393e-cbb3-7aab-9114-f32971432a5a" target="_blank" class="news-link">Fed&#x27;s Collins said that, given limited additional tariffs and progress toward reopening the Strait of Hormuz, disinflation is the most likely outcome.</a> [20] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2072656982637557528" target="_blank" class="news-link">如何看待有说法认为：AI 可以证明一些数学猜想，但 AI 永远成不了开创性数学宗师？</a> [20] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49433759" target="_blank" class="news-link">The state of AI in 2026: On the road to ROI</a> [20] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0393d-bbe5-7aab-9114-e446c172904b" target="_blank" class="news-link">Fed Governor Collins said he will monitor over the coming months for evidence that inflation can sustain a decline to 2%.</a> [22] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0393d-8558-7aab-9114-df8471adf680" target="_blank" class="news-link">Fed&#x27;s Collins said contacts in the New England region broadly expressed concern about elevated prices.</a> [23] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0393d-4710-7aab-9114-d2d5de98dd66" target="_blank" class="news-link">Fed COLLINS said a sharp decline in immigration and population aging will maintain balance between U.S. labor supply and labor demand.</a> [24] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0393b-7352-7aab-9114-bd8036421f37" target="_blank" class="news-link">COLLINS (Federal Reserve) said inf remains too high and expressed concern about the Fed&#x27;s responsibility to maintain price stability.</a> [27] <font color='grey'>- 22时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0393b-24f6-7aab-9114-b7f57a6ef56b" target="_blank" class="news-link">Market sources: OpenAI says its JALAPENO chip outperforms NVIDIA&#x27;s GB300 on both speed and power consumption.</a> [28] <font color='grey'>- 22时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49434291" target="_blank" class="news-link">Anthropic tells staff to work from home due to possible security team strike</a> [27] <font color='grey'>- 22时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
