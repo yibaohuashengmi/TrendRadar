@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2026-08-26 06:31:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">12.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03af3-e4dd-7aab-911b-6a2c2a2469d3" target="_blank" class="news-link">Reuters survey: 89% of economists said Japan&#x27;s Prime Minister TAKAICHI&#x27;s fiscal policy has exerted downward pressure on the yen.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03af3-d2b8-7aab-911b-60b0f1680eff" target="_blank" class="news-link">REUTERS SURVEY: 69% of economists said July&#x27;s joint Japan-US FX intervention was &#x27;ineffective&#x27; or &#x27;completely ineffective&#x27;.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03af3-158b-7aab-911b-5b0add049fa4" target="_blank" class="news-link">A Reuters survey found 57% of economists expect the Bank of Japan to raise its policy rate to 1.25% in September, versus 5% in the previous survey.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03af2-a2f0-7aab-911b-530be56019c3" target="_blank" class="news-link">Reuters survey: more than half of economists expect the Bank of Japan to raise policy rates to at least 1.50% by Q1 2027; previous survey median was 1.25%.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03aea-cf24-7aab-911b-42902ae4f2eb" target="_blank" class="news-link">Sources: Iran strike heavily damages U.S. Middle East intelligence sites; repairs may cost tens of billions</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826060134531800" target="_blank" class="news-link">巴克莱警告AI基建扩张可能使相关交易面临政治风险</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03ae7-0921-7aab-911b-30572588fa23" target="_blank" class="news-link">Survey: BANK OF KOREA likely to weigh back-to-back hikes this week as economy, inf remain strong</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03ad4-6ee4-7aab-911b-1dbf386d6a79" target="_blank" class="news-link">The U.S. Department of Justice said Deloitte agreed to pay $21.5 million to resolve alleged employment-discrimination violations.</a> [12] <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03ac8-1d77-7aab-911b-0a4d9d032274" target="_blank" class="news-link">US officials said the USS Abraham Lincoln has exited US Central Command’s area of responsibility.</a> [14] <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3154882" target="_blank" class="news-link">巴克莱称：美国选民对AI基建的不满情绪正令AI交易面临风险</a> [14] <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2622931" target="_blank" class="news-link">网友AI手搓欢迎来天堂龙餐馆</a> [21] <font color='grey'>- 06时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3154889" target="_blank" class="news-link">Anthropic任命新任总法律顾问，为潜在的IPO铺路</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
