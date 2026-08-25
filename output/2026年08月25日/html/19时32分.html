@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 219</p><p>生成时间: 2026-08-25 19:32:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">23</td>
+                <td class="percentage">10.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/165.htm" target="_blank" class="news-link">苹果 iOS 27 正式版发布在即，Siri AI 预计将采用候补名单机制</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03898-ee98-7aab-910f-ec95a264c521" target="_blank" class="news-link">Guotai Nasdaq-100 ETF to suspend trading from open until 10:30 on Aug 26, 2026</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03898-2560-7aab-910f-e3b3eb1d38e4" target="_blank" class="news-link">Typhoon Zitan (19th of year) makes landfall on Hainan&#x27;s Changjiang coast</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/agnost-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Agnost AI</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780240" target="_blank" class="news-link">微软内部数据曝光：员工月度AI消费中位数300美元，最高单人烧到2.8万美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/hkMacao/202608/2579594.html" target="_blank" class="news-link">受AI相关电子产品带动 香港7月出口同比增逾50%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03897-b5cd-7aab-910f-d0ef2911550e" target="_blank" class="news-link">United Airlines will add 10 international city routes in 2027.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3154615" target="_blank" class="news-link">农业农村部：推进“人工智能+”农产品流通发展</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03890-849a-7aab-910f-b56de6ffcb73" target="_blank" class="news-link">Rosenblatt raises MARVELL (MRVL.O) PT to $300 from $240.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ninjo-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Ninjō AI</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0388c-fda2-7aab-910f-a5c45b489c19" target="_blank" class="news-link">Qatar foreign ministry spokesman said pressure must be applied on Israel to implement Trump’s plan for Gaza.</a> [11] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0388b-ec2c-7aab-910f-9903abdbbc4f" target="_blank" class="news-link">Qatar foreign ministry spokesman said Qatar&#x27;s armed forces and all institutions in the country are ready to respond to any threat from any party.</a> [12] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0388b-09a7-7aab-910f-8c3040bfa958" target="_blank" class="news-link">Qatar foreign ministry spokesman said all Gulf states support resolving the US-Iran crisis by peaceful means.</a> [14] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03887-58ba-7aab-910f-71ca294adf75" target="_blank" class="news-link">Qatar&#x27;s foreign ministry spokesman said the immediate priority is to broker an agreement among the parties; Qatar will not take sides.</a> [17] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03885-bc45-7aab-910f-6babb85b4605" target="_blank" class="news-link">Interfax reported the RUSSIAN DEFENCE MINISTRY said Russian forces earlier attacked cargo ships and oil tankers in the Black Sea.</a> [18] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03880-9e78-7aab-910f-5c975d7ebc82" target="_blank" class="news-link">Palestinians urged the UN Security Council to hold an emergency meeting after Israel raided United Nations agency offices, Saudi outlet Alhadath reports.</a> [20] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03879-7862-7aab-910f-3d5a789fe220" target="_blank" class="news-link">A Qatar foreign ministry spokesman said Doha is still working to push the U.S. and Iran to resume talks, but there has been no new progress to date.</a> [24] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03873-2f17-7aab-910f-33eed3a068ea" target="_blank" class="news-link">Qatar foreign ministry spokesman said US sanctions on Iran are unilateral and Qatar supports resolving the issue through mediation.</a> [25] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3154592" target="_blank" class="news-link">【马云与管理层继续增持 连日累计买入阿里巴巴超8亿港元】8月25日，据消息人士，随着阿里发起配售融资，阿里巴巴创始人马云连日增持阿里港股，总额已超6亿港元。结合此前港交所信息，阿里集团主席蔡崇信、CEO吴泳铭连续两天已增持约2亿港元，马云与阿里管理层近日累计增持总额已超8亿港元，表达对阿里AI前景的坚定看好，激发市场信心。（硬AI）</a> [25] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03872-2782-7aab-910f-2b6fb164d4f9" target="_blank" class="news-link">Qatar&#x27;s foreign ministry spokesperson said the situation in the Strait of Hormuz should be restored to its pre-crisis state and stressed that freedom of navigation through the strait must be guaranteed.</a> [26] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0386f-1c1c-7aab-910f-266536d601dc" target="_blank" class="news-link">Israel Defense Forces and Shin Bet said they struck and destroyed five Hamas weapons storage facilities and one rocket-launch site in the Gaza Strip.</a> [27] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0386e-72c5-7aab-910f-1d77d8a40870" target="_blank" class="news-link">Qatar foreign ministry spokesman said Doha has maintained contact with parties involved in U.S.-Iran tensions and is working to facilitate both sides&#x27; return to negotiations.</a> [28] <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0386c-b579-7aab-910f-0b23ec8bc518" target="_blank" class="news-link">Thai officials said the US Navy carrier USS Abraham Lincoln will make a port call in Thailand next week after being deployed to waters near Iran.</a> [30] <font color='grey'>- 19时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780257" target="_blank" class="news-link">冲刺“史上最大IPO”，Anthropic在补哪些课？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/diet-claude?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Diet Claude</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/159.htm" target="_blank" class="news-link">消息称马云出手增持，已连日买入阿里港股超 6 亿港元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3154596" target="_blank" class="news-link">阿里巴巴美股盘前拉升，现涨超2%。</a> [22] <font color='grey'>- 19时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/chatgpt-ad-library?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ChatGPT Ad Library</a> [20] <font color='grey'>- 19时32分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/163.htm" target="_blank" class="news-link">广汽冯兴亚与华为任正非再握手，启境官方称已完成第一阶段的产品与市场检验</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时32分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
