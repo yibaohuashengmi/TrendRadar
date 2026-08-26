@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 185</p><p>生成时间: 2026-08-26 14:01:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">28</td>
+                <td class="percentage">15.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3155054" target="_blank" class="news-link">即梦AI推出影视内容厂牌“即梦片场”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826134224963800" target="_blank" class="news-link">OpenAI Codex产品负责人Tibo：好产品需要时间。至少34天。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c97-7398-7aab-9123-8f2cdacdb011" target="_blank" class="news-link">OpenAI CODEX product lead Tibo said good products take time, at least 34 days.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c97-0788-7aab-9123-858b21d97896" target="_blank" class="news-link">ANZ now expects the Reserve Bank of Australia to raise rates by 25bps in November.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c95-97be-7aab-9123-76efe398e653" target="_blank" class="news-link">Russian military aircraft enter South Korea ADIZ; Seoul scrambles fighters</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c94-ef31-7aab-9123-6a9f925681a2" target="_blank" class="news-link">Ukraine attacks disrupt Russian crude flows to India; refiners diversify purchases</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1237324" target="_blank" class="news-link">做了个边角料， AI 应用独立代理，不走全局</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49443871" target="_blank" class="news-link">Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E8%AF%AD%E5%AD%A6%E7%A7%91%E6%9C%80%E5%AE%B9%E6%98%93%E8%A2%ABAI%E5%8F%96%E4%BB%A3%E5%90%97" target="_blank" class="news-link">外语学科最容易被AI取代吗</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c90-e403-7aab-9123-5a1b699d963c" target="_blank" class="news-link">Taiwan Stock Exchange Weighted Index rose 663.16 points, or 1.47%, to 45,832.62 at the close on Aug. 26 (Wednesday).</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3155045" target="_blank" class="news-link">报道：软银考虑发行不超过200亿美元债券为OpenAI融资</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c8e-1c85-7aab-9123-46b49d057270" target="_blank" class="news-link">Bank Indonesia governor candidate Destri said he differs in personality from predecessor Perry, but they are aligned on policy positions.</a> [11] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c8b-5063-7aab-9123-3cdba53932b0" target="_blank" class="news-link">Bank Indonesia governor candidate Destry said global sentiment has driven the rupiah&#x27;s moves, but the currency rebounded quickly when sentiment eased.</a> [12] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826133011715800" target="_blank" class="news-link">IMF最新研判：AI正给全球经济续命，但能源、通胀和债务等压力仍在累积</a> [12] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c86-a088-7aab-9123-2f3a3ae99472" target="_blank" class="news-link">ECB Executive Board member Schnabel said that at current policy rates, inf is unlikely to return to target over the medium term and further policy tightening will be necessary.</a> [14] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%BE%B7%E8%8A%99%E8%87%B4%E6%AD%89%E5%A3%B0%E6%98%8E%E9%81%AD%E8%B4%A8%E7%96%91%E4%B8%BAAI%E6%92%B0%E5%86%99" target="_blank" class="news-link">德芙致歉声明遭质疑为AI撰写</a> [15] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c86-206c-7aab-9123-27dd6a98a5a3" target="_blank" class="news-link">ECB executive board member Schnabel said risks to economic growth are slightly tilted to the upside.</a> [15] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c85-33aa-7aab-9123-14ded56d94ae" target="_blank" class="news-link">ECB Executive Board member Schnabel said interest rates must be raised further given economic resilience.</a> [17] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c83-2b55-7aab-9123-089d8148653b" target="_blank" class="news-link">Bank Indonesia governor candidate Destri said Indonesia&#x27;s government growth target of 8% will require substantial financing and therefore necessitates deepening financial markets.</a> [18] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c81-9454-7aab-9123-0275ab6abc69" target="_blank" class="news-link">Tuesday transits through Strait of Hormuz below 10-day average</a> [19] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c81-10a8-7aab-9122-fb229235a56b" target="_blank" class="news-link">ECB executive board member Schnabel said the economy appears to be accelerating further. Inflation could remain above 2% for an extended period.</a> [20] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%AE%B6%E5%8F%8D%E8%AF%88%E4%B8%AD%E5%BF%83%E6%B5%8B%E5%87%BA%E5%BE%B7%E8%8A%99%E5%A3%B0%E6%98%8E%E6%98%AFAI%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">国家反诈中心测出德芙声明是AI</a> [20] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c80-a474-7aab-9122-e86f77d60678" target="_blank" class="news-link">Jimeng AI launches Jimeng Studio content label to commercialize AI imaging</a> [22] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c80-5840-7aab-9122-de412a38d1b4" target="_blank" class="news-link">ECB executive board member Schnabel said the ECB must act early to prevent second-round inf effects. Markets appear to understand the ECB&#x27;s reaction mechanism. The extent of tightening will depend on incoming data.</a> [24] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c7e-d658-7aab-9122-d1d9f0d3ee4e" target="_blank" class="news-link">Bank Indonesia governor candidate Destri said institutions have distinct mandates but will cooperate.</a> [25] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c7e-7d78-7aab-9122-c503f2e019d9" target="_blank" class="news-link">Destri, a candidate for Bank Indonesia governor, said coordination with other agencies will not undermine the central bank&#x27;s independence.</a> [27] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826131726425800" target="_blank" class="news-link">即梦官宣影视内容厂牌“即梦片场”，助力AI影像实现商业价值</a> [28] <font color='grey'>- 14时01分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c7a-f456-7aab-9122-abad3b31f5fd" target="_blank" class="news-link">SoftBank in talks to issue $10–20 billion bonds to refinance OpenAI loan</a> [30] <font color='grey'>- 14时01分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1237335" target="_blank" class="news-link">用免费 codebuddy 站起来蹬了款盯盘软件，已发布到 Google Play</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
