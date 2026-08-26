@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 289</p><p>生成时间: 2026-08-26 11:09:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">31</td>
+                <td class="percentage">10.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03bf4-222a-7aab-911f-ff26badeb8eb" target="_blank" class="news-link">Tesla China denies reports Shanghai FSD data center evacuated</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780308" target="_blank" class="news-link">知名风投a16z：过去75年的“创新方法论”，AI已经彻底改写</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780305" target="_blank" class="news-link">大摩启动英伟达信用评级：财务实力转化为AI融资工具，负债规模或达2000亿美元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/409.htm" target="_blank" class="news-link">汤道生内部发文回应腾讯 AI 慢了：AI 竞争不是短跑，熬得久比起得早更重要</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49442743" target="_blank" class="news-link">The brain may be about to have its Ozempic moment</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03bf1-a0aa-7aab-911f-dcd9218c47bc" target="_blank" class="news-link">Taiwan Affairs Office urges DPP to back early completion of Xiamen–Kinmen bridge</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780311" target="_blank" class="news-link">库克清空弹夹！2nm，韬定律，最强AI电脑</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780312" target="_blank" class="news-link">BOSS直聘二季度MAU首次突破7000万，AI服务向招聘全流程延伸</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826110449668800" target="_blank" class="news-link">SemiAnalysis：OpenAI最快第三季度实现盈利</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1237261" target="_blank" class="news-link">producthunt 和 git trending 每天看下来有点审美疲劳了，都是 AI</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/403.htm" target="_blank" class="news-link">斯坦福研究：22~25 岁职场新人受 AI 冲击最大，高等教育可缓冲影响</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03bed-d29d-7aab-911f-bbfec11d9418" target="_blank" class="news-link">YONHAP: US Indo-Pacific Command said Wednesday it is preparing trilateral military exercises with South Korea and Japan, suggesting that despite Trump’s recent order to scale back US–South Korea joint drills, the exercises remain on schedule.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03bec-e5ec-7aab-911f-b518815c33fa" target="_blank" class="news-link">PLA Southern Theater says Aug 21–25 sea and air routine patrols in South China Sea</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1237238" target="_blank" class="news-link">看似是用户和开发者在交互，实则是 ai 和 ai 在交互</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5295296" target="_blank" class="news-link">大行评级丨Evercore ISI：升Meta目标价至860美元，看好出售多余AI算力带来的潜在上行空间</a> [11] <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/ba11c1b4893b470eba6ae7b4881d4063" target="_blank" class="news-link">手撕ACM好久没练了 只能先做AIcoding</a> [11] <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/38116873016540b4ad9ef894c9635253" target="_blank" class="news-link">#美团笔试#ai coding到底应该怎么做</a> [12] <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03beb-1abc-7aab-911f-9e8e62d302b1" target="_blank" class="news-link">MIIT to strengthen security in AI, industrial internet and connected vehicles</a> [13] <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/397.htm" target="_blank" class="news-link">工信部：我国已经有近 200 项 AI 关键标准成功研制，加快新一代通信网、算力网规划建设，加强 6G 技术研发</a> [13] <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03be8-654e-7aab-911f-8357bb3bc76f" target="_blank" class="news-link">China&#x27;s Taiwan Affairs Office urges DPP to lift mainland film-screening limits, avoid blocking cross-strait cultural exchanges</a> [16] <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03be4-aae4-7aab-911f-783887060ffa" target="_blank" class="news-link">Taiwan Affairs Office urges smoother cross-strait exchanges, calls on DPP to lift restrictions</a> [17] <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826105448758800" target="_blank" class="news-link">华尔街传奇也用AI代写？德鲁肯米勒怒骂贝森特文章引爆“吃瓜潮”</a> [17] <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3154974" target="_blank" class="news-link">我国已成功研制近200项人工智能关键标准</a> [18] <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/202c66169f23435f9cf2bac456f6a839" target="_blank" class="news-link">#美团笔试# 0825的AI CODING是我用过目前最好的了，40分钟左右就达到了 8574 再也不是0000了，不知道是我进步了还是模型变强了</a> [18]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826105012335800" target="_blank" class="news-link">OpenAI自研芯片Jalapeño跑赢英伟达GB300，最大卖点是高吞吐、低延迟</a> [22] <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/341.htm" target="_blank" class="news-link">Windows 任务管理器之父打造：Win11 版 TMOG 发布，107 页文档让 AI 编码</a> [23] <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/339.htm" target="_blank" class="news-link">OpenAI 重启 ChatGPT Plus 账号五小时限额机制，Pro 账号暂不受影响</a> [25] <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03bdd-eb79-7aab-911f-3765f0971456" target="_blank" class="news-link">China&#x27;s Ministry of Industry and Information Technology (MIIT) will define industry-specific high-value AI application scenarios and implement a special program to cultivate AI application service providers.</a> [26] <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03bdb-2cd1-7aab-911f-21a88a212b36" target="_blank" class="news-link">China Taiwan Affairs Office: unification trend unstoppable; &#x27;seeking independence by force&#x27; will hasten demise</a> [28] <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03bda-4692-7aab-911f-1caecd9eb98e" target="_blank" class="news-link">China A-share gold names surged intraday. Zhonghua A (Shenzhen) notched a fifth consecutive daily limit-up; Jinyi Culture reclaimed a daily limit-up; Dia Co. jumped more than 15%. Xiaocheng Technology, Huayu Mining, Zhaojin Gold, Zijin Mining and Xingye Silver-Tin also rose.</a> [29] <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03bd9-a29e-7aab-911f-16e2807f8098" target="_blank" class="news-link">Taiwan Affairs Office says CCP–Kuomintang exchange platform to expand youth visits</a> [30] <font color='grey'>- 11时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826105526222800" target="_blank" class="news-link">华为与惠普签署专利交叉许可</a> [16] <font color='grey'>- 11时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/369.htm" target="_blank" class="news-link">华为首款新国标 3C 充电宝发售：100W 输出、12000mAh 容量、支持离线查找，399 元</a> [17] <font color='grey'>- 11时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/411.htm" target="_blank" class="news-link">谷歌 Android XR 拟升级实时翻译：“仅前方”拾音增强一对一对话</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5295302" target="_blank" class="news-link">港股异动丨阿里拉升涨超3%，马云及管理层大举增持超8亿港元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
