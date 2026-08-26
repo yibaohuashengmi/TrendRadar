@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 214</p><p>生成时间: 2026-08-26 12:11:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">21</td>
+                <td class="percentage">9.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c22-39c3-7aab-9121-155e6edc9c8c" target="_blank" class="news-link">A-shares midday: China’s Shanghai Composite up 0.7%; Shenzhen Composite and ChiNext ~1%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7677929697972043822/" target="_blank" class="news-link">13岁女孩三天靠AI赚1.8万</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3780301" target="_blank" class="news-link">一石激起千层浪！短短9个月，OpenAI自研ASIC芯片已超越英伟达Blackwell？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5295317" target="_blank" class="news-link">东吴证券：AI爆发下战略小金属回收机遇 优选具优势资源化龙头</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c1f-4195-7aab-9120-f1a5ff82fc5e" target="_blank" class="news-link">MIIT to deepen AI in materials R&amp;D and production, accelerate hydrogen metallurgy and other green low‑carbon technologies</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/420.htm" target="_blank" class="news-link">全球限 7 只：奥尔特曼定制 OpenAI 腕表，硅谷最新身份象征</a> [11] <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c17-0a38-7aab-9120-da2988eb352c" target="_blank" class="news-link">Copper extends rally, nears record high; short-term supply remains tight</a> [12] <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826113059496800" target="_blank" class="news-link">工信部：深化人工智能在材料研发和生产工艺中的应用，加快氢冶金等绿色低碳技术攻关</a> [12] <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c13-8b81-7aab-9120-d71a215b579c" target="_blank" class="news-link">U.S. Treasury Secretary Bessent thanked Bahrain&#x27;s finance and economy minister for coordinating &quot;economic isolation&quot; measures and said he and President Trump will continue close cooperation to defend the integrity of the global financial system and to weaken the threat posed by the Iranian regime.</a> [13] <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5295312" target="_blank" class="news-link">华勤技术：上半年营收937亿净利大增58.8%，端侧AI布局成效显著</a> [13] <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c10-250c-7aab-9120-c641367eba6c" target="_blank" class="news-link">Beijing–Tianjin–Hebei BCI Cross‑Regional Quality‑Chain Work Plan Issued</a> [15] <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2075528706584584283" target="_blank" class="news-link">怎么看 Tibo 表示，OpeAI 的 Reset 没有什么审批或者策划，他想的时候就可以按一下？</a> [15] <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/413.htm" target="_blank" class="news-link">Stability AI 完成 7600 万美元 B 轮融资：EA 与三大音乐娱乐企业均参投</a> [16] <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c0d-9442-7aab-9120-acc1240f57d2" target="_blank" class="news-link">MIIT to push open-source ecosystem; AI open-source efforts to intensify</a> [18] <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c08-35f7-7aab-9120-9fec4c1b68a6" target="_blank" class="news-link">MIIT: Irrational competition in auto sector remains; to be addressed during 15th Five-Year Plan</a> [20] <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=OpenAI%E7%94%A89%E4%B8%AA%E6%9C%88%E9%80%A0%E5%87%BA3nm%E8%87%AA%E7%A0%94%E8%8A%AF%E7%89%87" target="_blank" class="news-link">OpenAI用9个月造出3nm自研芯片</a> [21] <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c07-41ec-7aab-9120-91b545290bc9" target="_blank" class="news-link">SemiAnalysis says OpenAI could be profitable as early as Q3</a> [21] <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c05-829d-7aab-9120-8d5a75714c29" target="_blank" class="news-link">Typhoon Zitan weakens; Qiongzhou Strait RORO ferry service to resume Aug 26 14:00; ~2,200 trucks queued</a> [22] <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03c01-56ac-7aab-9120-700a1d485bb4" target="_blank" class="news-link">The US Secret Service said on Tuesday it had noted an Iranian state-TV segment discussing a possible plot to assassinate President Trump’s youngest son, Barron, and will investigate any threats that could be viewed as targeting protected persons. The agency said for operational-security reasons it would not discuss protective-intelligence matters.</a> [25] <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826111145228800" target="_blank" class="news-link">工信部：推动开源生态建设，特别是人工智能领域的开源将持续发力</a> [26] <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03bff-a6db-7aab-9120-625ed354f874" target="_blank" class="news-link">MIIT says sustain &#x27;specialized, refined, distinctive and innovative&#x27; push to boost SMEs&#x27; standardization capacity</a> [27] <font color='grey'>- 12时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/476.htm" target="_blank" class="news-link">华为与惠普签署专利交叉许可</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时11分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA%E9%98%94%E7%9B%B4%E6%9D%BF%E6%BB%A1%E9%98%94%E7%9A%84%23&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">华为阔直板满阔的</a> [24] <font color='grey'>- 12时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1237302" target="_blank" class="news-link">千问办公和豆包办公都不咋滴</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时11分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
