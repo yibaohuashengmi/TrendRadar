@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 239</p><p>生成时间: 2026-08-26 22:13:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">21</td>
+                <td class="percentage">8.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03e52-8d0f-7aab-9131-268d5e62aa09" target="_blank" class="news-link">Axios reports Google has launched a suite of new tools aimed at responding to an AI price war.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826215338992800" target="_blank" class="news-link">AI太贵用不起？谷歌开始帮企业“精打细算”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03e4a-d8d6-7aab-9131-092758f0d2a5" target="_blank" class="news-link">Meta Platforms (META.O): guidance range provided in July earnings remains unchanged.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03e49-b2d0-7aab-9130-f23009cb8562" target="_blank" class="news-link">Wheat futures climbed to a three-year high after attacks in Ukraine and Russia.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49447600" target="_blank" class="news-link">Fake US thinktank set up and funded by Israel sought to game AI for propaganda</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826214624570800" target="_blank" class="news-link">据Axios：谷歌推出一系列新工具，旨在应对人工智能的价格战。</a> [11] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03e47-c45e-7aab-9130-d87611be67b9" target="_blank" class="news-link">Senior Iranian source: Iran and Oman have not finalized Strait of Hormuz agreement</a> [12] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03e47-295c-7aab-9130-cd6f3cf5e21f" target="_blank" class="news-link">Meta said it will pay $18 billion over the next 10 years to fund teen online-safety initiatives.</a> [14] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03e46-0a04-7aab-9130-b205974c2d98" target="_blank" class="news-link">Trump said on Iran he believes economic warfare and military strikes are both effective.</a> [17] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03e44-01c0-7aab-9130-a2db8cc0e2b6" target="_blank" class="news-link">At the open, the Dow Jones Industrial Average fell 0.19%, the S&amp;P 500 fell 0.02% and the Nasdaq Composite fell 0.22%. Meta Platforms (META.O) rose about 3% after agreeing to settle claims that its platform harmed children.</a> [19] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03e42-e574-7aab-9130-9844f50e96d2" target="_blank" class="news-link">California regulators said Meta Platforms (META.O) agreed to cap daily online time for users under 18 at two hours.</a> [20] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/a050a1367bf34b209d1b0b6c78534a79" target="_blank" class="news-link">ai coding做题心得</a> [20] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03e42-d843-7aab-9130-91da26e7b36c" target="_blank" class="news-link">US President Trump said it was time to teach Canada a lesson and that Canada cannot continue doing this.</a> [21] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E6%89%8B%E6%90%93AI%E7%94%BB%E7%94%BB%E6%A8%A1%E5%9E%8B" target="_blank" class="news-link">UP主手搓AI画画模型</a> [22] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03e40-e281-7aab-9130-85b7feba11e0" target="_blank" class="news-link">Trump said the US cannot allow Iran to possess nuclear weapons.</a> [23] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03e40-a6ea-7aab-9130-7fca031bef80" target="_blank" class="news-link">Trump said the U.S. confrontation with Iran has no timetable and will continue for as long as necessary.</a> [24] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03e40-3a07-7aab-9130-73745f2f4a59" target="_blank" class="news-link">President Trump said the U.S. has established absolute and genuine dominance over Iran.</a> [25] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03e3f-b3c4-7aab-9130-61b7a7e4df78" target="_blank" class="news-link">U.S. President Trump said the U.S. has already won in Venezuela and will soon secure a major victory in Iran.</a> [27] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03e3f-9ea7-7aab-9130-5b0b8cf1cc3e" target="_blank" class="news-link">President Trump said Iran&#x27;s inflation rate has reached 300%.</a> [28] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03e3f-491f-7aab-9130-546bd730ea1b" target="_blank" class="news-link">US President Trump said Iran&#x27;s currency is now almost worthless.</a> [29] <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03e3e-e99f-7aab-9130-4c90f558fbe2" target="_blank" class="news-link">President Trump said the U.S. has substantial financial strength and that this will lead to a major victory over Iran. He also said many Iranian soldiers have not been paid.</a> [30] <font color='grey'>- 22时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49448210" target="_blank" class="news-link">Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时13分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/735.htm" target="_blank" class="news-link">阿里通义 Qwen3.8-Flash（Next）发布开源：125B 参数 MoE 模型，训练成本仅为前代 1/9</a> [18] <font color='grey'>- 22时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/755.htm" target="_blank" class="news-link">华为 MatePad Pro 12 英寸 HarmonyOS 7 花粉 Beta 版更新内容公开，含 3D 影像壁纸等</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时13分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7677441124442570761" target="_blank" class="news-link">我带着DeepSeek Harness跑了一周真实需求——这份避坑速查表请收好</a> [29] <font color='grey'>- 22时13分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
