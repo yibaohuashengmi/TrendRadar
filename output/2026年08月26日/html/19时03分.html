@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 233</p><p>生成时间: 2026-08-26 19:03:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">22</td>
+                <td class="percentage">9.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/706.htm" target="_blank" class="news-link">2026 中国电信研究院 AITMark 奖项出炉，华为小艺获 AI 手机智能体综合评分第一</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1237440" target="_blank" class="news-link">应届待业中,做了个开源的 AI 求职助手(本地跑、不编造简历),来求拍砖</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780350" target="_blank" class="news-link">“牛来”！智谱“认领”神秘AI模型Ox Alpha 使用量已达DeepSeek两倍以上</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1237434" target="_blank" class="news-link">做了一个给 agent 用的 brain，现在已经有 2500 star 了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780349" target="_blank" class="news-link">知乎二季度营收6.9亿元：IP运营拉动收入环比回升，AI商业化仍在验证期</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49446422" target="_blank" class="news-link">Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3155234" target="_blank" class="news-link">“牛来”！智谱“认领”神秘AI模型Ox Alpha 使用量已达DeepSeek两倍以上</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/994/697.htm" target="_blank" class="news-link">智谱确认 Ox Alpha AI 模型为 GLM 系列新版本，将发布权重</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03d98-2f96-7aab-912a-ab5124140c3b" target="_blank" class="news-link">South Korean Joint Chiefs of Staff said it scrambled fighter jets today to respond to any contingency after Russian military aircraft entered its East Sea air defense identification zone (ADIZ).</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03d96-5204-7aab-912a-a37a9b31dd8a" target="_blank" class="news-link">Market report: Russian military aircraft entered South Korea&#x27;s air defense identification zone (ADIZ).</a> [11] <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03d96-1851-7aab-912a-9cf184fd00f3" target="_blank" class="news-link">U.S. officials said the U.S. government is investigating a data breach at a company that sells equipment to water utilities.</a> [12] <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03d89-39e3-7aab-912a-7aa19808f066" target="_blank" class="news-link">UK August CBI retail sales expectations index rose to -22 from -26, the highest reading since March.</a> [16] <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/solitaire-online-com?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Solitaire-Online.com</a> [16] <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03d84-6859-7aab-912a-694fd14fae7e" target="_blank" class="news-link">UK August CBI retail sales expectations balance -22, previous -26.</a> [18] <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/kairos-15?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Kairos</a> [18] <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03d84-4556-7aab-912a-674c2edfc208" target="_blank" class="news-link">CBI Retail Sales Expectations Index (Aug)</a> [19] <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03d83-870f-7aab-912a-55445bc81175" target="_blank" class="news-link">Shanghai launches municipal post-investment empowerment platform for state-capital funds</a> [21] <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03d83-450b-7aab-912a-4b1a7675e0cc" target="_blank" class="news-link">UK CBI retail sales balance for August -48, previous -26.</a> [22] <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03d83-2695-7aab-912a-4133d0c12bcd" target="_blank" class="news-link">CBI Retail Sales Balance (Aug)</a> [23] <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3155206" target="_blank" class="news-link">知情人士：赛豆AIVA正与宁德时代探讨换电模式合作，首款量产车年内亮相</a> [26] <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03d7d-deef-7aab-912a-27fb98bec2ef" target="_blank" class="news-link">PBOC Shanghai: July Yangtze River Delta RMB deposits rose CNY214.6 bln</a> [27] <font color='grey'>- 19时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a03d7b-130a-7aab-912a-127455f35e17" target="_blank" class="news-link">Jiangsu to encourage commercial health insurance, medical mutual aid to cover innovative drugs</a> [29] <font color='grey'>- 19时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202608/2679673.html" target="_blank" class="news-link">月之暗面据报与微软、亚马逊和谷歌洽谈K3收入分成</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
