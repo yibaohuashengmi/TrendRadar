@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 306</p><p>生成时间: 2026-08-31 09:31:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">5.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780675" target="_blank" class="news-link">重新设计推理芯片： 从 Nvidia GPU 的缺陷到 OpenAI Jalapeño</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/996/289.htm" target="_blank" class="news-link">长虹追光 Q60S Pro 电视发布：39mm 厚度 0 距离贴墙，行业首创 AI 星河呼吸灯</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1238259" target="_blank" class="news-link">配音和画面全部 AI 做的视频，讲冥想的，帮忙看下怎么样？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a05568-5d15-7118-8405-a49786803c38" target="_blank" class="news-link">Hong Kong stocks opened lower: HSI down 0.64% and Hang Seng Tech Index down 0.42% at the open. China property and mainland bank sectors outperformed, while gold stocks plunged. Meituan (03690.HK) rose 2.52% after reporting results; Beike (02423.HK) jumped over 4%.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2468847" target="_blank" class="news-link">AI数据中心扩张“限制性因素”浮现 马斯克：SpaceX正铸造燃气轮机叶片</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202608/3179978.html" target="_blank" class="news-link">许良玮：让中小企业继续用得起、用得到AI</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5301756" target="_blank" class="news-link">群核科技中报：AI收入大涨177%，市场真的看清它的长期价值了吗？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/996/284.htm" target="_blank" class="news-link">苹果新 CEO 特努斯 9 月 1 日上任，人工智能将成为其任期内的首要任务</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49450461" target="_blank" class="news-link">Commercially Available Bike Generators Are Not Sustainable (2011)</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3780656" target="_blank" class="news-link">顶尖风投a16z：顶尖人才涌向AI基建，基础设施设计将“推倒重来”</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5301750" target="_blank" class="news-link">迅策科技携AI应用最强业绩获纳入港交所科技100指数，被动资金配置需求释放</a> [14] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0555f-16a7-7118-8405-48f8868e6ba8" target="_blank" class="news-link">Shanghai silver front-month contract tumbled 4.00% intraday to 16,143.00 yuan/kg.</a> [16] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/996/273.htm" target="_blank" class="news-link">上线不足一个月：米哈游 AI 女友桌面陪伴软件《BSide: Olivia Lin》今起停运，离线版本可限时领取</a> [16] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0555b-8884-7118-8405-3f3a433145f3" target="_blank" class="news-link">SAMR unconditionally approves Yingfang Micro acquisition of Shanghai Xiaokeli Information Technology equity</a> [18] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a05555-bb0b-7118-8405-1d5af3cf944e" target="_blank" class="news-link">Shanghai Gold Exchange Gold T+D fell 2.69% at the Monday morning open on Aug 31 to 964.0 yuan/gram. Shanghai Gold Exchange Silver T+D fell 3.95% at the Monday morning open to 16,177.0 yuan/kg.</a> [22] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a05555-ae28-7118-8405-14b4438c06f5" target="_blank" class="news-link">Taiwan Weighted Index opened down 566.72 points (-1.22%) at 45,764.73 on Monday, Aug. 31.</a> [23] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/996/265.htm" target="_blank" class="news-link">国内首部 AIGC 长剧《后西游记》今日开播，首部“边审边播”剧集</a> [24] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3157448" target="_blank" class="news-link">经济日报：“词元贷”纾解AI企业融资困境</a> [29] <font color='grey'>- 09时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">0.98%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/996/287.htm" target="_blank" class="news-link">华为 Mate XT 2 非凡大师全新展翼三折叠手机今启预订，9 月 7 日正式发布</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/996/274.htm" target="_blank" class="news-link">IT早报 0831：特斯拉廉价版 Model 3 港澳上市；爱奇艺会员用券专享影片纳入 VIP 片库；华为 Mate XT 2 展翼三折叠手机官宣；网易云音乐鸿蒙版 9 月将上线...</a> [15] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/996/262.htm" target="_blank" class="news-link">消息称网易全系列产品将陆续登陆华为鸿蒙 HarmonyOS NEXT 系统</a> [27] <font color='grey'>- 09时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1238263" target="_blank" class="news-link">把 Codex、Claude、Kimi、DeepSeek、Antigravity 装进飞书随时用： TaroCub</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7679953424703557147/" target="_blank" class="news-link">如何看DeepSeek和Anthropic估值差异</a> [26] <font color='grey'>- 09时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1238268" target="_blank" class="news-link">照着 Deepseek Harness 做了一个 Pi 底部状态栏的对话指标展示插件</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
