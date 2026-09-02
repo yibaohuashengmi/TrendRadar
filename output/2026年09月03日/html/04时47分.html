@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 195</p><p>生成时间: 2026-09-03 04:47:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">31</td>
+                <td class="percentage">15.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063c5-ef74-7118-846d-5412f7718aa5" target="_blank" class="news-link">Broadcom (AVGO.O) guides AI semiconductor revenue for fiscal 2026 Q4 at $21.7 billion, up 236% YoY.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903042957489800" target="_blank" class="news-link">Snowflake上调年度销售预期 AI助手采用率推动股价大涨21%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3159462" target="_blank" class="news-link">Snowflake美股盘后飙涨22%，该公司业绩报告“健康”、AI编程出现动能。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49541331" target="_blank" class="news-link">The Post-AI Internet Doesn&#x27;t Look Great</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49535284" target="_blank" class="news-link">Can I opt out of my input or output data being used for training?</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063c1-3f39-7118-846d-1bd407734a16" target="_blank" class="news-link">RBNZ chair Breman expects indirect effects from higher oil prices to emerge over the next few quarters.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063c1-3b9f-7118-846d-175576888ff6" target="_blank" class="news-link">RBNZ governor Breman said he expects economic growth to strengthen over the next year and for labour market outcomes to improve.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903041822685800" target="_blank" class="news-link">博通(AVGO.O)2026财年Q4人工智能半导体营收指引为217亿美元，同比增长236%。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063c1-11d0-7118-846d-0fb35f2de055" target="_blank" class="news-link">RBNZ Governor Breman said the bank will gradually withdraw monetary stimulus in order to restore inflation to target while supporting growth and employment.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3159453" target="_blank" class="news-link">二十国集团（G20）发布联合声明：成员国应当各自开发自己的人工智能（AI）政策。 投资基础研究，以实现技术突破。发展新兴技术需维护国家主权。</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063bf-aae7-7118-846d-0301a9898a07" target="_blank" class="news-link">President Trump said Apple Maps renamed Lake Ontario &#x27;American Lake&#x27;.</a> [11] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2078117316865402416" target="_blank" class="news-link">怎么看美国《外交政策》（Foreign Policy）称「中国的成功正迫使美国重新思考 AI 战略」？</a> [11] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3159450" target="_blank" class="news-link">C3.ai第一财季营收5240万美元，分析师预期5230万美元。 维持全年营收预期在2.10亿-2.40亿美元不变，分析师预期2.272亿美元。 预计第二财季营收5100万-5500万美元，分析师预期5680万美元。 C3.ai美股盘后涨7.6%。</a> [13]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063b6-a6e6-7118-846c-eb078f57bf35" target="_blank" class="news-link">CBS reports a Coast Guard jet carrying U.S. Homeland Security Secretary Mark Wayne Mullin and other senior DHS officials made an emergency landing outside Washington, D.C., after one engine failed.</a> [14] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49540565" target="_blank" class="news-link">Qantas Airbus A380 catastrophic engine failure in 2010</a> [14] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063b5-1e1a-7118-846c-ddaa52a1ab31" target="_blank" class="news-link">The International Civil Aviation Organization said civilian aircraft face a heightened risk of being targeted or caught in crossfire.</a> [16] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063b4-c819-7118-846c-d21a86d0156e" target="_blank" class="news-link">UN aviation agency urged member states to strengthen commitments to protect civil aircraft from risks in conflict zones.</a> [17] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063ac-89fe-7118-846c-bf96efe64f6b" target="_blank" class="news-link">Iran updates list of &quot;violating vessels&quot; in Strait of Hormuz</a> [20] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/ea7fbd68206b4fc9a452ba0d7689a3e4" target="_blank" class="news-link">面试AI开发岗常被问到的</a> [20] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063a7-301e-7118-846c-b3223a39e3ae" target="_blank" class="news-link">Canada&#x27;s minister for U.S.-Canada trade LeBlanc said the temporary suspension of the federal fuel excise tax will be extended until Jan. 31, 2027.</a> [21] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49541496" target="_blank" class="news-link">AI Agents and the Refactoring That Never Happens</a> [21] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063a4-2bff-7118-846c-ae4b480bb4ca" target="_blank" class="news-link">Iran&#x27;s Sirik governor&#x27;s office said suspected explosions heard tonight in the Kuhestak port area were caused by the destruction of unexploded US-made munitions.</a> [22] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0639b-5060-7118-846c-a10c8f547a15" target="_blank" class="news-link">CENTCOM said as of Sept. 2 it had forced 86 merchant vessels to divert, rendered three ships inoperable, and boarded and inspected two vessels to ensure compliance with relevant requirements.</a> [23] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0639a-64bf-7118-846c-9ce4c94e3e03" target="_blank" class="news-link">U.S. Energy Secretary Wright said the U.S. will impose very strict controls on fund flows under the Venezuela NABEP agreement.</a> [24] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0639a-0a2b-7118-846c-9051246f6877" target="_blank" class="news-link">U.S. government backs OpenAI fair-use defense in publishers&#x27; copyright suit</a> [25] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a06395-e363-7118-846c-8927385294c7" target="_blank" class="news-link">BESSENT says Ukrainian strikes, Iran conflict driving energy shock</a> [26] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a06394-c5b5-7118-846c-858aabbc9f57" target="_blank" class="news-link">Meta releases Muse Spark 1.3 to accelerate personal AI agents</a> [27] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a06394-388f-7118-846c-7dae07986b75" target="_blank" class="news-link">Venezuela interim president Rodriguez said the US and the Venezuelan government are working to lift sanctions on Venezuela.</a> [28] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a06392-7020-7118-846c-75dbb827cdb6" target="_blank" class="news-link">US Energy Secretary wright said Americans will feel &quot;huge&quot; progress over the next 12-24 months.</a> [29] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0638f-0244-7118-846c-684599b5285f" target="_blank" class="news-link">Zelenskiy said he met business representatives to discuss wartime economic support measures.</a> [30] <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3159428" target="_blank" class="news-link">Meta发布更强大AI模型 声称进一步缩小了与竞争对手差距</a> [30] <font color='grey'>- 04时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">1.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49537131" target="_blank" class="news-link">Google avoids a breakup of its ad tech business</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2078626349426683976" target="_blank" class="news-link">Gemini 3.8 Flash 发布，有什么值得关注的？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时47分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4258433_212_1" target="_blank" class="news-link">特朗普：苹果地图刚刚宣布，已将安大略湖更名为美国湖。至此，谷歌地图与苹果地图之间这项至关重要的更名工作已经完成、正式生效且具备约束力。</a> [15] <font color='grey'>- 04时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903041949764800" target="_blank" class="news-link">美国商务部长：Anthropic已与特朗普政府“修复关系”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 04时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3159444" target="_blank" class="news-link">纳斯达克金龙中国指数收跌0.05%，报6051.33点。 热门中概股里，阿特斯太阳能初步收涨5.5%，美团涨4.4%，小米涨2.2%，新东方涨0.2%，腾讯持平，网易跌0.4%，百度跌0.6%，阿里巴巴、日月光半导体跌0.9%，世纪互联跌2.3%。 ETF中，中国科技指数ETF（CQQQ）收跌0.10%，中概互联网指数ETF（KWEB）收涨0.04%。 XtrackersHarvest中证50（ASHS）收跌0.76%，德银嘉实沪深300指数ETF（ASHR）收跌0.64%，MSCI新兴市场ex中国ETF（EMXC）收涨0.66%。</a> [18]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
