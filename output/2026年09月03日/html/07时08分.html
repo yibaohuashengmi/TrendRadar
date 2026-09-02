@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 189</p><p>生成时间: 2026-09-03 07:08:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">31</td>
+                <td class="percentage">16.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780939" target="_blank" class="news-link">博通上季营收增86%，AI芯片收入增两倍，本季指引“瑕疵”但AI收入料三年高增，盘后巨震 | 财报见闻</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780943" target="_blank" class="news-link">博通电话会：AI业务营收指引从560亿美元上调至580亿美元。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903063949906800" target="_blank" class="news-link">美联储褐皮书：经济温和增长，数据中心与AI投资成重要支撑</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49541754" target="_blank" class="news-link">Altair Basic Interpreter Source Code (1975) [pdf]</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0641c-ba17-7118-846e-faa445114318" target="_blank" class="news-link">Broadcom (AVGO.O) CEO said the company believes it will deliver about $350 billion of AI semiconductors to these customers over the next two years.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3780917" target="_blank" class="news-link">伯克希尔CEO：巴菲特参与对Alphabet投资，AI数据中心成能源业务重大机遇</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780938" target="_blank" class="news-link">Meta发布更强大AI模型，声称进一步缩小了与竞争对手差距</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0641c-2289-7118-846e-f2e9b206637b" target="_blank" class="news-link">The Wall Street Journal reports new details of the Trump administration&#x27;s civil-nuclear cooperation agreement with Saudi Arabia have prompted concerns about nuclear proliferation risk.</a> [11] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3159486" target="_blank" class="news-link">博通预测未来两年AI芯片收入将大幅增长</a> [11] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a06418-9204-7118-846e-ee0f9e87cdd0" target="_blank" class="news-link">Broadcom (AVGO.O) CEO expects that even if product-mix shifts reduce gross margins, the company can maintain its operating margin.</a> [12] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780930" target="_blank" class="news-link">韩国万亿美元主权 AI 投资：英伟达胜出，海力士承压</a> [12] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3780909" target="_blank" class="news-link">中国出口三季度高位但渐进回落，中债独立行情与银行补负债信号，韩国AI拉动8月出口---0902宏观脱水</a> [13] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780941" target="_blank" class="news-link">Snowflake上季营收超预期增35%，AI收入“显著跃升”，上调全年指引，盘后拉涨 | 财报见闻</a> [14] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49540565" target="_blank" class="news-link">Qantas Airbus A380 engine failure in 2010 (2023)</a> [15] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3159477" target="_blank" class="news-link">博通CEO Hock Tan：2027年AI芯片收入将达到大约1150亿美元，2028年料将达到2300亿美元。 到2027年年底，公司有望向Meta交付第三代芯片。 我们有望仔2028财年实现30美元的每股收益（EPS）。</a> [19]</div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49543617" target="_blank" class="news-link">Show HN: Every AI agrees with you. This writes your startup&#x27;s obituary instead</a> [19] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3159476" target="_blank" class="news-link">博通CEO：我们正与OpenAI合作开发第三代XPU。</a> [20] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23AI%E7%88%86%E7%81%AB%E5%90%8E35%E5%B2%81%E5%8F%98%E6%88%90%E9%A6%99%E9%A5%BD%E9%A5%BD%E4%BA%86%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">AI爆火后35岁变成香饽饽了</a> [20] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063fc-3f6a-7118-846e-a7e307e457f8" target="_blank" class="news-link">Broadcom (AVGO.O) chief executive said the company has secured supply to double AI revenue to about $115 billion by 2027.</a> [21] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063fb-fc4a-7118-846e-9e949f365bbd" target="_blank" class="news-link">Broadcom (AVGO.O) CEO said the company will deliver three generations of MTIA accelerators to Meta Platforms (META.O) from now through end-2027.</a> [22] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3159473" target="_blank" class="news-link">博通CEO Hock Tan：新款谷歌TPU芯片与英伟达Vera Rubin一样优秀，甚至更好。 本季度，我们已开始向谷歌量产交付下一代TPU 8I版本产品。 同时预计第四季度将加大向谷歌批量交付TPU 8I版本产品。 预计第四季度将加快向Anthropic交付Ironwood芯片。 预计第四季度将大规模量产交付Meta定制版MTIA加速器。 将2026财年人工智能业务营收指引从560亿美元上调至580亿美元，预计同比将增长186%。 未来数年，每年都将交付数百亿块TPUs。 预计Anthropic将在2027年部署5GW TPU，该公司有望仔2027年成为我们最大的芯片客户。 OpenAI也有望在2028年部署5GW芯片（Jalapeno+下一代XPU产品），该公司有望在2028年成为我们第二大芯片客户。</a> [22]</div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49535548" target="_blank" class="news-link">Aging brains blend memories together instead of just forgetting them</a> [22] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063fb-47c1-7118-846e-92854116d994" target="_blank" class="news-link">Broadcom (AVGO.O) CEO said the company is working with OpenAI to develop a third-generation XPU.</a> [23] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49542443" target="_blank" class="news-link">Mamdani Bans AI in NYC Schools</a> [23] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063fa-f7be-7118-846e-8faea8c8da21" target="_blank" class="news-link">Broadcom (AVGO.O) CEO said OpenAI is expected to deploy more than 5 GW of Jelapeno and its next-generation XPUs by 2028.</a> [24] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903055310139800" target="_blank" class="news-link">博通(AVGO.O)首席执行官：我们相信在未来两年内将向这些客户交付约3500亿美元的人工智能半导体。</a> [24] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063fa-71b9-7118-846e-805997de9492" target="_blank" class="news-link">Broadcom (AVGO.O) CEO said OpenAI&#x27;s Jalapeno project is proceeding as planned and is expected to deploy 1.3 GW in 2027.</a> [25] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063f9-b7e6-7118-846e-7e867f085f93" target="_blank" class="news-link">Broadcom (AVGO.O) chief executive said ANTHROPIC is expected to be the company&#x27;s largest XPU customer in 2027 and to remain so in 2028.</a> [26] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063f9-aabe-7118-846e-765127c65071" target="_blank" class="news-link">Broadcom (AVGO.O) CEO said the company will have a clear line of sight to supply an additional 10 GW by 2028.</a> [27] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063f6-78a0-7118-846e-63e1c3fb98c6" target="_blank" class="news-link">Broadcom (AVGO.O) CEO said he expects large-scale volume production and deliveries of a Meta Platforms (META.O)-customized MTIA accelerator to begin in Q4.</a> [29] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063f6-6388-7118-846e-5b36c76e57a4" target="_blank" class="news-link">Broadcom (AVGO.O) CEO said FY2026 AI-business revenue guidance raised to $58.0 bln from $56.0 bln, implying 186% YoY growth.</a> [30] <font color='grey'>- 07时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">5</td>
+                <td class="percentage">2.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a06414-ffab-7118-846e-e60b7009b5e7" target="_blank" class="news-link">Nscale says contract backlog reaches $103 bln after $45 bln Anthropic deal</a> [13] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a06407-caf3-7118-846e-d2c12aa1e9e2" target="_blank" class="news-link">Per The Information, Nscale has reportedly secured over $100 billion in contract revenue from orders by ANTHROPIC.</a> [15] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3159482" target="_blank" class="news-link">Nscale拿下Anthropic订单后，称已锁定超1000亿美元合同收入。</a> [15] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a063f8-933b-7118-846e-6f8bb5d281e9" target="_blank" class="news-link">Broadcom (AVGO.O) CEO expects ANTHROPIC to deploy an additional 5GW of Google&#x27;s TPU v8i in 2027.</a> [28] <font color='grey'>- 07时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903054437627800" target="_blank" class="news-link">Nscale获Anthropic大单后称合同收入突破1000亿美元</a> [28] <font color='grey'>- 07时08分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/997/715.htm" target="_blank" class="news-link">华为 CMM-AL10 鸿蒙手机入网：配备 6615mAh 大电池</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
