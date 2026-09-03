@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 498</p><p>生成时间: 2026-09-03 19:35:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">49</td>
+                <td class="percentage">9.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a06700-1d86-7118-8482-286169b50726" target="_blank" class="news-link">Rosenblatt raises Broadcom (AVGO.O) PT to $600 from $500.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/airtop?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Agent Builder by Airtop</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a066fd-2a5e-7118-8482-2454503009a3" target="_blank" class="news-link">Ukrainian navy said it struck a Russian support vessel in Sochi port.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49522137" target="_blank" class="news-link">The Browser&#x27;s Main Thread Is Expensive</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239286" target="_blank" class="news-link">针对 ToB 市场想做一款 [可视化+AI+低代码] 开发工具，解决 AI 开发收敛工具</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/tabbitai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Tabbit AI</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a066f2-3947-7118-8482-002a6503ebfe" target="_blank" class="news-link">Deutsche Bank raised its PT on Dell (DELL.N) to $520 from $480.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260903192755159800" target="_blank" class="news-link">英国零售商John Lewis加码内容创作应对AI购物</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3780960" target="_blank" class="news-link">RSI时代将至：谷歌、OpenAI、SSI正在发出同一个信号</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a066f2-1208-7118-8481-f6caf969f184" target="_blank" class="news-link">REUTERS SURVEY: Economists expect the ECB to raise rates for a second time in September and then halt further hikes.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/924683033712545792" target="_blank" class="news-link">同样是AI岗，应用开发和算法岗问的根本不是一回事</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a066f0-c6fe-7118-8481-e349358eb469" target="_blank" class="news-link">REUTERS SURVEY: All 65 economists expect the ECB to raise the deposit rate by 25bps to 2.50% at its Sept. 10 meeting.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2472847" target="_blank" class="news-link">黑龙江加速AI“下田”｜活力中国调研行</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239271" target="_blank" class="news-link">[产品自荐] Trancy Air - macOS 与 Windows 全能翻译工具（送会员）</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/03/1e0b186324534befb3da879b89c4d43d.html" target="_blank" class="news-link">全球金融监管机构警告：尖端AI或引发金融市场动荡</a> [12] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%BB%84%E4%BB%81%E5%8B%8B%E4%B8%8E%E5%8D%A2%E7%89%B9%E5%B0%BC%E5%85%8B%E5%AF%B9%E8%B0%88AI" target="_blank" class="news-link">黄仁勋与卢特尼克对谈AI</a> [12] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a066ec-25aa-7118-8481-ce3756ca48d8" target="_blank" class="news-link">Russia&#x27;s ambassador to Norway said Russia will appeal the court ruling related to Norway&#x27;s seizure of Russian vessels.</a> [13] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781001" target="_blank" class="news-link">G20峰会上，科技大佬盯上AI基建“电力”和“人力”瓶颈！</a> [13] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/998/066.htm" target="_blank" class="news-link">奥尔特曼：OpenAI Astra 模型参与了美政府自愿审查</a> [13] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239261" target="_blank" class="news-link">让本地 Agent 接管远程 Linux ：别让模型套 SSH（daimon-mcp）</a> [13] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3780694" target="_blank" class="news-link">物理AI新世界：从&quot;生成世界&quot;到&quot;控制世界&quot; ，产业链如何重构3000亿市场？</a> [14] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%94%A8AI%E7%A0%B4%E8%A7%A3%E6%95%B0%E5%AD%A6%E9%9A%BE%E9%A2%98%E7%9C%9F%E7%9A%84%E6%98%AF%E5%A5%BD%E4%BA%8B%E5%90%97" target="_blank" class="news-link">用AI破解数学难题真的是好事吗</a> [14] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239258" target="_blank" class="news-link">做了一个 AI 视频生成网站</a> [14] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a066e5-8685-7118-8481-bbe32f25861a" target="_blank" class="news-link">A spokesperson for UK Prime Minister Burnham said Britain has summoned Russia&#x27;s chargé d&#x27;affaires in London over the Leipzig airport attack.</a> [15] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3780884" target="_blank" class="news-link">Hy4上线就排队，国产AI真正缺的可能不只是GPU</a> [16] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a066df-50fb-7118-8481-a8daec007e03" target="_blank" class="news-link">BMO raises Chevron (CVX.N) price target to $235 from $210.</a> [17] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a066df-2413-7118-8481-a3ea40198549" target="_blank" class="news-link">BMO raises PT on Broadcom (AVGO.O) to $575 from $455.</a> [18] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3159893" target="_blank" class="news-link">广东省新增1款已完成备案的生成式人工智能服务，累计已完成194款生成式人工智能服务备案。</a> [18] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780996" target="_blank" class="news-link">惠普跟上戴尔的节奏：AI业务扩张提速，上调今明两年营收增长预期</a> [19] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239241" target="_blank" class="news-link">[开源自荐] EO2Weave：跑在浏览器里的 AI agent，能改本地文件，也能调用网站工具（WebMCP）</a> [19] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a066da-3ef5-7118-8481-91fd6d16aa54" target="_blank" class="news-link">Deputy Prime Minister NOVAK said Russia is experiencing some gasoline shortages.</a> [20] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959752" target="_blank" class="news-link">永远演不完的AI直播间来了</a> [20] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780993" target="_blank" class="news-link">博通史上最强指引的底气：AI巨头集体“抢芯”，谷歌不再是唯一答案</a> [21] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2634017" target="_blank" class="news-link">用AI把自己画成荷花仙子</a> [21] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a066d8-a15b-7118-8481-7d2a5130bffd" target="_blank" class="news-link">Russian Deputy Prime Minister Novak said Russia&#x27;s domestic market has sufficient supplies of diesel and aviation fuel.</a> [23] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3780986" target="_blank" class="news-link">AI“资本局”：当大厂“经营现金流”不够烧了</a> [23] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/03/665e37fc3b484df29f287eda30f8cef0.html" target="_blank" class="news-link">美媒：AI赋能提升中国医疗服务水平</a> [25] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a066d3-e248-7118-8481-6ef8b0f567fc" target="_blank" class="news-link">Riksbank Governor Thedéen said the central bank will weigh incoming data and assess their implications for inf, the economy and the monetary policy outlook.</a> [25] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a066d3-a894-7118-8481-65bdd3cef5f8" target="_blank" class="news-link">Riksbank governor Thedéen said there is slack in the labor market, so growth could occur in the short term without materially increasing inf pressure.</a> [26] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7680389947226865716" target="_blank" class="news-link">我把今年流传的前端 AI 面试题整理了一遍——4 类场景题+回答框架（附速查表）</a> [26] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/03/18dae23a969843ce94b5f64debc2e43a.html" target="_blank" class="news-link">美媒：中国以具身智能角逐通用人工智能竞赛</a> [27] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a066d3-7ed2-7118-8481-5f2b981921bc" target="_blank" class="news-link">Riksbank Governor Thedéen said inf risks are unclear.</a> [27] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a066d3-7616-7118-8481-5443fed934ba" target="_blank" class="news-link">Riksbank Governor Thedéen said he has not yet seen clear signs of a sustained, sizeable rebound in inf, but the bank must remain highly vigilant to rising inf.</a> [28] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7680757400489738276" target="_blank" class="news-link">AI 时代，也许你的 Flutter 需要一套 Dartastic OpenTelemetry 监控</a> [28] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239211" target="_blank" class="news-link">What is RSI AI?</a> [28] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a066d3-4eae-7118-8481-4c06bfcbaea5" target="_blank" class="news-link">Riksbank Governor Thedéen said he noted in August that the recovery in economic activity was becoming more solid, and last week&#x27;s GDP growth data further confirmed that assessment.</a> [29] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49534132" target="_blank" class="news-link">Quasar 438B: Europe&#x27;s Leading AI Model</a> [29] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239209" target="_blank" class="news-link">大量印度人资源可授权其 claude/openai 等订阅号 中转站老板看过来</a> [29] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a066d0-01b2-7118-8481-43996fad6b28" target="_blank" class="news-link">European Commission spokesperson said it is studying options to further restrict visa access.</a> [30] <font color='grey'>- 19时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">4</td>
+                <td class="percentage">0.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781008" target="_blank" class="news-link">谷歌开始刷新Flash模型性价比</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239280" target="_blank" class="news-link">无法使用 google one 怎么解决</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/998/108.htm" target="_blank" class="news-link">谷歌正测试安卓版 Chrome 浏览器应用内更新功能，距上次测试已有七年</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239265" target="_blank" class="news-link">Gemini Watermark Remover</a> [12] <font color='grey'>- 19时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">0.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781013" target="_blank" class="news-link">Claude后台接管电脑，真·赛博替身！人机并行时代来了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/anthropics/skills" target="_blank" class="news-link">anthropics / skills</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7680119725196820480" target="_blank" class="news-link">Claude Code 整体架构与设计</a> [30] <font color='grey'>- 19时35分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239251" target="_blank" class="news-link">DeepSeek Harness 能开箱即用吗？</a> [16] <font color='grey'>- 19时35分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7680183953518690338" target="_blank" class="news-link">DeepSeek Harness 从零上手：从认识到写出第一个插件</a> [27] <font color='grey'>- 19时35分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
