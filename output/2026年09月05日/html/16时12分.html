@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 337</p><p>生成时间: 2026-09-05 16:12:52</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">30</td>
+                <td class="percentage">8.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07099-2944-7118-84b1-5a9cd3ff911f" target="_blank" class="news-link">Temporary ceasefire around Zaporizhzhia nuclear plant to repair external power lines</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5306792" target="_blank" class="news-link">南向资金瞄准物理AI，为何首选海清智元 (01392.HK)</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3160872" target="_blank" class="news-link">OpenAI：我们关于“对齐失效”（Misalignment）事件的信息披露做法需要进一步扩展，正在制定用于报告模型“对齐失效”事件的框架。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/valkence?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">BFF By Valkence - Creator Waitlist</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07083-87bb-7118-84b1-49458e2a98d1" target="_blank" class="news-link">Saudi outlet Hadath reported Yemeni armed forces said they destroyed Houthi reinforcements in southern Jarahi during a ground assault.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781144" target="_blank" class="news-link">新的叙事时刻：Astra之后的AI渗透率和Token总需求</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/studywise-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">StudyWise AI</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07078-7b43-7118-84b1-3e137acc157a" target="_blank" class="news-link">OpenAI calls for broader disclosure of AI alignment failures</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260905152849729800" target="_blank" class="news-link">OpenAI：需要扩大对齐失范事件的披露范围</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07071-aa0a-7118-84b1-3137787ffc1d" target="_blank" class="news-link">IAEA says a ceasefire has taken effect to allow repairs to power lines and restore external power to the Zaporizhzhia nuclear plant.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781140" target="_blank" class="news-link">AI下一轮赢家浮现？PIMCO避开美股巨头，重押亚洲“卖铲人”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2474152" target="_blank" class="news-link">马斯克预警AI电力缺口！全球掀电网建设潮 算电协同迎投资机遇</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3781124" target="_blank" class="news-link">非农“吓退”美股大盘，AI硬件却逆势狂飙！半导体指数涨超3%，闪迪暴涨12%</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/998/747.htm" target="_blank" class="news-link">微软发布 MAI-Image-2.6-Flash：生图速度是全球最佳 AI 模型的 2 倍</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/anyworld-ai-live-in-any-world?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AnyWorld AI: Live In Any World</a> [12] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0703e-8441-7118-84b0-e26405e982e0" target="_blank" class="news-link">Russian forces carry out cluster strikes across multiple Ukrainian regions</a> [16] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07035-24bb-7118-84b0-c92e1a073c5a" target="_blank" class="news-link">Former PBOC deputy governor Zhu Min urges APAC digital and AI integration</a> [19] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3160855" target="_blank" class="news-link">阿布扎比G42考虑引入美国资本控股 保障AI芯片获取</a> [19] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/top10-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Top10.ai</a> [19] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0702c-dcf7-7118-84b0-c46bd40f17f4" target="_blank" class="news-link">Tehran Stock Exchange main index rises 120,000 points to 6,624,000</a> [20] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/any-ai-for-notion?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Any AI for Notion</a> [20] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07027-b30d-7118-84b0-b4f57745c832" target="_blank" class="news-link">Russian deputy foreign minister urges US to factor battlefield realities into Ukraine mediation</a> [22] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07025-9145-7118-84b0-a991833cd3ce" target="_blank" class="news-link">Hurricane Lowell strengthens to Category 5; Hawaii declares state of emergency</a> [23] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/998/725.htm" target="_blank" class="news-link">上海警方破获《三角洲行动》OBS / OBX-AI 外挂案，腾讯安全团队协助抓获 2 名犯罪嫌疑人</a> [26] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0700b-042a-7118-84b0-8faa0d9ac4ff" target="_blank" class="news-link">Philippine Vice President Sara Duterte posts bail; court lifts arrest warrant</a> [27] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07006-c150-7118-84b0-863587d91300" target="_blank" class="news-link">Shanghai brain–computer interface firm Shuli Innovation starts STAR Market IPO counseling</a> [28] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7681252693901885478" target="_blank" class="news-link">别卷CRUD了！前端用Next.js+LangChain.js，低成本冲进AI高薪赛道</a> [28] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07004-097e-7118-84b0-7c36aa06552e" target="_blank" class="news-link">National Commission for Disaster Reduction and Ministry of Emergency Management raise Fujian natural disaster relief emergency response to level three</a> [29] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07003-b159-7118-84b0-77bfd281418d" target="_blank" class="news-link">China&#x27;s Ministry of Water Resources: 17 rivers remain above warning levels</a> [30] <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7681010507700699151" target="_blank" class="news-link">别再只给人写页面了：AI 已经开始自己点你的按钮、填你的表单</a> [30] <font color='grey'>- 16时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">4</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781138" target="_blank" class="news-link">报道：Anthropic将推迟至10月中旬上市，“史上最大IPO”还得再等等</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239674" target="_blank" class="news-link">[分享创造] 做了个手机远程接管本机 Codex / Claude 的工具，求真实吐槽</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781136" target="_blank" class="news-link">姚班校友主导，Claude攻克费马大定理首个完整形式化证明</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2079407782139261521" target="_blank" class="news-link">如何看待 Anthropic 利用 Claude 完成费马大定理的 lean4 形式化证明？</a> [11] <font color='grey'>- 16时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2079321890846516401" target="_blank" class="news-link">华为何庭波再提「本该烧毁的『τ芯片』」，这揭示了华为怎样的芯片自研能力？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时12分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B9%BF%E6%B1%BD%E5%8D%8E%E4%B8%BA%E9%A6%96%E6%AC%BESUV%E5%90%AF%E5%A2%83GX7%E5%BC%80%E5%90%AF%E9%A2%84%E5%94%AE" target="_blank" class="news-link">广汽华为首款SUV启境GX7开启预售</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239676" target="_blank" class="news-link">ChatGPT 手机无法远程访问</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239687" target="_blank" class="news-link">给我整乐呵了，商汤上了 deepseek v4 flash 和 pro</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
