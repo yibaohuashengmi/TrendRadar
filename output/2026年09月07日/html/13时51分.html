@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 460</p><p>生成时间: 2026-09-07 13:51:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">45</td>
+                <td class="percentage">9.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07a52-b458-7118-84c3-ac3020efcd31" target="_blank" class="news-link">Iran says U.S. sanctions raise transaction costs, urges move away from crude dependence</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/e09d454f9ace4fca8e52cd6828c79fd2" target="_blank" class="news-link">携程笔试AI coding 8100</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1240038" target="_blank" class="news-link">搓了一个 x automation skill，通过 AI 直接操作 CDP 实现，无需 API Key</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3781186" target="_blank" class="news-link">RSI真的来了！OpenAI首席科学家：我们已造出异星心智，全人类都要刹车了</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3781201" target="_blank" class="news-link">从Astra到Atlas：AI下一场大革命，可能发生在三维世界</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/926228178081705984" target="_blank" class="news-link">PDD 0906 秋招 AI Agent研发岗笔试</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959779" target="_blank" class="news-link">投资最大难题：AI会毁掉好公司的护城河吗？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239979" target="_blank" class="news-link">裸辞后做了个出海 ai 网站，大家帮我看看咋样？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/49dc04c8c6ab44cf9c1b0d0e98cd8fb6" target="_blank" class="news-link">携程笔试10分钟速通ai coding</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07a49-f94a-7118-84c3-84aebd79a3a0" target="_blank" class="news-link">China A-share CPU sector rallied in the afternoon; Zongyi Shares hit the daily limit, while Hesheng New Materials, China Greatwall, China Electronics Port and Loongson Technology also advanced.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7682262550978936884" target="_blank" class="news-link">三年了，AI为何还没有抢走程序员饭碗？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7681931232724860970" target="_blank" class="news-link">OpenAI ：GPT-6 开始你需要给 Skill 和 AGENTS.md 做一次大扫除了</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07a3f-f19f-7118-84c3-779342e7237b" target="_blank" class="news-link">Sources say 1c nm expected to become SK Hynix&#x27;s mainstream process in early 2027</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2078204496602214771" target="_blank" class="news-link">腾讯 WorkBuddy 快速登顶国内 AI 办公智能体市场，其成功背后的关键因素有哪些？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/b4d17ed33cb9424bbd78795ca813d460" target="_blank" class="news-link">得物笔试 ai coding 8675</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4264065_212_1" target="_blank" class="news-link">索尼与沙特阿美合作开发人工智能驱动的工业解决方案。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959775" target="_blank" class="news-link">当前企业使用AI的现状</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2475321" target="_blank" class="news-link">9月7日投资避雷针：5连板人气股公告 公司AI视频业务6月产生营收约80元</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1240007" target="_blank" class="news-link">目前我们团队已经是全员 AI Coding&amp;Analysis 了，包括售后运营等非技术岗</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1240013" target="_blank" class="news-link">AIEnhancer：把照片增强、图片生成和视频创作放在一起的工具</a> [11] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781199" target="_blank" class="news-link">IPO前的军备竞赛！Anthropic11个月内锁定5170亿美元算力，但仍落后OpenAI</a> [12] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3780889" target="_blank" class="news-link">下一个大场景：AI 办公能否“接龙”Coding，续命 AI 商业化？</a> [13] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/d5663268d1f64b56b53a06a010b7fd23" target="_blank" class="news-link">9/5 京东测试开发 ai coding</a> [13] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781193" target="_blank" class="news-link">这个周末“首波测评”：OpenAI的GPT-6 Astra “几乎在所有方面”都表现“惊人的出色”</a> [14] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/d4e1a1f8136f4ac1a4136fc116559ad1" target="_blank" class="news-link">笔试-去哪儿-AI全栈工程师</a> [14] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781196" target="_blank" class="news-link">高盛：AI存储芯片需求被低估，韩国股市仍有80%上涨空间</a> [15] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/926151771779600384" target="_blank" class="news-link">去哪儿 AI应用开发(秋招) 一面</a> [15] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07a3d-2b93-7118-84c3-294d83d6c6ce" target="_blank" class="news-link">Singapore July seasonally adjusted retail sales +0.9% MoM; June +1.0%.</a> [17] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07a3d-1eaf-7118-84c3-2027148974cf" target="_blank" class="news-link">Singapore July retail sales YoY +1.5%, down from +4.0% in June.</a> [18] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781192" target="_blank" class="news-link">OpenAI首度公布“内部RSI进展”：已实现“自动化研究实习生”</a> [18] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07a3d-0eac-7118-84c3-1e434767ae9b" target="_blank" class="news-link">Retail Sales SA (MoM) (Jul)</a> [19] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49594189" target="_blank" class="news-link">Nvidia&#x27;s Jensen Huang says &#x27;AGI has arrived&#x27; and congratulates OpenAI</a> [19] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07a3c-ff84-7118-84c3-15355d2b6911" target="_blank" class="news-link">Retail Sales (YoY) (Jul)</a> [20] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07a35-68c2-7118-84c3-0a16c85296da" target="_blank" class="news-link">People familiar said UBS will require graduates and interns joining its Global Banking and Markets division in 2027 to demonstrate how they would use AI to boost performance and efficiency. The requirement signals AI is reshaping campus hiring at major European banks.</a> [21] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07a32-d0b4-7118-84c3-00417d092fc6" target="_blank" class="news-link">Interfax, citing the Russian Defence Ministry, reported that Russia also struck the Ukrainian port of Izmail.</a> [22] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07a31-ea48-7118-84c2-f9c70f0374a2" target="_blank" class="news-link">Interfax, citing the Russian Defence Ministry, reported that Russia struck a vessel carrying military cargo at Ukraine&#x27;s port of Chornomorsk.</a> [23] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3161077" target="_blank" class="news-link">中兴通讯官方微博：努比亚NaviX Ultra定档9月16日，全球首款AI智能体手机即将上市。</a> [25] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239949" target="_blank" class="news-link">在自己家里搞了个本地大模型基座, 实现了应用内接入 AI 自由.</a> [26] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07a26-6f3b-7118-84c2-da78afdebdc8" target="_blank" class="news-link">Empty Qatari LNG carriers return to Persian Gulf, may signal restart of Strait of Hormuz exports</a> [27] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07a25-905f-7118-84c2-d5729ddafc07" target="_blank" class="news-link">The Israel Defense Forces said units under its Southern Command remain deployed in the area under the agreement and will continue operations to eliminate all threats.</a> [28] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49572279" target="_blank" class="news-link">GitSpawn: Untrusted repos can execute code via AI coding agents</a> [28] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239944" target="_blank" class="news-link">A 股量化平台｜ Alphaio 量化模型沉淀平台</a> [29] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07a25-7c4b-7118-84c2-c53c8800286f" target="_blank" class="news-link">Israel Defense Forces said an explosive device was detonated in the yellow-line area and, in response, carried out overnight airstrikes on Hamas infrastructure in the Gaza Strip.</a> [30] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E7%94%B5%E5%BD%B1%E7%95%8C%E5%B7%B2%E7%BB%8F%E4%B8%8D%E8%83%BD%E6%B2%A1%E6%9C%89AI%E4%BA%86&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">电影界已经不能没有AI了</a> [30] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7681626346015916068" target="_blank" class="news-link">GPT-6 Astra 发布：OpenAI 正式宣告“AGI 时代到来”</a> [30] <font color='grey'>- 13时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">4</td>
+                <td class="percentage">0.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2475312" target="_blank" class="news-link">华为、小米、苹果 “折叠屏手机”本周集中亮相</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2475341" target="_blank" class="news-link">华为更新韬定律论文 最新机构解读来了 后道测试设备环节直接受益？</a> [13] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/165.htm" target="_blank" class="news-link">华为余承东谈问界 M6 用户画像：35 岁以下年轻群体接近一半，女性车主也接近五成</a> [17] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/156.htm" target="_blank" class="news-link">华为余承东官宣刘德华将来到 HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会现场</a> [25] <font color='grey'>- 13时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">4</td>
+                <td class="percentage">0.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3161100" target="_blank" class="news-link">千问接入十余家金融类智能体，覆盖理财、保险、期货等多领域</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%89%8D%E9%98%BF%E9%87%8C%E9%AB%98%E7%AE%A1%E6%AD%BB%E5%9C%A8%E5%8A%A0%E5%B7%9E%E8%B7%AF%E8%BE%B9&amp;t=31&amp;band_rank=12&amp;Refer=top" target="_blank" class="news-link">前阿里高管死在加州路边</a> [12] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3161091" target="_blank" class="news-link">软件开始“按需生成”，“千问办公”推出业内首个“多人工作台”</a> [16] <font color='grey'>- 13时51分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7681797570142732331" target="_blank" class="news-link">读《阿里巴巴Java开发手册》五年，这7条规约救了我太多次</a> [26] <font color='grey'>- 13时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1239948" target="_blank" class="news-link">开源自荐 - LocalMCP - 榨干 ChatGPT 网页版的所有价值</a> [27] <font color='grey'>- 13时51分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
