@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 245</p><p>生成时间: 2026-09-07 08:48:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">6.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781191" target="_blank" class="news-link">今年应届生和实习生招聘，瑞银提出新要求：证明会用AI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/072.htm" target="_blank" class="news-link">JetBrains 推出 Kotlin Toolchain 0.12 版本：新增多平台库发布能力、支持直接构建运行 Wasm 网页应用</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0793b-fb24-7118-84bd-db2a7e262059" target="_blank" class="news-link">CITIC Securities: Strong US payrolls offset Waller comments; markets await CPI</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/069.htm" target="_blank" class="news-link">英伟达黄仁勋祝贺 OpenAI 团队发布 Astra，称“AGI 已经到来”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781186" target="_blank" class="news-link">RSI真的来了！OpenAI首席科学家：我们已造出异星心智，全人类都要刹车了</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3161007" target="_blank" class="news-link">9家银行AIC经营“成绩单”浮出水面，“老牌”AIC上半年净利润同比集体大幅跃升</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a07932-c401-7118-84bd-adcb796374a6" target="_blank" class="news-link">Huatai Securities Hong Kong strategy: maintain low-volatility, high-dividend stocks as core</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/065.htm" target="_blank" class="news-link">IT早报 0907：央视报道单台手机仅含 0.02—0.03 克黄金；比亚迪称闪充业务受电池产能制约；“国家反诈 AI”App 上线；AI 短剧制作价格大跳水...</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/061.htm" target="_blank" class="news-link">曝魅族 AI 小方块将量产上市，搭载紫光展讯 T8200 处理器 + 4 英寸小方屏</a> [13] <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0791a-e6c9-7118-84bd-75fffac9778d" target="_blank" class="news-link">{&quot;title&quot;:&quot;This week: US CPI to shape September Fed; China FX reserves, Apple event&quot;,&quot;content&quot;:&quot;Key market-moving items this week: US CPI prints and PPI/treasury auction data that could influence SEPT Fed pricing; China Aug CPI and FX reserves; weekly US oil inventories plus EIA/OPEC/IEA monthly oil reports; ECB President Lagarde speeches and Thurs policy press conference; Apple autumn product event and TSMC Aug revenue; China Aug M2 and trade flows. Monday: China Aug FX reserves release; US and Canada equity markets closed for Labor Day (one-day); metals and some energy contracts close early. Tuesday: China Aug trade balances (USD and RMB terms); Japan, Germany, France trade data; US NFIB small‑business sentiment and NY Fed 1‑yr inflation expectation. Wednesday: China Aug CPI YoY; France industrial output (Jul); ADP private payrolls change for week to Aug 22. Thursday: US 10‑yr Treasury auction stop‑out yield and bid‑cover; US Aug PPI YoY/MoM; initial jobless claims (week to Sep 5); existing‑home sales (Aug annualised); German Aug CPI final; ECB deposit and refi rate records to Sep 10 and Lagarde speech at Bundesbank dinner plus ECB policy press conference (simultaneous interpretation); EIA short‑term energy outlook and OPEC monthly oil report; Apple autumn product launch; TSMC publishes Aug revenue; China Aug M2 YoY; EIA weekly natural gas inventory. Friday: US Aug CPI (unadjusted YoY, SA MoM and core MoM) and preliminary 1‑yr inflation expectation; UMich preliminary Sep consumer sentiment; weekly EIA crude, Cushing and SPR inventory updates (week to Sep 4); UK Jul 3‑month GDP, manufacturing output, goods trade balance and industrial output; domestic fuel retail price adjustment window opens in China; IEA monthly oil report; Swiss consumer confidence (Aug). Saturday: US Baker Hughes rig count (week to Sep 11); additional Lagarde remarks.</a> [16] <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0790c-8ae8-7118-84bd-4f8129e0982d" target="_blank" class="news-link">Kpler&#x27;s 10-day moving average shows an average of 10 cargo vessels transited the Strait of Hormuz per day, the lowest level since May.</a> [21] <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/052.htm" target="_blank" class="news-link">《神鬼寓言》游戏总监称本作所有 NPC 均为人工设计，未使用 AI 及随机生成器</a> [21] <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a078fa-c2d0-7118-84bd-35e4343d21cf" target="_blank" class="news-link">Xiaomi Group chairman Lei Jun said cumulative deliveries of Xiaomi Auto have exceeded 800,000 vehicles.</a> [24] <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/049.htm" target="_blank" class="news-link">Anthropic 15 亿美元 AI 版权和解金开始陆续发放，但出版社和作者分配补偿争议不断</a> [24] <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a078f5-5309-7118-84bd-2d261db0c257" target="_blank" class="news-link">U.S. attack on Iranian vessels raises escalation risk; oil opens higher</a> [25] <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a078d7-c19f-7118-84bd-17497160def9" target="_blank" class="news-link">Armed assailant rushes Ohio gubernatorial candidate Amy Acton at campaign rally; multiple injured</a> [28] <font color='grey'>- 08时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">1.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3161005" target="_blank" class="news-link">华为、苹果正面交锋，折叠屏手机市场 将迎“72小时对决”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260907081405232800" target="_blank" class="news-link">欢迎进入链接网页右侧下载本周财经数据与事件精美周历壁纸： 今日有50亿元7天期逆回购和5000亿元买断式逆回购到期、央行将开展5000亿元买断式逆回购操作；小米和华为发布会。</a> [11] <font color='grey'>- 08时48分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2475140" target="_blank" class="news-link">华为“韬定律”细节再公开：麒麟2026密度暴涨55% 功耗反而大降</a> [13] <font color='grey'>- 08时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3781184" target="_blank" class="news-link">9月7日会员早报：美军周末打击三艘伊朗油轮 Anthropic招股书推迟至9月下旬</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 08时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/066.htm" target="_blank" class="news-link">代码显示谷歌正开发 Cast Trackpad 工具，可将安卓手机作为 Googlebook 笔记本触控板</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 08时48分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
