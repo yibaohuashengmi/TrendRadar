@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 274</p><p>生成时间: 2026-09-09 09:07:02</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">18</td>
+                <td class="percentage">6.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3162243" target="_blank" class="news-link">铠侠CEO否认与SK海力士深化合作的前景。 铠侠CEO称，已告知员工，不推动存储芯片大幅涨价，铠侠旨在维持当前NAND价格以保障人工智能需求。</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781369" target="_blank" class="news-link">OpenAI再发文：更好的模型开辟新的“工作领域”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08398-f530-7118-84f7-4ad34812d9cb" target="_blank" class="news-link">Crude ETF holdings: USO posts third straight large increase</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781370" target="_blank" class="news-link">Meta版“龙虾”--扎克伯格豪赌的“AI助手Muse”正式发布</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28363229&amp;amp;topic_name=AI%E5%86%B2%E5%87%BB%E7%9F%AD%E5%89%A7%2C%E5%AF%92%E5%86%AC%E5%8F%98%E5%9D%9F%E5%A2%93" target="_blank" class="news-link">AI冲击短剧,寒冬变坟墓</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08388-9070-7118-84f7-0f8654faabc8" target="_blank" class="news-link">Anthropic researcher quits, warns industry is racing toward &#x27;out-of-control&#x27; self‑improving AI</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781362" target="_blank" class="news-link">AMD大涨6%！Helios超额订单回击算力需求见顶论，翻倍上调2030年AI市场规模预期</a> [12] <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/967.htm" target="_blank" class="news-link">IT早报 0909：OpenAI 发布最强 AI 生图模型 Images 2.5；DeepSeek 明日下调 Flash 模型价格；高德回应开发“扫雷榜”；汽车博主“拉踩”引流被判赔 10 万...</a> [16] <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/966.htm" target="_blank" class="news-link">Sonos 27 音频系统更新：配对增强环绕声道、预览外部 AI 接入等</a> [17] <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/963.htm" target="_blank" class="news-link">苹果 2026 款 Apple TV 4K 曝光：升级 A19/Pro 芯片，支持 Siri AI</a> [20] <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260909081908269800" target="_blank" class="news-link">因担忧AI失控，一名Anthropic研究员离开行业</a> [21] <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/959.htm" target="_blank" class="news-link">继 Claude 尝试攻克黎曼猜想后：OpenAI 宣布用 10000 个 AI 智能体 88 小时攻克千禧年大奖难题，陶哲轩既点赞又担忧</a> [24] <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0836c-9c1f-7118-84f6-9655c04b3865" target="_blank" class="news-link">The Wall Street Journal reports Anthropic researcher Jacob Coxon has decided to leave the AI industry, citing concern that firms are racing to develop uncontrollable, self‑improving systems.</a> [25] <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08364-0fef-7118-84f6-80bc51532d00" target="_blank" class="news-link">Jordan said its air-defense system intercepted and destroyed 18 of 20 missiles launched by Iran, with the other two falling away from population centers; no casualties were reported after the Iranian missile strike.</a> [27] <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/956.htm" target="_blank" class="news-link">OpenAI 最强 AI 生图模型：ChatGPT Images 2.5 登场，延迟降低 50%、新增 Sketch 草图</a> [27] <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08363-f579-7118-84f6-7a756e77cebf" target="_blank" class="news-link">US President Trump said Germany&#x27;s populist party had a significant night, is rising, and is fed up with immigration laws he said have seriously harmed Germany.</a> [28] <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08362-49da-7118-84f6-68e73d9cf187" target="_blank" class="news-link">Jordanian authorities said Iran fired 20 ballistic missiles into Jordanian territory.</a> [30] <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/953.htm" target="_blank" class="news-link">DeepSeek 官宣明日 flash 系列 AI 模型降价：输出为每百万 Token 4 元</a> [30] <font color='grey'>- 09时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">3</td>
+                <td class="percentage">1.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2080799652820029727" target="_blank" class="news-link">怎么看 DeepSeek Flash 系列 9 月 10 日将再调整定价，除输出外回归 8 月 17 日前价格？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3162232" target="_blank" class="news-link">DeepSeek官宣调整flash系列模型定价</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=DeepSeek%E5%AE%98%E5%AE%A3%EF%BC%9A%E8%B0%83%E6%95%B4flash%E7%B3%BB%E5%88%97%E5%AE%9A%E4%BB%B7" target="_blank" class="news-link">DeepSeek官宣：调整flash系列定价</a> [20] <font color='grey'>- 09时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/980.htm" target="_blank" class="news-link">5999 元起华为 Pura X View 阔直板手机今日开售：16:9.5 比例面板、麒麟 9030S 处理器</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/970.htm" target="_blank" class="news-link">华为靳玉志谈麒麟 9050 Pro 回归：六年时间，麒麟完成涅槃，国产芯片迎来新的里程碑</a> [13] <font color='grey'>- 09时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/962.htm" target="_blank" class="news-link">Claude 额度离奇消失，Anthropic 确认账号被黑客盗用</a> [21] <font color='grey'>- 09时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/0/999/979.htm" target="_blank" class="news-link">消息称阿里 B2B 业务国内外打通，张阔统管 1688 与国际站</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
