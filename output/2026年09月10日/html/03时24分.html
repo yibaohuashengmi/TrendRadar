@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 273</p><p>生成时间: 2026-09-10 03:24:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">32</td>
+                <td class="percentage">11.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202609/0980729.html" target="_blank" class="news-link">美指中企蒸馏AI模型 中国商务部：动用国家力量维护科技霸权算力垄断</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5309056" target="_blank" class="news-link">AI投顾走向场景深处：九方智投“股道智航”的进阶逻辑</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08782-13c7-7118-8510-0bbd3a9ea2b6" target="_blank" class="news-link">U.S. Secretary of State Rubio said he will seek to provide Ecuador an additional US$45 mln in security funding and additional equipment.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0877f-753d-7118-850f-f17d0b422585" target="_blank" class="news-link">Brazil said an executive order issued earlier on Wednesday will set a diesel subsidy initially at 1 real per liter.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/000/524.htm" target="_blank" class="news-link">苹果官网下架 iPhone 17 Pro 系列手机，16、17e、17、17 Air 同步涨价最高 2300 元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781433" target="_blank" class="news-link">OpenAI深化与三星合作，推进下一代芯片研发</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910030623330800" target="_blank" class="news-link">iPhone 17、Air涨价800元</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=AirPods5%20%E4%BE%BF%E5%AE%9C&amp;t=31&amp;band_rank=6&amp;Refer=top" target="_blank" class="news-link">AirPods5 便宜</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0877d-2a6e-7118-850f-e51c70ed389f" target="_blank" class="news-link">U.S. commercial space startup Vast said the mission is planned for 2027 and will be transported by SpaceX (SPCX.O)&#x27;s Dragon spacecraft and launched on a Falcon 9 rocket.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/000/521.htm" target="_blank" class="news-link">苹果上调国行 iPhone Air 售价：8799 元起，最高涨幅约 19%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08778-de5b-7118-850f-d528ae22d8e8" target="_blank" class="news-link">Trump said Putin hopes to reach an agreement on Ukraine.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08774-6bbe-7118-850f-cfb1b9ab22d1" target="_blank" class="news-link">US President Trump said gasoline prices will take more time to come down.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08773-3254-7118-850f-c03375307635" target="_blank" class="news-link">US President Trump said he may negotiate with Iran.</a> [11] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/000/516.htm" target="_blank" class="news-link">苹果 AirPods 5 耳机国行售价 999 元起，9 月 18 日发售</a> [12] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08772-95ba-7118-850f-b4af6a604aff" target="_blank" class="news-link">US President Trump said his actions extend far beyond the nuclear deal.</a> [13] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08771-ad41-7118-850f-a1a091abe294" target="_blank" class="news-link">U.S. President Trump, speaking on Iran, said he will consult with Israel on sanctions targeting West Bank settlements.</a> [15] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08770-92f4-7118-850f-9d1527562983" target="_blank" class="news-link">Shanghai Gold Exchange gold T+D closed up 0.73% at 954.09 yuan/gram in Wednesday late trade; silver T+D rose 2.59% to 16,520.0 yuan/kg.</a> [16] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08770-91c2-7118-850f-951a4e6cb31b" target="_blank" class="news-link">Night session main contracts close</a> [17] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%88%9A%E8%96%87AI%E8%84%B8%E6%BC%94%E4%B8%A7%E5%B0%B8%E7%89%87%E4%BA%86" target="_blank" class="news-link">戚薇AI脸演丧尸片了</a> [19] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08770-4a02-7118-850f-879425229810" target="_blank" class="news-link">U.S. President Trump said he may hold a bilateral meeting with Russia.</a> [19] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08770-0d24-7118-850f-7b8bf077a1df" target="_blank" class="news-link">U.S. President Trump said he had a good conversation with Russian President Putin.</a> [20] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3162738" target="_blank" class="news-link">欧洲央行管委兼德国央行行长Nagel：AI将成为欧洲未来的“试金石”。</a> [20] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0876f-637f-7118-850f-704e889ddbcf" target="_blank" class="news-link">U.S. President Trump said he is confident the Air Force One gifted by Qatar is secure.</a> [21] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/000/506.htm" target="_blank" class="news-link">苹果 Apple Watch Series 12 和 Ultra 4 发布：全新 AI 健康、对话摘要，陶瓷表壳回归</a> [22] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0876e-a8f1-7118-850f-61f3eb21d595" target="_blank" class="news-link">US President Trump said the economy is very strong and that his administration will explain this.</a> [23] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/000/505.htm" target="_blank" class="news-link">苹果 iOS 27 系统 AirDrop 升级，隔空投送速度提升 80%</a> [23] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0876d-e4da-7118-850f-5a6ea947fa1d" target="_blank" class="news-link">U.S. President Trump said they inspected the aircraft&#x27;s evacuation slide because they wanted to ensure everything worked perfectly.</a> [24] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0876d-a339-7118-850f-5692c8e84532" target="_blank" class="news-link">U.S. President Trump said he was inspecting the slide on the Qatar-donated &quot;Air Force One&quot; and that checking the inflatable slide takes about 15 minutes.</a> [25] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3162733" target="_blank" class="news-link">苹果公司发布Airpods 5。 配备同类领先的开放式主动降噪功能。 基础款（配备额外功能并支持无线充电）起售价129美元，电池续航能力更长的款式售价149美元。</a> [25]</div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3162730" target="_blank" class="news-link">苹果推出 “苹果参考图像” 标准，用于证明照片拍摄时的真实性。 将支持Synth ID标准，用于识别AI生成或经过编辑的图像。</a> [27]</div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/000/500.htm" target="_blank" class="news-link">苹果 AirPods 5 发布：全新自适应均衡功能、支持主动降噪，129 美元起</a> [27] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08760-4dd5-7118-850f-2ca3b99dc9b0" target="_blank" class="news-link">US President Trump is expected to depart on Air Force One for Dallas, Texas, to attend a Republican midterm campaign event. The White House said former press secretary Leavitt will accompany him and will speak at the event.</a> [30] <font color='grey'>- 03时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">8</td>
+                <td class="percentage">2.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1240846" target="_blank" class="news-link">claude20x 留学生代充</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3162761" target="_blank" class="news-link">Anthropic：Anthropic：已与大都会铁路公司（METR）签署协议，将对克劳德（Claude）大模型安全事件展开独立调查。 所有四起事件都发生在由同一评估合作方搭建的网络安全评估过程中。 Claude Mythos 5试图向 PYPI 软件包仓库上传恶意软件包。 所有事件仅涉及一个克劳德实例，克劳德从未尝试与其他智能体进行协同。</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910031641369800" target="_blank" class="news-link">Anthropic披露Claude模型误入真实网络并执行攻击行为事件</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910030729618800" target="_blank" class="news-link">Anthropic：未能确定单一的根本原因，但发现随着时间推移，其生产模型中的偏见性推理行为有所减少。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910030703984800" target="_blank" class="news-link">Anthropic：调查了训练过程，以了解是否能够找出Claude Mythos 5在相关事件中表现出的部分偏见性推理的根本原因。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910030538311800" target="_blank" class="news-link">Anthropic：认为网络安全事件中出现的失配行为不太可能在普通使用场景中出现。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910030336479800" target="_blank" class="news-link">Anthropic：所有事件均涉及单个Claude实例；Claude从未尝试与其他智能体进行协调。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910030313494800" target="_blank" class="news-link">Anthropic：四起事件均发生在由同一家评估合作伙伴构建的网络安全评估过程中。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=85332" target="_blank" class="news-link">Google 将“降级”欧洲搜索服务</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
