@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 178</p><p>生成时间: 2026-09-10 05:52:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">10.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08809-f877-7118-8512-5b7550a0acd5" target="_blank" class="news-link">Brazil&#x27;s finance ministry secretary CERON said additional revenue from higher oil prices is expected at about 10 billion reais per month.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781438" target="_blank" class="news-link">OpenAI与Anthropic游说标普争取BBB-评级：逼近万亿估值撞上持续亏损的信用门槛</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08809-e340-7118-8512-539fee03e5f5" target="_blank" class="news-link">Fitch says failure to implement fiscal consolidation, combined with persistently high deficits and an accelerating debt/GDP ratio, could increase downward pressure on ratings.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3781355" target="_blank" class="news-link">中国8月出口高增与AI双轮驱动，人民币逆势走强短期利好，沪金八月冲高回落与ETF连续回流---0909宏观脱水</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/000/544.htm" target="_blank" class="news-link">证明照片不是 AI：苹果 iPhone 18 Pro 支持像素级标注真实图像数据，但又和国内无关</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3162822" target="_blank" class="news-link">AI研究员Andrew Tulloch从Meta离职。（Semafor）</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08806-0f6a-7118-8512-42d977aef8fb" target="_blank" class="news-link">Brazil&#x27;s planning and budget minister said the new measures will impose a fiscal cost of about 5 bln reais for diesel; gasoline and ethanol tax cuts will cost about 2 bln reais.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910053213040800" target="_blank" class="news-link">据美国财经媒体Semafor：人工智能研究员安德鲁·图洛克将离开Meta Platforms(META.O)。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08805-ea16-7118-8512-3cc2af6c363c" target="_blank" class="news-link">Brazil&#x27;s planning and budget minister said two diesel subsidies will be implemented by month-end. A BRL1.00/liter subsidy will be added on top of a BRL1.12/liter subsidy.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08803-7c07-7118-8512-34148fce44d0" target="_blank" class="news-link">Iranian state media said it was unclear whether the explosions originated at sea or on Qeshm Island.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a08800-bdae-7118-8512-21bf5b0d0840" target="_blank" class="news-link">A military aide on Air Force One accidentally deployed an inflatable emergency slide while President Trump was aboard, sources said.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a087f7-d18b-7118-8512-14053375fbeb" target="_blank" class="news-link">According to The Information, OpenAI has told some commercial partners it will stop accepting ads on ChatGPT for AI image- and audio-generation products that compete with ChatGPT&#x27;s capabilities.</a> [12] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2642153" target="_blank" class="news-link">AI已经摸不透曹骏了</a> [13] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/000/536.htm" target="_blank" class="news-link">苹果 iOS / iPadOS 27 RC 更新日志：升级 Siri AI，增强家长管控等</a> [13] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/000/534.htm" target="_blank" class="news-link">苹果 macOS 27 RC 更新日志：全新 Siri AI、界面更精致、体验更可靠</a> [16] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3162806" target="_blank" class="news-link">OpenAI切断Adobe等企业在ChatGPT投放部分竞品AI产品广告</a> [19] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910045914364800" target="_blank" class="news-link">据The Information：OpenAI已告知部分商业合作伙伴，ChatGPT将不再接受与自身功能竞争的AI图像生成和音频生成产品广告。</a> [20] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/000/524.htm" target="_blank" class="news-link">苹果官网下架 iPhone 17 Pro 系列手机，16、17e、17、Air 同步涨价最高 2300 元</a> [23] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a087e2-da78-7118-8511-8047e2550bde" target="_blank" class="news-link">Ukrainian President Zelenskiy stopped in Iceland en route to Canada and met Iceland&#x27;s foreign minister.</a> [30] <font color='grey'>- 05时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1240855" target="_blank" class="news-link">现在飞书也能用 Claude Tag 了？？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时52分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/642329935.html" target="_blank" class="news-link">阿里前销售总监陈理死在美国</a> [23] <font color='grey'>- 05时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
