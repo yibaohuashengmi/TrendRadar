@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 375</p><p>生成时间: 2026-09-12 19:09:18</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">31</td>
+                <td class="percentage">8.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a09522-a537-7118-8556-4bc112264543" target="_blank" class="news-link">Shenzhen Airlines to launch direct Shenzhen–Sydney service</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28363786&amp;amp;topic_name=AI%E6%8A%A2%E9%A5%AD%E7%A2%97%2C%E6%95%B0%E5%AD%A6%E5%AE%B6%E6%80%A5%E7%9C%BC" target="_blank" class="news-link">AI抢饭碗,数学家急眼</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1241559" target="_blank" class="news-link">趁 AI 的黑箱观察窗口还没关闭前，尽可能学习一些硬核的东西吧</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202609/1280937.html" target="_blank" class="news-link">中国官媒：扶持人工智能须告别粗放比拼</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1241556" target="_blank" class="news-link">有没有大佬组装二手 AI 主机的</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3781600" target="_blank" class="news-link">“AI股神”杀回来了：重建此前“爆仓仓位”，但降低杠杆</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0950e-30c6-7118-8556-249d5bab2eff" target="_blank" class="news-link">Trump said Iran wants a deal and that the US is making significant progress; Iran will not obtain nuclear weapons.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0950d-c2ee-7118-8556-1c8f0159de9b" target="_blank" class="news-link">US President Trump said oil prices will plunge when the war with Iran ends.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0950c-fde3-7118-8556-12a3e81267e4" target="_blank" class="news-link">Trump said Canada is keen to reach an agreement and that a deal could be reached at the right time; he added Canada must treat US farmers better and that an agreement could come soon.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0950b-a073-7118-8556-0a8a797bd35d" target="_blank" class="news-link">Trump said he hopes to see Irish reunification, calling it a great honour for everyone, and said the UK would comment on the matter.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a09507-c3b7-7118-8555-ff8312fccb30" target="_blank" class="news-link">Trump said Iran may be responsible for the attack on a Saudi pipeline, that Houthi forces do not want to fight the US, and that the US controls the Strait of Hormuz.</a> [12] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a09505-c96f-7118-8555-f1c3c4e58bed" target="_blank" class="news-link">U.S. President Trump said he did not know of any protests.</a> [13] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/SnailSploit/Claude-Red" target="_blank" class="news-link">SnailSploit / Claude-Red</a> [13]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a09505-a2af-7118-8555-eed3afd79208" target="_blank" class="news-link">President Trump said the war with Iran is likely to end after the midterm elections.</a> [14] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%B6%85%E4%B9%9D%E6%88%90AI%E7%9F%AD%E5%89%A7%E5%A4%84%E4%BA%8E%E4%BA%8F%E6%8D%9F%E7%8A%B6%E6%80%81" target="_blank" class="news-link">超九成AI短剧处于亏损状态</a> [15] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a09504-fb6c-7118-8555-e6212e79b343" target="_blank" class="news-link">President Trump on Gaza said the U.S. is doing very well.</a> [15] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a09504-0512-7118-8555-db6569044acd" target="_blank" class="news-link">US President Trump said he believes Iran has missiles capable of striking European cities.</a> [16] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1962431720520414281" target="_blank" class="news-link">总有人说 AI 写出的作品带 AI 味，那 AI 味究竟是什么？难道 AI 就不能消除 AI 味吗？</a> [16] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/free-ai-face-rater-online-beauty-score?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Free AI Skin Analysis Online</a> [16] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a09502-d2f4-7118-8555-d609260bc5bd" target="_blank" class="news-link">US President Trump said on the attack on a Saudi pipeline that the Saudi crown prince is his good friend and that everything will be resolved smoothly.</a> [17] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a09501-531a-7118-8555-c1fb767fb334" target="_blank" class="news-link">U.S. President Trump said he discussed trade with Ireland and described U.S.-Ireland cooperation as very successful.</a> [19] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a094ff-f8ae-7118-8555-ba840362aa40" target="_blank" class="news-link">China to assume BRICS chair in 2027, host 19th leaders&#x27; summit</a> [20] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3164311" target="_blank" class="news-link">日本的富士通将向美国和亚洲出口AI芯片。（日经新闻）</a> [20] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/001/590.htm" target="_blank" class="news-link">开源 AI 移动自动化项目 Minitap 指控谷歌盗用自家代码，且起初未注明出处</a> [20] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a094f2-fefb-7118-8555-ad5a5454638c" target="_blank" class="news-link">Shanghai establishes Proof-of-Concept Platform Alliance</a> [22] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/001/587.htm" target="_blank" class="news-link">Anthropic 研究员警告“AI 灭绝人类”后，美国两党议员呼吁政府采取更多行动</a> [22] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a094ef-ebc6-7118-8555-9b7ba06454ea" target="_blank" class="news-link">MODI said UN Security Council reform must not be delayed further.</a> [24] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a094e8-fdeb-7118-8555-8e3af0d6e7fc" target="_blank" class="news-link">Nikkei reports Japan&#x27;s Fujitsu will export AI chips to the U.S. and Asia.</a> [26] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/001/582.htm" target="_blank" class="news-link">Hugging Face CEO：Anthropic 研究员谈 AI 灭绝风险，就像空调维修工谈气候变化</a> [26] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a094d9-a363-7118-8555-78f494c0cff8" target="_blank" class="news-link">U.S. President Trump said on Iran that everything will be resolved smoothly.</a> [28] <font color='grey'>- 19时09分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7684102772083130422" target="_blank" class="news-link">我用 AI 写完一个需求后才发现，最难的不是 prompt，而是验收</a> [29] <font color='grey'>- 19时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1241573" target="_blank" class="news-link">Codex 额度不够用，我开发了一个 SerenaDesktop 项目，让 ChatGPT 负责思考， Codex 负责干活</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/001/591.htm" target="_blank" class="news-link">华为 Pura X Max 阔折叠手机“波尔多红”“尼斯蓝”配色首销，11999 元起</a> [19] <font color='grey'>- 19时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2081824833357231259" target="_blank" class="news-link">如何看待 DeepSeek V4 PRO 9 月 14 日之后继续提供服务？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时09分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/001/597.htm" target="_blank" class="news-link">阿里 Qoder CLI 个人版 v1.1.50 开放自定义模型接入</a> [14] <font color='grey'>- 19时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
