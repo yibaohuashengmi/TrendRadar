@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 237</p><p>生成时间: 2026-09-12 09:25:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">23</td>
+                <td class="percentage">9.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0931f-60bd-7118-8552-c776b38b1ad6" target="_blank" class="news-link">Putin says European troop deployment to Ukraine would amount to war with Russia</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202609/1280897.html" target="_blank" class="news-link">张田勘：AI训练可以不付版权费吗？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0931a-0ae6-7118-8552-b6cd87a8c7b2" target="_blank" class="news-link">Crude ETF holdings: WTI exposure falls for second straight day</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/001/505.htm" target="_blank" class="news-link">第三方公司基于三星 Galaxy Watch 8 打造 Bark Watch 儿童手表，内置 AI 风险监测功能</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a092fb-7cbb-7118-8552-a013e3f9f530" target="_blank" class="news-link">Union sources said Boeing (BA.N) reached a tentative contract agreement with the engineers&#x27; union.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4273709_212_1" target="_blank" class="news-link">特朗普：对谷歌在芬兰建设AI中心一事表示不满。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a092fa-f272-7118-8552-9b7cbf838b3a" target="_blank" class="news-link">Trump, on USMCA negotiations, said he will wait until an agreement is reached with Canada and Mexico.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/001/503.htm" target="_blank" class="news-link">国补后 3499 元起，全新一代华为 MatePad Air / 悦享款平板电脑今日开售</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a092fa-4110-7118-8552-90f6de015489" target="_blank" class="news-link">Two security sources said Iraq ordered the closure of the Shalamcheh border crossing with Iran as a precaution following a recent attack on Saudi Arabia.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a092f8-7d06-7118-8552-84d6ac7d4c75" target="_blank" class="news-link">U.S. President Trump said he was not happy about Google (GOOG.O) investing to build an AI center in Finland.</a> [11] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/001/498.htm" target="_blank" class="news-link">DeepSeek 开口说话了：灰度测试 AI 语音对话，支持四种音色</a> [11] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2481278" target="_blank" class="news-link">高盛科技大会收官：巨头齐声看好AI，黄仁勋称供应链上下游均面临挑战</a> [12] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/001/497.htm" target="_blank" class="news-link">OpenAI 将 Habitat 从 Python 迁移至 Rust：CPU 效率提升 6 倍，服务 10 亿 ChatGPT 用户</a> [12] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/001/495.htm" target="_blank" class="news-link">IT早报 0912：央视曝光 AI 中转站低价灰产；新版充电宝 3C 认证标准落地；36.9 万起特斯拉 Model Y 高性能版上市；哪吒汽车拟获 30 亿元偿债重整...</a> [14] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=85343" target="_blank" class="news-link">中国留学生因 AI 制作深度伪造色情被判刑</a> [15] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2645903" target="_blank" class="news-link">解锁AI韩剧生存模式</a> [17] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/001/492.htm" target="_blank" class="news-link">OpenAI 承认其 AI 智能体曾对 Ruby 语言包管理器 RubyGems 发起网络攻击</a> [17] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260912081536867800" target="_blank" class="news-link">美国总统特朗普：对谷歌(GOOG.O)在芬兰投资建设AI中心感到不高兴。</a> [18] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3164202" target="_blank" class="news-link">美国总统特朗普：对谷歌公司在芬兰投资建设AI中心感到不高兴。</a> [20] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/001/485.htm" target="_blank" class="news-link">OpenAI 进一步完善 ChatGPT Sites：响应速度提升、新增协作功能、可绑定自定义域名</a> [24] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3164194" target="_blank" class="news-link">报道：红杉资本领投Mecka AI新一轮融资，估值逼近5亿美元</a> [25] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3164192" target="_blank" class="news-link">经济日报金观平：扶持人工智能须告别粗放式比拼</a> [26] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/001/481.htm" target="_blank" class="news-link">Fairphone 旗下 Fairbuds 2 耳机外观谍照曝光：可选黑 / 绿双色，今年第四季度上市</a> [28] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">6</td>
+                <td class="percentage">2.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781613" target="_blank" class="news-link">报道：英伟达洽谈在Anthropic IPO中投资高达100亿美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3781607" target="_blank" class="news-link">胡塞武装被曝用Claude Code替代工程师开发导弹，Anthropic：已封相关账户</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a092ed-65d2-7118-8552-7c959647dd9e" target="_blank" class="news-link">Sources say ANTHROPIC is negotiating to secure NVIDIA (NVDA.O) as an anchor investor for an IPO that could be the largest on record. NVIDIA is reportedly considering an investment of up to $10 billion in the offering.</a> [12] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260912080331501800" target="_blank" class="news-link">Anthropic据悉洽谈英伟达成为IPO锚定投资者，英伟达或投资至多100亿美元</a> [20] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/001/488.htm" target="_blank" class="news-link">冲刺史上最大 IPO：英伟达正洽谈为 Anthropic 投资至多 100 亿美元</a> [21] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3164197" target="_blank" class="news-link">报道：Anthropic正洽谈引入英伟达作为锚定投资者，或将缔造史上最大IPO，英伟达或投100亿美元</a> [23] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">1.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/001/511.htm" target="_blank" class="news-link">19999 元起华为 Mate XT 2 非凡大师三折叠手机首销：首发麒麟 9050 Pro 芯片、首搭硬件级防窥</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3164222" target="_blank" class="news-link">华为Mate XT 2非凡大师全渠道开售</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7684406403003321898/" target="_blank" class="news-link">iPhone Duo成华为小米最危险追随者</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=85347" target="_blank" class="news-link">Google 购买芬兰一核电站一半的发电量</a> [11] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/001/487.htm" target="_blank" class="news-link">谷歌正式关闭 Google Health 应用 Fitbit 账号登录入口，原有账号体系退出历史舞台</a> [22] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=DeepSeek+%E5%BC%80%E5%8F%A3%E8%AF%B4%E8%AF%9D" target="_blank" class="news-link">DeepSeek 开口说话</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3164206" target="_blank" class="news-link">DeepSeek灰度测试语音对话</a> [16] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
