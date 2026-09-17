@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 210</p><p>生成时间: 2026-09-18 06:23:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">11.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-09/anthropic-researcher-quits-over-ai-risk-d454ef" target="_blank" class="news-link">Anthropic首席执行官呼吁放缓AI发展引发全球激辩</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782021" target="_blank" class="news-link">法庭文件曝光：OpenAI、微软高管承认AI正在对新闻业构成威胁</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b144-51be-7118-85ea-0f6f588450ac" target="_blank" class="news-link">Disney (DIS.N) said criticisms and regulatory actions by the Trump administration had pressured ABC and asked a court to block the FCC from conducting advance review of its broadcast license.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49746618" target="_blank" class="news-link">Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260918/1073301013.html" target="_blank" class="news-link">媒体：OpenAI公司和英伟达公司的CEO计划出席特朗普与习近平的晚宴</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782026" target="_blank" class="news-link">算力已成不可或缺的基础资源，桥水：应对AI算力巨头进行监管</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b133-fba4-7118-85e9-f2773fb8e2bc" target="_blank" class="news-link">Container freight rates may retest pandemic highs as Middle East conflict lifts fuel costs</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3167013" target="_blank" class="news-link">Amazon：AI模型应在“准备就绪且安全”时发布</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b131-b7ef-7118-85e9-ebd3db523b35" target="_blank" class="news-link">Financial Times: The UK chancellor will on Friday urge EU finance ministers to include the UK in the &quot;European-made&quot; industrial policy to avoid repeating previous failures in UK–EU defence cooperation.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782023" target="_blank" class="news-link">SpaceX考虑从倒闭初创公司购买数据，为Grok AI模型扩充训练资源</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49746163" target="_blank" class="news-link">Bend – A language that blocks AI mistakes via proof and runs on GPUs</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b126-ce89-7118-85e9-c5424e57af77" target="_blank" class="news-link">ANTHROPIC releases metric system to track pace of frontier lab AI development</a> [11] <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b11b-5a2a-7118-85e9-b7cfa957853a" target="_blank" class="news-link">ANTHROPIC: As of August 2026, Claude accounted for 26% of AI R&amp;D usage.</a> [13] <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260918045449025800" target="_blank" class="news-link">Anthropic发布AI发展速度评估指标 追踪前沿实验室模型研发进程</a> [13] <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3167001" target="_blank" class="news-link">Anthropic分享追踪AI发展的指标数据</a> [15] <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260918044227514800" target="_blank" class="news-link">Anthropic：截至2026年8月，Claude占人工智能研发使用量的26%。</a> [15] <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b0ff-5f49-7118-85e9-8b4f5f760259" target="_blank" class="news-link">OpenAI launches a new AI model targeted at law firms.</a> [18] <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b0fd-86ea-7118-85e9-84dd6b981ac8" target="_blank" class="news-link">White House officials said President Trump will host a dinner in the Rose Garden tonight and will sign an executive order during the event to expand hunting and fishing opportunities and roll back some Biden-era restrictions. More than 100 hunters, anglers and outdoor-industry leaders have been invited; the event is scheduled for 07:00 Beijing time on the 18th.</a> [19] <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260918041155058800" target="_blank" class="news-link">OpenAI推出面向律师事务所的新型AI模型。</a> [20] <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b0ee-b149-7118-85e9-631c99f9c902" target="_blank" class="news-link">Israeli Prime Minister Netanyahu said we must carry the mission through to the end and overthrow the Iranian regime.</a> [23] <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b0eb-e75b-7118-85e9-5dfdd7a96716" target="_blank" class="news-link">OpenAI appointed Brian McCarthy as vice president of global sales; he previously worked at SpaceX (SPCX.O).</a> [24] <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3166990" target="_blank" class="news-link">Anthropic：2026年迄今，本公司Claude在AI研发领域占比26%。</a> [25] <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b0e9-2abd-7118-85e9-48968f8f9127" target="_blank" class="news-link">Israeli Prime Minister Netanyahu said Israel has many friends and supporters and must know how to influence them, and that he is working to preserve and even strengthen cooperation with the United States.</a> [26] <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49714096" target="_blank" class="news-link">TSMC revealing details about next gen A14 node</a> [27] <font color='grey'>- 06时23分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b0e0-6bf2-7118-85e9-3e17c9a5df99" target="_blank" class="news-link">President Trump said the Senate has advanced a revised Farm Bill and that it will ultimately pass with Republican support.</a> [28] <font color='grey'>- 06时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782022" target="_blank" class="news-link">Claude Code推出Projects：一个对话拆出并行线程，合上电脑任务仍在跑</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7686475485420719662/" target="_blank" class="news-link">赛力斯和华为在下怎样一盘棋</a> [29] <font color='grey'>- 06时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
