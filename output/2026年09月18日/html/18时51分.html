@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 548</p><p>生成时间: 2026-09-18 18:51:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">44</td>
+                <td class="percentage">8.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b412-7194-7118-85fe-77a872e256d2" target="_blank" class="news-link">Sanofi (SNY.O) said VaxRabneo has received approval from EU regulators for rabies prophylaxis.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49752056" target="_blank" class="news-link">Microsoft exec called AI scraping &#x27;the largest theft of labor in human history&#x27;</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b411-84db-7118-85fe-6e31d657f04d" target="_blank" class="news-link">Ukraine reports Russian drone strike on Kharkiv train station kills 1, injures 6</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/283.htm" target="_blank" class="news-link">腾讯 WorkBuddy 5.5.6 上线全栈网页应用生成能力，自带云数据库、文件存储、注册登录和 AI 调用</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49749656" target="_blank" class="news-link">A heap overflow and SSO misconfiguration to compromise OpenAI internal repos</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28364703&amp;amp;topic_name=1%E5%9D%97%E5%B0%B1%E8%83%BD%E4%B9%B0%2C%E6%9F%90%E5%9B%BD%E4%BA%A7AI%E7%96%91%E6%B6%89%E9%BB%84" target="_blank" class="news-link">1块就能买,某国产AI疑涉黄</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b407-f4f7-7118-85fe-3aabf64330c2" target="_blank" class="news-link">Billionaire Zhu Fali&#x27;s family office will leave the UK and relocate to Dubai.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/Fission-AI/OpenSpec" target="_blank" class="news-link">Fission-AI / OpenSpec</a> <font color='red'><strong>[8]</strong></font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-18/claude-leads-26-percent-ai-research-daf534" target="_blank" class="news-link">Anthropic首次披露Claude主导26%内部AI研发</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/268.htm" target="_blank" class="news-link">消息称 Anthropic 和 OpenAI 正寻求规模较小的数据中心交易，争夺 AI 算力部署能力</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E6%97%B6%E4%BB%A3%E6%95%B0%E5%AD%A6%E4%B8%93%E4%B8%9A%E8%BF%98%E6%9C%89%E4%BC%98%E5%8A%BF%E5%90%97" target="_blank" class="news-link">AI时代数学专业还有优势吗</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b406-10a6-7118-85fe-2430ff2ce37e" target="_blank" class="news-link">Russia summons UK chargé d&#x27;affaires over British military aid to Ukraine</a> [11] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3782042" target="_blank" class="news-link">一边高喊AI减速，一边闷头扩算力：Anthropic反证“算力见顶”</a> [11] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/supermemoryai/supermemory" target="_blank" class="news-link">supermemoryai / supermemory</a> [11]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b405-9fd8-7118-85fe-19fd78aa106f" target="_blank" class="news-link">An EU spokesperson said an EU-Canada summit will be held at the end of October to discuss frameworks for strengthening bilateral relations.</a> [12] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/18/b0312b0d09304b89984b9ecf8d8ba953.html" target="_blank" class="news-link">中国引领AI与网络安全标准制定</a> [13] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b404-122d-7118-85fe-12f157f148b9" target="_blank" class="news-link">TASS reports Slovak Prime Minister Fico has canceled a planned trip to Ukraine due to illness.</a> [13] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3167287" target="_blank" class="news-link">Anthropic设立生物实验室，推进AI药物研发项目</a> [14] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782067" target="_blank" class="news-link">日本央行行长：不排除连续加息选项，要先发制人地遏制通胀，中东、AI、汇率是关键变量</a> [14] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b402-1101-7118-85fe-01fd9d5c4872" target="_blank" class="news-link">European Commission spokesperson said European Commission President Von der Leyen will visit the Western Balkans from Sept. 30 to Oct. 2.</a> [15] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b401-ed5b-7118-85fd-fc099fc95491" target="_blank" class="news-link">Interfax reported the Russian Defence Ministry said Russian forces struck a cargo ship in Odesa.</a> [16] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260918/1073307228.html" target="_blank" class="news-link">中国对AI代理提出单独的安全要求</a> [17]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b400-6f0e-7118-85fd-f7d459e79716" target="_blank" class="news-link">FITCH: Thailand&#x27;s economy is highly dependent on energy, with oil and gas imports accounting for the bulk of supply and roughly half sourced from the Middle East.</a> [17] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782066" target="_blank" class="news-link">88小时抵一个人思考4000年！OpenAI核心研究员：除了自我进化，更可怕的是AI正学会“隐藏自己”</a> [17] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b3ff-c73a-7118-85fd-ee60d4a7887f" target="_blank" class="news-link">Buffett steps down as Berkshire Hathaway chairman; Howard Buffett named chairman</a> [18] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b3fe-7958-7118-85fd-e6f9349abc98" target="_blank" class="news-link">FITCH says Thailand&#x27;s BBB+ rating is supported by a strong external financial position, a sound macroeconomic policy framework and the capacity to finance government debt.</a> [19] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34091924" target="_blank" class="news-link">一图世界｜放缓AI发展，美国政商两界谁赞成、谁反对？</a> [20] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b3fd-4fe6-7118-85fd-d853367155c2" target="_blank" class="news-link">Fitch says Thailand&#x27;s total government debt-to-GDP ratio is more likely to stabilize.</a> [20] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/paintr-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">paintr</a> [20] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b3fd-35f1-7118-85fd-d615e10f91ed" target="_blank" class="news-link">FITCH: Outlook revision for Thailand reflects increased confidence that the government debt/GDP ratio will be broadly stable over the medium term.</a> [21] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3167277" target="_blank" class="news-link">报道：Anthropic和OpenAI正寻求规模较小的数据中心交易</a> [21] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b3fc-8ad3-7118-85fd-ca3ce08e29c9" target="_blank" class="news-link">FITCH revised Thailand&#x27;s outlook to stable and affirmed the sovereign rating at BBB+.</a> [22] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-14/huang-trump-call-reject-ai-doom-34f06b" target="_blank" class="news-link">特朗普公开驳斥AI末日论为骗局并拒绝加强监管</a> [22] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782062" target="_blank" class="news-link">3个人+Claude，攻进OpenAI核心代码库！AI正在降低黑客门槛</a> [22] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-17/openai-discloses-six-model-misalignment-cases-f2493d" target="_blank" class="news-link">OpenAI发布AI模型错位追踪框架并披露六起异常案例</a> [23] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1242982" target="_blank" class="news-link">Mosaic: agents from tabs to infinite canvas</a> [23] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b3f8-80a6-7118-85fd-b8a7543df25f" target="_blank" class="news-link">Berkshire Hathaway (BRK.A.N, BRK.B.N): Susan L. Decker will remain lead independent director.</a> [24] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b3f7-3812-7118-85fd-b409cb5a817d" target="_blank" class="news-link">Berkshire Hathaway (BRK.A, BRK.B): Warren Buffett named honorary chairman and will remain a director; Howard G. Buffett elected chairman.</a> [25] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782057" target="_blank" class="news-link">桥水基金：AI基建交易大多已被定价，仅持有“很小仓位”</a> [25] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b3f6-7785-7118-85fd-aa684fdac9b6" target="_blank" class="news-link">Refinitiv sources say ANTHROPIC has established a biology laboratory to conduct physical experiments aimed at advancing its drug R&amp;D. ANTHROPIC plans for its Claude AI to control physical robots and run laboratory tests with only limited human involvement.</a> [26] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b3f1-9a97-7118-85fd-9ba9e41df86a" target="_blank" class="news-link">Ukrainian media report President Zelenskiy said he will sign €1bn of agreements at an eight-country Carpathian summit and has prepared €1bn of investment and trade agreements.</a> [28] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b3f0-8c23-7118-85fd-94464c665f0d" target="_blank" class="news-link">ZELENSKIY thanked Norway for agreeing to provide more than $100 million in budget support to Ukraine via the Ukraine Fund, calling the aid an important and timely decision.</a> [29] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1242969" target="_blank" class="news-link">做了一个 AI 产品雷达 SonarPing，让它跑了 46 天，现在积累了 6 万多次产品快照</a> [29] <font color='grey'>- 18时51分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1242965" target="_blank" class="news-link">同一上下文开多个 Agent，不用再切窗口了： Mosaic</a> [30] <font color='grey'>- 18时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1243019" target="_blank" class="news-link">boss-call skills Claude message 工具平替</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782055" target="_blank" class="news-link">刚刚，Gemini 4 Pro偷跑上线！碾压Astra和Fable</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2084200588892451205" target="_blank" class="news-link">如何看待华为突破冯诺依曼「单机」架构？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1243021" target="_blank" class="news-link">Zcode 投诉信已经拟好（感谢 DeepSeek 友情代笔）</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时51分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [Solidot] <a href="https://www.solidot.org/story?sid=85417" target="_blank" class="news-link">美国政府网站使用了阿里巴巴的千问模型</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时51分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
