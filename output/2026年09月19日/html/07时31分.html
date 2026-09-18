@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 165</p><p>生成时间: 2026-09-19 07:31:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">19</td>
+                <td class="percentage">11.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1243099" target="_blank" class="news-link">新手 AI 创业，网络得咋配，求大神支招！</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b697-bb26-7118-860c-d9b1ea0abec5" target="_blank" class="news-link">The Wall Street Journal reports Google’s Gemini model autonomously attacked the systems of three companies during cybersecurity tests, the first known instance of a Google AI autonomously carrying out such actions.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260919061626069800" target="_blank" class="news-link">据华尔街日报：谷歌Gemini模型在网络安全测试中自主攻击3家公司系统，系谷歌AI首次已知自主执行此类行为。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4285854_204_1" target="_blank" class="news-link">据报道，OpenAI到2030年这段时间料将烧钱2800亿美元。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/356.htm" target="_blank" class="news-link">微软高管内部表述曝光，称训练 AI 是“人类历史上最大规模劳动窃取”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4285853_212_1" target="_blank" class="news-link">美国高级政府官员：将就人工智能与治理问题召开安理会会议。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b690-4b5b-7118-860c-ce3616cc04bf" target="_blank" class="news-link">Ukraine President Zelenskiy thanked US President Trump for signing legislation imposing sanctions on Russia and thanked members of Congress for their support.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2487680" target="_blank" class="news-link">美股收盘：AI芯片股爆发推动纳指走高 华尔街告别动荡一周</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b68b-7258-7118-860c-c1c5293239e9" target="_blank" class="news-link">Saudi civil defense said the danger in the Farasan area has been lifted.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3167512" target="_blank" class="news-link">报道：OpenAI到2030年这段时间料将烧钱2800亿美元</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4285850_212_1" target="_blank" class="news-link">市场消息：特朗普政府将于下周主办联合国人工智能主题会议。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b67d-a240-7118-860c-a956d2d2fe8f" target="_blank" class="news-link">FlightRadar24 reports Luxembourg Airport has suspended all arrivals and departures after unmanned aerial systems (UAS) were detected in the area.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/351.htm" target="_blank" class="news-link">Claude Code 宣布添加支持“AI 通用说明书”AGENTS.md</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b67c-7dce-7118-860c-a5b73ff69988" target="_blank" class="news-link">Danish prime minister&#x27;s office said Greenland, Denmark and the United States are expected to sign an agreement next week to strengthen security in the Arctic and North Atlantic.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3167508" target="_blank" class="news-link">美国政府将于下周主办联合国人工智能主题会议。（CNN）</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b67b-e366-7118-860c-9ec7c094c5d3" target="_blank" class="news-link">White House to restrict entry of certain nonimmigrant work visa holders.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49755533" target="_blank" class="news-link">Two parallel neural ectoderm progenitors contribute to the developing brain</a> [12] <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b669-8b16-7118-860c-825e24fc890b" target="_blank" class="news-link">Fars News, citing Arab sources, said Yemeni Houthi forces launched missile and drone strikes on King Khalid Air Base in Khamis Mushait, Saudi Arabia.</a> [13] <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b664-088f-7118-860c-7d7a814d8cd0" target="_blank" class="news-link">US President Trump said the US has reached an agreement with Denmark and Greenland that gives the US &quot;permanent control&quot; over Greenland&#x27;s security affairs and related needs. He said the deal would impose no cost on the US and would resolve long-standing US strategic security concerns over Greenland.</a> [14] <font color='grey'>- 07时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">5</td>
+                <td class="percentage">3.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49760187" target="_blank" class="news-link">Claude Code now reads AGENTS.md if there is no Claude.md</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782109" target="_blank" class="news-link">报道：Anthropic将IPO时间推迟至11月，欲借三季度财报“背书”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b66b-3cc4-7118-860c-8dfa24c96b9f" target="_blank" class="news-link">Wall Street Journal reports Anthropic has delayed its planned IPO to November.</a> [12] <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260919052745502800" target="_blank" class="news-link">据华尔街日报：Anthropic将原定的IPO推迟至11月。</a> [14] <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3167490" target="_blank" class="news-link">报道：Anthropic计划11月IPO</a> [23] <font color='grey'>- 07时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">5</td>
+                <td class="percentage">3.03%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0b69a-d57e-7118-860c-e6ef0e746d57" target="_blank" class="news-link">GEMINI autonomously accessed external systems in first known case; Google says no damage</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260919061946164800" target="_blank" class="news-link">Gemini首次出现自主访问外部系统事件 谷歌称未造成实际损害</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/357.htm" target="_blank" class="news-link">华硕旗下首款 Googlebook 笔记本外观曝光：A 面具有彩虹灯效灯带、键盘提供 Google 按键</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/355.htm" target="_blank" class="news-link">谷歌首次公开 Gemini 越狱事件：在测试中自主入侵三家真实公司且自行终止，已通知涉事企业</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3167504" target="_blank" class="news-link">谷歌Gemini在安全测试中自主入侵三家真实企业，公司称未构成模型错配且未主动披露</a> [13] <font color='grey'>- 07时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">1.21%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3167510" target="_blank" class="news-link">千问发布Qwen3.8-Omni-Flash， 提升其在真实生产力场景中的 Agent 能力</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时31分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/09988" target="_blank" class="news-link">阿里巴巴-W</a> [30] <font color='grey'>- 07时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
