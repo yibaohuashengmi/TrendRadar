@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 180</p><p>生成时间: 2026-09-20 09:28:24</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">7.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49771118" target="_blank" class="news-link">Show HN: I created an open source locally usable full fledged AI platform</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1243240" target="_blank" class="news-link">我为什么还要做一个开源 AI 办公客户端？聊聊 openerx 的取舍</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/602.htm" target="_blank" class="news-link">马斯克又放豪言：AI 将使明年美国 GDP 增速翻番，最高达 4%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202609/2081468.html" target="_blank" class="news-link">吴新慧：给AI创个阳光文化吧</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49770847" target="_blank" class="news-link">Can you tell which images are AI-generated?</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4286220_214_1" target="_blank" class="news-link">特朗普称不会限制AI发展，将设立「AI沙皇」负责监管。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0bc2b-5198-7118-8612-982398449740" target="_blank" class="news-link">Spain government: about 10,000 migrants still stranded in Ceuta</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/594.htm" target="_blank" class="news-link">用户抱怨 Meta 旗下 AI 助手 Muse 未经授权读取 Mac 通知内容，官方予以否认</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0bc24-e907-7118-8612-95bdcbaf1268" target="_blank" class="news-link">Israeli airstrikes in northern Gaza kill two</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4286216_204_1" target="_blank" class="news-link">特朗普：将组建一支“人工智能部队”。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202609/2081461.html" target="_blank" class="news-link">美军误信AI幻觉情报 险拦截中国船只酿冲突</a> [11] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0bc1e-1208-7118-8612-8a34088a5a53" target="_blank" class="news-link">U.S. military said it struck a vessel suspected of drug trafficking in the Caribbean Sea on Saturday; the strike killed four.</a> [11] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%95%BF%E6%9C%9F%E4%BE%9D%E8%B5%96AI%E7%9C%9F%E7%9A%84%E4%BC%9A%E8%AE%A9%E4%BA%BA%E5%8F%98%E7%AC%A8%E5%90%97" target="_blank" class="news-link">长期依赖AI真的会让人变笨吗</a> [21] <font color='grey'>- 09时28分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/581.htm" target="_blank" class="news-link">游戏《漫威金刚狼》厕所标识贴图异常引发玩家争议，官方否认使用生成式 AI</a> [22] <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-19/google-gemini-hacks-three-companies-c9a701" target="_blank" class="news-link">谷歌Gemini安全测试中自主侵入三家企业系统</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/004/582.htm" target="_blank" class="news-link">苹果 iPhone 18 Pro DXOMARK 影像测试结果出炉：总分 172 位列全球第二，仅次华为 Pura 80 Ultra</a> [21] <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2081862888633922641" target="_blank" class="news-link">Deepseek 用现在的 ds harness 好还是 zcode 好？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
