@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 105</p><p>生成时间: 2026-09-21 05:27:27</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">15</td>
+                <td class="percentage">14.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c0b4-338f-7118-8619-a1233a7e4abb" target="_blank" class="news-link">Houthi forces say Saudi airstrike on northern Yemen communications towers killed four</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49779802" target="_blank" class="news-link">OpenAI&#x27;s Sam Altman to Brief UN Security Council Next Week</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c08b-0899-7118-8619-8c3b0009885d" target="_blank" class="news-link">Axios reports US President Trump will meet Ukrainian President Zelenskiy in New York on Tuesday as the US pushes for a de-escalation agreement in the Russia-Ukraine situation.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3167858" target="_blank" class="news-link">黄仁勋：警惕AI末日叙事，部分人士意在谋求豁免现行法律管控</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c082-3876-7118-8619-7d036353360b" target="_blank" class="news-link">Nikkei: Japan to partner with machinery makers to gather factory data for physical AI</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260921042904217800" target="_blank" class="news-link">日媒：日本政府将联手机械制造商为物理AI收集数据</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c07c-4fa4-7118-8619-7132c4e22638" target="_blank" class="news-link">Nikkei reports Japan will use industrial machinery to collect physical-world AI data.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260921042242493800" target="_blank" class="news-link">据日经新闻：日本将利用工业机械收集物理人工智能数据。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782152" target="_blank" class="news-link">OpenAI又要融资了：1.2万亿美元估值，谁还敢接下一棒？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c05f-653a-7118-8619-505a96fac85b" target="_blank" class="news-link">France&#x27;s Foreign Ministry said it will take appropriate measures in response after Iran closed the language center in Tehran.</a> [11] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c05e-61d7-7118-8619-48a010cd73a4" target="_blank" class="news-link">France&#x27;s foreign ministry said the decision to close the language center in Tehran was unreasonable and unacceptable.</a> [12] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c053-3954-7118-8619-33c84331fdc9" target="_blank" class="news-link">Qatar energy minister says U.S. Treasury Secretary underestimated value of Strait of Hormuz; importance won&#x27;t fade</a> [15] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7687440193649033222" target="_blank" class="news-link">Spring AI、LangChain4j、AgentScope、Embabel，哪个AI框架更好？</a> [25] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7687541156233612842/" target="_blank" class="news-link">任泽平：AI超级大爆发</a> [27] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7687439830713417737" target="_blank" class="news-link">为什么全世界的 AI 都画不好一只骑自行车的鹈鹕</a> [30] <font color='grey'>- 05时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49775499" target="_blank" class="news-link">Qwen Image 2.1</a> [20] <font color='grey'>- 05时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
