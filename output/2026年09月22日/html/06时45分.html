@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 230</p><p>生成时间: 2026-09-22 06:45:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">34</td>
+                <td class="percentage">14.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c61a-07d8-7118-8633-18bfdf484748" target="_blank" class="news-link">Three people familiar with the matter said the U.S. plans to reopen a military base in southern Greenland and to build a second base in eastern Greenland.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1243788" target="_blank" class="news-link">Nano Banana 2.5 正式上线：用顶尖模型性能与极速生成能力，打造专业级 AI 图像创作工具</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c614-eefa-7118-8633-12a57084803c" target="_blank" class="news-link">ECB chief economist LANE said a second wave of energy-price increases will push inf higher and expects it to start gradually returning to target from mid-2027.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3168517" target="_blank" class="news-link">近40家公司预告三季度业绩，AI产业链高景气度持续兑现</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3782253" target="_blank" class="news-link">澳大利亚：AI攻势的新跳板</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782251" target="_blank" class="news-link">报道：OpenAI和Anthropic拟相互进行压力测试，寻找潜在安全风险</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49792342" target="_blank" class="news-link">Transformers Explained Visually</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c612-7cab-7118-8633-053e0486fd97" target="_blank" class="news-link">ECB chief economist Lane said that, provided the energy shock does not intensify, the euro-area economy should continue to grow at a steady but modest pace.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782246" target="_blank" class="news-link">标普：未来数年银行对AI的应用将影响信用评级</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49792067" target="_blank" class="news-link">AI coding has made CI a bottleneck, so we reworked ours to keep up</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260922/1073339857.html" target="_blank" class="news-link">特朗普：关于人工智能风险的阴谋论要比俄罗斯干预选举这种谎言更不可信</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782249" target="_blank" class="news-link">比特币升破8.5万美元创八个月新高：立法折戟反成催化，资金从AI回流加密</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c602-914f-7118-8632-e3782ef726d2" target="_blank" class="news-link">U.S. Transportation Secretary Duffy said telecommunications lines have been repaired and all airports in the U.S. Northeast have resumed normal operations.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782247" target="_blank" class="news-link">OpenAI和Anthropic营收面临威胁：成本压力下，更多AI初创企业转向开源模型</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49791647" target="_blank" class="news-link">Frontier AI on Your Own Hardware</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c5f9-c12e-7118-8632-d6022f2d57fd" target="_blank" class="news-link">Saudi state TV reported Iraqi Prime Minister al-Zaidi met U.S. Secretary of State Rubio on the sidelines of the 81st UN General Assembly.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c5f8-a8a2-7118-8632-c994ee851c4a" target="_blank" class="news-link">BP said its Whiting, Indiana refinery, with capacity of 440,000 barrels per day, resumed normal operations after completing planned maintenance last week.</a> [11] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49791378" target="_blank" class="news-link">Why does mathmain need an encrypted loader?</a> [11] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4288395_212_1" target="_blank" class="news-link">英国首相伯纳姆将呼吁全球共同努力，以应对人工智能带来的威胁。</a> [12] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c5f1-3bc6-7118-8632-b9dc9bcb93a8" target="_blank" class="news-link">FITCH expects Tesla (TSLA.O)&#x27;s battery-electric vehicle business to remain strongly profitable, but warns margins could decline over the next few years as the company rapidly scales significant investments in artificial intelligence.</a> [13] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c5e6-c63c-7118-8632-a7266ed7ae1e" target="_blank" class="news-link">EU high representative for foreign affairs and security policy kallas said more than 10 vessels are needed in the Red Sea.</a> [16] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c5e6-967d-7118-8632-9aa193534acd" target="_blank" class="news-link">EU High Representative for Foreign Affairs and Security Policy kallas said the EU naval operation in the Red Sea needs additional naval and air assets.</a> [17] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c5e6-5d23-7118-8632-97f155edfddd" target="_blank" class="news-link">EU High Representative for Foreign Affairs and Security Policy Kallas said the EU hopes to extend sanctions as soon as possible.</a> [18] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c5e5-d179-7118-8632-8e6299e08f63" target="_blank" class="news-link">EU high representative for foreign affairs and security policy Kallas said the EU needs to impose higher costs on Russia as it takes greater risks.</a> [19] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260922054829601800" target="_blank" class="news-link">惠誉：预计特斯拉(TSLA.O)的纯电动汽车业务将继续保持强劲的盈利能力，但随着公司迅速加大对人工智能的重大投资，未来几年利润率可能会下降。</a> [19] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c5e3-4ef2-7118-8632-87d801b84021" target="_blank" class="news-link">U.S. President Trump said he believes the media have a duty to be fair and that, if they are fake news, he believes he has an obligation to bar them from a very special place.</a> [20] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260922054747213800" target="_blank" class="news-link">惠誉：特斯拉(TSLA.O)的评级反映了该公司作为全球电池电动汽车（BEV）领导者的强大市场地位，以及其向实体人工智能公司转型的战略重点。</a> [20] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/9d5a145e7c124b0a843766bab7bdbcc9" target="_blank" class="news-link">网易雷火游戏客户端研发笔试AI Coding题</a> [20] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c5df-0147-7118-8632-7ba64f777fa8" target="_blank" class="news-link">President Trump said Iran will not have nuclear weapons and is in an extremely bad situation.</a> [21] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c5dc-8ced-7118-8632-74a332f2a733" target="_blank" class="news-link">Trump said New York City mayor Mamudani has considerable potential.</a> [22] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c5d8-50d6-7118-8632-5e308a4363da" target="_blank" class="news-link">Trump said he and New York City mayor Mamdani disagree, but that Mamdani deserves respect.</a> [25] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c5d6-3160-7118-8632-48d29bbe0050" target="_blank" class="news-link">Polish military says no breach of the Republic of Poland&#x27;s airspace detected. Ground air-defence systems and radar reconnaissance have resumed normal operations.</a> [27] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c5d4-2f0e-7118-8632-41ded08d1824" target="_blank" class="news-link">Poland&#x27;s military says military aviation operations in its airspace have ended.</a> [28] <font color='grey'>- 06时45分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0c5cc-97c8-7118-8632-309f2654a878" target="_blank" class="news-link">UK PM Burnham to provide defensive air-to-air refuelling to Saudi Arabia</a> [30] <font color='grey'>- 06时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3168500" target="_blank" class="news-link">佐治亚电力与谷歌达成协议：预计为客户带来约9亿美元收益</a> [16] <font color='grey'>- 06时45分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
