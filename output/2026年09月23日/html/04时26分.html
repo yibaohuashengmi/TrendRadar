@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 241</p><p>生成时间: 2026-09-23 04:26:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">34</td>
+                <td class="percentage">14.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/006/003.htm" target="_blank" class="news-link">高通骁龙芯片将整合 HBC 架构：手机本地运行 AI 更快、更省电</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-15/bessent-to-meet-he-lifeng-this-weekend-f2198d" target="_blank" class="news-link">何立峰与贝森特纽约会谈同意建立中美AI对话机制</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/006/002.htm" target="_blank" class="news-link">阿里千问平板 Qwen Book 现身 2026 骁龙峰会，定位原生 AI 智能体电脑</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cac1-1bc2-7118-8650-446ed287c30c" target="_blank" class="news-link">ECB executive board member Nagel said he sees little uncertainty in markets&#x27; understanding of the drivers behind ECB decisions.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/006/001.htm" target="_blank" class="news-link">OpenAI 发布 GPT-6 Sol 和 Luna 模型，API 价格大降 50%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cac0-bef7-7118-8650-3fadd9ad2a3d" target="_blank" class="news-link">ECB executive board member Nagel said the bank&#x27;s monetary policy approach sits between constructive ambiguity and forward guidance.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782320" target="_blank" class="news-link">OpenAI再推两款GPT-6模型：Sol、Luna定价降50%，Astra能力加速下沉</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49806430" target="_blank" class="news-link">Overreliance on AI contributed to missile strike on Iran school – Pentagon</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cabd-97d4-7118-8650-34f6ec4faae9" target="_blank" class="news-link">ECB Governing Council member Nagel said he was not overly concerned about labour-market developments.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49806376" target="_blank" class="news-link">Explaining to business people why building software is still hard</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cabd-8962-7118-8650-2b8dfc226132" target="_blank" class="news-link">People familiar said the president of the Inter-American Development Bank is seeking a $2.5 billion loan for Venezuela but faces resistance from the bank&#x27;s board.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cabb-8f3f-7118-8650-25ce67797b27" target="_blank" class="news-link">Financial Times reports the U.S. government and Gulf billionaires are backing U.S. billionaire Todd Boehly’s bid to acquire Lukoil oil assets.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782314" target="_blank" class="news-link">大摩详解“AI时代的广告业”：从注意力争夺到交易闭环</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cabb-131b-7118-8650-197b4585936b" target="_blank" class="news-link">Canadian Prime Minister Carney said Canada will provide C$100 million in international assistance to the Palestinians.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782313" target="_blank" class="news-link">特朗普联大讲话：美国中选后或与伊朗达成协议、油价或大跌，对AI“只鼓励、不限制”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782313" target="_blank" class="news-link">特朗普联大讲话：美国中选后或与伊朗达成协议、油价或大跌，对AI“只鼓励、不限制”</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cab7-db44-7118-8650-01e34be34c48" target="_blank" class="news-link">ECB Governing Council member Nagel said oil prices are not the only indicator but have become more relevant over the past four years.</a> [11] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cab7-b8b3-7118-864f-fb90cef79b0b" target="_blank" class="news-link">Market sources: Microsoft (MSFT.O) has agreed with an activist shareholder to maintain its current shareholder proposal eligibility thresholds through next year’s annual meeting, even as the U.S. SEC considers related rule changes.</a> [12] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cab0-079c-7118-864f-e8c2faa14bc3" target="_blank" class="news-link">Axios: Trump adviser blames high gasoline prices on refining capacity constraints</a> [14] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49803683" target="_blank" class="news-link">Show HN: AI·rete·RAG – a Rete rule engine decides, RAG explains why</a> [14] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0caaf-2a81-7118-864f-e71841cf6e76" target="_blank" class="news-link">Iran&#x27;s armed forces said in a statement that U.S. President Trump&#x27;s remarks on Iran at the UN General Assembly were &quot;a tool of domestic propaganda&quot;.</a> [15] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0caa9-55b9-7118-864f-df7fdc72d380" target="_blank" class="news-link">UK Prime Minister Burnham said he pressed Trump over tariffs.</a> [16] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0caa4-db47-7118-864f-ce4c8a2ca9cc" target="_blank" class="news-link">US President Trump said we believe the war with Iran could end after the midterm elections or before.</a> [18] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0caa3-f2db-7118-864f-c50983f759f1" target="_blank" class="news-link">TRUMP said the US had not yet detected movement by PICKAXE MOUNTAIN but would strike if any were detected.</a> [19] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0caa3-4438-7118-864f-bb794b9cc3ef" target="_blank" class="news-link">U.S. President Trump said he may have to destroy Pickaxe Mountain.</a> [20] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/931241025345978368" target="_blank" class="news-link">度小满AI全栈一面</a> [20] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0caa2-aa77-7118-864f-b3b735cb6cfe" target="_blank" class="news-link">U.S. President Trump says he is pushing to restore unimpeded oil transit through the Strait of Hormuz.</a> [21] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0caa2-5c6d-7118-864f-af8ed5434696" target="_blank" class="news-link">U.S. President Trump said he hopes Iran will make the right choice soon, warning that one day it will be too late.</a> [22] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0caa0-4b66-7118-864f-a3afd2e384e3" target="_blank" class="news-link">Turkey&#x27;s central bank governor said the underlying trend of inf has slowed recently.</a> [23] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ca9f-c819-7118-864f-93d6b2d1e3d4" target="_blank" class="news-link">Turkish central bank governor says international reserves buffer remains strong.</a> [25] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ca9f-ab76-7118-864f-8c10f9c42122" target="_blank" class="news-link">Turkish central bank governor said external shocks and domestic transmission channels will affect future inf.</a> [26] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ca9f-7449-7118-864f-84f04f7b8218" target="_blank" class="news-link">Turkey&#x27;s central bank governor said inflation expectations require continued caution.</a> [27] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ca9f-36ae-7118-864f-78d1e449148b" target="_blank" class="news-link">President Trump said he expects Witkoff and Kushner to resolve the matter.</a> [28] <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ca9d-910c-7118-864f-6ebfdcec8864" target="_blank" class="news-link">U.S. President Trump said he believes Iran will do some good things.</a> [30] <font color='grey'>- 04时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">1.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/005/998.htm" target="_blank" class="news-link">Anthropic 发布 Claude Opus 5.5 模型：性能媲美 Fable 5.1，运行成本比 Opus 5 低 40%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782316" target="_blank" class="news-link">Anthropic呼吁放慢开发后首次上新：Claude Opus 5.5能力接近Fable 5.1、成本降四成</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 04时26分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49804316" target="_blank" class="news-link">Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)</a> [11] <font color='grey'>- 04时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7687956825979633718/" target="_blank" class="news-link">华为Mate 90系列价格曝光</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时26分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3169130" target="_blank" class="news-link">纳斯达克金龙中国指数初步收涨0.3%。 热门中概股里，小马智行初步收涨5.9%，大全新能源涨2.7%，网易涨1.2%，阿里巴巴涨0.5%，百度涨0.4%。 ETF中，KWEB涨0.7%，CQQQ涨0.2%。</a> <font color='red'><strong>[3]</strong></font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
