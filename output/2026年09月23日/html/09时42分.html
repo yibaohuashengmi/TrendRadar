@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 346</p><p>生成时间: 2026-09-23 09:42:36</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">37</td>
+                <td class="percentage">10.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://original.ifeng.com/c/8we6gVwGc52" target="_blank" class="news-link">鲁比奥：将与中国探讨建设AI预警热线</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959905" target="_blank" class="news-link">两年前所有人都笑老黄，现在AI“10亿倍增长”真的来了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49809806" target="_blank" class="news-link">The new CC, an AI agent built for families</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cbd4-e919-7118-8653-927b71099b14" target="_blank" class="news-link">South Korea&#x27;s presidential office said President Lee met U.S. President Trump for 30 minutes.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-19/trump-announces-ai-force-czar-44b9ef" target="_blank" class="news-link">特朗普宣布组建人工智能部队并任命AI沙皇</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/006/065.htm" target="_blank" class="news-link">韶音旗下首款 AI 耳机 OpenFit 2 AI 亮相 2026 云栖大会，AI 实验室新功能首发</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cbd3-3f1b-7118-8653-82d3d2b181f5" target="_blank" class="news-link">Galaxy Securities: AI sector enters rational verification phase</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260923/1073354694.html" target="_blank" class="news-link">马克龙呼吁建立独立于中美的人工智能基础设施</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cbd1-81fe-7118-8653-7f208cb2f1e2" target="_blank" class="news-link">Omdia: Global AI glasses shipments 1H 2026 at 4.2 mln, up 127% YoY</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959904" target="_blank" class="news-link">纳指100创新高背后：AI正在让科技公司“增收不增人”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1244103" target="_blank" class="news-link">上线了一个分钟级的全球 AI 模型、产品与行业动态的 AI 快讯模块</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782333" target="_blank" class="news-link">AI交易回归，纳指创出新高，存储全线领涨</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260923093758678800" target="_blank" class="news-link">马斯克谈AI时代核心竞争力：未来最重要的是会提问</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202609/2381707.html" target="_blank" class="news-link">劳静仪：AI破解数学世纪难题的争议</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cbc8-009b-7118-8653-66c409eac0fc" target="_blank" class="news-link">Taiwan Stock Exchange Weighted Index (TAIEX) opened up 388.11 points, or 0.81%, at 48,188.28 points on Wednesday, Sept. 23.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cbc7-3778-7118-8653-50361b0f75ef" target="_blank" class="news-link">At the morning open on Wednesday Sep 23, Shanghai Gold Exchange Gold T+D rose 0.5% to 940.0 yuan/gram; Shanghai Gold Exchange Silver T+D rose 1.74% to 16,297.0 yuan/kg.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782332" target="_blank" class="news-link">同日推出&quot;廉价模型&quot;，OpenAI和Anthropic开打&quot;价格战&quot;</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cbc3-5c8b-7118-8653-47919e672111" target="_blank" class="news-link">Saudi foreign minister said Riyadh welcomed moves by France, the UK and Canada to recognise Palestine, and said Gaza is an indivisible part of the occupied Palestinian territory.</a> [12] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4290722_212_1" target="_blank" class="news-link">日本首相高市早苗：当地时间22日13时过后，与特朗普总统)举行了日美首脑会谈，就广泛领域的合作以及地区形势进行了扎实的讨论。关于日美两国共同高度重视并推进的经济安全保障，在AI、半导体、重要矿物等领域，确认了为赢得技术竞争、提升韧性而开展合作的决心，并决定进一步加强这一合作。此外，关于关税相关的日美间协议，再次确认了稳步实施的重要性，并一致同意双方推进合作。</a> [12] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cbc1-2ea1-7118-8653-39d648b1b23e" target="_blank" class="news-link">Sources: U.S. Treasury Secretary Bessent may be named Trump&#x27;s AI czar</a> [13] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782321" target="_blank" class="news-link">OpenAI新举措：允许第三方机构在模型训练、开发阶段进行安全评估</a> [13] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cbb6-8ffd-7118-8653-256976488d7f" target="_blank" class="news-link">Galaxy Securities: Fed 25bp Hike Raises Risk-Free Rate; AI Shifts to Near-Term Validation</a> [16] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cba8-379f-7118-8653-0b155ff3289d" target="_blank" class="news-link">WSJ: Zelenskiy asked Trump for winter military aid, expects U.S. to press for energy ceasefire</a> [19] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3169202" target="_blank" class="news-link">微软将加大Copilot折扣，推出人工智能“超级应用”。（The Information）</a> [19] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/006/036.htm" target="_blank" class="news-link">谷歌前安全负责人：AI 对儿童的伤害恐超社交媒体</a> [21] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cb99-4d8f-7118-8652-f4936ea821b9" target="_blank" class="news-link">Iran, Iraq FMs meet at UNGA; Iran cites Strait of Hormuz safety accord with Oman</a> [22] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cb95-e583-7118-8652-ef328b09b7ac" target="_blank" class="news-link">ADB slightly raises 2026 growth forecast for developing Asia-Pacific economies</a> [23] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3782076" target="_blank" class="news-link">功率半导体又涨价了：新周期、新革命，AI供电的隐藏红利受益者？</a> [23] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4290677_214_1" target="_blank" class="news-link">银河证券：美联储加息抬升无风险利率，AI步入理性验证。</a> [25] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/006/032.htm" target="_blank" class="news-link">三菱重工：美国 AI 数据中心需求推动燃气轮机订单创新高</a> [25] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cb91-f292-7118-8652-d1c34f9505d8" target="_blank" class="news-link">Asian Development Bank held its 2026 GDP growth forecast for Japan at 0.7% and raised India&#x27;s 2026 GDP growth forecast to 7.0% from 6.6%.</a> [26] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cb91-aef9-7118-8652-cbf8fb4d4a5a" target="_blank" class="news-link">Asian Development Bank raised its 2027 inflation forecast for Asia to 3.5% from 3.4%.</a> [27] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/006/030.htm" target="_blank" class="news-link">IT早报 0923：中国民企 500 强出炉；高通 2nm 旗舰 SoC 六代骁龙 8 超级至尊版发布；OpenAI 发布 GPT-6 Sol、Luna；OPPO Find X10 系列发布...</a> [27] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7687443176714059819/" target="_blank" class="news-link">AI智能回答侵犯名誉权 百度败诉道歉</a> [28] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cb91-91ac-7118-8652-c62afa33dbd3" target="_blank" class="news-link">Asian Development Bank maintains its 2027 GDP growth forecast for developing Asia at 5.1%.</a> [28] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3169190" target="_blank" class="news-link">据华尔街日报，维权对冲基金Jana Partners正敦促主题公园运营商Six Flags Entertainment考虑出售事宜。受此消息影响，Six Flags股价在盘后交易中上涨逾5%。</a> [30] <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/006/026.htm" target="_blank" class="news-link">李飞飞谈 AI 安全：不能只让开发者评估自己的系统</a> [30] <font color='grey'>- 09时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">0.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34125826" target="_blank" class="news-link">赛力斯董事长回应与华为合作模式生变：提升品牌价值与销量，全球通行做法</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3169212" target="_blank" class="news-link">岚图高管回应与华为关系：最好的合作模式是强强联合</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时42分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/006/034.htm" target="_blank" class="news-link">华为 Mate XT 2 非凡大师三折叠手机手写笔套装今日开售：16GB+2TB、灵盾防窥屏，29999 元</a> [23] <font color='grey'>- 09时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1244099" target="_blank" class="news-link">claude opus 5.5 和 gpt 6 sol ,你们都用上了吗？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8wdIpvxWoQW" target="_blank" class="news-link">“DeepSeek将向联合国安理会作通报”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时42分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260923093919550800" target="_blank" class="news-link">阿里云发布企业级Agent平台AgentCore</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
