@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 551</p><p>生成时间: 2026-09-23 15:34:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">45</td>
+                <td class="percentage">8.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cd21-7127-7118-865b-3473b70861af" target="_blank" class="news-link">Bank Indonesia governor says the central bank will continue accommodative macroprudential measures to support economic growth while maintaining market stability.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-15/bessent-to-meet-he-lifeng-this-weekend-f2198d" target="_blank" class="news-link">贝森特与何立峰纽约会谈建立美中AI对话机制</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-23/openai-anthropic-launch-cheaper-ai-models-6f578a" target="_blank" class="news-link">OpenAI与Anthropic同日发布新一代低价AI模型</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782358" target="_blank" class="news-link">AI替代潮被高估？巴克莱：仅20%职场核心技能可被高度复制，但放大效应已悄然蔓延</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959910" target="_blank" class="news-link">OpenAI和Anthropic通吃不了华尔街，很多“脏活”他们看不上</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202609/2381749.html" target="_blank" class="news-link">特朗普：美国政府将正式把人工智能更名“超级智能”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1244252" target="_blank" class="news-link">代码只会看红色报错，用 AI 两天做了个「我来挪车啊」</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/realistic-ai-headshots?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Realistic AI Headshots</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260923/1073357021.html" target="_blank" class="news-link">特朗普联合国大会宣布：人工智能将更名“超级智能”</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782345" target="_blank" class="news-link">AI隐形骨架浮出水面！大摩：CCL与铜箔赛道百亿美元增量开启</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2490899" target="_blank" class="news-link">Muse大火之际，Meta Connect重磅来袭：AI+智能穿戴会否带来全新惊喜</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782354" target="_blank" class="news-link">AI主题延续热度，全球科技股领涨，韩股上涨0.49%，油价续跌带动债券上涨</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5316745" target="_blank" class="news-link">研报掘金丨东海证券：维持百普赛斯“买入”评级，业绩快速增长，AI赋能高效发展</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cd1c-ba2c-7118-865a-f487f7270f63" target="_blank" class="news-link">Ministry of Civil Affairs: China to continue advancing inclusive, basic and safety‑net social welfare</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/006/277.htm" target="_blank" class="news-link">大力投入 AI 未必真能省钱，麦肯锡报告称智能体或让企业面临更高成本</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cd1a-e86a-7118-865a-eddb3e856f2c" target="_blank" class="news-link">Over 10 banks halt SGE retail precious‑metals agency; physical gold sales unaffected</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cd1a-c1c1-7118-865a-e037ab1cc050" target="_blank" class="news-link">Bank Indonesia governor said the central bank will optimize all policy tools to attract capital inflows.</a> [11] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782335" target="_blank" class="news-link">谈谈Agentic 时代的 DPU是什么: CIPU如何构建阿里云AI Agent、推理、训练等AI infra核心技术竞争力</a> [11] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3782336" target="_blank" class="news-link">Shopify叙事反转：AI原本要绕过它，现在Muse反而要接入它</a> [12] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959908" target="_blank" class="news-link">“AI时代的彭博”什么样？Agent之间直接谈交易</a> [13] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34130539" target="_blank" class="news-link">AI“减速”讨论未歇，OpenAI、Anthropic同日上新，竞逐更低成本</a> [14] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cd18-fecd-7118-865a-c844136ab9ff" target="_blank" class="news-link">Bank Indonesia governor said the 2026 GDP growth outlook remains unchanged at 4.9% to 5.7%.</a> [14] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://kaopu.news/story/2026-09-22/alibaba-launches-zhenwu-v900-ai-chip-6443dd" target="_blank" class="news-link">阿里巴巴发布新一代AI芯片真武V900并宣布全球数据中心扩张计划</a> [14] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260923/1073355896.html" target="_blank" class="news-link">媒体：美国财政部长贝森特或将出任“AI沙皇”</a> [15]</div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/23/e0414ccd8275456891c803a5025c45fe.html" target="_blank" class="news-link">国际能源署预测人工智能节能效果远超其能耗</a> [16] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202609/2381738.html" target="_blank" class="news-link">阿里巴巴将在欧洲中东增设数据中心 加码AI布局</a> [16] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/ai-marketplaces-leaderboard?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">AI Marketplaces Leaderboard</a> [16] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cd17-7bab-7118-865a-b1f11f6e3d6e" target="_blank" class="news-link">Bank Indonesia governor said Indonesia&#x27;s domestic economic growth remains healthy.</a> [17] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cd17-2da7-7118-865a-a4b49082f38d" target="_blank" class="news-link">Bank Indonesia Governor said global monetary policy, including in the United States, is expected to tighten.</a> [19] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cd16-d798-7118-865a-9d823b3bb840" target="_blank" class="news-link">Bank Indonesia governor said global economic growth is still projected at 3% and global inflation at about 4%.</a> [20] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cd16-7e62-7118-865a-94a244af2d71" target="_blank" class="news-link">Bank Indonesia governor says global economic growth in 2026 remains subdued.</a> [21] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782341" target="_blank" class="news-link">高盛认为“美国通胀被高估”，主因“暂时性的关税”和“AI统计偏差”</a> [22] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cd15-77bf-7118-865a-83a66a37da69" target="_blank" class="news-link">NHTSA said RIVIAN is recalling 98,828 vehicles in the U.S.</a> [23] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782340" target="_blank" class="news-link">当AI开始“自己教自己”：Opus 5.5是首个RSI训练出的大模型？</a> [23] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/006/240.htm" target="_blank" class="news-link">全新深蓝 S07 AI 激光版搭载豆包大模型：支持自然语言输入、车外语音操控</a> [23] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959906" target="_blank" class="news-link">Seedance神还原AGI大战：全球AI大佬狂飙 “Made in China”压轴登场</a> [25] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cd13-a4ec-7118-865a-6dd120b1d02b" target="_blank" class="news-link">Ukraine First Vice Prime Minister and Energy Minister Shmyhal said Kyiv places high priority on cooperation with US partners in the energy sector and that strengthening energy security for Ukraine and Europe is a shared priority.</a> [26] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/006/234.htm" target="_blank" class="news-link">联想 LOQ 15 AI 全能本发售：酷睿 5 205H + RTX 3050，国补后 6629.15 元</a> [26] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cd13-77e8-7118-865a-609b5e3751a7" target="_blank" class="news-link">Sept 23 (Wed) — China’s Shanghai Composite Index closed down 15.61 points, or 0.39%, at 3,936.52; Shenzhen Composite Index fell 87.66 points, or 0.64%, to 13,636.07; CSI 300 Index lost 27.31 points, or 0.60%, to 4,517.28; ChiNext Index dropped 20.32 points, or 0.60%, to 3,379.61; China Sci‑Tech Innovation 50 Index slipped 4.19 points, or 0.25%, to 1,660.85.</a> [27] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49794844" target="_blank" class="news-link">Delta: Highly available, strongly consistent storage using chain replication (2022)</a> [27] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cd13-749f-7118-865a-59d315dacd76" target="_blank" class="news-link">Ukraine&#x27;s First Vice Prime Minister and Energy Minister Shmyhal said both sides see significant cooperation potential in producing nuclear fuel components and fuel assemblies.</a> [28] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/006/230.htm" target="_blank" class="news-link">最高折扣 50%：消息称微软推进 AI 替你“干活”，Copilot 同步变身超级应用</a> [28] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cd13-5a68-7118-865a-520ddb0aae6f" target="_blank" class="news-link">Ukraine First Deputy Prime Minister and Energy Minister Shmyhal said talks covered cooperation in nuclear energy. Ukraine and the United States plan to use Westinghouse Electric Company&#x27;s technology to jointly construct a large reactor unit at the Khmelnytskyi nuclear power plant.</a> [29] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cd12-e3ce-7118-865a-4e9283989639" target="_blank" class="news-link">Ukraine&#x27;s first deputy prime minister and energy minister Shmyhal met in New York with U.S. Energy Secretary Chris Wright to discuss energy security, highlighting energy&#x27;s systemic importance and urging diplomatic efforts to secure an energy ceasefire.</a> [30] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1244183" target="_blank" class="news-link">使用 WARP IPv6 后导致部分 AI 服务使用异常</a> [30] <font color='grey'>- 15时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">6</td>
+                <td class="percentage">1.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260923150945145800" target="_blank" class="news-link">千问发布 Qwen-Audio-3.1 下调 Qwen-Audio 全线语音模型价格</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1244256" target="_blank" class="news-link">阿里这次比不上腾子！这个智能终端确实更懂运维</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/006/280.htm" target="_blank" class="news-link">阿里千问发布 Qwen-Audio-3.1 系列语音大模型，并下调全线产品价格</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0cd19-89dc-7118-865a-d655a7698751" target="_blank" class="news-link">Qianwen launches Qwen-Audio-3.1, cuts prices across audio models</a> [13] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3169373" target="_blank" class="news-link">千问发布Qwen-Audio-3.1，下调Qwen-Audio全线语音模型价格</a> [18] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782339" target="_blank" class="news-link">从个人生产力到企业生产力，阿里云发布企业级 Agent 平台 AgentCore</a> [26] <font color='grey'>- 15时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">2</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2490735" target="_blank" class="news-link">华尔街聚焦：Muse能否成为Meta公司的“ChatGPT时刻”？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1244246" target="_blank" class="news-link">公司 ChatGPT 从 Business 切到 Enterprise 后，额度反而两小时就用完了，有人了解这个计费机制吗？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">2</td>
+                <td class="percentage">0.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1244218" target="_blank" class="news-link">做了 104 个 DeepSeek 大肥鱼动态表情包</a> [13] <font color='grey'>- 15时34分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1244184" target="_blank" class="news-link">mimo-v2.6 就是慢了 10 倍的 deepseek-v4.1 flash</a> [28] <font color='grey'>- 15时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1244201" target="_blank" class="news-link">注册 meta 的 muse 智能体 使用 google gemini pro 的 spark [绕过 ip 问题与排队]</a> [21] <font color='grey'>- 15时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/006/287.htm" target="_blank" class="news-link">东风汽车总经理冯长军与华为创始人任正非等高层会谈，围绕深化战略合作等议题深入交流</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
