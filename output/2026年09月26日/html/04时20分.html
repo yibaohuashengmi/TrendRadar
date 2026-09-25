@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 224</p><p>生成时间: 2026-09-26 04:20:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">33</td>
+                <td class="percentage">14.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da20-f97b-7118-86a2-ee50e9723395" target="_blank" class="news-link">Israel Defense Forces said an interceptor missile fired earlier on Friday at a suspicious airborne object over southern Lebanon was, on preliminary assessment, launched in error due to misidentification. The incident is under investigation.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1244818" target="_blank" class="news-link">[开源] 基于 Edge TTS 的语音合成服务，兼容 OpenAI 音频接口</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da17-5537-7118-86a2-da983f29dcbf" target="_blank" class="news-link">Argentina&#x27;s state-owned oil company YPF said it raised fuel prices by an average of 1%.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49848495" target="_blank" class="news-link">Zelensky says Russia has widened attacks to hit Ukraine&#x27;s data centres</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da11-68b3-7118-86a2-cdeb56d70585" target="_blank" class="news-link">OpenAI said the websites involved in the incident of AI models exhibiting abnormal or unexpected behavior were operated by government bodies, universities and other public institutions.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49848095" target="_blank" class="news-link">Meta&#x27;s Muse appears to use an OpenAI model labeled muse-special</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49846953" target="_blank" class="news-link">Show HN: Doom or Bloom, map your AI worldview</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3170888" target="_blank" class="news-link">OpenAI：本公司多个模型与政府运营的多个网站出现互动。 正在通知受影响的网站运营机构，但这并不意味着相关网站发生了（网络）安全事故。</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da0d-1227-7118-86a2-99dc8f214277" target="_blank" class="news-link">CFTC: For the week to Sept. 22, fund managers raised S&amp;P 500 futures net long by 35,280 contracts to 934,913; speculative funds increased net short by 66,665 contracts to 355,121.</a> [11] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da0b-be72-7118-86a2-90914687bf2d" target="_blank" class="news-link">OpenAI: &quot;Hugging Face&quot; remains the most serious incident we have encountered.</a> [12] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da0b-14e5-7118-86a2-899c670c7045" target="_blank" class="news-link">OpenAI said most identified incidents to date are low severity and there is limited or no evidence of material impact on third-party services.</a> [13] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926033556441800" target="_blank" class="news-link">OpenAI：此次涉及AI模型行为异常或不符合预期的事件中的网站是由政府、大学、公共机构等运营。</a> [13] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da0a-7c6c-7118-86a2-87f0e172ad1c" target="_blank" class="news-link">OpenAI said the review will take several months to complete given the scale of the review required and the need to assess each case.</a> [14] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da09-db4d-7118-86a2-71f98053dfc8" target="_blank" class="news-link">OpenAI said it will undertake a broader review of actions taken on its models following the Hugging Face incident.</a> [16] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3170880" target="_blank" class="news-link">OpenAI的CEO Altman：Hugging Face事件仍是目前发现的性质最严重的一起。 对于智能体所发现的其他公司安全漏洞，是否对外披露由相关企业自行决定，在此前提下，我们会尽可能保持信息透明。</a> [16]</div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4295934_212_1" target="_blank" class="news-link">美国国防部长：已确认AnthropicAI存在供应链风险。国防部将做出符合国家与军人利益的选择。</a> [16] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BBAI%E8%87%AA%E5%88%B6%E5%B0%81%E7%A5%9E2" target="_blank" class="news-link">UP主AI自制封神2</a> [16] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3170879" target="_blank" class="news-link">OpenAI在Hugging Face事件后开展范围更广的审查 预计耗时数月</a> [17] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da00-f3ea-7118-86a2-6621c485ace8" target="_blank" class="news-link">U.S. Defense Secretary Hegseth said he has confirmed supply-chain risks at ANTHROPIC and that the PENTAGON will make decisions consistent with the interests of the nation and service members.</a> [18] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3170875" target="_blank" class="news-link">美国国防部长：已确认AnthropicAI存在供应链风险。国防部将做出符合国家与军人利益的选择。</a> [20] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926032951274800" target="_blank" class="news-link">OpenAI：“抱抱脸”仍然是我们所遇到的最严重事件。</a> [20] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926032909684800" target="_blank" class="news-link">OpenAI：迄今为止识别的大多数案例严重性较低，且对第三方服务的实质性影响证据有限或不存在。</a> [21] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0d9f3-393b-7118-86a2-45dc29defc1d" target="_blank" class="news-link">Iran&#x27;s president said Tehran is willing to restore the &quot;Islamabad understanding&quot; and to honor related commitments.</a> [22] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926032829752800" target="_blank" class="news-link">OpenAI：鉴于事件所需的审查规模，以及需要评估每个案例，我们预计这项工作将需要几个月才能完成。</a> [22] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0d9ef-eef9-7118-86a2-3676a01501c3" target="_blank" class="news-link">EU energy commissioner said any measures to regulate energy prices should be targeted and avoid increasing natural gas demand.</a> [24] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926032747781800" target="_blank" class="news-link">OpenAI：在“抱抱脸”事件后，我们承诺对我们的模型所采取的行动进行更广泛的审查。</a> [24] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49839664" target="_blank" class="news-link">What About Rails?</a> [24] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0d9ef-cdc3-7118-86a2-28ba6fdcc185" target="_blank" class="news-link">EU Energy Commissioner said demand-reduction measures include banning outdoor heating and limiting temperatures in public buildings.</a> [25] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0d9ef-c466-7118-86a2-216f6ebd00c0" target="_blank" class="news-link">EU energy commissioner invited member states to consider additional measures to maintain gas storage injections or to curb gas and power demand.</a> [26] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0d9ef-9ec3-7118-86a2-19ab02703d99" target="_blank" class="news-link">EU energy commissioner said the EU is better prepared now than in 2021, citing new LNG import capacity, stronger renewables growth and lower gas demand.</a> [27] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0d9ef-5cf8-7118-86a2-09a3f2450d25" target="_blank" class="news-link">EU Energy Commissioner said the bloc is facing an energy-price crisis linked to a supply crisis.</a> [29] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4295905_1_1" target="_blank" class="news-link">美联储克利夫兰联储主席哈马克：人工智能投资需求正在与债券市场争夺投资者资金。</a> [29] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0d9ee-e945-7118-86a2-06e1e063bf80" target="_blank" class="news-link">Fed&#x27;s Hammack said current conditions require the Fed to preserve policy flexibility, which limits the scope for forward guidance.</a> [30] <font color='grey'>- 04时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782559" target="_blank" class="news-link">Anthropic诉特朗普政府受挫：美上诉法院维持“供应链风险”认定</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1244814" target="_blank" class="news-link">独立开发产品无收入，有必要买 Claude Max 吗</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49837350" target="_blank" class="news-link">Google&#x27;s first Suncatcher orbital data center test launches October 1</a> [25] <font color='grey'>- 04时20分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/GOOGL" target="_blank" class="news-link">谷歌A</a> [27] <font color='grey'>- 04时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/3e263603b2fb4ae9980f86ca790157b7" target="_blank" class="news-link">华为机考怎么这么难啊</a> [20] <font color='grey'>- 04时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2086771082363778021" target="_blank" class="news-link">怎么评价 DeepSeek Harness 桌面版源码正式上线？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
