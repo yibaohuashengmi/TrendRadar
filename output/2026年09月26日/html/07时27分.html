@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 180</p><p>生成时间: 2026-09-26 07:27:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">23</td>
+                <td class="percentage">12.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49849985" target="_blank" class="news-link">Revealing the details of how OpenAI agents hacked Hugging Face</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782566" target="_blank" class="news-link">OpenAI披露：旗下AI模型可能干扰了包括政府、高校在内的数十个机构网站</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da79-628d-7118-86a4-1cc81955baaf" target="_blank" class="news-link">A U.S. official on the seven-day plan said the U.S. is engaged in active, constructive talks with Iran through intermediaries, and both sides continue communications on the nuclear issue.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782531" target="_blank" class="news-link">Codex和Claude Code都跑偏了，前OpenAI研究员称Jev出现前AI世界是个悲剧</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da68-91ff-7118-86a3-f95f7d50f395" target="_blank" class="news-link">Iran&#x27;s foreign minister said the Strait of Hormuz remained open as of Feb. 28, 2026, and that regional security and shipping conditions are a direct result of recent hostile actions and developments.</a> [11] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da68-4fbf-7118-86a3-f54ee54109d6" target="_blank" class="news-link">Iran&#x27;s foreign minister said military action, threats, blockades or economic pressure cannot restore security or freedom of navigation through the Strait of Hormuz.</a> [12] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da67-ce45-7118-86a3-e92f4d5b450b" target="_blank" class="news-link">Iran&#x27;s foreign minister said Iran has been subject to extensive IAEA monitoring and that others cannot preach non-proliferation while attacking its peaceful nuclear programme under IAEA supervision.</a> [13] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da62-7cfa-7118-86a3-dd5080aaf253" target="_blank" class="news-link">Iran&#x27;s foreign minister said assertions that Iran is close to obtaining nuclear weapons are a &quot;huge lie&quot;.</a> [15] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da4b-3be5-7118-86a3-c57f875bdd50" target="_blank" class="news-link">Moody&#x27;s upgraded Montenegro&#x27;s sovereign rating to BA2 and maintained a positive outlook.</a> [18] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49842462" target="_blank" class="news-link">An airport cooled by natural ventilation</a> [18] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da4b-0500-7118-86a3-bcc3937aea65" target="_blank" class="news-link">MOODY&#x27;S affirms Iceland&#x27;s A1 rating, maintains stable outlook.</a> [19] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49842409" target="_blank" class="news-link">I wrote a ray tracer in Brainfuck</a> [19] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da49-6620-7118-86a3-b4e30e73eeee" target="_blank" class="news-link">OpenAI says AI agents triggered multiple anomalous incidents; probe may take months</a> [20] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926043709352800" target="_blank" class="news-link">OpenAI称AI智能体引发多起异常事件 调查或持续数月</a> [20] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/kairn-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Kairn</a> [20] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da48-19a3-7118-86a3-aca92f365e81" target="_blank" class="news-link">MOODY&#x27;S affirms the European Union&#x27;s AAA rating and maintains a stable outlook.</a> [21] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da43-d5af-7118-86a3-9d5690988dde" target="_blank" class="news-link">Iran FM: Strait of Hormuz will reopen if US accepts seven-day plan</a> [23] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da41-befc-7118-86a3-91f270db00d8" target="_blank" class="news-link">Oracle (ORCL.N) said in an SEC filing that director and CEO Clayton M. Magouyrk’s total compensation for 2026 is $627.5 million.</a> [24] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da3e-f122-7118-86a3-8c5591e98873" target="_blank" class="news-link">Oracle (ORCL.N) said in an SEC filing that Executive Chairman and CTO Lawrence J. Ellison’s total compensation for 2026 was $131 mln.</a> [25] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da3c-1e7e-7118-86a3-87491b49036d" target="_blank" class="news-link">Iran&#x27;s foreign minister said Tehran could accept the seven-day plan and that the Strait of Hormuz will ultimately be reopened.</a> [26] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3170910" target="_blank" class="news-link">OpenAI正设法在发生用户数据泄露事故理解AI agent的活动范围。（路透）</a> [26] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da3b-b0a6-7118-86a3-783d19c86c6e" target="_blank" class="news-link">Iran&#x27;s foreign minister said the measures the US must take are not new and are already included in the memorandum of understanding.</a> [27] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da3a-d24d-7118-86a3-77eb9019cd68" target="_blank" class="news-link">Iran&#x27;s foreign minister says Tehran has delivered a specific 7-day plan to the U.S.; the decision now rests with Washington. Iran said it will not relinquish sovereign rights under pressure. The 7-day period will begin only after the U.S. accepts the proposal.</a> [28] <font color='grey'>- 07时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">5</td>
+                <td class="percentage">2.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782561" target="_blank" class="news-link">报道：Anthropic洽谈租赁最高1GW数据中心容量，相关投资至少400亿美元</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/007/256.htm" target="_blank" class="news-link">Anthropic 为 Claude 上线“限时免费额度重置”功能，每位用户仅可使用一次</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0da45-01ee-7118-86a3-a008bf04de70" target="_blank" class="news-link">Market sources say Anthropic is negotiating a 1 GW data‑center capacity transaction; related investment is expected to be at least $40 bln.</a> [22] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926043219331800" target="_blank" class="news-link">市场消息：Anthropic正洽谈一项规模达1吉瓦的数据中心容量交易，预计相关投资规模至少为400亿美元。</a> [22] <font color='grey'>- 07时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3170909" target="_blank" class="news-link">报道：Anthropic正谈判租赁最高1吉瓦算力，需要投入至少400亿美元</a> [27] <font color='grey'>- 07时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782523" target="_blank" class="news-link">DeepSeek Harness出桌面版了！</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
