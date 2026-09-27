@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 180</p><p>生成时间: 2026-09-28 07:54:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">11</td>
+                <td class="percentage">6.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e503-d78a-7118-86af-4f7eddf237fb" target="_blank" class="news-link">Israel&#x27;s foreign minister Sa&#x27;ar said on the 27th that Israel has decided to stop recognizing the diplomatic status of staff at the Dutch representative office in Ramallah; their diplomatic privileges and immunities will expire in seven days.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959934" target="_blank" class="news-link">“AI代理时代”的银行危机</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3782609" target="_blank" class="news-link">9月28日会员早报：OpenAI 再度暂停前沿模型训练 特朗普拒绝伊朗“七日重开霍尔木兹”提议</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/007/621.htm" target="_blank" class="news-link">荣耀亲选 AI 投影仪 Ultra 今起首销：1700CVIA 亮度、自研全封闭光机 2.0 技术，国补价 1999 元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/007/619.htm" target="_blank" class="news-link">黑客在暗网兜售 AI 模型访问权限，最低价仅有正版 3%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e4b9-1a48-7118-86ae-fa85e60f543a" target="_blank" class="news-link">Houthi rebels say Saudi air force carried out 26 airstrikes in 24 hours</a> [11] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e4af-ed0b-7118-86ae-f2d67534c36c" target="_blank" class="news-link">Trump said the U.S. will prevail in a military and economic war with Iran, said Iran&#x27;s inflation rate has reached 318%, and predicted the conflict will end &quot;soon&quot; and oil prices will fall.</a> [12] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e4ad-07a3-7118-86ae-e46dbf9de527" target="_blank" class="news-link">President Trump said he will meet ANTHROPIC&#x27;s CEO to discuss artificial intelligence, saying &quot;Let&#x27;s go, let&#x27;s win.&quot;</a> [14] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3171082" target="_blank" class="news-link">美国总统特朗普：将与Anthropic首席执行官Amodei（阿莫代伊）会谈，商讨人工智能议题。</a> [18] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260928055828218800" target="_blank" class="news-link">特朗普：AI领域没有第三名的位置。</a> [24] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4296932_204_1" target="_blank" class="news-link">特朗普称，将与Anthropic首席执行官讨论人工智能。</a> [28] <font color='grey'>- 07时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260928/1073405549.html" target="_blank" class="news-link">媒体：特朗普将会见Anthropic首席执行官</a> <font color='red'><strong>[8]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3171083" target="_blank" class="news-link">报道：Anthropic的CEO将与特朗普共进晚餐</a> [21] <font color='grey'>- 07时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
