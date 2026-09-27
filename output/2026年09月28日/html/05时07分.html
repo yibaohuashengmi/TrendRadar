@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 154</p><p>生成时间: 2026-09-28 05:07:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">14</td>
+                <td class="percentage">9.09%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e499-c447-7118-86ae-d86ecbe40326" target="_blank" class="news-link">Press TV cited an IRGC spokesman saying the Strait of Hormuz is not open and is a hunting ground for the Iranian navy to target U.S. underwater vessels.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e487-d6f8-7118-86ae-ccd0a50c9a49" target="_blank" class="news-link">According to Iran&#x27;s Press TV, Hezbollah leader Qassim rejected disarming the group, saying Lebanon must retain resistance forces and unity to safeguard national sovereignty and that without such forces Lebanon would cease to exist.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e46b-e104-7118-86ae-c5c5fd9ab7df" target="_blank" class="news-link">Saudi Arabian television cited Fars news agency, affiliated with the Islamic Revolutionary Guard Corps (IRGC), saying local sources reported a naval cruise missile was fired at a vessel transiting the Strait of Hormuz along an &quot;unauthorized route&quot;.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260928/1073404033.html" target="_blank" class="news-link">媒体：澳政府系统遭入侵后OpenAI与Anthropic负责人被传唤至参议院</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260928/1073403690.html" target="_blank" class="news-link">盖茨认为人工智能监管将比核武器更难达成一致</a> <font color='red'><strong>[8]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e417-76d8-7118-86ae-9cf0e666e987" target="_blank" class="news-link">UK Prime Minister&#x27;s Office said Prime Minister Burnham discussed the Lennahouse Strategic Defense Agreement with the Norwegian prime minister and welcomed an agreement reached between Denmark, Greenland and the United States.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e40a-2fd6-7118-86ae-8b8b00352456" target="_blank" class="news-link">The UK Prime Minister Burnham received Norwegian Prime Minister Jonas Gahr Støre in Liverpool, the Prime Minister&#x27;s Office said.</a> [11] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e401-fdd9-7118-86ae-7d272a605b17" target="_blank" class="news-link">Israel&#x27;s Foreign Ministry said the diplomatic status of the Dutch diplomat posted in Ramallah will expire in seven days.</a> [13] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e400-c22d-7118-86ae-75d842e49db0" target="_blank" class="news-link">Israel&#x27;s foreign ministry said it revoked the diplomatic status of the Dutch diplomat in Ramallah.</a> [14] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260928024333625800" target="_blank" class="news-link">美国企业转向低成本AI模型，开放权重模型加速渗透</a> [14] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e3e9-c273-7118-86ae-5a3328445363" target="_blank" class="news-link">Zelenskiy says Ukraine is preparing a new round of sanctions targeting Russia&#x27;s financial channels, supply chains for components and equipment used in Russian weapons production, and specific companies and individuals—particularly entities and personnel involved in Russian ballistic missile production.</a> [17] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e3e9-5358-7118-86ae-535696d675cf" target="_blank" class="news-link">Zelenskiy said if Russia, as it claims—especially in talks with the US—were genuinely prepared to take substantive steps to de-escalate, this wave of &#x27;Shahed&#x27; drone attacks would not have occurred.</a> [18] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e3e9-0519-7118-86ae-48b449d486a2" target="_blank" class="news-link">ZELENSKIY said today that in Kyiv alone Russian suicide drones struck two kindergartens, two schools, a residential building, an auto repair shop, several warehouses and communications facilities.</a> [19] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/discuss/933023499399024640" target="_blank" class="news-link">【面经】字节/AI 应用工程师 一面挂经……</a> [20] <font color='grey'>- 05时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2085935290347275671" target="_blank" class="news-link">如何评价 9 月 23 日发布的 Claude Opus 5.5？</a> [14] <font color='grey'>- 05时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49870367" target="_blank" class="news-link">When did Google get so weird?</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
