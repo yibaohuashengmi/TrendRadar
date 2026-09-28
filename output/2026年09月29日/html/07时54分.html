@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 268</p><p>生成时间: 2026-09-29 07:54:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">46</td>
+                <td class="percentage">17.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ea4e-e3ae-7338-aafb-691c5b7a8821" target="_blank" class="news-link">Shanghai Stock Exchange, China Securities Index to launch innovative drug and software services indices</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/008/079.htm" target="_blank" class="news-link">从沙箱逃逸到 AI“蠕虫”，OpenAI 上线新站披露多起智能体失控事件</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49884363" target="_blank" class="news-link">Flock Wants the Most Detailed Map of Its Surveillance Cameras Taken Offline</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ea4e-6298-7338-aafb-65c090543690" target="_blank" class="news-link">Sources: Prospectus shows ANTHROPIC presented plans to develop transformative AI technology to IPO investors; it reports FY25 revenue of $4.59 billion, up 1,088% YoY.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929071632638800" target="_blank" class="news-link">据路透社：招股说明书显示，Anthropic在面向IPO投资者的推介中提出了变革性人工智能技术的发展计划。说明书还显示，Anthropic 2025财年营收为45.9亿美元，同比增长1088%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4299096_212_1" target="_blank" class="news-link">英伟达CEO黄仁勋将于周二出席特朗普的人工智能会议。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49884119" target="_blank" class="news-link">Pacing the Frontier is not the actual goal for AI labs</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ea4d-3fbf-7338-aafb-5f9eba8d4fad" target="_blank" class="news-link">Iranian media: explosive sounds near Qeshm Island said to be warning shots</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782688" target="_blank" class="news-link">开发者大会前夜，OpenAI取消原定发布的GPT-6.1 Astra</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49883844" target="_blank" class="news-link">Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ea49-c102-7338-aafb-5292243b5fff" target="_blank" class="news-link">UK shop price inflation eases in September; retailers urge tax relief</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/008/076.htm" target="_blank" class="news-link">AMD 斥资 82 亿美元收购 World Labs，“AI 教母”李飞飞出任执行副总裁兼首席科学家</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260929/1073418645.html" target="_blank" class="news-link">人工智能领域专家邓方被任命为深圳北理莫斯科大学校长</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ea41-1722-7338-aafb-4dbec1149100" target="_blank" class="news-link">Samsung will invest $1bln in AI infrastructure firm Helix Digital, backed by KKR and NVIDIA, bringing Helix&#x27;s total capital commitments to more than $11bln, the Wall Street Journal reports.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782655" target="_blank" class="news-link">央行等八部门：引导金融机构综合运用信贷、债券、股权等多样化工具，支持“人工智能+软件”发展</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782683" target="_blank" class="news-link">AI从“降息理由”变“加息论据”：库克称2万亿美元资本开支仅花一小部分，电价水价已涨约5%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929070204541800" target="_blank" class="news-link">据华尔街日报：三星向由KKR和英伟达支持的人工智能基础设施公司Helix Digital投资10亿美元，该投资将使Helix Digital的总资本承诺额超过110亿美元。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/008/073.htm" target="_blank" class="news-link">快手可灵 AI Kling 4.0 将于 10 月上线，支持 4K HDR 与 30 秒视频生成</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49883471" target="_blank" class="news-link">It&#x27;s Time to Investigate the AI Labs</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782685" target="_blank" class="news-link">英伟达联手Anthropic发布AI Agent安全工具，称可阻止Hugging Face式攻击</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ea31-a7aa-7338-aafb-23a0efbedb61" target="_blank" class="news-link">Wall Street Journal sources say Goldman Sachs&#x27; board has discussed a plan for John Waldron to become the next CEO. David Solomon could move to executive chair after stepping down as CEO. Sources say Waldron may assume the CEO role at end-2027 or in 2028.</a> [11] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3782684" target="_blank" class="news-link">9月29日会员早报：英伟达把“AI安全”做成硬件 Anthropic 发布 Sonnet 5.5</a> [11] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ea31-a625-7338-aafb-1de7f7703cf1" target="_blank" class="news-link">Explosions heard in Kyiv, Ukraine.</a> [12] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20260929/1073417725.html" target="_blank" class="news-link">媒体：特朗普9月29日将在白宫与人工智能公司负责人举行会晤</a> [13]</div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/008/067.htm" target="_blank" class="news-link">苹果 macOS 27.0.1/26.7.1/15.8.1 发布，AI 提速漏洞修复</a> [13] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ea2c-64eb-7338-aafb-092414347691" target="_blank" class="news-link">U.S. Treasury said Secretary Bessent met Lebanon&#x27;s prime minister and finance minister and urged Lebanon to sever financial networks tied to Iran and Hezbollah.</a> [14] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ea1c-8bbb-7338-aafb-04597852983c" target="_blank" class="news-link">IRNA reported Iran foreign minister Araqchi said he hopes a final US response can be delivered via a Qatari intermediary before Tuesday.</a> [15] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ea11-468f-7338-aafa-f817dcd5535e" target="_blank" class="news-link">AI startup Firmus said it has reached a strategic AI infrastructure agreement with Meta Platforms (META.O) covering the Asia‑Pacific region.</a> [16] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ea0c-1fbc-7338-aafa-f641ad20a4be" target="_blank" class="news-link">Iran foreign minister says met mediators on Monday, will not remain in New York awaiting US reply</a> [17] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ea0a-4c63-7338-aafa-eb3a67348e96" target="_blank" class="news-link">The Wall Street Journal reports OpenAI has canceled the planned release of a new AI model over safety concerns.</a> [18] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49879883" target="_blank" class="news-link">Nvidia wants to put a watchdog chip next to every AI agent</a> [18] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e9f9-fe25-7338-aafa-d98bb26a02b6" target="_blank" class="news-link">Trump denies Axios report he offered Iran sanctions waivers, release of frozen funds</a> [20] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e9f4-f428-7338-aafa-d040da9aa04d" target="_blank" class="news-link">Syria&#x27;s state news agency SANA said a gas pipeline linking Shula and Deir ez-Zor caught fire in what it described as &quot;deliberate sabotage&quot;. The Syrian Oil Company said crews are fighting the blaze and gas deliveries from the Jebaysa field/processing plant to a power station have been interrupted.</a> [21] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e9f2-32d0-7338-aafa-ce30fd938b58" target="_blank" class="news-link">President Trump said Axios&#x27;s report that he is willing to offer Iran sanctions relief and unfreeze frozen funds is false and demanded the outlet immediately retract it.</a> [22] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3171771" target="_blank" class="news-link">OpenAI因安全顾虑放弃发布新AI模型。 OpenAI安全系统负责人Saachi Jain称，GPT-6.1 Astra在安全方面出现倒退。（华尔街日报）</a> [23]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929060951287800" target="_blank" class="news-link">AI初创公司Firmus：与Meta Platforms(META.O)就东南亚Firmus AI工厂的GPU计算能力达成人工智能基础设施协议。</a> [23] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7690551186688065555/" target="_blank" class="news-link">“AI失控”距离现实还有多远</a> [24] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929060612234800" target="_blank" class="news-link">OpenAI因安全问题推迟发布GPT-6.1 Astra</a> [24] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e9e1-b650-7338-aafa-ac1c15a6a338" target="_blank" class="news-link">Trump explains why he launched war on Iran</a> [26] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929060207605800" target="_blank" class="news-link">据华尔街日报：OpenAI因安全问题取消发布新的人工智能模型。</a> [26] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7689740291688562703" target="_blank" class="news-link">以餐厅后厨为例讲清楚AI十大技术概念</a> [26] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e9d5-c83d-7338-aafa-93504e84cd2f" target="_blank" class="news-link">Faraday Future (FFIE.O) said its FF Robot unit, valued at $200 mln, will seek an independent listing, while the auto business will pivot to a shared-mobility and smart-cockpit technology operator.</a> [29] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49861755" target="_blank" class="news-link">What reversing, modernising old games tells us about the economic impact of AI</a> [29] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0e9ce-8796-7338-aafa-8eb65699bce1" target="_blank" class="news-link">Market sources say ANTHROPIC is partnering with NVIDIA (NVDA.O) on AI agent safety research.</a> [30] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3171763" target="_blank" class="news-link">“大空头”伯里：AI泡沫可能比最初认为的更早破裂</a> [30] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49855059" target="_blank" class="news-link">12,000-year-old Göbeklitepe burials explain scattered bones</a> [30] <font color='grey'>- 07时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">6</td>
+                <td class="percentage">2.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ea53-0b4b-7338-aafb-751268647591" target="_blank" class="news-link">Anthropic IPO prospectus shows FY25 revenue $4.59 bln</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929072136255800" target="_blank" class="news-link">Anthropic IPO招股书曝光 2025财年营收达45.9亿美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3171794" target="_blank" class="news-link">报道：Anthropic 2025年净亏损420亿美元，拟2027年在云和基础设施方面支出5180亿美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/008/072.htm" target="_blank" class="news-link">Anthropic 发布 Claude Sonnet 5.5：速度提升 30%，智能体编码性能反超 Opus 5.5</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782678" target="_blank" class="news-link">Anthropic再推Claude 5.5：Sonnet 5.5速度提升超三成，单任务成本最高降三成，性能逼近Opus</a> [17] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3171774" target="_blank" class="news-link">Anthropic的CEO Amodei在美国国会山会见参议院多数派领导人图恩（John Thune）。</a> [21] <font color='grey'>- 07时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/008/077.htm" target="_blank" class="news-link">谷歌宣布停用 Gemini 的 Gems 功能，将自动迁移为“技能”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49879645" target="_blank" class="news-link">Updated Google Maps shows destruction of the city of Rafah</a> [21] <font color='grey'>- 07时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">2</td>
+                <td class="percentage">0.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2671482" target="_blank" class="news-link">华为Mate90正面外观曝光</a> [14] <font color='grey'>- 07时54分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E7%9D%BF%E5%BD%B1Z10%E6%9B%9D%E5%85%89&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">华为睿影Z10曝光</a> [20] <font color='grey'>- 07时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
