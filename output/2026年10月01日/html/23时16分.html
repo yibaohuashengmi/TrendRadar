@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 523</p><p>生成时间: 2026-10-01 23:16:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">31</td>
+                <td class="percentage">5.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49921051" target="_blank" class="news-link">An AI sovereign wealth fund isn&#x27;t progressive – it&#x27;s techno-imperialism</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/yedric-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Yedric.ai</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782859" target="_blank" class="news-link">AI热潮顶住债市风暴！美股指数期货重拾涨势，欧股跌幅收窄，美元触及三个月高点</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49921050" target="_blank" class="news-link">FTC is investigating OpenAI, Anthropic and other AI companies over product risks</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/dots-by-openai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Dots by OpenAI</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/161.htm" target="_blank" class="news-link">惠普战 99 锐龙版 AI 移动工作站发布：AMD R9-9955HX3D + RTX PRO 2000，21999 元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1246055" target="_blank" class="news-link">基于 RIME 的开源 macOS 中文输入法： AIME 艾么输入法</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f7d8-f6a1-7338-ab4f-042b13b79e0f" target="_blank" class="news-link">Meta Platforms (META.O) said it will integrate Muse into its AI glasses over the next few months.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782866" target="_blank" class="news-link">体验了Muse后，我清仓了Airbnb</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782859" target="_blank" class="news-link">AI热潮顶住债市风暴！美股指数期货重拾涨势，欧股跌幅收窄，美元触及三个月高点</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261001222302470800" target="_blank" class="news-link">Meta Platforms(META.O)：推出雷朋Meta音频眼镜，发布适用于AI眼镜的Muse AI智能体。未来几个月，将把Muse引入我们的AI眼镜。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f7d7-4509-7338-ab4e-fdd3f24f8cbb" target="_blank" class="news-link">A letter shows the U.S. State Department waived human-rights conditions on military aid to Egypt, citing Egypt&#x27;s &quot;beneficial role&quot; since the Iran conflict.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3173393" target="_blank" class="news-link">META：在未来几个月，将Muse引入AI眼镜。 推出Ray-Ban Meta音频功能，并宣布AI眼镜的Muse AI代理。</a> <font color='red'><strong>[7]</strong></font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2088388963652166144" target="_blank" class="news-link">网传一大学生因公选课老师连续缺课，自己上台用 AI 生成 PPT 讲了一小时课，是真的吗？暴露了哪些问题？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20261001/1073462298.html" target="_blank" class="news-link">中国驻美大使：中美应在人工智能领域合作，以避免人类走向没落</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/tile-ai/tilelang" target="_blank" class="news-link">tile-ai / tilelang</a> [11]</div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1246036" target="_blank" class="news-link">[分享] 为什么用 AI 自动归类书签是个伪命题？一次 400+ 收藏夹的确定性排坑实录</a> [11] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8wrsY6wZAdl" target="_blank" class="news-link">马克龙担忧：社交媒体已撕裂民主，AI别重蹈覆辙</a> [12] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/vitra-ai-agentic-content-platform?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Vitra.ai</a> [13]</div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1246030" target="_blank" class="news-link">做了一个免费 AI 图片工作台：一句话生图、修图、做海报，可以对话式修改</a> [14] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782876" target="_blank" class="news-link">一场改变AI格局的决裂！OpenAI与Anthropic的隐秘恩怨往事</a> [15] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3173381" target="_blank" class="news-link">欧洲央行行长拉加德：欧洲必须发展自身人工智能能力</a> [16] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%EF%BC%9AAI%E5%81%87%E5%8C%BB%E7%94%9F%E5%B8%A6%E8%B4%A7+%E8%BF%99%E7%97%85%E5%BE%97%E6%B2%BB" target="_blank" class="news-link">人民日报：AI假医生带货 这病得治</a> [19] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f7c3-eb03-7338-ab4e-9bec05946279" target="_blank" class="news-link">US September ISM Manufacturing Prices Paid Index 77.9, expected 72.3, prior 71.1.</a> [19] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959966" target="_blank" class="news-link">OpenAI芯片负责人：最大瓶颈是“人的认知”，低估AI指数级增长的需求</a> [20] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1246010" target="_blank" class="news-link">做了一个 AI 视频、图片和音频 API 比价站 Vidily，把参数和计费条件一起看</a> [20] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3173377" target="_blank" class="news-link">新思科技盘初逾10%，公司携手OpenAI开发芯片设计AI模型。</a> [22] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f7c3-d084-7338-ab4e-6588e1e9f4df" target="_blank" class="news-link">ISM Manufacturing Prices Paid Index (Sep)</a> [24] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/135.htm" target="_blank" class="news-link">育碧公布新品牌：创意事业部 2 更名 Massive Entertainment，统一管理多款知名 IP</a> [24] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f7c1-12f4-7338-ab4e-56604412369c" target="_blank" class="news-link">Temasek&#x27;s head for North America said the firm remains very optimistic about artificial intelligence.</a> [28] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/642692975.html" target="_blank" class="news-link">为什么梅西故意踩踏对手，总有人说是AI的？这是完整版。</a> [29] <font color='grey'>- 23时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">17</td>
+                <td class="percentage">3.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E8%B5%9B%E5%8A%9B%E6%96%AF%20%E5%A4%8D%E5%90%88&amp;t=31&amp;band_rank=1&amp;Refer=top" target="_blank" class="news-link">华为赛力斯 复合</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2089062587409421035" target="_blank" class="news-link">如何看待华为、赛力斯达成新五年合作：共同升级问界业务推动品牌向上，余承东与张兴海出席签约？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7691647976585924122/" target="_blank" class="news-link">华为与赛力斯达成新五年合作</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/163.htm" target="_blank" class="news-link">余承东宣布华为移动影像升级，华为睿影 XMAGE 正式发布</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/162.htm" target="_blank" class="news-link">华为 nova16 Pro 与 FIT 5 泡泡玛特 Hirono 小野联名款开售：12+256GB 昆仑玻璃款手机 3899 元，手表 1199 元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7690745612685594148/" target="_blank" class="news-link">Mate90开售华为门店人从众</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34186076" target="_blank" class="news-link">华为Mate 90系列发布：全系搭载韬芯片，麒麟9050 Pro亮相</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/160.htm" target="_blank" class="news-link">华为 Mate XT 2 三折叠手机获 HarmonyOS 7.0.0.109 SP8 升级，通信共享升级支持多人互助共享</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7691327601482465334/" target="_blank" class="news-link">博主：华为又捅破了技术天花板</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/156.htm" target="_blank" class="news-link">华为余承东：享界 V8 开启预订 72 小时，订单突破 8200 台</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782884" target="_blank" class="news-link">赛力斯和华为又绑定了五年</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202610/0182404.html" target="_blank" class="news-link">华为发布Mate 90系列 称成本上涨将推动涨价</a> [12] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E4%B8%8E%E8%B5%9B%E5%8A%9B%E6%96%AF%E8%BE%BE%E6%88%90%E6%96%B0%E4%BA%94%E5%B9%B4%E5%90%88%E4%BD%9C" target="_blank" class="news-link">华为与赛力斯达成新五年合作</a> [18] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782878" target="_blank" class="news-link">华为发布Mate90系列手机，搭载基于韬定律打造的τ芯片，支持四卡三待，售价5999元起</a> [18] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782874" target="_blank" class="news-link">解码Mate90的“发布即开售”：华为韬架构创新开始在终端发力</a> [25] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/131.htm" target="_blank" class="news-link">华为、赛力斯达成新五年合作：共同升级问界业务推动品牌向上，余承东与张兴海出席签约</a> [26] <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/128.htm" target="_blank" class="news-link">华为 Mate 90 Pro Max 首发四卡三待功能，Mate XT 2 预计 10 月中下旬 OTA 支持</a> [29] <font color='grey'>- 23时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">3</td>
+                <td class="percentage">0.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1246041" target="_blank" class="news-link">claude pro token 用不完怎么办</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1246040" target="_blank" class="news-link">做了个用 Claude Opus 5.5 生成动画视频的网站</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782882" target="_blank" class="news-link">报道：博通同意向Anthropic提供最高420亿美元贷款，用于租赁自家的芯片</a> [13] <font color='grey'>- 23时16分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49920997" target="_blank" class="news-link">Google breaks promise to provide 10 years of updates to Chromebooks</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时16分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
