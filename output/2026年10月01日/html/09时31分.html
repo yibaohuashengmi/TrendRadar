@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 325</p><p>生成时间: 2026-10-01 09:31:16</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">20</td>
+                <td class="percentage">6.15%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f4fb-cd20-7338-ab3f-a3a69b66461f" target="_blank" class="news-link">Taiwan Weighted Index opened 177.84 points higher, or up 0.37%, at 48,117.97 on Thursday, Oct. 1.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/008/982.htm" target="_blank" class="news-link">谷歌推出 Gemini 4 Argon 旗舰 AI 模型，消息称其实战性能遭员工质疑</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f4f7-63ad-7338-ab3f-8c6ef027437f" target="_blank" class="news-link">Petronas said its Trans Thai-Malaysia JV with Thailand&#x27;s national oil company has temporarily closed the Songkhla export pipeline.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202610/0182361.html" target="_blank" class="news-link">一字一句调教AI 人工到位才有智能</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/008/978.htm" target="_blank" class="news-link">AMD 锐龙 AI Max+ PRO 495 版 Framework Desktop 预售，含 192GB 内存 6,469 美元起</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f4f1-2c5c-7338-ab3f-78f349a420dd" target="_blank" class="news-link">U.S. State Department says four U.S. passengers were on a Dubai-to-Tel Aviv flight that was forced to divert to Saudi Arabia after an attack occurred in the cockpit.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f4f1-02f4-7338-ab3f-75d25f23f480" target="_blank" class="news-link">Korea Customs Service said Jan-Sep chip exports jumped 263% YoY to a record $60.3 bln; computer shipments surged 435% YoY; petroleum product exports rose 72% YoY; vehicle exports fell 5% YoY.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E6%97%B6%E4%BB%A3%E8%BF%98%E4%BC%9A%E6%9C%89%E9%A1%B6%E7%BA%A7IP%E5%90%97" target="_blank" class="news-link">AI时代还会有顶级IP吗</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261001090843134800" target="_blank" class="news-link">OpenAI Codex产品负责人Tibo：GPT-6.1 Sol几乎可以说是我们有史以来需求最高的模型，无论是在API端还是订阅用户中都是如此。在ChatGPT和Codex中，我们此前面临较大的负载压力，但目前已经上线了更多算力。未来几小时内，运行速度应该会显著提升，预计将达到昨天服务速度的近两倍。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f4de-6e50-7338-ab3f-4963d6cd17f9" target="_blank" class="news-link">Taiwan Nikkei manufacturing PMI 56.7 in September, up from 54.7 previously.</a> [13] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261001085722579800" target="_blank" class="news-link">马来西亚国家石油公司：因例行检查发现问题，泰国国家石油公司与我们的合资企业Trans Thai-Malaysia已暂时关闭宋卡出口管道。</a> [16] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/008/968.htm" target="_blank" class="news-link">OpenAI 同新思达成合作，共同开发 GPT-Synopsys 芯片设计模型</a> [16] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2083222866280171324" target="_blank" class="news-link">我是一个资深程序员，30 岁，每天都用 AI，现在觉得 Agent 的能力太强大了，我未来的路在哪？</a> [17] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/008/965.htm" target="_blank" class="news-link">美国加州《反机器人老板》法案生效，禁止完全依赖 AI 解雇或惩戒员工</a> [19] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/008/963.htm" target="_blank" class="news-link">宝马启动“自救”计划：扩大 AI 应用、削减两成管理层、发力新车</a> [21] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/008/959.htm" target="_blank" class="news-link">仅用 22 天：Meta Muse 超越 ChatGPT，成美国下载量破 500 万次最快 AI 应用</a> [25] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f4cd-40b1-7338-ab3e-e0491dfc5323" target="_blank" class="news-link">Axios: a U.S. official and another source said that after U.S.-Iran talks stalled, Senator Rubio on Monday demanded Iran’s United Nations delegation leave the United States immediately, an unusually public diplomatic rebuke.</a> [26] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7690505279806373931" target="_blank" class="news-link">隔离内网下 AI Agent 工程实战</a> [26] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3173202" target="_blank" class="news-link">白宫AI主管Sacks：众多AI企业（近日）围绕新版内部控制、审计达成共识。</a> [29] <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7690779187615563776" target="_blank" class="news-link">AI Native 团队完整开发落地手册</a> [30] <font color='grey'>- 09时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">5</td>
+                <td class="percentage">1.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/008/984.htm" target="_blank" class="news-link">用户反馈谷歌 Android Auto 故障：小折叠手机闭合状态下无法拨打电话</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1245947" target="_blank" class="news-link">Gemini 4 Argon 已宣布</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782853" target="_blank" class="news-link">谷歌Gemini 4 Argon多指标SOTA！输出上限破百万token，推广期价格仅竞品1/5</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/008/976.htm" target="_blank" class="news-link">谷歌携手“超人”卡维尔使用 Googlebook 开发游戏，计划 11 月推出</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时31分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2088845041045337914" target="_blank" class="news-link">如何评价 10 月 1 号发布的 Gemini 4 Argon？</a> [13] <font color='grey'>- 09时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/008/985.htm" target="_blank" class="news-link">华境 S 大六座 SUV 9 月交付 7416 台：连续 5 个月增长，标配华为乾崑智驾 ADS 5 Pro</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时31分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [远景论坛] <a href="https://bbs.pcbeta.com/viewthread-2080962-1-1.html" target="_blank" class="news-link">Win12 的版本号会 &gt;30000 么？(deepseek v4.1)</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
