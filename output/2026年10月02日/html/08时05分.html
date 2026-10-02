@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 237</p><p>生成时间: 2026-10-02 08:05:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">26</td>
+                <td class="percentage">10.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3173559" target="_blank" class="news-link">美国达拉斯联储主席Logan：相比经济增长，能源价格引发的通胀更令人担忧。 对人工智能将提升劳动生产率持高度乐观态度。 AI建设需求正在推高通胀。</a> <font color='red'><strong>[1]</strong></font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49927587" target="_blank" class="news-link">Aweb – Communication for AI Agents</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4305277_212_1" target="_blank" class="news-link">美联储洛根：人工智能基建需求正在加剧通胀压力。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f9d2-fd30-7ee0-a781-2dd2dc4e762e" target="_blank" class="news-link">Fed&#x27;s LOGAN said he is highly optimistic that AI will raise labor productivity. Demand for AI buildouts is pushing up inflation.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261002073542493800" target="_blank" class="news-link">美联储洛根：对人工智能将提升劳动生产率持高度乐观态度。AI建设需求正在推高通胀。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/197.htm" target="_blank" class="news-link">OpenAI 上线“虚拟试穿”功能：ChatGPT 能帮你试衣，还能找“明星同款”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f9d2-df1a-7ee0-a781-210071cfe414" target="_blank" class="news-link">Fed&#x27;s Logan said inflation driven by energy prices is more concerning than inflation linked to economic growth.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4305275_212_1" target="_blank" class="news-link">美联储洛根：对人工智能将提高劳动生产率持高度乐观态度。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/196.htm" target="_blank" class="news-link">马斯克：为推进 Optimus 机器人量产，特斯拉 AI5 芯片内存用量砍半</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/183.htm" target="_blank" class="news-link">流式转录 AI 新标杆：微软 MAI-Transcribe-2-Streaming 登场，2.5% 词错误率、0.13 秒延迟夺冠</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/182.htm" target="_blank" class="news-link">因违反敏感信息访问和共享规定，OpenAI 与三名研究人员终止合作</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782862" target="_blank" class="news-link">特朗普的“AI自我监管”意味着什么？老黄“大获全胜”，幕后带头质问Anthropic Amodei</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f9ca-5139-7ee0-a780-d3ce0d5ea890" target="_blank" class="news-link">Saudi crown prince said Saudi Arabia will continue to support Yemen and will respond without hesitation to any threat.</a> [15] <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f9c8-89fc-7ee0-a780-c823385e77a3" target="_blank" class="news-link">Logan: Fed should raise rates by at least 50 bps</a> [16] <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49924618" target="_blank" class="news-link">Vote on which of Hacker News&#x27; challenges for AI have been met</a> [16] <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f9c5-b027-7ee0-a780-c617ab64a3f2" target="_blank" class="news-link">LOGAN said rising long-term yields indicate market participants expect higher interest rates.</a> [17] <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f9c5-a5c8-7ee0-a780-bf2a81c22bcf" target="_blank" class="news-link">LOGAN of the Federal Reserve said the Fed will monitor bond-yield developments and assess their impact.</a> [18] <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f9c5-988f-7ee0-a780-b4130ddee81e" target="_blank" class="news-link">Fed&#x27;s Logan said rising Treasury yields may partly reflect a higher term premium, which could reduce the need to tighten monetary policy.</a> [19] <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f9c5-6949-7ee0-a780-a881e7572b6c" target="_blank" class="news-link">LOGAN said it remains uncertain how high the policy rate must be raised to return inf to 2%.</a> [20] <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f9c5-52bf-7ee0-a780-a4c4ba9fd95d" target="_blank" class="news-link">Fed&#x27;s Logan said we must restore price stability.</a> [21] <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f9c5-3901-7ee0-a780-9cc6568efbe3" target="_blank" class="news-link">Federal Reserve&#x27;s LOGAN said at least several more rate hikes will be needed to offset last autumn&#x27;s rate cuts.</a> [22] <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f9c4-2f62-7ee0-a780-89573d89cda7" target="_blank" class="news-link">LOGAN said policy stance has been off track; the Federal Open Market Committee should raise rates by at least 50bps.</a> [24] <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f9c3-e535-7ee0-a780-870d51b67e7f" target="_blank" class="news-link">Logan of the Federal Reserve said rising term life-insurance premiums may help slow economic growth.</a> [25] <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f9c3-cc68-7ee0-a780-7906f98e9041" target="_blank" class="news-link">Fed Governor Logan said economic growth is strengthening and the labor market is moving toward balance.</a> [26] <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f9b8-3ce0-7ee0-a780-6b97f2bc92ea" target="_blank" class="news-link">US President Trump said his policies are aimed at lowering the cost of living, not raising it.</a> [28] <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0f9b8-16af-7ee0-a780-65504e14ac91" target="_blank" class="news-link">President Trump said Democrats are talking nonsense and that their policies are poor.</a> [29] <font color='grey'>- 08时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">3</td>
+                <td class="percentage">1.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/201.htm" target="_blank" class="news-link">IT早报 1002：5999 元起华为 Mate 90 系列旗舰手机发布；2026 年 9 月车企销量交付汇总；华为与赛力斯达成新五年合作；曝苹果 HomeHub 宣传物料已送往苹果门店...</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7691537174281326118/" target="_blank" class="news-link">华为Mate90售价5999元起</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时05分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2676572" target="_blank" class="news-link">赛力斯华为合作模式再生变</a> [16] <font color='grey'>- 08时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782894" target="_blank" class="news-link">Anthropic上市再进一步：被曝冲刺感恩节前2万亿估值IPO，10月14日办投资者日</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 08时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/198.htm" target="_blank" class="news-link">谷歌首次送先进芯片上天，估算 SpaceX 星舰发射 1800 次才能让太空数据中心“飞起来”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 08时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
