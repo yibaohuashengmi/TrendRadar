@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 243</p><p>生成时间: 2026-10-03 09:48:47</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">16</td>
+                <td class="percentage">6.58%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ff5e-7854-7ee0-a78d-e99b127ba950" target="_blank" class="news-link">Japan&#x27;s finance minister Katayama said the government&#x27;s transparency over the composition of its foreign-exchange reserves is limited.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1246207" target="_blank" class="news-link">这两年 AI 进步太快了 一年一个新模样</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ff4c-5a10-7ee0-a78d-df36d7364db2" target="_blank" class="news-link">Japan&#x27;s finance minister Katayama said the FX trend has shifted to some extent since the joint foreign-exchange intervention.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/390.htm" target="_blank" class="news-link">OpenAI 披露：澳大利亚又一政府机构遭失控智能体入侵</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/389.htm" target="_blank" class="news-link">特朗普提出将“人工智能”改称“超级智能”后，斯洛文尼亚“.si”域名注册量环比暴增 2100%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ff4a-c8d5-7ee0-a78d-c2cda309665a" target="_blank" class="news-link">Vietnam retail sales YoY 14.1% in September, down from 14.9% in August.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/386.htm" target="_blank" class="news-link">微软 CEO 纳德拉重申 Copilot AI 定位：面向工作的新操作系统</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/385.htm" target="_blank" class="news-link">OpenAI 内部动荡加剧之际，又一名安全负责人戴维 · 罗宾逊离职</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/381.htm" target="_blank" class="news-link">苹果收紧 macOS 27 等完全磁盘访问权限，降低 AI 智能体操控风险</a> [13] <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/380.htm" target="_blank" class="news-link">苹果 homeOS 前瞻：整合 iOS / iPadOS / watchOS 特性，主打 Siri AI 交互</a> [14] <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ff21-02d2-7ee0-a78d-7d7af52e5999" target="_blank" class="news-link">President Trump said the U.S. will refill the Strategic Petroleum Reserve soon.</a> [15] <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4306684_204_1" target="_blank" class="news-link">OpenAI披露澳大利亚又一政府机构遭入侵。</a> [16] <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a0ff11-d04e-7ee0-a78d-6d4db270c497" target="_blank" class="news-link">UKMTO reported an incident 4 nautical miles east of Oman: the captain of a crude oil tanker said an unidentified aerial object struck the vessel’s port side. All crew safe; no environmental impact reported.</a> [17] <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2088617692831774235" target="_blank" class="news-link">用 AI 抽卡拿到大结果了，论文署名应该归谁？</a> [18] <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/376.htm" target="_blank" class="news-link">Anthropic 拟斥资 1 亿美元培训万名工程师，破解企业 AI 落地“人才荒”</a> [18] <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/375.htm" target="_blank" class="news-link">下载体验了 Muse 后，我清仓了 Airbnb，加仓了 Meta</a> [19] <font color='grey'>- 09时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1246199" target="_blank" class="news-link">用 kite 让 Claude Code 自己开会话派活给别的 Claude Code，记录一下今天实际跑的情况</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时48分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/382.htm" target="_blank" class="news-link">IT早报 1003：三星上调国行 S26 售价；问界 M6 推 3 年 0 息购车方案；曝 Anthropic 最早 11 月中旬上市；苹果预计本月发布触控 OLED 屏 MacBook...</a> [12] <font color='grey'>- 09时48分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2089412797440455404" target="_blank" class="news-link">如何评价极客湾最新视频《逻辑折叠深度解析！华为 Mate 90 系列韬定律芯片有多强？》？</a> [11] <font color='grey'>- 09时48分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
