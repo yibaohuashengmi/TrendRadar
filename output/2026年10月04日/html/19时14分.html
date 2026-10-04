@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 427</p><p>生成时间: 2026-10-04 19:14:39</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">53</td>
+                <td class="percentage">12.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8wwrNBWlavW" target="_blank" class="news-link">特朗普“AI沙皇”人选曝光</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1246400" target="_blank" class="news-link">我觉得的 AI 未来的应用</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8wx5J5c2AXr" target="_blank" class="news-link">马斯克宣布SpaceXAI将更名</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10677-6a74-7ee0-a793-57ac0fb6573c" target="_blank" class="news-link">Iran says Strait of Hormuz is current priority after U.S. proposal</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782983" target="_blank" class="news-link">OpenAI员工长文：AI 时代的文明岔路</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49951881" target="_blank" class="news-link">In Ukraine, distributed renewables foil Russia&#x27;s assaults</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/688.htm" target="_blank" class="news-link">特朗普将“人工智能”改为“超级智能”后，马斯克确认 SpaceXAI 将更名为 SpaceXSI</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782975" target="_blank" class="news-link">美银：“AI交易”是当前美债市场“最后一道防线”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3173946" target="_blank" class="news-link">马斯克：SpaceX 是一家超级智能（SI）公司，我们将把SpaceXAI改名为SpaceXSI。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782984" target="_blank" class="news-link">白宫AI峰会“权力图谱”：扎克伯格最受特朗普认可，马斯克刻意疏离，Amodei焦虑藏不住</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2090003576038713147" target="_blank" class="news-link">华裔科学家李飞飞称 10 年后人工智能普及，全球将只剩下两类劳动，如何理解？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10666-1238-7ee0-a793-3ee069ba687c" target="_blank" class="news-link">SoftBank&#x27;s Son issues rare warning on AI safety</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41959977" target="_blank" class="news-link">大空头对大空头：OpenAI是市场最大风险</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/c04988efbfbe4c85928871848fe4408b" target="_blank" class="news-link">29届 agent/ai应用开发实习，求简历建议</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782981" target="_blank" class="news-link">OpenAI「12朝元老」辞职死谏：试错的时代已崩坏！</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782982" target="_blank" class="news-link">a16z对话：企业级软件都将被AI Agent重做一遍</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10655-edf0-7ee0-a793-220ccde72e37" target="_blank" class="news-link">TASS reported the Russian Defense Ministry said Russia will step up strikes on Kyiv and other parts of Ukraine after recent remarks by Ukrainian President ZELENSKIY.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782979" target="_blank" class="news-link">“AI沙皇”人选定了！白宫成立“超级智能”工作组，计划120天拿出AI监管方案</a> <font color='red'><strong>[8]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261004181143751800" target="_blank" class="news-link">软银孙正义罕见就AI安全问题发出警告</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/9151b95e09194b5da11e7776c95de772" target="_blank" class="news-link">去哪儿 ai面试 ai应用开发java方向</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782982" target="_blank" class="news-link">a16z对话：企业级软件都将被AI Agent重做一遍</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782981" target="_blank" class="news-link">OpenAI「12朝元老」辞职死谏：试错的时代已崩坏！</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10645-b1b5-7ee0-a793-17d756ce46e2" target="_blank" class="news-link">Elon Musk said SpaceX is a superintelligence (SI) company and that SpaceXAI will be renamed SpaceXSI.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782984" target="_blank" class="news-link">白宫AI峰会“权力图谱”：扎克伯格最受特朗普认可，马斯克刻意疏离，Amodei焦虑藏不住</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782979" target="_blank" class="news-link">“AI沙皇”人选定了！白宫成立“超级智能”工作组，计划120天拿出AI监管方案</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10642-b1ae-7ee0-a793-0fc828618f7f" target="_blank" class="news-link">Market sources said Australia is investigating possible links between the attackers who struck a Dubai carrier and individuals in Australia.</a> [11] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1246364" target="_blank" class="news-link">gemini4 还不下放，导致我下一步从 openai 叛逃都不知道该去 gemini 还是 grok</a> [11] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/hkMacao/202610/0482567.html" target="_blank" class="news-link">香港第三季股权融资创新高 AI热潮推动企业募资热情</a> [12] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10634-9a0a-7ee0-a793-069b728b0135" target="_blank" class="news-link">Houthis say Saudi Arabia launched airstrikes on Yemen&#x27;s Al Jawf province</a> [12] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782978" target="_blank" class="news-link">年薪6.6万美元起，我在数据中心当“AI保姆”</a> [12] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2497590" target="_blank" class="news-link">AI数据中心建设加速之际 地方阻力从美国蔓延至欧洲和亚洲</a> [13] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261004173627577800" target="_blank" class="news-link">马斯克：SpaceX是一家超级智能(SI)公司，我们将把SpaceXAI改名为SpaceXSI。</a> [13] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10624-4327-7ee0-a792-f24d08a1b6c3" target="_blank" class="news-link">Pudong airport handles &gt;319,000 entries/exits, 2,100+ flights in first three days of National Day holiday</a> [14] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a1060c-e6ee-7ee0-a792-dd6b6f3c967d" target="_blank" class="news-link">NHC said Rachel slightly strengthened while moving northwest.</a> [17] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3173931" target="_blank" class="news-link">美国国家情报总监出任白宫AI事务主管</a> [17] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10606-a8cc-7ee0-a792-d5e4985000c8" target="_blank" class="news-link">Paul Chan: Mainland China arrivals to Hong Kong rise 8.4% in first three days of Golden Week</a> [18] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/673.htm" target="_blank" class="news-link">大量 AI“幻觉”报告压垮维护团队，谷歌暂停部分开源漏洞奖励计划</a> [18] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a105fa-eefa-7ee0-a792-cf147123ff45" target="_blank" class="news-link">Over 310,000 cross-border passengers used Hong Kong‑Zhuhai‑Macao Bridge in first three days of National Day holiday</a> [19] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a105f4-a7d4-7ee0-a792-c02b3cae2b20" target="_blank" class="news-link">Iran foreign ministry spokesperson said additional points still need to be discussed with the United States.</a> [20] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3173928" target="_blank" class="news-link">离职员工爆料OpenAI风险意识不足</a> [20] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/669.htm" target="_blank" class="news-link">System76 更新 COSMIC 项目 PR 模板，禁止贡献者提交利用 AI 辅助完成的代码</a> [21] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7692485970524373026" target="_blank" class="news-link">Meta 分享怎么用 AI 迁移 Compose 项目不烧心</a> [21]</div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49944227" target="_blank" class="news-link">I quit OpenAI because its culture is broken</a> [21] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a105ec-daf8-7ee0-a792-b4c3d5482f0b" target="_blank" class="news-link">Iran&#x27;s foreign ministry spokesman said the return of International Atomic Energy Agency inspectors has not been discussed.</a> [22] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a105ec-8ef6-7ee0-a792-ae8a9be0478a" target="_blank" class="news-link">Iran foreign ministry spokesman said Iran has responded to a U.S. proposal. He said the U.S. proposal is similar to earlier offers and focuses on the nuclear issue, while Iran wants negotiations to center on the Strait of Hormuz.</a> [23] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a105e1-36f5-7ee0-a792-a6abe270a5dd" target="_blank" class="news-link">UKMTO said it received reports of an incident in the Strait of Hormuz; tankers reported being struck by an unidentified object, causing engine-room damage.</a> [24] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/666.htm" target="_blank" class="news-link">国内首部 AIGC 长剧《后西游记》再上新，战天宫篇今日开播</a> [24] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7691246755552116755" target="_blank" class="news-link">我让AI教学生写前端，三天后课堂变了——Web教育者的集体反思</a> [25] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7692635234998685193/" target="_blank" class="news-link">美国2万亿美元押注AI谁会被收割</a> [26] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a105da-0259-7ee0-a792-8c49c168a0f8" target="_blank" class="news-link">Kyiv mayor said a Russian airstrike struck a bridge in Kyiv.</a> [27] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a105c3-3b51-7ee0-a792-7a1f4c0428b7" target="_blank" class="news-link">Ghalibaf: Strait of Hormuz will not reopen until Iran’s conditions met</a> [29] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7691231869480566830" target="_blank" class="news-link">GitHub 今日推荐｜archify：AI 代理自动生成可交互架构图的技能模块</a> [29] <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a105af-63ad-7ee0-a792-76c23150117b" target="_blank" class="news-link">According to Mehr news agency, Iranian foreign minister Araghchi said the Strait of Hormuz would reopen within seven days if the US accepts the &#x27;7-day plan&#x27;.</a> [30] <font color='grey'>- 19时14分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49950052" target="_blank" class="news-link">Religious scholars met with Anthropic</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时14分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7691498553260884008" target="_blank" class="news-link">Claude Code Mods 是什么：给 Claude 加工具、在终端画界面</a> [28] <font color='grey'>- 19时14分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/chatgpt-space?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">ChatGPT Space</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时14分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.23%</td>
+                <td class="titles"><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/gemini-4-argon?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Gemini 4 Argon</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时14分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
