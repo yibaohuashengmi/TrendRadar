@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 312</p><p>生成时间: 2026-10-04 13:05:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">22</td>
+                <td class="percentage">7.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782975" target="_blank" class="news-link">美银：“AI交易”是当前美债市场“最后一道防线”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/638.htm" target="_blank" class="news-link">余承东：华为半导体已在手机、AI、智能汽车等领域成功设计并量产 381 款 τ 芯片</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10521-0e22-7ee0-a792-138d43814d26" target="_blank" class="news-link">German Chancellor MERZ arrived in Kyiv and said Ukraine will need our full support in the coming weeks.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782969" target="_blank" class="news-link">贝森特“灭火”：美债收益率上升属全球现象，驳斥AI泡沫担忧</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202610/0482551.html" target="_blank" class="news-link">美情报总监任“AI沙皇” 将起草AI风险评估报告</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782969" target="_blank" class="news-link">贝森特“灭火”：美债收益率上升属全球现象，驳斥AI泡沫担忧</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/631.htm" target="_blank" class="news-link">马斯克旗下 xAI 上诉成功，明尼苏达州 AI 虚假裸照禁令被暂时叫停</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782967" target="_blank" class="news-link">AI大神Karpathy最新洞察：未来我们更该“理解”大模型输出，而不是被它淹没</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2087491722213159014" target="_blank" class="news-link">首部 AI 院线电影《三星堆：未来往事》定档 10 月 23 日上映，对此你有何期待？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a104c8-edc1-7ee0-a791-e7a7c4bc966d" target="_blank" class="news-link">Hainan duty-free sales total 358 mln yuan in first three days of National Day holiday</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261004111600241800" target="_blank" class="news-link">美债收益率触及周期性拐点，AI或成黄金破局推手</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a104c4-7774-7ee0-a791-da885c2e48c9" target="_blank" class="news-link">Main structure of China’s first offshore CO2-injection EGR platform completed</a> [11] <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a104a8-ad3d-7ee0-a791-cf23340f2bec" target="_blank" class="news-link">White House forms AI task force to produce 120-day risk assessment</a> [13] <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a1047e-d211-7ee0-a791-b0f801e73aa1" target="_blank" class="news-link">Yangtze River Delta rail traffic expected 3.84 mln passengers on Oct 4; 104 extra trains</a> [16] <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261004100514479800" target="_blank" class="news-link">白宫新设人工智能工作组将起草AI风险评估报告</a> [16] <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a1043c-f45c-7ee0-a791-a5d018e91182" target="_blank" class="news-link">Indonesia&#x27;s Meteorology, Climatology and Geophysics Agency (BMKG) reported a magnitude-5.9 earthquake at 06:37 local time on Oct. 4, centered about 68 km southwest of Calang, Aceh Jaya Regency, Aceh province, at a depth of 26 km. BMKG said there is no tsunami threat.</a> [18] <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a1043c-a7d7-7ee0-a791-9c4de32c17b9" target="_blank" class="news-link">Saudi-led coalition says Houthi claim of Riyadh strike is misleading</a> [19] <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/619.htm" target="_blank" class="news-link">得知将被关停后，OpenAI 内部模型曾考虑实现自我重启</a> [19] <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202610/0482536.html" target="_blank" class="news-link">朝鲜试射AI中程导弹 韩朝地雷争议再升温</a> [20] <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a1043a-b10f-7ee0-a791-94c146352bc2" target="_blank" class="news-link">Zelenskiy says Ukraine will step up strikes on Russian refineries</a> [20] <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202610/0482535.html" target="_blank" class="news-link">AI投资上天价却未见生产力 专家警示AI资本狂热隐忧</a> [21] <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49938326" target="_blank" class="news-link">Three AI agents, two countries, and one uneven world wide web</a> [25] <font color='grey'>- 13时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202610/0482543.html" target="_blank" class="news-link">阿里巴巴与Solaria据悉洽谈西班牙数据中心供电事宜</a> [13] <font color='grey'>- 13时05分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7691823753387376649" target="_blank" class="news-link">云端部署阿里 Qwen-Image-2.1 保姆级教程</a> [19] <font color='grey'>- 13时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/009/633.htm" target="_blank" class="news-link">华为四代 τ 芯片首次集体亮相，余承东详解麒麟 9050 系列首发逻辑折叠技术</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时05分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782963" target="_blank" class="news-link">DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
