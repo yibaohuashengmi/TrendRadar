@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 260</p><p>生成时间: 2026-10-06 07:07:20</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">25</td>
+                <td class="percentage">9.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49970871" target="_blank" class="news-link">Dust: Pretraining Transformers Without Backpropagation</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1246567" target="_blank" class="news-link">做了一个 AI Zombie Video 小工具：如果变成丧尸，他还会记得你吗？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10dea-654f-7ee0-a7aa-bcc0b2f62585" target="_blank" class="news-link">Wall Street syndicate launches record $60 bln AI chip financing for ANTHROPIC</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3783035" target="_blank" class="news-link">报道：OpenAI正与阿联酋基金、贝莱德洽谈300亿美元融资轮</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3783030" target="_blank" class="news-link">OpenAI遭商标侵权诉讼，&quot;Astra&quot;名称引发法律纠纷</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10dd3-b5ee-7ee0-a7aa-78d27de74018" target="_blank" class="news-link">Market sources said OpenAI is in financing talks with Thrive and Andreessen Horowitz and is also discussing a $30 billion funding round with a UAE sovereign wealth fund and BlackRock.</a> [11] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3783029" target="_blank" class="news-link">今年只有科技富豪在赚钱：AI热潮推动身家暴增8450亿美元，马斯克独占近四成</a> [11] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49965118" target="_blank" class="news-link">Linux containers in 500 lines of code (2016)</a> [12] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34201847" target="_blank" class="news-link">华为5G、AI专利授权取得突破，高通付费获得逻辑折叠等专利</a> [13] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [GitHub] <a href="https://github.com/M-Abozaid/esp32-c3-adblock" target="_blank" class="news-link">M-Abozaid / esp32-c3-adblock</a> [13]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261006051305337800" target="_blank" class="news-link">华尔街银团启动创纪录的600亿美元AI融资交易</a> [15] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20261006/1073501877.html" target="_blank" class="news-link">OpenAI首席执行官称公司未披露所有AI失控案例</a> [17]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10db2-663d-7ee0-a7aa-467894c4cd96" target="_blank" class="news-link">Houthi forces in Yemen said they carried out three military operations in Saudi Arabia.</a> [18] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2088882471890859810" target="_blank" class="news-link">一位数学家如何证明自己没有使用 AI 做论文？</a> [18] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/unscary-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">Unscary AI</a> [19] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10dab-6620-7ee0-a7aa-31dc68ca3bb3" target="_blank" class="news-link">A senior Cuban diplomat said Cuba and the United States maintain &#x27;channels of communication&#x27; but have not held formal negotiations.</a> [20] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3174266" target="_blank" class="news-link">报道：OpenAI正与阿联酋基金、贝莱德洽谈300亿美元融资轮</a> [20] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E8%83%BD%E5%90%A6%E6%8A%8A%E5%91%98%E5%B7%A5%E6%8A%80%E8%83%BD%E5%8F%98%E6%88%90%E5%9B%BA%E5%AE%9A%E8%B5%84%E4%BA%A7" target="_blank" class="news-link">AI能否把员工技能变成固定资产</a> [20] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [牛客网] <a href="https://www.nowcoder.com/feed/main/detail/e17c8bcb2817436990d7c6041c3bdb2e" target="_blank" class="news-link">劝退所有开发类软件工程师岗位，计算机专业和想转码的快跑，很多企业裁员后剩下的程序员还有大把时间摸鱼你就知道这行已经完蛋了，大厂里实习生+外包用ai已经完成很多工作，为什么还要招正式工？任何说码农比其他</a> [20] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10daa-852e-7ee0-a7aa-28f27db85a79" target="_blank" class="news-link">The Saudi-led coalition said naval forces carried out a military operation in Yemen&#x27;s Hodeidah province.</a> [21] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261006044845596800" target="_blank" class="news-link">市场消息：OpenAI已与Thrive、Andreessen Horowitz进行融资谈判；同时正与阿联酋基金及贝莱德商讨300亿美元融资轮。</a> [22] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10da1-6f7c-7ee0-a7aa-1e95bd082eb3" target="_blank" class="news-link">Trump: US withdrew bombers from RAF Fairford over &quot;specific threat&quot;</a> [23] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10d9e-e408-7ee0-a7aa-0d1d89112400" target="_blank" class="news-link">Explosive-threat note found on Turkish passenger flight; 143 evacuated, Sanliurfa airport briefly closed</a> [25] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10d8c-d176-7ee0-a7a9-eb39c33fcdb6" target="_blank" class="news-link">US President Trump said Iran should be held responsible for the Dubai aviation incident.</a> [29] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10d8c-7317-7ee0-a7a9-e19a8ac92e77" target="_blank" class="news-link">President Trump said U.S. troops in the UK are safe, saying &quot;I think it&#x27;s safe&quot;.</a> [30] <font color='grey'>- 07时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">5</td>
+                <td class="percentage">1.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10ddf-e7e9-7ee0-a7aa-ad4d477977bf" target="_blank" class="news-link">Financial Times reports Wall Street banks have arranged a record $60 bln chip deal involving Broadcom and ANTHROPIC.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3783031" target="_blank" class="news-link">Meta、微软设法减少员工对Claude依赖：Meta内部使用人数减半，微软预算砍掉三分之一</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3174274" target="_blank" class="news-link">报道：华尔街银行启动创纪录的600亿美元芯片交易，为博通与Anthropic提供融资</a> [12] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261006050210319800" target="_blank" class="news-link">据英国金融时报：华尔街银行推出创纪录的600亿美元芯片交易，涉及博通和Anthropic。</a> [17] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49961057" target="_blank" class="news-link">Anthropic reported diary entry to police, woman faces felony charge</a> [18] <font color='grey'>- 07时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">1.15%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a10dfd-b1d7-7ee0-a7aa-cef01b90a52c" target="_blank" class="news-link">U.S. troops say they used Google to find hospitals after Iranian strike</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4308035_214_1" target="_blank" class="news-link">美军称遭伊朗袭击后靠谷歌找医院。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261006053407848800" target="_blank" class="news-link">美军称遭伊朗袭击后靠谷歌找医院</a> [12] <font color='grey'>- 07时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
