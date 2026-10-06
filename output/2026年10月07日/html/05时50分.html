@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 238</p><p>生成时间: 2026-10-07 05:50:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">26</td>
+                <td class="percentage">10.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3783079" target="_blank" class="news-link">美EIA大幅上调油价预期，布油Q4调升15%，料AI数据中心推动美国今明年电力需求创纪录</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1246709" target="_blank" class="news-link">我做了一个 AI 工具，想替代用了十多年的 Excel</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a11315-3cef-7ee0-a7c5-c5f7895e73b5" target="_blank" class="news-link">US President Trump said he will soon speak with Russian President Putin about a &quot;suspected plague&quot; case.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3783083" target="_blank" class="news-link">摩根大通CEO：Anthropic“Mythos”模型问世后，AI风险飙升10倍</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a11312-ca68-7ee0-a7c5-b93cba8faa6e" target="_blank" class="news-link">Documents show the US Federal Aviation Administration (FAA) has approved transfer of 22 LaGuardia Airport slots from the now-defunct Spirit Airlines to JetBlue.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a1130f-bddd-7ee0-a7c5-b6dab5e5f1cc" target="_blank" class="news-link">U.S. President Trump said he will speak by phone with Russian President Putin soon.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=OpenAI%E6%88%96%E5%B0%86%E5%8F%91%E5%B8%83400%E4%B8%AA%E9%87%8D%E5%A4%A7%E6%95%B0%E5%AD%A6%E6%88%90%E6%9E%9C" target="_blank" class="news-link">OpenAI或将发布400个重大数学成果</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a112ff-a474-7ee0-a7c5-a77011f98c11" target="_blank" class="news-link">Shipowners pay heavy premiums for Strait of Hormuz transits; crew likened to mercenaries</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3783082" target="_blank" class="news-link">共和党斥AI危险论，民主党质疑“大厂”影响特朗普AI政策，要求披露监管框架修改过程</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49977689" target="_blank" class="news-link">Erdosproblems.com Succumbs to the AI Onslaught</a> [13] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a112f5-d954-7ee0-a7c5-56defd96638a" target="_blank" class="news-link">U.S. Treasury Secretary BESSENT said since Aug. 25 Iran has not loaded a single barrel of crude onto any vessel.</a> [16] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a112ee-3874-7ee0-a7c5-4d5f6087322b" target="_blank" class="news-link">Trump said the Strait of Hormuz belongs to the United States.</a> [17] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a112e6-fcec-7ee0-a7c5-475d4b82a728" target="_blank" class="news-link">Trump said the Iranian oil minister resigned, saying &quot;I&#x27;m leaving because our country is finished.&quot;</a> [18] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a112e5-0ca2-7ee0-a7c5-3f8dd7aa7401" target="_blank" class="news-link">U.S. President Trump said Iran&#x27;s drone-manufacturing capability will soon cease to exist.</a> [19] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a112e4-e7af-7ee0-a7c5-31118bc48dde" target="_blank" class="news-link">US President Trump said the biggest problem with Iran is that no one knows who controls the country.</a> [20] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a112e3-7e05-7ee0-a7c5-293a0d75685e" target="_blank" class="news-link">Trump on Iran said the US still needs to finish the matter.</a> [21] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a112e1-8b39-7ee0-a7c5-19e0bdbee834" target="_blank" class="news-link">Trump says the Russia-Ukraine conflict is nearing an end.</a> [23] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/TEM" target="_blank" class="news-link">Tempus AI</a> [24] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a112db-96e6-7ee0-a7c5-0e520d3f3a2f" target="_blank" class="news-link">Nikkei reports TSMC (TSM.N) and other Taiwanese chipmakers are increasing AI-related spending in the United States and Southeast Asia.</a> [25] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4309856_1_1" target="_blank" class="news-link">澳洲联储：非加速通胀失业率（NAIRU）为4.6%，与当前失业率一致。</a> [25] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a112da-6baf-7ee0-a7c5-050c6bee4bd7" target="_blank" class="news-link">President Trump said the U.S. will hold a 40% stake in a new defense shipyard to be built in Maryland.</a> [26] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3174623" target="_blank" class="news-link">澳洲联储担忧潜在 AI 股下跌可能冲击澳大利亚消费</a> [26] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4309855_212_1" target="_blank" class="news-link">澳洲联储警告称，AI概念股、其他股票的联系可能会造成削减开支2.4%。</a> [26] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a112da-397b-7ee0-a7c4-f92aaba86f92" target="_blank" class="news-link">France&#x27;s finance minister said the government is prepared to bypass parliament to pass a spending-cut package and will do so if budget talks deadlock.</a> [27] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a112d3-7085-7ee0-a7c4-f6fe46ff8c86" target="_blank" class="news-link">Nikkei reports Japanese semiconductor-equipment maker Towa plans to build a factory for chip-manufacturing equipment to strengthen Japan&#x27;s semiconductor supply chain.</a> [28] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a112d2-a017-7ee0-a7c4-e1795e6ce357" target="_blank" class="news-link">US President Trump said you will soon know how we will resolve the Iran issue.</a> [30] <font color='grey'>- 05时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">3</td>
+                <td class="percentage">1.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3174647" target="_blank" class="news-link">苹果公司将推出与LG联合开发的门铃、智能门锁以及温控器。 双方还在筹备室内及室外安防摄像头，苹果与LG的合作举措将加剧其与亚马逊、谷歌之间的竞争。</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3783080" target="_blank" class="news-link">谷歌发布EmbeddingGemma 2：7.4亿参数多模态嵌入模型，主打端侧隐私搜索</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%86%9B%E4%B8%AD%E6%A0%A1%E9%81%AD%E8%A2%AD%E5%90%8E%E9%9D%A0%E8%B0%B7%E6%AD%8C%E6%89%BE%E5%8C%BB%E9%99%A2" target="_blank" class="news-link">美军中校遭袭后靠谷歌找医院</a> [21] <font color='grey'>- 05时50分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">2</td>
+                <td class="percentage">0.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Qwen%E5%92%8CMuse%E5%B1%8E%E5%B1%B1%E8%AE%BA%E5%89%91" target="_blank" class="news-link">Qwen和Muse屎山论剑</a> [18] <font color='grey'>- 05时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3174622" target="_blank" class="news-link">纳斯达克金龙中国指数收涨0.31%，报5631.32点，连续第二个交易日反弹。 热门中概股里，万国数据初步收涨5.6%，阿特斯太阳能涨3.2%，禾赛涨2.1%，蔚来、小鹏、百胜中国、新东方至少涨约1%，拼多多涨0.5%，小米涨0.2%，百度大致收平，网易、腾讯跌0.4%，阿里跌1.4%，日月光半导体跌1.6%。 ETF中，中概互联网指数ETF（KWEB）收跌0.08%，中国科技指数ETF（CQQQ）收跌0.04%。 MSCI新兴市场ex中国ETF（EMXC）收跌0.84%，XtrackersHarvest中证50（ASHS）收跌0.16%，德银嘉实沪深300指数ETF（ASHR）收平。</a> [27]</div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">0.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=49983825" target="_blank" class="news-link">Tumbler Ridge shooter&#x27;s ChatGPT use &quot;more disturbing&quot; than known: reporter</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
