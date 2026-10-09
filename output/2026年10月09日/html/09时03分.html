@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 351</p><p>生成时间: 2026-10-09 09:03:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">37</td>
+                <td class="percentage">10.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50014150" target="_blank" class="news-link">Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3783173" target="_blank" class="news-link">OpenAI营收逊色重创AI股，标普、纳指两连跌，芯片指数跌超3%，原油一度涨逾5%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5321654" target="_blank" class="news-link">FAST RETAIL-DRS(06288.HK)今早复牌</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a11e1e-e44b-7ee0-a806-d4f6513fdaa1" target="_blank" class="news-link">Japan&#x27;s finance minister Katayama said a Japan version of the &quot;DOGE initiative&quot; is crucial for the Sanae Takaichi cabinet to pursue growth-promoting budgets while maintaining fiscal sustainability.</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50013902" target="_blank" class="news-link">OpenAI, the Partition Principle, and Mathematics</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3782757" target="_blank" class="news-link">人工智能时代，电信运营商是多了一条增长曲线，还是徒增了一轮资本开支？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2499956" target="_blank" class="news-link">“AI鬼故事”再现？OpenAI营收低于此前报道 AI概念股纷纷跳水</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/010/777.htm" target="_blank" class="news-link">新思科技拟寻求与中国 AI 实验室合作，在华加速芯片设计</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50011999" target="_blank" class="news-link">AI-ready biological data: $1.8B global commitment</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a11e16-c767-7ee0-a806-bd7554960844" target="_blank" class="news-link">Japan&#x27;s government said it will restart spending reviews and broaden scrutiny of public funds and subsidies.</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2499973" target="_blank" class="news-link">美股收盘：OpenAI年化营收低于此前报道 AI概念股承压 纳指跌逾1%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4314389_204_1" target="_blank" class="news-link">新AI模型在视频对话中的表现几可乱真。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3783220" target="_blank" class="news-link">相差200亿！OpenAI营收被爆巨大预期差，AI板块遭重创，甲骨文跌逾5%，应用光电跌超10%</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3175924" target="_blank" class="news-link">在遭遇舆论反弹之际，人工智能监控初创公司Flock Safety将裁员数百人</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3783173" target="_blank" class="news-link">OpenAI营收逊色重创AI股，标普、纳指两连跌，芯片指数跌超3%，原油一度涨逾5%</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3175923" target="_blank" class="news-link">软银股价下跌逾6%，受OpenAI营收担忧影响。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/010/769.htm" target="_blank" class="news-link">聊天机器人怂恿用户自残、挨饿，Character.AI 遭肯塔基州指控“产品存在缺陷”</a> [11] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7694435893230177835/" target="_blank" class="news-link">美股收盘：纳指跌逾1% AI概念股承压</a> [12] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/010/768.htm" target="_blank" class="news-link">OpenAI 推出 GPT-6.1 Sol Ultrafast 版：6 倍价格、最高 8 倍速度</a> [12] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50007993" target="_blank" class="news-link">Show HN: Jevman – AI decision models play Pac-Man</a> [12] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3783224" target="_blank" class="news-link">英伟达支持的Firmus取消IPO，AI数据中心融资遇冷</a> [13] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4314366_1_1" target="_blank" class="news-link">据CNN：OpenAI周四表示，伊朗的特工利用OpenAI模型和虚假身份，在多家美国媒体上发布批评美国对伊战争的新闻报道。</a> [13] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a11df4-9b2c-7ee0-a806-79045f108f29" target="_blank" class="news-link">People familiar with the matter said Flock Safety will cut hundreds of jobs as its AI surveillance cameras face growing opposition.</a> [14] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3783220" target="_blank" class="news-link">相差200亿！OpenAI营收被爆巨大预期差，AI板块遭重创，甲骨文跌逾5%，应用光电跌超10%</a> [15] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a11de5-756c-7ee0-a806-6b84c7d6aa92" target="_blank" class="news-link">Trump says US will not strike Iran before midterms; analyst warns risk of renewed US‑Iran hostilities remains</a> [16] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/010/763.htm" target="_blank" class="news-link">阿里巴巴蔡崇信：五年后 AI 将如今天的互联网，融入社会的每个环节</a> [17] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/010/760.htm" target="_blank" class="news-link">3 名遭解雇 OpenAI 研究员发公开信，称公司做法或引发“寒蝉效应”</a> [20] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261009075847065800" target="_blank" class="news-link">消息人士：Flock Safety将裁减数百个职位，因为其人工智能监控摄像头面临越来越多的反对声音。</a> [21] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/010/759.htm" target="_blank" class="news-link">Anthropic 修订使用政策，首次禁止用户虐待 Claude AI 模型</a> [21] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a11dd2-6d33-7ee0-a806-3a6f39046e7c" target="_blank" class="news-link">UK retailers report falling footfall ahead of key shopping season</a> [22] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3175911" target="_blank" class="news-link">新加坡总理黄循财警告AI科技股涨势终将迎来调整</a> [22] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3175910" target="_blank" class="news-link">英伟达计划投资AI服务器芯片开发商d-Matrix</a> [23] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/010/754.htm" target="_blank" class="news-link">Meta 首席 AI 官汪滔：不要指望 Muse 会自动帮你赚 1 万美元</a> [25] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a11dbf-d638-7ee0-a806-1debc0d14d00" target="_blank" class="news-link">Former OpenAI safety researchers say abrupt firings will have &#x27;chilling effect&#x27; on company culture</a> [26] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a11d8d-2866-7ee0-a806-0f969765b30d" target="_blank" class="news-link">Australian AI infrastructure firm Firmus withdraws planned IPO.</a> [28] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/010/751.htm" target="_blank" class="news-link">OpenAI 年化营收被曝接近 500 亿美元，比预期少了约 200 亿</a> [28] <font color='grey'>- 09时03分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a11d8b-a2aa-7ee0-a806-0525457983e6" target="_blank" class="news-link">Sources say Southwest Airlines is considering Boeing 787s to expand its international long-haul route network.</a> [29] <font color='grey'>- 09时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/010/780.htm" target="_blank" class="news-link">字节 Seed 团队发现 DeepSeek“抽风”原因，长上下文可能性能漂移</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
