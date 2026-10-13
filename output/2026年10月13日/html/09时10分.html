@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 368</p><p>生成时间: 2026-10-13 09:10:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">42</td>
+                <td class="percentage">11.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3177548" target="_blank" class="news-link">摩根大通和高盛降低对AI云初创公司Volta 50亿美元贷款交易的风险敞口</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/charts/41960010" target="_blank" class="news-link">“重置大神”Tibo：就在一年内，AI将让人不再盯着手机屏幕</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/156.htm" target="_blank" class="news-link">北京警方通报：男子用 AI 制作虚假截图、标注贩毒人员车辆为某品牌，被采取刑事强制措施</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1248259" target="_blank" class="news-link">现在 AI 是不是逐渐能取代很多高水平程序员了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [ProductHunt] <a href="https://www.producthunt.com/products/nestd-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29" target="_blank" class="news-link">nestd.ai</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2092937311851902232" target="_blank" class="news-link">陶哲轩的「黑盒 AI 治癌药」思想实验引发争议，如何看待这一讨论？人类需要完全理解科学研究的过程吗？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202610/1383190.html" target="_blank" class="news-link">李强：中国愿同越南推动AI领域合作不断提质增效</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3177544" target="_blank" class="news-link">腾讯启动50亿美元债券发行，为AI支出募资</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50064318" target="_blank" class="news-link">GPT-6 Astra Helped Me Jailbreak My Kindle</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1248255" target="_blank" class="news-link">AI 白板课堂， ai 讲课玩法，求体验</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a132b8-5a66-7ee0-a845-eb6416c891de" target="_blank" class="news-link">Cha Bai Dao (02555.HK) will suspend trading on the Hong Kong market from 09:00 local time on Oct. 13.</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3783487" target="_blank" class="news-link">英特尔和博通CEO同日警告：资本已成AI最大瓶颈，ROI比芯片更短缺！马斯克回应：在赌场就别哭</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a132b3-443d-7ee0-a845-e4fe7ef2fc25" target="_blank" class="news-link">Reserve Bank of Australia meeting minutes said inf faces multiple upside risks, with domestic capacity pressures possibly broader than expected and international developments adding to those risks.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/149.htm" target="_blank" class="news-link">3 个月、超 5000 亿词元：AI 重建 2009 年《现代战争 2》源代码，83% 与原版逐字节匹配</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3177540" target="_blank" class="news-link">印度AI初创公司Sarvam寻求在新一轮融资中筹集2.5亿至3亿美元。 Sarvam正洽谈以30亿美元估值进行最高达3亿美元的新一轮融资。（印度经济时报）</a> <font color='red'><strong>[6]</strong></font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50063427" target="_blank" class="news-link">AI is a tool and using it well takes skill</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a132b2-6df8-7ee0-a845-d26160d434cc" target="_blank" class="news-link">Reserve Bank of Australia minutes said overseas monetary policy tightening could indirectly ease Australian financial conditions by prompting AUD depreciation.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50063365" target="_blank" class="news-link">Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2502803" target="_blank" class="news-link">Meta打出AI翻身牌：新模型并肩行业巨头 暗示接下来还要加速</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34235226" target="_blank" class="news-link">王兴兴：过去十几年犯的最大错误是不够相信AI，具身智能临界点最快一两年内到来</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a132b0-ba69-7ee0-a845-ba7c054998d2" target="_blank" class="news-link">Reserve Bank of Australia minutes: Board members said employment data should be treated cautiously given changes to the survey methodology.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/144.htm" target="_blank" class="news-link">英特尔 CEO 陈立武：未来两到三年 AI 硬件将持续短缺</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a132b0-1441-7ee0-a845-b46c72f84634" target="_blank" class="news-link">Reserve Bank of Australia minutes said Australia is showing signs of technology-sector price pressures tied to the AI boom.</a> [11] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E6%9B%9Daijing%E7%88%B6%E6%AF%8D%E6%98%AF%E8%80%81%E8%B5%96&amp;t=31&amp;band_rank=11&amp;Refer=top" target="_blank" class="news-link">曝aijing父母是老赖</a> [11] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a132af-f8bf-7ee0-a845-a96582762e30" target="_blank" class="news-link">Reserve Bank of Australia minutes: If Australian interest rates are not raised, a rise in global neutral rates could put downward pressure on the Australian dollar.</a> [12] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a132af-ad4a-7ee0-a845-a612ba8c512d" target="_blank" class="news-link">Reserve Bank of Australia minutes said liaison contacts show broad domestic cost pressures and rising unit labour costs. Some indicators suggest financial conditions are only mildly restrictive.</a> [13] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50060269" target="_blank" class="news-link">&#x27;AI&#x27; Is Not a Tool by Rich Hickey</a> [14] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a132ae-761d-7ee0-a845-967df4de145b" target="_blank" class="news-link">RESERVE BANK OF AUSTRALIA minutes: domestic consumption needs to be restrained for a period to allow inf to return to target.</a> [15] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/member/articles/3783476" target="_blank" class="news-link">10月13日会员早报：Meta周一发布新AI模型 法国数百家超市遭遇网络攻击</a> [16] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/138.htm" target="_blank" class="news-link">Meta 发布 Muse Wonder 系列旗舰 AI 模型，对标 Anthropic 与 OpenAI</a> [16] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a132ad-b5d8-7ee0-a845-863066fe0116" target="_blank" class="news-link">RESERVE BANK OF AUSTRALIA minutes said the board discussed upside risks to inflation and factors that may keep inflation elevated; some of those risks have emerged or been building since August.</a> [17] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3783473" target="_blank" class="news-link">重塑AI工厂互联格局：英伟达与思科推出首款单通道400Gb/s可插拔光模块</a> [17] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261013083559335800" target="_blank" class="news-link">澳洲联储会议纪要：澳大利亚出现与人工智能热潮相关的技术价格压力迹象。</a> [18] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/136.htm" target="_blank" class="news-link">消息称 Epic 为迪士尼打造的游戏推迟上线，全面改用 AI 开发</a> [18] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a132ad-203e-7ee0-a845-738f61d4fc9b" target="_blank" class="news-link">Reserve Bank of Australia minutes said the board &quot;briefly&quot; considered holding the cash rate unchanged, citing recent falls in house prices.</a> [19] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/134.htm" target="_blank" class="news-link">应用材料 CEO 迪克森：依托 AI 提效，未来数年营收有望翻倍，但员工数量不会同步翻倍</a> [20] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3177522" target="_blank" class="news-link">入口之争转向合作共建，品牌厂商AI手机发展路线逐渐清晰</a> [22] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3177517" target="_blank" class="news-link">英特尔、博通CEO警告：资金紧张可能成为AI发展的最大瓶颈</a> [25] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3177516" target="_blank" class="news-link">《纽约时报》、《经济学人》等出版商加入联盟，旨在遏制未经授权使用人工智能的行为</a> [26] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a1329b-8283-7ee0-a845-2341b0dbc932" target="_blank" class="news-link">Japan wholesale inflation remains elevated, sustaining Bank of Japan rate‑hike expectations</a> [29] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [掘金] <a href="https://juejin.cn/post/7695553701473943606" target="_blank" class="news-link">苏格拉底式提问法，也许是AI时代最稀缺的能力</a> [29] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a13299-23a5-7ee0-a845-1b09e25dd747" target="_blank" class="news-link">Emirates flight to Dubai returns to Adelaide after mechanical fault</a> [30] <font color='grey'>- 09时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">0.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/132.htm" target="_blank" class="news-link">Anthropic 斥资 1 亿美元培养前沿部署工程师，聚焦五大人才特质</a> [22] <font color='grey'>- 09时10分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50049588" target="_blank" class="news-link">Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p</a> [26] <font color='grey'>- 09时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.27%</td>
+                <td class="titles"><div class='new-title'>🆕 [IT之家] <a href="https://www.ithome.com/1/012/141.htm" target="_blank" class="news-link">IT早报 1013：江淮汽车否认尊界 SUV 将给赛力斯生产；华为注册“星芒”商标涵盖手机等类目；华为折叠屏手机累计发货量破 2000 万台；5999 元起一加 16 发布...</a> [13] <font color='grey'>- 09时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
