@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 216</p><p>生成时间: 2026-10-14 05:27:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">37</td>
+                <td class="percentage">17.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a13713-2466-7ee0-a862-9203322e3d0f" target="_blank" class="news-link">Iran&#x27;s foreign ministry said Foreign Minister Araghchi held a phone call with Oman&#x27;s foreign minister to discuss recent regional developments, including Yemen, and to explore paths to regional peace and stability.</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50077703" target="_blank" class="news-link">OpenAI finds recording device in one of their offices</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3783561" target="_blank" class="news-link">Siri AI联动，苹果押注智能家居新入口！首款显示屏“大脑”HomeView登场，家居配件出“全家桶”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50077619" target="_blank" class="news-link">Show HN: Parsimony – an open-source benchmark for how much code AI models add</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [V2EX] <a href="https://www.v2ex.com/t/1248544" target="_blank" class="news-link">这年头谁还没个 AI 日报</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a1370c-a11c-7ee0-a862-7b30f3346a28" target="_blank" class="news-link">Saudi national arrested after concealed recorder found in OpenAI meeting room</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261014045525020800" target="_blank" class="news-link">一沙特籍员工因涉嫌在OpenAI会议室藏匿录音设备被捕</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [卫星通讯社] <a href="https://sputniknews.cn/20261014/1073603557.html" target="_blank" class="news-link">中国作家天下归元：AI可以作为器 但不能将其作为写作的魂</a> <font color='red'><strong>[5]</strong></font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a13708-2a0a-7ee0-a862-757d7e9dfac1" target="_blank" class="news-link">Saudi civil defense said the danger alert for Wadi ad-Dawasir governorate in Riyadh province has been lifted.</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3783558" target="_blank" class="news-link">AI交易逻辑生变！从日韩到美国，全球芯片股惨跌，明星IPO搁浅、长鑫技术突破接连敲警钟</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50076503" target="_blank" class="news-link">Zero to Calc in Six Days: Inside XBOW&#x27;s Chrome Full Chain</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3178207" target="_blank" class="news-link">一名沙特公民因涉嫌在OpenAI会议室藏匿录音设备被捕</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a13706-75e4-7ee0-a862-652faf83ce43" target="_blank" class="news-link">Collins said the Federal Reserve&#x27;s economic models will fully account for government debt levels.</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a13706-3392-7ee0-a862-5dda02cead26" target="_blank" class="news-link">Collins said the Fed will not reconsider its 2% inf target.</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a13703-f980-7ee0-a862-537273ad3e02" target="_blank" class="news-link">U.S. Department of Justice said a Saudi national was arrested on suspicion of secretly installing recording devices at a San Francisco company that works for OpenAI.</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3178202" target="_blank" class="news-link">新兴市场股市创7月份以来最差单日表现，投资者抛售韩国等地的AI概念股。 明晟公司MSCI新兴市场股票指数跌2.2%，发展中国家外汇指数跌0.3%。</a> <font color='red'><strong>[9]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261014044602483800" target="_blank" class="news-link">美国司法部：一名沙特公民因涉嫌在旧金山一家超级智能公司（为OpenAI）秘密安装录音设备而被逮捕。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a13703-d03d-7ee0-a862-4a7480b959a5" target="_blank" class="news-link">CENTCOM said the IRGC naval commander today claimed the Strait of Hormuz is under Revolutionary Guard control and that any US warship approaching would be &quot;sunk&quot;. CENTCOM said the IRGC has no navy and that US forces and regional partners control the strait. Yesterday the US military assisted Gulf partners in transiting more than 19 mln barrels of crude through the Strait of Hormuz.</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34242092" target="_blank" class="news-link">人工智能该加速还是踩刹车？读懂AI安全争论背后的“六大派”立场</a> [11] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2503513" target="_blank" class="news-link">梁文锋，出手投资腾讯前科学家初创企业Winverse AI ？</a> [12] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50073221" target="_blank" class="news-link">I posted to HN, and then my website was flooded with AI bot traffic</a> [13] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a136fa-51e0-7ee0-a862-2e4ee9fa4e40" target="_blank" class="news-link">Fed&#x27;s COLLINS said officials are well aware that higher interest rates could pose a range of challenges.</a> [14] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a136f6-6a86-7ee0-a862-22a3db0a6e15" target="_blank" class="news-link">Saudi-led coalition said it intercepted and destroyed a drone in the Riyadh area.</a> [15] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50072120" target="_blank" class="news-link">How to engineer an AI harness for game development</a> [17] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a136f2-f1b9-7ee0-a862-0e58a7efe640" target="_blank" class="news-link">Fed&#x27;s COLLINS said economic uncertainty has increased.</a> [18] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a136f1-f6bc-7ee0-a862-020c431f0f8b" target="_blank" class="news-link">Fed&#x27;s Collins said policymakers should assess the economy in aggregate when considering the future path of interest-rate policy.</a> [19] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a136f1-b671-7ee0-a861-ff53beb92f43" target="_blank" class="news-link">Ukraine President Zelenskiy said intelligence indicates Russia is preparing new missile launches and that Russia does not consider itself bound to comply with earlier demands from the US president.</a> [20] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a136ee-16f5-7ee0-a861-e86fc160ea30" target="_blank" class="news-link">Bank of America fined $1.2bn by US Treasury for AML, sanctions failures</a> [22] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=AI%E6%89%B9%E9%87%8F%E9%80%A0%E6%98%9F+%E7%9C%9F%E4%BA%BA%E6%98%8E%E6%98%9F%E8%BF%98%E6%9C%89%E4%BD%95%E4%BB%B7%E5%80%BC" target="_blank" class="news-link">AI批量造星 真人明星还有何价值</a> [23] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a136e6-badc-7ee0-a861-d286b2c9d090" target="_blank" class="news-link">Bank of England Governor Bailey said leveraged finance is much larger now than previously.</a> [25] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a136e5-c7eb-7ee0-a861-c95f83845ebf" target="_blank" class="news-link">Bank of England Governor BAILEY said the UK&#x27;s fiscal deficit is indeed trending lower.</a> [26] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a136e4-b3ef-7ee0-a861-c381ff5b6a7c" target="_blank" class="news-link">Bank of England Governor Bailey said he agreed with Fed Chair Kevin Warsh that forward guidance has been somewhat overdone.</a> [27] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3178180" target="_blank" class="news-link">OpenAI：我们发现一台精密录音设备被藏匿在公司一处办公室内。 我们已将此事移交联邦调查局（FBI）。 利用模型分析该设备及其来源，确认是一名特定员工在数日前放置了该设备。 目前没有迹象表明该人员不当访问或窃取模型权重、源代码或客户数据。</a> [27]</div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a136e4-7e1e-7ee0-a861-bf517a7915cf" target="_blank" class="news-link">Bank of England Governor Bailey said over-reliance on forward guidance has left the central bank unable to take unconditional policy measures.</a> [28] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a136e0-3444-7ee0-a861-b16b59bfe6be" target="_blank" class="news-link">Bank of England Governor Bailey said the longer the inflation shock persists, the harder it will be to tackle.</a> [29] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [MKT新闻] <a href="https://mktnews.net/flashDetail.html?id=01a136e0-267b-7ee0-a861-acfac061ec6d" target="_blank" class="news-link">Bank of England Governor Bailey said second-round inflation effects in the UK have so far remained relatively muted.</a> [30] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3178177" target="_blank" class="news-link">贝莱德和Baillie Gifford大举押注Icon 3D打印住宅</a> [30] <font color='grey'>- 05时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">2</td>
+                <td class="percentage">0.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50074869" target="_blank" class="news-link">Gemini 4 Argon for Robotics</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50073879" target="_blank" class="news-link">Gemini 4 Argon</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [Hacker News] <a href="https://news.ycombinator.com/item?id=50073633" target="_blank" class="news-link">Redesigning source control at Anthropic</a> [11] <font color='grey'>- 05时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 mate80</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/642925588.html" target="_blank" class="news-link">华为尊界V800测试结果出来了，大家怎么看？</a> [27] <font color='grey'>- 05时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">阿里 千问 qwen</td>
+                <td class="count">1</td>
+                <td class="percentage">0.46%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3178183" target="_blank" class="news-link">纳斯达克金龙中国指数收涨0.14%，报5739.81点。 热门中概股里，霸王茶姬初步收涨4.4%，理想涨3.2%，蔚来涨2.5%，小米涨2.3%，拼多多涨1.3%，阿里涨0.2%，万国数据、小马智行、奇富科技跌超2%，再鼎医药跌5.9%。 ETF中，中国科技指数ETF（CQQQ）收涨0.26%，中概互联网指数ETF（KWEB）收跌0.12%。 XtrackersHarvest中证50（ASHS）收涨0.36%，德银嘉实沪深300指数ETF（ASHR）收跌0.19%，MSCI新兴市场ex中国ETF（EMXC）收跌0.84%。</a> [24]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
